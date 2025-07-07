@@ -1,5 +1,9 @@
-# tts-mtg-importer
-Tabletop Simulator script to import MTG decks
+# tts-mtg-booster-creator
+Tabletop Simulator script to create MTG booster packs
+
+## Tools and Links
+* Card fetching based on https://github.com/omstrumpf/tts-mtg-importer
+* Booster pack ods based on https://github.com/taw/magic-sealed-data
 
 ## Features
 * Imports MTG decks from various deckbuilder websites into Tabletop Simulator
