@@ -681,6 +681,10 @@ local function fetchCardData(cards, onComplete, onError)
 
     local language = getLanguageCode()
 
+    local function cleanCollectorNum(collectorNum)
+        return string.match(collectorNum, "^%d+")
+    end
+
     for _, cardID in ipairs(cards) do
         incSem()
         queryCard(
@@ -709,10 +713,12 @@ local function fetchCardData(cards, onComplete, onError)
                 end
             end,
             function(e) -- onError
-                -- try again, forcing query-by-name.
+                -- try again, with collecter num cleaned.
+                log("query by name for cardid:" .. cardID.collectorNum)
+                cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
                 queryCard(
                     cardID,
-                    true,
+                    false,
                     false,
                     onQuerySuccess,
                     onQueryFailed
@@ -848,6 +854,7 @@ local function parseMTGALine(line)
     return name, count, setCode, collectorNum
 end
 
+
 local function queryDeckNotebook(_, onSuccess, onError)
     local bookContents = readNotebookForColor(playerColor)
 
@@ -887,6 +894,132 @@ local function queryDeckNotebook(_, onSuccess, onError)
                     i = i + 1
                 end
             end
+        end
+    end
+
+    onSuccess(cards, "")
+end
+
+local function pickWeighted(options)
+    local totalWeight = 0
+    for _, option in ipairs(options) do
+        totalWeight = totalWeight + option.weight
+    end
+
+    local roll = math.random() * totalWeight
+    local cumulative = 0
+    for _, option in ipairs(options) do
+        cumulative = cumulative + option.weight
+        if roll <= cumulative then
+            return option
+        end
+    end
+
+    return options[#options] -- fallback
+end
+
+
+local function pickCard(cardList)
+    local total = 0
+    for _, entry in ipairs(cardList) do
+        total = total + entry.weight
+    end
+
+    local r = math.random() * total
+    local cumulative = 0
+    for _, entry in ipairs(cardList) do
+        cumulative = cumulative + entry.weight
+        if r <= cumulative then
+            return entry.id
+        end
+    end
+
+    return cardList[#cardList].id -- fallback
+end
+
+local function drawCardsFromSheet(sheetData, count)
+    local selected = {}
+
+    -- Handle fixed sheets: draw all cards as listed, with exact quantities
+    if sheetData.fixed then
+        for cardId, quantity in pairs(sheetData.cards) do
+            for _ = 1, quantity do
+                table.insert(selected, cardId)
+            end
+        end
+        return selected
+    end
+
+    -- Regular random weighted draw
+    local cardList = {}
+    for id, weight in pairs(sheetData.cards) do
+        table.insert(cardList, {id = id, weight = weight})
+    end
+
+    local allowDuplicates = sheetData.allow_duplicates == true
+    local drawnSet = {}  -- tracks which cards we've already drawn
+
+    for _ = 1, count do
+        local pick
+        local attempts = 0
+
+        repeat
+            pick = pickCard(cardList)
+            attempts = attempts + 1
+        until allowDuplicates or not drawnSet[pick] or attempts > 50
+
+        if not allowDuplicates then
+            drawnSet[pick] = true
+        end
+
+        table.insert(selected, pick)
+    end
+
+    return selected
+end
+
+local function parseCardId(cardId)
+    -- Handles cases like: "tdm:98" or "tdm:98:foil"
+    local parts = {}
+    for part in string.gmatch(cardId, "([^:]+)") do
+        table.insert(parts, part)
+    end
+
+    local setCode = parts[1] or ""
+    local collectorNum = parts[2] or ""
+
+    return setCode, collectorNum
+end
+
+
+local function queryGeneratePack(_, onSuccess, onError)
+
+    local code = PackCode
+
+    local packInfo = MagicSealedMap[code]
+
+    if not packInfo then
+        print("Unknown pack code: " .. tostring(code))
+        lock = false
+        return
+    end
+
+    local boosterLayout = pickWeighted(packInfo.boosters)
+    local cards = {}
+
+    for sheetName, count in pairs(boosterLayout.sheets) do
+        local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
+        for _, rawId in ipairs(drawn) do
+            local setCode, collectorNum = parseCardId(rawId)
+
+            table.insert(cards, {
+                count = 1,
+                name = "",
+                setCode = setCode,
+                collectorNum = collectorNum,
+                sideboard = false,
+                commander = false
+            })
         end
     end
 
@@ -1263,12 +1396,44 @@ local function queryDeckDeckstats(deckURL, onSuccess, onError)
     end)
 end
 
+
+function generatePacks()
+    if lock then
+        log("Error: Pack Generation started while importer locked.")
+    end
+
+
+    lock = true
+
+    printToAll("Starting pack generation...")
+    queryDeckFunc = queryGeneratePack
+    deckID = nil
+
+
+    queryDeckFunc(deckID,
+        function(cardIDs, deckName)
+            loadDeck(cardIDs, deckName,
+                function()
+                    printToAll("Deck import complete!")
+                    lock = false
+                end,
+                onError
+            )
+        end,
+        onError
+    )
+
+    return 1
+
+
+end
+
 function importDeck()
     if lock then
         log("Error: Deck import started while importer locked.")
     end
 
-    local deckURL = getDeckInputValue()
+    local packAmount = getPackAmountValue()
 
     local deckID, queryDeckFunc
     if deckSource == DECK_SOURCE_URL then
@@ -1329,51 +1494,151 @@ function importDeck()
     return 1
 end
 
+MagicSealedData = nil
+
+--Load Booster stats
+local function queryMagicSealedData()
+    local url = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
+    WebRequest.get(url, function(webReturn)
+        if webReturn.error then
+            onError("Web request error: " .. webReturn.error)
+            return
+        elseif webReturn.is_error then
+            onError("Web request error: unknown")
+            return
+        elseif string.len(webReturn.text) == 0 then
+            onError("Web request error: empty response")
+            return
+        end
+
+        local success, data = pcall(function() return jsondecode(webReturn.text) end)
+        if not success then
+            onError("Failed to parse JSON response from Magic Sealed Data.")
+            return
+        elseif not data then
+            onError("Empty response from Magic Sealed Data.")
+            return
+        end
+
+        -- Store in global variable
+        MagicSealedData = data
+        MagicSealedMap = {}
+
+        -- Index by code for quick lookup
+        for _, entry in ipairs(data) do
+            MagicSealedMap[entry.code] = entry
+        end
+
+        print("Magic Sealed Data loaded successfully.")
+
+    end)
+    
+end
+
+local function waitUntilDataReady(callback)
+    Wait.condition(
+        function() callback(MagicSealedData) end,
+        function() return MagicSealedData ~= nil end
+    )
+end
+
+
+local function buildDropdownFromData()
+    local optionsXml = ""
+
+    for _, entry in ipairs(MagicSealedData) do
+        -- print("Adding option:", entry.name, "with code:", entry.code)
+        optionsXml = optionsXml .. string.format(
+            '<Option value="%s">%s</Option>',
+            entry.code,   -- Used for selection
+            entry.name    -- Displayed in dropdown
+        )
+    end
+
+    local old_xml = self.UI.getXml()
+
+    local xml = string.format([[
+        <Panel id="MTGPackGeneratorSelector" position="80 -120 -10" rotation="180 180 0" width="300" height="300">
+            <Dropdown id="dynamicDropdown" position="70 -20 0" onValueChanged="onDropdownChanged" width="450" height="30" scrollSensitivity="30">
+                %s
+            </Dropdown>
+        </Panel>
+    ]], optionsXml)
+
+    self.UI.setXml(xml .. old_xml)
+end
+
+function onDropdownChanged(player, value, id)
+    print("Dropdown changed. Received value:", value)
+    -- Map name (label) back to code
+    for _, entry in ipairs(MagicSealedData) do
+        if entry.name == value then
+            PackCode = entry.code
+            -- print("Resolved PackCode:", PackCode)
+            return
+        end
+    end
+end
+
+
+function onLoadPacksButton(_,pc,_)
+    queryMagicSealedData()
+    waitUntilDataReady(function(data)
+        self.removeButton(0)
+        buildDropdownFromData()
+    end)
+end
+
+
 ------ UI
 local function drawUI()
     local _inputs = self.getInputs()
-    local deckURL = ""
+    local packAmount = 6
 
     if _inputs ~= nil then
         for i, input in pairs(self.getInputs()) do
             if input.label == "Enter deck URL, or load from Notebook." then
-                deckURL = input.value
+                packAmount = input.value
             end
         end
     end
     self.clearInputs()
     self.clearButtons()
-    self.createInput({
-        input_function = "onLoadDeckInput",
-        function_owner = self,
-        label          = "Enter deck URL, or load from Notebook.",
-        alignment      = 2,
-        position       = {x=0, y=0.1, z=0.78},
-        width          = 2000,
-        height         = 100,
-        font_size      = 60,
-        validation     = 1,
-        value = deckURL,
-    })
+    
+    if MagicSealedData == nil then
+        self.createButton({
+            click_function = "onLoadPacksButton",
+            function_owner = self,
+            label          = "Load Booster List",
+            position       = {-1, 0.1, -1.15},
+            rotation       = {0, 0, 0},
+            width          = 850,
+            height         = 160,
+            font_size      = 80,
+            color          = {0.5, 0.5, 0.5},
+            font_color     = {r=1, b=1, g=1},
+            tooltip        = "Click to load packs from the Internet (Freezes the Game for a Minute!)",
+        })
+    end
 
-    self.createButton({
-        click_function = "onLoadDeckURLButton",
+    self.createInput({
+        input_function = "onPackAmountInput",
         function_owner = self,
-        label          = "Load Deck (URL)",
+        label          = "Enter the Amount of Packs",
+        alignment      = 2,
         position       = {-1, 0.1, 1.15},
-        rotation       = {0, 0, 0},
         width          = 850,
         height         = 160,
-        font_size      = 80,
-        color          = {0.5, 0.5, 0.5},
-        font_color     = {r=1, b=1, g=1},
-        tooltip        = "Click to load deck from URL",
+        font_size      = 100,
+        validation     = 2,
+        value = packAmount,
     })
 
+
     self.createButton({
-        click_function = "onLoadDeckNotebookButton",
+        click_function = "onGeneratePackButton",
         function_owner = self,
-        label          = "Load Deck (Notebook)",
+        label          = "Generate Packs",
         position       = {1, 0.1, 1.15},
         rotation       = {0, 0, 0},
         width          = 850,
@@ -1381,7 +1646,7 @@ local function drawUI()
         font_size      = 80,
         color          = {0.5, 0.5, 0.5},
         font_color     = {r=1, b=1, g=1},
-        tooltip        = "Click to load deck from notebook",
+        tooltip        = "Click to generate your packs",
     })
 
     self.createButton({
@@ -1405,17 +1670,21 @@ local function drawUI()
     end
 end
 
-function getDeckInputValue()
+function getPackAmountValue()
     for i, input in pairs(self.getInputs()) do
-        if input.label == "Enter deck URL, or load from Notebook." then
-            return trim(input.value)
+        if input.label == "Enter the Amount of Packs" then
+            return input.value
         end
     end
 
     return ""
 end
 
-function onLoadDeckInput(_, _, _) end
+function onPackAmountInput(_, _, _) end
+
+function onOpenPackSelectorButton(_, pc, _)
+
+end
 
 function onLoadDeckURLButton(_, pc, _)
     if lock then
@@ -1429,16 +1698,14 @@ function onLoadDeckURLButton(_, pc, _)
     startLuaCoroutine(self, "importDeck")
 end
 
-function onLoadDeckNotebookButton(_, pc, _)
+function onGeneratePackButton(_, pc, _)
     if lock then
-        printToColor("Another deck is currently being imported. Please wait for that to finish.", pc)
+        printToColor("Another pack is currently generated. Please wait for that to finish.", pc)
         return
     end
 
     playerColor = pc
-    deckSource = DECK_SOURCE_NOTEBOOK
-
-    startLuaCoroutine(self, "importDeck")
+    startLuaCoroutine(self, "generatePacks")
 end
 
 function onToggleAdvancedButton(_, _, _)
@@ -1494,7 +1761,7 @@ end
 
 ------ TTS CALLBACKS
 function onLoad()
-    self.setName("MTG Deck Loader")
+    self.setName("MTG Booster Generator")
 
     self.setDescription(
     [[
@@ -1508,6 +1775,8 @@ Currently supported sites:
  - moxfield.com
  - deckstats.net
 ]])
+
+    math.randomseed(os.time())
 
     drawUI()
 end
