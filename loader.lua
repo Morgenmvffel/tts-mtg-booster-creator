@@ -321,7 +321,71 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     )
 end
 
+local function sortCardsByRarity(cards)
+    local rarityOrder = {
+        "basic",
+        "common",
+        "special_guest",
+        "uncommon",
+        "showcase_cu",
+        "retro_cu",
+        "wildcard",
+        "foil_showcase_cu",
+        "rare_mythic",
+        "foil_rare_mythic",
+        "showcase_rare_mythic",
+        "showcase_commander",
+        "booster_fun",
+        "foil_booster_fun",
+        "foil_showcase_rare_mythic",
+        "rare_mythic_with_boosterfun",
+        "rare_mythic_with_showcase",
+        "rare_mythic_showcase",
+        "foil",
+        "non_foil_land",
+        "foil_basic",
+        "foil_land",
+        "land",
+    }
+
+        local rarityScore = {}
+    for i, name in ipairs(rarityOrder) do
+        rarityScore[name] = i
+    end
+
+    local function getCardRarityRank(card)
+        local sheet = (card.sheetName or ""):lower()
+
+        -- Exact match
+        if rarityScore[sheet] then
+            return rarityScore[sheet], sheet
+        end
+
+        -- Fallback keywords
+        if sheet:find("uncommon") then return rarityScore["uncommon"] or 4, sheet end
+        if sheet:find("common") then return rarityScore["common"] or 2, sheet end
+        if sheet:find("rare") or sheet:find("mythic") then
+            return rarityScore["rare_mythic"] or 9, sheet
+        end
+
+        return 9999, sheet -- Unknown: lowest rarity, sorted alphabetically
+    end
+
+    table.sort(cards, function(a, b)
+        local rankA, nameA = getCardRarityRank(a)
+        local rankB, nameB = getCardRarityRank(b)
+
+        if rankA ~= rankB then
+            return rankA > rankB -- descending rarity
+        else
+            return nameA < nameB -- ascending alphabetically for unknowns
+        end
+    end)
+end
+
 local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawned, onError)
+    -- Sort cards alphabetically by sheetName (fallback to name if missing)
+    sortCardsByRarity(cards)
     local containedObjects = {}
 
     for _, card in ipairs(cards) do
@@ -993,7 +1057,8 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
                     collectorNum = collectorNum,
                     sideboard = false,
                     commander = false,
-                    packIndex = packIndex
+                    packIndex = packIndex,
+                    sheetName = sheetName
                 })
             end
         end
@@ -1323,12 +1388,12 @@ function onLoad()
     self.setName("MTG Booster Generator")
 
     self.setDescription(
-    [[
-Click on Load Booster List,
-Select the Booster you want.
-Type in the number of Boosters and click
-Generate Packs to get your Boosters.
-]])
+        [[
+    Click on Load Booster List,
+    Select the Booster you want.
+    Type in the number of Boosters and click
+    Generate Packs to get your Boosters.
+    ]])
 
     math.randomseed(os.time())
 
