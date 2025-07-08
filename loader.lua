@@ -1,31 +1,13 @@
 #include json_parser
 
 ------ CONSTANTS
-TAPPEDOUT_BASE_URL = "https://tappedout.net/mtg-decks/"
-TAPPEDOUT_URL_SUFFIX = "/"
-TAPPEDOUT_URL_MATCH = "tappedout%.net"
-
-ARCHIDEKT_BASE_URL = "https://archidekt.com/api/decks/"
-ARCHIDEKT_URL_SUFFIX = "/?format=json" -- This used to be "/small/?format=json", which loaded faster, but that endpoint doesn't work properly as of 2024-05.
-ARCHIDEKT_URL_MATCH = "archidekt%.com"
-
-GOLDFISH_URL_MATCH = "mtggoldfish%.com"
-
-MOXFIELD_BASE_URL = "https://api.moxfield.com/v2/decks/all/"
-MOXFIELD_URL_SUFFIX = "/"
-MOXFIELD_URL_MATCH = "moxfield%.com"
-
-DECKSTATS_URL_SUFFIX = "?include_comments=1&export_mtgarena=1"
-DECKSTATS_URL_MATCH = "deckstats%.net"
-
 SCRYFALL_ID_BASE_URL = "https://api.scryfall.com/cards/"
 SCRYFALL_MULTIVERSE_BASE_URL = "https://api.scryfall.com/cards/multiverse/"
 SCRYFALL_SET_NUM_BASE_URL = "https://api.scryfall.com/cards/"
 SCRYFALL_SEARCH_BASE_URL = "https://api.scryfall.com/cards/search/?q="
 SCRYFALL_NAME_BASE_URL = "https://api.scryfall.com/cards/named/?exact="
 
-DECK_SOURCE_URL = "url"
-DECK_SOURCE_NOTEBOOK = "notebook"
+PACK_ODDS_URL = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
 
 MAINDECK_POSITION_OFFSET = {0.0, 0.2, 0.1286}
 MAYBEBOARD_POSITION_OFFSET = {1.47, 0.2, 0.1286}
@@ -95,34 +77,6 @@ local function trim(s)
     return n and s:match(".*%S", n) or ""
 end
 
-local function iterateLines(s)
-    if not s or string.len(s) == 0 then
-        return ipairs({})
-    end
-
-    if s:sub(-1) ~= '\n' then
-        s = s .. '\n'
-    end
-
-    local pos = 1
-    return function ()
-        if not pos then return nil end
-
-        local p1, p2 = s:find("\r?\n", pos)
-
-        local line
-        if p1 then
-            line = s:sub(pos, p1 - 1)
-            pos = p2 + 1
-        else
-            line = s:sub(pos)
-            pos = nil
-        end
-
-        return line
-    end
-end
-
 local function underline(s)
     if not s or string.len(s) == 0 then
         return ""
@@ -142,26 +96,6 @@ local function shallowCopyTable(t)
     end
 
     return {}
-end
-
-local function readNotebookForColor(playerColor)
-    for i, tab in ipairs(Notes.getNotebookTabs()) do
-        if tab.title == playerColor and tab.color == playerColor then
-            return tab.body
-        end
-    end
-
-    return nil
-end
-
-local function valInTable(table, v)
-    for _, value in ipairs(table) do
-        if value == v then
-            return true
-        end
-    end
-
-    return false
 end
 
 local function printErr(s)
@@ -826,80 +760,6 @@ local function loadDeck(cardIDs, deckName, onComplete, onError)
     end, onError)
 end
 
------- DECK BUILDER SCRAPING
-local function parseMTGALine(line)
-    -- Parse out card count if present
-    local count, countIndex = string.match(line, "^%s*(%d+)[x%*]?%s+()")
-    if count and countIndex then
-        line = string.sub(line, countIndex)
-    else
-        count = 1
-    end
-
-    local name, setCode, collectorNum = string.match(line, "([^%(%)]+) %(([%d%l%u]+)%) ([%d%l%u]+)")
-
-    if not name then
-        name, setCode = string.match(line, "([^%(%)]+) %(([%d%l%u]+)%)")
-    end
-
-    if not name then
-       name = string.match(line, "([^%(%)]+)")
-    end
-
-    -- MTGA format uses DAR for dominaria for some reason, which scryfall can't find.
-    if setCode == "DAR" then
-        setCode = "DOM"
-    end
-
-    return name, count, setCode, collectorNum
-end
-
-
-local function queryDeckNotebook(_, onSuccess, onError)
-    local bookContents = readNotebookForColor(playerColor)
-
-    if bookContents == nil then
-        onError("Notebook not found: " .. playerColor)
-        return
-    elseif string.len(bookContents) == 0 then
-        onError("Notebook is empty. Please paste your decklist into your notebook (" .. playerColor .. ").")
-        return
-    end
-
-    local cards = {}
-
-    local i = 1
-    local mode = "deck"
-    for line in iterateLines(bookContents) do
-        if string.len(line) > 0 then
-            if line == "Commander" then
-                mode = "commander"
-            elseif line == "Sideboard" then
-                mode = "sideboard"
-            elseif line == "Deck" then
-                mode = "deck"
-            else
-                local name, count, setCode, collectorNum = parseMTGALine(line)
-
-                if name then
-                    cards[i] = {
-                        count = count,
-                        name = name,
-                        setCode = setCode,
-                        collectorNum = collectorNum,
-                        sideboard = (mode == "sideboard"),
-                        commander = (mode == "commander")
-                    }
-
-                    i = i + 1
-                end
-            end
-        end
-    end
-
-    onSuccess(cards, "")
-end
-
 local function pickWeighted(options)
     local totalWeight = 0
     for _, option in ipairs(options) do
@@ -1026,377 +886,6 @@ local function queryGeneratePack(_, onSuccess, onError)
     onSuccess(cards, "")
 end
 
-local function parseDeckIDTappedout(s)
-    -- NOTE: need to do this in multiple parts because TTS uses an old version
-    -- of lua with hilariously sad pattern matching
-    local urlSuffix = s:match("tappedout%.net/mtg%-decks/(.*)")
-    if urlSuffix then
-        return urlSuffix:match("([^%s%?/$]*)")
-    else
-        return nil
-    end
-end
-
-local function queryDeckTappedout(slug, onSuccess, onError)
-    if not slug or string.len(slug) == 0 then
-        onError("Invalid tappedout deck slug: " .. slug)
-        return
-    end
-
-    local url = TAPPEDOUT_BASE_URL .. slug .. TAPPEDOUT_URL_SUFFIX
-
-    printInfo("Fetching decklist from tappedout...")
-
-    WebRequest.get(url .. "?fmt=multiverse", function(webReturn)
-        if webReturn.error then
-            if string.match(webReturn.error, "(404)") then
-                onError("Deck not found. Is it public?")
-            else
-                onError("Web request error: " .. webReturn.error)
-            end
-            return
-        elseif webReturn.is_error then
-            onError("Web request error: unknown")
-            return
-        elseif string.len(webReturn.text) == 0 then
-            onError("Web request error: empty response")
-            return
-        end
-
-        multiverseData = webReturn.text
-
-        WebRequest.get(url .. "?fmt=txt", function(webReturn)
-            if webReturn.error then
-                if string.match(webReturn.error, "(404)") then
-                    onError("Deck not found. Is it public?")
-                else
-                    onError("Web request error: " .. webReturn.error)
-                end
-                return
-            elseif webReturn.is_error then
-                onError("Web request error: unknown")
-                return
-            elseif string.len(webReturn.text) == 0 then
-                onError("Web request error: empty response")
-                return
-            end
-
-            txtData = webReturn.text
-
-            local cards = {}
-
-            local i = 1
-            local sb = false
-            for line in iterateLines(multiverseData) do
-                if string.len(line) > 0 then
-                    if line == "SB:" then
-                        sb = true
-                    else
-                        local count, multiverseID = string.match(line, "(%d+) (.*)")
-
-                        cards[i] = {
-                            count = count,
-                            multiverseID = multiverseID,
-                            sideboard = sb,
-                        }
-
-                        i = i + 1
-                    end
-                end
-            end
-
-            local i = 1
-            local sb = false
-            for line in iterateLines(txtData) do
-                if string.len(line) > 0 then
-                    if line == "Sideboard:" then
-                        sb = true
-                    else
-                        local _, name = string.match(line, "(%d+) (.+)")
-
-                        cards[i]['name'] = name
-
-                        i = i + 1
-                    end
-                end
-            end
-
-            onSuccess(cards, slug)
-        end)
-    end)
-end
-
-local function parseDeckIDArchidekt(s)
-    return s:match("archidekt%.com/decks/(%d*)")
-end
-
-local function queryDeckArchidekt(deckID, onSuccess, onError)
-    if not deckID or string.len(deckID) == 0 then
-        onError("Invalid archidekt deck: " .. deckID)
-        return
-    end
-
-    local url = ARCHIDEKT_BASE_URL .. deckID .. ARCHIDEKT_URL_SUFFIX
-
-    printInfo("Fetching decklist from archidekt...")
-
-    WebRequest.get(url, function(webReturn)
-        if webReturn.error then
-            if string.match(webReturn.error, "(404)") then
-                onError("Deck not found. Is it public?")
-            else
-                onError("Web request error: " .. webReturn.error)
-            end
-            return
-        elseif webReturn.is_error then
-            onError("Web request error: unknown")
-            return
-        elseif string.len(webReturn.text) == 0 then
-            onError("Web request error: empty response")
-            return
-        end
-
-        local success, data = pcall(function() return jsondecode(webReturn.text) end)
-
-        if not success then
-            onError("Failed to parse JSON response from archidekt.")
-            return
-        elseif not data then
-            onError("Empty response from archidekt.")
-            return
-        elseif not data.cards then
-            onError("Empty response from archidekt. Did you enter a valid deck URL?")
-            return
-        end
-
-        local deckName = data.name
-
-        local function isMaybeboard(card)
-            if card.categories and card.categories[1] then
-                local firstCategoryName = card.categories[1]
-
-                for _, category in ipairs(data.categories) do
-                    if category.name == firstCategoryName then
-                        if not category.includedInDeck then
-                            return true
-                        end
-                    end
-                end
-
-                return false
-            end
-        end
-
-        local function hasCategoryNamed(card, name)
-            if card.categories then
-                return valInTable(card.categories, name)
-            else
-                return false
-            end
-        end
-
-        local cards = {}
-
-        for i, card in ipairs(data.cards) do
-
-            if card and card.card then
-                cards[#cards+1] = {
-                    count = card.quantity,
-                    sideboard = hasCategoryNamed(card, "Sideboard"),
-                    maybeboard = isMaybeboard(card),
-                    commander = hasCategoryNamed(card, "Commander"),
-                    name = card.card.oracleCard.name,
-                    scryfallID = card.card.uid,
-                }
-            end
-        end
-
-        onSuccess(cards, deckName)
-    end)
-end
-
-local function parseDeckIDMoxfield(s)
-    local urlSuffix = s:match("moxfield%.com/decks/(.*)")
-    if urlSuffix then
-        return urlSuffix:match("([^%s%?/$]*)")
-    else
-        return nil
-    end
-end
-
-local function queryDeckMoxfield(deckID, onSuccess, onError)
-    if not deckID or string.len(deckID) == 0 then
-        onError("Invalid moxfield deck: " .. deckID)
-        return
-    end
-
-    local url = MOXFIELD_BASE_URL .. deckID .. MOXFIELD_URL_SUFFIX
-
-    printInfo("Fetching decklist from moxfield... this is a slow one please have patience :)")
-
-    WebRequest.get(url, function(webReturn)
-        if webReturn.error then
-            if string.match(webReturn.error, "(404)") then
-                onError("Deck not found. Is it public?")
-            else
-                onError("Web request error: " .. webReturn.error)
-            end
-            return
-        elseif webReturn.is_error then
-            onError("Web request error: unknown")
-            return
-        elseif string.len(webReturn.text) == 0 then
-            onError("Web request error: empty response")
-            return
-        end
-
-        local success, data = pcall(function() return jsondecode(webReturn.text) end)
-
-        if not success then
-            onError("Failed to parse JSON response from moxfield.")
-            return
-        elseif not data then
-            onError("Empty response from moxfield.")
-            return
-        elseif not data.name or not data.mainboard then
-            onError("Empty response from moxfield. Did you enter a valid deck URL?")
-            return
-        end
-
-        local deckName = data.name
-        local commanderIDs = {}
-        local cards = {}
-
-        for name, cardData in pairs(data.commanders or {}) do
-            if cardData.card then
-                commanderIDs[cardData.card.id] = true
-
-                table.insert(cards, {
-                    name = cardData.card.name,
-                    count = cardData.quantity,
-                    scryfallID = cardData.card.id,
-                    sideboard = false,
-                    commander = true,
-                })
-            end
-        end
-
-        for name, cardData in pairs(data.mainboard) do
-            if cardData.card and not commanderIDs[cardData.card.id] then
-                table.insert(cards, {
-                    name = cardData.card.name,
-                    count = cardData.quantity,
-                    scryfallID = cardData.card.id,
-                    sideboard = false,
-                    commander = false,
-                })
-            end
-        end
-
-        for name, cardData in pairs(data.sideboard or {}) do
-            if cardData.card and not commanderIDs[cardData.card.id] then
-                table.insert(cards, {
-                    name = cardData.card.name,
-                    count = cardData.quantity,
-                    scryfallID = cardData.card.id,
-                    sideboard = true,
-                    commander = false,
-                })
-            end
-        end
-
-        for name, cardData in pairs(data.maybeboard or {}) do
-            if cardData.card and not commanderIDs[cardData.card.id] then
-                table.insert(cards, {
-                    name = cardData.card.name,
-                    count = cardData.quantity,
-                    scryfallID = cardData.card.id,
-                    sideboard = false,
-                    maybeboard = true,
-                    commander = false,
-                })
-            end
-        end
-
-        onSuccess(cards, deckName)
-    end)
-end
-
-local function parseDeckIDDeckstats(s)
-    local deckURL = s:match("(deckstats%.net/decks/%d*/[^/]*)")
-    return deckURL
-end
-
-local function queryDeckDeckstats(deckURL, onSuccess, onError)
-    if not deckURL or string.len(deckURL) == 0 then
-        onError("Invalid deckstats URL: " .. deckURL)
-        return
-    end
-
-    local url = deckURL .. DECKSTATS_URL_SUFFIX
-
-    printInfo("Fetching decklist from deckstats...")
-
-    WebRequest.get(url, function(webReturn)
-        if webReturn.error then
-            if string.match(webReturn.error, "(404)") then
-                onError("Deck not found. Is it public?")
-            else
-                onError("Web request error: " .. webReturn.error)
-            end
-            return
-        elseif webReturn.is_error then
-            onError("Web request error: unknown")
-            return
-        elseif string.len(webReturn.text) == 0 then
-            onError("Web request error: empty response")
-            return
-        end
-
-        local name = deckURL:match("deckstats%.net/decks/%d*/%d*-([^/?]*)")
-
-        local cards = {}
-
-        local i = 1
-        local mode = "deck"
-        for line in iterateLines(webReturn.text) do
-            if string.len(line) == 0 then
-                mode = "sideboard"
-            else
-                local commentPos = line:find("#")
-                if commentPos then
-                    line = line:sub(1, commentPos)
-                end
-
-                local name, count, setCode, collectorNum = parseMTGALine(line)
-
-                if name then
-                    cards[i] = {
-                      count = count,
-                      name = name,
-                      setCode = setCode,
-                      collectorNum = collectorNum,
-                      sideboard = (mode == "sideboard"),
-                      commander = false
-                    }
-
-                    i = i + 1
-                end
-            end
-        end
-
-        -- This sucks... but the arena export format is the only one that gives
-        -- me full data on printings and this is the best way I've found to tell
-        -- if its a commander deck.
-        if #cards >= 90 then
-            cards[1].commander = true
-        end
-
-        onSuccess(cards, name)
-    end)
-end
-
-
 function generatePacks()
     if lock then
         log("Error: Pack Generation started while importer locked.")
@@ -1428,77 +917,11 @@ function generatePacks()
 
 end
 
-function importDeck()
-    if lock then
-        log("Error: Deck import started while importer locked.")
-    end
-
-    local packAmount = getPackAmountValue()
-
-    local deckID, queryDeckFunc
-    if deckSource == DECK_SOURCE_URL then
-        if string.len(deckURL) == 0 then
-            printInfo("Please enter a deck URL.")
-            return 1
-        end
-
-        if string.match(deckURL, TAPPEDOUT_URL_MATCH) then
-            queryDeckFunc = queryDeckTappedout
-            deckID = parseDeckIDTappedout(deckURL)
-        elseif string.match(deckURL, ARCHIDEKT_URL_MATCH) then
-            queryDeckFunc = queryDeckArchidekt
-            deckID = parseDeckIDArchidekt(deckURL)
-        elseif string.match(deckURL, GOLDFISH_URL_MATCH) then
-            printInfo("MTGGoldfish support is coming soon! In the meantime, please export to MTG Arena, and use notebook import.")
-            return 1
-        elseif string.match(deckURL, MOXFIELD_URL_MATCH) then
-            queryDeckFunc = queryDeckMoxfield
-            deckID = parseDeckIDMoxfield(deckURL)
-        elseif string.match(deckURL, DECKSTATS_URL_MATCH) then
-            queryDeckFunc = queryDeckDeckstats
-            deckID = parseDeckIDDeckstats(deckURL)
-        else
-            printInfo("Unknown deck site, sorry! Please export to MTG Arena and use notebook import.")
-            return 1
-        end
-    elseif deckSource == DECK_SOURCE_NOTEBOOK then
-        queryDeckFunc = queryDeckNotebook
-        deckID = nil
-    else
-        log("Error. Unknown deck source: " .. deckSource or "nil")
-        return 1
-    end
-
-    lock = true
-    printToAll("Starting deck import...")
-
-    local function onError(e)
-        printErr(e)
-        printToAll("Deck import failed.")
-        lock = false
-    end
-
-    queryDeckFunc(deckID,
-        function(cardIDs, deckName)
-            loadDeck(cardIDs, deckName,
-                function()
-                    printToAll("Deck import complete!")
-                    lock = false
-                end,
-                onError
-            )
-        end,
-        onError
-    )
-
-    return 1
-end
-
 MagicSealedData = nil
 
 --Load Booster stats
 local function queryMagicSealedData()
-    local url = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
+    local url = PACK_ODDS_URL
     WebRequest.get(url, function(webReturn)
         if webReturn.error then
             onError("Web request error: " .. webReturn.error)
@@ -1686,18 +1109,6 @@ function onOpenPackSelectorButton(_, pc, _)
 
 end
 
-function onLoadDeckURLButton(_, pc, _)
-    if lock then
-        printToColor("Another deck is currently being imported. Please wait for that to finish.", pc)
-        return
-    end
-
-    playerColor = pc
-    deckSource = DECK_SOURCE_URL
-
-    startLuaCoroutine(self, "importDeck")
-end
-
 function onGeneratePackButton(_, pc, _)
     if lock then
         printToColor("Another pack is currently generated. Please wait for that to finish.", pc)
@@ -1765,15 +1176,10 @@ function onLoad()
 
     self.setDescription(
     [[
-Enter your deck URL from many online deck builders!
-
-You can also paste a decklist in MTG Arena format into your color's notebook.
-
-Currently supported sites:
- - tappedout.net
- - archidekt.com
- - moxfield.com
- - deckstats.net
+Click on Load Booster List,
+Select the Booster you want.
+Type in the number of Boosters and click
+Generate Packs to get your Boosters.
 ]])
 
     math.randomseed(os.time())
