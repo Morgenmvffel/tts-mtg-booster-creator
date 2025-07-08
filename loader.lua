@@ -9,14 +9,20 @@ SCRYFALL_NAME_BASE_URL = "https://api.scryfall.com/cards/named/?exact="
 
 PACK_ODDS_URL = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
 
-MAINDECK_POSITION_OFFSET = {0.0, 0.2, 0.1286}
+MAINDECK_POSITION_OFFSET = {2, 0.2, -0.2}
 MAYBEBOARD_POSITION_OFFSET = {1.47, 0.2, 0.1286}
 SIDEBOARD_POSITION_OFFSET = {-1.47, 0.2, 0.1286}
 COMMANDER_POSITION_OFFSET = {0.7286, 0.2, -0.8257}
-TOKENS_POSITION_OFFSET = {-0.7286, 0.2, -0.8257}
+TOKENS_POSITION_OFFSET = {1.9, 0.2, 0.9}
+
+POSITION_SPACING = -0.8
 
 DEFAULT_CARDBACK = "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/f/f8/Magic_card_back.jpg?version=0ddc8d41c3b69c2c3c4bb5d72669ffd7"
 DEFAULT_LANGUAGE = "en"
+
+--Pack Amounts
+MAX_PACK_AMOUNT = 6
+MIN_PACK_AMOUNT = 1
 
 LANGUAGES = {
     ["en"] = "en",
@@ -59,7 +65,6 @@ UI_FORCE_LANGUAGE_TOGGLE = "MTGDeckLoaderForceLanguageToggleID"
 ------ GLOBAL STATE
 lock = false
 playerColor = nil
-deckSource = nil
 advanced = false
 cardBackInput = ""
 languageInput = ""
@@ -112,7 +117,7 @@ local function stringToBool(s)
 end
 
 ------ CARD SPAWNING
-local function jsonForCardFace(face, position, flipped)
+local function jsonForCardFace(face, position, rotationY, flipped)
     local rotation = self.getRotation()
 
     local rotZ = rotation.z
@@ -127,7 +132,7 @@ local function jsonForCardFace(face, position, flipped)
             posY = position.y,
             posZ = position.z,
             rotX = rotation.x,
-            rotY = rotation.y,
+            rotY = rotation.y + rotationY,
             rotZ = rotZ,
             scaleX = 1,
             scaleY = 1,
@@ -232,7 +237,7 @@ end
 -- Spawns the given card [faces] at [position].
 -- Card will be face down if [flipped].
 -- Calls [onFullySpawned] when the object is spawned.
-local function spawnCard(faces, position, flipped, onFullySpawned)
+local function spawnCard(faces, position, rotation, flipped, onFullySpawned)
     if not faces or not faces[1] then
         faces = {{
             name = card.name,
@@ -246,12 +251,12 @@ local function spawnCard(faces, position, flipped, onFullySpawned)
         flipped = true
     end
 
-    local jsonFace1 = jsonForCardFace(faces[1], position, flipped)
+    local jsonFace1 = jsonForCardFace(faces[1], position, rotation, flipped)
 
     if #faces > 1 then
         jsonFace1.States = {}
         for i=2,(#(faces)) do
-            local jsonFaceI = jsonForCardFace(faces[i], position, flipped)
+            local jsonFaceI = jsonForCardFace(faces[i], position, rotation, flipped)
 
             jsonFace1.States[tostring(i)] = jsonFaceI
         end
@@ -267,7 +272,7 @@ end
 -- Spawns a deck named [name] containing the given [cards] at [position].
 -- Deck will be face down if [flipped].
 -- Calls [onFullySpawned] when the object is spawned.
-local function spawnDeck(cards, name, position, flipped, onFullySpawned, onError)
+local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawned, onError)
     local cardObjects = {}
 
     local sem = 0
@@ -285,7 +290,7 @@ local function spawnDeck(cards, name, position, flipped, onFullySpawned, onError
             end
 
             incSem()
-            spawnCard(card.faces, position, flipped, function(obj)
+            spawnCard(card.faces, position, rotation, flipped, function(obj)
                 table.insert(cardObjects, obj)
                 decSem()
             end)
@@ -314,6 +319,115 @@ local function spawnDeck(cards, name, position, flipped, onFullySpawned, onError
         5,
         function() onError("Error collating deck... timed out.") end
     )
+end
+
+local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawned, onError)
+    local containedObjects = {}
+
+    for _, card in ipairs(cards) do
+        for i = 1, (card.count or 1) do
+            local faces = card.faces or {{
+                name = card.name,
+                oracleText = "Card not found",
+                imageURI = "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942",
+            }}
+
+            -- Build the card JSON with States for multiple faces
+            local jsonFace1 = jsonForCardFace(faces[1], position, 0, flipped)
+
+            if #faces > 1 then
+                jsonFace1.States = {}
+                for j = 2, #faces do
+                    local jsonFaceJ = jsonForCardFace(faces[j], position, 0, flipped)
+                    jsonFace1.States[tostring(j)] = jsonFaceJ
+                end
+            end
+
+            table.insert(containedObjects, jsonFace1)
+        end
+    end
+
+    local bagJSON = {
+        Name = "Custom_Model_Bag",
+        Transform = {
+            posX = position[1],
+            posY = position[2],
+            posZ = position[3],
+            rotX = 0,
+            rotY = 180,
+            rotZ = 0,
+            scaleX = 1,
+            scaleY = 1,
+            scaleZ = 1,
+        },
+        Nickname = bagName,
+        Description = "",
+        ColorDiffuse = {r=1, g=1, b=1},
+        Locked = false,
+        Grid = true,
+        Snap = true,
+        Autoraise = true,
+        Sticky = true,
+        Tooltip = true,
+        MeshCollider = false,
+        MaterialIndex = -1,
+        MeshIndex = -1,
+        CustomMesh = {
+            MeshURL = "http://pastebin.com/raw/PqfGKtKR",
+            DiffuseURL = "https://i.imgur.com/9YaMle6.png",
+            NormalURL = "http://i.imgur.com/pEN77ux.png",
+            Convex = true,
+            MaterialIndex = 0,
+            TypeIndex = 6,
+            CastShadows = true
+        },
+        ContainedObjects = containedObjects,
+        LuaScript = [[
+            function onLoad()
+                self.addContextMenuItem("Crack the Pack", unloadAllCards)
+            end
+
+            function unloadAllCards(player_color, position, object)
+                local objects = self.getObjects()
+                local basePos = self.positionToWorld({0, 2, 0})
+                local yOffset = 0
+
+                for i, obj in ipairs(objects) do
+                    self.takeObject({
+                        guid = obj.guid,
+                        position = {basePos.x, basePos.y + yOffset, basePos.z},
+                        smooth = false,
+                        callback_function = function(takenObj)
+                            takenObj.setRotationSmooth({0, 180, 0})
+                        end
+                    })
+                    yOffset = yOffset + 0.35
+                end
+
+                Wait.time(checkEmptyAndDestroy, 0.5)
+            end
+
+            function onObjectLeaveContainer(container, leaving_object)
+                if container == self then
+                    Wait.time(checkEmptyAndDestroy, 0.2)
+                end
+            end
+
+            function checkEmptyAndDestroy()
+                if #self.getObjects() == 0 then
+                    self.destruct()
+                end
+            end
+        ]]
+    }
+
+    local bagObj = spawnObjectJSON({ json = JSON.encode(bagJSON) })
+
+    if bagObj then
+        onFullySpawned(bagObj)
+    else
+        if onError then onError("Failed to spawn custom bag") end
+    end
 end
 
 ------ SCRYFALL
@@ -670,7 +784,7 @@ end
 
 -- Queries for the given card IDs, collates deck, and spawns objects.
 local function loadDeck(cardIDs, deckName, onComplete, onError)
-    local maindeckPosition = self.positionToWorld(MAINDECK_POSITION_OFFSET)
+    local baseMaindeckPos = self.positionToWorld(MAINDECK_POSITION_OFFSET)
     local sideboardPosition = self.positionToWorld(SIDEBOARD_POSITION_OFFSET)
     local maybeboardPosition = self.positionToWorld(MAYBEBOARD_POSITION_OFFSET)
     local commanderPosition = self.positionToWorld(COMMANDER_POSITION_OFFSET)
@@ -679,11 +793,12 @@ local function loadDeck(cardIDs, deckName, onComplete, onError)
     printInfo("Querying Scryfall for card data...")
 
     fetchCardData(cardIDs, function(cards, tokens)
-        local maindeck = {}
+        local packs = {}          -- packIndex -> list of cards
         local sideboard = {}
         local maybeboard = {}
         local commander = {}
 
+        -- Categorize cards
         for _, card in ipairs(cards) do
             if card.maybeboard then
                 table.insert(maybeboard, card)
@@ -692,65 +807,63 @@ local function loadDeck(cardIDs, deckName, onComplete, onError)
             elseif card.commander then
                 table.insert(commander, card)
             else
-                table.insert(maindeck, card)
+                local packIndex = card.packIndex or 1
+                if not packs[packIndex] then
+                    packs[packIndex] = {}
+                end
+                table.insert(packs[packIndex], card)
             end
         end
 
         printInfo("Spawning deck...")
 
-        local sem = 5
+        local packCount = 0
+        for _ in pairs(packs) do packCount = packCount + 1 end
+
+        local sem = packCount + 4  -- packs + sideboard + maybeboard + commander + tokens
         local function decSem() sem = sem - 1 end
 
-        spawnDeck(maindeck, deckName, maindeckPosition, true,
-            function() -- onSuccess
-                decSem()
-            end,
-            function(e) -- onError
-                printErr(e)
-                decSem()
-            end
+        -- Spawn each pack pile side by side
+        for packIndex, cardGroup in pairs(packs) do
+            print("Spawning pack" .. packIndex)
+            local relativeOffset = {
+                MAINDECK_POSITION_OFFSET[1] + (packIndex - 1) * POSITION_SPACING,
+                MAINDECK_POSITION_OFFSET[2],
+                MAINDECK_POSITION_OFFSET[3]
+            }
+            local offset = self.positionToWorld(relativeOffset)
+
+            spawnBagWithCards(cardGroup, deckName .. " - Pack " .. packIndex, offset, true,
+                function() decSem() end,
+                function(e) printErr(e); decSem() end
+            )
+        end
+
+        -- Spawn sideboard
+        spawnDeck(sideboard, deckName .. " - sideboard", sideboardPosition, 0, true,
+            function() decSem() end,
+            function(e) printErr(e); decSem() end
         )
 
-        spawnDeck(sideboard, deckName .. " - sideboard", sideboardPosition, true,
-            function() -- onSuccess
-                decSem()
-            end,
-            function(e) -- onError
-                printErr(e)
-                decSem()
-            end
+        -- Spawn maybeboard
+        spawnDeck(maybeboard, deckName .. " - maybeboard", maybeboardPosition, 0, true,
+            function() decSem() end,
+            function(e) printErr(e); decSem() end
         )
 
-        spawnDeck(maybeboard, deckName .. " - maybeboard", maybeboardPosition, true,
-            function() -- onSuccess
-                decSem()
-            end,
-            function(e) -- onError
-                printErr(e)
-                decSem()
-            end
+        -- Spawn commander
+        spawnDeck(commander, deckName .. " - commanders", commanderPosition, 0, false,
+            function() decSem() end,
+            function(e) printErr(e); decSem() end
         )
 
-        spawnDeck(commander, deckName .. " - commanders", commanderPosition, false,
-            function() -- onSuccess
-                decSem()
-            end,
-            function(e) -- onError
-                printErr(e)
-                decSem()
-            end
+        -- Spawn tokens
+        spawnDeck(tokens, deckName .. " - tokens", tokensPosition, 90, false,
+            function() decSem() end,
+            function(e) printErr(e); decSem() end
         )
 
-        spawnDeck(tokens, deckName .. " - tokens", tokensPosition, true,
-            function() -- onSuccess
-                decSem()
-            end,
-            function(e) -- onError
-                printErr(e)
-                decSem()
-            end
-        )
-
+        -- Wait for all spawns to finish
         Wait.condition(
             function() onComplete() end,
             function() return (sem == 0) end,
@@ -852,10 +965,8 @@ local function parseCardId(cardId)
 end
 
 
-local function queryGeneratePack(_, onSuccess, onError)
-
+local function queryGeneratePacks(numPacks, onSuccess, onError)
     local code = PackCode
-
     local packInfo = MagicSealedMap[code]
 
     if not packInfo then
@@ -864,57 +975,72 @@ local function queryGeneratePack(_, onSuccess, onError)
         return
     end
 
-    local boosterLayout = pickWeighted(packInfo.boosters)
-    local cards = {}
+    local allCards = {}
 
-    for sheetName, count in pairs(boosterLayout.sheets) do
-        local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
-        for _, rawId in ipairs(drawn) do
-            local setCode, collectorNum = parseCardId(rawId)
+    for packIndex = 1, numPacks do
+        local boosterLayout = pickWeighted(packInfo.boosters)
 
-            table.insert(cards, {
-                count = 1,
-                name = "",
-                setCode = setCode,
-                collectorNum = collectorNum,
-                sideboard = false,
-                commander = false
-            })
+        for sheetName, count in pairs(boosterLayout.sheets) do
+            local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
+
+            for _, rawId in ipairs(drawn) do
+                local setCode, collectorNum = parseCardId(rawId)
+
+                table.insert(allCards, {
+                    count = 1,
+                    name = "",
+                    setCode = setCode,
+                    collectorNum = collectorNum,
+                    sideboard = false,
+                    commander = false,
+                    packIndex = packIndex
+                })
+            end
         end
     end
 
-    onSuccess(cards, "")
+    onSuccess(allCards, "")
 end
 
 function generatePacks()
     if lock then
         log("Error: Pack Generation started while importer locked.")
+        return 1
     end
-
 
     lock = true
 
-    printToAll("Starting pack generation...")
-    queryDeckFunc = queryGeneratePack
-    deckID = nil
+    local success, err = pcall(function()
+        local numberOfPacks = getPackAmountValue()
 
+        printToAll("Starting pack generation...")
 
-    queryDeckFunc(deckID,
-        function(cardIDs, deckName)
-            loadDeck(cardIDs, deckName,
-                function()
-                    printToAll("Deck import complete!")
-                    lock = false
-                end,
-                onError
-            )
-        end,
-        onError
-    )
+        queryGeneratePacks(numberOfPacks,
+            function(cardIDs, deckName)
+                loadDeck(cardIDs, deckName,
+                    function()
+                        printToAll("Deck import complete!")
+                        lock = false
+                    end,
+                    function(e)
+                        printToAll("Deck load error: " .. tostring(e))
+                        lock = false
+                    end
+                )
+            end,
+            function(e)
+                printToAll("Query error: " .. tostring(e))
+                lock = false
+            end
+        )
+    end)
+
+    if not success then
+        printToAll("Pack generation failed: " .. tostring(err))
+        lock = false
+    end
 
     return 1
-
-
 end
 
 MagicSealedData = nil
@@ -969,12 +1095,17 @@ end
 local function buildDropdownFromData()
     local optionsXml = ""
 
-    for _, entry in ipairs(MagicSealedData) do
-        -- print("Adding option:", entry.name, "with code:", entry.code)
+    for i, entry in ipairs(MagicSealedData) do
+        local selectedStr = ""
+        if i == 1 then -- first option selected by default
+            selectedStr = ' selected="true"'
+            PackCode = entry.code -- also update your global var for the default
+        end
         optionsXml = optionsXml .. string.format(
-            '<Option value="%s">%s</Option>',
-            entry.code,   -- Used for selection
-            entry.name    -- Displayed in dropdown
+            '<Option value="%s"%s>%s</Option>',
+            entry.code,   -- value attribute for code
+            selectedStr,  -- add selected attribute if default
+            entry.name    -- label
         )
     end
 
@@ -982,7 +1113,7 @@ local function buildDropdownFromData()
 
     local xml = string.format([[
         <Panel id="MTGPackGeneratorSelector" position="80 -120 -10" rotation="180 180 0" width="300" height="300">
-            <Dropdown id="dynamicDropdown" position="70 -20 0" onValueChanged="onDropdownChanged" width="450" height="30" scrollSensitivity="30">
+            <Dropdown id="dynamicDropdown" position="82 -10 0" onValueChanged="onDropdownChanged" width="470" height="30" scrollSensitivity="30">
                 %s
             </Dropdown>
         </Panel>
@@ -1005,6 +1136,7 @@ end
 
 
 function onLoadPacksButton(_,pc,_)
+    printToAll("Loading pack list...")
     queryMagicSealedData()
     waitUntilDataReady(function(data)
         self.removeButton(0)
@@ -1019,12 +1151,21 @@ local function drawUI()
     local packAmount = 6
 
     if _inputs ~= nil then
-        for i, input in pairs(self.getInputs()) do
-            if input.label == "Enter deck URL, or load from Notebook." then
-                packAmount = input.value
+    for i, input in pairs(self.getInputs()) do
+        if input.label == "Enter the Amount of Packs" then
+            local val = tonumber(input.value) or MIN_PACK_AMOUNT
+            if val > MAX_PACK_AMOUNT then
+                val = MAX_PACK_AMOUNT
+                input.value = val  -- update input to reflect clamp
+            elseif val < MIN_PACK_AMOUNT then
+                val = MIN_PACK_AMOUNT
+                input.value = val
             end
+            packAmount = val
+            log("Pack amount set to: " .. packAmount)
         end
     end
+end
     self.clearInputs()
     self.clearButtons()
     
@@ -1033,7 +1174,7 @@ local function drawUI()
             click_function = "onLoadPacksButton",
             function_owner = self,
             label          = "Load Booster List",
-            position       = {-1, 0.1, -1.15},
+            position       = {0, 0.1, -1.15},
             rotation       = {0, 0, 0},
             width          = 850,
             height         = 160,
@@ -1049,10 +1190,10 @@ local function drawUI()
         function_owner = self,
         label          = "Enter the Amount of Packs",
         alignment      = 2,
-        position       = {-1, 0.1, 1.15},
-        width          = 850,
+        position       = {-0.4, 0.1, 1.15},
+        width          = 240,
         height         = 160,
-        font_size      = 100,
+        font_size      = 130,
         validation     = 2,
         value = packAmount,
     })
@@ -1096,14 +1237,21 @@ end
 function getPackAmountValue()
     for i, input in pairs(self.getInputs()) do
         if input.label == "Enter the Amount of Packs" then
-            return input.value
+            local val = tonumber(input.value) or MIN_PACK_AMOUNT
+            if val > MAX_PACK_AMOUNT then
+                val = MAX_PACK_AMOUNT
+            elseif val < MIN_PACK_AMOUNT then
+                val = MIN_PACK_AMOUNT
+            end
+            return val
         end
     end
 
-    return ""
+    return MIN_PACK_AMOUNT
 end
 
-function onPackAmountInput(_, _, _) end
+function onPackAmountInput(_, _, _)
+end
 
 function onOpenPackSelectorButton(_, pc, _)
 
