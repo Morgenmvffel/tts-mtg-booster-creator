@@ -345,6 +345,7 @@ local function sortCardsByRarity(cards)
         "non_foil_land",
         "foil_basic",
         "foil_land",
+        "basic",
         "land",
     }
 
@@ -387,6 +388,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawn
     -- Sort cards alphabetically by sheetName (fallback to name if missing)
     sortCardsByRarity(cards)
     local containedObjects = {}
+    local boosterName = ""
 
     for _, card in ipairs(cards) do
         for i = 1, (card.count or 1) do
@@ -409,6 +411,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawn
 
             table.insert(containedObjects, jsonFace1)
         end
+        boosterName = card.packName
     end
 
     local bagJSON = {
@@ -424,7 +427,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawn
             scaleY = 1,
             scaleZ = 1,
         },
-        Nickname = bagName,
+        Nickname = boosterName .. bagName,
         Description = "",
         ColorDiffuse = {r=1, g=1, b=1},
         Locked = false,
@@ -438,12 +441,17 @@ local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawn
         MeshIndex = -1,
         CustomMesh = {
             MeshURL = "http://pastebin.com/raw/PqfGKtKR",
-            DiffuseURL = "https://i.imgur.com/9YaMle6.png",
+            DiffuseURL = "https://i.imgur.com/mzM3sQ6.png",
             NormalURL = "http://i.imgur.com/pEN77ux.png",
             Convex = true,
             MaterialIndex = 0,
             TypeIndex = 6,
-            CastShadows = true
+            CastShadows = true,
+
+            specular_intensity = 0.3,       -- Moderate shine
+            specular_color = { r = 0.95, g = 0.98, b = 1.0 }, -- Neutral white highlight
+            specular_sharpness = 5,         -- Clean but not razor-sharp
+            fresnel_strength = 0.2
         },
         ContainedObjects = containedObjects,
         LuaScript = [[
@@ -1058,7 +1066,8 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
                     sideboard = false,
                     commander = false,
                     packIndex = packIndex,
-                    sheetName = sheetName
+                    sheetName = sheetName,
+                    packName = packInfo.name
                 })
             end
         end
