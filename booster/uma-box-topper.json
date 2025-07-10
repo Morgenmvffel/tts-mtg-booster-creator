@@ -1,0 +1,64 @@
+{
+  "name": "Ultimate Masters Box Topper Pack",
+  "code": "uma-box-topper",
+  "set_code": "uma",
+  "set_name": "Ultimate Masters",
+  "boosters": [
+    {
+      "sheets": {
+        "box_topper": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "box_topper": {
+      "total_weight": 40,
+      "cards": {
+        "puma:U10:foil": 1,
+        "puma:U11:foil": 1,
+        "puma:U12:foil": 1,
+        "puma:U13:foil": 1,
+        "puma:U14:foil": 1,
+        "puma:U15:foil": 1,
+        "puma:U16:foil": 1,
+        "puma:U17:foil": 1,
+        "puma:U18:foil": 1,
+        "puma:U19:foil": 1,
+        "puma:U1:foil": 1,
+        "puma:U20:foil": 1,
+        "puma:U21:foil": 1,
+        "puma:U22:foil": 1,
+        "puma:U23:foil": 1,
+        "puma:U24:foil": 1,
+        "puma:U25:foil": 1,
+        "puma:U26:foil": 1,
+        "puma:U27:foil": 1,
+        "puma:U28:foil": 1,
+        "puma:U29:foil": 1,
+        "puma:U2:foil": 1,
+        "puma:U30:foil": 1,
+        "puma:U31:foil": 1,
+        "puma:U32:foil": 1,
+        "puma:U33:foil": 1,
+        "puma:U34:foil": 1,
+        "puma:U35:foil": 1,
+        "puma:U36:foil": 1,
+        "puma:U37:foil": 1,
+        "puma:U38:foil": 1,
+        "puma:U39:foil": 1,
+        "puma:U3:foil": 1,
+        "puma:U40:foil": 1,
+        "puma:U4:foil": 1,
+        "puma:U5:foil": 1,
+        "puma:U6:foil": 1,
+        "puma:U7:foil": 1,
+        "puma:U8:foil": 1,
+        "puma:U9:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "puma"
+  ]
+}

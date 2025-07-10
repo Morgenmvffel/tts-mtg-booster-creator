@@ -1,0 +1,165 @@
+{
+  "name": "Kamigawa: Neon Dynasty Theme Booster Black",
+  "code": "neo-theme-b",
+  "set_code": "neo",
+  "set_name": "Kamigawa: Neon Dynasty",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 64,
+      "cards": {
+        "neo:106": 4,
+        "neo:108a": 4,
+        "neo:109a": 4,
+        "neo:110": 4,
+        "neo:116": 4,
+        "neo:118": 4,
+        "neo:127": 4,
+        "neo:240": 1,
+        "neo:242": 1,
+        "neo:243": 1,
+        "neo:247": 1,
+        "neo:254": 1,
+        "neo:256": 1,
+        "neo:257": 1,
+        "neo:262": 1,
+        "neo:263": 1,
+        "neo:270": 1,
+        "neo:272": 1,
+        "neo:275": 1,
+        "neo:87": 4,
+        "neo:93": 4,
+        "neo:95": 4,
+        "neo:96": 4,
+        "neo:97": 4,
+        "neo:98": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 88,
+      "cards": {
+        "neo:100": 4,
+        "neo:103": 4,
+        "neo:104": 4,
+        "neo:105": 4,
+        "neo:107": 4,
+        "neo:112": 4,
+        "neo:115": 4,
+        "neo:117a": 4,
+        "neo:119": 4,
+        "neo:120": 4,
+        "neo:121": 4,
+        "neo:125": 4,
+        "neo:126": 4,
+        "neo:128": 4,
+        "neo:129": 4,
+        "neo:239": 1,
+        "neo:241": 1,
+        "neo:244": 1,
+        "neo:246": 1,
+        "neo:248": 1,
+        "neo:251": 1,
+        "neo:252": 1,
+        "neo:253": 1,
+        "neo:258": 1,
+        "neo:259": 1,
+        "neo:261": 1,
+        "neo:281": 1,
+        "neo:90": 4,
+        "neo:91": 4,
+        "neo:92": 4,
+        "neo:94": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 39,
+      "cards": {
+        "neo:101": 4,
+        "neo:102": 2,
+        "neo:111": 4,
+        "neo:113": 4,
+        "neo:114": 2,
+        "neo:122": 4,
+        "neo:124a": 4,
+        "neo:245": 1,
+        "neo:249": 1,
+        "neo:250": 1,
+        "neo:255": 1,
+        "neo:260": 1,
+        "neo:278": 4,
+        "neo:88": 4,
+        "neo:89": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "neo"
+  ]
+}

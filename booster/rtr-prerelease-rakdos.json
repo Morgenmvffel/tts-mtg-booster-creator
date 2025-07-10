@@ -1,0 +1,109 @@
+{
+  "name": "Return to Ravnica Prerelease Pack Rakdos",
+  "code": "rtr-prerelease-rakdos",
+  "set_code": "rtr",
+  "set_name": "Return to Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 31,
+      "cards": {
+        "rtr:105": 1,
+        "rtr:107": 1,
+        "rtr:108": 1,
+        "rtr:109": 1,
+        "rtr:112": 1,
+        "rtr:144": 1,
+        "rtr:195": 1,
+        "rtr:199": 1,
+        "rtr:221": 1,
+        "rtr:244": 1,
+        "rtr:249": 1,
+        "rtr:58": 1,
+        "rtr:59": 1,
+        "rtr:60": 1,
+        "rtr:62": 1,
+        "rtr:64": 1,
+        "rtr:65": 1,
+        "rtr:66": 1,
+        "rtr:68": 1,
+        "rtr:69": 1,
+        "rtr:70": 1,
+        "rtr:72": 1,
+        "rtr:74": 1,
+        "rtr:78": 1,
+        "rtr:85": 1,
+        "rtr:87": 1,
+        "rtr:88": 1,
+        "rtr:91": 1,
+        "rtr:94": 1,
+        "rtr:96": 1,
+        "rtr:99": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 25,
+      "cards": {
+        "rtr:100": 1,
+        "rtr:103": 1,
+        "rtr:104": 1,
+        "rtr:167": 1,
+        "rtr:184": 1,
+        "rtr:185": 1,
+        "rtr:186": 1,
+        "rtr:192": 1,
+        "rtr:220": 1,
+        "rtr:227": 1,
+        "rtr:228": 1,
+        "rtr:232": 1,
+        "rtr:234": 1,
+        "rtr:235": 1,
+        "rtr:245": 1,
+        "rtr:57": 1,
+        "rtr:61": 1,
+        "rtr:76": 1,
+        "rtr:77": 1,
+        "rtr:79": 1,
+        "rtr:81": 1,
+        "rtr:82": 1,
+        "rtr:89": 1,
+        "rtr:95": 1,
+        "rtr:98": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 33,
+      "cards": {
+        "rtr:147": 2,
+        "rtr:157": 2,
+        "rtr:166": 2,
+        "rtr:187": 1,
+        "rtr:197": 2,
+        "rtr:212": 2,
+        "rtr:226": 2,
+        "rtr:231": 2,
+        "rtr:236": 2,
+        "rtr:238": 2,
+        "rtr:63": 2,
+        "rtr:67": 2,
+        "rtr:73": 2,
+        "rtr:83": 2,
+        "rtr:86": 2,
+        "rtr:90": 2,
+        "rtr:97": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "rtr"
+  ]
+}

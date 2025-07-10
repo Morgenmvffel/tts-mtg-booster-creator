@@ -1,0 +1,35 @@
+{
+  "name": "SLD Stained Glass Planeswalkers - Blue",
+  "code": "sld-stainedglass-u",
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "stainedglass_blue": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "stainedglass_blue": {
+      "total_weight": 11,
+      "cards": {
+        "sld:506:foil": 1,
+        "sld:507:foil": 1,
+        "sld:508:foil": 1,
+        "sld:522:foil": 1,
+        "sld:523:foil": 1,
+        "sld:525:foil": 1,
+        "sld:526:foil": 1,
+        "sld:528:foil": 1,
+        "sld:529:foil": 1,
+        "sld:532:foil": 1,
+        "sld:534:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

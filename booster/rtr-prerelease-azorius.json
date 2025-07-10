@@ -1,0 +1,110 @@
+{
+  "name": "Return to Ravnica Prerelease Pack Azorius",
+  "code": "rtr-prerelease-azorius",
+  "set_code": "rtr",
+  "set_name": "Return to Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 30,
+      "cards": {
+        "rtr:12": 1,
+        "rtr:13": 1,
+        "rtr:156": 1,
+        "rtr:169": 1,
+        "rtr:193": 1,
+        "rtr:2": 1,
+        "rtr:22": 1,
+        "rtr:224": 1,
+        "rtr:237": 1,
+        "rtr:249": 1,
+        "rtr:25": 1,
+        "rtr:26": 1,
+        "rtr:27": 1,
+        "rtr:31": 1,
+        "rtr:32": 1,
+        "rtr:34": 1,
+        "rtr:36": 1,
+        "rtr:37": 1,
+        "rtr:4": 1,
+        "rtr:41": 1,
+        "rtr:42": 1,
+        "rtr:43": 1,
+        "rtr:46": 1,
+        "rtr:48": 1,
+        "rtr:5": 1,
+        "rtr:53": 1,
+        "rtr:55": 1,
+        "rtr:56": 1,
+        "rtr:8": 1,
+        "rtr:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 27,
+      "cards": {
+        "rtr:11": 1,
+        "rtr:145": 1,
+        "rtr:16": 1,
+        "rtr:161": 1,
+        "rtr:179": 1,
+        "rtr:181": 1,
+        "rtr:196": 1,
+        "rtr:20": 1,
+        "rtr:218": 1,
+        "rtr:225": 1,
+        "rtr:227": 1,
+        "rtr:228": 1,
+        "rtr:23": 1,
+        "rtr:234": 1,
+        "rtr:235": 1,
+        "rtr:24": 1,
+        "rtr:245": 1,
+        "rtr:29": 1,
+        "rtr:3": 1,
+        "rtr:39": 1,
+        "rtr:40": 1,
+        "rtr:47": 1,
+        "rtr:50": 1,
+        "rtr:51": 1,
+        "rtr:54": 1,
+        "rtr:6": 1,
+        "rtr:7": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 33,
+      "cards": {
+        "rtr:14": 2,
+        "rtr:142": 2,
+        "rtr:15": 2,
+        "rtr:155": 2,
+        "rtr:17": 2,
+        "rtr:171": 1,
+        "rtr:18": 2,
+        "rtr:189": 2,
+        "rtr:201": 2,
+        "rtr:210": 2,
+        "rtr:226": 2,
+        "rtr:231": 2,
+        "rtr:236": 2,
+        "rtr:241": 2,
+        "rtr:33": 2,
+        "rtr:49": 2,
+        "rtr:52": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "rtr"
+  ]
+}
