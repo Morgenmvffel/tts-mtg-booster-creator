@@ -1,0 +1,130 @@
+{
+  "name": "Unglued Draft Booster",
+  "code": "ugl-draft",
+  "set_code": "ugl",
+  "set_name": "Unglued",
+  "boosters": [
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 6,
+        "uncommon": 2,
+        "rare": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "basic": {
+      "total_weight": 5,
+      "cards": {
+        "ugl:84": 1,
+        "ugl:85": 1,
+        "ugl:86": 1,
+        "ugl:87": 1,
+        "ugl:88": 1
+      }
+    },
+    "common": {
+      "total_weight": 33,
+      "cards": {
+        "ugl:12": 1,
+        "ugl:13": 1,
+        "ugl:18": 1,
+        "ugl:19": 1,
+        "ugl:20": 1,
+        "ugl:22": 1,
+        "ugl:23": 1,
+        "ugl:24": 1,
+        "ugl:3": 1,
+        "ugl:30": 1,
+        "ugl:31": 1,
+        "ugl:35": 1,
+        "ugl:37": 1,
+        "ugl:38": 1,
+        "ugl:41": 1,
+        "ugl:42": 1,
+        "ugl:43": 1,
+        "ugl:44": 1,
+        "ugl:46": 1,
+        "ugl:48": 1,
+        "ugl:55": 1,
+        "ugl:56": 1,
+        "ugl:58": 1,
+        "ugl:6": 1,
+        "ugl:60": 1,
+        "ugl:61": 1,
+        "ugl:62": 1,
+        "ugl:67": 1,
+        "ugl:72": 1,
+        "ugl:78": 1,
+        "ugl:79": 1,
+        "ugl:80": 1,
+        "ugl:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 22,
+      "cards": {
+        "ugl:1": 1,
+        "ugl:10": 1,
+        "ugl:15": 1,
+        "ugl:16": 1,
+        "ugl:21": 1,
+        "ugl:27": 1,
+        "ugl:32": 1,
+        "ugl:34": 1,
+        "ugl:39": 1,
+        "ugl:4": 1,
+        "ugl:45": 1,
+        "ugl:50": 1,
+        "ugl:53": 1,
+        "ugl:57": 1,
+        "ugl:59": 1,
+        "ugl:63": 1,
+        "ugl:7": 1,
+        "ugl:71": 1,
+        "ugl:73": 1,
+        "ugl:81": 1,
+        "ugl:82": 1,
+        "ugl:83": 1
+      }
+    },
+    "rare": {
+      "total_weight": 28,
+      "cards": {
+        "ugl:11": 1,
+        "ugl:14": 1,
+        "ugl:17": 1,
+        "ugl:2": 1,
+        "ugl:25": 1,
+        "ugl:26": 1,
+        "ugl:28": 1,
+        "ugl:29": 1,
+        "ugl:33": 1,
+        "ugl:36": 1,
+        "ugl:40": 1,
+        "ugl:47": 1,
+        "ugl:49": 1,
+        "ugl:5": 1,
+        "ugl:51": 1,
+        "ugl:52": 1,
+        "ugl:54": 1,
+        "ugl:64": 1,
+        "ugl:65": 1,
+        "ugl:66": 1,
+        "ugl:68": 1,
+        "ugl:69": 1,
+        "ugl:70": 1,
+        "ugl:74": 1,
+        "ugl:75": 1,
+        "ugl:76": 1,
+        "ugl:77": 1,
+        "ugl:8": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "ugl"
+  ]
+}

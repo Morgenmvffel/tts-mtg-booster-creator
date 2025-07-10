@@ -1,0 +1,78 @@
+{
+  "name": "Hour of Devastation Prerelease Promo Pack",
+  "code": "hou-prerelease",
+  "set_code": "hou",
+  "set_name": "Hour of Devastation",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 96,
+      "cards": {
+        "phou:104s:foil": 1,
+        "phou:109s:foil": 2,
+        "phou:10s:foil": 2,
+        "phou:120s:foil": 2,
+        "phou:122s:foil": 1,
+        "phou:126s:foil": 2,
+        "phou:129s:foil": 2,
+        "phou:130s:foil": 2,
+        "phou:131s:foil": 2,
+        "phou:132s:foil": 2,
+        "phou:137s:foil": 1,
+        "phou:139s:foil": 1,
+        "phou:140s:foil": 1,
+        "phou:144s:foil": 1,
+        "phou:145s:foil": 1,
+        "phou:146s:foil": 1,
+        "phou:153sa:foil": 2,
+        "phou:154sa:foil": 2,
+        "phou:155sa:foil": 2,
+        "phou:156sa:foil": 2,
+        "phou:157sa:foil": 2,
+        "phou:158s:foil": 2,
+        "phou:15s:foil": 2,
+        "phou:161s:foil": 2,
+        "phou:163s:foil": 2,
+        "phou:165s:foil": 2,
+        "phou:176s:foil": 2,
+        "phou:178s:foil": 2,
+        "phou:182s:foil": 2,
+        "phou:18s:foil": 2,
+        "phou:19s:foil": 1,
+        "phou:22s:foil": 2,
+        "phou:2s:foil": 2,
+        "phou:31s:foil": 2,
+        "phou:35s:foil": 2,
+        "phou:36s:foil": 2,
+        "phou:39s:foil": 2,
+        "phou:3s:foil": 2,
+        "phou:40s:foil": 2,
+        "phou:50s:foil": 2,
+        "phou:52s:foil": 1,
+        "phou:57s:foil": 2,
+        "phou:58s:foil": 2,
+        "phou:60s:foil": 2,
+        "phou:63s:foil": 2,
+        "phou:65s:foil": 2,
+        "phou:6s:foil": 1,
+        "phou:73s:foil": 1,
+        "phou:77s:foil": 2,
+        "phou:87s:foil": 2,
+        "phou:90s:foil": 2,
+        "phou:96s:foil": 2,
+        "phou:97s:foil": 2,
+        "phou:98s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "phou"
+  ]
+}

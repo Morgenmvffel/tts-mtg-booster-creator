@@ -1,0 +1,44 @@
+{
+  "name": "Dominaria United Box Topper Pack",
+  "code": "dmu-box-topper",
+  "set_code": "dmu",
+  "set_name": "Dominaria United",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_legends_retold": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_legends_retold": {
+      "total_weight": 45,
+      "cards": {
+        "dmc:29:foil": 2,
+        "dmc:30:foil": 2,
+        "dmc:31:foil": 4,
+        "dmc:32:foil": 2,
+        "dmc:33:foil": 4,
+        "dmc:34:foil": 1,
+        "dmc:35:foil": 1,
+        "dmc:36:foil": 2,
+        "dmc:37:foil": 2,
+        "dmc:38:foil": 4,
+        "dmc:39:foil": 2,
+        "dmc:40:foil": 2,
+        "dmc:41:foil": 2,
+        "dmc:42:foil": 2,
+        "dmc:43:foil": 1,
+        "dmc:44:foil": 1,
+        "dmc:45:foil": 4,
+        "dmc:46:foil": 4,
+        "dmc:47:foil": 1,
+        "dmc:48:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dmc"
+  ]
+}

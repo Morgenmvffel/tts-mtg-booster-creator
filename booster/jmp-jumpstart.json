@@ -1,0 +1,3272 @@
+{
+  "name": "Jumpstart Jumpstart Booster",
+  "code": "jmp-jumpstart",
+  "set_code": "jmp",
+  "set_name": "Jumpstart",
+  "boosters": [
+    {
+      "sheets": {
+        "above_the_clouds_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "above_the_clouds_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "above_the_clouds_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "above_the_clouds_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "angels_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "angels_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "archaeology_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "archaeology_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "archaeology_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "archaeology_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "basri": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "cats_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "cats_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "chandra": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "devilish_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "devilish_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "devilish_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "devilish_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dinosaurs_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dinosaurs_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dinosaurs_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dinosaurs_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "discarding_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "discarding_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "doctor_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "doctor_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "doctor_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "doctor_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dogs_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dogs_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dragons_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "dragons_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "elves_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "elves_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "enchanted_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "enchanted_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "feathered_friends_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "feathered_friends_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "feathered_friends_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "feathered_friends_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "garruk": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "goblins_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "goblins_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "goblins_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "goblins_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "heavily_armored_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "heavily_armored_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "heavily_armored_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "heavily_armored_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "lands_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "lands_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "legion_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "legion_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "legion_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "legion_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "lightning_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "lightning_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "liliana": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "milling": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "minions_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "minions_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "minions_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "minions_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "minotaurs_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "minotaurs_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "phyrexian": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "pirates_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "pirates_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "plus_one_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "plus_one_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "plus_one_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "plus_one_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "predatory_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "predatory_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "predatory_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "predatory_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "rainbow": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "reanimated_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "reanimated_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "reanimated_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "reanimated_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "rogues_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "rogues_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "seismic": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "smashing_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "smashing_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "smashing_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "smashing_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spellcasting_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spellcasting_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spellcasting_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spellcasting_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spirits_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spirits_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spooky_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spooky_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spooky_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "spooky_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "teferi": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "tree_hugging_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "tree_hugging_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "tree_hugging_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "tree_hugging_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "under_the_sea_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "under_the_sea_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "unicorns": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "vampires_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "vampires_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "vampires_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "vampires_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "walls": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "well_read_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "well_read_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "well_read_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "well_read_4": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "witchcraft_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "witchcraft_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "wizards_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "wizards_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "wizards_3": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "wizards_4": 20
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "above_the_clouds_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:12": 1,
+        "jmp:191": 1,
+        "jmp:36": 1,
+        "jmp:48": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:54": 1,
+        "m21:56": 1,
+        "m21:58": 1,
+        "m21:61": 1,
+        "m21:65": 1,
+        "m21:66": 1,
+        "m21:79": 1,
+        "m21:82": 1,
+        "m21:85": 1
+      }
+    },
+    "above_the_clouds_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:12": 1,
+        "jmp:175": 1,
+        "jmp:182": 1,
+        "jmp:36": 1,
+        "jmp:48": 1,
+        "m21:263": 5,
+        "m21:47": 1,
+        "m21:51": 1,
+        "m21:54": 1,
+        "m21:56": 1,
+        "m21:58": 1,
+        "m21:61": 1,
+        "m21:65": 1,
+        "m21:79": 1,
+        "m21:82": 1,
+        "m21:85": 1
+      }
+    },
+    "above_the_clouds_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:191": 1,
+        "jmp:194": 1,
+        "jmp:36": 1,
+        "jmp:48": 1,
+        "m21:263": 7,
+        "m21:47": 1,
+        "m21:51": 1,
+        "m21:54": 1,
+        "m21:56": 1,
+        "m21:61": 1,
+        "m21:65": 1,
+        "m21:79": 1,
+        "m21:82": 1,
+        "m21:85": 1
+      }
+    },
+    "above_the_clouds_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:154": 1,
+        "jmp:195": 1,
+        "jmp:36": 1,
+        "jmp:48": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:54": 1,
+        "m21:56": 1,
+        "m21:58": 1,
+        "m21:61": 1,
+        "m21:65": 1,
+        "m21:66": 1,
+        "m21:79": 1,
+        "m21:82": 1,
+        "m21:85": 1
+      }
+    },
+    "angels_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:102": 1,
+        "jmp:132": 1,
+        "jmp:137": 1,
+        "jmp:35": 1,
+        "jmp:40": 1,
+        "jmp:467": 1,
+        "jmp:483": 1,
+        "jmp:87": 1,
+        "jmp:88": 1,
+        "m21:11": 1,
+        "m21:19": 1,
+        "m21:260": 6,
+        "m21:3": 1,
+        "m21:4": 1,
+        "m21:6": 1
+      }
+    },
+    "angels_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:102": 1,
+        "jmp:119": 1,
+        "jmp:132": 1,
+        "jmp:134": 1,
+        "jmp:35": 1,
+        "jmp:40": 1,
+        "jmp:467": 1,
+        "jmp:483": 1,
+        "jmp:86": 1,
+        "jmp:87": 1,
+        "jmp:88": 1,
+        "m21:11": 1,
+        "m21:260": 6,
+        "m21:3": 1,
+        "m21:4": 1
+      }
+    },
+    "archaeology_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:14": 1,
+        "jmp:150": 1,
+        "jmp:183": 1,
+        "jmp:32": 1,
+        "jmp:36": 1,
+        "jmp:456": 1,
+        "jmp:458": 1,
+        "jmp:462": 1,
+        "jmp:468": 1,
+        "jmp:471": 1,
+        "jmp:474": 1,
+        "jmp:49": 1,
+        "jmp:491": 1,
+        "jmp:9": 2,
+        "m21:263": 5
+      }
+    },
+    "archaeology_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:14": 1,
+        "jmp:150": 1,
+        "jmp:183": 1,
+        "jmp:32": 1,
+        "jmp:36": 1,
+        "jmp:456": 1,
+        "jmp:458": 1,
+        "jmp:464": 1,
+        "jmp:471": 1,
+        "jmp:474": 1,
+        "jmp:488": 1,
+        "jmp:49": 1,
+        "jmp:491": 1,
+        "jmp:9": 2,
+        "m21:263": 5
+      }
+    },
+    "archaeology_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:176": 1,
+        "jmp:183": 1,
+        "jmp:187": 1,
+        "jmp:32": 1,
+        "jmp:36": 1,
+        "jmp:456": 1,
+        "jmp:458": 1,
+        "jmp:468": 1,
+        "jmp:471": 1,
+        "jmp:474": 1,
+        "jmp:49": 1,
+        "jmp:491": 1,
+        "jmp:9": 2,
+        "m21:235": 1,
+        "m21:263": 5
+      }
+    },
+    "archaeology_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:183": 1,
+        "jmp:32": 1,
+        "jmp:36": 1,
+        "jmp:456": 1,
+        "jmp:470": 1,
+        "jmp:471": 1,
+        "jmp:474": 1,
+        "jmp:482": 1,
+        "jmp:484": 1,
+        "jmp:485": 1,
+        "jmp:49": 1,
+        "jmp:491": 1,
+        "jmp:9": 2,
+        "m21:236": 1,
+        "m21:263": 5
+      }
+    },
+    "basri": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:114": 1,
+        "jmp:35": 1,
+        "m21:10": 1,
+        "m21:12": 1,
+        "m21:17": 1,
+        "m21:19": 1,
+        "m21:24": 1,
+        "m21:260": 6,
+        "m21:309": 1,
+        "m21:37": 1,
+        "m21:39": 1,
+        "m21:41": 1,
+        "m21:7": 1,
+        "m21:8": 1,
+        "m21:9": 1
+      }
+    },
+    "cats_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:386": 1,
+        "jmp:392": 1,
+        "jmp:396": 1,
+        "jmp:397": 1,
+        "jmp:403": 1,
+        "jmp:407": 1,
+        "jmp:412": 1,
+        "jmp:419": 1,
+        "jmp:74": 1,
+        "m21:175": 1,
+        "m21:180": 1,
+        "m21:196": 1,
+        "m21:202": 1,
+        "m21:272": 6
+      }
+    },
+    "cats_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:386": 1,
+        "jmp:392": 1,
+        "jmp:396": 1,
+        "jmp:397": 1,
+        "jmp:403": 1,
+        "jmp:407": 1,
+        "jmp:410": 1,
+        "jmp:412": 1,
+        "jmp:418": 1,
+        "jmp:74": 1,
+        "m21:175": 1,
+        "m21:180": 1,
+        "m21:196": 1,
+        "m21:272": 6
+      }
+    },
+    "chandra": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:315": 1,
+        "jmp:317": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:355": 1,
+        "jmp:356": 1,
+        "jmp:372": 1,
+        "m21:135": 1,
+        "m21:136": 1,
+        "m21:137": 2,
+        "m21:138": 1,
+        "m21:165": 1,
+        "m21:269": 6,
+        "m21:312": 1
+      }
+    },
+    "devilish_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:19": 1,
+        "jmp:26": 1,
+        "jmp:27": 1,
+        "jmp:305": 1,
+        "jmp:306": 1,
+        "jmp:322": 1,
+        "jmp:33": 1,
+        "jmp:333": 1,
+        "jmp:367": 1,
+        "jmp:63": 1,
+        "m21:149": 1,
+        "m21:152": 1,
+        "m21:156": 1,
+        "m21:166": 1,
+        "m21:269": 6
+      }
+    },
+    "devilish_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:19": 1,
+        "jmp:26": 1,
+        "jmp:27": 1,
+        "jmp:305": 1,
+        "jmp:33": 1,
+        "jmp:333": 1,
+        "jmp:366": 1,
+        "jmp:367": 2,
+        "jmp:63": 1,
+        "m21:149": 1,
+        "m21:152": 1,
+        "m21:156": 1,
+        "m21:166": 1,
+        "m21:269": 6
+      }
+    },
+    "devilish_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:19": 1,
+        "jmp:26": 1,
+        "jmp:289": 1,
+        "jmp:305": 1,
+        "jmp:306": 1,
+        "jmp:32": 1,
+        "jmp:33": 1,
+        "jmp:367": 1,
+        "jmp:63": 1,
+        "m21:133": 1,
+        "m21:149": 1,
+        "m21:152": 1,
+        "m21:156": 1,
+        "m21:166": 1,
+        "m21:269": 6
+      }
+    },
+    "devilish_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:19": 1,
+        "jmp:26": 1,
+        "jmp:289": 1,
+        "jmp:292": 1,
+        "jmp:305": 1,
+        "jmp:32": 1,
+        "jmp:33": 1,
+        "jmp:334": 1,
+        "jmp:363": 1,
+        "jmp:63": 1,
+        "m21:149": 1,
+        "m21:152": 1,
+        "m21:156": 1,
+        "m21:166": 1,
+        "m21:269": 6
+      }
+    },
+    "dinosaurs_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:384": 1,
+        "jmp:386": 1,
+        "jmp:388": 1,
+        "jmp:399": 1,
+        "jmp:416": 1,
+        "jmp:427": 1,
+        "jmp:73": 1,
+        "m21:176": 1,
+        "m21:177": 1,
+        "m21:178": 1,
+        "m21:194": 1,
+        "m21:205": 1,
+        "m21:209": 1,
+        "m21:272": 6
+      }
+    },
+    "dinosaurs_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:384": 1,
+        "jmp:386": 1,
+        "jmp:388": 1,
+        "jmp:414": 1,
+        "jmp:416": 1,
+        "jmp:427": 1,
+        "jmp:429": 1,
+        "jmp:437": 1,
+        "jmp:73": 1,
+        "m21:176": 1,
+        "m21:178": 1,
+        "m21:186": 1,
+        "m21:194": 1,
+        "m21:272": 6
+      }
+    },
+    "dinosaurs_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:384": 1,
+        "jmp:386": 1,
+        "jmp:388": 1,
+        "jmp:399": 1,
+        "jmp:416": 1,
+        "jmp:427": 1,
+        "jmp:437": 1,
+        "jmp:73": 1,
+        "m21:176": 1,
+        "m21:177": 1,
+        "m21:178": 1,
+        "m21:194": 1,
+        "m21:210": 1,
+        "m21:272": 6
+      }
+    },
+    "dinosaurs_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:384": 1,
+        "jmp:388": 1,
+        "jmp:414": 1,
+        "jmp:416": 1,
+        "jmp:423": 1,
+        "jmp:427": 1,
+        "jmp:73": 1,
+        "m21:176": 1,
+        "m21:178": 1,
+        "m21:186": 1,
+        "m21:194": 1,
+        "m21:197": 1,
+        "m21:209": 1,
+        "m21:272": 6
+      }
+    },
+    "discarding_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:17": 1,
+        "jmp:200": 1,
+        "jmp:214": 1,
+        "jmp:222": 1,
+        "jmp:227": 1,
+        "jmp:233": 1,
+        "jmp:266": 1,
+        "jmp:269": 1,
+        "jmp:279": 1,
+        "jmp:287": 2,
+        "jmp:37": 1,
+        "jmp:55": 1,
+        "m21:115": 1,
+        "m21:266": 6
+      }
+    },
+    "discarding_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:200": 1,
+        "jmp:214": 1,
+        "jmp:222": 1,
+        "jmp:227": 1,
+        "jmp:233": 1,
+        "jmp:251": 1,
+        "jmp:259": 1,
+        "jmp:266": 1,
+        "jmp:269": 1,
+        "jmp:279": 1,
+        "jmp:287": 2,
+        "jmp:37": 1,
+        "jmp:55": 1,
+        "m21:266": 6
+      }
+    },
+    "doctor_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:122": 1,
+        "jmp:134": 1,
+        "jmp:2": 1,
+        "jmp:35": 1,
+        "jmp:39": 1,
+        "jmp:93": 1,
+        "m21:17": 1,
+        "m21:22": 1,
+        "m21:25": 1,
+        "m21:260": 6,
+        "m21:31": 1,
+        "m21:38": 1,
+        "m21:4": 1,
+        "m21:40": 1,
+        "m21:8": 1
+      }
+    },
+    "doctor_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:124": 1,
+        "jmp:2": 1,
+        "jmp:35": 1,
+        "jmp:39": 1,
+        "jmp:6": 1,
+        "jmp:84": 1,
+        "m21:22": 1,
+        "m21:25": 1,
+        "m21:260": 6,
+        "m21:31": 1,
+        "m21:35": 1,
+        "m21:38": 1,
+        "m21:4": 1,
+        "m21:40": 1,
+        "m21:8": 1
+      }
+    },
+    "doctor_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:122": 1,
+        "jmp:124": 1,
+        "jmp:130": 1,
+        "jmp:2": 1,
+        "jmp:35": 1,
+        "jmp:39": 1,
+        "jmp:84": 1,
+        "m21:17": 1,
+        "m21:22": 1,
+        "m21:25": 1,
+        "m21:260": 6,
+        "m21:31": 1,
+        "m21:4": 1,
+        "m21:40": 1,
+        "m21:8": 1
+      }
+    },
+    "doctor_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:126": 1,
+        "jmp:2": 1,
+        "jmp:35": 1,
+        "jmp:39": 1,
+        "jmp:6": 1,
+        "jmp:83": 1,
+        "jmp:84": 1,
+        "jmp:93": 1,
+        "jmp:98": 1,
+        "m21:22": 1,
+        "m21:260": 6,
+        "m21:31": 1,
+        "m21:4": 1,
+        "m21:40": 1,
+        "m21:8": 1
+      }
+    },
+    "dogs_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:125": 1,
+        "jmp:35": 1,
+        "jmp:4": 1,
+        "jmp:45": 1,
+        "jmp:7": 1,
+        "jmp:8": 1,
+        "jmp:81": 1,
+        "jmp:94": 1,
+        "m21:19": 1,
+        "m21:2": 1,
+        "m21:260": 6,
+        "m21:29": 1,
+        "m21:30": 1,
+        "m21:35": 1,
+        "m21:36": 1
+      }
+    },
+    "dogs_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:113": 1,
+        "jmp:125": 1,
+        "jmp:35": 1,
+        "jmp:4": 1,
+        "jmp:45": 1,
+        "jmp:7": 1,
+        "jmp:8": 1,
+        "jmp:81": 1,
+        "jmp:94": 1,
+        "jmp:99": 1,
+        "m21:2": 1,
+        "m21:260": 6,
+        "m21:29": 1,
+        "m21:30": 1,
+        "m21:35": 1
+      }
+    },
+    "dragons_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:293": 1,
+        "jmp:308": 1,
+        "jmp:309": 1,
+        "jmp:310": 1,
+        "jmp:312": 1,
+        "jmp:33": 1,
+        "jmp:345": 1,
+        "jmp:358": 1,
+        "jmp:463": 1,
+        "jmp:62": 1,
+        "m21:151": 1,
+        "m21:164": 1,
+        "m21:165": 1,
+        "m21:269": 7
+      }
+    },
+    "dragons_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:308": 1,
+        "jmp:309": 1,
+        "jmp:310": 1,
+        "jmp:311": 1,
+        "jmp:323": 1,
+        "jmp:33": 1,
+        "jmp:340": 1,
+        "jmp:345": 1,
+        "jmp:358": 1,
+        "jmp:360": 1,
+        "jmp:62": 1,
+        "m21:146": 1,
+        "m21:151": 1,
+        "m21:269": 7
+      }
+    },
+    "elves_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:385": 1,
+        "jmp:386": 1,
+        "jmp:389": 1,
+        "jmp:391": 1,
+        "jmp:400": 1,
+        "jmp:420": 1,
+        "jmp:430": 1,
+        "jmp:444": 1,
+        "jmp:77": 1,
+        "m21:189": 1,
+        "m21:193": 1,
+        "m21:206": 1,
+        "m21:210": 1,
+        "m21:272": 6
+      }
+    },
+    "elves_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:28": 1,
+        "jmp:34": 1,
+        "jmp:386": 1,
+        "jmp:389": 1,
+        "jmp:408": 1,
+        "jmp:420": 1,
+        "jmp:430": 1,
+        "jmp:444": 1,
+        "jmp:447": 1,
+        "jmp:77": 1,
+        "m21:189": 1,
+        "m21:193": 1,
+        "m21:206": 1,
+        "m21:210": 1,
+        "m21:272": 6
+      }
+    },
+    "enchanted_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:103": 1,
+        "jmp:104": 1,
+        "jmp:109": 1,
+        "jmp:114": 1,
+        "jmp:115": 1,
+        "jmp:116": 1,
+        "jmp:35": 1,
+        "jmp:42": 1,
+        "jmp:6": 1,
+        "jmp:8": 1,
+        "jmp:92": 1,
+        "m21:16": 1,
+        "m21:17": 1,
+        "m21:260": 6,
+        "m21:4": 1
+      }
+    },
+    "enchanted_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:103": 1,
+        "jmp:104": 1,
+        "jmp:109": 1,
+        "jmp:115": 1,
+        "jmp:35": 1,
+        "jmp:42": 1,
+        "jmp:6": 1,
+        "jmp:8": 1,
+        "jmp:82": 1,
+        "jmp:92": 1,
+        "jmp:93": 1,
+        "jmp:96": 1,
+        "m21:17": 1,
+        "m21:260": 6,
+        "m21:39": 1
+      }
+    },
+    "feathered_friends_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:107": 1,
+        "jmp:124": 1,
+        "jmp:133": 1,
+        "jmp:35": 1,
+        "jmp:44": 1,
+        "jmp:5": 1,
+        "jmp:80": 1,
+        "jmp:99": 1,
+        "m21:11": 1,
+        "m21:12": 1,
+        "m21:18": 1,
+        "m21:20": 1,
+        "m21:260": 6,
+        "m21:44": 1,
+        "m21:5": 1
+      }
+    },
+    "feathered_friends_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:107": 1,
+        "jmp:133": 1,
+        "jmp:135": 1,
+        "jmp:35": 1,
+        "jmp:44": 1,
+        "jmp:5": 1,
+        "m21:11": 1,
+        "m21:12": 1,
+        "m21:18": 1,
+        "m21:20": 1,
+        "m21:260": 6,
+        "m21:3": 1,
+        "m21:40": 1,
+        "m21:44": 1,
+        "m21:5": 1
+      }
+    },
+    "feathered_friends_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:107": 1,
+        "jmp:133": 1,
+        "jmp:134": 1,
+        "jmp:35": 1,
+        "jmp:44": 1,
+        "jmp:85": 1,
+        "jmp:99": 1,
+        "m21:11": 1,
+        "m21:12": 1,
+        "m21:18": 1,
+        "m21:20": 1,
+        "m21:260": 6,
+        "m21:40": 1,
+        "m21:44": 1,
+        "m21:5": 1
+      }
+    },
+    "feathered_friends_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:107": 1,
+        "jmp:133": 1,
+        "jmp:35": 1,
+        "jmp:44": 1,
+        "jmp:79": 1,
+        "jmp:80": 1,
+        "jmp:89": 1,
+        "jmp:90": 1,
+        "jmp:99": 1,
+        "m21:11": 1,
+        "m21:12": 1,
+        "m21:18": 1,
+        "m21:20": 1,
+        "m21:260": 6,
+        "m21:44": 1
+      }
+    },
+    "garruk": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:373": 1,
+        "jmp:381": 1,
+        "jmp:402": 1,
+        "jmp:416": 1,
+        "jmp:426": 1,
+        "m21:178": 1,
+        "m21:183": 1,
+        "m21:184": 1,
+        "m21:185": 1,
+        "m21:186": 1,
+        "m21:189": 1,
+        "m21:199": 1,
+        "m21:272": 6,
+        "m21:313": 1
+      }
+    },
+    "goblins_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:24": 1,
+        "jmp:294": 1,
+        "jmp:299": 1,
+        "jmp:325": 1,
+        "jmp:327": 1,
+        "jmp:33": 1,
+        "jmp:330": 1,
+        "jmp:348": 1,
+        "jmp:353": 1,
+        "jmp:354": 1,
+        "jmp:369": 1,
+        "jmp:65": 1,
+        "m21:147": 1,
+        "m21:159": 1,
+        "m21:269": 6
+      }
+    },
+    "goblins_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:24": 1,
+        "jmp:294": 1,
+        "jmp:299": 1,
+        "jmp:325": 1,
+        "jmp:327": 1,
+        "jmp:33": 1,
+        "jmp:330": 1,
+        "jmp:348": 1,
+        "jmp:353": 1,
+        "jmp:354": 1,
+        "jmp:65": 1,
+        "m21:130": 1,
+        "m21:134": 1,
+        "m21:147": 1,
+        "m21:269": 6
+      }
+    },
+    "goblins_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:294": 1,
+        "jmp:299": 1,
+        "jmp:324": 1,
+        "jmp:325": 1,
+        "jmp:326": 1,
+        "jmp:327": 1,
+        "jmp:33": 1,
+        "jmp:330": 1,
+        "jmp:348": 1,
+        "jmp:353": 1,
+        "jmp:369": 1,
+        "jmp:65": 1,
+        "m21:147": 1,
+        "m21:159": 1,
+        "m21:269": 6
+      }
+    },
+    "goblins_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:299": 1,
+        "jmp:325": 1,
+        "jmp:327": 1,
+        "jmp:328": 1,
+        "jmp:329": 1,
+        "jmp:33": 1,
+        "jmp:330": 1,
+        "jmp:339": 1,
+        "jmp:348": 1,
+        "jmp:353": 1,
+        "jmp:354": 1,
+        "jmp:65": 1,
+        "m21:134": 1,
+        "m21:147": 1,
+        "m21:269": 6
+      }
+    },
+    "heavily_armored_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:118": 1,
+        "jmp:128": 1,
+        "jmp:35": 1,
+        "jmp:43": 1,
+        "jmp:8": 1,
+        "jmp:93": 1,
+        "jmp:95": 1,
+        "m21:10": 1,
+        "m21:19": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:35": 1,
+        "m21:37": 1,
+        "m21:41": 1,
+        "m21:8": 1
+      }
+    },
+    "heavily_armored_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:106": 1,
+        "jmp:118": 1,
+        "jmp:128": 1,
+        "jmp:35": 1,
+        "jmp:43": 1,
+        "jmp:8": 1,
+        "jmp:91": 1,
+        "jmp:93": 1,
+        "jmp:95": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:35": 1,
+        "m21:37": 1,
+        "m21:41": 1,
+        "m21:8": 1
+      }
+    },
+    "heavily_armored_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:100": 1,
+        "jmp:118": 1,
+        "jmp:123": 1,
+        "jmp:128": 1,
+        "jmp:35": 1,
+        "jmp:43": 1,
+        "jmp:7": 1,
+        "jmp:8": 1,
+        "jmp:91": 1,
+        "jmp:93": 1,
+        "m21:10": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:41": 1,
+        "m21:8": 1
+      }
+    },
+    "heavily_armored_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:101": 1,
+        "jmp:108": 1,
+        "jmp:118": 1,
+        "jmp:120": 1,
+        "jmp:35": 1,
+        "jmp:43": 1,
+        "jmp:7": 1,
+        "jmp:8": 1,
+        "jmp:93": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:37": 1,
+        "m21:40": 1,
+        "m21:41": 1,
+        "m21:8": 1
+      }
+    },
+    "lands_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:379": 1,
+        "jmp:386": 1,
+        "jmp:390": 1,
+        "jmp:394": 1,
+        "jmp:395": 1,
+        "jmp:398": 1,
+        "jmp:435": 1,
+        "jmp:439": 1,
+        "jmp:440": 1,
+        "jmp:444": 1,
+        "jmp:448": 1,
+        "jmp:71": 1,
+        "m21:177": 1,
+        "m21:272": 6
+      }
+    },
+    "lands_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:379": 1,
+        "jmp:386": 1,
+        "jmp:390": 1,
+        "jmp:394": 1,
+        "jmp:395": 1,
+        "jmp:398": 1,
+        "jmp:415": 1,
+        "jmp:433": 1,
+        "jmp:435": 1,
+        "jmp:444": 1,
+        "jmp:446": 1,
+        "jmp:71": 1,
+        "m21:177": 1,
+        "m21:272": 6
+      }
+    },
+    "legion_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:1": 1,
+        "jmp:110": 1,
+        "jmp:114": 1,
+        "jmp:127": 1,
+        "jmp:129": 1,
+        "jmp:35": 1,
+        "jmp:38": 1,
+        "m21:10": 1,
+        "m21:14": 1,
+        "m21:18": 1,
+        "m21:24": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:36": 1,
+        "m21:42": 1
+      }
+    },
+    "legion_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:111": 1,
+        "jmp:129": 1,
+        "jmp:35": 1,
+        "jmp:38": 1,
+        "jmp:4": 1,
+        "m21:10": 1,
+        "m21:14": 1,
+        "m21:17": 1,
+        "m21:21": 1,
+        "m21:24": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:37": 1,
+        "m21:39": 1,
+        "m21:42": 1
+      }
+    },
+    "legion_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:105": 1,
+        "jmp:129": 1,
+        "jmp:35": 1,
+        "jmp:38": 1,
+        "jmp:4": 1,
+        "m21:10": 1,
+        "m21:14": 1,
+        "m21:17": 1,
+        "m21:21": 1,
+        "m21:24": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:37": 1,
+        "m21:39": 1,
+        "m21:42": 1
+      }
+    },
+    "legion_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:105": 1,
+        "jmp:117": 1,
+        "jmp:121": 1,
+        "jmp:129": 1,
+        "jmp:35": 1,
+        "jmp:38": 1,
+        "m21:10": 1,
+        "m21:14": 1,
+        "m21:17": 1,
+        "m21:24": 1,
+        "m21:26": 1,
+        "m21:260": 6,
+        "m21:36": 1,
+        "m21:37": 1,
+        "m21:42": 1
+      }
+    },
+    "lightning_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:21": 1,
+        "jmp:22": 2,
+        "jmp:23": 1,
+        "jmp:32": 1,
+        "jmp:33": 1,
+        "jmp:335": 1,
+        "jmp:341": 1,
+        "jmp:342": 1,
+        "jmp:343": 1,
+        "jmp:344": 1,
+        "jmp:345": 1,
+        "jmp:371": 1,
+        "jmp:68": 1,
+        "m21:269": 6
+      }
+    },
+    "lightning_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:21": 1,
+        "jmp:22": 2,
+        "jmp:23": 1,
+        "jmp:291": 1,
+        "jmp:302": 1,
+        "jmp:32": 1,
+        "jmp:33": 1,
+        "jmp:341": 1,
+        "jmp:343": 1,
+        "jmp:344": 1,
+        "jmp:359": 1,
+        "jmp:371": 1,
+        "jmp:68": 1,
+        "m21:269": 6
+      }
+    },
+    "liliana": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:205": 1,
+        "jmp:217": 1,
+        "jmp:238": 1,
+        "jmp:250": 1,
+        "jmp:276": 1,
+        "jmp:286": 1,
+        "jmp:37": 1,
+        "m21:101": 1,
+        "m21:108": 1,
+        "m21:109": 1,
+        "m21:110": 1,
+        "m21:111": 1,
+        "m21:119": 1,
+        "m21:266": 6,
+        "m21:311": 1
+      }
+    },
+    "milling": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:10": 1,
+        "jmp:141": 1,
+        "jmp:168": 1,
+        "jmp:174": 1,
+        "jmp:180": 1,
+        "jmp:184": 1,
+        "jmp:185": 1,
+        "jmp:186": 1,
+        "jmp:188": 1,
+        "jmp:190": 1,
+        "jmp:36": 1,
+        "jmp:50": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:78": 1
+      }
+    },
+    "minions_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:15": 1,
+        "jmp:16": 1,
+        "jmp:212": 1,
+        "jmp:226": 1,
+        "jmp:237": 1,
+        "jmp:244": 1,
+        "jmp:277": 1,
+        "jmp:37": 1,
+        "jmp:54": 1,
+        "m21:101": 1,
+        "m21:126": 1,
+        "m21:129": 1,
+        "m21:266": 6,
+        "m21:93": 1,
+        "m21:97": 1
+      }
+    },
+    "minions_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:15": 1,
+        "jmp:16": 1,
+        "jmp:213": 1,
+        "jmp:224": 1,
+        "jmp:226": 1,
+        "jmp:228": 1,
+        "jmp:237": 1,
+        "jmp:37": 1,
+        "jmp:54": 1,
+        "m21:101": 1,
+        "m21:126": 1,
+        "m21:129": 1,
+        "m21:266": 6,
+        "m21:93": 1,
+        "m21:97": 1
+      }
+    },
+    "minions_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:224": 1,
+        "jmp:226": 1,
+        "jmp:237": 1,
+        "jmp:248": 1,
+        "jmp:37": 1,
+        "jmp:493": 1,
+        "jmp:54": 1,
+        "m21:101": 1,
+        "m21:109": 1,
+        "m21:126": 1,
+        "m21:129": 1,
+        "m21:266": 5,
+        "m21:93": 1,
+        "m21:97": 1,
+        "m21:98": 1
+      }
+    },
+    "minions_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:226": 1,
+        "jmp:236": 1,
+        "jmp:237": 1,
+        "jmp:244": 1,
+        "jmp:277": 1,
+        "jmp:37": 1,
+        "jmp:54": 1,
+        "m21:101": 1,
+        "m21:109": 1,
+        "m21:126": 1,
+        "m21:129": 1,
+        "m21:266": 6,
+        "m21:97": 1,
+        "m21:98": 1
+      }
+    },
+    "minotaurs_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:22": 1,
+        "jmp:25": 1,
+        "jmp:296": 1,
+        "jmp:301": 1,
+        "jmp:321": 1,
+        "jmp:33": 1,
+        "jmp:349": 1,
+        "jmp:350": 1,
+        "jmp:352": 1,
+        "jmp:370": 1,
+        "jmp:469": 1,
+        "jmp:69": 1,
+        "m21:160": 1,
+        "m21:163": 1,
+        "m21:269": 6
+      }
+    },
+    "minotaurs_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:22": 1,
+        "jmp:25": 1,
+        "jmp:296": 1,
+        "jmp:301": 1,
+        "jmp:321": 1,
+        "jmp:33": 1,
+        "jmp:349": 1,
+        "jmp:350": 1,
+        "jmp:357": 1,
+        "jmp:69": 1,
+        "m21:160": 1,
+        "m21:163": 1,
+        "m21:166": 1,
+        "m21:170": 1,
+        "m21:269": 6
+      }
+    },
+    "phyrexian": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:223": 1,
+        "jmp:227": 1,
+        "jmp:262": 1,
+        "jmp:263": 1,
+        "jmp:264": 1,
+        "jmp:265": 1,
+        "jmp:266": 1,
+        "jmp:267": 1,
+        "jmp:278": 1,
+        "jmp:37": 1,
+        "jmp:475": 1,
+        "jmp:476": 1,
+        "jmp:58": 1,
+        "m21:112": 1,
+        "m21:266": 6
+      }
+    },
+    "pirates_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:11": 1,
+        "jmp:142": 1,
+        "jmp:144": 1,
+        "jmp:149": 1,
+        "jmp:155": 1,
+        "jmp:165": 1,
+        "jmp:170": 1,
+        "jmp:172": 1,
+        "jmp:178": 1,
+        "jmp:189": 1,
+        "jmp:192": 1,
+        "jmp:36": 1,
+        "jmp:477": 1,
+        "jmp:52": 1,
+        "m21:263": 6
+      }
+    },
+    "pirates_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:11": 1,
+        "jmp:142": 1,
+        "jmp:148": 1,
+        "jmp:149": 1,
+        "jmp:155": 1,
+        "jmp:165": 1,
+        "jmp:170": 1,
+        "jmp:172": 1,
+        "jmp:178": 1,
+        "jmp:36": 1,
+        "jmp:477": 1,
+        "jmp:52": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:62": 1
+      }
+    },
+    "plus_one_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:376": 1,
+        "jmp:377": 1,
+        "jmp:398": 1,
+        "jmp:405": 1,
+        "jmp:413": 1,
+        "jmp:421": 1,
+        "jmp:72": 1,
+        "m21:189": 1,
+        "m21:190": 1,
+        "m21:196": 1,
+        "m21:212": 1,
+        "m21:214": 1,
+        "m21:272": 7
+      }
+    },
+    "plus_one_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:29": 1,
+        "jmp:34": 1,
+        "jmp:376": 1,
+        "jmp:377": 1,
+        "jmp:398": 1,
+        "jmp:405": 1,
+        "jmp:413": 1,
+        "jmp:72": 1,
+        "m21:189": 1,
+        "m21:190": 1,
+        "m21:196": 1,
+        "m21:212": 1,
+        "m21:214": 1,
+        "m21:272": 7
+      }
+    },
+    "plus_one_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:376": 1,
+        "jmp:398": 1,
+        "jmp:404": 1,
+        "jmp:413": 1,
+        "jmp:425": 1,
+        "jmp:428": 1,
+        "jmp:72": 1,
+        "m21:189": 1,
+        "m21:190": 1,
+        "m21:196": 1,
+        "m21:212": 1,
+        "m21:214": 1,
+        "m21:272": 7
+      }
+    },
+    "plus_one_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:29": 1,
+        "jmp:34": 1,
+        "jmp:376": 1,
+        "jmp:383": 1,
+        "jmp:409": 1,
+        "jmp:413": 1,
+        "jmp:428": 1,
+        "jmp:72": 1,
+        "m21:189": 1,
+        "m21:190": 1,
+        "m21:196": 1,
+        "m21:212": 1,
+        "m21:214": 1,
+        "m21:272": 7
+      }
+    },
+    "predatory_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:30": 1,
+        "jmp:34": 1,
+        "jmp:380": 1,
+        "jmp:386": 1,
+        "jmp:387": 1,
+        "jmp:406": 1,
+        "jmp:431": 1,
+        "jmp:434": 1,
+        "jmp:438": 1,
+        "jmp:473": 1,
+        "jmp:76": 1,
+        "m21:182": 1,
+        "m21:202": 1,
+        "m21:212": 1,
+        "m21:272": 6
+      }
+    },
+    "predatory_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:30": 1,
+        "jmp:34": 1,
+        "jmp:373": 1,
+        "jmp:380": 1,
+        "jmp:386": 1,
+        "jmp:387": 1,
+        "jmp:406": 1,
+        "jmp:438": 1,
+        "jmp:466": 1,
+        "jmp:473": 1,
+        "jmp:76": 1,
+        "m21:182": 1,
+        "m21:202": 1,
+        "m21:212": 1,
+        "m21:272": 6
+      }
+    },
+    "predatory_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:380": 1,
+        "jmp:386": 1,
+        "jmp:387": 1,
+        "jmp:406": 1,
+        "jmp:431": 1,
+        "jmp:436": 1,
+        "jmp:438": 1,
+        "jmp:466": 1,
+        "jmp:473": 1,
+        "jmp:76": 1,
+        "m21:182": 1,
+        "m21:202": 1,
+        "m21:212": 1,
+        "m21:272": 6
+      }
+    },
+    "predatory_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:373": 1,
+        "jmp:380": 1,
+        "jmp:386": 1,
+        "jmp:387": 1,
+        "jmp:406": 1,
+        "jmp:411": 1,
+        "jmp:424": 1,
+        "jmp:434": 1,
+        "jmp:438": 1,
+        "jmp:76": 1,
+        "m21:182": 1,
+        "m21:202": 1,
+        "m21:212": 1,
+        "m21:272": 6
+      }
+    },
+    "rainbow": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:449": 1,
+        "jmp:450": 1,
+        "jmp:451": 1,
+        "jmp:452": 1,
+        "jmp:453": 1,
+        "jmp:454": 1,
+        "jmp:455": 1,
+        "jmp:457": 1,
+        "jmp:461": 1,
+        "jmp:478": 1,
+        "jmp:486": 1,
+        "jmp:492": 1,
+        "jmp:495": 1,
+        "jmp:78": 1,
+        "m21:235": 1,
+        "m21:260": 1,
+        "m21:263": 1,
+        "m21:266": 1,
+        "m21:269": 1,
+        "m21:272": 1
+      }
+    },
+    "reanimated_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:215": 1,
+        "jmp:221": 1,
+        "jmp:235": 1,
+        "jmp:256": 1,
+        "jmp:257": 1,
+        "jmp:270": 1,
+        "jmp:284": 1,
+        "jmp:37": 1,
+        "jmp:56": 1,
+        "m21:101": 1,
+        "m21:119": 1,
+        "m21:266": 6,
+        "m21:88": 1,
+        "m21:93": 1,
+        "m21:97": 1
+      }
+    },
+    "reanimated_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:221": 1,
+        "jmp:235": 1,
+        "jmp:252": 1,
+        "jmp:256": 1,
+        "jmp:257": 1,
+        "jmp:270": 1,
+        "jmp:37": 1,
+        "jmp:56": 1,
+        "m21:100": 1,
+        "m21:101": 1,
+        "m21:119": 1,
+        "m21:266": 6,
+        "m21:92": 1,
+        "m21:93": 1,
+        "m21:97": 1
+      }
+    },
+    "reanimated_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:221": 1,
+        "jmp:230": 1,
+        "jmp:235": 1,
+        "jmp:241": 1,
+        "jmp:256": 1,
+        "jmp:257": 1,
+        "jmp:274": 1,
+        "jmp:288": 1,
+        "jmp:37": 1,
+        "jmp:56": 1,
+        "m21:101": 1,
+        "m21:119": 1,
+        "m21:266": 6,
+        "m21:93": 1,
+        "m21:97": 1
+      }
+    },
+    "reanimated_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:221": 1,
+        "jmp:235": 1,
+        "jmp:256": 1,
+        "jmp:257": 1,
+        "jmp:271": 1,
+        "jmp:280": 1,
+        "jmp:37": 1,
+        "jmp:56": 1,
+        "m21:100": 1,
+        "m21:101": 1,
+        "m21:119": 1,
+        "m21:266": 6,
+        "m21:92": 1,
+        "m21:93": 1,
+        "m21:97": 1
+      }
+    },
+    "rogues_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:240": 1,
+        "jmp:249": 1,
+        "jmp:255": 1,
+        "jmp:258": 1,
+        "jmp:261": 1,
+        "jmp:281": 1,
+        "jmp:37": 1,
+        "jmp:479": 1,
+        "jmp:57": 1,
+        "m21:113": 1,
+        "m21:125": 1,
+        "m21:266": 6,
+        "m21:87": 1,
+        "m21:99": 1
+      }
+    },
+    "rogues_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:219": 1,
+        "jmp:220": 1,
+        "jmp:247": 1,
+        "jmp:249": 1,
+        "jmp:258": 1,
+        "jmp:261": 1,
+        "jmp:281": 1,
+        "jmp:37": 1,
+        "jmp:479": 1,
+        "jmp:57": 1,
+        "m21:113": 1,
+        "m21:125": 1,
+        "m21:266": 6,
+        "m21:87": 1
+      }
+    },
+    "seismic": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:290": 1,
+        "jmp:297": 1,
+        "jmp:304": 1,
+        "jmp:33": 1,
+        "jmp:331": 1,
+        "jmp:346": 1,
+        "jmp:347": 1,
+        "jmp:351": 1,
+        "jmp:362": 1,
+        "jmp:364": 1,
+        "jmp:368": 1,
+        "jmp:472": 1,
+        "jmp:64": 1,
+        "m21:171": 1,
+        "m21:269": 6
+      }
+    },
+    "smashing_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:296": 1,
+        "jmp:300": 1,
+        "jmp:319": 1,
+        "jmp:320": 1,
+        "jmp:33": 1,
+        "jmp:67": 1,
+        "m21:132": 1,
+        "m21:144": 1,
+        "m21:150": 1,
+        "m21:155": 1,
+        "m21:159": 1,
+        "m21:169": 1,
+        "m21:170": 1,
+        "m21:172": 1,
+        "m21:269": 6
+      }
+    },
+    "smashing_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:296": 1,
+        "jmp:300": 1,
+        "jmp:318": 1,
+        "jmp:320": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:67": 1,
+        "m21:132": 1,
+        "m21:144": 1,
+        "m21:150": 1,
+        "m21:155": 1,
+        "m21:169": 1,
+        "m21:172": 1,
+        "m21:236": 1,
+        "m21:269": 6
+      }
+    },
+    "smashing_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:296": 1,
+        "jmp:300": 1,
+        "jmp:320": 1,
+        "jmp:33": 1,
+        "jmp:332": 1,
+        "jmp:337": 1,
+        "jmp:361": 1,
+        "jmp:67": 1,
+        "m21:132": 1,
+        "m21:144": 1,
+        "m21:150": 1,
+        "m21:155": 1,
+        "m21:169": 1,
+        "m21:170": 1,
+        "m21:269": 6
+      }
+    },
+    "smashing_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:296": 1,
+        "jmp:298": 1,
+        "jmp:300": 1,
+        "jmp:314": 1,
+        "jmp:320": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:67": 1,
+        "m21:132": 1,
+        "m21:144": 1,
+        "m21:145": 1,
+        "m21:150": 1,
+        "m21:155": 1,
+        "m21:169": 1,
+        "m21:269": 6
+      }
+    },
+    "spellcasting_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:22": 1,
+        "jmp:23": 1,
+        "jmp:295": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:365": 1,
+        "jmp:66": 1,
+        "m21:138": 1,
+        "m21:142": 1,
+        "m21:148": 1,
+        "m21:150": 1,
+        "m21:154": 1,
+        "m21:159": 1,
+        "m21:165": 1,
+        "m21:269": 6
+      }
+    },
+    "spellcasting_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:22": 1,
+        "jmp:316": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:338": 1,
+        "jmp:365": 1,
+        "jmp:372": 1,
+        "jmp:66": 1,
+        "m21:138": 1,
+        "m21:142": 1,
+        "m21:150": 1,
+        "m21:154": 1,
+        "m21:159": 1,
+        "m21:165": 1,
+        "m21:269": 6
+      }
+    },
+    "spellcasting_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:22": 1,
+        "jmp:23": 1,
+        "jmp:303": 1,
+        "jmp:309": 1,
+        "jmp:313": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:365": 1,
+        "jmp:66": 1,
+        "m21:138": 1,
+        "m21:150": 1,
+        "m21:154": 1,
+        "m21:159": 1,
+        "m21:165": 1,
+        "m21:269": 6
+      }
+    },
+    "spellcasting_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:20": 1,
+        "jmp:22": 1,
+        "jmp:307": 1,
+        "jmp:33": 1,
+        "jmp:336": 1,
+        "jmp:338": 1,
+        "jmp:365": 1,
+        "jmp:66": 1,
+        "m21:138": 1,
+        "m21:140": 1,
+        "m21:150": 1,
+        "m21:154": 1,
+        "m21:159": 1,
+        "m21:165": 1,
+        "m21:269": 6
+      }
+    },
+    "spirits_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:139": 1,
+        "jmp:140": 1,
+        "jmp:149": 1,
+        "jmp:151": 1,
+        "jmp:157": 1,
+        "jmp:160": 1,
+        "jmp:196": 1,
+        "jmp:36": 1,
+        "jmp:51": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:51": 1,
+        "m21:65": 1,
+        "m21:70": 1,
+        "m21:81": 1
+      }
+    },
+    "spirits_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:139": 1,
+        "jmp:149": 1,
+        "jmp:160": 1,
+        "jmp:166": 1,
+        "jmp:196": 1,
+        "jmp:36": 1,
+        "jmp:51": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:51": 1,
+        "m21:63": 1,
+        "m21:65": 1,
+        "m21:66": 1,
+        "m21:70": 1,
+        "m21:81": 1
+      }
+    },
+    "spooky_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:202": 1,
+        "jmp:212": 1,
+        "jmp:226": 1,
+        "jmp:228": 1,
+        "jmp:242": 1,
+        "jmp:37": 1,
+        "jmp:61": 1,
+        "m21:110": 1,
+        "m21:112": 1,
+        "m21:126": 1,
+        "m21:266": 6,
+        "m21:91": 1,
+        "m21:93": 1,
+        "m21:98": 1,
+        "m21:99": 1
+      }
+    },
+    "spooky_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:202": 1,
+        "jmp:212": 1,
+        "jmp:213": 1,
+        "jmp:226": 1,
+        "jmp:228": 1,
+        "jmp:242": 1,
+        "jmp:243": 1,
+        "jmp:273": 1,
+        "jmp:37": 1,
+        "jmp:61": 1,
+        "m21:112": 1,
+        "m21:266": 6,
+        "m21:91": 1,
+        "m21:93": 1,
+        "m21:99": 1
+      }
+    },
+    "spooky_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:212": 1,
+        "jmp:226": 1,
+        "jmp:228": 1,
+        "jmp:242": 1,
+        "jmp:246": 1,
+        "jmp:260": 1,
+        "jmp:37": 1,
+        "jmp:61": 1,
+        "m21:109": 1,
+        "m21:112": 1,
+        "m21:266": 6,
+        "m21:91": 1,
+        "m21:93": 1,
+        "m21:98": 1,
+        "m21:99": 1
+      }
+    },
+    "spooky_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:204": 1,
+        "jmp:212": 1,
+        "jmp:226": 1,
+        "jmp:228": 1,
+        "jmp:242": 1,
+        "jmp:268": 1,
+        "jmp:273": 1,
+        "jmp:37": 1,
+        "jmp:61": 1,
+        "m21:109": 1,
+        "m21:112": 1,
+        "m21:266": 6,
+        "m21:91": 1,
+        "m21:93": 1,
+        "m21:99": 1
+      }
+    },
+    "teferi": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:152": 1,
+        "jmp:156": 1,
+        "jmp:164": 1,
+        "jmp:171": 1,
+        "jmp:182": 1,
+        "jmp:36": 1,
+        "m21:263": 6,
+        "m21:310": 1,
+        "m21:59": 1,
+        "m21:75": 1,
+        "m21:76": 1,
+        "m21:77": 1,
+        "m21:78": 1,
+        "m21:80": 1,
+        "m21:83": 1
+      }
+    },
+    "tree_hugging_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:374": 1,
+        "jmp:375": 1,
+        "jmp:386": 1,
+        "jmp:393": 1,
+        "jmp:412": 1,
+        "jmp:422": 1,
+        "jmp:442": 1,
+        "jmp:70": 1,
+        "m21:174": 1,
+        "m21:187": 1,
+        "m21:193": 1,
+        "m21:207": 1,
+        "m21:213": 1,
+        "m21:272": 6
+      }
+    },
+    "tree_hugging_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:375": 1,
+        "jmp:386": 1,
+        "jmp:393": 1,
+        "jmp:412": 1,
+        "jmp:422": 1,
+        "jmp:442": 1,
+        "jmp:445": 1,
+        "jmp:70": 1,
+        "m21:174": 1,
+        "m21:187": 1,
+        "m21:193": 1,
+        "m21:207": 1,
+        "m21:213": 1,
+        "m21:272": 6
+      }
+    },
+    "tree_hugging_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:374": 1,
+        "jmp:375": 1,
+        "jmp:386": 1,
+        "jmp:393": 1,
+        "jmp:412": 1,
+        "jmp:442": 1,
+        "jmp:70": 1,
+        "m21:174": 1,
+        "m21:187": 1,
+        "m21:191": 1,
+        "m21:193": 1,
+        "m21:207": 1,
+        "m21:213": 1,
+        "m21:272": 6
+      }
+    },
+    "tree_hugging_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:34": 1,
+        "jmp:386": 1,
+        "jmp:393": 1,
+        "jmp:412": 1,
+        "jmp:432": 1,
+        "jmp:441": 1,
+        "jmp:442": 1,
+        "jmp:445": 1,
+        "jmp:70": 1,
+        "m21:174": 1,
+        "m21:187": 1,
+        "m21:193": 1,
+        "m21:207": 1,
+        "m21:213": 1,
+        "m21:272": 6
+      }
+    },
+    "under_the_sea_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:138": 1,
+        "jmp:161": 1,
+        "jmp:177": 1,
+        "jmp:189": 1,
+        "jmp:192": 1,
+        "jmp:197": 1,
+        "jmp:36": 1,
+        "jmp:46": 1,
+        "jmp:489": 1,
+        "m21:263": 7,
+        "m21:60": 1,
+        "m21:67": 1,
+        "m21:80": 1,
+        "m21:84": 1
+      }
+    },
+    "under_the_sea_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:138": 1,
+        "jmp:146": 1,
+        "jmp:161": 1,
+        "jmp:177": 1,
+        "jmp:180": 1,
+        "jmp:192": 1,
+        "jmp:193": 1,
+        "jmp:197": 1,
+        "jmp:36": 1,
+        "jmp:46": 1,
+        "jmp:489": 1,
+        "m21:263": 7,
+        "m21:60": 1,
+        "m21:84": 1
+      }
+    },
+    "unicorns": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:1": 1,
+        "jmp:110": 1,
+        "jmp:112": 1,
+        "jmp:122": 1,
+        "jmp:131": 1,
+        "jmp:136": 1,
+        "jmp:2": 1,
+        "jmp:3": 1,
+        "jmp:35": 1,
+        "jmp:41": 1,
+        "jmp:97": 1,
+        "m21:14": 1,
+        "m21:17": 1,
+        "m21:260": 6,
+        "m21:42": 1
+      }
+    },
+    "vampires_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:199": 1,
+        "jmp:206": 1,
+        "jmp:209": 1,
+        "jmp:229": 1,
+        "jmp:239": 1,
+        "jmp:245": 1,
+        "jmp:247": 1,
+        "jmp:37": 1,
+        "jmp:60": 1,
+        "m21:100": 1,
+        "m21:121": 1,
+        "m21:122": 1,
+        "m21:127": 1,
+        "m21:266": 6
+      }
+    },
+    "vampires_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:199": 1,
+        "jmp:208": 1,
+        "jmp:209": 1,
+        "jmp:218": 1,
+        "jmp:229": 1,
+        "jmp:239": 1,
+        "jmp:247": 1,
+        "jmp:37": 1,
+        "jmp:60": 1,
+        "m21:100": 1,
+        "m21:121": 1,
+        "m21:122": 1,
+        "m21:127": 1,
+        "m21:266": 6
+      }
+    },
+    "vampires_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:199": 1,
+        "jmp:209": 1,
+        "jmp:231": 1,
+        "jmp:239": 1,
+        "jmp:247": 1,
+        "jmp:272": 1,
+        "jmp:275": 1,
+        "jmp:285": 1,
+        "jmp:37": 1,
+        "jmp:60": 1,
+        "m21:100": 1,
+        "m21:121": 1,
+        "m21:122": 1,
+        "m21:266": 6
+      }
+    },
+    "vampires_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:16": 1,
+        "jmp:199": 1,
+        "jmp:209": 1,
+        "jmp:218": 1,
+        "jmp:225": 1,
+        "jmp:232": 1,
+        "jmp:239": 1,
+        "jmp:247": 1,
+        "jmp:254": 1,
+        "jmp:37": 1,
+        "jmp:60": 1,
+        "m21:100": 1,
+        "m21:121": 1,
+        "m21:122": 1,
+        "m21:266": 6
+      }
+    },
+    "walls": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:31": 1,
+        "jmp:34": 1,
+        "jmp:378": 1,
+        "jmp:382": 1,
+        "jmp:386": 1,
+        "jmp:401": 1,
+        "jmp:417": 1,
+        "jmp:442": 1,
+        "jmp:443": 1,
+        "jmp:465": 1,
+        "jmp:480": 1,
+        "jmp:490": 1,
+        "jmp:75": 1,
+        "m21:195": 1,
+        "m21:272": 6
+      }
+    },
+    "well_read_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:13": 1,
+        "jmp:147": 1,
+        "jmp:150": 1,
+        "jmp:159": 1,
+        "jmp:162": 1,
+        "jmp:36": 1,
+        "jmp:481": 1,
+        "jmp:487": 1,
+        "jmp:53": 1,
+        "m21:263": 6,
+        "m21:55": 1,
+        "m21:59": 1,
+        "m21:67": 1,
+        "m21:80": 1,
+        "m21:81": 1
+      }
+    },
+    "well_read_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:13": 1,
+        "jmp:147": 1,
+        "jmp:150": 1,
+        "jmp:162": 1,
+        "jmp:36": 1,
+        "jmp:459": 1,
+        "jmp:481": 1,
+        "jmp:53": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:55": 1,
+        "m21:59": 1,
+        "m21:67": 1,
+        "m21:80": 1,
+        "m21:81": 1
+      }
+    },
+    "well_read_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:143": 1,
+        "jmp:147": 1,
+        "jmp:150": 1,
+        "jmp:159": 1,
+        "jmp:162": 1,
+        "jmp:169": 1,
+        "jmp:36": 1,
+        "jmp:481": 1,
+        "jmp:487": 1,
+        "jmp:53": 1,
+        "m21:263": 6,
+        "m21:55": 1,
+        "m21:59": 1,
+        "m21:80": 1,
+        "m21:81": 1
+      }
+    },
+    "well_read_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:143": 1,
+        "jmp:147": 1,
+        "jmp:158": 1,
+        "jmp:162": 1,
+        "jmp:167": 1,
+        "jmp:36": 1,
+        "jmp:481": 1,
+        "jmp:487": 1,
+        "jmp:53": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:55": 1,
+        "m21:59": 1,
+        "m21:80": 1,
+        "m21:81": 1
+      }
+    },
+    "witchcraft_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:18": 1,
+        "jmp:201": 1,
+        "jmp:210": 1,
+        "jmp:211": 1,
+        "jmp:216": 1,
+        "jmp:234": 2,
+        "jmp:253": 1,
+        "jmp:283": 1,
+        "jmp:37": 1,
+        "jmp:460": 1,
+        "jmp:59": 1,
+        "m21:129": 1,
+        "m21:266": 6,
+        "m21:99": 1
+      }
+    },
+    "witchcraft_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:18": 1,
+        "jmp:201": 1,
+        "jmp:203": 1,
+        "jmp:207": 1,
+        "jmp:210": 1,
+        "jmp:211": 1,
+        "jmp:234": 2,
+        "jmp:247": 1,
+        "jmp:282": 1,
+        "jmp:283": 1,
+        "jmp:37": 1,
+        "jmp:460": 1,
+        "jmp:59": 1,
+        "m21:266": 6
+      }
+    },
+    "wizards_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:140": 1,
+        "jmp:153": 1,
+        "jmp:171": 1,
+        "jmp:181": 1,
+        "jmp:182": 1,
+        "jmp:196": 1,
+        "jmp:198": 1,
+        "jmp:36": 1,
+        "jmp:47": 1,
+        "m21:263": 6,
+        "m21:51": 1,
+        "m21:59": 1,
+        "m21:62": 1,
+        "m21:71": 1,
+        "m21:83": 1
+      }
+    },
+    "wizards_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:145": 1,
+        "jmp:153": 1,
+        "jmp:171": 1,
+        "jmp:173": 1,
+        "jmp:182": 1,
+        "jmp:196": 1,
+        "jmp:198": 1,
+        "jmp:36": 1,
+        "jmp:47": 1,
+        "jmp:494": 1,
+        "m21:263": 5,
+        "m21:59": 1,
+        "m21:62": 1,
+        "m21:66": 1,
+        "m21:71": 1,
+        "m21:83": 1
+      }
+    },
+    "wizards_3": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:171": 1,
+        "jmp:181": 1,
+        "jmp:182": 1,
+        "jmp:196": 1,
+        "jmp:198": 1,
+        "jmp:36": 1,
+        "jmp:47": 1,
+        "m21:263": 6,
+        "m21:47": 1,
+        "m21:59": 1,
+        "m21:62": 1,
+        "m21:71": 1,
+        "m21:77": 1,
+        "m21:82": 1,
+        "m21:83": 1
+      }
+    },
+    "wizards_4": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "jmp:163": 1,
+        "jmp:171": 1,
+        "jmp:179": 1,
+        "jmp:182": 1,
+        "jmp:198": 1,
+        "jmp:36": 1,
+        "jmp:47": 1,
+        "m21:263": 6,
+        "m21:45": 1,
+        "m21:51": 1,
+        "m21:61": 1,
+        "m21:62": 1,
+        "m21:71": 1,
+        "m21:77": 1,
+        "m21:83": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jmp",
+    "m21"
+  ]
+}

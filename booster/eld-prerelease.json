@@ -1,0 +1,92 @@
+{
+  "name": "Throne of Eldraine Prerelease Promo Pack",
+  "code": "eld-prerelease",
+  "set_code": "eld",
+  "set_name": "Throne of Eldraine",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "peld:100s:foil": 2,
+        "peld:101s:foil": 1,
+        "peld:110s:foil": 2,
+        "peld:111s:foil": 2,
+        "peld:115sa:foil": 2,
+        "peld:120s:foil": 1,
+        "peld:124s:foil": 2,
+        "peld:125s:foil": 2,
+        "peld:127s:foil": 2,
+        "peld:128s:foil": 2,
+        "peld:133s:foil": 2,
+        "peld:138s:foil": 1,
+        "peld:144s:foil": 2,
+        "peld:147s:foil": 2,
+        "peld:14sa:foil": 2,
+        "peld:152s:foil": 2,
+        "peld:160s:foil": 2,
+        "peld:161s:foil": 1,
+        "peld:165sa:foil": 2,
+        "peld:169s:foil": 2,
+        "peld:16s:foil": 2,
+        "peld:171s:foil": 1,
+        "peld:172s:foil": 2,
+        "peld:17s:foil": 1,
+        "peld:181s:foil": 2,
+        "peld:182s:foil": 2,
+        "peld:185s:foil": 2,
+        "peld:186s:foil": 2,
+        "peld:187s:foil": 2,
+        "peld:189s:foil": 2,
+        "peld:18s:foil": 2,
+        "peld:190s:foil": 2,
+        "peld:191s:foil": 1,
+        "peld:195s:foil": 2,
+        "peld:197s:foil": 1,
+        "peld:198s:foil": 1,
+        "peld:199s:foil": 1,
+        "peld:1s:foil": 2,
+        "peld:203s:foil": 2,
+        "peld:20s:foil": 2,
+        "peld:233s:foil": 2,
+        "peld:235s:foil": 2,
+        "peld:238s:foil": 2,
+        "peld:239s:foil": 2,
+        "peld:240s:foil": 2,
+        "peld:241s:foil": 2,
+        "peld:242s:foil": 2,
+        "peld:244s:foil": 2,
+        "peld:26sa:foil": 1,
+        "peld:36s:foil": 2,
+        "peld:39sa:foil": 1,
+        "peld:43s:foil": 2,
+        "peld:44sa:foil": 2,
+        "peld:46s:foil": 2,
+        "peld:48s:foil": 2,
+        "peld:51s:foil": 1,
+        "peld:54s:foil": 2,
+        "peld:55s:foil": 2,
+        "peld:66s:foil": 2,
+        "peld:71s:foil": 2,
+        "peld:75s:foil": 2,
+        "peld:79s:foil": 2,
+        "peld:82s:foil": 1,
+        "peld:84s:foil": 2,
+        "peld:8s:foil": 2,
+        "peld:97sa:foil": 2,
+        "peld:98s:foil": 2,
+        "peld:9s:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "peld"
+  ]
+}

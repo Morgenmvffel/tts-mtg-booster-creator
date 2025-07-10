@@ -1,0 +1,248 @@
+{
+  "name": "Kaldheim Theme Booster Vikings",
+  "code": "khm-theme-vikings",
+  "set_code": "khm",
+  "set_name": "Kaldheim",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 44,
+      "cards": {
+        "khm:103": 1,
+        "khm:106": 1,
+        "khm:108": 1,
+        "khm:110": 1,
+        "khm:113": 1,
+        "khm:116": 1,
+        "khm:128": 1,
+        "khm:130": 1,
+        "khm:132": 1,
+        "khm:135": 1,
+        "khm:137": 1,
+        "khm:144": 1,
+        "khm:148": 1,
+        "khm:162": 1,
+        "khm:163": 1,
+        "khm:170": 1,
+        "khm:18": 1,
+        "khm:191": 1,
+        "khm:2": 1,
+        "khm:209": 1,
+        "khm:212": 1,
+        "khm:216": 1,
+        "khm:220": 1,
+        "khm:222": 1,
+        "khm:230": 1,
+        "khm:25": 1,
+        "khm:28": 1,
+        "khm:30": 1,
+        "khm:35": 1,
+        "khm:379": 1,
+        "khm:380": 1,
+        "khm:381": 1,
+        "khm:383": 1,
+        "khm:384": 1,
+        "khm:385": 1,
+        "khm:386": 1,
+        "khm:387": 1,
+        "khm:389": 1,
+        "khm:391": 1,
+        "khm:60": 1,
+        "khm:75": 1,
+        "khm:76": 1,
+        "khm:8": 1,
+        "khm:80": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 74,
+      "cards": {
+        "khm:1": 1,
+        "khm:10": 1,
+        "khm:100": 1,
+        "khm:101": 1,
+        "khm:102": 1,
+        "khm:104": 1,
+        "khm:105": 1,
+        "khm:111": 1,
+        "khm:117": 1,
+        "khm:118": 1,
+        "khm:119": 1,
+        "khm:121": 1,
+        "khm:124": 1,
+        "khm:126": 1,
+        "khm:129": 1,
+        "khm:134": 1,
+        "khm:138": 1,
+        "khm:14": 1,
+        "khm:140": 1,
+        "khm:141": 1,
+        "khm:143": 1,
+        "khm:147": 1,
+        "khm:149": 1,
+        "khm:150": 1,
+        "khm:151": 1,
+        "khm:152": 1,
+        "khm:157": 1,
+        "khm:158": 1,
+        "khm:159": 1,
+        "khm:16": 1,
+        "khm:164": 1,
+        "khm:165": 1,
+        "khm:17": 1,
+        "khm:171": 1,
+        "khm:173": 1,
+        "khm:175": 1,
+        "khm:176": 1,
+        "khm:178": 1,
+        "khm:180": 1,
+        "khm:183": 1,
+        "khm:19": 1,
+        "khm:190": 1,
+        "khm:193": 1,
+        "khm:194": 1,
+        "khm:196": 1,
+        "khm:23": 1,
+        "khm:31": 1,
+        "khm:34": 1,
+        "khm:37": 1,
+        "khm:38": 1,
+        "khm:39": 1,
+        "khm:4": 1,
+        "khm:42": 1,
+        "khm:46": 1,
+        "khm:48": 1,
+        "khm:49": 1,
+        "khm:5": 1,
+        "khm:53": 1,
+        "khm:54": 1,
+        "khm:55": 1,
+        "khm:67": 1,
+        "khm:7": 1,
+        "khm:72": 1,
+        "khm:74": 1,
+        "khm:77": 1,
+        "khm:78": 1,
+        "khm:83": 1,
+        "khm:84": 1,
+        "khm:87": 1,
+        "khm:89": 1,
+        "khm:91": 1,
+        "khm:93": 1,
+        "khm:95": 1,
+        "khm:96": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 65,
+      "cards": {
+        "khm:107": 2,
+        "khm:109": 2,
+        "khm:115": 2,
+        "khm:12": 2,
+        "khm:120": 2,
+        "khm:125": 2,
+        "khm:131": 2,
+        "khm:142": 2,
+        "khm:145": 1,
+        "khm:146": 2,
+        "khm:153": 2,
+        "khm:156": 2,
+        "khm:161": 2,
+        "khm:167": 2,
+        "khm:185": 2,
+        "khm:22": 1,
+        "khm:24": 2,
+        "khm:26": 2,
+        "khm:27": 2,
+        "khm:29": 2,
+        "khm:33": 1,
+        "khm:374": 2,
+        "khm:376": 2,
+        "khm:377": 2,
+        "khm:378": 2,
+        "khm:41": 1,
+        "khm:61": 2,
+        "khm:69": 2,
+        "khm:79": 2,
+        "khm:81": 1,
+        "khm:82": 2,
+        "khm:86": 2,
+        "khm:9": 2,
+        "khm:90": 2,
+        "khm:94": 1,
+        "khm:98": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "khm"
+  ]
+}

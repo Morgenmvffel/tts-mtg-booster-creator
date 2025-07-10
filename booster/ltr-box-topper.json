@@ -1,0 +1,54 @@
+{
+  "name": "The Lord of the Rings: Tales of Middle-earth Box Topper Pack",
+  "code": "ltr-box-topper",
+  "set_code": "ltr",
+  "set_name": "The Lord of the Rings: Tales of Middle-earth",
+  "boosters": [
+    {
+      "sheets": {
+        "box_topper": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "box_topper": {
+      "total_weight": 30,
+      "cards": {
+        "ltc:348:foil": 1,
+        "ltc:349:foil": 1,
+        "ltc:350:foil": 1,
+        "ltc:351:foil": 1,
+        "ltc:352:foil": 1,
+        "ltc:353:foil": 1,
+        "ltc:354:foil": 1,
+        "ltc:355:foil": 1,
+        "ltc:356:foil": 1,
+        "ltc:357:foil": 1,
+        "ltc:358:foil": 1,
+        "ltc:359:foil": 1,
+        "ltc:360:foil": 1,
+        "ltc:361:foil": 1,
+        "ltc:362:foil": 1,
+        "ltc:363:foil": 1,
+        "ltc:364:foil": 1,
+        "ltc:365:foil": 1,
+        "ltc:366:foil": 1,
+        "ltc:367:foil": 1,
+        "ltc:368:foil": 1,
+        "ltc:369:foil": 1,
+        "ltc:370:foil": 1,
+        "ltc:371:foil": 1,
+        "ltc:372:foil": 1,
+        "ltc:373:foil": 1,
+        "ltc:374:foil": 1,
+        "ltc:375:foil": 1,
+        "ltc:376:foil": 1,
+        "ltc:377:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "ltc"
+  ]
+}

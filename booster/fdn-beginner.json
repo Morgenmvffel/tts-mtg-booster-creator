@@ -1,0 +1,271 @@
+{
+  "name": "Foundations Beginners Box Booster",
+  "code": "fdn-beginner",
+  "set_code": "fdn",
+  "set_name": "Foundations",
+  "boosters": [
+    {
+      "sheets": {
+        "cats": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "elves": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "goblins": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "healing": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "inferno": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "pirates": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "primal": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "undead": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "vampires": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "wizards": 20
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "cats": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:12": 1,
+        "fdn:146": 1,
+        "fdn:16": 1,
+        "fdn:21": 1,
+        "fdn:272": 7,
+        "fdn:490": 1,
+        "fdn:493": 1,
+        "fdn:495": 1,
+        "fdn:497": 1,
+        "fdn:498": 1,
+        "fdn:499": 1,
+        "fdn:500": 1,
+        "fdn:501": 1,
+        "fdn:564": 1
+      }
+    },
+    "elves": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:100": 1,
+        "fdn:104": 1,
+        "fdn:105": 1,
+        "fdn:214": 1,
+        "fdn:218": 1,
+        "fdn:219": 1,
+        "fdn:227": 1,
+        "fdn:233": 1,
+        "fdn:280": 7,
+        "fdn:555": 1,
+        "fdn:558": 1,
+        "fdn:559": 1,
+        "fdn:561": 1,
+        "fdn:564": 1
+      }
+    },
+    "goblins": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:199": 1,
+        "fdn:278": 7,
+        "fdn:533": 1,
+        "fdn:535": 1,
+        "fdn:537": 1,
+        "fdn:539": 1,
+        "fdn:540": 1,
+        "fdn:542": 1,
+        "fdn:543": 1,
+        "fdn:548": 1,
+        "fdn:550": 1,
+        "fdn:562": 1,
+        "fdn:564": 1,
+        "fdn:90": 1
+      }
+    },
+    "healing": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:130": 1,
+        "fdn:135": 1,
+        "fdn:272": 7,
+        "fdn:488": 1,
+        "fdn:489": 1,
+        "fdn:491": 1,
+        "fdn:492": 1,
+        "fdn:494": 1,
+        "fdn:496": 1,
+        "fdn:502": 1,
+        "fdn:503": 1,
+        "fdn:564": 1,
+        "fdn:730": 1,
+        "fdn:9": 1
+      }
+    },
+    "inferno": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:197": 1,
+        "fdn:278": 8,
+        "fdn:534": 1,
+        "fdn:536": 1,
+        "fdn:538": 1,
+        "fdn:541": 1,
+        "fdn:544": 1,
+        "fdn:545": 1,
+        "fdn:546": 1,
+        "fdn:547": 1,
+        "fdn:549": 1,
+        "fdn:564": 1,
+        "fdn:86": 1
+      }
+    },
+    "pirates": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:152": 1,
+        "fdn:164": 1,
+        "fdn:167": 1,
+        "fdn:274": 7,
+        "fdn:31": 1,
+        "fdn:50": 1,
+        "fdn:505": 1,
+        "fdn:506": 1,
+        "fdn:507": 1,
+        "fdn:510": 1,
+        "fdn:512": 1,
+        "fdn:515": 1,
+        "fdn:563": 1,
+        "fdn:564": 1
+      }
+    },
+    "primal": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:212": 1,
+        "fdn:223": 1,
+        "fdn:228": 1,
+        "fdn:236": 1,
+        "fdn:280": 8,
+        "fdn:551": 1,
+        "fdn:552": 1,
+        "fdn:553": 1,
+        "fdn:554": 1,
+        "fdn:556": 1,
+        "fdn:557": 1,
+        "fdn:560": 1,
+        "fdn:564": 1
+      }
+    },
+    "undead": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:171": 1,
+        "fdn:172": 1,
+        "fdn:182": 1,
+        "fdn:276": 7,
+        "fdn:517": 1,
+        "fdn:519": 1,
+        "fdn:520": 1,
+        "fdn:521": 1,
+        "fdn:523": 1,
+        "fdn:526": 1,
+        "fdn:527": 1,
+        "fdn:528": 1,
+        "fdn:564": 1,
+        "fdn:62": 1
+      }
+    },
+    "vampires": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:175": 1,
+        "fdn:185": 1,
+        "fdn:276": 7,
+        "fdn:516": 1,
+        "fdn:518": 1,
+        "fdn:522": 1,
+        "fdn:524": 1,
+        "fdn:525": 1,
+        "fdn:529": 1,
+        "fdn:530": 1,
+        "fdn:531": 1,
+        "fdn:532": 1,
+        "fdn:564": 1,
+        "fdn:76": 1
+      }
+    },
+    "wizards": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "fdn:155": 1,
+        "fdn:274": 7,
+        "fdn:29": 1,
+        "fdn:33": 1,
+        "fdn:37": 1,
+        "fdn:42": 1,
+        "fdn:47": 1,
+        "fdn:504": 1,
+        "fdn:508": 1,
+        "fdn:509": 1,
+        "fdn:511": 1,
+        "fdn:513": 1,
+        "fdn:514": 1,
+        "fdn:564": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "fdn"
+  ]
+}

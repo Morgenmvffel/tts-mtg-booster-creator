@@ -1,0 +1,131 @@
+{
+  "name": "Dominaria Theme Booster Green",
+  "code": "dom-theme-g",
+  "set_code": "dom",
+  "set_name": "Dominaria",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 58,
+      "cards": {
+        "dom:159": 4,
+        "dom:160": 4,
+        "dom:161": 4,
+        "dom:165": 4,
+        "dom:175": 4,
+        "dom:179": 4,
+        "dom:180": 4,
+        "dom:181": 4,
+        "dom:185": 4,
+        "dom:186": 4,
+        "dom:188": 4,
+        "dom:210": 1,
+        "dom:213": 1,
+        "dom:218": 1,
+        "dom:219": 1,
+        "dom:220": 1,
+        "dom:222": 1,
+        "dom:228": 1,
+        "dom:231": 1,
+        "dom:235": 1,
+        "dom:245": 4,
+        "dom:249": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 83,
+      "cards": {
+        "dom:153": 4,
+        "dom:154": 4,
+        "dom:155": 4,
+        "dom:156": 4,
+        "dom:157": 4,
+        "dom:158": 4,
+        "dom:162": 4,
+        "dom:163": 4,
+        "dom:164": 4,
+        "dom:167": 4,
+        "dom:168": 4,
+        "dom:169": 4,
+        "dom:170": 4,
+        "dom:171": 4,
+        "dom:176": 4,
+        "dom:177": 4,
+        "dom:178": 4,
+        "dom:189": 4,
+        "dom:209": 1,
+        "dom:212": 1,
+        "dom:216": 1,
+        "dom:221": 1,
+        "dom:225": 1,
+        "dom:226": 1,
+        "dom:227": 1,
+        "dom:229": 1,
+        "dom:230": 1,
+        "dom:232": 1,
+        "dom:236": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 77,
+      "cards": {
+        "dom:1": 1,
+        "dom:166": 8,
+        "dom:172": 8,
+        "dom:173": 8,
+        "dom:174": 4,
+        "dom:182": 8,
+        "dom:183": 8,
+        "dom:184": 8,
+        "dom:187": 8,
+        "dom:211": 2,
+        "dom:214": 2,
+        "dom:215": 2,
+        "dom:217": 2,
+        "dom:223": 2,
+        "dom:224": 1,
+        "dom:233": 2,
+        "dom:234": 2,
+        "dom:237": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "dom"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Dragons of Tarkir Seeded Prerelease Booster Dromoka",
+  "code": "dtk-prerelease-dromoka",
+  "set_code": "dtk",
+  "set_name": "Dragons of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 30,
+      "cards": {
+        "dtk:13": 1,
+        "dtk:14": 1,
+        "dtk:16": 1,
+        "dtk:17": 1,
+        "dtk:170": 1,
+        "dtk:171": 1,
+        "dtk:178": 1,
+        "dtk:179": 1,
+        "dtk:18": 1,
+        "dtk:185": 1,
+        "dtk:189": 1,
+        "dtk:193": 1,
+        "dtk:195": 1,
+        "dtk:197": 1,
+        "dtk:200": 1,
+        "dtk:202": 1,
+        "dtk:203": 1,
+        "dtk:205": 1,
+        "dtk:206": 1,
+        "dtk:211": 1,
+        "dtk:22": 1,
+        "dtk:24": 1,
+        "dtk:25": 1,
+        "dtk:29": 1,
+        "dtk:32": 1,
+        "dtk:33": 1,
+        "dtk:34": 1,
+        "dtk:43": 1,
+        "dtk:6": 1,
+        "dtk:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 19,
+      "cards": {
+        "dtk:10": 1,
+        "dtk:12": 1,
+        "dtk:15": 1,
+        "dtk:182": 1,
+        "dtk:184": 1,
+        "dtk:186": 1,
+        "dtk:191": 1,
+        "dtk:196": 1,
+        "dtk:198": 1,
+        "dtk:199": 1,
+        "dtk:201": 1,
+        "dtk:207": 1,
+        "dtk:222": 1,
+        "dtk:238": 1,
+        "dtk:35": 1,
+        "dtk:37": 1,
+        "dtk:38": 1,
+        "dtk:42": 1,
+        "dtk:7": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pdtk:175s:foil": 2,
+        "pdtk:212s:foil": 2,
+        "pdtk:217s:foil": 1,
+        "pdtk:221s:foil": 2,
+        "pdtk:23s:foil": 2,
+        "pdtk:2s:foil": 2,
+        "pdtk:3s:foil": 2,
+        "pdtk:41s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dtk",
+    "pdtk"
+  ]
+}

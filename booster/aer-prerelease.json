@@ -1,0 +1,78 @@
+{
+  "name": "Aether Revolt Prerelease Promo Pack",
+  "code": "aer-prerelease",
+  "set_code": "aer",
+  "set_name": "Aether Revolt",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 96,
+      "cards": {
+        "paer:104s:foil": 1,
+        "paer:105s:foil": 2,
+        "paer:107s:foil": 2,
+        "paer:108s:foil": 2,
+        "paer:109s:foil": 2,
+        "paer:11s:foil": 2,
+        "paer:122s:foil": 2,
+        "paer:123s:foil": 2,
+        "paer:127s:foil": 1,
+        "paer:128s:foil": 2,
+        "paer:131s:foil": 2,
+        "paer:137s:foil": 1,
+        "paer:142s:foil": 2,
+        "paer:152s:foil": 1,
+        "paer:153s:foil": 1,
+        "paer:154s:foil": 2,
+        "paer:160s:foil": 2,
+        "paer:162s:foil": 2,
+        "paer:163s:foil": 2,
+        "paer:164s:foil": 2,
+        "paer:169s:foil": 1,
+        "paer:170s:foil": 2,
+        "paer:171s:foil": 1,
+        "paer:175s:foil": 2,
+        "paer:181s:foil": 2,
+        "paer:184s:foil": 2,
+        "paer:18s:foil": 1,
+        "paer:22s:foil": 2,
+        "paer:23s:foil": 2,
+        "paer:24s:foil": 2,
+        "paer:27s:foil": 2,
+        "paer:28s:foil": 2,
+        "paer:29s:foil": 2,
+        "paer:31s:foil": 2,
+        "paer:38s:foil": 1,
+        "paer:41s:foil": 2,
+        "paer:49s:foil": 2,
+        "paer:4s:foil": 2,
+        "paer:53s:foil": 2,
+        "paer:62s:foil": 2,
+        "paer:64s:foil": 1,
+        "paer:66s:foil": 2,
+        "paer:71s:foil": 2,
+        "paer:74s:foil": 2,
+        "paer:75s:foil": 2,
+        "paer:81s:foil": 2,
+        "paer:85s:foil": 1,
+        "paer:87s:foil": 2,
+        "paer:88s:foil": 2,
+        "paer:90s:foil": 1,
+        "paer:91s:foil": 2,
+        "paer:93s:foil": 2,
+        "paer:96s:foil": 2,
+        "paer:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "paer"
+  ]
+}

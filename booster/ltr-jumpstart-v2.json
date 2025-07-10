@@ -1,0 +1,332 @@
+{
+  "name": "The Lord of the Rings: Tales of Middle-earth Jumpstart Booster Volume 2",
+  "code": "ltr-jumpstart-v2",
+  "set_code": "ltr",
+  "set_name": "The Lord of the Rings: Tales of Middle-earth",
+  "boosters": [
+    {
+      "sheets": {
+        "mortals_1": 19,
+        "white_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "mortals_2": 19,
+        "white_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "elven_1": 19,
+        "green_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "elven_2": 19,
+        "green_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "riders_1": 19,
+        "red_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "riders_2": 19,
+        "red_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "orcish_1": 19,
+        "black_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "orcish_2": 19,
+        "black_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "cunning_1": 19,
+        "blue_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "cunning_2": 19,
+        "blue_rare": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "mortals_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:1": 1,
+        "ltr:10": 1,
+        "ltr:14": 1,
+        "ltr:16": 1,
+        "ltr:237": 1,
+        "ltr:262": 8,
+        "ltr:29": 1,
+        "ltr:30": 1,
+        "ltr:32": 1,
+        "ltr:35": 1,
+        "ltr:8": 1,
+        "ltr:824": 1
+      }
+    },
+    "white_rare": {
+      "total_weight": 15,
+      "cards": {
+        "ltr:15": 2,
+        "ltr:18": 2,
+        "ltr:19": 1,
+        "ltr:2": 2,
+        "ltr:245": 2,
+        "ltr:246": 1,
+        "ltr:36": 2,
+        "ltr:4": 2,
+        "ltr:5": 1
+      }
+    },
+    "mortals_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:1": 1,
+        "ltr:11": 1,
+        "ltr:14": 1,
+        "ltr:21": 1,
+        "ltr:242": 1,
+        "ltr:26": 1,
+        "ltr:262": 8,
+        "ltr:28": 1,
+        "ltr:31": 1,
+        "ltr:35": 1,
+        "ltr:824": 1,
+        "ltr:9": 1
+      }
+    },
+    "elven_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:156": 1,
+        "ltr:157": 1,
+        "ltr:162": 1,
+        "ltr:163": 1,
+        "ltr:168": 1,
+        "ltr:171": 1,
+        "ltr:175": 1,
+        "ltr:188": 1,
+        "ltr:189": 1,
+        "ltr:243": 1,
+        "ltr:270": 8,
+        "ltr:828": 1
+      }
+    },
+    "green_rare": {
+      "total_weight": 15,
+      "cards": {
+        "ltr:158": 2,
+        "ltr:160": 2,
+        "ltr:165": 2,
+        "ltr:166": 2,
+        "ltr:172": 1,
+        "ltr:173": 2,
+        "ltr:184": 1,
+        "ltr:186": 2,
+        "ltr:248": 1
+      }
+    },
+    "elven_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:154": 1,
+        "ltr:156": 1,
+        "ltr:157": 1,
+        "ltr:168": 1,
+        "ltr:175": 1,
+        "ltr:178": 1,
+        "ltr:183": 1,
+        "ltr:185": 1,
+        "ltr:189": 1,
+        "ltr:238": 1,
+        "ltr:270": 8,
+        "ltr:828": 1
+      }
+    },
+    "riders_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:121": 1,
+        "ltr:123": 1,
+        "ltr:125": 1,
+        "ltr:131": 1,
+        "ltr:141": 1,
+        "ltr:142": 1,
+        "ltr:144": 1,
+        "ltr:145": 1,
+        "ltr:146": 1,
+        "ltr:148": 1,
+        "ltr:268": 8,
+        "ltr:827": 1
+      }
+    },
+    "red_rare": {
+      "total_weight": 15,
+      "cards": {
+        "ltr:119": 2,
+        "ltr:120": 2,
+        "ltr:124": 2,
+        "ltr:132": 2,
+        "ltr:138": 2,
+        "ltr:149": 1,
+        "ltr:151": 2,
+        "ltr:241": 2
+      }
+    },
+    "riders_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:116": 1,
+        "ltr:121": 1,
+        "ltr:123": 1,
+        "ltr:125": 1,
+        "ltr:130": 1,
+        "ltr:135": 1,
+        "ltr:142": 1,
+        "ltr:144": 1,
+        "ltr:146": 1,
+        "ltr:148": 1,
+        "ltr:268": 8,
+        "ltr:827": 1
+      }
+    },
+    "orcish_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:104": 1,
+        "ltr:105": 1,
+        "ltr:266": 8,
+        "ltr:77": 1,
+        "ltr:82": 1,
+        "ltr:826": 1,
+        "ltr:83": 1,
+        "ltr:86": 1,
+        "ltr:87": 1,
+        "ltr:89": 1,
+        "ltr:95": 1,
+        "ltr:96": 1
+      }
+    },
+    "black_rare": {
+      "total_weight": 15,
+      "cards": {
+        "ltr:102": 2,
+        "ltr:103": 2,
+        "ltr:106": 2,
+        "ltr:107": 1,
+        "ltr:114": 1,
+        "ltr:247": 1,
+        "ltr:79": 2,
+        "ltr:91": 2,
+        "ltr:93": 2
+      }
+    },
+    "orcish_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:113": 1,
+        "ltr:266": 8,
+        "ltr:82": 1,
+        "ltr:826": 1,
+        "ltr:83": 1,
+        "ltr:86": 1,
+        "ltr:87": 1,
+        "ltr:92": 1,
+        "ltr:94": 1,
+        "ltr:96": 1,
+        "ltr:97": 1,
+        "ltr:99": 1
+      }
+    },
+    "cunning_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:264": 8,
+        "ltr:39": 1,
+        "ltr:40": 1,
+        "ltr:41": 1,
+        "ltr:45": 1,
+        "ltr:51": 1,
+        "ltr:55": 1,
+        "ltr:56": 1,
+        "ltr:59": 1,
+        "ltr:62": 1,
+        "ltr:64": 1,
+        "ltr:825": 1
+      }
+    },
+    "blue_rare": {
+      "total_weight": 15,
+      "cards": {
+        "ltr:239": 1,
+        "ltr:240": 2,
+        "ltr:44": 2,
+        "ltr:61": 2,
+        "ltr:65": 2,
+        "ltr:66": 2,
+        "ltr:69": 2,
+        "ltr:72": 1,
+        "ltr:75": 1
+      }
+    },
+    "cunning_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:244": 1,
+        "ltr:264": 8,
+        "ltr:41": 1,
+        "ltr:42": 1,
+        "ltr:45": 1,
+        "ltr:49": 1,
+        "ltr:55": 1,
+        "ltr:57": 1,
+        "ltr:59": 1,
+        "ltr:60": 1,
+        "ltr:64": 1,
+        "ltr:825": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "ltr"
+  ]
+}

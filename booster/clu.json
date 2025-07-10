@@ -1,0 +1,574 @@
+{
+  "name": "Ravnica: Clue Edition Booster",
+  "code": "clu",
+  "set_code": "clu",
+  "set_name": "Ravnica: Clue Edition",
+  "boosters": [
+    {
+      "sheets": {
+        "azorius_senate_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "azorius_senate_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "boros_legion_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "boros_legion_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "cult_of_rakdos_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "cult_of_rakdos_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "golgari_swarm_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "golgari_swarm_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "gruul_clans_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "gruul_clans_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "house_dimir_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "house_dimir_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "izzet_league_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "izzet_league_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "orzhov_syndicate_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "orzhov_syndicate_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "selesnya_conclave_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "selesnya_conclave_2": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "simic_combine_1": 20
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "simic_combine_2": 20
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "azorius_senate_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:183": 1,
+        "clu:211": 1,
+        "clu:229": 1,
+        "clu:230": 1,
+        "clu:251": 1,
+        "clu:254": 5,
+        "clu:36": 1,
+        "clu:40": 1,
+        "clu:54": 1,
+        "clu:55": 1,
+        "clu:60": 1,
+        "clu:64": 1,
+        "clu:67": 1,
+        "clu:69": 1,
+        "clu:77": 1,
+        "clu:80": 1
+      }
+    },
+    "azorius_senate_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:183": 1,
+        "clu:185a": 1,
+        "clu:199": 1,
+        "clu:214": 1,
+        "clu:219": 1,
+        "clu:229": 1,
+        "clu:230": 1,
+        "clu:252": 1,
+        "clu:258": 5,
+        "clu:40": 1,
+        "clu:46": 1,
+        "clu:82": 1,
+        "clu:83": 1,
+        "clu:88": 1,
+        "clu:90": 1,
+        "clu:95": 1
+      }
+    },
+    "boros_legion_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:192": 1,
+        "clu:198a": 1,
+        "clu:22": 1,
+        "clu:220": 1,
+        "clu:231": 1,
+        "clu:232": 1,
+        "clu:251": 1,
+        "clu:254": 5,
+        "clu:39": 1,
+        "clu:61": 1,
+        "clu:65": 1,
+        "clu:66": 1,
+        "clu:68": 1,
+        "clu:70": 1,
+        "clu:73": 1,
+        "mkm:29": 1
+      }
+    },
+    "boros_legion_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:129": 1,
+        "clu:134": 1,
+        "clu:135": 1,
+        "clu:139": 1,
+        "clu:147": 1,
+        "clu:151": 1,
+        "clu:153": 1,
+        "clu:154": 1,
+        "clu:189": 1,
+        "clu:198a": 1,
+        "clu:231": 1,
+        "clu:232": 1,
+        "clu:249": 1,
+        "clu:25": 1,
+        "clu:266": 5,
+        "clu:39": 1
+      }
+    },
+    "cult_of_rakdos_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:106": 1,
+        "clu:108": 1,
+        "clu:109": 1,
+        "clu:113": 1,
+        "clu:119": 1,
+        "clu:122": 1,
+        "clu:126": 1,
+        "clu:191": 1,
+        "clu:226": 1,
+        "clu:243": 1,
+        "clu:244": 1,
+        "clu:253": 1,
+        "clu:262": 5,
+        "clu:32": 1,
+        "clu:35": 1,
+        "mkm:95": 1
+      }
+    },
+    "cult_of_rakdos_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:128": 1,
+        "clu:130": 1,
+        "clu:131": 1,
+        "clu:138": 1,
+        "clu:140": 1,
+        "clu:143": 1,
+        "clu:145": 1,
+        "clu:191": 1,
+        "clu:204": 1,
+        "clu:205": 1,
+        "clu:243": 1,
+        "clu:244": 1,
+        "clu:249": 1,
+        "clu:26": 1,
+        "clu:266": 5,
+        "clu:35": 1
+      }
+    },
+    "golgari_swarm_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:107": 1,
+        "clu:110": 1,
+        "clu:112": 1,
+        "clu:125": 1,
+        "clu:184": 1,
+        "clu:194": 1,
+        "clu:203": 1,
+        "clu:210a": 1,
+        "clu:222": 1,
+        "clu:235": 1,
+        "clu:236": 1,
+        "clu:24": 1,
+        "clu:253": 1,
+        "clu:262": 5,
+        "clu:48": 1,
+        "mkm:91": 1
+      }
+    },
+    "golgari_swarm_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:163": 1,
+        "clu:167": 1,
+        "clu:168": 1,
+        "clu:172": 1,
+        "clu:176": 1,
+        "clu:179": 1,
+        "clu:203": 1,
+        "clu:210a": 1,
+        "clu:215": 1,
+        "clu:235": 1,
+        "clu:236": 1,
+        "clu:250": 1,
+        "clu:270": 5,
+        "clu:43": 1,
+        "clu:48": 1,
+        "mkm:174": 1
+      }
+    },
+    "gruul_clans_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:127": 1,
+        "clu:137": 1,
+        "clu:144": 1,
+        "clu:146": 1,
+        "clu:147": 1,
+        "clu:149": 1,
+        "clu:152": 1,
+        "clu:182": 1,
+        "clu:190": 1,
+        "clu:223": 1,
+        "clu:237": 1,
+        "clu:238": 1,
+        "clu:249": 1,
+        "clu:266": 5,
+        "clu:33": 1,
+        "clu:34": 1
+      }
+    },
+    "gruul_clans_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:156": 1,
+        "clu:159": 1,
+        "clu:160": 1,
+        "clu:162": 1,
+        "clu:164": 1,
+        "clu:165": 1,
+        "clu:169": 1,
+        "clu:175": 1,
+        "clu:180": 1,
+        "clu:202": 1,
+        "clu:237": 1,
+        "clu:238": 1,
+        "clu:250": 1,
+        "clu:270": 5,
+        "clu:33": 1,
+        "clu:44": 1
+      }
+    },
+    "house_dimir_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:104": 1,
+        "clu:186": 1,
+        "clu:187a": 1,
+        "clu:188": 1,
+        "clu:218": 1,
+        "clu:221": 1,
+        "clu:233": 1,
+        "clu:234": 1,
+        "clu:252": 1,
+        "clu:258": 5,
+        "clu:38": 1,
+        "clu:49": 1,
+        "clu:85": 1,
+        "clu:86": 1,
+        "clu:92": 1,
+        "mkm:53": 1
+      }
+    },
+    "house_dimir_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:114": 1,
+        "clu:115": 1,
+        "clu:116": 1,
+        "clu:120": 1,
+        "clu:121": 1,
+        "clu:124": 1,
+        "clu:187a": 1,
+        "clu:212": 1,
+        "clu:218": 1,
+        "clu:233": 1,
+        "clu:234": 1,
+        "clu:253": 1,
+        "clu:262": 5,
+        "clu:30": 1,
+        "clu:49": 1,
+        "mkm:95": 1
+      }
+    },
+    "izzet_league_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:100": 1,
+        "clu:101": 1,
+        "clu:102": 1,
+        "clu:103": 1,
+        "clu:193": 1,
+        "clu:239": 1,
+        "clu:240": 1,
+        "clu:252": 1,
+        "clu:258": 5,
+        "clu:31": 1,
+        "clu:41": 1,
+        "clu:81": 1,
+        "clu:84": 1,
+        "clu:85": 1,
+        "clu:89": 1,
+        "clu:94": 1
+      }
+    },
+    "izzet_league_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:132": 1,
+        "clu:133": 1,
+        "clu:136": 1,
+        "clu:141": 1,
+        "clu:142": 1,
+        "clu:148": 1,
+        "clu:150": 1,
+        "clu:193": 1,
+        "clu:196": 1,
+        "clu:224": 1,
+        "clu:239": 1,
+        "clu:240": 1,
+        "clu:249": 1,
+        "clu:266": 5,
+        "clu:28": 1,
+        "clu:31": 1
+      }
+    },
+    "orzhov_syndicate_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:217": 1,
+        "clu:23": 1,
+        "clu:241": 1,
+        "clu:242": 1,
+        "clu:251": 1,
+        "clu:254": 5,
+        "clu:47": 1,
+        "clu:52": 1,
+        "clu:53": 1,
+        "clu:57": 1,
+        "clu:58": 1,
+        "clu:62": 1,
+        "clu:74": 1,
+        "clu:75": 1,
+        "clu:76": 1,
+        "clu:78": 1
+      }
+    },
+    "orzhov_syndicate_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:105": 1,
+        "clu:111": 1,
+        "clu:117": 1,
+        "clu:118": 1,
+        "clu:123": 1,
+        "clu:201": 1,
+        "clu:208": 1,
+        "clu:225": 1,
+        "clu:23": 1,
+        "clu:241": 1,
+        "clu:242": 1,
+        "clu:253": 1,
+        "clu:262": 5,
+        "clu:29": 1,
+        "mkm:91": 1,
+        "mkm:95": 1
+      }
+    },
+    "selesnya_conclave_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:207": 1,
+        "clu:213": 1,
+        "clu:245": 1,
+        "clu:246": 1,
+        "clu:251": 1,
+        "clu:254": 5,
+        "clu:27": 1,
+        "clu:45": 1,
+        "clu:56": 1,
+        "clu:59": 1,
+        "clu:63": 1,
+        "clu:65": 1,
+        "clu:71": 1,
+        "clu:72": 1,
+        "clu:79": 1,
+        "clu:80": 1
+      }
+    },
+    "selesnya_conclave_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:155": 1,
+        "clu:156": 1,
+        "clu:158": 1,
+        "clu:171": 1,
+        "clu:177": 1,
+        "clu:178": 1,
+        "clu:181": 1,
+        "clu:207": 1,
+        "clu:216": 1,
+        "clu:227": 1,
+        "clu:245": 1,
+        "clu:246": 1,
+        "clu:250": 1,
+        "clu:270": 5,
+        "clu:45": 1,
+        "clu:51": 1
+      }
+    },
+    "simic_combine_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:200": 1,
+        "clu:228": 1,
+        "clu:247": 1,
+        "clu:248": 1,
+        "clu:252": 1,
+        "clu:258": 5,
+        "clu:42": 1,
+        "clu:50": 1,
+        "clu:87": 1,
+        "clu:91": 1,
+        "clu:92": 1,
+        "clu:93": 1,
+        "clu:96": 1,
+        "clu:97": 1,
+        "clu:98": 1,
+        "clu:99": 1
+      }
+    },
+    "simic_combine_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "clu:157": 1,
+        "clu:161": 1,
+        "clu:166": 1,
+        "clu:170": 1,
+        "clu:173": 1,
+        "clu:174": 1,
+        "clu:195": 1,
+        "clu:197a": 1,
+        "clu:206": 1,
+        "clu:209": 1,
+        "clu:247": 1,
+        "clu:248": 1,
+        "clu:250": 1,
+        "clu:270": 5,
+        "clu:37": 1,
+        "clu:42": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "clu",
+    "mkm"
+  ]
+}

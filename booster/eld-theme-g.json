@@ -1,0 +1,156 @@
+{
+  "name": "Throne of Eldraine Theme Booster Green",
+  "code": "eld-theme-g",
+  "set_code": "eld",
+  "set_name": "Throne of Eldraine",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 49,
+      "cards": {
+        "eld:149a": 4,
+        "eld:151": 4,
+        "eld:155a": 4,
+        "eld:159": 4,
+        "eld:163": 4,
+        "eld:164": 4,
+        "eld:167": 4,
+        "eld:168": 4,
+        "eld:177": 4,
+        "eld:179": 4,
+        "eld:216": 1,
+        "eld:218": 1,
+        "eld:222": 1,
+        "eld:223": 1,
+        "eld:226": 1,
+        "eld:230": 1,
+        "eld:232": 1,
+        "eld:234": 1,
+        "eld:237": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 83,
+      "cards": {
+        "eld:150a": 4,
+        "eld:153": 4,
+        "eld:154": 4,
+        "eld:156a": 4,
+        "eld:157": 4,
+        "eld:158": 4,
+        "eld:162": 4,
+        "eld:166": 4,
+        "eld:170": 4,
+        "eld:173": 4,
+        "eld:174a": 4,
+        "eld:175": 4,
+        "eld:176": 4,
+        "eld:178": 4,
+        "eld:180a": 4,
+        "eld:183": 4,
+        "eld:184": 4,
+        "eld:217": 1,
+        "eld:219": 1,
+        "eld:220": 1,
+        "eld:221": 1,
+        "eld:224": 1,
+        "eld:225": 1,
+        "eld:227": 1,
+        "eld:228": 1,
+        "eld:229": 1,
+        "eld:231": 1,
+        "eld:236": 1,
+        "eld:245": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 43,
+      "cards": {
+        "eld:152": 4,
+        "eld:160": 4,
+        "eld:161": 2,
+        "eld:165a": 4,
+        "eld:169": 4,
+        "eld:171": 2,
+        "eld:172": 4,
+        "eld:181": 4,
+        "eld:182": 4,
+        "eld:185": 4,
+        "eld:233": 1,
+        "eld:235": 1,
+        "eld:240": 4,
+        "eld:244": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "eld"
+  ]
+}

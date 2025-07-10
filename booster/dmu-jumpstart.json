@@ -1,0 +1,432 @@
+{
+  "name": "Dominaria United Jumpstart Booster",
+  "code": "dmu-jumpstart",
+  "set_code": "dmu",
+  "set_name": "Dominaria United",
+  "boosters": [
+    {
+      "sheets": {
+        "arcane_mischief": 17,
+        "arcane_mischief_foils": 2,
+        "rare_mythic_blue": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "beast_territory": 17,
+        "beast_territory_foils": 2,
+        "rare_mythic_green": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "coalition_corps": 17,
+        "coalition_corps_foils": 2,
+        "rare_mythic_white": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "coalition_legion": 17,
+        "coalition_legion_foils": 2,
+        "rare_mythic_white": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "monster_territory": 17,
+        "monster_territory_foils": 2,
+        "rare_mythic_green": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "mystic_mischief": 17,
+        "mystic_mischief_foils": 2,
+        "rare_mythic_blue": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "ready_to_attack": 17,
+        "ready_to_attack_foils": 2,
+        "rare_mythic_red": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "ready_to_charge": 17,
+        "ready_to_charge_foils": 2,
+        "rare_mythic_red": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "totally_merciless": 17,
+        "totally_merciless_foils": 2,
+        "rare_mythic_black": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "totally_ruthless": 17,
+        "totally_ruthless_foils": 2,
+        "rare_mythic_black": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "arcane_mischief": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:265": 5,
+        "dmu:278": 1,
+        "dmu:283": 1,
+        "dmu:41": 1,
+        "dmu:44": 1,
+        "dmu:47": 1,
+        "dmu:51": 1,
+        "dmu:53": 1,
+        "dmu:54": 1,
+        "dmu:55": 1,
+        "dmu:64": 1,
+        "dmu:66": 1,
+        "dmu:68": 1
+      }
+    },
+    "arcane_mischief_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:265:foil": 2
+      }
+    },
+    "rare_mythic_blue": {
+      "total_weight": 16,
+      "cards": {
+        "dmu:40": 2,
+        "dmu:42": 2,
+        "dmu:46": 2,
+        "dmu:52": 2,
+        "dmu:59": 2,
+        "dmu:65": 2,
+        "dmu:67": 1,
+        "dmu:73": 1,
+        "dmu:75": 2
+      }
+    },
+    "beast_territory": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:155": 1,
+        "dmu:157": 1,
+        "dmu:159": 1,
+        "dmu:163": 1,
+        "dmu:168": 1,
+        "dmu:172": 1,
+        "dmu:173": 1,
+        "dmu:178": 1,
+        "dmu:181": 1,
+        "dmu:184": 1,
+        "dmu:248": 1,
+        "dmu:253": 1,
+        "dmu:258": 1,
+        "dmu:260": 1,
+        "dmu:274": 1,
+        "dmu:281": 1,
+        "dmu:286": 1
+      }
+    },
+    "beast_territory_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:274:foil": 2
+      }
+    },
+    "rare_mythic_green": {
+      "total_weight": 16,
+      "cards": {
+        "dmu:160": 2,
+        "dmu:165": 2,
+        "dmu:167": 2,
+        "dmu:169": 2,
+        "dmu:170": 2,
+        "dmu:175": 2,
+        "dmu:177": 1,
+        "dmu:185": 2,
+        "dmu:189": 1
+      }
+    },
+    "coalition_corps": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:10": 1,
+        "dmu:13": 1,
+        "dmu:18": 1,
+        "dmu:21": 1,
+        "dmu:25": 1,
+        "dmu:262": 5,
+        "dmu:277": 1,
+        "dmu:28": 1,
+        "dmu:282": 1,
+        "dmu:29": 1,
+        "dmu:4": 1,
+        "dmu:5": 1,
+        "dmu:9": 1
+      }
+    },
+    "coalition_corps_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:262:foil": 2
+      }
+    },
+    "rare_mythic_white": {
+      "total_weight": 18,
+      "cards": {
+        "dmu:1": 1,
+        "dmu:15": 2,
+        "dmu:16": 2,
+        "dmu:19": 2,
+        "dmu:2": 2,
+        "dmu:24": 2,
+        "dmu:32": 1,
+        "dmu:36": 2,
+        "dmu:37": 2,
+        "dmu:38": 2
+      }
+    },
+    "coalition_legion": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:10": 1,
+        "dmu:18": 1,
+        "dmu:21": 1,
+        "dmu:23": 1,
+        "dmu:25": 1,
+        "dmu:262": 5,
+        "dmu:277": 1,
+        "dmu:28": 1,
+        "dmu:282": 1,
+        "dmu:31": 1,
+        "dmu:35": 1,
+        "dmu:4": 1,
+        "dmu:7": 1
+      }
+    },
+    "coalition_legion_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:262:foil": 2
+      }
+    },
+    "monster_territory": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:155": 1,
+        "dmu:163": 1,
+        "dmu:164": 1,
+        "dmu:172": 1,
+        "dmu:174": 1,
+        "dmu:178": 1,
+        "dmu:181": 1,
+        "dmu:184": 1,
+        "dmu:188": 1,
+        "dmu:191": 1,
+        "dmu:248": 1,
+        "dmu:253": 1,
+        "dmu:258": 1,
+        "dmu:260": 1,
+        "dmu:274": 1,
+        "dmu:281": 1,
+        "dmu:286": 1
+      }
+    },
+    "monster_territory_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:274:foil": 2
+      }
+    },
+    "mystic_mischief": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:265": 5,
+        "dmu:278": 1,
+        "dmu:283": 1,
+        "dmu:41": 1,
+        "dmu:45": 1,
+        "dmu:48": 1,
+        "dmu:50": 1,
+        "dmu:51": 1,
+        "dmu:54": 1,
+        "dmu:55": 1,
+        "dmu:66": 1,
+        "dmu:68": 1,
+        "dmu:72": 1
+      }
+    },
+    "mystic_mischief_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:265:foil": 2
+      }
+    },
+    "ready_to_attack": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:118": 1,
+        "dmu:120": 1,
+        "dmu:122": 1,
+        "dmu:125": 1,
+        "dmu:128": 1,
+        "dmu:129": 1,
+        "dmu:134": 1,
+        "dmu:137": 1,
+        "dmu:140": 1,
+        "dmu:149": 1,
+        "dmu:271": 5,
+        "dmu:280": 1,
+        "dmu:285": 1
+      }
+    },
+    "ready_to_attack_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:271:foil": 2
+      }
+    },
+    "rare_mythic_red": {
+      "total_weight": 16,
+      "cards": {
+        "dmu:117": 2,
+        "dmu:119": 2,
+        "dmu:121": 2,
+        "dmu:133": 1,
+        "dmu:135": 2,
+        "dmu:141": 2,
+        "dmu:142": 2,
+        "dmu:143": 1,
+        "dmu:146": 2
+      }
+    },
+    "ready_to_charge": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:116": 1,
+        "dmu:118": 1,
+        "dmu:120": 1,
+        "dmu:122": 1,
+        "dmu:124": 1,
+        "dmu:126": 1,
+        "dmu:134": 1,
+        "dmu:139": 1,
+        "dmu:149": 1,
+        "dmu:152": 1,
+        "dmu:271": 5,
+        "dmu:280": 1,
+        "dmu:285": 1
+      }
+    },
+    "ready_to_charge_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:271:foil": 2
+      }
+    },
+    "totally_merciless": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:100": 1,
+        "dmu:102": 1,
+        "dmu:104": 1,
+        "dmu:115": 1,
+        "dmu:268": 5,
+        "dmu:279": 1,
+        "dmu:284": 1,
+        "dmu:80": 1,
+        "dmu:85": 1,
+        "dmu:92": 1,
+        "dmu:94": 1,
+        "dmu:96": 1,
+        "dmu:99": 1
+      }
+    },
+    "totally_merciless_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:268:foil": 2
+      }
+    },
+    "rare_mythic_black": {
+      "total_weight": 16,
+      "cards": {
+        "dmu:103": 2,
+        "dmu:106": 2,
+        "dmu:107": 1,
+        "dmu:242": 1,
+        "dmu:84": 2,
+        "dmu:87": 2,
+        "dmu:90": 2,
+        "dmu:91": 2,
+        "dmu:93": 2
+      }
+    },
+    "totally_ruthless": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "dmu:100": 1,
+        "dmu:104": 1,
+        "dmu:109": 1,
+        "dmu:268": 5,
+        "dmu:279": 1,
+        "dmu:284": 1,
+        "dmu:80": 1,
+        "dmu:83": 1,
+        "dmu:85": 1,
+        "dmu:88": 1,
+        "dmu:89": 1,
+        "dmu:95": 1,
+        "dmu:99": 1
+      }
+    },
+    "totally_ruthless_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "dmu:268:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dmu"
+  ]
+}

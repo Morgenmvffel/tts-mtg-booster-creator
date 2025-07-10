@@ -1,0 +1,92 @@
+{
+  "name": "Kaladesh Prerelease Promo Pack",
+  "code": "kld-prerelease",
+  "set_code": "kld",
+  "set_name": "Kaladesh",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pkld:101s:foil": 2,
+        "pkld:110s:foil": 1,
+        "pkld:112s:foil": 1,
+        "pkld:114s:foil": 2,
+        "pkld:121s:foil": 2,
+        "pkld:122s:foil": 2,
+        "pkld:124s:foil": 2,
+        "pkld:130s:foil": 2,
+        "pkld:136s:foil": 2,
+        "pkld:143s:foil": 2,
+        "pkld:147s:foil": 2,
+        "pkld:151s:foil": 2,
+        "pkld:152s:foil": 2,
+        "pkld:15s:foil": 2,
+        "pkld:163s:foil": 1,
+        "pkld:165s:foil": 2,
+        "pkld:172s:foil": 1,
+        "pkld:174s:foil": 2,
+        "pkld:178s:foil": 2,
+        "pkld:179s:foil": 1,
+        "pkld:183s:foil": 2,
+        "pkld:184s:foil": 1,
+        "pkld:186s:foil": 1,
+        "pkld:192s:foil": 2,
+        "pkld:193s:foil": 1,
+        "pkld:194s:foil": 2,
+        "pkld:199s:foil": 2,
+        "pkld:203s:foil": 2,
+        "pkld:204s:foil": 2,
+        "pkld:208s:foil": 2,
+        "pkld:210s:foil": 2,
+        "pkld:214s:foil": 2,
+        "pkld:216s:foil": 2,
+        "pkld:21s:foil": 2,
+        "pkld:220s:foil": 2,
+        "pkld:222s:foil": 2,
+        "pkld:223s:foil": 2,
+        "pkld:226s:foil": 2,
+        "pkld:231s:foil": 2,
+        "pkld:234s:foil": 1,
+        "pkld:235s:foil": 2,
+        "pkld:243s:foil": 2,
+        "pkld:244s:foil": 2,
+        "pkld:245s:foil": 2,
+        "pkld:246s:foil": 2,
+        "pkld:247s:foil": 2,
+        "pkld:249s:foil": 2,
+        "pkld:32s:foil": 2,
+        "pkld:39s:foil": 2,
+        "pkld:3s:foil": 2,
+        "pkld:41s:foil": 2,
+        "pkld:4s:foil": 1,
+        "pkld:52s:foil": 2,
+        "pkld:56s:foil": 1,
+        "pkld:59s:foil": 2,
+        "pkld:5s:foil": 2,
+        "pkld:60s:foil": 2,
+        "pkld:62s:foil": 2,
+        "pkld:67s:foil": 1,
+        "pkld:73s:foil": 1,
+        "pkld:78s:foil": 2,
+        "pkld:84s:foil": 2,
+        "pkld:88s:foil": 2,
+        "pkld:8s:foil": 2,
+        "pkld:90s:foil": 2,
+        "pkld:92s:foil": 2,
+        "pkld:96s:foil": 1,
+        "pkld:9s:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "pkld"
+  ]
+}

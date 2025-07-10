@@ -1,0 +1,54 @@
+{
+  "name": "Zendikar Rising Expeditions Box Topper",
+  "code": "zne-box-topper",
+  "set_code": "zne",
+  "set_name": "Zendikar Rising Expeditions",
+  "boosters": [
+    {
+      "sheets": {
+        "mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "mythic": {
+      "total_weight": 30,
+      "cards": {
+        "zne:1": 1,
+        "zne:10": 1,
+        "zne:11": 1,
+        "zne:12": 1,
+        "zne:13": 1,
+        "zne:14": 1,
+        "zne:15": 1,
+        "zne:16": 1,
+        "zne:17": 1,
+        "zne:18": 1,
+        "zne:19": 1,
+        "zne:2": 1,
+        "zne:20": 1,
+        "zne:21": 1,
+        "zne:22": 1,
+        "zne:23": 1,
+        "zne:24": 1,
+        "zne:25": 1,
+        "zne:26": 1,
+        "zne:27": 1,
+        "zne:28": 1,
+        "zne:29": 1,
+        "zne:3": 1,
+        "zne:30": 1,
+        "zne:4": 1,
+        "zne:5": 1,
+        "zne:6": 1,
+        "zne:7": 1,
+        "zne:8": 1,
+        "zne:9": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "zne"
+  ]
+}

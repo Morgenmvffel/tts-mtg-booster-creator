@@ -1,0 +1,92 @@
+{
+  "name": "Amonkhet Prerelease Promo Pack",
+  "code": "akh-prerelease",
+  "set_code": "akh",
+  "set_name": "Amonkhet",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pakh:104s:foil": 2,
+        "pakh:107s:foil": 2,
+        "pakh:125s:foil": 1,
+        "pakh:133s:foil": 1,
+        "pakh:134s:foil": 2,
+        "pakh:135s:foil": 2,
+        "pakh:136s:foil": 1,
+        "pakh:137s:foil": 2,
+        "pakh:138s:foil": 2,
+        "pakh:148s:foil": 2,
+        "pakh:149s:foil": 2,
+        "pakh:14s:foil": 1,
+        "pakh:159s:foil": 2,
+        "pakh:15s:foil": 2,
+        "pakh:160s:foil": 2,
+        "pakh:16s:foil": 2,
+        "pakh:170s:foil": 2,
+        "pakh:172s:foil": 2,
+        "pakh:180s:foil": 2,
+        "pakh:182s:foil": 1,
+        "pakh:183s:foil": 2,
+        "pakh:192s:foil": 1,
+        "pakh:196s:foil": 2,
+        "pakh:199s:foil": 2,
+        "pakh:1s:foil": 1,
+        "pakh:203s:foil": 2,
+        "pakh:204s:foil": 1,
+        "pakh:205s:foil": 1,
+        "pakh:207s:foil": 2,
+        "pakh:210sa:foil": 2,
+        "pakh:211sa:foil": 2,
+        "pakh:212sa:foil": 2,
+        "pakh:213sa:foil": 2,
+        "pakh:214sa:foil": 2,
+        "pakh:21s:foil": 1,
+        "pakh:220sa:foil": 2,
+        "pakh:221sa:foil": 2,
+        "pakh:222sa:foil": 2,
+        "pakh:223sa:foil": 2,
+        "pakh:224sa:foil": 2,
+        "pakh:234s:foil": 2,
+        "pakh:235s:foil": 2,
+        "pakh:237s:foil": 2,
+        "pakh:239s:foil": 2,
+        "pakh:240s:foil": 2,
+        "pakh:243s:foil": 2,
+        "pakh:245s:foil": 2,
+        "pakh:247s:foil": 2,
+        "pakh:248s:foil": 2,
+        "pakh:24s:foil": 2,
+        "pakh:2s:foil": 2,
+        "pakh:42s:foil": 1,
+        "pakh:49s:foil": 2,
+        "pakh:4s:foil": 2,
+        "pakh:51s:foil": 2,
+        "pakh:55s:foil": 2,
+        "pakh:59s:foil": 1,
+        "pakh:5s:foil": 2,
+        "pakh:63s:foil": 2,
+        "pakh:65s:foil": 2,
+        "pakh:74s:foil": 2,
+        "pakh:78s:foil": 2,
+        "pakh:82s:foil": 1,
+        "pakh:84s:foil": 1,
+        "pakh:86s:foil": 2,
+        "pakh:88s:foil": 2,
+        "pakh:97s:foil": 1,
+        "pakh:98s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pakh"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Ikoria: Lair of Behemoths Prerelease Promo Pack",
+  "code": "iko-prerelease",
+  "set_code": "iko",
+  "set_name": "Ikoria: Lair of Behemoths",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "piko:114s:foil": 2,
+        "piko:11s:foil": 2,
+        "piko:125s:foil": 1,
+        "piko:127s:foil": 2,
+        "piko:139s:foil": 2,
+        "piko:141s:foil": 2,
+        "piko:148s:foil": 2,
+        "piko:155s:foil": 2,
+        "piko:162s:foil": 2,
+        "piko:168s:foil": 2,
+        "piko:175s:foil": 1,
+        "piko:179s:foil": 1,
+        "piko:181s:foil": 1,
+        "piko:182s:foil": 2,
+        "piko:184s:foil": 2,
+        "piko:185s:foil": 2,
+        "piko:186s:foil": 2,
+        "piko:187s:foil": 1,
+        "piko:189s:foil": 2,
+        "piko:190s:foil": 1,
+        "piko:191s:foil": 2,
+        "piko:192s:foil": 1,
+        "piko:193s:foil": 2,
+        "piko:195s:foil": 1,
+        "piko:197s:foil": 1,
+        "piko:198s:foil": 2,
+        "piko:19s:foil": 2,
+        "piko:201s:foil": 2,
+        "piko:203s:foil": 1,
+        "piko:204s:foil": 2,
+        "piko:207s:foil": 2,
+        "piko:208s:foil": 2,
+        "piko:209s:foil": 1,
+        "piko:210s:foil": 2,
+        "piko:212s:foil": 2,
+        "piko:214s:foil": 1,
+        "piko:215s:foil": 2,
+        "piko:216s:foil": 1,
+        "piko:21s:foil": 1,
+        "piko:220s:foil": 1,
+        "piko:221s:foil": 2,
+        "piko:222s:foil": 2,
+        "piko:224s:foil": 2,
+        "piko:225s:foil": 2,
+        "piko:226s:foil": 2,
+        "piko:227s:foil": 2,
+        "piko:228s:foil": 2,
+        "piko:231s:foil": 2,
+        "piko:232s:foil": 2,
+        "piko:233s:foil": 2,
+        "piko:234s:foil": 2,
+        "piko:237s:foil": 2,
+        "piko:245s:foil": 2,
+        "piko:248s:foil": 2,
+        "piko:24s:foil": 2,
+        "piko:250s:foil": 2,
+        "piko:251s:foil": 2,
+        "piko:253s:foil": 2,
+        "piko:259s:foil": 2,
+        "piko:58s:foil": 2,
+        "piko:66s:foil": 2,
+        "piko:67s:foil": 2,
+        "piko:70s:foil": 2,
+        "piko:7s:foil": 2,
+        "piko:84s:foil": 2,
+        "piko:88s:foil": 2,
+        "piko:92s:foil": 2,
+        "piko:97s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "piko"
+  ]
+}

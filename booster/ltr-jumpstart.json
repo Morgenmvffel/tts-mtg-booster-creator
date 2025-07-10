@@ -1,0 +1,328 @@
+{
+  "name": "The Lord of the Rings: Tales of Middle-earth Jumpstart Booster",
+  "code": "ltr-jumpstart",
+  "set_code": "ltr",
+  "set_name": "The Lord of the Rings: Tales of Middle-earth",
+  "boosters": [
+    {
+      "sheets": {
+        "courageous_1": 19,
+        "white_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "courageous_2": 19,
+        "white_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "journey_1": 19,
+        "green_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "journey_2": 19,
+        "green_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "marauders_1": 19,
+        "red_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "marauders_2": 19,
+        "red_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "mordor_1": 19,
+        "black_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "mordor_2": 19,
+        "black_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "tricksy_1": 19,
+        "blue_rare": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "tricksy_2": 19,
+        "blue_rare": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "courageous_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:11": 1,
+        "ltr:12": 1,
+        "ltr:13": 1,
+        "ltr:16": 1,
+        "ltr:22": 1,
+        "ltr:262": 8,
+        "ltr:27": 1,
+        "ltr:28": 1,
+        "ltr:282": 1,
+        "ltr:3": 1,
+        "ltr:31": 1,
+        "ltr:35": 1
+      }
+    },
+    "white_rare": {
+      "total_weight": 14,
+      "cards": {
+        "ltr:15": 2,
+        "ltr:17": 2,
+        "ltr:18": 2,
+        "ltr:19": 1,
+        "ltr:2": 2,
+        "ltr:36": 2,
+        "ltr:4": 2,
+        "ltr:5": 1
+      }
+    },
+    "courageous_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:12": 1,
+        "ltr:20": 1,
+        "ltr:23": 1,
+        "ltr:26": 1,
+        "ltr:262": 8,
+        "ltr:27": 1,
+        "ltr:28": 1,
+        "ltr:282": 1,
+        "ltr:3": 1,
+        "ltr:31": 1,
+        "ltr:35": 1,
+        "ltr:8": 1
+      }
+    },
+    "journey_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:154": 1,
+        "ltr:155": 1,
+        "ltr:159": 1,
+        "ltr:164": 1,
+        "ltr:170": 1,
+        "ltr:177": 1,
+        "ltr:178": 1,
+        "ltr:179": 1,
+        "ltr:183": 1,
+        "ltr:185": 1,
+        "ltr:270": 8,
+        "ltr:286": 1
+      }
+    },
+    "green_rare": {
+      "total_weight": 14,
+      "cards": {
+        "ltr:158": 2,
+        "ltr:160": 2,
+        "ltr:165": 2,
+        "ltr:166": 2,
+        "ltr:172": 1,
+        "ltr:173": 2,
+        "ltr:184": 1,
+        "ltr:186": 2
+      }
+    },
+    "journey_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:155": 1,
+        "ltr:162": 1,
+        "ltr:167": 1,
+        "ltr:177": 1,
+        "ltr:181": 1,
+        "ltr:182": 1,
+        "ltr:183": 1,
+        "ltr:185": 1,
+        "ltr:189": 1,
+        "ltr:190": 1,
+        "ltr:270": 8,
+        "ltr:286": 1
+      }
+    },
+    "marauders_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:115": 1,
+        "ltr:122": 1,
+        "ltr:125": 1,
+        "ltr:128": 1,
+        "ltr:129": 1,
+        "ltr:131": 1,
+        "ltr:134": 1,
+        "ltr:140": 1,
+        "ltr:141": 1,
+        "ltr:150": 1,
+        "ltr:268": 8,
+        "ltr:285": 1
+      }
+    },
+    "red_rare": {
+      "total_weight": 14,
+      "cards": {
+        "ltr:119": 2,
+        "ltr:120": 2,
+        "ltr:124": 2,
+        "ltr:132": 2,
+        "ltr:138": 2,
+        "ltr:149": 1,
+        "ltr:151": 2,
+        "ltr:239": 1
+      }
+    },
+    "marauders_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:122": 1,
+        "ltr:128": 1,
+        "ltr:129": 1,
+        "ltr:133": 1,
+        "ltr:134": 1,
+        "ltr:140": 1,
+        "ltr:141": 1,
+        "ltr:147": 1,
+        "ltr:148": 1,
+        "ltr:150": 1,
+        "ltr:268": 8,
+        "ltr:285": 1
+      }
+    },
+    "mordor_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:100": 1,
+        "ltr:108": 1,
+        "ltr:112": 1,
+        "ltr:266": 8,
+        "ltr:284": 1,
+        "ltr:80": 1,
+        "ltr:81": 1,
+        "ltr:84": 1,
+        "ltr:85": 1,
+        "ltr:87": 1,
+        "ltr:96": 1,
+        "ltr:99": 1
+      }
+    },
+    "black_rare": {
+      "total_weight": 14,
+      "cards": {
+        "ltr:102": 2,
+        "ltr:103": 2,
+        "ltr:106": 2,
+        "ltr:107": 1,
+        "ltr:114": 1,
+        "ltr:79": 2,
+        "ltr:91": 2,
+        "ltr:93": 2
+      }
+    },
+    "mordor_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:104": 1,
+        "ltr:266": 8,
+        "ltr:284": 1,
+        "ltr:77": 1,
+        "ltr:80": 1,
+        "ltr:82": 1,
+        "ltr:84": 1,
+        "ltr:87": 1,
+        "ltr:88": 1,
+        "ltr:92": 1,
+        "ltr:96": 1,
+        "ltr:99": 1
+      }
+    },
+    "tricksy_1": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:264": 8,
+        "ltr:283": 1,
+        "ltr:39": 1,
+        "ltr:45": 1,
+        "ltr:46": 1,
+        "ltr:49": 1,
+        "ltr:51": 1,
+        "ltr:55": 1,
+        "ltr:62": 1,
+        "ltr:63": 1,
+        "ltr:64": 1,
+        "ltr:76": 1
+      }
+    },
+    "blue_rare": {
+      "total_weight": 14,
+      "cards": {
+        "ltr:44": 2,
+        "ltr:52": 2,
+        "ltr:61": 2,
+        "ltr:65": 2,
+        "ltr:66": 2,
+        "ltr:69": 2,
+        "ltr:72": 1,
+        "ltr:75": 1
+      }
+    },
+    "tricksy_2": {
+      "fixed": true,
+      "total_weight": 19,
+      "cards": {
+        "ltr:264": 8,
+        "ltr:283": 1,
+        "ltr:39": 1,
+        "ltr:49": 1,
+        "ltr:51": 1,
+        "ltr:55": 1,
+        "ltr:58": 1,
+        "ltr:63": 1,
+        "ltr:64": 1,
+        "ltr:67": 1,
+        "ltr:68": 1,
+        "ltr:76": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "ltr"
+  ]
+}

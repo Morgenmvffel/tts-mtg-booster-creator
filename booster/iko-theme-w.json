@@ -1,0 +1,137 @@
+{
+  "name": "Ikoria: Lair of Behemoths Theme Booster White",
+  "code": "iko-theme-w",
+  "set_code": "iko",
+  "set_name": "Ikoria: Lair of Behemoths",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 11,
+      "cards": {
+        "iko:12": 1,
+        "iko:13": 1,
+        "iko:16": 1,
+        "iko:18": 1,
+        "iko:22": 1,
+        "iko:28": 1,
+        "iko:32": 1,
+        "iko:34": 1,
+        "iko:35": 1,
+        "iko:36": 1,
+        "iko:38": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 82,
+      "cards": {
+        "iko:1": 1,
+        "iko:10": 4,
+        "iko:14": 4,
+        "iko:15": 4,
+        "iko:17": 4,
+        "iko:2": 1,
+        "iko:20": 4,
+        "iko:23": 4,
+        "iko:240": 1,
+        "iko:241": 1,
+        "iko:247": 1,
+        "iko:25": 4,
+        "iko:26": 4,
+        "iko:27": 4,
+        "iko:29": 4,
+        "iko:3": 1,
+        "iko:30": 4,
+        "iko:31": 4,
+        "iko:33": 4,
+        "iko:37": 4,
+        "iko:4": 4,
+        "iko:5": 4,
+        "iko:6": 4,
+        "iko:8": 4,
+        "iko:9": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 17,
+      "cards": {
+        "iko:11": 4,
+        "iko:19": 4,
+        "iko:21": 2,
+        "iko:234": 1,
+        "iko:237": 1,
+        "iko:245": 1,
+        "iko:7": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "iko"
+  ]
+}

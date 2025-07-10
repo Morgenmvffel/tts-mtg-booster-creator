@@ -1,0 +1,92 @@
+{
+  "name": "Battle for Zendikar Prerelease Promo Pack",
+  "code": "bfz-prerelease",
+  "set_code": "bfz",
+  "set_name": "Battle for Zendikar",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pbfz:102s:foil": 2,
+        "pbfz:107s:foil": 2,
+        "pbfz:109s:foil": 1,
+        "pbfz:112s:foil": 2,
+        "pbfz:119s:foil": 1,
+        "pbfz:11s:foil": 1,
+        "pbfz:120s:foil": 2,
+        "pbfz:123s:foil": 2,
+        "pbfz:127s:foil": 2,
+        "pbfz:133s:foil": 2,
+        "pbfz:138s:foil": 1,
+        "pbfz:139s:foil": 2,
+        "pbfz:144s:foil": 1,
+        "pbfz:151s:foil": 2,
+        "pbfz:15s:foil": 1,
+        "pbfz:162s:foil": 2,
+        "pbfz:167s:foil": 2,
+        "pbfz:170s:foil": 2,
+        "pbfz:174s:foil": 1,
+        "pbfz:17s:foil": 1,
+        "pbfz:180s:foil": 2,
+        "pbfz:181s:foil": 2,
+        "pbfz:197s:foil": 1,
+        "pbfz:198s:foil": 2,
+        "pbfz:199s:foil": 2,
+        "pbfz:200s:foil": 2,
+        "pbfz:202s:foil": 2,
+        "pbfz:203s:foil": 2,
+        "pbfz:206s:foil": 1,
+        "pbfz:208s:foil": 2,
+        "pbfz:209s:foil": 2,
+        "pbfz:213s:foil": 1,
+        "pbfz:214s:foil": 2,
+        "pbfz:215s:foil": 2,
+        "pbfz:216s:foil": 2,
+        "pbfz:217s:foil": 1,
+        "pbfz:221s:foil": 2,
+        "pbfz:222s:foil": 2,
+        "pbfz:228s:foil": 2,
+        "pbfz:22s:foil": 2,
+        "pbfz:234s:foil": 2,
+        "pbfz:235s:foil": 2,
+        "pbfz:239s:foil": 2,
+        "pbfz:241s:foil": 2,
+        "pbfz:242s:foil": 2,
+        "pbfz:244s:foil": 2,
+        "pbfz:245s:foil": 2,
+        "pbfz:247s:foil": 2,
+        "pbfz:249s:foil": 2,
+        "pbfz:26s:foil": 2,
+        "pbfz:29s:foil": 1,
+        "pbfz:2s:foil": 2,
+        "pbfz:31s:foil": 2,
+        "pbfz:37s:foil": 2,
+        "pbfz:42s:foil": 2,
+        "pbfz:43s:foil": 1,
+        "pbfz:4s:foil": 2,
+        "pbfz:57s:foil": 2,
+        "pbfz:6s:foil": 2,
+        "pbfz:77s:foil": 2,
+        "pbfz:78s:foil": 2,
+        "pbfz:80s:foil": 1,
+        "pbfz:81s:foil": 2,
+        "pbfz:85s:foil": 2,
+        "pbfz:87s:foil": 2,
+        "pbfz:8s:foil": 2,
+        "pbfz:99s:foil": 2,
+        "pbfz:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pbfz"
+  ]
+}

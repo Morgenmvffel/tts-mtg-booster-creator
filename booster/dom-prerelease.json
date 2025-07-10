@@ -1,0 +1,92 @@
+{
+  "name": "Dominaria Prerelease Promo Pack",
+  "code": "dom-prerelease",
+  "set_code": "dom",
+  "set_name": "Dominaria",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pdom:100s:foil": 1,
+        "pdom:102s:foil": 2,
+        "pdom:108s:foil": 2,
+        "pdom:114s:foil": 2,
+        "pdom:122s:foil": 2,
+        "pdom:129s:foil": 2,
+        "pdom:131s:foil": 2,
+        "pdom:132s:foil": 1,
+        "pdom:133s:foil": 2,
+        "pdom:13s:foil": 2,
+        "pdom:143s:foil": 2,
+        "pdom:146s:foil": 2,
+        "pdom:147s:foil": 2,
+        "pdom:149s:foil": 1,
+        "pdom:166s:foil": 2,
+        "pdom:16s:foil": 2,
+        "pdom:172s:foil": 2,
+        "pdom:173s:foil": 2,
+        "pdom:174s:foil": 1,
+        "pdom:182s:foil": 2,
+        "pdom:183s:foil": 2,
+        "pdom:184s:foil": 2,
+        "pdom:187s:foil": 2,
+        "pdom:18s:foil": 2,
+        "pdom:192s:foil": 2,
+        "pdom:193s:foil": 1,
+        "pdom:195s:foil": 2,
+        "pdom:197s:foil": 1,
+        "pdom:198s:foil": 2,
+        "pdom:199s:foil": 1,
+        "pdom:1s:foil": 1,
+        "pdom:200s:foil": 2,
+        "pdom:201s:foil": 2,
+        "pdom:207s:foil": 1,
+        "pdom:211s:foil": 2,
+        "pdom:214s:foil": 2,
+        "pdom:215s:foil": 2,
+        "pdom:217s:foil": 2,
+        "pdom:21s:foil": 1,
+        "pdom:223s:foil": 2,
+        "pdom:224s:foil": 1,
+        "pdom:233s:foil": 2,
+        "pdom:234s:foil": 2,
+        "pdom:237s:foil": 1,
+        "pdom:238s:foil": 2,
+        "pdom:239s:foil": 2,
+        "pdom:240s:foil": 2,
+        "pdom:241s:foil": 2,
+        "pdom:247s:foil": 2,
+        "pdom:248s:foil": 2,
+        "pdom:26s:foil": 1,
+        "pdom:35s:foil": 2,
+        "pdom:36s:foil": 2,
+        "pdom:39s:foil": 2,
+        "pdom:42s:foil": 2,
+        "pdom:55s:foil": 2,
+        "pdom:57s:foil": 2,
+        "pdom:58s:foil": 2,
+        "pdom:59s:foil": 1,
+        "pdom:61s:foil": 2,
+        "pdom:68s:foil": 2,
+        "pdom:6s:foil": 2,
+        "pdom:76s:foil": 2,
+        "pdom:86s:foil": 1,
+        "pdom:88s:foil": 2,
+        "pdom:95s:foil": 2,
+        "pdom:96s:foil": 2,
+        "pdom:98s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pdom"
+  ]
+}

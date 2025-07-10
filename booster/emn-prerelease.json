@@ -1,0 +1,85 @@
+{
+  "name": "Eldritch Moon Prerelease Promo Pack",
+  "code": "emn-prerelease",
+  "set_code": "emn",
+  "set_name": "Eldritch Moon",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 108,
+      "cards": {
+        "pemn:106s:foil": 2,
+        "pemn:109s:foil": 1,
+        "pemn:111sa:foil": 2,
+        "pemn:117s:foil": 2,
+        "pemn:118s:foil": 2,
+        "pemn:123s:foil": 2,
+        "pemn:130as:foil": 2,
+        "pemn:131s:foil": 2,
+        "pemn:132s:foil": 2,
+        "pemn:136s:foil": 1,
+        "pemn:137s:foil": 1,
+        "pemn:146s:foil": 2,
+        "pemn:155s:foil": 2,
+        "pemn:156s:foil": 2,
+        "pemn:15as:foil": 2,
+        "pemn:162s:foil": 1,
+        "pemn:165s:foil": 2,
+        "pemn:170s:foil": 2,
+        "pemn:171s:foil": 2,
+        "pemn:176s:foil": 2,
+        "pemn:17s:foil": 2,
+        "pemn:181s:foil": 2,
+        "pemn:183s:foil": 1,
+        "pemn:184s:foil": 1,
+        "pemn:185s:foil": 2,
+        "pemn:189s:foil": 2,
+        "pemn:190s:foil": 1,
+        "pemn:191sa:foil": 1,
+        "pemn:197s:foil": 2,
+        "pemn:199s:foil": 2,
+        "pemn:200s:foil": 2,
+        "pemn:203s:foil": 2,
+        "pemn:204s:foil": 2,
+        "pemn:20s:foil": 1,
+        "pemn:28s:foil": 1,
+        "pemn:2s:foil": 1,
+        "pemn:37s:foil": 2,
+        "pemn:39s:foil": 2,
+        "pemn:3s:foil": 2,
+        "pemn:40s:foil": 2,
+        "pemn:41s:foil": 2,
+        "pemn:46s:foil": 2,
+        "pemn:47s:foil": 2,
+        "pemn:51s:foil": 2,
+        "pemn:56sa:foil": 2,
+        "pemn:5s:foil": 2,
+        "pemn:64s:foil": 2,
+        "pemn:65s:foil": 2,
+        "pemn:69s:foil": 2,
+        "pemn:6s:foil": 1,
+        "pemn:70s:foil": 1,
+        "pemn:72s:foil": 2,
+        "pemn:75s:foil": 2,
+        "pemn:7s:foil": 2,
+        "pemn:80s:foil": 2,
+        "pemn:85s:foil": 2,
+        "pemn:86s:foil": 2,
+        "pemn:87s:foil": 2,
+        "pemn:93s:foil": 1,
+        "pemn:98s:foil": 2,
+        "pemn:99s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pemn"
+  ]
+}

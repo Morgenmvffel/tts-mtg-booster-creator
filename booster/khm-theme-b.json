@@ -1,0 +1,153 @@
+{
+  "name": "Kaldheim Theme Booster Black",
+  "code": "khm-theme-b",
+  "set_code": "khm",
+  "set_name": "Kaldheim",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 52,
+      "cards": {
+        "khm:103": 4,
+        "khm:106": 4,
+        "khm:108": 4,
+        "khm:110": 4,
+        "khm:113": 4,
+        "khm:116": 4,
+        "khm:235": 1,
+        "khm:244": 1,
+        "khm:245": 1,
+        "khm:247": 1,
+        "khm:385": 4,
+        "khm:386": 4,
+        "khm:387": 4,
+        "khm:80": 4,
+        "khm:88": 4,
+        "khm:97": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 82,
+      "cards": {
+        "khm:100": 4,
+        "khm:101": 4,
+        "khm:102": 4,
+        "khm:104": 4,
+        "khm:105": 4,
+        "khm:111": 4,
+        "khm:117": 4,
+        "khm:118": 4,
+        "khm:119": 4,
+        "khm:238": 1,
+        "khm:239": 1,
+        "khm:242": 1,
+        "khm:243": 1,
+        "khm:246": 1,
+        "khm:267": 1,
+        "khm:83": 4,
+        "khm:84": 4,
+        "khm:85": 4,
+        "khm:87": 4,
+        "khm:89": 4,
+        "khm:91": 4,
+        "khm:93": 4,
+        "khm:95": 4,
+        "khm:96": 4,
+        "khm:99": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 51,
+      "cards": {
+        "khm:107": 4,
+        "khm:109": 4,
+        "khm:112a": 4,
+        "khm:115": 4,
+        "khm:237": 1,
+        "khm:240": 1,
+        "khm:241": 1,
+        "khm:255": 1,
+        "khm:272": 1,
+        "khm:376": 4,
+        "khm:79": 4,
+        "khm:81": 2,
+        "khm:82": 4,
+        "khm:86": 4,
+        "khm:90": 4,
+        "khm:92a": 4,
+        "khm:94": 2,
+        "khm:98": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "khm"
+  ]
+}

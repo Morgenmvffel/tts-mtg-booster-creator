@@ -1,0 +1,209 @@
+{
+  "name": "Zendikar Rising Theme Booster Party",
+  "code": "znr-theme-party",
+  "set_code": "znr",
+  "set_name": "Zendikar Rising",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 152,
+      "cards": {
+        "znr:1": 4,
+        "znr:11": 4,
+        "znr:121": 4,
+        "znr:123": 4,
+        "znr:130": 4,
+        "znr:134a": 4,
+        "znr:139": 4,
+        "znr:141": 4,
+        "znr:143": 4,
+        "znr:154": 4,
+        "znr:160": 4,
+        "znr:17": 4,
+        "znr:171": 4,
+        "znr:20": 4,
+        "znr:205": 4,
+        "znr:21": 4,
+        "znr:212": 4,
+        "znr:218": 4,
+        "znr:222": 4,
+        "znr:224": 4,
+        "znr:235": 4,
+        "znr:236": 4,
+        "znr:237": 4,
+        "znr:238": 4,
+        "znr:247": 1,
+        "znr:248": 1,
+        "znr:250": 1,
+        "znr:257": 1,
+        "znr:31": 4,
+        "znr:40a": 4,
+        "znr:52": 4,
+        "znr:6": 4,
+        "znr:69": 4,
+        "znr:70": 4,
+        "znr:81": 4,
+        "znr:83": 4,
+        "znr:86a": 4,
+        "znr:87": 4,
+        "znr:89": 4,
+        "znr:91a": 4,
+        "znr:97": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 166,
+      "cards": {
+        "znr:101": 4,
+        "znr:107": 4,
+        "znr:110": 4,
+        "znr:112": 4,
+        "znr:116": 4,
+        "znr:117": 4,
+        "znr:13": 4,
+        "znr:135": 4,
+        "znr:138": 4,
+        "znr:14": 4,
+        "znr:140": 4,
+        "znr:142": 4,
+        "znr:158": 4,
+        "znr:164": 4,
+        "znr:168": 4,
+        "znr:169": 4,
+        "znr:18": 4,
+        "znr:184": 4,
+        "znr:188": 4,
+        "znr:195": 4,
+        "znr:206": 4,
+        "znr:208": 4,
+        "znr:210": 4,
+        "znr:214": 4,
+        "znr:22": 4,
+        "znr:251": 1,
+        "znr:255": 1,
+        "znr:3": 4,
+        "znr:32": 4,
+        "znr:35": 4,
+        "znr:36": 4,
+        "znr:38": 4,
+        "znr:48": 4,
+        "znr:50": 4,
+        "znr:51": 4,
+        "znr:55": 4,
+        "znr:57": 4,
+        "znr:78": 4,
+        "znr:8": 4,
+        "znr:84": 4,
+        "znr:88": 4,
+        "znr:96": 4,
+        "znr:99": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 55,
+      "cards": {
+        "znr:115": 2,
+        "znr:118": 2,
+        "znr:129": 2,
+        "znr:12a": 1,
+        "znr:145": 2,
+        "znr:148": 2,
+        "znr:150": 1,
+        "znr:153": 2,
+        "znr:159": 2,
+        "znr:2": 1,
+        "znr:209": 2,
+        "znr:220": 2,
+        "znr:225": 2,
+        "znr:226": 2,
+        "znr:23": 2,
+        "znr:230": 1,
+        "znr:233": 2,
+        "znr:24": 2,
+        "znr:241": 2,
+        "znr:242": 2,
+        "znr:41": 2,
+        "znr:44": 1,
+        "znr:5": 2,
+        "znr:54": 2,
+        "znr:60a": 2,
+        "znr:68": 2,
+        "znr:72": 2,
+        "znr:77": 1,
+        "znr:85": 2,
+        "znr:95": 2,
+        "znr:98": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "znr"
+  ]
+}

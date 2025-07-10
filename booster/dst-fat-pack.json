@@ -1,0 +1,106 @@
+{
+  "name": "Darksteel Fat Pack Promotional Cards",
+  "code": "dst-fat-pack",
+  "set_code": "dst",
+  "set_name": "Darksteel",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_basic": 1,
+        "foil_common": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_basic": {
+      "total_weight": 20,
+      "cards": {
+        "mrd:287:foil": 1,
+        "mrd:288:foil": 1,
+        "mrd:289:foil": 1,
+        "mrd:290:foil": 1,
+        "mrd:291:foil": 1,
+        "mrd:292:foil": 1,
+        "mrd:293:foil": 1,
+        "mrd:294:foil": 1,
+        "mrd:295:foil": 1,
+        "mrd:296:foil": 1,
+        "mrd:297:foil": 1,
+        "mrd:298:foil": 1,
+        "mrd:299:foil": 1,
+        "mrd:300:foil": 1,
+        "mrd:301:foil": 1,
+        "mrd:302:foil": 1,
+        "mrd:303:foil": 1,
+        "mrd:304:foil": 1,
+        "mrd:305:foil": 1,
+        "mrd:306:foil": 1
+      }
+    },
+    "foil_common": {
+      "total_weight": 55,
+      "cards": {
+        "dst:103:foil": 1,
+        "dst:104:foil": 1,
+        "dst:10:foil": 1,
+        "dst:112:foil": 1,
+        "dst:113:foil": 1,
+        "dst:118:foil": 1,
+        "dst:119:foil": 1,
+        "dst:127:foil": 1,
+        "dst:131:foil": 1,
+        "dst:133:foil": 1,
+        "dst:135:foil": 1,
+        "dst:137:foil": 1,
+        "dst:13:foil": 1,
+        "dst:145:foil": 1,
+        "dst:151:foil": 1,
+        "dst:155:foil": 1,
+        "dst:157:foil": 1,
+        "dst:160:foil": 1,
+        "dst:164:foil": 1,
+        "dst:1:foil": 1,
+        "dst:21:foil": 1,
+        "dst:24:foil": 1,
+        "dst:25:foil": 1,
+        "dst:26:foil": 1,
+        "dst:2:foil": 1,
+        "dst:30:foil": 1,
+        "dst:35:foil": 1,
+        "dst:36:foil": 1,
+        "dst:38:foil": 1,
+        "dst:39:foil": 1,
+        "dst:41:foil": 1,
+        "dst:43:foil": 1,
+        "dst:45:foil": 1,
+        "dst:46:foil": 1,
+        "dst:4:foil": 1,
+        "dst:51:foil": 1,
+        "dst:55:foil": 1,
+        "dst:56:foil": 1,
+        "dst:58:foil": 1,
+        "dst:59:foil": 1,
+        "dst:64:foil": 1,
+        "dst:65:foil": 1,
+        "dst:71:foil": 1,
+        "dst:74:foil": 1,
+        "dst:78:foil": 1,
+        "dst:7:foil": 1,
+        "dst:81:foil": 1,
+        "dst:85:foil": 1,
+        "dst:87:foil": 1,
+        "dst:88:foil": 1,
+        "dst:89:foil": 1,
+        "dst:8:foil": 1,
+        "dst:93:foil": 1,
+        "dst:94:foil": 1,
+        "dst:97:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "dst",
+    "mrd"
+  ]
+}

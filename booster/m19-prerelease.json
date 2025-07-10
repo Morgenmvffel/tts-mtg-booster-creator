@@ -1,0 +1,93 @@
+{
+  "name": "Core Set 2019 Prerelease Promo Pack",
+  "code": "m19-prerelease",
+  "set_code": "m19",
+  "set_name": "Core Set 2019",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 122,
+      "cards": {
+        "pm19:102s:foil": 2,
+        "pm19:104s:foil": 2,
+        "pm19:106s:foil": 1,
+        "pm19:107s:foil": 2,
+        "pm19:112s:foil": 2,
+        "pm19:113s:foil": 2,
+        "pm19:128s:foil": 2,
+        "pm19:129s:foil": 1,
+        "pm19:130s:foil": 2,
+        "pm19:134s:foil": 2,
+        "pm19:135s:foil": 2,
+        "pm19:136s:foil": 2,
+        "pm19:144s:foil": 2,
+        "pm19:149s:foil": 2,
+        "pm19:154s:foil": 1,
+        "pm19:155s:foil": 2,
+        "pm19:160s:foil": 2,
+        "pm19:179s:foil": 2,
+        "pm19:17s:foil": 2,
+        "pm19:185s:foil": 2,
+        "pm19:186s:foil": 2,
+        "pm19:189s:foil": 2,
+        "pm19:192s:foil": 2,
+        "pm19:194s:foil": 2,
+        "pm19:200s:foil": 2,
+        "pm19:201s:foil": 1,
+        "pm19:203s:foil": 2,
+        "pm19:208s:foil": 1,
+        "pm19:209s:foil": 2,
+        "pm19:212s:foil": 1,
+        "pm19:214s:foil": 1,
+        "pm19:218sa:foil": 1,
+        "pm19:219s:foil": 1,
+        "pm19:21s:foil": 2,
+        "pm19:225s:foil": 1,
+        "pm19:226s:foil": 2,
+        "pm19:228s:foil": 2,
+        "pm19:229s:foil": 1,
+        "pm19:230s:foil": 2,
+        "pm19:232s:foil": 2,
+        "pm19:238s:foil": 2,
+        "pm19:23s:foil": 2,
+        "pm19:244s:foil": 2,
+        "pm19:247s:foil": 2,
+        "pm19:249s:foil": 2,
+        "pm19:27s:foil": 2,
+        "pm19:33s:foil": 2,
+        "pm19:34s:foil": 1,
+        "pm19:39s:foil": 2,
+        "pm19:3s:foil": 1,
+        "pm19:42s:foil": 2,
+        "pm19:4s:foil": 2,
+        "pm19:52s:foil": 2,
+        "pm19:60s:foil": 2,
+        "pm19:62s:foil": 2,
+        "pm19:63s:foil": 2,
+        "pm19:65s:foil": 1,
+        "pm19:66s:foil": 2,
+        "pm19:67s:foil": 2,
+        "pm19:69s:foil": 2,
+        "pm19:76s:foil": 2,
+        "pm19:79s:foil": 1,
+        "pm19:84s:foil": 2,
+        "pm19:88s:foil": 1,
+        "pm19:90s:foil": 2,
+        "pm19:91s:foil": 2,
+        "pm19:97s:foil": 2,
+        "pm19:99s:foil": 2,
+        "pm19:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pm19"
+  ]
+}

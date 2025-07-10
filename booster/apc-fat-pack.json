@@ -1,0 +1,106 @@
+{
+  "name": "Apocalypse Fat Pack Promotional Cards",
+  "code": "apc-fat-pack",
+  "set_code": "apc",
+  "set_name": "Apocalypse",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_basic": 1,
+        "foil_common": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_basic": {
+      "total_weight": 20,
+      "cards": {
+        "inv:331:foil": 1,
+        "inv:332:foil": 1,
+        "inv:333:foil": 1,
+        "inv:334:foil": 1,
+        "inv:335:foil": 1,
+        "inv:336:foil": 1,
+        "inv:337:foil": 1,
+        "inv:338:foil": 1,
+        "inv:339:foil": 1,
+        "inv:340:foil": 1,
+        "inv:341:foil": 1,
+        "inv:342:foil": 1,
+        "inv:343:foil": 1,
+        "inv:344:foil": 1,
+        "inv:345:foil": 1,
+        "inv:346:foil": 1,
+        "inv:347:foil": 1,
+        "inv:348:foil": 1,
+        "inv:349:foil": 1,
+        "inv:350:foil": 1
+      }
+    },
+    "foil_common": {
+      "total_weight": 55,
+      "cards": {
+        "apc:101:foil": 1,
+        "apc:103:foil": 1,
+        "apc:109:foil": 1,
+        "apc:117:foil": 1,
+        "apc:118:foil": 1,
+        "apc:119:foil": 1,
+        "apc:120:foil": 1,
+        "apc:122:foil": 1,
+        "apc:125:foil": 1,
+        "apc:13:foil": 1,
+        "apc:14:foil": 1,
+        "apc:15:foil": 1,
+        "apc:16:foil": 1,
+        "apc:18:foil": 1,
+        "apc:19:foil": 1,
+        "apc:1:foil": 1,
+        "apc:22:foil": 1,
+        "apc:25:foil": 1,
+        "apc:26:foil": 1,
+        "apc:27:foil": 1,
+        "apc:28:foil": 1,
+        "apc:29:foil": 1,
+        "apc:30:foil": 1,
+        "apc:35:foil": 1,
+        "apc:37:foil": 1,
+        "apc:3:foil": 1,
+        "apc:41:foil": 1,
+        "apc:42:foil": 1,
+        "apc:43:foil": 1,
+        "apc:44:foil": 1,
+        "apc:49:foil": 1,
+        "apc:4:foil": 1,
+        "apc:51:foil": 1,
+        "apc:53:foil": 1,
+        "apc:54:foil": 1,
+        "apc:56:foil": 1,
+        "apc:57:foil": 1,
+        "apc:60:foil": 1,
+        "apc:64:foil": 1,
+        "apc:65:foil": 1,
+        "apc:66:foil": 1,
+        "apc:69:foil": 1,
+        "apc:70:foil": 1,
+        "apc:71:foil": 1,
+        "apc:73:foil": 1,
+        "apc:76:foil": 1,
+        "apc:78:foil": 1,
+        "apc:81:foil": 1,
+        "apc:82:foil": 1,
+        "apc:85:foil": 1,
+        "apc:86:foil": 1,
+        "apc:89:foil": 1,
+        "apc:8:foil": 1,
+        "apc:90:foil": 1,
+        "apc:93:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "apc",
+    "inv"
+  ]
+}

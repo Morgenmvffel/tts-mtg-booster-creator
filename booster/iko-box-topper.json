@@ -1,0 +1,39 @@
+{
+  "name": "Ikoria: Lair of Behemoths Box Topper Pack",
+  "code": "iko-box-topper",
+  "set_code": "iko",
+  "set_name": "Ikoria: Lair of Behemoths",
+  "boosters": [
+    {
+      "sheets": {
+        "box_topper": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "box_topper": {
+      "total_weight": 15,
+      "cards": {
+        "iko:370:foil": 1,
+        "iko:371:foil": 1,
+        "iko:372:foil": 1,
+        "iko:373:foil": 1,
+        "iko:374:foil": 1,
+        "iko:375:foil": 1,
+        "iko:376:foil": 1,
+        "iko:377:foil": 1,
+        "iko:378:foil": 1,
+        "iko:379:foil": 1,
+        "iko:380:foil": 1,
+        "iko:381:foil": 1,
+        "iko:382:foil": 1,
+        "iko:383:foil": 1,
+        "iko:384:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "iko"
+  ]
+}

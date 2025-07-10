@@ -1,0 +1,92 @@
+{
+  "name": "Dragons of Tarkir Seeded Prerelease Booster Atarka",
+  "code": "dtk-prerelease-atarka",
+  "set_code": "dtk",
+  "set_name": "Dragons of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 28,
+      "cards": {
+        "dtk:128": 1,
+        "dtk:135": 1,
+        "dtk:139": 1,
+        "dtk:140": 1,
+        "dtk:142": 1,
+        "dtk:147": 1,
+        "dtk:148": 1,
+        "dtk:152": 1,
+        "dtk:153": 1,
+        "dtk:160": 1,
+        "dtk:161": 1,
+        "dtk:163": 1,
+        "dtk:164": 1,
+        "dtk:165": 1,
+        "dtk:166": 1,
+        "dtk:174": 1,
+        "dtk:178": 1,
+        "dtk:179": 1,
+        "dtk:183": 1,
+        "dtk:185": 1,
+        "dtk:188": 1,
+        "dtk:193": 1,
+        "dtk:197": 1,
+        "dtk:202": 1,
+        "dtk:205": 1,
+        "dtk:206": 1,
+        "dtk:208": 1,
+        "dtk:211": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 19,
+      "cards": {
+        "dtk:129": 1,
+        "dtk:134": 1,
+        "dtk:138": 1,
+        "dtk:149": 1,
+        "dtk:150": 1,
+        "dtk:151": 1,
+        "dtk:154": 1,
+        "dtk:156": 1,
+        "dtk:158": 1,
+        "dtk:172": 1,
+        "dtk:176": 1,
+        "dtk:182": 1,
+        "dtk:186": 1,
+        "dtk:190": 1,
+        "dtk:192": 1,
+        "dtk:196": 1,
+        "dtk:207": 1,
+        "dtk:231": 1,
+        "dtk:235": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pdtk:132s:foil": 2,
+        "pdtk:167s:foil": 2,
+        "pdtk:181s:foil": 2,
+        "pdtk:187s:foil": 2,
+        "pdtk:210s:foil": 2,
+        "pdtk:213s:foil": 2,
+        "pdtk:216s:foil": 1,
+        "pdtk:223s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dtk",
+    "pdtk"
+  ]
+}

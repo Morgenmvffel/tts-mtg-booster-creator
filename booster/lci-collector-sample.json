@@ -1,0 +1,150 @@
+{
+  "name": "The Lost Caverns of Ixalan Collector Sample Booster",
+  "code": "lci-collector-sample",
+  "set_code": "lci",
+  "set_name": "The Lost Caverns of Ixalan",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_common_uncommon_showcase": 1,
+        "rare_mythic_showcase": 1
+      },
+      "weight": 2
+    },
+    {
+      "sheets": {
+        "foil_common_uncommon_showcase": 1,
+        "foil_rare_mythic_showcase": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_common_uncommon_showcase": {
+      "total_weight": 14,
+      "cards": {
+        "lci:298:foil": 1,
+        "lci:301:foil": 1,
+        "lci:302:foil": 1,
+        "lci:303:foil": 1,
+        "lci:304:foil": 1,
+        "lci:306:foil": 1,
+        "lci:310:foil": 1,
+        "lci:312:foil": 1,
+        "lci:320:foil": 1,
+        "lci:322:foil": 1,
+        "lci:323:foil": 1,
+        "lci:325:foil": 1,
+        "lci:329:foil": 1,
+        "lci:331:foil": 1
+      }
+    },
+    "rare_mythic_showcase": {
+      "total_weight": 144,
+      "cards": {
+        "lci:292": 4,
+        "lci:293": 4,
+        "lci:294": 4,
+        "lci:295": 4,
+        "lci:296a": 2,
+        "lci:297": 4,
+        "lci:299": 4,
+        "lci:300": 4,
+        "lci:305": 2,
+        "lci:307": 1,
+        "lci:308": 2,
+        "lci:309": 2,
+        "lci:311": 2,
+        "lci:313a": 4,
+        "lci:314a": 2,
+        "lci:315a": 2,
+        "lci:316a": 2,
+        "lci:317a": 2,
+        "lci:318a": 2,
+        "lci:319": 2,
+        "lci:321": 2,
+        "lci:324": 4,
+        "lci:326": 2,
+        "lci:327": 4,
+        "lci:328": 4,
+        "lci:330": 2,
+        "lci:332": 4,
+        "lci:333": 4,
+        "lci:334": 2,
+        "lci:335": 4,
+        "lci:336": 2,
+        "lci:337": 4,
+        "lci:338": 4,
+        "lci:339a": 2,
+        "lci:340": 2,
+        "lci:341a": 4,
+        "lci:342": 4,
+        "lci:343": 4,
+        "lci:344": 4,
+        "lci:345": 2,
+        "lci:346": 4,
+        "lci:347": 4,
+        "lci:348": 4,
+        "lci:349": 4,
+        "lci:350": 4,
+        "lci:351": 4,
+        "lci:352": 1
+      }
+    },
+    "foil_rare_mythic_showcase": {
+      "total_weight": 144,
+      "cards": {
+        "lci:292:foil": 4,
+        "lci:293:foil": 4,
+        "lci:294:foil": 4,
+        "lci:295:foil": 4,
+        "lci:296a:foil": 2,
+        "lci:297:foil": 4,
+        "lci:299:foil": 4,
+        "lci:300:foil": 4,
+        "lci:305:foil": 2,
+        "lci:307:foil": 1,
+        "lci:308:foil": 2,
+        "lci:309:foil": 2,
+        "lci:311:foil": 2,
+        "lci:313a:foil": 4,
+        "lci:314a:foil": 2,
+        "lci:315a:foil": 2,
+        "lci:316a:foil": 2,
+        "lci:317a:foil": 2,
+        "lci:318a:foil": 2,
+        "lci:319:foil": 2,
+        "lci:321:foil": 2,
+        "lci:324:foil": 4,
+        "lci:326:foil": 2,
+        "lci:327:foil": 4,
+        "lci:328:foil": 4,
+        "lci:330:foil": 2,
+        "lci:332:foil": 4,
+        "lci:333:foil": 4,
+        "lci:334:foil": 2,
+        "lci:335:foil": 4,
+        "lci:336:foil": 2,
+        "lci:337:foil": 4,
+        "lci:338:foil": 4,
+        "lci:339a:foil": 2,
+        "lci:340:foil": 2,
+        "lci:341a:foil": 4,
+        "lci:342:foil": 4,
+        "lci:343:foil": 4,
+        "lci:344:foil": 4,
+        "lci:345:foil": 2,
+        "lci:346:foil": 4,
+        "lci:347:foil": 4,
+        "lci:348:foil": 4,
+        "lci:349:foil": 4,
+        "lci:350:foil": 4,
+        "lci:351:foil": 4,
+        "lci:352:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "lci"
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "name": "The Brothers' War Jumpstart Booster",
+  "code": "bro-jumpstart",
+  "set_code": "bro",
+  "set_name": "The Brothers' War",
+  "boosters": [
+    {
+      "sheets": {
+        "infantry_1": 17,
+        "infantry_1_foils": 2,
+        "rare_mythic_white": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "infantry_2": 17,
+        "infantry_2_foils": 2,
+        "rare_mythic_white": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "powerstones_1": 17,
+        "powerstones_1_foils": 2,
+        "rare_mythic_blue": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "powerstones_2": 17,
+        "powerstones_2_foils": 2,
+        "rare_mythic_blue": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "titanic_1": 17,
+        "titanic_1_foils": 2,
+        "rare_mythic_green": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "titanic_2": 17,
+        "titanic_2_foils": 2,
+        "rare_mythic_green": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "unearthed_1": 17,
+        "unearthed_1_foils": 2,
+        "rare_mythic_black": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "unearthed_2": 17,
+        "unearthed_2_foils": 2,
+        "rare_mythic_black": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "welded_1": 17,
+        "welded_1_foils": 2,
+        "rare_mythic_red": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "welded_2": 17,
+        "welded_2_foils": 2,
+        "rare_mythic_red": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "infantry_1": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:1": 1,
+        "bro:11": 1,
+        "bro:19": 1,
+        "bro:2": 1,
+        "bro:22": 1,
+        "bro:23": 1,
+        "bro:242": 1,
+        "bro:268": 6,
+        "bro:27": 1,
+        "bro:288": 1,
+        "bro:32": 1,
+        "bro:41": 1
+      }
+    },
+    "infantry_1_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:268:foil": 2
+      }
+    },
+    "rare_mythic_white": {
+      "total_weight": 20,
+      "cards": {
+        "bro:10": 2,
+        "bro:12": 2,
+        "bro:18": 1,
+        "bro:25": 2,
+        "bro:26": 2,
+        "bro:30": 2,
+        "bro:34": 2,
+        "bro:36": 1,
+        "bro:38": 2,
+        "bro:40": 1,
+        "bro:8": 1,
+        "bro:9": 2
+      }
+    },
+    "infantry_2": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:1": 1,
+        "bro:11": 1,
+        "bro:19": 1,
+        "bro:268": 6,
+        "bro:27": 1,
+        "bro:288": 1,
+        "bro:29": 1,
+        "bro:3": 1,
+        "bro:32": 1,
+        "bro:37": 1,
+        "bro:41": 1,
+        "bro:42": 1
+      }
+    },
+    "infantry_2_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:268:foil": 2
+      }
+    },
+    "powerstones_1": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:270": 6,
+        "bro:289": 1,
+        "bro:55": 1,
+        "bro:64": 1,
+        "bro:65": 1,
+        "bro:67": 1,
+        "bro:68": 1,
+        "bro:69": 1,
+        "bro:71": 1,
+        "bro:72": 1,
+        "bro:77": 1,
+        "bro:80": 1
+      }
+    },
+    "powerstones_1_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:270:foil": 2
+      }
+    },
+    "rare_mythic_blue": {
+      "total_weight": 18,
+      "cards": {
+        "bro:47": 2,
+        "bro:51": 2,
+        "bro:52": 2,
+        "bro:59": 1,
+        "bro:62": 2,
+        "bro:66": 1,
+        "bro:70": 2,
+        "bro:75": 1,
+        "bro:81": 1,
+        "bro:82": 2,
+        "bro:83": 2
+      }
+    },
+    "powerstones_2": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:270": 6,
+        "bro:289": 1,
+        "bro:53": 1,
+        "bro:55": 1,
+        "bro:56": 1,
+        "bro:58": 1,
+        "bro:64": 1,
+        "bro:68": 1,
+        "bro:69": 1,
+        "bro:72": 1,
+        "bro:77": 1,
+        "bro:79": 1
+      }
+    },
+    "powerstones_2_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:270:foil": 2
+      }
+    },
+    "titanic_1": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:167": 1,
+        "bro:172": 1,
+        "bro:174": 1,
+        "bro:182": 1,
+        "bro:183": 1,
+        "bro:189": 1,
+        "bro:190": 1,
+        "bro:198": 1,
+        "bro:200": 1,
+        "bro:204": 1,
+        "bro:276": 6,
+        "bro:292": 1
+      }
+    },
+    "titanic_1_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:276:foil": 2
+      }
+    },
+    "rare_mythic_green": {
+      "total_weight": 19,
+      "cards": {
+        "bro:170": 1,
+        "bro:177": 2,
+        "bro:179": 2,
+        "bro:185": 2,
+        "bro:192": 2,
+        "bro:193": 1,
+        "bro:194": 2,
+        "bro:202": 2,
+        "bro:203": 1,
+        "bro:205": 2,
+        "bro:256a": 2
+      }
+    },
+    "titanic_2": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:168": 1,
+        "bro:174": 1,
+        "bro:176": 1,
+        "bro:188": 1,
+        "bro:189": 1,
+        "bro:190": 1,
+        "bro:191": 1,
+        "bro:198": 1,
+        "bro:200": 1,
+        "bro:204": 1,
+        "bro:276": 6,
+        "bro:292": 1
+      }
+    },
+    "titanic_2_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:276:foil": 2
+      }
+    },
+    "unearthed_1": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:102": 1,
+        "bro:103": 1,
+        "bro:106": 1,
+        "bro:109": 1,
+        "bro:113": 1,
+        "bro:115": 1,
+        "bro:117": 1,
+        "bro:118": 1,
+        "bro:123": 1,
+        "bro:272": 6,
+        "bro:290": 1,
+        "bro:85": 1
+      }
+    },
+    "unearthed_1_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:272:foil": 2
+      }
+    },
+    "rare_mythic_black": {
+      "total_weight": 22,
+      "cards": {
+        "bro:105": 2,
+        "bro:107": 2,
+        "bro:111": 2,
+        "bro:121": 1,
+        "bro:122": 2,
+        "bro:125": 2,
+        "bro:84": 2,
+        "bro:89": 2,
+        "bro:94": 2,
+        "bro:95": 1,
+        "bro:97": 2,
+        "bro:99": 2
+      }
+    },
+    "unearthed_2": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:100": 1,
+        "bro:101": 1,
+        "bro:103": 1,
+        "bro:110": 1,
+        "bro:113": 1,
+        "bro:115": 1,
+        "bro:117": 1,
+        "bro:119": 1,
+        "bro:123": 1,
+        "bro:124": 1,
+        "bro:272": 6,
+        "bro:290": 1
+      }
+    },
+    "unearthed_2_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:272:foil": 2
+      }
+    },
+    "welded_1": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:127": 1,
+        "bro:134": 1,
+        "bro:138": 1,
+        "bro:140": 1,
+        "bro:145": 1,
+        "bro:155": 1,
+        "bro:157": 1,
+        "bro:159": 1,
+        "bro:161": 1,
+        "bro:164": 1,
+        "bro:274": 6,
+        "bro:291": 1
+      }
+    },
+    "welded_1_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:274:foil": 2
+      }
+    },
+    "rare_mythic_red": {
+      "total_weight": 18,
+      "cards": {
+        "bro:128": 2,
+        "bro:130": 1,
+        "bro:135": 2,
+        "bro:139": 2,
+        "bro:141": 2,
+        "bro:146": 2,
+        "bro:154": 2,
+        "bro:156": 2,
+        "bro:163a": 2,
+        "bro:165": 1
+      }
+    },
+    "welded_2": {
+      "fixed": true,
+      "total_weight": 17,
+      "cards": {
+        "bro:132": 1,
+        "bro:138": 1,
+        "bro:140": 1,
+        "bro:143": 1,
+        "bro:153": 1,
+        "bro:155": 1,
+        "bro:159": 1,
+        "bro:161": 1,
+        "bro:162": 1,
+        "bro:164": 1,
+        "bro:274": 6,
+        "bro:291": 1
+      }
+    },
+    "welded_2_foils": {
+      "fixed": true,
+      "total_weight": 2,
+      "cards": {
+        "bro:274:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "bro"
+  ]
+}

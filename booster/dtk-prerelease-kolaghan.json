@@ -1,0 +1,92 @@
+{
+  "name": "Dragons of Tarkir Seeded Prerelease Booster Kolaghan",
+  "code": "dtk-prerelease-kolaghan",
+  "set_code": "dtk",
+  "set_name": "Dragons of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 27,
+      "cards": {
+        "dtk:100": 1,
+        "dtk:103": 1,
+        "dtk:104": 1,
+        "dtk:107": 1,
+        "dtk:109": 1,
+        "dtk:110": 1,
+        "dtk:115": 1,
+        "dtk:135": 1,
+        "dtk:140": 1,
+        "dtk:142": 1,
+        "dtk:143": 1,
+        "dtk:145": 1,
+        "dtk:147": 1,
+        "dtk:148": 1,
+        "dtk:153": 1,
+        "dtk:155": 1,
+        "dtk:157": 1,
+        "dtk:160": 1,
+        "dtk:161": 1,
+        "dtk:163": 1,
+        "dtk:164": 1,
+        "dtk:165": 1,
+        "dtk:166": 1,
+        "dtk:90": 1,
+        "dtk:91": 1,
+        "dtk:97": 1,
+        "dtk:98": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 20,
+      "cards": {
+        "dtk:102": 1,
+        "dtk:117": 1,
+        "dtk:123": 1,
+        "dtk:124": 1,
+        "dtk:125": 1,
+        "dtk:144": 1,
+        "dtk:146": 1,
+        "dtk:150": 1,
+        "dtk:151": 1,
+        "dtk:154": 1,
+        "dtk:156": 1,
+        "dtk:158": 1,
+        "dtk:159": 1,
+        "dtk:168": 1,
+        "dtk:233": 1,
+        "dtk:241": 1,
+        "dtk:87": 1,
+        "dtk:89": 1,
+        "dtk:94": 1,
+        "dtk:95": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pdtk:112s:foil": 2,
+        "pdtk:141s:foil": 2,
+        "pdtk:162s:foil": 2,
+        "pdtk:169s:foil": 2,
+        "pdtk:214s:foil": 2,
+        "pdtk:218s:foil": 1,
+        "pdtk:224s:foil": 2,
+        "pdtk:88s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dtk",
+    "pdtk"
+  ]
+}

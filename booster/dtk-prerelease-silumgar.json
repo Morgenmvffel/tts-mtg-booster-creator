@@ -1,0 +1,94 @@
+{
+  "name": "Dragons of Tarkir Seeded Prerelease Booster Silumgar",
+  "code": "dtk-prerelease-silumgar",
+  "set_code": "dtk",
+  "set_name": "Dragons of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 28,
+      "cards": {
+        "dtk:100": 1,
+        "dtk:103": 1,
+        "dtk:104": 1,
+        "dtk:105": 1,
+        "dtk:109": 1,
+        "dtk:110": 1,
+        "dtk:113": 1,
+        "dtk:118": 1,
+        "dtk:119": 1,
+        "dtk:122": 1,
+        "dtk:126": 1,
+        "dtk:127": 1,
+        "dtk:44": 1,
+        "dtk:45": 1,
+        "dtk:49": 1,
+        "dtk:51": 1,
+        "dtk:55": 1,
+        "dtk:57": 1,
+        "dtk:64": 1,
+        "dtk:65": 1,
+        "dtk:69": 1,
+        "dtk:72": 1,
+        "dtk:74": 1,
+        "dtk:90": 1,
+        "dtk:91": 1,
+        "dtk:97": 1,
+        "dtk:98": 1,
+        "dtk:99": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 21,
+      "cards": {
+        "dtk:108": 1,
+        "dtk:111": 1,
+        "dtk:114": 1,
+        "dtk:117": 1,
+        "dtk:123": 1,
+        "dtk:124": 1,
+        "dtk:125": 1,
+        "dtk:229": 1,
+        "dtk:243": 1,
+        "dtk:50": 1,
+        "dtk:54": 1,
+        "dtk:56": 1,
+        "dtk:60": 1,
+        "dtk:71": 1,
+        "dtk:76": 1,
+        "dtk:77": 1,
+        "dtk:78": 1,
+        "dtk:84": 1,
+        "dtk:86": 1,
+        "dtk:94": 1,
+        "dtk:95": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pdtk:120s:foil": 2,
+        "pdtk:121s:foil": 2,
+        "pdtk:220s:foil": 1,
+        "pdtk:226s:foil": 2,
+        "pdtk:232s:foil": 2,
+        "pdtk:70s:foil": 2,
+        "pdtk:93s:foil": 2,
+        "pdtk:96s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dtk",
+    "pdtk"
+  ]
+}

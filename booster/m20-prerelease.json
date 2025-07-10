@@ -1,0 +1,92 @@
+{
+  "name": "Core Set 2020 Prerelease Promo Pack",
+  "code": "m20-prerelease",
+  "set_code": "m20",
+  "set_name": "Core Set 2020",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pm20:105s:foil": 2,
+        "pm20:106s:foil": 2,
+        "pm20:107s:foil": 2,
+        "pm20:10s:foil": 1,
+        "pm20:111s:foil": 2,
+        "pm20:113s:foil": 2,
+        "pm20:115s:foil": 1,
+        "pm20:122s:foil": 2,
+        "pm20:125s:foil": 1,
+        "pm20:126s:foil": 2,
+        "pm20:127s:foil": 1,
+        "pm20:131s:foil": 2,
+        "pm20:136s:foil": 2,
+        "pm20:141s:foil": 2,
+        "pm20:148s:foil": 2,
+        "pm20:150s:foil": 2,
+        "pm20:156s:foil": 2,
+        "pm20:162s:foil": 2,
+        "pm20:167s:foil": 1,
+        "pm20:169s:foil": 2,
+        "pm20:172s:foil": 2,
+        "pm20:179s:foil": 2,
+        "pm20:185s:foil": 2,
+        "pm20:193s:foil": 2,
+        "pm20:194s:foil": 2,
+        "pm20:199s:foil": 1,
+        "pm20:200s:foil": 2,
+        "pm20:202s:foil": 2,
+        "pm20:210s:foil": 1,
+        "pm20:211s:foil": 1,
+        "pm20:212s:foil": 1,
+        "pm20:216s:foil": 1,
+        "pm20:220s:foil": 1,
+        "pm20:222s:foil": 2,
+        "pm20:226s:foil": 2,
+        "pm20:227s:foil": 2,
+        "pm20:229s:foil": 2,
+        "pm20:22s:foil": 2,
+        "pm20:233s:foil": 2,
+        "pm20:239s:foil": 2,
+        "pm20:247s:foil": 2,
+        "pm20:249s:foil": 2,
+        "pm20:253s:foil": 2,
+        "pm20:254s:foil": 2,
+        "pm20:255s:foil": 2,
+        "pm20:256s:foil": 2,
+        "pm20:257s:foil": 2,
+        "pm20:26s:foil": 2,
+        "pm20:27s:foil": 2,
+        "pm20:2s:foil": 1,
+        "pm20:33s:foil": 2,
+        "pm20:36s:foil": 2,
+        "pm20:39s:foil": 2,
+        "pm20:43s:foil": 2,
+        "pm20:46s:foil": 2,
+        "pm20:52s:foil": 1,
+        "pm20:56s:foil": 2,
+        "pm20:57s:foil": 2,
+        "pm20:59s:foil": 2,
+        "pm20:64s:foil": 2,
+        "pm20:65s:foil": 2,
+        "pm20:68s:foil": 1,
+        "pm20:77s:foil": 2,
+        "pm20:8s:foil": 2,
+        "pm20:94s:foil": 1,
+        "pm20:96s:foil": 2,
+        "pm20:98s:foil": 2,
+        "pm20:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pm20"
+  ]
+}

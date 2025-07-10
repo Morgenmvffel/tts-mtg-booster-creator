@@ -1,0 +1,155 @@
+{
+  "name": "Adventures in the Forgotten Realms Theme Booster Green",
+  "code": "afr-theme-g",
+  "set_code": "afr",
+  "set_name": "Adventures in the Forgotten Realms",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 57,
+      "cards": {
+        "afr:175": 4,
+        "afr:180": 4,
+        "afr:186": 4,
+        "afr:188": 4,
+        "afr:191": 4,
+        "afr:192": 4,
+        "afr:194": 4,
+        "afr:200": 4,
+        "afr:201": 4,
+        "afr:210": 4,
+        "afr:212": 4,
+        "afr:214": 4,
+        "afr:215": 4,
+        "afr:240": 1,
+        "afr:242": 1,
+        "afr:244": 1,
+        "afr:247": 1,
+        "afr:260": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 82,
+      "cards": {
+        "afr:173": 4,
+        "afr:174": 4,
+        "afr:177": 4,
+        "afr:178": 4,
+        "afr:179": 4,
+        "afr:182": 4,
+        "afr:183": 4,
+        "afr:185": 4,
+        "afr:187": 4,
+        "afr:189": 4,
+        "afr:195": 4,
+        "afr:198": 4,
+        "afr:199": 4,
+        "afr:203": 4,
+        "afr:204": 4,
+        "afr:205": 4,
+        "afr:206": 4,
+        "afr:208": 4,
+        "afr:213": 4,
+        "afr:245": 1,
+        "afr:248": 1,
+        "afr:249": 1,
+        "afr:250": 1,
+        "afr:251": 1,
+        "afr:256": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 95,
+      "cards": {
+        "afr:176": 8,
+        "afr:181": 4,
+        "afr:184": 8,
+        "afr:190": 8,
+        "afr:193": 8,
+        "afr:196": 8,
+        "afr:197": 4,
+        "afr:202": 8,
+        "afr:207": 4,
+        "afr:209": 8,
+        "afr:211": 8,
+        "afr:241": 1,
+        "afr:243": 2,
+        "afr:246": 2,
+        "afr:252": 2,
+        "afr:255": 2,
+        "afr:259": 8,
+        "afr:261": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "afr"
+  ]
+}

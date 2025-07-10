@@ -1,0 +1,155 @@
+{
+  "name": "Zendikar Rising Theme Booster Blue",
+  "code": "znr-theme-u",
+  "set_code": "znr",
+  "set_name": "Zendikar Rising",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 57,
+      "cards": {
+        "znr:247": 1,
+        "znr:248": 1,
+        "znr:249": 1,
+        "znr:250": 1,
+        "znr:257": 1,
+        "znr:46a": 4,
+        "znr:52": 4,
+        "znr:64a": 4,
+        "znr:66": 4,
+        "znr:69": 4,
+        "znr:70": 4,
+        "znr:74": 4,
+        "znr:75": 4,
+        "znr:80a": 4,
+        "znr:81": 4,
+        "znr:83": 4,
+        "znr:86a": 4,
+        "znr:87": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 82,
+      "cards": {
+        "znr:243": 1,
+        "znr:251": 1,
+        "znr:253": 1,
+        "znr:254": 1,
+        "znr:255": 1,
+        "znr:256": 1,
+        "znr:45": 4,
+        "znr:47": 4,
+        "znr:48": 4,
+        "znr:50": 4,
+        "znr:51": 4,
+        "znr:55": 4,
+        "znr:56": 4,
+        "znr:57": 4,
+        "znr:58": 4,
+        "znr:59": 4,
+        "znr:62": 4,
+        "znr:65": 4,
+        "znr:71": 4,
+        "znr:73": 4,
+        "znr:78": 4,
+        "znr:79": 4,
+        "znr:82": 4,
+        "znr:84": 4,
+        "znr:88": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 94,
+      "cards": {
+        "znr:244": 1,
+        "znr:245": 1,
+        "znr:246": 2,
+        "znr:252": 2,
+        "znr:262": 2,
+        "znr:265": 2,
+        "znr:49": 8,
+        "znr:53": 8,
+        "znr:54": 8,
+        "znr:60a": 8,
+        "znr:61": 8,
+        "znr:63": 4,
+        "znr:67": 8,
+        "znr:68": 8,
+        "znr:72": 8,
+        "znr:76a": 4,
+        "znr:77": 4,
+        "znr:85": 8
+      }
+    }
+  },
+  "source_set_codes": [
+    "znr"
+  ]
+}

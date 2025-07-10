@@ -1,0 +1,89 @@
+{
+  "name": "Dragons of Tarkir Seeded Prerelease Booster Ojutai",
+  "code": "dtk-prerelease-ojutai",
+  "set_code": "dtk",
+  "set_name": "Dragons of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 26,
+      "cards": {
+        "dtk:11": 1,
+        "dtk:17": 1,
+        "dtk:18": 1,
+        "dtk:25": 1,
+        "dtk:29": 1,
+        "dtk:32": 1,
+        "dtk:4": 1,
+        "dtk:40": 1,
+        "dtk:43": 1,
+        "dtk:44": 1,
+        "dtk:45": 1,
+        "dtk:49": 1,
+        "dtk:51": 1,
+        "dtk:53": 1,
+        "dtk:55": 1,
+        "dtk:63": 1,
+        "dtk:64": 1,
+        "dtk:65": 1,
+        "dtk:66": 1,
+        "dtk:67": 1,
+        "dtk:68": 1,
+        "dtk:72": 1,
+        "dtk:8": 1,
+        "dtk:81": 1,
+        "dtk:82": 1,
+        "dtk:85": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 18,
+      "cards": {
+        "dtk:20": 1,
+        "dtk:21": 1,
+        "dtk:215": 1,
+        "dtk:242": 1,
+        "dtk:28": 1,
+        "dtk:38": 1,
+        "dtk:39": 1,
+        "dtk:42": 1,
+        "dtk:46": 1,
+        "dtk:5": 1,
+        "dtk:50": 1,
+        "dtk:54": 1,
+        "dtk:56": 1,
+        "dtk:60": 1,
+        "dtk:7": 1,
+        "dtk:75": 1,
+        "dtk:79": 1,
+        "dtk:83": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pdtk:219s:foil": 1,
+        "pdtk:227s:foil": 2,
+        "pdtk:228s:foil": 2,
+        "pdtk:26s:foil": 2,
+        "pdtk:47s:foil": 2,
+        "pdtk:58s:foil": 2,
+        "pdtk:61s:foil": 2,
+        "pdtk:80s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "dtk",
+    "pdtk"
+  ]
+}

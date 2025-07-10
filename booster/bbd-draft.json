@@ -1,0 +1,1005 @@
+{
+  "name": "Battlebond Draft Booster",
+  "code": "bbd-draft",
+  "set_code": "bbd",
+  "set_name": "Battlebond",
+  "boosters": [
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1
+      },
+      "weight": 28985
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 3,
+        "rare_mythic": 1
+      },
+      "weight": 11935
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 1,
+        "uncommon_partner_1": 2,
+        "rare_mythic": 1
+      },
+      "weight": 2046
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 1,
+        "uncommon_partner_1": 2,
+        "rare_mythic": 1
+      },
+      "weight": 682
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 1,
+        "uncommon_partner_2": 2,
+        "rare_mythic": 1
+      },
+      "weight": 2046
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 1,
+        "uncommon_partner_2": 2,
+        "rare_mythic": 1
+      },
+      "weight": 682
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 1,
+        "uncommon_partner_3": 2,
+        "rare_mythic": 1
+      },
+      "weight": 2046
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 1,
+        "uncommon_partner_3": 2,
+        "rare_mythic": 1
+      },
+      "weight": 682
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 1,
+        "uncommon_partner_4": 2,
+        "rare_mythic": 1
+      },
+      "weight": 2046
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 1,
+        "uncommon_partner_4": 2,
+        "rare_mythic": 1
+      },
+      "weight": 682
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 1,
+        "uncommon_partner_5": 2,
+        "rare_mythic": 1
+      },
+      "weight": 2046
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 1,
+        "uncommon_partner_5": 2,
+        "rare_mythic": 1
+      },
+      "weight": 682
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 2,
+        "rare_partner_1": 2
+      },
+      "weight": 930
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 2,
+        "rare_partner_1": 2
+      },
+      "weight": 310
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 2,
+        "rare_partner_2": 2
+      },
+      "weight": 930
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 2,
+        "rare_partner_2": 2
+      },
+      "weight": 310
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 2,
+        "rare_partner_3": 2
+      },
+      "weight": 930
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 2,
+        "rare_partner_3": 2
+      },
+      "weight": 310
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 2,
+        "rare_partner_4": 2
+      },
+      "weight": 930
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 2,
+        "rare_partner_4": 2
+      },
+      "weight": 310
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 2,
+        "rare_partner_5": 2
+      },
+      "weight": 930
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 2,
+        "rare_partner_5": 2
+      },
+      "weight": 310
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 10,
+        "uncommon": 2,
+        "mythic_partner_1": 2
+      },
+      "weight": 465
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "foil": 1,
+        "uncommon": 2,
+        "mythic_partner_1": 2
+      },
+      "weight": 155
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_mythic_partner_1": 2,
+        "rare_mythic": 1
+      },
+      "weight": 22
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_rare_partner_1": 2,
+        "rare_mythic": 1
+      },
+      "weight": 44
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_rare_partner_2": 2,
+        "rare_mythic": 1
+      },
+      "weight": 44
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_rare_partner_3": 2,
+        "rare_mythic": 1
+      },
+      "weight": 44
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_rare_partner_4": 2,
+        "rare_mythic": 1
+      },
+      "weight": 44
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_rare_partner_5": 2,
+        "rare_mythic": 1
+      },
+      "weight": 44
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_uncommon_partner_1": 2,
+        "rare_mythic": 1
+      },
+      "weight": 88
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_uncommon_partner_2": 2,
+        "rare_mythic": 1
+      },
+      "weight": 88
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_uncommon_partner_3": 2,
+        "rare_mythic": 1
+      },
+      "weight": 88
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_uncommon_partner_4": 2,
+        "rare_mythic": 1
+      },
+      "weight": 88
+    },
+    {
+      "sheets": {
+        "basic": 1,
+        "common": 9,
+        "uncommon": 2,
+        "foil_uncommon_partner_5": 2,
+        "rare_mythic": 1
+      },
+      "weight": 88
+    }
+  ],
+  "sheets": {
+    "basic": {
+      "total_weight": 5,
+      "cards": {
+        "bbd:250": 1,
+        "bbd:251": 1,
+        "bbd:252": 1,
+        "bbd:253": 1,
+        "bbd:254": 1
+      }
+    },
+    "common": {
+      "balance_colors": true,
+      "total_weight": 101,
+      "cards": {
+        "bbd:101": 1,
+        "bbd:102": 1,
+        "bbd:103": 1,
+        "bbd:104": 1,
+        "bbd:105": 1,
+        "bbd:106": 1,
+        "bbd:108": 1,
+        "bbd:112": 1,
+        "bbd:113": 1,
+        "bbd:114": 1,
+        "bbd:115": 1,
+        "bbd:116": 1,
+        "bbd:118": 1,
+        "bbd:119": 1,
+        "bbd:120": 1,
+        "bbd:121": 1,
+        "bbd:123": 1,
+        "bbd:124": 1,
+        "bbd:125": 1,
+        "bbd:135": 1,
+        "bbd:137": 1,
+        "bbd:139": 1,
+        "bbd:140": 1,
+        "bbd:142": 1,
+        "bbd:143": 1,
+        "bbd:144": 1,
+        "bbd:145": 1,
+        "bbd:146": 1,
+        "bbd:147": 1,
+        "bbd:148": 1,
+        "bbd:154": 1,
+        "bbd:155": 1,
+        "bbd:157": 1,
+        "bbd:158": 1,
+        "bbd:159": 1,
+        "bbd:164": 1,
+        "bbd:165": 1,
+        "bbd:170": 1,
+        "bbd:173": 1,
+        "bbd:174": 1,
+        "bbd:175": 1,
+        "bbd:177": 1,
+        "bbd:180": 1,
+        "bbd:182": 1,
+        "bbd:183": 1,
+        "bbd:184": 1,
+        "bbd:185": 1,
+        "bbd:188": 1,
+        "bbd:191": 1,
+        "bbd:192": 1,
+        "bbd:193": 1,
+        "bbd:194": 1,
+        "bbd:196": 1,
+        "bbd:198": 1,
+        "bbd:200": 1,
+        "bbd:204": 1,
+        "bbd:205": 1,
+        "bbd:208": 1,
+        "bbd:210": 1,
+        "bbd:211": 1,
+        "bbd:213": 1,
+        "bbd:216": 1,
+        "bbd:218": 1,
+        "bbd:219": 1,
+        "bbd:227": 1,
+        "bbd:228": 1,
+        "bbd:231": 1,
+        "bbd:232": 1,
+        "bbd:234": 1,
+        "bbd:237": 1,
+        "bbd:239": 1,
+        "bbd:24": 1,
+        "bbd:242": 1,
+        "bbd:243": 1,
+        "bbd:244": 1,
+        "bbd:245": 1,
+        "bbd:247": 1,
+        "bbd:248": 1,
+        "bbd:249": 1,
+        "bbd:27": 1,
+        "bbd:31": 1,
+        "bbd:36": 1,
+        "bbd:39": 1,
+        "bbd:40": 1,
+        "bbd:42": 1,
+        "bbd:45": 1,
+        "bbd:46": 1,
+        "bbd:50": 1,
+        "bbd:55": 1,
+        "bbd:57": 1,
+        "bbd:61": 1,
+        "bbd:63": 1,
+        "bbd:66": 1,
+        "bbd:67": 1,
+        "bbd:72": 1,
+        "bbd:88": 1,
+        "bbd:90": 1,
+        "bbd:91": 1,
+        "bbd:92": 1,
+        "bbd:95": 1,
+        "bbd:99": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 70,
+      "cards": {
+        "bbd:100": 1,
+        "bbd:107": 1,
+        "bbd:109": 1,
+        "bbd:110": 1,
+        "bbd:111": 1,
+        "bbd:117": 1,
+        "bbd:126": 1,
+        "bbd:127": 1,
+        "bbd:128": 1,
+        "bbd:129": 1,
+        "bbd:130": 1,
+        "bbd:132": 1,
+        "bbd:133": 1,
+        "bbd:138": 1,
+        "bbd:149": 1,
+        "bbd:152": 1,
+        "bbd:156": 1,
+        "bbd:160": 1,
+        "bbd:161": 1,
+        "bbd:162": 1,
+        "bbd:163": 1,
+        "bbd:166": 1,
+        "bbd:167": 1,
+        "bbd:168": 1,
+        "bbd:169": 1,
+        "bbd:171": 1,
+        "bbd:172": 1,
+        "bbd:176": 1,
+        "bbd:178": 1,
+        "bbd:186": 1,
+        "bbd:189": 1,
+        "bbd:190": 1,
+        "bbd:197": 1,
+        "bbd:199": 1,
+        "bbd:202": 1,
+        "bbd:203": 1,
+        "bbd:207": 1,
+        "bbd:209": 1,
+        "bbd:214": 1,
+        "bbd:220": 1,
+        "bbd:221": 1,
+        "bbd:224": 1,
+        "bbd:225": 1,
+        "bbd:226": 1,
+        "bbd:229": 1,
+        "bbd:230": 1,
+        "bbd:233": 1,
+        "bbd:235": 1,
+        "bbd:236": 1,
+        "bbd:238": 1,
+        "bbd:246": 1,
+        "bbd:26": 1,
+        "bbd:28": 1,
+        "bbd:34": 1,
+        "bbd:37": 1,
+        "bbd:38": 1,
+        "bbd:47": 1,
+        "bbd:48": 1,
+        "bbd:52": 1,
+        "bbd:58": 1,
+        "bbd:60": 1,
+        "bbd:68": 1,
+        "bbd:69": 1,
+        "bbd:75": 1,
+        "bbd:77": 1,
+        "bbd:78": 1,
+        "bbd:86": 1,
+        "bbd:89": 1,
+        "bbd:96": 1,
+        "bbd:97": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 99,
+      "cards": {
+        "bbd:122": 2,
+        "bbd:131": 2,
+        "bbd:134": 2,
+        "bbd:136": 1,
+        "bbd:141": 2,
+        "bbd:150": 1,
+        "bbd:151": 2,
+        "bbd:153": 2,
+        "bbd:179": 2,
+        "bbd:181": 2,
+        "bbd:187": 2,
+        "bbd:195": 1,
+        "bbd:201": 2,
+        "bbd:206": 2,
+        "bbd:212": 2,
+        "bbd:215": 2,
+        "bbd:217": 2,
+        "bbd:222": 2,
+        "bbd:223": 2,
+        "bbd:23": 1,
+        "bbd:240": 2,
+        "bbd:241": 1,
+        "bbd:25": 1,
+        "bbd:29": 2,
+        "bbd:30": 2,
+        "bbd:32": 2,
+        "bbd:33": 1,
+        "bbd:35": 2,
+        "bbd:41": 2,
+        "bbd:43": 2,
+        "bbd:44": 1,
+        "bbd:49": 2,
+        "bbd:51": 1,
+        "bbd:53": 2,
+        "bbd:54": 2,
+        "bbd:56": 2,
+        "bbd:59": 2,
+        "bbd:62": 1,
+        "bbd:64": 2,
+        "bbd:65": 1,
+        "bbd:70": 2,
+        "bbd:71": 1,
+        "bbd:73": 2,
+        "bbd:74": 2,
+        "bbd:76": 2,
+        "bbd:79": 2,
+        "bbd:80": 2,
+        "bbd:81": 2,
+        "bbd:82": 2,
+        "bbd:83": 2,
+        "bbd:84": 2,
+        "bbd:85": 2,
+        "bbd:87": 2,
+        "bbd:93": 2,
+        "bbd:94": 1,
+        "bbd:98": 2
+      }
+    },
+    "foil": {
+      "total_weight": 489720,
+      "cards": {
+        "bbd:100:foil": 1749,
+        "bbd:101:foil": 2772,
+        "bbd:102:foil": 2772,
+        "bbd:103:foil": 2772,
+        "bbd:104:foil": 2772,
+        "bbd:105:foil": 2772,
+        "bbd:106:foil": 2772,
+        "bbd:107:foil": 1749,
+        "bbd:108:foil": 2772,
+        "bbd:109:foil": 1749,
+        "bbd:110:foil": 1749,
+        "bbd:111:foil": 1749,
+        "bbd:112:foil": 2772,
+        "bbd:113:foil": 2772,
+        "bbd:114:foil": 2772,
+        "bbd:115:foil": 2772,
+        "bbd:116:foil": 2772,
+        "bbd:117:foil": 1749,
+        "bbd:118:foil": 2772,
+        "bbd:119:foil": 2772,
+        "bbd:120:foil": 2772,
+        "bbd:121:foil": 2772,
+        "bbd:122:foil": 1484,
+        "bbd:123:foil": 2772,
+        "bbd:124:foil": 2772,
+        "bbd:125:foil": 2772,
+        "bbd:126:foil": 1749,
+        "bbd:127:foil": 1749,
+        "bbd:128:foil": 1749,
+        "bbd:129:foil": 1749,
+        "bbd:130:foil": 1749,
+        "bbd:131:foil": 1484,
+        "bbd:132:foil": 1749,
+        "bbd:133:foil": 1749,
+        "bbd:134:foil": 1484,
+        "bbd:135:foil": 2772,
+        "bbd:136:foil": 742,
+        "bbd:137:foil": 2772,
+        "bbd:138:foil": 1749,
+        "bbd:139:foil": 2772,
+        "bbd:140:foil": 2772,
+        "bbd:141:foil": 1484,
+        "bbd:142:foil": 2772,
+        "bbd:143:foil": 2772,
+        "bbd:144:foil": 2772,
+        "bbd:145:foil": 2772,
+        "bbd:146:foil": 2772,
+        "bbd:147:foil": 2772,
+        "bbd:148:foil": 2772,
+        "bbd:149:foil": 1749,
+        "bbd:150:foil": 742,
+        "bbd:151:foil": 1484,
+        "bbd:152:foil": 1749,
+        "bbd:153:foil": 1484,
+        "bbd:154:foil": 2772,
+        "bbd:155:foil": 2772,
+        "bbd:156:foil": 1749,
+        "bbd:157:foil": 2772,
+        "bbd:158:foil": 2772,
+        "bbd:159:foil": 2772,
+        "bbd:160:foil": 1749,
+        "bbd:161:foil": 1749,
+        "bbd:162:foil": 1749,
+        "bbd:163:foil": 1749,
+        "bbd:164:foil": 2772,
+        "bbd:165:foil": 2772,
+        "bbd:166:foil": 1749,
+        "bbd:167:foil": 1749,
+        "bbd:168:foil": 1749,
+        "bbd:169:foil": 1749,
+        "bbd:170:foil": 2772,
+        "bbd:171:foil": 1749,
+        "bbd:172:foil": 1749,
+        "bbd:173:foil": 2772,
+        "bbd:174:foil": 2772,
+        "bbd:175:foil": 2772,
+        "bbd:176:foil": 1749,
+        "bbd:177:foil": 2772,
+        "bbd:178:foil": 1749,
+        "bbd:179:foil": 1484,
+        "bbd:180:foil": 2772,
+        "bbd:181:foil": 1484,
+        "bbd:182:foil": 2772,
+        "bbd:183:foil": 2772,
+        "bbd:184:foil": 2772,
+        "bbd:185:foil": 2772,
+        "bbd:186:foil": 1749,
+        "bbd:187:foil": 1484,
+        "bbd:188:foil": 2772,
+        "bbd:189:foil": 1749,
+        "bbd:190:foil": 1749,
+        "bbd:191:foil": 2772,
+        "bbd:192:foil": 2772,
+        "bbd:193:foil": 2772,
+        "bbd:194:foil": 2772,
+        "bbd:195:foil": 742,
+        "bbd:196:foil": 2772,
+        "bbd:197:foil": 1749,
+        "bbd:198:foil": 2772,
+        "bbd:199:foil": 1749,
+        "bbd:200:foil": 2772,
+        "bbd:201:foil": 1484,
+        "bbd:202:foil": 1749,
+        "bbd:203:foil": 1749,
+        "bbd:204:foil": 2772,
+        "bbd:205:foil": 2772,
+        "bbd:206:foil": 1484,
+        "bbd:207:foil": 1749,
+        "bbd:208:foil": 2772,
+        "bbd:209:foil": 1749,
+        "bbd:210:foil": 2772,
+        "bbd:211:foil": 2772,
+        "bbd:212:foil": 1484,
+        "bbd:213:foil": 2772,
+        "bbd:214:foil": 1749,
+        "bbd:215:foil": 1484,
+        "bbd:216:foil": 2772,
+        "bbd:217:foil": 1484,
+        "bbd:218:foil": 2772,
+        "bbd:219:foil": 2772,
+        "bbd:220:foil": 1749,
+        "bbd:221:foil": 1749,
+        "bbd:222:foil": 1484,
+        "bbd:223:foil": 1484,
+        "bbd:224:foil": 1749,
+        "bbd:225:foil": 1749,
+        "bbd:226:foil": 1749,
+        "bbd:227:foil": 2772,
+        "bbd:228:foil": 2772,
+        "bbd:229:foil": 1749,
+        "bbd:230:foil": 1749,
+        "bbd:231:foil": 2772,
+        "bbd:232:foil": 2772,
+        "bbd:233:foil": 1749,
+        "bbd:234:foil": 2772,
+        "bbd:235:foil": 1749,
+        "bbd:236:foil": 1749,
+        "bbd:237:foil": 2772,
+        "bbd:238:foil": 1749,
+        "bbd:239:foil": 2772,
+        "bbd:23:foil": 742,
+        "bbd:240:foil": 1484,
+        "bbd:241:foil": 742,
+        "bbd:242:foil": 2772,
+        "bbd:243:foil": 2772,
+        "bbd:244:foil": 2772,
+        "bbd:245:foil": 2772,
+        "bbd:246:foil": 1749,
+        "bbd:247:foil": 2772,
+        "bbd:248:foil": 2772,
+        "bbd:249:foil": 2772,
+        "bbd:24:foil": 2772,
+        "bbd:250:foil": 2772,
+        "bbd:251:foil": 2772,
+        "bbd:252:foil": 2772,
+        "bbd:253:foil": 2772,
+        "bbd:254:foil": 2772,
+        "bbd:25:foil": 742,
+        "bbd:26:foil": 1749,
+        "bbd:27:foil": 2772,
+        "bbd:28:foil": 1749,
+        "bbd:29:foil": 1484,
+        "bbd:30:foil": 1484,
+        "bbd:31:foil": 2772,
+        "bbd:32:foil": 1484,
+        "bbd:33:foil": 742,
+        "bbd:34:foil": 1749,
+        "bbd:35:foil": 1484,
+        "bbd:36:foil": 2772,
+        "bbd:37:foil": 1749,
+        "bbd:38:foil": 1749,
+        "bbd:39:foil": 2772,
+        "bbd:40:foil": 2772,
+        "bbd:41:foil": 1484,
+        "bbd:42:foil": 2772,
+        "bbd:43:foil": 1484,
+        "bbd:44:foil": 742,
+        "bbd:45:foil": 2772,
+        "bbd:46:foil": 2772,
+        "bbd:47:foil": 1749,
+        "bbd:48:foil": 1749,
+        "bbd:49:foil": 1484,
+        "bbd:50:foil": 2772,
+        "bbd:51:foil": 742,
+        "bbd:52:foil": 1749,
+        "bbd:53:foil": 1484,
+        "bbd:54:foil": 1484,
+        "bbd:55:foil": 2772,
+        "bbd:56:foil": 1484,
+        "bbd:57:foil": 2772,
+        "bbd:58:foil": 1749,
+        "bbd:59:foil": 1484,
+        "bbd:60:foil": 1749,
+        "bbd:61:foil": 2772,
+        "bbd:62:foil": 742,
+        "bbd:63:foil": 2772,
+        "bbd:64:foil": 1484,
+        "bbd:65:foil": 742,
+        "bbd:66:foil": 2772,
+        "bbd:67:foil": 2772,
+        "bbd:68:foil": 1749,
+        "bbd:69:foil": 1749,
+        "bbd:70:foil": 1484,
+        "bbd:71:foil": 742,
+        "bbd:72:foil": 2772,
+        "bbd:73:foil": 1484,
+        "bbd:74:foil": 1484,
+        "bbd:75:foil": 1749,
+        "bbd:76:foil": 1484,
+        "bbd:77:foil": 1749,
+        "bbd:78:foil": 1749,
+        "bbd:79:foil": 1484,
+        "bbd:80:foil": 1484,
+        "bbd:81:foil": 1484,
+        "bbd:82:foil": 1484,
+        "bbd:83:foil": 1484,
+        "bbd:84:foil": 1484,
+        "bbd:85:foil": 1484,
+        "bbd:86:foil": 1749,
+        "bbd:87:foil": 1484,
+        "bbd:88:foil": 2772,
+        "bbd:89:foil": 1749,
+        "bbd:90:foil": 2772,
+        "bbd:91:foil": 2772,
+        "bbd:92:foil": 2772,
+        "bbd:93:foil": 1484,
+        "bbd:94:foil": 742,
+        "bbd:95:foil": 2772,
+        "bbd:96:foil": 1749,
+        "bbd:97:foil": 1749,
+        "bbd:98:foil": 1484,
+        "bbd:99:foil": 2772
+      }
+    },
+    "uncommon_partner_1": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:13": 1,
+        "bbd:14": 1
+      }
+    },
+    "uncommon_partner_2": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:15": 1,
+        "bbd:16": 1
+      }
+    },
+    "uncommon_partner_3": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:17": 1,
+        "bbd:18": 1
+      }
+    },
+    "uncommon_partner_4": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:19": 1,
+        "bbd:20": 1
+      }
+    },
+    "uncommon_partner_5": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:21": 1,
+        "bbd:22": 1
+      }
+    },
+    "rare_partner_1": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:3": 1,
+        "bbd:4": 1
+      }
+    },
+    "rare_partner_2": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:5": 1,
+        "bbd:6": 1
+      }
+    },
+    "rare_partner_3": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:7": 1,
+        "bbd:8": 1
+      }
+    },
+    "rare_partner_4": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:10": 1,
+        "bbd:9": 1
+      }
+    },
+    "rare_partner_5": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:11": 1,
+        "bbd:12": 1
+      }
+    },
+    "mythic_partner_1": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:1": 1,
+        "bbd:2": 1
+      }
+    },
+    "foil_mythic_partner_1": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:255:foil": 1,
+        "bbd:256:foil": 1
+      }
+    },
+    "foil_rare_partner_1": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:3:foil": 1,
+        "bbd:4:foil": 1
+      }
+    },
+    "foil_rare_partner_2": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:5:foil": 1,
+        "bbd:6:foil": 1
+      }
+    },
+    "foil_rare_partner_3": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:7:foil": 1,
+        "bbd:8:foil": 1
+      }
+    },
+    "foil_rare_partner_4": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:10:foil": 1,
+        "bbd:9:foil": 1
+      }
+    },
+    "foil_rare_partner_5": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:11:foil": 1,
+        "bbd:12:foil": 1
+      }
+    },
+    "foil_uncommon_partner_1": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:13:foil": 1,
+        "bbd:14:foil": 1
+      }
+    },
+    "foil_uncommon_partner_2": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:15:foil": 1,
+        "bbd:16:foil": 1
+      }
+    },
+    "foil_uncommon_partner_3": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:17:foil": 1,
+        "bbd:18:foil": 1
+      }
+    },
+    "foil_uncommon_partner_4": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:19:foil": 1,
+        "bbd:20:foil": 1
+      }
+    },
+    "foil_uncommon_partner_5": {
+      "total_weight": 2,
+      "cards": {
+        "bbd:21:foil": 1,
+        "bbd:22:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "bbd"
+  ]
+}

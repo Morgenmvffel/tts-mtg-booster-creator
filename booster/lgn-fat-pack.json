@@ -1,0 +1,106 @@
+{
+  "name": "Legions Fat Pack Promotional Cards",
+  "code": "lgn-fat-pack",
+  "set_code": "lgn",
+  "set_name": "Legions",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_basic": 1,
+        "foil_common": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_basic": {
+      "total_weight": 20,
+      "cards": {
+        "ons:331:foil": 1,
+        "ons:332:foil": 1,
+        "ons:333:foil": 1,
+        "ons:334:foil": 1,
+        "ons:335:foil": 1,
+        "ons:336:foil": 1,
+        "ons:337:foil": 1,
+        "ons:338:foil": 1,
+        "ons:339:foil": 1,
+        "ons:340:foil": 1,
+        "ons:341:foil": 1,
+        "ons:342:foil": 1,
+        "ons:343:foil": 1,
+        "ons:344:foil": 1,
+        "ons:345:foil": 1,
+        "ons:346:foil": 1,
+        "ons:347:foil": 1,
+        "ons:348:foil": 1,
+        "ons:349:foil": 1,
+        "ons:350:foil": 1
+      }
+    },
+    "foil_common": {
+      "total_weight": 55,
+      "cards": {
+        "lgn:100:foil": 1,
+        "lgn:101:foil": 1,
+        "lgn:102:foil": 1,
+        "lgn:106:foil": 1,
+        "lgn:10:foil": 1,
+        "lgn:110:foil": 1,
+        "lgn:113:foil": 1,
+        "lgn:114:foil": 1,
+        "lgn:117:foil": 1,
+        "lgn:123:foil": 1,
+        "lgn:128:foil": 1,
+        "lgn:129:foil": 1,
+        "lgn:12:foil": 1,
+        "lgn:131:foil": 1,
+        "lgn:132:foil": 1,
+        "lgn:133:foil": 1,
+        "lgn:134:foil": 1,
+        "lgn:136:foil": 1,
+        "lgn:139:foil": 1,
+        "lgn:140:foil": 1,
+        "lgn:14:foil": 1,
+        "lgn:17:foil": 1,
+        "lgn:19:foil": 1,
+        "lgn:20:foil": 1,
+        "lgn:24:foil": 1,
+        "lgn:26:foil": 1,
+        "lgn:29:foil": 1,
+        "lgn:30:foil": 1,
+        "lgn:31:foil": 1,
+        "lgn:33:foil": 1,
+        "lgn:37:foil": 1,
+        "lgn:38:foil": 1,
+        "lgn:3:foil": 1,
+        "lgn:40:foil": 1,
+        "lgn:41:foil": 1,
+        "lgn:44:foil": 1,
+        "lgn:45:foil": 1,
+        "lgn:46:foil": 1,
+        "lgn:54:foil": 1,
+        "lgn:61:foil": 1,
+        "lgn:63:foil": 1,
+        "lgn:67:foil": 1,
+        "lgn:69:foil": 1,
+        "lgn:70:foil": 1,
+        "lgn:72:foil": 1,
+        "lgn:76:foil": 1,
+        "lgn:80:foil": 1,
+        "lgn:81:foil": 1,
+        "lgn:82:foil": 1,
+        "lgn:85:foil": 1,
+        "lgn:89:foil": 1,
+        "lgn:91:foil": 1,
+        "lgn:92:foil": 1,
+        "lgn:98:foil": 1,
+        "lgn:9:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "lgn",
+    "ons"
+  ]
+}

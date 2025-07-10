@@ -1,0 +1,140 @@
+{
+  "name": "Ravnica Allegiance Theme Booster Gruul",
+  "code": "rna-theme-gruul",
+  "set_code": "rna",
+  "set_name": "Ravnica Allegiance",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 92,
+      "cards": {
+        "rna:101": 4,
+        "rna:102": 4,
+        "rna:112": 4,
+        "rna:116": 4,
+        "rna:120": 4,
+        "rna:123": 4,
+        "rna:125": 4,
+        "rna:126": 4,
+        "rna:129": 4,
+        "rna:136": 4,
+        "rna:141": 4,
+        "rna:147": 4,
+        "rna:149": 4,
+        "rna:159": 4,
+        "rna:162": 4,
+        "rna:201": 4,
+        "rna:210": 4,
+        "rna:215": 4,
+        "rna:223a": 4,
+        "rna:232": 1,
+        "rna:235": 1,
+        "rna:238": 1,
+        "rna:239": 1,
+        "rna:95": 4,
+        "rna:96": 4,
+        "rna:97": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 133,
+      "cards": {
+        "rna:100": 4,
+        "rna:103": 4,
+        "rna:104": 4,
+        "rna:105": 4,
+        "rna:110": 4,
+        "rna:111": 4,
+        "rna:113": 4,
+        "rna:117": 4,
+        "rna:119": 4,
+        "rna:121": 4,
+        "rna:127": 4,
+        "rna:132": 4,
+        "rna:133": 4,
+        "rna:135": 4,
+        "rna:137": 4,
+        "rna:138": 4,
+        "rna:139": 4,
+        "rna:143": 4,
+        "rna:144": 4,
+        "rna:145": 4,
+        "rna:146": 4,
+        "rna:150": 4,
+        "rna:173": 4,
+        "rna:202": 4,
+        "rna:203": 4,
+        "rna:217": 4,
+        "rna:234": 4,
+        "rna:247": 1,
+        "rna:249": 4,
+        "rna:250": 4,
+        "rna:91": 4,
+        "rna:93": 4,
+        "rna:94": 4,
+        "rna:98": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 55,
+      "cards": {
+        "rna:106": 4,
+        "rna:108": 4,
+        "rna:114": 2,
+        "rna:122": 2,
+        "rna:124": 4,
+        "rna:130": 4,
+        "rna:161": 4,
+        "rna:166": 2,
+        "rna:179": 4,
+        "rna:193": 4,
+        "rna:200": 2,
+        "rna:229a": 4,
+        "rna:233": 1,
+        "rna:242": 1,
+        "rna:254": 1,
+        "rna:259": 4,
+        "rna:92": 4,
+        "rna:99": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "rna"
+  ]
+}

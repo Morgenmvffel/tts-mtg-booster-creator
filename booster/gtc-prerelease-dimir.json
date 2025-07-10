@@ -1,0 +1,109 @@
+{
+  "name": "Gatecrash Prerelease Pack Dimir",
+  "code": "gtc-prerelease-dimir",
+  "set_code": "gtc",
+  "set_name": "Gatecrash",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 34,
+      "cards": {
+        "gtc:179": 1,
+        "gtc:186": 1,
+        "gtc:189": 1,
+        "gtc:218": 1,
+        "gtc:226": 1,
+        "gtc:232": 1,
+        "gtc:234": 1,
+        "gtc:235": 1,
+        "gtc:236": 1,
+        "gtc:238": 1,
+        "gtc:241": 1,
+        "gtc:37": 1,
+        "gtc:39": 1,
+        "gtc:40": 1,
+        "gtc:41": 1,
+        "gtc:42": 1,
+        "gtc:46": 1,
+        "gtc:48": 1,
+        "gtc:51": 1,
+        "gtc:52": 1,
+        "gtc:54": 1,
+        "gtc:56": 1,
+        "gtc:57": 1,
+        "gtc:59": 1,
+        "gtc:60": 1,
+        "gtc:62": 1,
+        "gtc:63": 1,
+        "gtc:66": 1,
+        "gtc:67": 1,
+        "gtc:68": 1,
+        "gtc:73": 1,
+        "gtc:76": 1,
+        "gtc:77": 1,
+        "gtc:78": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 23,
+      "cards": {
+        "gtc:145": 1,
+        "gtc:149": 1,
+        "gtc:154": 1,
+        "gtc:155": 1,
+        "gtc:158": 1,
+        "gtc:217": 1,
+        "gtc:228": 1,
+        "gtc:29": 1,
+        "gtc:30": 1,
+        "gtc:36": 1,
+        "gtc:38": 1,
+        "gtc:43": 1,
+        "gtc:44": 1,
+        "gtc:47": 1,
+        "gtc:55": 1,
+        "gtc:64": 1,
+        "gtc:65": 1,
+        "gtc:69": 1,
+        "gtc:70": 1,
+        "gtc:72": 1,
+        "gtc:79": 1,
+        "gtc:82": 1,
+        "gtc:84": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 31,
+      "cards": {
+        "gtc:152": 2,
+        "gtc:174": 1,
+        "gtc:178": 2,
+        "gtc:198": 2,
+        "gtc:207": 2,
+        "gtc:222": 2,
+        "gtc:229": 2,
+        "gtc:231": 2,
+        "gtc:248": 2,
+        "gtc:249": 2,
+        "gtc:33": 2,
+        "gtc:45": 2,
+        "gtc:53": 2,
+        "gtc:74": 2,
+        "gtc:75": 2,
+        "gtc:83": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "gtc"
+  ]
+}

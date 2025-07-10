@@ -1,0 +1,92 @@
+{
+  "name": "The Lost Caverns of Ixalan Prerelease Promo Pack",
+  "code": "lci-prerelease",
+  "set_code": "lci",
+  "set_name": "The Lost Caverns of Ixalan",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "plci:113s:foil": 2,
+        "plci:115s:foil": 2,
+        "plci:121s:foil": 2,
+        "plci:122s:foil": 2,
+        "plci:123s:foil": 2,
+        "plci:127s:foil": 2,
+        "plci:12s:foil": 2,
+        "plci:134s:foil": 1,
+        "plci:137s:foil": 2,
+        "plci:14s:foil": 2,
+        "plci:153s:foil": 2,
+        "plci:156s:foil": 2,
+        "plci:157s:foil": 2,
+        "plci:161s:foil": 2,
+        "plci:171s:foil": 2,
+        "plci:176s:foil": 2,
+        "plci:181s:foil": 2,
+        "plci:185s:foil": 1,
+        "plci:191s:foil": 2,
+        "plci:193s:foil": 2,
+        "plci:196s:foil": 2,
+        "plci:1s:foil": 2,
+        "plci:208s:foil": 2,
+        "plci:20s:foil": 2,
+        "plci:211s:foil": 2,
+        "plci:212s:foil": 1,
+        "plci:219s:foil": 2,
+        "plci:221s:foil": 2,
+        "plci:222s:foil": 1,
+        "plci:223s:foil": 2,
+        "plci:225s:foil": 2,
+        "plci:228s:foil": 2,
+        "plci:229s:foil": 1,
+        "plci:231sa:foil": 2,
+        "plci:234s:foil": 2,
+        "plci:235s:foil": 1,
+        "plci:237s:foil": 2,
+        "plci:238s:foil": 1,
+        "plci:239s:foil": 1,
+        "plci:240s:foil": 1,
+        "plci:241s:foil": 2,
+        "plci:243s:foil": 1,
+        "plci:244s:foil": 2,
+        "plci:249s:foil": 1,
+        "plci:257s:foil": 1,
+        "plci:258s:foil": 2,
+        "plci:264s:foil": 2,
+        "plci:265s:foil": 2,
+        "plci:269s:foil": 1,
+        "plci:271s:foil": 2,
+        "plci:280s:foil": 2,
+        "plci:281s:foil": 2,
+        "plci:282s:foil": 2,
+        "plci:283s:foil": 2,
+        "plci:284s:foil": 2,
+        "plci:285s:foil": 2,
+        "plci:32s:foil": 1,
+        "plci:34s:foil": 2,
+        "plci:43s:foil": 2,
+        "plci:44s:foil": 2,
+        "plci:52s:foil": 2,
+        "plci:61s:foil": 2,
+        "plci:63s:foil": 2,
+        "plci:80s:foil": 2,
+        "plci:81s:foil": 2,
+        "plci:92s:foil": 1,
+        "plci:94s:foil": 2,
+        "plci:98s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "plci"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Fifth Dawn Fat Pack Promotional Cards",
+  "code": "5dn-fat-pack",
+  "set_code": "5dn",
+  "set_name": "Fifth Dawn",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_basic": 1,
+        "foil_common": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_basic": {
+      "total_weight": 20,
+      "cards": {
+        "mrd:287:foil": 1,
+        "mrd:288:foil": 1,
+        "mrd:289:foil": 1,
+        "mrd:290:foil": 1,
+        "mrd:291:foil": 1,
+        "mrd:292:foil": 1,
+        "mrd:293:foil": 1,
+        "mrd:294:foil": 1,
+        "mrd:295:foil": 1,
+        "mrd:296:foil": 1,
+        "mrd:297:foil": 1,
+        "mrd:298:foil": 1,
+        "mrd:299:foil": 1,
+        "mrd:300:foil": 1,
+        "mrd:301:foil": 1,
+        "mrd:302:foil": 1,
+        "mrd:303:foil": 1,
+        "mrd:304:foil": 1,
+        "mrd:305:foil": 1,
+        "mrd:306:foil": 1
+      }
+    },
+    "foil_common": {
+      "total_weight": 55,
+      "cards": {
+        "5dn:100:foil": 1,
+        "5dn:101:foil": 1,
+        "5dn:105:foil": 1,
+        "5dn:106:foil": 1,
+        "5dn:10:foil": 1,
+        "5dn:112:foil": 1,
+        "5dn:113:foil": 1,
+        "5dn:129:foil": 1,
+        "5dn:130:foil": 1,
+        "5dn:132:foil": 1,
+        "5dn:138:foil": 1,
+        "5dn:139:foil": 1,
+        "5dn:140:foil": 1,
+        "5dn:141:foil": 1,
+        "5dn:143:foil": 1,
+        "5dn:145:foil": 1,
+        "5dn:149:foil": 1,
+        "5dn:152:foil": 1,
+        "5dn:154:foil": 1,
+        "5dn:15:foil": 1,
+        "5dn:160:foil": 1,
+        "5dn:162:foil": 1,
+        "5dn:165:foil": 1,
+        "5dn:17:foil": 1,
+        "5dn:18:foil": 1,
+        "5dn:1:foil": 1,
+        "5dn:22:foil": 1,
+        "5dn:27:foil": 1,
+        "5dn:29:foil": 1,
+        "5dn:2:foil": 1,
+        "5dn:33:foil": 1,
+        "5dn:36:foil": 1,
+        "5dn:38:foil": 1,
+        "5dn:39:foil": 1,
+        "5dn:42:foil": 1,
+        "5dn:44:foil": 1,
+        "5dn:47:foil": 1,
+        "5dn:50:foil": 1,
+        "5dn:51:foil": 1,
+        "5dn:52:foil": 1,
+        "5dn:60:foil": 1,
+        "5dn:66:foil": 1,
+        "5dn:71:foil": 1,
+        "5dn:75:foil": 1,
+        "5dn:76:foil": 1,
+        "5dn:78:foil": 1,
+        "5dn:79:foil": 1,
+        "5dn:80:foil": 1,
+        "5dn:85:foil": 1,
+        "5dn:88:foil": 1,
+        "5dn:93:foil": 1,
+        "5dn:94:foil": 1,
+        "5dn:96:foil": 1,
+        "5dn:98:foil": 1,
+        "5dn:9:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "5dn",
+    "mrd"
+  ]
+}

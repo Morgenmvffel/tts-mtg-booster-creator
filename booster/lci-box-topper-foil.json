@@ -1,0 +1,44 @@
+{
+  "name": "The Lost Caverns of Ixalan Foil Box Topper",
+  "code": "lci-box-topper-foil",
+  "set_code": "lci",
+  "set_name": "The Lost Caverns of Ixalan",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_topper": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_topper": {
+      "total_weight": 20,
+      "cards": {
+        "lcc:101:foil": 1,
+        "lcc:102:foil": 1,
+        "lcc:103:foil": 1,
+        "lcc:104:foil": 1,
+        "lcc:105:foil": 1,
+        "lcc:106:foil": 1,
+        "lcc:107:foil": 1,
+        "lcc:108:foil": 1,
+        "lcc:109:foil": 1,
+        "lcc:110:foil": 1,
+        "lcc:111:foil": 1,
+        "lcc:112:foil": 1,
+        "lcc:113:foil": 1,
+        "lcc:114:foil": 1,
+        "lcc:115:foil": 1,
+        "lcc:116:foil": 1,
+        "lcc:117:foil": 1,
+        "lcc:118:foil": 1,
+        "lcc:119:foil": 1,
+        "lcc:120:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "lcc"
+  ]
+}

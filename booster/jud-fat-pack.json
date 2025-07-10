@@ -1,0 +1,106 @@
+{
+  "name": "Judgment Fat Pack Promotional Cards",
+  "code": "jud-fat-pack",
+  "set_code": "jud",
+  "set_name": "Judgment",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_basic": 1,
+        "foil_common": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_basic": {
+      "total_weight": 20,
+      "cards": {
+        "ody:331:foil": 1,
+        "ody:332:foil": 1,
+        "ody:333:foil": 1,
+        "ody:334:foil": 1,
+        "ody:335:foil": 1,
+        "ody:336:foil": 1,
+        "ody:337:foil": 1,
+        "ody:338:foil": 1,
+        "ody:339:foil": 1,
+        "ody:340:foil": 1,
+        "ody:341:foil": 1,
+        "ody:342:foil": 1,
+        "ody:343:foil": 1,
+        "ody:344:foil": 1,
+        "ody:345:foil": 1,
+        "ody:346:foil": 1,
+        "ody:347:foil": 1,
+        "ody:348:foil": 1,
+        "ody:349:foil": 1,
+        "ody:350:foil": 1
+      }
+    },
+    "foil_common": {
+      "total_weight": 55,
+      "cards": {
+        "jud:100:foil": 1,
+        "jud:102:foil": 1,
+        "jud:104:foil": 1,
+        "jud:106:foil": 1,
+        "jud:108:foil": 1,
+        "jud:109:foil": 1,
+        "jud:10:foil": 1,
+        "jud:115:foil": 1,
+        "jud:118:foil": 1,
+        "jud:120:foil": 1,
+        "jud:121:foil": 1,
+        "jud:123:foil": 1,
+        "jud:125:foil": 1,
+        "jud:126:foil": 1,
+        "jud:129:foil": 1,
+        "jud:132:foil": 1,
+        "jud:136:foil": 1,
+        "jud:13:foil": 1,
+        "jud:14:foil": 1,
+        "jud:17:foil": 1,
+        "jud:18:foil": 1,
+        "jud:20:foil": 1,
+        "jud:22:foil": 1,
+        "jud:28:foil": 1,
+        "jud:30:foil": 1,
+        "jud:33:foil": 1,
+        "jud:34:foil": 1,
+        "jud:38:foil": 1,
+        "jud:39:foil": 1,
+        "jud:41:foil": 1,
+        "jud:42:foil": 1,
+        "jud:43:foil": 1,
+        "jud:45:foil": 1,
+        "jud:46:foil": 1,
+        "jud:47:foil": 1,
+        "jud:4:foil": 1,
+        "jud:57:foil": 1,
+        "jud:59:foil": 1,
+        "jud:5:foil": 1,
+        "jud:63:foil": 1,
+        "jud:65:foil": 1,
+        "jud:6:foil": 1,
+        "jud:71:foil": 1,
+        "jud:74:foil": 1,
+        "jud:76:foil": 1,
+        "jud:78:foil": 1,
+        "jud:79:foil": 1,
+        "jud:7:foil": 1,
+        "jud:80:foil": 1,
+        "jud:86:foil": 1,
+        "jud:87:foil": 1,
+        "jud:89:foil": 1,
+        "jud:91:foil": 1,
+        "jud:94:foil": 1,
+        "jud:95:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jud",
+    "ody"
+  ]
+}

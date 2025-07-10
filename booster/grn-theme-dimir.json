@@ -1,0 +1,141 @@
+{
+  "name": "Guilds of Ravnica Theme Booster Dimir",
+  "code": "grn-theme-dimir",
+  "set_code": "grn",
+  "set_name": "Guilds of Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 85,
+      "cards": {
+        "grn:166": 4,
+        "grn:167": 4,
+        "grn:177": 4,
+        "grn:191": 4,
+        "grn:206": 4,
+        "grn:223a": 4,
+        "grn:235": 1,
+        "grn:236": 1,
+        "grn:239": 1,
+        "grn:241": 1,
+        "grn:242": 1,
+        "grn:33": 4,
+        "grn:40": 4,
+        "grn:45": 4,
+        "grn:48": 4,
+        "grn:53": 4,
+        "grn:54": 4,
+        "grn:55": 4,
+        "grn:66": 4,
+        "grn:73": 4,
+        "grn:81": 4,
+        "grn:82": 4,
+        "grn:83": 4,
+        "grn:87": 4,
+        "grn:90": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 137,
+      "cards": {
+        "grn:151": 4,
+        "grn:164": 4,
+        "grn:193": 4,
+        "grn:220": 4,
+        "grn:234": 4,
+        "grn:245": 4,
+        "grn:246": 4,
+        "grn:247": 1,
+        "grn:31": 4,
+        "grn:34": 4,
+        "grn:35": 4,
+        "grn:36": 4,
+        "grn:37": 4,
+        "grn:42": 4,
+        "grn:46": 4,
+        "grn:50": 4,
+        "grn:56": 4,
+        "grn:57": 4,
+        "grn:58": 4,
+        "grn:59": 4,
+        "grn:60": 4,
+        "grn:61": 4,
+        "grn:62": 4,
+        "grn:64": 4,
+        "grn:65": 4,
+        "grn:67": 4,
+        "grn:68": 4,
+        "grn:70": 4,
+        "grn:72": 4,
+        "grn:76": 4,
+        "grn:80": 4,
+        "grn:85": 4,
+        "grn:86": 4,
+        "grn:88": 4,
+        "grn:89": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 62,
+      "cards": {
+        "grn:170": 4,
+        "grn:184": 2,
+        "grn:189": 2,
+        "grn:205": 4,
+        "grn:212": 4,
+        "grn:222a": 4,
+        "grn:233": 1,
+        "grn:250": 1,
+        "grn:259": 4,
+        "grn:38": 2,
+        "grn:39": 4,
+        "grn:44": 4,
+        "grn:47": 4,
+        "grn:49": 4,
+        "grn:63": 4,
+        "grn:69": 2,
+        "grn:71": 4,
+        "grn:77": 4,
+        "grn:84": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "grn"
+  ]
+}
