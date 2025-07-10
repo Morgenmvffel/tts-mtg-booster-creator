@@ -13,6 +13,8 @@ BOOSTER_INDEX_URL =
 BASE_BOOSTER_FILE_URL =
     "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
 
+BOOSTER_IMAGE_URL = "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/Booster.png"
+
 MAINDECK_POSITION_OFFSET = {2, 0.2, -0.2}
 TOKENS_POSITION_OFFSET = {1.9, 0.2, 0.9}
 
@@ -330,7 +332,7 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     end, function()
         return (sem == 0)
     end, 5, function()
-        onError("Error collating deck... timed out.")
+        onError("Error collating packs... timed out.")
     end)
 end
 
@@ -441,7 +443,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawn
         MeshIndex = -1,
         CustomMesh = {
             MeshURL = "http://pastebin.com/raw/PqfGKtKR",
-            DiffuseURL = "https://i.imgur.com/mzM3sQ6.png",
+            DiffuseURL = BOOSTER_IMAGE_URL,
             NormalURL = "http://i.imgur.com/pEN77ux.png",
             Convex = true,
             MaterialIndex = 0,
@@ -1094,10 +1096,10 @@ function generatePacks()
 
         queryGeneratePacks(numberOfPacks, function(cardIDs, deckName)
             loadDeck(cardIDs, deckName, function()
-                printToAll("Deck import complete!")
+                printToAll("Pack import complete!")
                 lock = false
             end, function(e)
-                printToAll("Deck load error: " .. tostring(e))
+                printToAll("Pack load error: " .. tostring(e))
                 lock = false
             end)
         end, function(e)
