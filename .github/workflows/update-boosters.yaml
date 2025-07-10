@@ -24,7 +24,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run booster split script
-        run: python split_boosters.py
+        run: python booster_splitter.py
 
       - name: Commit and push changes
         run: |
