@@ -1,0 +1,92 @@
+{
+  "name": "Core Set 2021 Prerelease Promo Pack",
+  "code": "m21-prerelease",
+  "set_code": "m21",
+  "set_name": "Core Set 2021",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pm21:103s:foil": 1,
+        "pm21:104s:foil": 2,
+        "pm21:106s:foil": 2,
+        "pm21:108s:foil": 1,
+        "pm21:110s:foil": 2,
+        "pm21:114s:foil": 1,
+        "pm21:116s:foil": 2,
+        "pm21:117s:foil": 2,
+        "pm21:125s:foil": 2,
+        "pm21:127s:foil": 2,
+        "pm21:133s:foil": 2,
+        "pm21:135s:foil": 1,
+        "pm21:136s:foil": 2,
+        "pm21:139s:foil": 2,
+        "pm21:13s:foil": 2,
+        "pm21:142s:foil": 2,
+        "pm21:143s:foil": 1,
+        "pm21:146s:foil": 2,
+        "pm21:162s:foil": 2,
+        "pm21:164s:foil": 1,
+        "pm21:167s:foil": 2,
+        "pm21:172s:foil": 2,
+        "pm21:173s:foil": 2,
+        "pm21:179s:foil": 1,
+        "pm21:180s:foil": 2,
+        "pm21:183s:foil": 1,
+        "pm21:185s:foil": 2,
+        "pm21:188s:foil": 2,
+        "pm21:191s:foil": 2,
+        "pm21:197s:foil": 2,
+        "pm21:1s:foil": 1,
+        "pm21:204s:foil": 2,
+        "pm21:208s:foil": 2,
+        "pm21:21s:foil": 2,
+        "pm21:222s:foil": 2,
+        "pm21:224s:foil": 2,
+        "pm21:225s:foil": 2,
+        "pm21:228s:foil": 1,
+        "pm21:232s:foil": 2,
+        "pm21:239s:foil": 2,
+        "pm21:23s:foil": 2,
+        "pm21:240s:foil": 2,
+        "pm21:242s:foil": 2,
+        "pm21:246s:foil": 2,
+        "pm21:252s:foil": 2,
+        "pm21:253s:foil": 2,
+        "pm21:254s:foil": 2,
+        "pm21:255s:foil": 2,
+        "pm21:256s:foil": 2,
+        "pm21:27s:foil": 1,
+        "pm21:28s:foil": 2,
+        "pm21:29s:foil": 2,
+        "pm21:32s:foil": 2,
+        "pm21:38s:foil": 2,
+        "pm21:45s:foil": 2,
+        "pm21:48s:foil": 1,
+        "pm21:52s:foil": 2,
+        "pm21:60s:foil": 2,
+        "pm21:69s:foil": 2,
+        "pm21:6s:foil": 1,
+        "pm21:70s:foil": 2,
+        "pm21:73s:foil": 2,
+        "pm21:74s:foil": 2,
+        "pm21:75s:foil": 1,
+        "pm21:76s:foil": 2,
+        "pm21:7s:foil": 1,
+        "pm21:95s:foil": 2,
+        "pm21:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pm21"
+  ]
+}

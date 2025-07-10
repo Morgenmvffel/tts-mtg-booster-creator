@@ -1,0 +1,33 @@
+{
+  "name": "SLD Stained Glass Planeswalkers - Black",
+  "code": "sld-stainedglass-b",
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "stainedglass_black": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "stainedglass_black": {
+      "total_weight": 9,
+      "cards": {
+        "sld:509:foil": 1,
+        "sld:510:foil": 1,
+        "sld:511:foil": 1,
+        "sld:522:foil": 1,
+        "sld:524:foil": 1,
+        "sld:527:foil": 1,
+        "sld:528:foil": 1,
+        "sld:531:foil": 1,
+        "sld:536:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Innistrad: Crimson Vow Theme Booster Black",
+  "code": "vow-theme-b",
+  "set_code": "vow",
+  "set_name": "Innistrad: Crimson Vow",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 59,
+      "cards": {
+        "vow:107": 4,
+        "vow:110": 4,
+        "vow:112": 4,
+        "vow:117": 4,
+        "vow:120": 4,
+        "vow:121a": 4,
+        "vow:123": 4,
+        "vow:128a": 4,
+        "vow:130": 4,
+        "vow:133": 4,
+        "vow:138": 4,
+        "vow:253": 1,
+        "vow:256a": 1,
+        "vow:259": 1,
+        "vow:93": 4,
+        "vow:97a": 4,
+        "vow:99a": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 81,
+      "cards": {
+        "vow:102": 4,
+        "vow:104a": 4,
+        "vow:105": 4,
+        "vow:106": 4,
+        "vow:113": 4,
+        "vow:114": 4,
+        "vow:116": 4,
+        "vow:122": 4,
+        "vow:125": 4,
+        "vow:126": 4,
+        "vow:127a": 4,
+        "vow:129": 4,
+        "vow:134": 4,
+        "vow:135": 4,
+        "vow:136": 4,
+        "vow:252": 1,
+        "vow:254": 1,
+        "vow:257": 1,
+        "vow:260": 1,
+        "vow:263": 1,
+        "vow:92": 4,
+        "vow:94": 4,
+        "vow:95": 4,
+        "vow:96": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 45,
+      "cards": {
+        "vow:100": 2,
+        "vow:101a": 4,
+        "vow:103": 4,
+        "vow:108": 4,
+        "vow:109": 4,
+        "vow:111": 4,
+        "vow:115": 4,
+        "vow:118": 4,
+        "vow:119a": 2,
+        "vow:131": 2,
+        "vow:137a": 4,
+        "vow:255": 1,
+        "vow:258": 1,
+        "vow:267": 1,
+        "vow:98": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "vow"
+  ]
+}

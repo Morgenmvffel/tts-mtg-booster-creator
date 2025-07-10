@@ -1,0 +1,135 @@
+{
+  "name": "March of the Machine Prerelease Promo Pack",
+  "code": "mom-prerelease",
+  "set_code": "mom",
+  "set_name": "March of the Machine",
+  "boosters": [
+    {
+      "sheets": {
+        "promo_teamup": 1,
+        "prerelease_promo": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "promo_teamup_foil": 1,
+        "prerelease_promo": 1
+      },
+      "weight": 2
+    }
+  ],
+  "sheets": {
+    "promo_teamup": {
+      "total_weight": 9,
+      "cards": {
+        "moc:445": 2,
+        "moc:446": 2,
+        "moc:447": 2,
+        "moc:448": 1,
+        "moc:449": 1,
+        "moc:450": 1
+      }
+    },
+    "prerelease_promo": {
+      "total_weight": 140,
+      "cards": {
+        "pmom:109s:foil": 2,
+        "pmom:110s:foil": 2,
+        "pmom:114sa:foil": 2,
+        "pmom:115sa:foil": 1,
+        "pmom:11s:foil": 2,
+        "pmom:122s:foil": 2,
+        "pmom:125sa:foil": 1,
+        "pmom:12sa:foil": 1,
+        "pmom:132s:foil": 2,
+        "pmom:134s:foil": 1,
+        "pmom:135s:foil": 2,
+        "pmom:137sa:foil": 2,
+        "pmom:144s:foil": 2,
+        "pmom:145sa:foil": 2,
+        "pmom:146sa:foil": 2,
+        "pmom:149sa:foil": 1,
+        "pmom:155s:foil": 2,
+        "pmom:160s:foil": 2,
+        "pmom:169sa:foil": 1,
+        "pmom:16s:foil": 2,
+        "pmom:171s:foil": 2,
+        "pmom:174s:foil": 2,
+        "pmom:17sa:foil": 2,
+        "pmom:184s:foil": 2,
+        "pmom:185s:foil": 2,
+        "pmom:187s:foil": 2,
+        "pmom:190sa:foil": 2,
+        "pmom:191sa:foil": 2,
+        "pmom:193sa:foil": 1,
+        "pmom:198s:foil": 2,
+        "pmom:1sa:foil": 1,
+        "pmom:200sa:foil": 2,
+        "pmom:211s:foil": 2,
+        "pmom:213sa:foil": 1,
+        "pmom:217s:foil": 1,
+        "pmom:218s:foil": 2,
+        "pmom:219s:foil": 1,
+        "pmom:221s:foil": 2,
+        "pmom:222s:foil": 2,
+        "pmom:224s:foil": 2,
+        "pmom:225s:foil": 2,
+        "pmom:226s:foil": 2,
+        "pmom:228s:foil": 2,
+        "pmom:229s:foil": 2,
+        "pmom:22sa:foil": 2,
+        "pmom:230sa:foil": 2,
+        "pmom:239sa:foil": 1,
+        "pmom:23sa:foil": 2,
+        "pmom:241sa:foil": 2,
+        "pmom:244s:foil": 2,
+        "pmom:245s:foil": 1,
+        "pmom:249s:foil": 2,
+        "pmom:250s:foil": 2,
+        "pmom:252s:foil": 2,
+        "pmom:255s:foil": 1,
+        "pmom:256s:foil": 2,
+        "pmom:257s:foil": 1,
+        "pmom:258s:foil": 1,
+        "pmom:263s:foil": 2,
+        "pmom:265s:foil": 1,
+        "pmom:26s:foil": 2,
+        "pmom:28s:foil": 1,
+        "pmom:32s:foil": 2,
+        "pmom:40s:foil": 2,
+        "pmom:51s:foil": 2,
+        "pmom:52s:foil": 2,
+        "pmom:58s:foil": 2,
+        "pmom:61sa:foil": 2,
+        "pmom:63sa:foil": 2,
+        "pmom:65sa:foil": 1,
+        "pmom:6s:foil": 1,
+        "pmom:75sa:foil": 2,
+        "pmom:77s:foil": 2,
+        "pmom:83s:foil": 2,
+        "pmom:86s:foil": 2,
+        "pmom:89s:foil": 2,
+        "pmom:90sa:foil": 2,
+        "pmom:93s:foil": 2,
+        "pmom:94s:foil": 2,
+        "pmom:9s:foil": 2
+      }
+    },
+    "promo_teamup_foil": {
+      "total_weight": 9,
+      "cards": {
+        "moc:445:foil": 2,
+        "moc:446:foil": 2,
+        "moc:447:foil": 2,
+        "moc:448:foil": 1,
+        "moc:449:foil": 1,
+        "moc:450:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "moc",
+    "pmom"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "SLD Blueprint Cards MK. 2",
+  "code": "sld-blueprint-mk2",
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "blueprint_mk2": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "blueprint_mk2": {
+      "total_weight": 5,
+      "cards": {
+        "sld:691:foil": 1,
+        "sld:692:foil": 1,
+        "sld:693:foil": 1,
+        "sld:694:foil": 1,
+        "sld:695:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

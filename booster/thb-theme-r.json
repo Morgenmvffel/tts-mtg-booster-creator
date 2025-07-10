@@ -1,0 +1,151 @@
+{
+  "name": "Theros Beyond Death Theme Booster Red",
+  "code": "thb-theme-r",
+  "set_code": "thb",
+  "set_name": "Theros Beyond Death",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 57,
+      "cards": {
+        "thb:125": 4,
+        "thb:128": 4,
+        "thb:129": 4,
+        "thb:130": 4,
+        "thb:131": 4,
+        "thb:132": 4,
+        "thb:133": 4,
+        "thb:136": 4,
+        "thb:138": 4,
+        "thb:139": 4,
+        "thb:153": 4,
+        "thb:160": 4,
+        "thb:162": 4,
+        "thb:233": 1,
+        "thb:234": 1,
+        "thb:237": 1,
+        "thb:239": 1,
+        "thb:242": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 82,
+      "cards": {
+        "thb:126": 4,
+        "thb:127": 4,
+        "thb:134": 4,
+        "thb:135": 4,
+        "thb:137": 4,
+        "thb:140": 4,
+        "thb:141": 4,
+        "thb:142": 4,
+        "thb:143": 4,
+        "thb:144": 4,
+        "thb:145": 4,
+        "thb:146": 4,
+        "thb:149": 4,
+        "thb:152": 4,
+        "thb:154": 4,
+        "thb:155": 4,
+        "thb:159": 4,
+        "thb:163": 4,
+        "thb:164": 4,
+        "thb:231": 1,
+        "thb:232": 1,
+        "thb:238": 1,
+        "thb:240": 1,
+        "thb:241": 1,
+        "thb:249": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 43,
+      "cards": {
+        "thb:124": 4,
+        "thb:147": 2,
+        "thb:148": 4,
+        "thb:150": 2,
+        "thb:151": 4,
+        "thb:156": 4,
+        "thb:157": 4,
+        "thb:158": 4,
+        "thb:161": 4,
+        "thb:235": 1,
+        "thb:236": 1,
+        "thb:243": 1,
+        "thb:294": 4,
+        "thb:295": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "thb"
+  ]
+}

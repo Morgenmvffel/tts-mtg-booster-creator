@@ -1,0 +1,34 @@
+{
+  "name": "Unfinity Box Topper",
+  "code": "unf-box-topper",
+  "set_code": "unf",
+  "set_name": "Unfinity",
+  "boosters": [
+    {
+      "sheets": {
+        "foil_shockland": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "foil_shockland": {
+      "total_weight": 10,
+      "cards": {
+        "unf:277:foil": 1,
+        "unf:278:foil": 1,
+        "unf:279:foil": 1,
+        "unf:280:foil": 1,
+        "unf:281:foil": 1,
+        "unf:282:foil": 1,
+        "unf:283:foil": 1,
+        "unf:284:foil": 1,
+        "unf:285:foil": 1,
+        "unf:286:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "unf"
+  ]
+}

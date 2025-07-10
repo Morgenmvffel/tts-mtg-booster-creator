@@ -1,0 +1,265 @@
+{
+  "name": "Secret Lair 30th Anniversary Countdown Kit",
+  "code": "slc",
+  "set_code": "slc",
+  "set_name": "Secret Lair 30th Anniversary Countdown Kit",
+  "boosters": [
+    {
+      "sheets": {
+        "slot1": 1,
+        "slot2": 1,
+        "slot3": 1,
+        "slot4": 1,
+        "slot5": 1,
+        "slot6": 1,
+        "slot7": 1,
+        "slot8": 1,
+        "slot9": 1,
+        "slot10": 1,
+        "slot11": 1,
+        "slot12": 1,
+        "slot13": 1,
+        "slot14": 1,
+        "slot15": 1,
+        "slot16": 1,
+        "slot17": 1,
+        "slot18": 1,
+        "slot19": 1,
+        "slot20": 1,
+        "slot21": 1,
+        "slot22": 1,
+        "slot23": 1,
+        "slot24": 1,
+        "slot25": 1,
+        "slot26": 1,
+        "slot27": 1,
+        "slot28": 1,
+        "slot29": 1,
+        "slot30": 1,
+        "slot31": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "slot1": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1993": 7,
+        "slc:1993:foil": 3
+      }
+    },
+    "slot2": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1994": 7,
+        "slc:1994:foil": 3
+      }
+    },
+    "slot3": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1995": 7,
+        "slc:1995:foil": 3
+      }
+    },
+    "slot4": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1996": 7,
+        "slc:1996:foil": 3
+      }
+    },
+    "slot5": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1997": 7,
+        "slc:1997:foil": 3
+      }
+    },
+    "slot6": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1998": 7,
+        "slc:1998:foil": 3
+      }
+    },
+    "slot7": {
+      "total_weight": 10,
+      "cards": {
+        "slc:1999": 7,
+        "slc:1999:foil": 3
+      }
+    },
+    "slot8": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2000": 7,
+        "slc:2000:foil": 3
+      }
+    },
+    "slot9": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2001": 7,
+        "slc:2001:foil": 3
+      }
+    },
+    "slot10": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2002": 7,
+        "slc:2002:foil": 3
+      }
+    },
+    "slot11": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2003": 7,
+        "slc:2003:foil": 3
+      }
+    },
+    "slot12": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2004": 7,
+        "slc:2004:foil": 3
+      }
+    },
+    "slot13": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2005": 7,
+        "slc:2005:foil": 3
+      }
+    },
+    "slot14": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2006": 7,
+        "slc:2006:foil": 3
+      }
+    },
+    "slot15": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2007": 7,
+        "slc:2007:foil": 3
+      }
+    },
+    "slot16": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2008": 7,
+        "slc:2008:foil": 3
+      }
+    },
+    "slot17": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2009": 7,
+        "slc:2009:foil": 3
+      }
+    },
+    "slot18": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2010": 7,
+        "slc:2010:foil": 3
+      }
+    },
+    "slot19": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2011": 7,
+        "slc:2011:foil": 3
+      }
+    },
+    "slot20": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2012": 7,
+        "slc:2012:foil": 3
+      }
+    },
+    "slot21": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2013": 7,
+        "slc:2013:foil": 3
+      }
+    },
+    "slot22": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2014": 7,
+        "slc:2014:foil": 3
+      }
+    },
+    "slot23": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2015": 7,
+        "slc:2015:foil": 3
+      }
+    },
+    "slot24": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2016": 7,
+        "slc:2016:foil": 3
+      }
+    },
+    "slot25": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2017": 7,
+        "slc:2017:foil": 3
+      }
+    },
+    "slot26": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2018": 7,
+        "slc:2018:foil": 3
+      }
+    },
+    "slot27": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2019": 7,
+        "slc:2019:foil": 3
+      }
+    },
+    "slot28": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2020": 7,
+        "slc:2020:foil": 3
+      }
+    },
+    "slot29": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2021": 7,
+        "slc:2021:foil": 3
+      }
+    },
+    "slot30": {
+      "total_weight": 10,
+      "cards": {
+        "slc:2022": 7,
+        "slc:2022:foil": 3
+      }
+    },
+    "slot31": {
+      "total_weight": 1,
+      "cards": {
+        "slc:2023:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "slc"
+  ]
+}

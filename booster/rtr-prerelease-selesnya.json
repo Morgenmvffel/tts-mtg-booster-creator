@@ -1,0 +1,110 @@
+{
+  "name": "Return to Ravnica Prerelease Pack Selesnya",
+  "code": "rtr-prerelease-selesnya",
+  "set_code": "rtr",
+  "set_name": "Return to Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 32,
+      "cards": {
+        "rtr:10": 1,
+        "rtr:113": 1,
+        "rtr:115": 1,
+        "rtr:116": 1,
+        "rtr:118": 1,
+        "rtr:119": 1,
+        "rtr:12": 1,
+        "rtr:123": 1,
+        "rtr:124": 1,
+        "rtr:125": 1,
+        "rtr:128": 1,
+        "rtr:13": 1,
+        "rtr:132": 1,
+        "rtr:137": 1,
+        "rtr:138": 1,
+        "rtr:148": 1,
+        "rtr:151": 1,
+        "rtr:154": 1,
+        "rtr:19": 1,
+        "rtr:2": 1,
+        "rtr:21": 1,
+        "rtr:22": 1,
+        "rtr:223": 1,
+        "rtr:246": 1,
+        "rtr:249": 1,
+        "rtr:25": 1,
+        "rtr:26": 1,
+        "rtr:27": 1,
+        "rtr:28": 1,
+        "rtr:4": 1,
+        "rtr:8": 1,
+        "rtr:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 26,
+      "cards": {
+        "rtr:11": 1,
+        "rtr:114": 1,
+        "rtr:117": 1,
+        "rtr:126": 1,
+        "rtr:131": 1,
+        "rtr:133": 1,
+        "rtr:134": 1,
+        "rtr:135": 1,
+        "rtr:146": 1,
+        "rtr:16": 1,
+        "rtr:168": 1,
+        "rtr:190": 1,
+        "rtr:194": 1,
+        "rtr:20": 1,
+        "rtr:207": 1,
+        "rtr:214": 1,
+        "rtr:227": 1,
+        "rtr:228": 1,
+        "rtr:23": 1,
+        "rtr:233": 1,
+        "rtr:234": 1,
+        "rtr:235": 1,
+        "rtr:24": 1,
+        "rtr:245": 1,
+        "rtr:3": 1,
+        "rtr:7": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 31,
+      "cards": {
+        "rtr:121": 2,
+        "rtr:130": 2,
+        "rtr:139": 2,
+        "rtr:15": 2,
+        "rtr:150": 2,
+        "rtr:17": 2,
+        "rtr:178": 2,
+        "rtr:18": 2,
+        "rtr:206": 1,
+        "rtr:209": 2,
+        "rtr:217": 2,
+        "rtr:226": 2,
+        "rtr:231": 2,
+        "rtr:236": 2,
+        "rtr:240": 2,
+        "rtr:248": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "rtr"
+  ]
+}

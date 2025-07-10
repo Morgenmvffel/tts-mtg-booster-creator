@@ -1,0 +1,157 @@
+{
+  "name": "Strixhaven: School of Mages Theme Booster Silverquill",
+  "code": "stx-theme-silverquill",
+  "set_code": "stx",
+  "set_name": "Strixhaven: School of Mages",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 97,
+      "cards": {
+        "stx:10": 4,
+        "stx:13": 4,
+        "stx:15": 4,
+        "stx:169": 4,
+        "stx:188": 4,
+        "stx:193": 4,
+        "stx:197": 4,
+        "stx:229": 4,
+        "stx:231": 4,
+        "stx:24": 4,
+        "stx:257": 1,
+        "stx:258": 1,
+        "stx:26": 4,
+        "stx:260": 1,
+        "stx:261": 1,
+        "stx:262": 1,
+        "stx:28": 4,
+        "stx:31": 4,
+        "stx:35": 4,
+        "stx:65": 4,
+        "stx:70": 4,
+        "stx:71": 4,
+        "stx:72": 4,
+        "stx:76": 4,
+        "stx:78": 4,
+        "stx:81": 4,
+        "stx:88": 4,
+        "stx:89": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 130,
+      "cards": {
+        "stx:1": 1,
+        "stx:11": 4,
+        "stx:12": 4,
+        "stx:16": 4,
+        "stx:18": 4,
+        "stx:185": 4,
+        "stx:19": 4,
+        "stx:195": 4,
+        "stx:2": 1,
+        "stx:210": 4,
+        "stx:22": 4,
+        "stx:226": 4,
+        "stx:23": 4,
+        "stx:233": 4,
+        "stx:237": 4,
+        "stx:251": 1,
+        "stx:252": 1,
+        "stx:254": 1,
+        "stx:255": 1,
+        "stx:256": 1,
+        "stx:263": 1,
+        "stx:273": 4,
+        "stx:3": 1,
+        "stx:30": 4,
+        "stx:32": 4,
+        "stx:34": 4,
+        "stx:4": 1,
+        "stx:63": 4,
+        "stx:68": 4,
+        "stx:69": 4,
+        "stx:74": 4,
+        "stx:75": 4,
+        "stx:77": 4,
+        "stx:79": 4,
+        "stx:8": 4,
+        "stx:84": 4,
+        "stx:85": 4,
+        "stx:87": 4,
+        "stx:9": 4,
+        "stx:90": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 169,
+      "cards": {
+        "stx:14": 8,
+        "stx:157a": 8,
+        "stx:158a": 8,
+        "stx:167": 4,
+        "stx:17": 8,
+        "stx:180": 8,
+        "stx:20": 8,
+        "stx:21": 4,
+        "stx:230": 4,
+        "stx:232": 8,
+        "stx:234": 8,
+        "stx:244": 8,
+        "stx:259": 2,
+        "stx:264": 2,
+        "stx:267": 2,
+        "stx:27": 8,
+        "stx:272": 8,
+        "stx:29": 8,
+        "stx:33": 8,
+        "stx:5": 1,
+        "stx:64": 8,
+        "stx:67": 8,
+        "stx:6a": 2,
+        "stx:7": 8,
+        "stx:80": 8,
+        "stx:82": 8,
+        "stx:83": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "stx"
+  ]
+}

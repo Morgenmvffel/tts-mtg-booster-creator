@@ -1,0 +1,117 @@
+{
+  "name": "War of the Spark Theme Booster Green",
+  "code": "war-theme-g",
+  "set_code": "war",
+  "set_name": "War of the Spark",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 57,
+      "cards": {
+        "war:150": 4,
+        "war:155": 4,
+        "war:157": 4,
+        "war:159": 4,
+        "war:164": 4,
+        "war:167": 4,
+        "war:170": 4,
+        "war:171": 4,
+        "war:178": 4,
+        "war:230": 4,
+        "war:232": 4,
+        "war:235": 4,
+        "war:236": 4,
+        "war:237": 1,
+        "war:238": 1,
+        "war:245": 1,
+        "war:247": 1,
+        "war:3": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 82,
+      "cards": {
+        "war:149": 4,
+        "war:151": 4,
+        "war:153": 4,
+        "war:154": 4,
+        "war:156": 4,
+        "war:158": 4,
+        "war:161": 4,
+        "war:162": 4,
+        "war:165": 4,
+        "war:166": 4,
+        "war:168": 4,
+        "war:173": 4,
+        "war:174": 4,
+        "war:175": 4,
+        "war:176": 4,
+        "war:177": 4,
+        "war:179": 4,
+        "war:182": 4,
+        "war:183": 4,
+        "war:239": 1,
+        "war:240": 1,
+        "war:241": 1,
+        "war:242": 1,
+        "war:243": 1,
+        "war:246": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 29,
+      "cards": {
+        "war:1": 1,
+        "war:152": 4,
+        "war:160": 2,
+        "war:163": 2,
+        "war:169": 4,
+        "war:172": 4,
+        "war:180": 4,
+        "war:181": 4,
+        "war:2": 1,
+        "war:244": 1,
+        "war:248": 1,
+        "war:249": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "war"
+  ]
+}

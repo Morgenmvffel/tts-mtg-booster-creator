@@ -1,0 +1,42 @@
+{
+  "name": "Innistrad: Crimson Vow Box Topper Pack",
+  "code": "vow-box-topper",
+  "set_code": "vow",
+  "set_name": "Innistrad: Crimson Vow",
+  "boosters": [
+    {
+      "sheets": {
+        "dracula_foil": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "dracula_foil": {
+      "total_weight": 41,
+      "cards": {
+        "vow:329:foil": 4,
+        "vow:330:foil": 1,
+        "vow:331:foil": 2,
+        "vow:332a:foil": 1,
+        "vow:333:foil": 4,
+        "vow:334:foil": 2,
+        "vow:335a:foil": 1,
+        "vow:336a:foil": 4,
+        "vow:337:foil": 1,
+        "vow:338a:foil": 2,
+        "vow:339:foil": 4,
+        "vow:340:foil": 4,
+        "vow:341a:foil": 2,
+        "vow:342:foil": 2,
+        "vow:343:foil": 1,
+        "vow:344:foil": 2,
+        "vow:345:foil": 2,
+        "vow:403:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "vow"
+  ]
+}

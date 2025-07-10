@@ -1,0 +1,171 @@
+{
+  "name": "Streets of New Capenna Theme Booster Riveteers",
+  "code": "snc-theme-riveteers",
+  "set_code": "snc",
+  "set_name": "Streets of New Capenna",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 117,
+      "cards": {
+        "snc:103": 4,
+        "snc:107": 4,
+        "snc:110": 4,
+        "snc:117": 4,
+        "snc:118": 4,
+        "snc:121": 4,
+        "snc:127": 4,
+        "snc:128": 4,
+        "snc:135": 4,
+        "snc:141": 4,
+        "snc:147": 4,
+        "snc:152": 4,
+        "snc:156": 4,
+        "snc:158": 4,
+        "snc:180": 4,
+        "snc:187": 4,
+        "snc:189": 4,
+        "snc:204": 4,
+        "snc:217": 4,
+        "snc:220": 4,
+        "snc:225": 4,
+        "snc:233": 1,
+        "snc:234": 1,
+        "snc:235": 1,
+        "snc:244": 1,
+        "snc:245": 1,
+        "snc:77": 4,
+        "snc:81": 4,
+        "snc:89": 4,
+        "snc:92": 4,
+        "snc:96": 4,
+        "snc:98": 4,
+        "snc:99": 4
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 167,
+      "cards": {
+        "snc:100": 4,
+        "snc:102": 4,
+        "snc:104": 4,
+        "snc:106": 4,
+        "snc:108": 4,
+        "snc:111": 4,
+        "snc:114": 4,
+        "snc:115": 4,
+        "snc:119": 4,
+        "snc:120": 4,
+        "snc:124": 4,
+        "snc:125": 4,
+        "snc:132": 4,
+        "snc:136": 4,
+        "snc:138": 4,
+        "snc:139": 4,
+        "snc:140": 4,
+        "snc:146": 4,
+        "snc:149": 4,
+        "snc:150": 4,
+        "snc:151": 4,
+        "snc:153": 4,
+        "snc:154": 4,
+        "snc:164": 4,
+        "snc:168": 4,
+        "snc:194": 4,
+        "snc:201": 4,
+        "snc:236": 1,
+        "snc:238": 1,
+        "snc:239": 1,
+        "snc:241": 1,
+        "snc:242": 1,
+        "snc:243": 1,
+        "snc:253": 4,
+        "snc:255": 1,
+        "snc:258": 4,
+        "snc:70": 4,
+        "snc:71": 4,
+        "snc:73": 4,
+        "snc:74": 4,
+        "snc:75": 4,
+        "snc:78": 4,
+        "snc:79": 4,
+        "snc:80": 4,
+        "snc:84": 4,
+        "snc:87": 4,
+        "snc:88": 4
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 189,
+      "cards": {
+        "snc:101": 4,
+        "snc:109": 8,
+        "snc:112": 8,
+        "snc:116": 8,
+        "snc:126": 8,
+        "snc:134": 4,
+        "snc:144": 8,
+        "snc:145": 8,
+        "snc:160": 8,
+        "snc:162": 4,
+        "snc:165": 8,
+        "snc:167": 8,
+        "snc:179": 8,
+        "snc:206": 4,
+        "snc:210": 8,
+        "snc:216": 8,
+        "snc:229": 8,
+        "snc:231": 4,
+        "snc:232": 8,
+        "snc:237": 2,
+        "snc:240": 1,
+        "snc:246": 2,
+        "snc:261": 8,
+        "snc:67": 4,
+        "snc:69": 8,
+        "snc:93": 8,
+        "snc:94": 8,
+        "snc:95": 8,
+        "snc:97": 8
+      }
+    }
+  },
+  "source_set_codes": [
+    "snc"
+  ]
+}

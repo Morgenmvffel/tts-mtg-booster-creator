@@ -1,0 +1,145 @@
+{
+  "name": "Innistrad: Midnight Hunt Theme Booster Green",
+  "code": "mid-theme-g",
+  "set_code": "mid",
+  "set_name": "Innistrad: Midnight Hunt",
+  "boosters": [
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 24,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 9,
+        "common": 24,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 23,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 10,
+        "common": 23,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 22,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 11,
+        "common": 22,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    },
+    {
+      "sheets": {
+        "uncommon": 13,
+        "common": 21,
+        "rare_mythic": 1
+      },
+      "weight": 9
+    },
+    {
+      "sheets": {
+        "uncommon": 12,
+        "common": 21,
+        "rare_mythic": 2
+      },
+      "weight": 1
+    }
+  ],
+  "sheets": {
+    "uncommon": {
+      "allow_duplicates": true,
+      "total_weight": 51,
+      "cards": {
+        "mid:173": 4,
+        "mid:174a": 4,
+        "mid:176": 4,
+        "mid:178": 4,
+        "mid:179": 4,
+        "mid:181a": 4,
+        "mid:182": 4,
+        "mid:183": 4,
+        "mid:187a": 4,
+        "mid:190a": 4,
+        "mid:196": 4,
+        "mid:205": 4,
+        "mid:255": 1,
+        "mid:256a": 1,
+        "mid:262": 1
+      }
+    },
+    "common": {
+      "allow_duplicates": true,
+      "total_weight": 81,
+      "cards": {
+        "mid:169a": 4,
+        "mid:170": 4,
+        "mid:171": 4,
+        "mid:175": 4,
+        "mid:180": 4,
+        "mid:184": 4,
+        "mid:185": 4,
+        "mid:186": 4,
+        "mid:188": 4,
+        "mid:189": 4,
+        "mid:191": 4,
+        "mid:192": 4,
+        "mid:193": 4,
+        "mid:195": 4,
+        "mid:198": 4,
+        "mid:199": 4,
+        "mid:201": 4,
+        "mid:202": 4,
+        "mid:203a": 4,
+        "mid:253": 1,
+        "mid:254": 1,
+        "mid:258": 1,
+        "mid:259": 1,
+        "mid:261": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 36,
+      "cards": {
+        "mid:168": 4,
+        "mid:172": 4,
+        "mid:177": 2,
+        "mid:194": 2,
+        "mid:197": 4,
+        "mid:200": 4,
+        "mid:204a": 4,
+        "mid:206": 4,
+        "mid:207": 4,
+        "mid:208": 2,
+        "mid:252": 1,
+        "mid:257": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "mid"
+  ]
+}
