@@ -1,3 +1,5 @@
+#include json_parser
+
 ------ CONSTANTS
 SCRYFALL_ID_BASE_URL = "https://api.scryfall.com/cards/"
 SCRYFALL_MULTIVERSE_BASE_URL = "https://api.scryfall.com/cards/multiverse/"
@@ -733,27 +735,18 @@ end
 -- if forceNameQuery is true, will query scryfall by card name ignoring other data.
 -- if forceSetNumLangQuery is true, will query scryfall by set/num/lang ignoring other data.
 -- onSuccess is called with a populated card table, and a table of associated tokens.
-local function queryCard(cardID, forceNameQuery, forceSetNumLangQuery, onSuccess, onError)
+local function queryCard(cardID, forceStandardLanguage, onSuccess, onError)
     local query_url
 
     local language_code = getLanguageCode()
 
-    if forceNameQuery then
-        query_url = SCRYFALL_NAME_BASE_URL .. cardID.name
-    elseif forceSetNumLangQuery then
-        query_url = SCRYFALL_SET_NUM_BASE_URL .. string.lower(cardID.setCode) .. "/" .. cardID.collectorNum .. "/" .. language_code
-    elseif cardID.scryfallID and string.len(cardID.scryfallID) > 0 then
-        query_url = SCRYFALL_ID_BASE_URL .. cardID.scryfallID
-    elseif cardID.multiverseID and string.len(cardID.multiverseID) > 0 then
-        query_url = SCRYFALL_MULTIVERSE_BASE_URL .. cardID.multiverseID
+    if forceStandardLanguage and cardID.setCode and string.len(cardID.setCode) > 0 and cardID.collectorNum and string.len(cardID.collectorNum) > 0 then
+        query_url = SCRYFALL_SET_NUM_BASE_URL .. string.lower(cardID.setCode) .. "/" .. cardID.collectorNum
     elseif cardID.setCode and string.len(cardID.setCode) > 0 and cardID.collectorNum and string.len(cardID.collectorNum) > 0 then
         query_url = SCRYFALL_SET_NUM_BASE_URL .. string.lower(cardID.setCode) .. "/" .. cardID.collectorNum .. "/" .. language_code
-    elseif cardID.setCode and string.len(cardID.setCode) > 0 then
-        query_string = "order:released s:" .. string.lower(cardID.setCode) .. " " .. cardID.name
-        query_url = SCRYFALL_SEARCH_BASE_URL .. query_string
-    else
-        query_url = SCRYFALL_NAME_BASE_URL .. cardID.name
     end
+
+    -- log(query_url)
 
     webRequest = WebRequest.get(query_url, function(webReturn)
         if webReturn.is_error or webReturn.error then
@@ -825,39 +818,27 @@ local function fetchCardData(cards, onComplete, onError)
         queryCard(
             cardID,
             false,
-            false,
             function (card, tokens) -- onSuccess
-                if card.language ~= language and
-                   (forceLanguage or (not cardID.scryfallID and not cardID.multiverseID)) then
-                  -- We got the wrong language, and should re-query.
-                  -- We requery if forceLanguage is enabled, or if the printing wasn't specified directly
-
-                  -- TODO currently we just hope that the target language is available in the printing
-                  -- we found. If it doesn't, we miss other printings that might have the right language.
-                  -- This isn't easily solveable, since TTS crashes if we try to do large scryfall queries.
-
-                  cardID.setCode = card.setCode
-                  cardID.collectorNum = card.collectorNum
-                  queryCard(cardID, false, true, onQuerySuccess,
-                    function(e) -- onError, use the original language
-                        onQuerySuccess(card, tokens)
-                    end)
-                else
-                    -- We got the right language
-                    onQuerySuccess(card, tokens)
-                end
+                onQuerySuccess(card, tokens)
             end,
             function(e) -- onError
                 -- try again, with collecter num cleaned.
-                log("query by name for cardid:" .. cardID.collectorNum)
+                log("query retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
                 cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
                 queryCard(
                     cardID,
                     false,
-                    false,
                     onQuerySuccess,
-                    onQueryFailed
-                )
+                    function(e)
+                        log("language retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
+                        cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
+                        queryCard(
+                            cardID,
+                            true,
+                            onQuerySuccess,
+                            onQueryFailed                        
+                        )
+                end)
         end)
     end
 
@@ -887,7 +868,7 @@ local function loadDeck(cardIDs, deckName, onComplete, onError)
             table.insert(packs[packIndex], card)
         end
 
-        printInfo("Spawning deck...")
+        printInfo("Spawning packs...")
 
         local packCount = 0
         for _ in pairs(packs) do packCount = packCount + 1 end
