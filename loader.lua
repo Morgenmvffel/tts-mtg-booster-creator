@@ -13,7 +13,8 @@ BOOSTER_INDEX_URL =
 BASE_BOOSTER_FILE_URL =
     "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
 
-BOOSTER_IMAGE_URL = "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/Booster.png"
+BOOSTER_IMAGE_URL = "https://steamusercontent-a.akamaihd.net/ugc/12048320118311789698/728EE5247F5FE466F92DAAC0E9997225CD3E8865/"
+FOIL_EFFECT_URL = "https://steamusercontent-a.akamaihd.net/ugc/18215652933654632959/A843EB4C96D1CE5E339D66F48A414D671B2CB4CC/"
 
 MAINDECK_POSITION_OFFSET = {2, 0.2, -0.2}
 TOKENS_POSITION_OFFSET = {1.9, 0.2, 0.9}
@@ -73,7 +74,7 @@ advanced = false
 cardBackInput = ""
 languageInput = ""
 forceLanguage = false
-enableTokenButtons = false
+enableFoil = true
 blowCache = false
 pngGraphics = true
 spawnEverythingFaceDown = false
@@ -127,7 +128,7 @@ local function stringToBool(s)
 end
 
 ------ CARD SPAWNING
-local function jsonForCardFace(face, position, rotationY, flipped)
+local function jsonForCardFace(face, position, rotationY, flipped, foil)
     local rotation = self.getRotation()
 
     local rotZ = rotation.z
@@ -179,68 +180,25 @@ local function jsonForCardFace(face, position, rotationY, flipped)
         Type = 0
     }
 
-    if enableTokenButtons and face.tokenData and face.tokenData[1] and face.tokenData[1].name and
-        string.len(face.tokenData[1].name) > 0 then
-        json.LuaScript = [[function onLoad(saved_data)
-                if saved_data ~= "" then
-                    tokens = JSON.decode(saved_data)
-                else
-                    tokens = {}
-                end
+    if enableFoil and foil then
+        json.LuaScript = [[
 
-                local pZ = -1.04
-                for i, token in ipairs(tokens) do
-                    self.createButton({label = token.name,
-                        tooltip = "Create " .. token.name .. "\n" .. token.oracleText,
-                        click_function = "gt" .. i,
-                        function_owner = self,
-                        width = math.max(400, 40 * string.len(token.name) + 40),
-                        height = 100,
-                        color = {1, 1, 1, 0.5},
-                        hover_color = {1, 1, 1, .7},
-                        font_color = {0, 0, 0, 2},
-                        position = {.5, 0.5, pZ},
-                        font_size = 75})
-                    pZ = pZ + 0.28
-                end
-            end
+        decal = {
+            name = "Foil",
+            url = "https://steamusercontent-a.akamaihd.net/ugc/18215652933654632959/A843EB4C96D1CE5E339D66F48A414D671B2CB4CC/",
+            position = Vector(0, 0.25, 0), 
+            rotation = Vector(90, 0, 0), 
+            scale = Vector(-2.14, -3.06, 1)
+        }
 
-            function onSave()
-                return JSON.encode(tokens)
-            end
-
-            function gt1() getToken(1) end
-            function gt2() getToken(2) end
-            function gt3() getToken(3) end
-            function gt4() getToken(4) end
-
-            function getToken(i)
-                token = tokens[i]
-                spawnObject({
-                    type = "Card",
-                    sound = false,
-                    rotation = self.getRotation(),
-                    position = self.positionToWorld({-2.2,0.1,0}),
-                    scale = self.getScale(),
-                    callback_function = (function(obj)
-                        obj.memo = ""
-                        obj.setName(token.name)
-                        obj.setDescription(token.oracleText)
-                        obj.setCustomObject({
-                            face = token.front,
-                            back = token.back
-                        })
-                        if (parent) then
-                          parent.call("CAddButtons",{obj, self})
-                        end
-                    end)
-                })
-            end
-        ]]
-
-        json.LuaScriptState = JSON.encode(face.tokenData)
+        function onLoad(saved_data)
+            if self.getDecals() == nil then
+                self.addDecal(decal)
+                log("added Decal")
+            end                     
+        end
+    ]]
     end
-
     return json
 end
 
@@ -261,12 +219,12 @@ local function spawnCard(faces, position, rotation, flipped, onFullySpawned)
         flipped = true
     end
 
-    local jsonFace1 = jsonForCardFace(faces[1], position, rotation, flipped)
+    local jsonFace1 = jsonForCardFace(faces[1], position, rotation, flipped, false)
 
     if #faces > 1 then
         jsonFace1.States = {}
         for i = 2, (#(faces)) do
-            local jsonFaceI = jsonForCardFace(faces[i], position, rotation, flipped)
+            local jsonFaceI = jsonForCardFace(faces[i], position, rotation, flipped, false)
 
             jsonFace1.States[tostring(i)] = jsonFaceI
         end
@@ -397,12 +355,12 @@ local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawn
             }}
 
             -- Build the card JSON with States for multiple faces
-            local jsonFace1 = jsonForCardFace(faces[1], position, 0, flipped)
+            local jsonFace1 = jsonForCardFace(faces[1], position, 0, flipped, card.foil)
 
             if #faces > 1 then
                 jsonFace1.States = {}
                 for j = 2, #faces do
-                    local jsonFaceJ = jsonForCardFace(faces[j], position, 0, flipped)
+                    local jsonFaceJ = jsonForCardFace(faces[j], position, 0, flipped, card.foil)
                     jsonFace1.States[tostring(j)] = jsonFaceJ
                 end
             end
@@ -880,7 +838,7 @@ local function loadDeck(cardIDs, deckName, onComplete, onError)
 
         -- Spawn each pack pile side by side
         for packIndex, cardGroup in pairs(packs) do
-            print("Spawning pack" .. packIndex)
+            -- print("Spawning pack " .. packIndex)
             local relativeOffset = {
                 MAINDECK_POSITION_OFFSET[1] + (packIndex - 1) * POSITION_SPACING,
                 MAINDECK_POSITION_OFFSET[2],
@@ -1005,8 +963,9 @@ local function parseCardId(cardId)
 
     local setCode = parts[1] or ""
     local collectorNum = parts[2] or ""
+    local isFoil = (parts[3] == "foil")
 
-    return setCode, collectorNum
+    return setCode, collectorNum, isFoil
 end
 
 local function queryGeneratePacks(numPacks, onSuccess, onError)
@@ -1022,13 +981,14 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
                 local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
 
                 for _, rawId in ipairs(drawn) do
-                    local setCode, collectorNum = parseCardId(rawId)
+                    local setCode, collectorNum, isFoil = parseCardId(rawId)
 
                     table.insert(allCards, {
                         count = 1,
                         name = "",
                         setCode = setCode,
                         collectorNum = collectorNum,
+                        foil = isFoil,
                         packIndex = packIndex,
                         sheetName = sheetName,
                         packName = packInfo.name
@@ -1096,7 +1056,7 @@ function generatePacks()
 
         queryGeneratePacks(numberOfPacks, function(cardIDs, deckName)
             loadDeck(cardIDs, deckName, function()
-                printToAll("Pack import complete!")
+                printToAll("Pack generation complete!")
                 lock = false
             end, function(e)
                 printToAll("Pack load error: " .. tostring(e))
@@ -1330,8 +1290,8 @@ function mtgdl__onForceLanguageInput(_, value, _)
     forceLanguage = stringToBool(value)
 end
 
-function mtgdl__onTokenButtonsInput(_, value, _)
-    enableTokenButtons = stringToBool(value)
+function mtgdl__onFoilInput(_, value, _)
+    enableFoil = stringToBool(value)
 end
 
 function mtgdl__onBlowCacheInput(_, value, _)
