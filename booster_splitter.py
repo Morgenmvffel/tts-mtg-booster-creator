@@ -3,57 +3,79 @@ import json
 import requests
 import sys
 
+def download_json_data(url):
+    """Download JSON data from the specified URL."""
+    print(f"Downloading data from {url}...")
+    response = requests.get(url)
+    response.raise_for_status()
+    return response.json()
+
+def add_sheet_order_to_boosters(data):
+    """Add sheet order information to each booster in the data."""
+    for obj in data:
+        if 'boosters' in obj:
+            for booster in obj['boosters']:
+                # Extract and store the order of sheets
+                booster['sheet_order'] = list(booster['sheets'].keys())
+
+def save_json_to_file(data, file_path):
+    """Save JSON data to a specified file."""
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print(f"Saved data to {file_path}")
+
+def process_and_save_boosters(data, output_dir):
+    """Process each booster and save it to individual JSON files."""
+    index = []
+    count = 0
+
+    for obj in data:
+        code = obj.get("code")
+        name = obj.get("name")
+
+        if not code or not name:
+            print("Warning: Skipping entry without 'code' or 'name'")
+            continue
+
+        file_path = os.path.join(output_dir, f"{code}.json")
+        save_json_to_file(obj, file_path)
+        count += 1
+
+        # Append booster information to index without filename
+        index.append({
+            "name": name,
+            "code": code
+        })
+
+    return index, count
+
 def main():
+    # Constants for URLs and file paths
     GITHUB_URL = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
-    
     OUTPUT_DIR = "booster"
     FULL_JSON_FILE = "sealed_basic_data.json"
     INDEX_FILE = "booster_index.json"
 
     try:
-        # Create output directory if it doesn't exist
+        # Ensure the output directory exists
         os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-        # Download the JSON
-        print(f"Downloading data from {GITHUB_URL}...")
-        response = requests.get(GITHUB_URL)
-        response.raise_for_status()
+        # Download the JSON data from GitHub
+        data = download_json_data(GITHUB_URL)
 
-        data = response.json()
+        # Add sheet order information to boosters
+        add_sheet_order_to_boosters(data)
 
-        # Save full JSON
-        with open(FULL_JSON_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2)
-        print(f"Saved full dataset to {FULL_JSON_FILE}")
+        # Save the full JSON data with added sheet order
+        save_json_to_file(data, FULL_JSON_FILE)
 
-        index = []
-        count = 0
+        # Process boosters and save each to a separate file
+        index, count = process_and_save_boosters(data, OUTPUT_DIR)
 
-        # Split and save each object
-        for obj in data:
-            code = obj.get("code")
-            name = obj.get("name")
+        # Write the booster index file
+        save_json_to_file(index, INDEX_FILE)
 
-            if not code or not name:
-                print("Warning: Skipping entry without 'code' or 'name'")
-                continue
-
-            file_path = os.path.join(OUTPUT_DIR, f"{code}.json")
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(obj, f, indent=2)
-            count += 1
-
-            index.append({
-                "name": name,
-                "code": code,
-                "filename": f"{OUTPUT_DIR}/{code}.json"
-            })
-
-        # Write the booster index
-        with open(INDEX_FILE, "w", encoding="utf-8") as f:
-            json.dump(index, f, indent=2)
         print(f"Generated index file: {INDEX_FILE}")
-
         print(f"Successfully processed {count} booster files.")
 
     except Exception as e:
