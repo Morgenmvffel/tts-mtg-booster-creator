@@ -9,20 +9,22 @@ SCRYFALL_NAME_BASE_URL = "https://api.scryfall.com/cards/named/?exact="
 
 PACK_ODDS_URL = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
 BOOSTER_INDEX_URL =
-    "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster_index.json"
+"https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster_index.json"
 BASE_BOOSTER_FILE_URL =
-    "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
+"https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
 
-BOOSTER_IMAGE_URL = "https://steamusercontent-a.akamaihd.net/ugc/12048320118311789698/728EE5247F5FE466F92DAAC0E9997225CD3E8865/"
-FOIL_EFFECT_URL = "https://steamusercontent-a.akamaihd.net/ugc/18215652933654632959/A843EB4C96D1CE5E339D66F48A414D671B2CB4CC/"
+BOOSTER_IMAGE_URL =
+"https://steamusercontent-a.akamaihd.net/ugc/12048320118311789698/728EE5247F5FE466F92DAAC0E9997225CD3E8865/"
+FOIL_EFFECT_URL =
+"https://steamusercontent-a.akamaihd.net/ugc/18215652933654632959/A843EB4C96D1CE5E339D66F48A414D671B2CB4CC/"
 
-MAINDECK_POSITION_OFFSET = {2, 0.2, -0.2}
-TOKENS_POSITION_OFFSET = {1.9, 0.2, 0.9}
+MAINDECK_POSITION_OFFSET = { 2, 0.2, -0.2 }
+TOKENS_POSITION_OFFSET = { 1.9, 0.2, 0.9 }
 
 POSITION_SPACING = -0.8
 
 DEFAULT_CARDBACK =
-    "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/f/f8/Magic_card_back.jpg?version=0ddc8d41c3b69c2c3c4bb5d72669ffd7"
+"https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/f/f8/Magic_card_back.jpg?version=0ddc8d41c3b69c2c3c4bb5d72669ffd7"
 DEFAULT_LANGUAGE = "en"
 
 -- Pack Amounts
@@ -186,16 +188,16 @@ local function jsonForCardFace(face, position, rotationY, flipped, foil)
         decal = {
             name = "Foil",
             url = "https://steamusercontent-a.akamaihd.net/ugc/18215652933654632959/A843EB4C96D1CE5E339D66F48A414D671B2CB4CC/",
-            position = Vector(0, 0.25, 0), 
-            rotation = Vector(90, 0, 0), 
+            position = Vector(0, 0.25, 0),
+            rotation = Vector(90, 0, 0),
             scale = Vector(-2.14, -3.06, 1)
         }
 
         function onLoad(saved_data)
             if self.getDecals() == nil then
                 self.addDecal(decal)
-                log("added Decal")
-            end                     
+                -- log("added Decal")
+            end
         end
     ]]
     end
@@ -207,11 +209,12 @@ end
 -- Calls [onFullySpawned] when the object is spawned.
 local function spawnCard(faces, position, rotation, flipped, onFullySpawned)
     if not faces or not faces[1] then
-        faces = {{
+        faces = { {
             name = card.name,
             oracleText = "Card not found",
-            imageURI = "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942"
-        }}
+            imageURI =
+            "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942"
+        } }
     end
 
     -- Force flipped if the user asked for everything to be spawned face-down
@@ -256,11 +259,12 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     for _, card in ipairs(cards) do
         for i = 1, (card.count or 1) do
             if not card.faces or not card.faces[1] then
-                card.faces = {{
+                card.faces = { {
                     name = card.name,
                     oracleText = "Card not found",
-                    imageURI = "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942"
-                }}
+                    imageURI =
+                    "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942"
+                } }
             end
 
             incSem()
@@ -304,14 +308,14 @@ local function sortCardsBySheetOrder(cards, sheetOrder)
     -- Function to get the sheet index for sorting
     local function getCardSheetIndex(card)
         local sheet = (card.sheetName or ""):lower()
-        
+
         -- If the sheet is in the sheetOrder, return its index, otherwise return a high index to place it at the end
         if sheetIndex[sheet] then
             return sheetIndex[sheet]
         else
             -- Log a message if the sheetName is not in the sheetOrder
             log("Warning: sheetName '" .. sheet .. "' not found in sheetOrder.")
-            return #sheetOrder + 1  -- Place this card at the end if the sheet is not found in sheetOrder
+            return #sheetOrder + 1 -- Place this card at the end if the sheet is not found in sheetOrder
         end
     end
 
@@ -322,7 +326,7 @@ local function sortCardsBySheetOrder(cards, sheetOrder)
 
         -- First, sort by reversed sheet order (descending index)
         if indexA ~= indexB then
-            return indexA > indexB  -- Reverse the order (descending index)
+            return indexA > indexB -- Reverse the order (descending index)
         end
 
         -- If they are from the same sheet, fallback to sorting alphabetically by sheetName (or use the collectorNum as a tie-breaker if needed)
@@ -332,17 +336,19 @@ end
 
 local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, onFullySpawned, onError)
     -- Sort cards alphabetically by sheetName (fallback to name if missing)
+    -- log(sheetOrder)
     sortCardsBySheetOrder(cards, sheetOrder)
     local containedObjects = {}
     local boosterName = ""
 
     for _, card in ipairs(cards) do
         for i = 1, (card.count or 1) do
-            local faces = card.faces or {{
+            local faces = card.faces or { {
                 name = card.name,
                 oracleText = "Card not found",
-                imageURI = "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942"
-            }}
+                imageURI =
+                "https://vignette.wikia.nocookie.net/yugioh/images/9/94/Back-Anime-2.png/revision/latest?cb=20110624090942"
+            } }
 
             -- Build the card JSON with States for multiple faces
             local jsonFace1 = jsonForCardFace(faces[1], position, 0, flipped, card.foil)
@@ -403,7 +409,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
                 r = 0.95,
                 g = 0.98,
                 b = 1.0
-            }, -- Neutral white highlight
+            },                      -- Neutral white highlight
             specular_sharpness = 5, -- Clean but not razor-sharp
             fresnel_strength = 0.2
         },
@@ -415,7 +421,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
 
             function unloadAllCards(player_color, position, object)
                 local objects = self.getObjects()
-                local basePos = self.positionToWorld({0, 2, 0})
+                local basePos = self.positionToWorld({0, 0.5, 0})
                 local yOffset = 0
 
                 for i, obj in ipairs(objects) do
@@ -427,7 +433,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
                             takenObj.setRotationSmooth({0, 180, 0})
                         end
                     })
-                    yOffset = yOffset + 0.35
+                    yOffset = yOffset + 0.2
                 end
 
                 Wait.time(checkEmptyAndDestroy, 0.5)
@@ -693,7 +699,8 @@ local function queryCard(cardID, forceStandardLanguage, onSuccess, onError)
     if forceStandardLanguage and cardID.setCode and string.len(cardID.setCode) > 0 and cardID.collectorNum and string.len(cardID.collectorNum) > 0 then
         query_url = SCRYFALL_SET_NUM_BASE_URL .. string.lower(cardID.setCode) .. "/" .. cardID.collectorNum
     elseif cardID.setCode and string.len(cardID.setCode) > 0 and cardID.collectorNum and string.len(cardID.collectorNum) > 0 then
-        query_url = SCRYFALL_SET_NUM_BASE_URL .. string.lower(cardID.setCode) .. "/" .. cardID.collectorNum .. "/" .. language_code
+        query_url = SCRYFALL_SET_NUM_BASE_URL ..
+        string.lower(cardID.setCode) .. "/" .. cardID.collectorNum .. "/" .. language_code
     end
 
     -- log(query_url)
@@ -768,7 +775,7 @@ local function fetchCardData(cards, onComplete, onError)
         queryCard(
             cardID,
             false,
-            function (card, tokens) -- onSuccess
+            function(card, tokens)  -- onSuccess
                 onQuerySuccess(card, tokens)
             end,
             function(e) -- onError
@@ -786,10 +793,10 @@ local function fetchCardData(cards, onComplete, onError)
                             cardID,
                             true,
                             onQuerySuccess,
-                            onQueryFailed                        
+                            onQueryFailed
                         )
-                end)
-        end)
+                    end)
+            end)
     end
 
     Wait.condition(
@@ -806,7 +813,7 @@ local function loadDeck(packs, deckName, onComplete, onError)
 
     printInfo("Querying Scryfall for card data...")
 
-    local sem = #packs  -- Semaphore for packs
+    local sem = #packs -- Semaphore for packs
     local function decSem() sem = sem - 1 end
 
     -- Table to collect all tokens
@@ -814,7 +821,7 @@ local function loadDeck(packs, deckName, onComplete, onError)
 
     -- Loop through each pack and call fetchCardData for each pack's card IDs
     for packIndex, pack in ipairs(packs) do
-        local cardIDsForPack = pack.cards  -- Get card IDs for this pack
+        local cardIDsForPack = pack.cards -- Get card IDs for this pack
 
         fetchCardData(cardIDsForPack, function(cards, tokens)
             -- After fetching the data for this pack, we can spawn the cards for this pack
@@ -839,7 +846,6 @@ local function loadDeck(packs, deckName, onComplete, onError)
             for _, token in ipairs(tokens) do
                 table.insert(allTokens, token)
             end
-
         end, function(e)
             -- Error callback for fetchCardData
             printErr("Failed to fetch card data for pack " .. packIndex .. ": " .. tostring(e))
@@ -852,12 +858,14 @@ local function loadDeck(packs, deckName, onComplete, onError)
         -- Spawn the collected tokens only after all async fetch and card spawning are complete
         spawnDeck(allTokens, deckName .. " - tokens", tokensPosition, 90, false, function()
             decSem()
-        end, function(e)
+        end
+        , function(e)
             printErr(e)
             decSem()
         end)
+        onComplete()
     end, function()
-        return sem == 0  -- Wait for all packs to be processed
+        return sem == 0 -- Wait for all packs to be processed
     end, 10, function()
         onError("Error spawning deck objects... timed out.")
     end)
@@ -962,14 +970,14 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
     local code = PackCode
 
     local function doPackGeneration(packInfo)
-        local packs = {}  -- This will hold each pack with cards and tokens.
+        local packs = {} -- This will hold each pack with cards and tokens.
 
         for packIndex = 1, numPacks do
             local boosterLayout = pickWeighted(packInfo.boosters)
 
             local pack = {
-                cards = {},   -- Array to store card data for this pack.
-                sheetOrder = boosterLayout.sheet_order,  -- Store the sheet order for later use
+                cards = {},                             -- Array to store card data for this pack.
+                sheetOrder = boosterLayout.sheet_order, -- Store the sheet order for later use
             }
 
             -- Loop through the sheet_order to respect the order of the sheets
@@ -982,12 +990,12 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
 
                     local cardData = {
                         count = 1,
-                        name = "",
+                        name = "", -- Add actual card name here if needed.
                         setCode = setCode,
                         collectorNum = collectorNum,
                         foil = isFoil,
                         packIndex = packIndex,
-                        sheetName = sheetName,  -- Keep track of which sheet the card came from
+                        sheetName = sheetName, -- Keep track of which sheet the card came from
                         packName = packInfo.name
                     }
 
@@ -1092,8 +1100,8 @@ local function buildDropdownFromIndex()
             PackCode = entry.code
         end
         optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>', entry.code, -- value
-        selectedStr, -- selected="true" if first
-        entry.name -- label shown in dropdown
+            selectedStr,                                                                         -- selected="true" if first
+            entry.name                                                                           -- label shown in dropdown
         )
     end
 
@@ -1174,7 +1182,7 @@ local function drawUI()
         function_owner = self,
         label = "Enter the Amount of Packs",
         alignment = 2,
-        position = {-0.4, 0.1, 1.15},
+        position = { -0.4, 0.1, 1.15 },
         width = 240,
         height = 160,
         font_size = 130,
@@ -1186,12 +1194,12 @@ local function drawUI()
         click_function = "onGeneratePackButton",
         function_owner = self,
         label = "Generate Packs",
-        position = {1, 0.1, 1.15},
-        rotation = {0, 0, 0},
+        position = { 1, 0.1, 1.15 },
+        rotation = { 0, 0, 0 },
         width = 850,
         height = 160,
         font_size = 80,
-        color = {0.5, 0.5, 0.5},
+        color = { 0.5, 0.5, 0.5 },
         font_color = {
             r = 1,
             b = 1,
@@ -1204,12 +1212,12 @@ local function drawUI()
         click_function = "onToggleAdvancedButton",
         function_owner = self,
         label = "...",
-        position = {2.25, 0.1, 1.15},
-        rotation = {0, 0, 0},
+        position = { 2.25, 0.1, 1.15 },
+        rotation = { 0, 0, 0 },
         width = 160,
         height = 160,
         font_size = 100,
-        color = {0.5, 0.5, 0.5},
+        color = { 0.5, 0.5, 0.5 },
         font_color = {
             r = 1,
             b = 1,
