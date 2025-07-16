@@ -9,7 +9,11 @@
         "prerelease_promo": 1,
         "party_scene_promo": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo",
+        "party_scene_promo"
+      ]
     }
   ],
   "sheets": {

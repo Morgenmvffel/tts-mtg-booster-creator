@@ -11,7 +11,13 @@
         "sfc_uncommon_with_showcase": 3,
         "dfc_rare_mythic_with_showcase": 1
       },
-      "weight": 54
+      "weight": 54,
+      "sheet_order": [
+        "basic",
+        "common_with_showcase",
+        "sfc_uncommon_with_showcase",
+        "dfc_rare_mythic_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -21,7 +27,14 @@
         "sfc_uncommon_with_showcase": 3,
         "dfc_rare_mythic_with_showcase": 1
       },
-      "weight": 27
+      "weight": 27,
+      "sheet_order": [
+        "basic",
+        "foil_with_showcase",
+        "common_with_showcase",
+        "sfc_uncommon_with_showcase",
+        "dfc_rare_mythic_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -31,7 +44,14 @@
         "sfc_uncommon_with_showcase": 2,
         "sfc_rare_mythic_with_showcase": 1
       },
-      "weight": 242
+      "weight": 242,
+      "sheet_order": [
+        "basic",
+        "common_with_showcase",
+        "dfc_uncommon_with_showcase",
+        "sfc_uncommon_with_showcase",
+        "sfc_rare_mythic_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +62,15 @@
         "sfc_uncommon_with_showcase": 2,
         "sfc_rare_mythic_with_showcase": 1
       },
-      "weight": 121
+      "weight": 121,
+      "sheet_order": [
+        "basic",
+        "foil_with_showcase",
+        "common_with_showcase",
+        "dfc_uncommon_with_showcase",
+        "sfc_uncommon_with_showcase",
+        "sfc_rare_mythic_with_showcase"
+      ]
     }
   ],
   "sheets": {

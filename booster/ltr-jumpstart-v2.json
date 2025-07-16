@@ -9,70 +9,110 @@
         "mortals_1": 19,
         "white_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mortals_1",
+        "white_rare"
+      ]
     },
     {
       "sheets": {
         "mortals_2": 19,
         "white_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mortals_2",
+        "white_rare"
+      ]
     },
     {
       "sheets": {
         "elven_1": 19,
         "green_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elven_1",
+        "green_rare"
+      ]
     },
     {
       "sheets": {
         "elven_2": 19,
         "green_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elven_2",
+        "green_rare"
+      ]
     },
     {
       "sheets": {
         "riders_1": 19,
         "red_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "riders_1",
+        "red_rare"
+      ]
     },
     {
       "sheets": {
         "riders_2": 19,
         "red_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "riders_2",
+        "red_rare"
+      ]
     },
     {
       "sheets": {
         "orcish_1": 19,
         "black_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "orcish_1",
+        "black_rare"
+      ]
     },
     {
       "sheets": {
         "orcish_2": 19,
         "black_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "orcish_2",
+        "black_rare"
+      ]
     },
     {
       "sheets": {
         "cunning_1": 19,
         "blue_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cunning_1",
+        "blue_rare"
+      ]
     },
     {
       "sheets": {
         "cunning_2": 19,
         "blue_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cunning_2",
+        "blue_rare"
+      ]
     }
   ],
   "sheets": {

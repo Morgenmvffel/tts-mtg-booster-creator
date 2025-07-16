@@ -12,7 +12,14 @@
         "enchanting_tales": 1,
         "rare_mythic_with_showcase": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "enchanting_tales",
+        "rare_mythic_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -23,7 +30,15 @@
         "enchanting_tales": 1,
         "rare_mythic_with_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil_with_showcase",
+        "uncommon",
+        "enchanting_tales",
+        "rare_mythic_with_showcase"
+      ]
     }
   ],
   "sheets": {

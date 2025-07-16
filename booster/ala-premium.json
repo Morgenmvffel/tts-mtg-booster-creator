@@ -11,7 +11,13 @@
         "alara_premium_uncommon": 3,
         "alara_premium_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "alara_premium_basic",
+        "alara_premium_common",
+        "alara_premium_uncommon",
+        "alara_premium_rare_mythic"
+      ]
     }
   ],
   "sheets": {

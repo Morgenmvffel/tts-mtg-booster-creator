@@ -10,7 +10,12 @@
         "common": 24,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "uncommon",
+        "common",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -18,7 +23,12 @@
         "common": 23,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "uncommon",
+        "common",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +36,12 @@
         "common": 22,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "uncommon",
+        "common",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +49,12 @@
         "common": 21,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "uncommon",
+        "common",
+        "rare_mythic"
+      ]
     }
   ],
   "sheets": {

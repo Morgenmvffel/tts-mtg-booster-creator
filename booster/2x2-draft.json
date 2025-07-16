@@ -12,7 +12,14 @@
         "rare_mythic_with_showcase": 2,
         "dedicated_foil_double_masters": 2
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cryptic_spires",
+        "common_with_showcase",
+        "uncommon_with_showcase",
+        "rare_mythic_with_showcase",
+        "dedicated_foil_double_masters"
+      ]
     }
   ],
   "sheets": {

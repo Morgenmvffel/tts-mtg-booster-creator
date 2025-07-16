@@ -13,7 +13,15 @@
         "wildcard": 1,
         "foil": 1
       },
-      "weight": 252
+      "weight": 252,
+      "sheet_order": [
+        "land",
+        "common",
+        "uncommon",
+        "rare_mythic_with_showcase",
+        "wildcard",
+        "foil"
+      ]
     },
     {
       "sheets": {
@@ -25,7 +33,16 @@
         "wildcard": 1,
         "foil": 1
       },
-      "weight": 4
+      "weight": 4,
+      "sheet_order": [
+        "land",
+        "common",
+        "special_guest",
+        "uncommon",
+        "rare_mythic_with_showcase",
+        "wildcard",
+        "foil"
+      ]
     },
     {
       "sheets": {
@@ -36,7 +53,15 @@
         "wildcard": 1,
         "foil": 1
       },
-      "weight": 63
+      "weight": 63,
+      "sheet_order": [
+        "foil_land",
+        "common",
+        "uncommon",
+        "rare_mythic_with_showcase",
+        "wildcard",
+        "foil"
+      ]
     },
     {
       "sheets": {
@@ -48,7 +73,16 @@
         "wildcard": 1,
         "foil": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_land",
+        "common",
+        "special_guest",
+        "uncommon",
+        "rare_mythic_with_showcase",
+        "wildcard",
+        "foil"
+      ]
     }
   ],
   "sheets": {

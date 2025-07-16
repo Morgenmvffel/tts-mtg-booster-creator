@@ -10,7 +10,12 @@
         "uncommon": 3,
         "common": 11
       },
-      "weight": 272757
+      "weight": 272757,
+      "sheet_order": [
+        "rare",
+        "uncommon",
+        "common"
+      ]
     },
     {
       "sheets": {
@@ -19,7 +24,13 @@
         "common": 10,
         "foil_common": 1
       },
-      "weight": 50853
+      "weight": 50853,
+      "sheet_order": [
+        "rare",
+        "uncommon",
+        "common",
+        "foil_common"
+      ]
     },
     {
       "sheets": {
@@ -28,7 +39,13 @@
         "foil_uncommon": 1,
         "common": 11
       },
-      "weight": 12213
+      "weight": 12213,
+      "sheet_order": [
+        "rare",
+        "uncommon",
+        "foil_uncommon",
+        "common"
+      ]
     },
     {
       "sheets": {
@@ -38,7 +55,14 @@
         "common": 10,
         "foil_common": 1
       },
-      "weight": 2277
+      "weight": 2277,
+      "sheet_order": [
+        "rare",
+        "uncommon",
+        "foil_uncommon",
+        "common",
+        "foil_common"
+      ]
     },
     {
       "sheets": {
@@ -46,7 +70,12 @@
         "uncommon": 3,
         "common": 11
       },
-      "weight": 3953
+      "weight": 3953,
+      "sheet_order": [
+        "foil_rare",
+        "uncommon",
+        "common"
+      ]
     },
     {
       "sheets": {
@@ -55,7 +84,13 @@
         "common": 10,
         "foil_common": 1
       },
-      "weight": 737
+      "weight": 737,
+      "sheet_order": [
+        "foil_rare",
+        "uncommon",
+        "common",
+        "foil_common"
+      ]
     },
     {
       "sheets": {
@@ -64,7 +99,13 @@
         "foil_uncommon": 1,
         "common": 11
       },
-      "weight": 177
+      "weight": 177,
+      "sheet_order": [
+        "foil_rare",
+        "uncommon",
+        "foil_uncommon",
+        "common"
+      ]
     },
     {
       "sheets": {
@@ -74,7 +115,14 @@
         "common": 10,
         "foil_common": 1
       },
-      "weight": 33
+      "weight": 33,
+      "sheet_order": [
+        "foil_rare",
+        "uncommon",
+        "foil_uncommon",
+        "common",
+        "foil_common"
+      ]
     }
   ],
   "sheets": {

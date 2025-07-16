@@ -10,7 +10,12 @@
         "brood_1_foils": 2,
         "rare_mythic_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "brood_1",
+        "brood_1_foils",
+        "rare_mythic_white"
+      ]
     },
     {
       "sheets": {
@@ -18,7 +23,12 @@
         "brood_2_foils": 2,
         "rare_mythic_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "brood_2",
+        "brood_2_foils",
+        "rare_mythic_white"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +36,12 @@
         "buff_1_foils": 2,
         "rare_mythic_green": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "buff_1",
+        "buff_1_foils",
+        "rare_mythic_green"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +49,12 @@
         "buff_2_foils": 2,
         "rare_mythic_green": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "buff_2",
+        "buff_2_foils",
+        "rare_mythic_green"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +62,12 @@
         "expendable_1_foils": 2,
         "rare_mythic_black": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "expendable_1",
+        "expendable_1_foils",
+        "rare_mythic_black"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +75,12 @@
         "expendable_2_foils": 2,
         "rare_mythic_black": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "expendable_2",
+        "expendable_2_foils",
+        "rare_mythic_black"
+      ]
     },
     {
       "sheets": {
@@ -58,7 +88,12 @@
         "overachiever_1_foils": 2,
         "rare_mythic_blue": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "overachiever_1",
+        "overachiever_1_foils",
+        "rare_mythic_blue"
+      ]
     },
     {
       "sheets": {
@@ -66,7 +101,12 @@
         "overachiever_2_foils": 2,
         "rare_mythic_blue": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "overachiever_2",
+        "overachiever_2_foils",
+        "rare_mythic_blue"
+      ]
     },
     {
       "sheets": {
@@ -74,7 +114,12 @@
         "reinforcement_1_foils": 2,
         "rare_mythic_red": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "reinforcement_1",
+        "reinforcement_1_foils",
+        "rare_mythic_red"
+      ]
     },
     {
       "sheets": {
@@ -82,7 +127,12 @@
         "reinforcement_2_foils": 2,
         "rare_mythic_red": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "reinforcement_2",
+        "reinforcement_2_foils",
+        "rare_mythic_red"
+      ]
     }
   ],
   "sheets": {

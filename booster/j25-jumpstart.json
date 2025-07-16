@@ -8,727 +8,1090 @@
       "sheets": {
         "angels_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "angels_1"
+      ]
     },
     {
       "sheets": {
         "angels_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "angels_2"
+      ]
     },
     {
       "sheets": {
         "armed_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "armed_1"
+      ]
     },
     {
       "sheets": {
         "armed_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "armed_2"
+      ]
     },
     {
       "sheets": {
         "armed_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "armed_3"
+      ]
     },
     {
       "sheets": {
         "armed_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "armed_4"
+      ]
     },
     {
       "sheets": {
         "beasts_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "beasts_1"
+      ]
     },
     {
       "sheets": {
         "beasts_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "beasts_2"
+      ]
     },
     {
       "sheets": {
         "bloody_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bloody_1"
+      ]
     },
     {
       "sheets": {
         "bloody_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bloody_2"
+      ]
     },
     {
       "sheets": {
         "bloody_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bloody_3"
+      ]
     },
     {
       "sheets": {
         "bloody_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bloody_4"
+      ]
     },
     {
       "sheets": {
         "bookworms_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bookworms_1"
+      ]
     },
     {
       "sheets": {
         "bookworms_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bookworms_2"
+      ]
     },
     {
       "sheets": {
         "bookworms_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bookworms_3"
+      ]
     },
     {
       "sheets": {
         "bookworms_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "bookworms_4"
+      ]
     },
     {
       "sheets": {
         "burning": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "burning"
+      ]
     },
     {
       "sheets": {
         "chaos": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "chaos"
+      ]
     },
     {
       "sheets": {
         "clerics_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "clerics_1"
+      ]
     },
     {
       "sheets": {
         "clerics_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "clerics_2"
+      ]
     },
     {
       "sheets": {
         "clerics_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "clerics_3"
+      ]
     },
     {
       "sheets": {
         "clerics_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "clerics_4"
+      ]
     },
     {
       "sheets": {
         "copied_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "copied_1"
+      ]
     },
     {
       "sheets": {
         "copied_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "copied_2"
+      ]
     },
     {
       "sheets": {
         "dinner": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "dinner"
+      ]
     },
     {
       "sheets": {
         "dinosaurs_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "dinosaurs_1"
+      ]
     },
     {
       "sheets": {
         "dinosaurs_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "dinosaurs_2"
+      ]
     },
     {
       "sheets": {
         "dragons_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "dragons_1"
+      ]
     },
     {
       "sheets": {
         "dragons_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "dragons_2"
+      ]
     },
     {
       "sheets": {
         "drowned_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "drowned_1"
+      ]
     },
     {
       "sheets": {
         "drowned_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "drowned_2"
+      ]
     },
     {
       "sheets": {
         "elves_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elves_1"
+      ]
     },
     {
       "sheets": {
         "elves_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elves_2"
+      ]
     },
     {
       "sheets": {
         "elves_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elves_3"
+      ]
     },
     {
       "sheets": {
         "elves_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elves_4"
+      ]
     },
     {
       "sheets": {
         "enchanted_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "enchanted_1"
+      ]
     },
     {
       "sheets": {
         "enchanted_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "enchanted_2"
+      ]
     },
     {
       "sheets": {
         "enchanted_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "enchanted_3"
+      ]
     },
     {
       "sheets": {
         "enchanted_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "enchanted_4"
+      ]
     },
     {
       "sheets": {
         "encounter_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "encounter_1"
+      ]
     },
     {
       "sheets": {
         "encounter_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "encounter_2"
+      ]
     },
     {
       "sheets": {
         "encounter_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "encounter_3"
+      ]
     },
     {
       "sheets": {
         "encounter_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "encounter_4"
+      ]
     },
     {
       "sheets": {
         "explorers_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "explorers_1"
+      ]
     },
     {
       "sheets": {
         "explorers_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "explorers_2"
+      ]
     },
     {
       "sheets": {
         "explorers_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "explorers_3"
+      ]
     },
     {
       "sheets": {
         "explorers_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "explorers_4"
+      ]
     },
     {
       "sheets": {
         "fun_guys_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "fun_guys_1"
+      ]
     },
     {
       "sheets": {
         "fun_guys_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "fun_guys_2"
+      ]
     },
     {
       "sheets": {
         "ghastly_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ghastly_1"
+      ]
     },
     {
       "sheets": {
         "ghastly_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ghastly_2"
+      ]
     },
     {
       "sheets": {
         "ghastly_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ghastly_3"
+      ]
     },
     {
       "sheets": {
         "ghastly_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ghastly_4"
+      ]
     },
     {
       "sheets": {
         "giddyap": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "giddyap"
+      ]
     },
     {
       "sheets": {
         "goblins_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "goblins_1"
+      ]
     },
     {
       "sheets": {
         "goblins_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "goblins_2"
+      ]
     },
     {
       "sheets": {
         "goblins_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "goblins_3"
+      ]
     },
     {
       "sheets": {
         "goblins_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "goblins_4"
+      ]
     },
     {
       "sheets": {
         "grave_robbers_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "grave_robbers_1"
+      ]
     },
     {
       "sheets": {
         "grave_robbers_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "grave_robbers_2"
+      ]
     },
     {
       "sheets": {
         "grave_robbers_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "grave_robbers_3"
+      ]
     },
     {
       "sheets": {
         "grave_robbers_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "grave_robbers_4"
+      ]
     },
     {
       "sheets": {
         "healers_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "healers_1"
+      ]
     },
     {
       "sheets": {
         "healers_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "healers_2"
+      ]
     },
     {
       "sheets": {
         "healers_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "healers_3"
+      ]
     },
     {
       "sheets": {
         "healers_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "healers_4"
+      ]
     },
     {
       "sheets": {
         "heroes_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "heroes_1"
+      ]
     },
     {
       "sheets": {
         "heroes_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "heroes_2"
+      ]
     },
     {
       "sheets": {
         "icky_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "icky_1"
+      ]
     },
     {
       "sheets": {
         "icky_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "icky_2"
+      ]
     },
     {
       "sheets": {
         "illusions": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "illusions"
+      ]
     },
     {
       "sheets": {
         "inventive_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "inventive_1"
+      ]
     },
     {
       "sheets": {
         "inventive_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "inventive_2"
+      ]
     },
     {
       "sheets": {
         "inventive_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "inventive_3"
+      ]
     },
     {
       "sheets": {
         "inventive_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "inventive_4"
+      ]
     },
     {
       "sheets": {
         "landfall_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "landfall_1"
+      ]
     },
     {
       "sheets": {
         "landfall_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "landfall_2"
+      ]
     },
     {
       "sheets": {
         "landfall_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "landfall_3"
+      ]
     },
     {
       "sheets": {
         "landfall_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "landfall_4"
+      ]
     },
     {
       "sheets": {
         "legion_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "legion_1"
+      ]
     },
     {
       "sheets": {
         "legion_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "legion_2"
+      ]
     },
     {
       "sheets": {
         "modified": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "modified"
+      ]
     },
     {
       "sheets": {
         "ne_er_do_wells_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ne_er_do_wells_1"
+      ]
     },
     {
       "sheets": {
         "ne_er_do_wells_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ne_er_do_wells_2"
+      ]
     },
     {
       "sheets": {
         "nefarious": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "nefarious"
+      ]
     },
     {
       "sheets": {
         "ninjas": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ninjas"
+      ]
     },
     {
       "sheets": {
         "of_the_coast_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "of_the_coast_1"
+      ]
     },
     {
       "sheets": {
         "of_the_coast_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "of_the_coast_2"
+      ]
     },
     {
       "sheets": {
         "prideful": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "prideful"
+      ]
     },
     {
       "sheets": {
         "snakes": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "snakes"
+      ]
     },
     {
       "sheets": {
         "soaring_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "soaring_1"
+      ]
     },
     {
       "sheets": {
         "soaring_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "soaring_2"
+      ]
     },
     {
       "sheets": {
         "soaring_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "soaring_3"
+      ]
     },
     {
       "sheets": {
         "soaring_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "soaring_4"
+      ]
     },
     {
       "sheets": {
         "stalwart_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stalwart_1"
+      ]
     },
     {
       "sheets": {
         "stalwart_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stalwart_2"
+      ]
     },
     {
       "sheets": {
         "stalwart_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stalwart_3"
+      ]
     },
     {
       "sheets": {
         "stalwart_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stalwart_4"
+      ]
     },
     {
       "sheets": {
         "stoked_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stoked_1"
+      ]
     },
     {
       "sheets": {
         "stoked_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stoked_2"
+      ]
     },
     {
       "sheets": {
         "stoked_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stoked_3"
+      ]
     },
     {
       "sheets": {
         "stoked_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stoked_4"
+      ]
     },
     {
       "sheets": {
         "surprise_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "surprise_1"
+      ]
     },
     {
       "sheets": {
         "surprise_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "surprise_2"
+      ]
     },
     {
       "sheets": {
         "surprise_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "surprise_3"
+      ]
     },
     {
       "sheets": {
         "surprise_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "surprise_4"
+      ]
     },
     {
       "sheets": {
         "too_many": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "too_many"
+      ]
     },
     {
       "sheets": {
         "treasures_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "treasures_1"
+      ]
     },
     {
       "sheets": {
         "treasures_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "treasures_2"
+      ]
     },
     {
       "sheets": {
         "vampires_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "vampires_1"
+      ]
     },
     {
       "sheets": {
         "vampires_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "vampires_2"
+      ]
     },
     {
       "sheets": {
         "vampires_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "vampires_3"
+      ]
     },
     {
       "sheets": {
         "vampires_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "vampires_4"
+      ]
     },
     {
       "sheets": {
         "warriors_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "warriors_1"
+      ]
     },
     {
       "sheets": {
         "warriors_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "warriors_2"
+      ]
     },
     {
       "sheets": {
         "wizards_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "wizards_1"
+      ]
     },
     {
       "sheets": {
         "wizards_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "wizards_2"
+      ]
     },
     {
       "sheets": {
         "zealots_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "zealots_1"
+      ]
     },
     {
       "sheets": {
         "zealots_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "zealots_2"
+      ]
     },
     {
       "sheets": {
         "zealots_3": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "zealots_3"
+      ]
     },
     {
       "sheets": {
         "zealots_4": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "zealots_4"
+      ]
     }
   ],
   "sheets": {

@@ -9,14 +9,22 @@
         "alt_frame": 1,
         "foil_enchanting_tales_uncommon": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "alt_frame",
+        "foil_enchanting_tales_uncommon"
+      ]
     },
     {
       "sheets": {
         "alt_frame_foil": 1,
         "foil_enchanting_tales_uncommon": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "alt_frame_foil",
+        "foil_enchanting_tales_uncommon"
+      ]
     }
   ],
   "sheets": {

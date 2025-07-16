@@ -8,121 +8,181 @@
       "sheets": {
         "azorius_senate_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "azorius_senate_1"
+      ]
     },
     {
       "sheets": {
         "azorius_senate_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "azorius_senate_2"
+      ]
     },
     {
       "sheets": {
         "boros_legion_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "boros_legion_1"
+      ]
     },
     {
       "sheets": {
         "boros_legion_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "boros_legion_2"
+      ]
     },
     {
       "sheets": {
         "cult_of_rakdos_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cult_of_rakdos_1"
+      ]
     },
     {
       "sheets": {
         "cult_of_rakdos_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cult_of_rakdos_2"
+      ]
     },
     {
       "sheets": {
         "golgari_swarm_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "golgari_swarm_1"
+      ]
     },
     {
       "sheets": {
         "golgari_swarm_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "golgari_swarm_2"
+      ]
     },
     {
       "sheets": {
         "gruul_clans_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "gruul_clans_1"
+      ]
     },
     {
       "sheets": {
         "gruul_clans_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "gruul_clans_2"
+      ]
     },
     {
       "sheets": {
         "house_dimir_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "house_dimir_1"
+      ]
     },
     {
       "sheets": {
         "house_dimir_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "house_dimir_2"
+      ]
     },
     {
       "sheets": {
         "izzet_league_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "izzet_league_1"
+      ]
     },
     {
       "sheets": {
         "izzet_league_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "izzet_league_2"
+      ]
     },
     {
       "sheets": {
         "orzhov_syndicate_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "orzhov_syndicate_1"
+      ]
     },
     {
       "sheets": {
         "orzhov_syndicate_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "orzhov_syndicate_2"
+      ]
     },
     {
       "sheets": {
         "selesnya_conclave_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "selesnya_conclave_1"
+      ]
     },
     {
       "sheets": {
         "selesnya_conclave_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "selesnya_conclave_2"
+      ]
     },
     {
       "sheets": {
         "simic_combine_1": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "simic_combine_1"
+      ]
     },
     {
       "sheets": {
         "simic_combine_2": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "simic_combine_2"
+      ]
     }
   ],
   "sheets": {

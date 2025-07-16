@@ -17,7 +17,19 @@
         "rare_mythic_showcase": 1,
         "foil_alt_frame_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "uncommon_showcase",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "saga_theme_commander",
+        "extended_art",
+        "rare_mythic_showcase",
+        "foil_alt_frame_rare_mythic"
+      ]
     }
   ],
   "sheets": {

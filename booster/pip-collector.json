@@ -22,7 +22,24 @@
         "showcase": 1,
         "finale": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "land",
+        "standard_rm",
+        "hail_caesar",
+        "scrappy_survivors",
+        "science",
+        "mutant_menace",
+        "extended_reprint",
+        "extended_new",
+        "foil_extended_reprint",
+        "foil_extended_new",
+        "surge_extended_reprint",
+        "surge_extended_new",
+        "surge_wildcard",
+        "showcase",
+        "finale"
+      ]
     }
   ],
   "sheets": {

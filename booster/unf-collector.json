@@ -18,7 +18,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 529
+      "weight": 529,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +47,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 529
+      "weight": 529,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +76,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 529
+      "weight": 529,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -66,7 +105,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 529
+      "weight": 529,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -82,7 +134,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -98,7 +163,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -114,7 +192,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -130,7 +221,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_basic",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -146,7 +250,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -162,7 +279,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -178,7 +308,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -194,7 +337,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -210,7 +366,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -226,7 +395,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -242,7 +424,20 @@
         "foil_un-list": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -258,7 +453,20 @@
         "foil_un-list": 1,
         "galaxy_rare_mythic_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_shock",
+        "galaxy_shock",
+        "foil_common",
+        "foil_uncommon",
+        "foil_attraction",
+        "foil_rare_mythic",
+        "galaxy_common_uncommon",
+        "galaxy_rare_mythic",
+        "galaxy_uncommon_showcase",
+        "foil_un-list",
+        "galaxy_rare_mythic_showcase"
+      ]
     }
   ],
   "sheets": {

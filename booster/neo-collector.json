@@ -20,7 +20,22 @@
         "rare_mythic_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 281
+      "weight": 281,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_sfc_common",
+        "foil_sfc_uncommon",
+        "foil_dfc_common_uncommon",
+        "samurai_common_uncommon",
+        "foil_samurai_common_uncommon",
+        "ninja_common_uncommon",
+        "foil_ninja_common_uncommon",
+        "foil_rare_mythic",
+        "extended_commander",
+        "extended_or_borderless_rare_mythic",
+        "rare_mythic_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -38,7 +53,22 @@
         "rare_mythic_showcase": 1,
         "etched_rare_mythic": 1
       },
-      "weight": 15
+      "weight": 15,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_sfc_common",
+        "foil_sfc_uncommon",
+        "foil_dfc_common_uncommon",
+        "samurai_common_uncommon",
+        "foil_samurai_common_uncommon",
+        "ninja_common_uncommon",
+        "foil_ninja_common_uncommon",
+        "foil_rare_mythic",
+        "extended_commander",
+        "extended_or_borderless_rare_mythic",
+        "rare_mythic_showcase",
+        "etched_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -56,7 +86,22 @@
         "rare_mythic_showcase": 1,
         "neon_ink": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_sfc_common",
+        "foil_sfc_uncommon",
+        "foil_dfc_common_uncommon",
+        "samurai_common_uncommon",
+        "foil_samurai_common_uncommon",
+        "ninja_common_uncommon",
+        "foil_ninja_common_uncommon",
+        "foil_rare_mythic",
+        "extended_commander",
+        "extended_or_borderless_rare_mythic",
+        "rare_mythic_showcase",
+        "neon_ink"
+      ]
     }
   ],
   "sheets": {

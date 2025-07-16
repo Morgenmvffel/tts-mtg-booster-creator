@@ -9,14 +9,22 @@
         "promo_teamup": 1,
         "prerelease_promo": 1
       },
-      "weight": 9
+      "weight": 9,
+      "sheet_order": [
+        "promo_teamup",
+        "prerelease_promo"
+      ]
     },
     {
       "sheets": {
         "promo_teamup_foil": 1,
         "prerelease_promo": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "promo_teamup_foil",
+        "prerelease_promo"
+      ]
     }
   ],
   "sheets": {

@@ -10,7 +10,12 @@
         "uncommon": 3,
         "rare": 1
       },
-      "weight": 31
+      "weight": 31,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare"
+      ]
     },
     {
       "sheets": {
@@ -19,7 +24,13 @@
         "rare": 1,
         "foil": 1
       },
-      "weight": 9
+      "weight": 9,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare",
+        "foil"
+      ]
     }
   ],
   "sheets": {

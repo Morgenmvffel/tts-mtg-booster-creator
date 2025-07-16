@@ -9,70 +9,110 @@
         "courageous_1": 19,
         "white_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "courageous_1",
+        "white_rare"
+      ]
     },
     {
       "sheets": {
         "courageous_2": 19,
         "white_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "courageous_2",
+        "white_rare"
+      ]
     },
     {
       "sheets": {
         "journey_1": 19,
         "green_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "journey_1",
+        "green_rare"
+      ]
     },
     {
       "sheets": {
         "journey_2": 19,
         "green_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "journey_2",
+        "green_rare"
+      ]
     },
     {
       "sheets": {
         "marauders_1": 19,
         "red_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "marauders_1",
+        "red_rare"
+      ]
     },
     {
       "sheets": {
         "marauders_2": 19,
         "red_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "marauders_2",
+        "red_rare"
+      ]
     },
     {
       "sheets": {
         "mordor_1": 19,
         "black_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mordor_1",
+        "black_rare"
+      ]
     },
     {
       "sheets": {
         "mordor_2": 19,
         "black_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mordor_2",
+        "black_rare"
+      ]
     },
     {
       "sheets": {
         "tricksy_1": 19,
         "blue_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "tricksy_1",
+        "blue_rare"
+      ]
     },
     {
       "sheets": {
         "tricksy_2": 19,
         "blue_rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "tricksy_2",
+        "blue_rare"
+      ]
     }
   ],
   "sheets": {

@@ -22,7 +22,24 @@
         "foil_forest_2": 1,
         "foil_basic": 2
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_rare_mythic_borderless",
+        "foil_rare_mythic",
+        "foil_uncommon",
+        "foil_common",
+        "foil_plains_1",
+        "foil_plains_2",
+        "foil_island_1",
+        "foil_island_2",
+        "foil_swamp_1",
+        "foil_swamp_2",
+        "foil_mountain_1",
+        "foil_mountain_2",
+        "foil_forest_1",
+        "foil_forest_2",
+        "foil_basic"
+      ]
     }
   ],
   "sheets": {

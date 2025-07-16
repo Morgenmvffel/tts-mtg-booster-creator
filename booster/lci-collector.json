@@ -17,7 +17,19 @@
         "jurrasic_world": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 5553849
+      "weight": 5553849,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "jurrasic_world",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "jurrasic_world": 1,
         "neon_ink": 1
       },
-      "weight": 39151
+      "weight": 39151,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "jurrasic_world",
+        "neon_ink"
+      ]
     },
     {
       "sheets": {
@@ -47,7 +71,19 @@
         "foil_jurrasic_world": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 1362396
+      "weight": 1362396,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "foil_jurrasic_world",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -62,7 +98,19 @@
         "foil_jurrasic_world": 1,
         "neon_ink": 1
       },
-      "weight": 9604
+      "weight": 9604,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "foil_jurrasic_world",
+        "neon_ink"
+      ]
     },
     {
       "sheets": {
@@ -77,7 +125,19 @@
         "emblem_jurrasic_world": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 34755
+      "weight": 34755,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "emblem_jurrasic_world",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -92,7 +152,19 @@
         "emblem_jurrasic_world": 1,
         "neon_ink": 1
       },
-      "weight": 245
+      "weight": 245,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "emblem_jurrasic_world",
+        "neon_ink"
+      ]
     },
     {
       "sheets": {
@@ -107,7 +179,19 @@
         "jurrasic_world": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 793407
+      "weight": 793407,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "foil_extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "jurrasic_world",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -122,7 +206,19 @@
         "jurrasic_world": 1,
         "neon_ink": 1
       },
-      "weight": 5593
+      "weight": 5593,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "foil_extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "jurrasic_world",
+        "neon_ink"
+      ]
     },
     {
       "sheets": {
@@ -137,7 +233,19 @@
         "foil_jurrasic_world": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 194628
+      "weight": 194628,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "foil_extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "foil_jurrasic_world",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -152,7 +260,19 @@
         "foil_jurrasic_world": 1,
         "neon_ink": 1
       },
-      "weight": 1372
+      "weight": 1372,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "foil_extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "foil_jurrasic_world",
+        "neon_ink"
+      ]
     },
     {
       "sheets": {
@@ -167,7 +287,19 @@
         "emblem_jurrasic_world": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 4965
+      "weight": 4965,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "foil_extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "emblem_jurrasic_world",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -182,7 +314,19 @@
         "emblem_jurrasic_world": 1,
         "neon_ink": 1
       },
-      "weight": 35
+      "weight": 35,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_main_rare_mythic",
+        "foil_extended_commander_rare_mythic",
+        "showcase_rare_mythic",
+        "emblem_jurrasic_world",
+        "neon_ink"
+      ]
     }
   ],
   "sheets": {

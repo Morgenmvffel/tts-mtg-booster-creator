@@ -14,7 +14,16 @@
         "sfc_rare_mythic": 1,
         "multiverse_legend": 1
       },
-      "weight": 98
+      "weight": 98,
+      "sheet_order": [
+        "basic_or_gainland",
+        "sfc_common",
+        "sfc_uncommon",
+        "dfc_common_uncommon",
+        "uncommon_battle",
+        "sfc_rare_mythic",
+        "multiverse_legend"
+      ]
     },
     {
       "sheets": {
@@ -25,7 +34,15 @@
         "rare_mythic_battle": 1,
         "multiverse_legend": 1
       },
-      "weight": 27
+      "weight": 27,
+      "sheet_order": [
+        "basic_or_gainland",
+        "sfc_common",
+        "sfc_uncommon",
+        "dfc_common_uncommon",
+        "rare_mythic_battle",
+        "multiverse_legend"
+      ]
     },
     {
       "sheets": {
@@ -36,7 +53,15 @@
         "dfc_rare_mythic": 1,
         "multiverse_legend": 1
       },
-      "weight": 15
+      "weight": 15,
+      "sheet_order": [
+        "basic_or_gainland",
+        "sfc_common",
+        "sfc_uncommon",
+        "uncommon_battle",
+        "dfc_rare_mythic",
+        "multiverse_legend"
+      ]
     }
   ],
   "sheets": {

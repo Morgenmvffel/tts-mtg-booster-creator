@@ -10,7 +10,12 @@
         "oil_slick_basics_2": 5,
         "oil_slick_mythic": 2
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "oil_slick_basics_1",
+        "oil_slick_basics_2",
+        "oil_slick_mythic"
+      ]
     }
   ],
   "sheets": {

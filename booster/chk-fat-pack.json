@@ -9,7 +9,11 @@
         "foil_basic": 1,
         "foil_common": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common"
+      ]
     }
   ],
   "sheets": {

@@ -11,7 +11,13 @@
         "rare_mythic": 1,
         "basic_or_common_land": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "nonland_common",
+        "uncommon",
+        "rare_mythic",
+        "basic_or_common_land"
+      ]
     }
   ],
   "sheets": {

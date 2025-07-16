@@ -1,2667 +1,2134 @@
 [
   {
     "name": "Final Fantasy Play Booster",
-    "code": "fin-play",
-    "filename": "booster/fin-play.json"
+    "code": "fin-play"
   },
   {
     "name": "Tarkir: Dragonstorm Play Booster",
-    "code": "tdm-play",
-    "filename": "booster/tdm-play.json"
+    "code": "tdm-play"
   },
   {
     "name": "Aetherdrift Play Booster",
-    "code": "dft-play",
-    "filename": "booster/dft-play.json"
+    "code": "dft-play"
   },
   {
     "name": "Innistrad Remastered Collector Booster",
-    "code": "inr-collector",
-    "filename": "booster/inr-collector.json"
+    "code": "inr-collector"
   },
   {
     "name": "Innistrad Remastered Play Booster",
-    "code": "inr-play",
-    "filename": "booster/inr-play.json"
+    "code": "inr-play"
   },
   {
     "name": "Pioneer Masters Arena Draft Booster: Planeswalkers",
-    "code": "pio-arena-1",
-    "filename": "booster/pio-arena-1.json"
+    "code": "pio-arena-1"
   },
   {
     "name": "Pioneer Masters Arena Draft Booster: Spells",
-    "code": "pio-arena-2",
-    "filename": "booster/pio-arena-2.json"
+    "code": "pio-arena-2"
   },
   {
     "name": "Pioneer Masters Arena Draft Booster: Devotion",
-    "code": "pio-arena-3",
-    "filename": "booster/pio-arena-3.json"
+    "code": "pio-arena-3"
   },
   {
     "name": "Foundations Beginners Box Booster",
-    "code": "fdn-beginner",
-    "filename": "booster/fdn-beginner.json"
+    "code": "fdn-beginner"
   },
   {
     "name": "Foundations Collector Booster",
-    "code": "fdn-collector",
-    "filename": "booster/fdn-collector.json"
+    "code": "fdn-collector"
   },
   {
     "name": "Foundations Play Booster",
-    "code": "fdn-play",
-    "filename": "booster/fdn-play.json"
+    "code": "fdn-play"
   },
   {
     "name": "Foundations Prerelease Promo Pack",
-    "code": "fdn-prerelease",
-    "filename": "booster/fdn-prerelease.json"
+    "code": "fdn-prerelease"
   },
   {
     "name": "Foundations Jumpstart Booster",
-    "code": "j25-jumpstart",
-    "filename": "booster/j25-jumpstart.json"
+    "code": "j25-jumpstart"
   },
   {
     "name": "Duskmourn: House of Horror Collector Booster",
-    "code": "dsk-collector",
-    "filename": "booster/dsk-collector.json"
+    "code": "dsk-collector"
   },
   {
     "name": "Duskmourn: House of Horror Collector Sample Booster",
-    "code": "dsk-collector-sample",
-    "filename": "booster/dsk-collector-sample.json"
+    "code": "dsk-collector-sample"
   },
   {
     "name": "Duskmourn: House of Horror Play Booster",
-    "code": "dsk-play",
-    "filename": "booster/dsk-play.json"
+    "code": "dsk-play"
   },
   {
     "name": "Duskmourn: House of Horror Prerelease Promo Pack",
-    "code": "dsk-prerelease",
-    "filename": "booster/dsk-prerelease.json"
+    "code": "dsk-prerelease"
   },
   {
     "name": "Bloomburrow Collector Booster",
-    "code": "blb-collector",
-    "filename": "booster/blb-collector.json"
+    "code": "blb-collector"
   },
   {
     "name": "Bloomburrow Collector Sample Booster",
-    "code": "blb-collector-sample",
-    "filename": "booster/blb-collector-sample.json"
+    "code": "blb-collector-sample"
   },
   {
     "name": "Bloomburrow Play Booster",
-    "code": "blb-play",
-    "filename": "booster/blb-play.json"
+    "code": "blb-play"
   },
   {
     "name": "Bloomburrow Prerelease Promo Pack",
-    "code": "blb-prerelease",
-    "filename": "booster/blb-prerelease.json"
+    "code": "blb-prerelease"
   },
   {
     "name": "Mystery Booster 2 Pack",
-    "code": "mb2-draft",
-    "filename": "booster/mb2-draft.json"
+    "code": "mb2-draft"
   },
   {
     "name": "Assassin's Creed Beyond Booster",
-    "code": "acr",
-    "filename": "booster/acr.json"
+    "code": "acr"
   },
   {
     "name": "Assassin's Creed Collector Booster",
-    "code": "acr-collector",
-    "filename": "booster/acr-collector.json"
+    "code": "acr-collector"
   },
   {
     "name": "Modern Horizons 3 Collector Booster",
-    "code": "mh3-collector",
-    "filename": "booster/mh3-collector.json"
+    "code": "mh3-collector"
   },
   {
     "name": "Modern Horizons 3 Collector Sample Booster",
-    "code": "mh3-collector-sample",
-    "filename": "booster/mh3-collector-sample.json"
+    "code": "mh3-collector-sample"
   },
   {
     "name": "Modern Horizons 3 Play Booster",
-    "code": "mh3-play",
-    "filename": "booster/mh3-play.json"
+    "code": "mh3-play"
   },
   {
     "name": "Modern Horizons 3 Prerelease Promo Pack",
-    "code": "mh3-prerelease",
-    "filename": "booster/mh3-prerelease.json"
+    "code": "mh3-prerelease"
   },
   {
     "name": "Outlaws of Thunder Junction Collector Booster",
-    "code": "otj-collector",
-    "filename": "booster/otj-collector.json"
+    "code": "otj-collector"
   },
   {
     "name": "Outlaws of Thunder Junction Collector Sample Booster",
-    "code": "otj-collector-sample",
-    "filename": "booster/otj-collector-sample.json"
+    "code": "otj-collector-sample"
   },
   {
     "name": "Outlaws of Thunder Junction Play Booster",
-    "code": "otj-play",
-    "filename": "booster/otj-play.json"
+    "code": "otj-play"
   },
   {
     "name": "Outlaws of Thunder Junction Prerelease Promo Pack",
-    "code": "otj-prerelease",
-    "filename": "booster/otj-prerelease.json"
+    "code": "otj-prerelease"
   },
   {
     "name": "Fallout Collector Booster",
-    "code": "pip-collector",
-    "filename": "booster/pip-collector.json"
+    "code": "pip-collector"
   },
   {
     "name": "Fallout Collector Sample Booster",
-    "code": "pip-collector-sample",
-    "filename": "booster/pip-collector-sample.json"
+    "code": "pip-collector-sample"
   },
   {
     "name": "Ravnica: Clue Edition Booster",
-    "code": "clu",
-    "filename": "booster/clu.json"
+    "code": "clu"
   },
   {
     "name": "Ravnica: Clue Edition Box Topper Pack",
-    "code": "clu-box-topper",
-    "filename": "booster/clu-box-topper.json"
+    "code": "clu-box-topper"
   },
   {
     "name": "Murders at Karlov Manor Collector Booster",
-    "code": "mkm-collector",
-    "filename": "booster/mkm-collector.json"
+    "code": "mkm-collector"
   },
   {
     "name": "Murders at Karlov Manor Collector Sample Booster",
-    "code": "mkm-collector-sample",
-    "filename": "booster/mkm-collector-sample.json"
+    "code": "mkm-collector-sample"
   },
   {
     "name": "Murders at Karlov Manor Play Booster",
-    "code": "mkm-play",
-    "filename": "booster/mkm-play.json"
+    "code": "mkm-play"
   },
   {
     "name": "Murders at Karlov Manor Arena Play Booster",
-    "code": "mkm-play-arena",
-    "filename": "booster/mkm-play-arena.json"
+    "code": "mkm-play-arena"
   },
   {
     "name": "Murders at Karlov Manor Prerelease Promo Pack",
-    "code": "mkm-prerelease",
-    "filename": "booster/mkm-prerelease.json"
+    "code": "mkm-prerelease"
   },
   {
     "name": "Ravnica Remastered Collector Booster",
-    "code": "rvr-collector",
-    "filename": "booster/rvr-collector.json"
+    "code": "rvr-collector"
   },
   {
     "name": "Ravnica Remastered Draft Booster",
-    "code": "rvr-draft",
-    "filename": "booster/rvr-draft.json"
+    "code": "rvr-draft"
   },
   {
     "name": "The Lost Caverns of Ixalan Arena Booster",
-    "code": "lci-arena",
-    "filename": "booster/lci-arena.json"
+    "code": "lci-arena"
   },
   {
     "name": "The Lost Caverns of Ixalan Non-foil Box Topper",
-    "code": "lci-box-topper",
-    "filename": "booster/lci-box-topper.json"
+    "code": "lci-box-topper"
   },
   {
     "name": "The Lost Caverns of Ixalan Foil Box Topper",
-    "code": "lci-box-topper-foil",
-    "filename": "booster/lci-box-topper-foil.json"
+    "code": "lci-box-topper-foil"
   },
   {
     "name": "The Lost Caverns of Ixalan Bundle Promo Card",
-    "code": "lci-bundle-promo",
-    "filename": "booster/lci-bundle-promo.json"
+    "code": "lci-bundle-promo"
   },
   {
     "name": "The Lost Caverns of Ixalan Collector Booster",
-    "code": "lci-collector",
-    "filename": "booster/lci-collector.json"
+    "code": "lci-collector"
   },
   {
     "name": "The Lost Caverns of Ixalan Collector Sample Booster",
-    "code": "lci-collector-sample",
-    "filename": "booster/lci-collector-sample.json"
+    "code": "lci-collector-sample"
   },
   {
     "name": "The Lost Caverns of Ixalan Draft Booster",
-    "code": "lci-draft",
-    "filename": "booster/lci-draft.json"
+    "code": "lci-draft"
   },
   {
     "name": "The Lost Caverns of Ixalan Gift Bundle Promo Card",
-    "code": "lci-gift-bundle-promo",
-    "filename": "booster/lci-gift-bundle-promo.json"
+    "code": "lci-gift-bundle-promo"
   },
   {
     "name": "The Lost Caverns of Ixalan Prerelease Promo Pack",
-    "code": "lci-prerelease",
-    "filename": "booster/lci-prerelease.json"
+    "code": "lci-prerelease"
   },
   {
     "name": "The Lost Caverns of Ixalan Set Booster",
-    "code": "lci-set",
-    "filename": "booster/lci-set.json"
+    "code": "lci-set"
   },
   {
     "name": "Doctor Who Collector Booster",
-    "code": "who-collector",
-    "filename": "booster/who-collector.json"
+    "code": "who-collector"
   },
   {
     "name": "Doctor Who Collector Sample Booster",
-    "code": "who-collector-sample",
-    "filename": "booster/who-collector-sample.json"
+    "code": "who-collector-sample"
   },
   {
     "name": "Wilds of Eldraine Arena Booster",
-    "code": "woe-arena",
-    "filename": "booster/woe-arena.json"
+    "code": "woe-arena"
   },
   {
     "name": "Wilds of Eldraine Collector Booster",
-    "code": "woe-collector",
-    "filename": "booster/woe-collector.json"
+    "code": "woe-collector"
   },
   {
     "name": "Wilds of Eldraine Collector Sample Booster",
-    "code": "woe-collector-sample",
-    "filename": "booster/woe-collector-sample.json"
+    "code": "woe-collector-sample"
   },
   {
     "name": "Wilds of Eldraine Draft Booster",
-    "code": "woe-draft",
-    "filename": "booster/woe-draft.json"
+    "code": "woe-draft"
   },
   {
     "name": "Wilds of Eldraine Prerelease Promo Pack",
-    "code": "woe-prerelease",
-    "filename": "booster/woe-prerelease.json"
+    "code": "woe-prerelease"
   },
   {
     "name": "Wilds of Eldraine Set Booster",
-    "code": "woe-set",
-    "filename": "booster/woe-set.json"
+    "code": "woe-set"
   },
   {
     "name": "Commander Masters Collector Booster",
-    "code": "cmm-collector",
-    "filename": "booster/cmm-collector.json"
+    "code": "cmm-collector"
   },
   {
     "name": "Commander Masters Collector Sample Booster",
-    "code": "cmm-collector-sample",
-    "filename": "booster/cmm-collector-sample.json"
+    "code": "cmm-collector-sample"
   },
   {
     "name": "Commander Masters Draft Booster",
-    "code": "cmm-draft",
-    "filename": "booster/cmm-draft.json"
+    "code": "cmm-draft"
   },
   {
     "name": "Commander Masters Set Booster",
-    "code": "cmm-set",
-    "filename": "booster/cmm-set.json"
+    "code": "cmm-set"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Arena Booster",
-    "code": "ltr-arena",
-    "filename": "booster/ltr-arena.json"
+    "code": "ltr-arena"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Box Topper Pack",
-    "code": "ltr-box-topper",
-    "filename": "booster/ltr-box-topper.json"
+    "code": "ltr-box-topper"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Collector Booster",
-    "code": "ltr-collector",
-    "filename": "booster/ltr-collector.json"
+    "code": "ltr-collector"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Collector Sample Booster",
-    "code": "ltr-collector-sample",
-    "filename": "booster/ltr-collector-sample.json"
+    "code": "ltr-collector-sample"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Special Edition Collector Booster",
-    "code": "ltr-collector-special",
-    "filename": "booster/ltr-collector-special.json"
+    "code": "ltr-collector-special"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Draft Booster",
-    "code": "ltr-draft",
-    "filename": "booster/ltr-draft.json"
+    "code": "ltr-draft"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Jumpstart Booster",
-    "code": "ltr-jumpstart",
-    "filename": "booster/ltr-jumpstart.json"
+    "code": "ltr-jumpstart"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Jumpstart Booster Volume 2",
-    "code": "ltr-jumpstart-v2",
-    "filename": "booster/ltr-jumpstart-v2.json"
+    "code": "ltr-jumpstart-v2"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Prerelease Promo Pack",
-    "code": "ltr-prerelease",
-    "filename": "booster/ltr-prerelease.json"
+    "code": "ltr-prerelease"
   },
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Set Booster",
-    "code": "ltr-set",
-    "filename": "booster/ltr-set.json"
+    "code": "ltr-set"
   },
   {
     "name": "March of the Machine: The Aftermath Epilogue Booster",
-    "code": "mat",
-    "filename": "booster/mat.json"
+    "code": "mat"
   },
   {
     "name": "March of the Machine: The Aftermath Arena Booster",
-    "code": "mat-arena",
-    "filename": "booster/mat-arena.json"
+    "code": "mat-arena"
   },
   {
     "name": "March of the Machine: The Aftermath Collector Booster",
-    "code": "mat-collector",
-    "filename": "booster/mat-collector.json"
+    "code": "mat-collector"
   },
   {
     "name": "March of the Machine Arena Booster",
-    "code": "mom-arena",
-    "filename": "booster/mom-arena.json"
+    "code": "mom-arena"
   },
   {
     "name": "March of the Machine Collector Booster",
-    "code": "mom-collector",
-    "filename": "booster/mom-collector.json"
+    "code": "mom-collector"
   },
   {
     "name": "March of the Machine Collector Sample Booster",
-    "code": "mom-collector-sample",
-    "filename": "booster/mom-collector-sample.json"
+    "code": "mom-collector-sample"
   },
   {
     "name": "March of the Machine Draft Booster",
-    "code": "mom-draft",
-    "filename": "booster/mom-draft.json"
+    "code": "mom-draft"
   },
   {
     "name": "March of the Machine Jumpstart Booster",
-    "code": "mom-jumpstart",
-    "filename": "booster/mom-jumpstart.json"
+    "code": "mom-jumpstart"
   },
   {
     "name": "March of the Machine Prerelease Promo Pack",
-    "code": "mom-prerelease",
-    "filename": "booster/mom-prerelease.json"
+    "code": "mom-prerelease"
   },
   {
     "name": "March of the Machine Set Booster",
-    "code": "mom-set",
-    "filename": "booster/mom-set.json"
+    "code": "mom-set"
   },
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Creature Type Terror",
-    "code": "sir-arena-1",
-    "filename": "booster/sir-arena-1.json"
+    "code": "sir-arena-1"
   },
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Fatal Flashback",
-    "code": "sir-arena-2",
-    "filename": "booster/sir-arena-2.json"
+    "code": "sir-arena-2"
   },
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Morbid And Macabre",
-    "code": "sir-arena-3",
-    "filename": "booster/sir-arena-3.json"
+    "code": "sir-arena-3"
   },
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Abominable All Stars",
-    "code": "sir-arena-4",
-    "filename": "booster/sir-arena-4.json"
+    "code": "sir-arena-4"
   },
   {
     "name": "Phyrexia: All Will Be One Arena Booster",
-    "code": "one-arena",
-    "filename": "booster/one-arena.json"
+    "code": "one-arena"
   },
   {
     "name": "Phyrexia: All Will Be One Collector Booster",
-    "code": "one-collector",
-    "filename": "booster/one-collector.json"
+    "code": "one-collector"
   },
   {
     "name": "Phyrexia: All Will Be One Collector Sample Booster",
-    "code": "one-collector-sample",
-    "filename": "booster/one-collector-sample.json"
+    "code": "one-collector-sample"
   },
   {
     "name": "Phyrexia: All Will Be One Compleat Edition Booster",
-    "code": "one-compleat",
-    "filename": "booster/one-compleat.json"
+    "code": "one-compleat"
   },
   {
     "name": "Phyrexia: All Will Be One Draft Booster",
-    "code": "one-draft",
-    "filename": "booster/one-draft.json"
+    "code": "one-draft"
   },
   {
     "name": "Phyrexia: All Will Be One Jumpstart Booster",
-    "code": "one-jumpstart",
-    "filename": "booster/one-jumpstart.json"
+    "code": "one-jumpstart"
   },
   {
     "name": "Phyrexia: All Will Be One Prerelease Promo Pack",
-    "code": "one-prerelease",
-    "filename": "booster/one-prerelease.json"
+    "code": "one-prerelease"
   },
   {
     "name": "Phyrexia: All Will Be One Set Booster",
-    "code": "one-set",
-    "filename": "booster/one-set.json"
+    "code": "one-set"
   },
   {
     "name": "Dominaria Remastered Collector Booster",
-    "code": "dmr-collector",
-    "filename": "booster/dmr-collector.json"
+    "code": "dmr-collector"
   },
   {
     "name": "Dominaria Remastered Draft Booster",
-    "code": "dmr-draft",
-    "filename": "booster/dmr-draft.json"
+    "code": "dmr-draft"
   },
   {
     "name": "Jumpstart 2022 Jumpstart Booster",
-    "code": "j22-jumpstart",
-    "filename": "booster/j22-jumpstart.json"
+    "code": "j22-jumpstart"
   },
   {
     "name": "30th Anniversary Edition Draft Booster",
-    "code": "30a-draft",
-    "filename": "booster/30a-draft.json"
+    "code": "30a-draft"
   },
   {
     "name": "The Brothers' War Arena Booster",
-    "code": "bro-arena",
-    "filename": "booster/bro-arena.json"
+    "code": "bro-arena"
   },
   {
     "name": "The Brothers' War Collector Booster",
-    "code": "bro-collector",
-    "filename": "booster/bro-collector.json"
+    "code": "bro-collector"
   },
   {
     "name": "The Brothers' War Collector Sample Booster",
-    "code": "bro-collector-sample",
-    "filename": "booster/bro-collector-sample.json"
+    "code": "bro-collector-sample"
   },
   {
     "name": "The Brothers' War Draft Booster",
-    "code": "bro-draft",
-    "filename": "booster/bro-draft.json"
+    "code": "bro-draft"
   },
   {
     "name": "The Brothers' War Jumpstart Booster",
-    "code": "bro-jumpstart",
-    "filename": "booster/bro-jumpstart.json"
+    "code": "bro-jumpstart"
   },
   {
     "name": "The Brothers' War Prerelease Promo Pack",
-    "code": "bro-prerelease",
-    "filename": "booster/bro-prerelease.json"
+    "code": "bro-prerelease"
   },
   {
     "name": "The Brothers' War Set Booster",
-    "code": "bro-set",
-    "filename": "booster/bro-set.json"
+    "code": "bro-set"
   },
   {
     "name": "Secret Lair 30th Anniversary Countdown Kit",
-    "code": "slc",
-    "filename": "booster/slc.json"
+    "code": "slc"
   },
   {
     "name": "Unfinity Box Topper",
-    "code": "unf-box-topper",
-    "filename": "booster/unf-box-topper.json"
+    "code": "unf-box-topper"
   },
   {
     "name": "Unfinity Collector Booster",
-    "code": "unf-collector",
-    "filename": "booster/unf-collector.json"
+    "code": "unf-collector"
   },
   {
     "name": "Unfinity Draft Booster",
-    "code": "unf-draft",
-    "filename": "booster/unf-draft.json"
+    "code": "unf-draft"
   },
   {
     "name": "Dominaria United Arena Booster",
-    "code": "dmu-arena",
-    "filename": "booster/dmu-arena.json"
+    "code": "dmu-arena"
   },
   {
     "name": "Dominaria United Box Topper Pack",
-    "code": "dmu-box-topper",
-    "filename": "booster/dmu-box-topper.json"
+    "code": "dmu-box-topper"
   },
   {
     "name": "Dominaria United Collector Booster",
-    "code": "dmu-collector",
-    "filename": "booster/dmu-collector.json"
+    "code": "dmu-collector"
   },
   {
     "name": "Dominaria United Collector Sample Booster",
-    "code": "dmu-collector-sample",
-    "filename": "booster/dmu-collector-sample.json"
+    "code": "dmu-collector-sample"
   },
   {
     "name": "Dominaria United Draft Booster",
-    "code": "dmu-draft",
-    "filename": "booster/dmu-draft.json"
+    "code": "dmu-draft"
   },
   {
     "name": "Dominaria United Jumpstart Booster",
-    "code": "dmu-jumpstart",
-    "filename": "booster/dmu-jumpstart.json"
+    "code": "dmu-jumpstart"
   },
   {
     "name": "Dominaria United Prerelease Promo Pack",
-    "code": "dmu-prerelease",
-    "filename": "booster/dmu-prerelease.json"
+    "code": "dmu-prerelease"
   },
   {
     "name": "Dominaria United Set Booster",
-    "code": "dmu-set",
-    "filename": "booster/dmu-set.json"
+    "code": "dmu-set"
   },
   {
     "name": "Double Masters 2022 Collector Booster",
-    "code": "2x2-collector",
-    "filename": "booster/2x2-collector.json"
+    "code": "2x2-collector"
   },
   {
     "name": "Double Masters 2022 Draft Booster",
-    "code": "2x2-draft",
-    "filename": "booster/2x2-draft.json"
+    "code": "2x2-draft"
   },
   {
     "name": "Commander Legends: Battle for Baldur's Gate Collector Booster",
-    "code": "clb-collector",
-    "filename": "booster/clb-collector.json"
+    "code": "clb-collector"
   },
   {
     "name": "Commander Legends: Battle for Baldur's Gate Collector Sample Booster",
-    "code": "clb-collector-sample",
-    "filename": "booster/clb-collector-sample.json"
+    "code": "clb-collector-sample"
   },
   {
     "name": "Commander Legends: Battle for Baldur's Gate Draft Booster",
-    "code": "clb-draft",
-    "filename": "booster/clb-draft.json"
+    "code": "clb-draft"
   },
   {
     "name": "Commander Legends: Battle for Baldur's Gate Prerelease Promo Pack",
-    "code": "clb-prerelease",
-    "filename": "booster/clb-prerelease.json"
+    "code": "clb-prerelease"
   },
   {
     "name": "Commander Legends: Battle for Baldur's Gate Set Booster",
-    "code": "clb-set",
-    "filename": "booster/clb-set.json"
+    "code": "clb-set"
   },
   {
     "name": "Streets of New Capenna Arena Booster",
-    "code": "snc-arena",
-    "filename": "booster/snc-arena.json"
+    "code": "snc-arena"
   },
   {
     "name": "Streets of New Capenna Collector Booster",
-    "code": "snc-collector",
-    "filename": "booster/snc-collector.json"
+    "code": "snc-collector"
   },
   {
     "name": "Streets of New Capenna Collector Sample Booster",
-    "code": "snc-collector-sample",
-    "filename": "booster/snc-collector-sample.json"
+    "code": "snc-collector-sample"
   },
   {
     "name": "Streets of New Capenna Draft Booster",
-    "code": "snc-draft",
-    "filename": "booster/snc-draft.json"
+    "code": "snc-draft"
   },
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Brokers",
-    "code": "snc-prerelease-brokers",
-    "filename": "booster/snc-prerelease-brokers.json"
+    "code": "snc-prerelease-brokers"
   },
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Cabaretti",
-    "code": "snc-prerelease-cabaretti",
-    "filename": "booster/snc-prerelease-cabaretti.json"
+    "code": "snc-prerelease-cabaretti"
   },
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Maestros",
-    "code": "snc-prerelease-maestros",
-    "filename": "booster/snc-prerelease-maestros.json"
+    "code": "snc-prerelease-maestros"
   },
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Obscura",
-    "code": "snc-prerelease-obscura",
-    "filename": "booster/snc-prerelease-obscura.json"
+    "code": "snc-prerelease-obscura"
   },
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Riveteers",
-    "code": "snc-prerelease-riveteers",
-    "filename": "booster/snc-prerelease-riveteers.json"
+    "code": "snc-prerelease-riveteers"
   },
   {
     "name": "Streets of New Capenna Set Booster",
-    "code": "snc-set",
-    "filename": "booster/snc-set.json"
+    "code": "snc-set"
   },
   {
     "name": "Streets of New Capenna Theme Booster Brokers",
-    "code": "snc-theme-brokers",
-    "filename": "booster/snc-theme-brokers.json"
+    "code": "snc-theme-brokers"
   },
   {
     "name": "Streets of New Capenna Theme Booster Cabaretti",
-    "code": "snc-theme-cabaretti",
-    "filename": "booster/snc-theme-cabaretti.json"
+    "code": "snc-theme-cabaretti"
   },
   {
     "name": "Streets of New Capenna Theme Booster Maestros",
-    "code": "snc-theme-maestros",
-    "filename": "booster/snc-theme-maestros.json"
+    "code": "snc-theme-maestros"
   },
   {
     "name": "Streets of New Capenna Theme Booster Obscura",
-    "code": "snc-theme-obscura",
-    "filename": "booster/snc-theme-obscura.json"
+    "code": "snc-theme-obscura"
   },
   {
     "name": "Streets of New Capenna Theme Booster Riveteers",
-    "code": "snc-theme-riveteers",
-    "filename": "booster/snc-theme-riveteers.json"
+    "code": "snc-theme-riveteers"
   },
   {
     "name": "Kamigawa: Neon Dynasty Arena Booster",
-    "code": "neo-arena",
-    "filename": "booster/neo-arena.json"
+    "code": "neo-arena"
   },
   {
     "name": "Kamigawa: Neon Dynasty Collector Booster",
-    "code": "neo-collector",
-    "filename": "booster/neo-collector.json"
+    "code": "neo-collector"
   },
   {
     "name": "Kamigawa: Neon Dynasty Draft Booster",
-    "code": "neo-draft",
-    "filename": "booster/neo-draft.json"
+    "code": "neo-draft"
   },
   {
     "name": "Kamigawa: Neon Dynasty Prerelease Promo Pack",
-    "code": "neo-prerelease",
-    "filename": "booster/neo-prerelease.json"
+    "code": "neo-prerelease"
   },
   {
     "name": "Kamigawa: Neon Dynasty Set Booster",
-    "code": "neo-set",
-    "filename": "booster/neo-set.json"
+    "code": "neo-set"
   },
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Black",
-    "code": "neo-theme-b",
-    "filename": "booster/neo-theme-b.json"
+    "code": "neo-theme-b"
   },
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Green",
-    "code": "neo-theme-g",
-    "filename": "booster/neo-theme-g.json"
+    "code": "neo-theme-g"
   },
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Ninjas",
-    "code": "neo-theme-ninjas",
-    "filename": "booster/neo-theme-ninjas.json"
+    "code": "neo-theme-ninjas"
   },
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Red",
-    "code": "neo-theme-r",
-    "filename": "booster/neo-theme-r.json"
+    "code": "neo-theme-r"
   },
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Blue",
-    "code": "neo-theme-u",
-    "filename": "booster/neo-theme-u.json"
+    "code": "neo-theme-u"
   },
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster White",
-    "code": "neo-theme-w",
-    "filename": "booster/neo-theme-w.json"
+    "code": "neo-theme-w"
   },
   {
     "name": "Innistrad: Double Feature Draft Booster",
-    "code": "dbl-draft",
-    "filename": "booster/dbl-draft.json"
+    "code": "dbl-draft"
   },
   {
     "name": "Innistrad: Crimson Vow Arena Booster",
-    "code": "vow-arena",
-    "filename": "booster/vow-arena.json"
+    "code": "vow-arena"
   },
   {
     "name": "Innistrad: Crimson Vow Box Topper Pack",
-    "code": "vow-box-topper",
-    "filename": "booster/vow-box-topper.json"
+    "code": "vow-box-topper"
   },
   {
     "name": "Innistrad: Crimson Vow Collector Booster",
-    "code": "vow-collector",
-    "filename": "booster/vow-collector.json"
+    "code": "vow-collector"
   },
   {
     "name": "Innistrad: Crimson Vow Draft Booster",
-    "code": "vow-draft",
-    "filename": "booster/vow-draft.json"
+    "code": "vow-draft"
   },
   {
     "name": "Innistrad: Crimson Vow Prerelease Promo Pack",
-    "code": "vow-prerelease",
-    "filename": "booster/vow-prerelease.json"
+    "code": "vow-prerelease"
   },
   {
     "name": "Innistrad: Crimson Vow Set Booster",
-    "code": "vow-set",
-    "filename": "booster/vow-set.json"
+    "code": "vow-set"
   },
   {
     "name": "Innistrad: Crimson Vow Theme Booster Black",
-    "code": "vow-theme-b",
-    "filename": "booster/vow-theme-b.json"
+    "code": "vow-theme-b"
   },
   {
     "name": "Innistrad: Crimson Vow Theme Booster Green",
-    "code": "vow-theme-g",
-    "filename": "booster/vow-theme-g.json"
+    "code": "vow-theme-g"
   },
   {
     "name": "Innistrad: Crimson Vow Theme Booster Red",
-    "code": "vow-theme-r",
-    "filename": "booster/vow-theme-r.json"
+    "code": "vow-theme-r"
   },
   {
     "name": "Innistrad: Crimson Vow Theme Booster Blue",
-    "code": "vow-theme-u",
-    "filename": "booster/vow-theme-u.json"
+    "code": "vow-theme-u"
   },
   {
     "name": "Innistrad: Crimson Vow Theme Booster Vampires",
-    "code": "vow-theme-vampires",
-    "filename": "booster/vow-theme-vampires.json"
+    "code": "vow-theme-vampires"
   },
   {
     "name": "Innistrad: Crimson Vow Theme Booster White",
-    "code": "vow-theme-w",
-    "filename": "booster/vow-theme-w.json"
+    "code": "vow-theme-w"
   },
   {
     "name": "Innistrad: Midnight Hunt Arena Booster",
-    "code": "mid-arena",
-    "filename": "booster/mid-arena.json"
+    "code": "mid-arena"
   },
   {
     "name": "Innistrad: Midnight Hunt Collector Booster",
-    "code": "mid-collector",
-    "filename": "booster/mid-collector.json"
+    "code": "mid-collector"
   },
   {
     "name": "Innistrad: Midnight Hunt Draft Booster",
-    "code": "mid-draft",
-    "filename": "booster/mid-draft.json"
+    "code": "mid-draft"
   },
   {
     "name": "Innistrad: Midnight Hunt Prerelease Promo Pack",
-    "code": "mid-prerelease",
-    "filename": "booster/mid-prerelease.json"
+    "code": "mid-prerelease"
   },
   {
     "name": "Innistrad: Midnight Hunt Set Booster",
-    "code": "mid-set",
-    "filename": "booster/mid-set.json"
+    "code": "mid-set"
   },
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Black",
-    "code": "mid-theme-b",
-    "filename": "booster/mid-theme-b.json"
+    "code": "mid-theme-b"
   },
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Green",
-    "code": "mid-theme-g",
-    "filename": "booster/mid-theme-g.json"
+    "code": "mid-theme-g"
   },
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Red",
-    "code": "mid-theme-r",
-    "filename": "booster/mid-theme-r.json"
+    "code": "mid-theme-r"
   },
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Blue",
-    "code": "mid-theme-u",
-    "filename": "booster/mid-theme-u.json"
+    "code": "mid-theme-u"
   },
   {
     "name": "Innistrad: Midnight Hunt Theme Booster White",
-    "code": "mid-theme-w",
-    "filename": "booster/mid-theme-w.json"
+    "code": "mid-theme-w"
   },
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Werewolves",
-    "code": "mid-theme-werewolves",
-    "filename": "booster/mid-theme-werewolves.json"
+    "code": "mid-theme-werewolves"
   },
   {
     "name": "Adventures in the Forgotten Realms Arena Booster",
-    "code": "afr-arena",
-    "filename": "booster/afr-arena.json"
+    "code": "afr-arena"
   },
   {
     "name": "Adventures in the Forgotten Realms Collector Booster",
-    "code": "afr-collector",
-    "filename": "booster/afr-collector.json"
+    "code": "afr-collector"
   },
   {
     "name": "Adventures in the Forgotten Realms Draft Booster",
-    "code": "afr-draft",
-    "filename": "booster/afr-draft.json"
+    "code": "afr-draft"
   },
   {
     "name": "Adventures in the Forgotten Realms Prerelease Promo Pack",
-    "code": "afr-prerelease",
-    "filename": "booster/afr-prerelease.json"
+    "code": "afr-prerelease"
   },
   {
     "name": "Adventures in the Forgotten Realms Set Booster",
-    "code": "afr-set",
-    "filename": "booster/afr-set.json"
+    "code": "afr-set"
   },
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Black",
-    "code": "afr-theme-b",
-    "filename": "booster/afr-theme-b.json"
+    "code": "afr-theme-b"
   },
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Dungeon Theme",
-    "code": "afr-theme-dungeons",
-    "filename": "booster/afr-theme-dungeons.json"
+    "code": "afr-theme-dungeons"
   },
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Green",
-    "code": "afr-theme-g",
-    "filename": "booster/afr-theme-g.json"
+    "code": "afr-theme-g"
   },
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Red",
-    "code": "afr-theme-r",
-    "filename": "booster/afr-theme-r.json"
+    "code": "afr-theme-r"
   },
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Blue",
-    "code": "afr-theme-u",
-    "filename": "booster/afr-theme-u.json"
+    "code": "afr-theme-u"
   },
   {
     "name": "Adventures in the Forgotten Realms Theme Booster White",
-    "code": "afr-theme-w",
-    "filename": "booster/afr-theme-w.json"
+    "code": "afr-theme-w"
   },
   {
     "name": "Modern Horizons 2 Collector Booster",
-    "code": "mh2-collector",
-    "filename": "booster/mh2-collector.json"
+    "code": "mh2-collector"
   },
   {
     "name": "Modern Horizons 2 Draft Booster",
-    "code": "mh2-draft",
-    "filename": "booster/mh2-draft.json"
+    "code": "mh2-draft"
   },
   {
     "name": "Modern Horizons 2 Set Booster",
-    "code": "mh2-set",
-    "filename": "booster/mh2-set.json"
+    "code": "mh2-set"
   },
   {
     "name": "Strixhaven: School of Mages Arena Booster",
-    "code": "stx-arena",
-    "filename": "booster/stx-arena.json"
+    "code": "stx-arena"
   },
   {
     "name": "Strixhaven: School of Mages Collector Booster",
-    "code": "stx-collector",
-    "filename": "booster/stx-collector.json"
+    "code": "stx-collector"
   },
   {
     "name": "Strixhaven: School of Mages Draft Booster",
-    "code": "stx-draft",
-    "filename": "booster/stx-draft.json"
+    "code": "stx-draft"
   },
   {
     "name": "Strixhaven: School of Mages Japanese Draft Booster",
-    "code": "stx-jp",
-    "filename": "booster/stx-jp.json"
+    "code": "stx-jp"
   },
   {
     "name": "Strixhaven: School of Mages Set Booster",
-    "code": "stx-set",
-    "filename": "booster/stx-set.json"
+    "code": "stx-set"
   },
   {
     "name": "Strixhaven: School of Mages Japanese Set Booster",
-    "code": "stx-set-jp",
-    "filename": "booster/stx-set-jp.json"
+    "code": "stx-set-jp"
   },
   {
     "name": "Strixhaven: School of Mages Theme Booster Lorehold",
-    "code": "stx-theme-lorehold",
-    "filename": "booster/stx-theme-lorehold.json"
+    "code": "stx-theme-lorehold"
   },
   {
     "name": "Strixhaven: School of Mages Theme Booster Prismari",
-    "code": "stx-theme-prismari",
-    "filename": "booster/stx-theme-prismari.json"
+    "code": "stx-theme-prismari"
   },
   {
     "name": "Strixhaven: School of Mages Theme Booster Quandrix",
-    "code": "stx-theme-quandrix",
-    "filename": "booster/stx-theme-quandrix.json"
+    "code": "stx-theme-quandrix"
   },
   {
     "name": "Strixhaven: School of Mages Theme Booster Silverquill",
-    "code": "stx-theme-silverquill",
-    "filename": "booster/stx-theme-silverquill.json"
+    "code": "stx-theme-silverquill"
   },
   {
     "name": "Strixhaven: School of Mages Theme Booster Witherbloom",
-    "code": "stx-theme-witherbloom",
-    "filename": "booster/stx-theme-witherbloom.json"
+    "code": "stx-theme-witherbloom"
   },
   {
     "name": "Time Spiral Remastered Draft Booster",
-    "code": "tsr-draft",
-    "filename": "booster/tsr-draft.json"
+    "code": "tsr-draft"
   },
   {
     "name": "Kaldheim Arena Booster",
-    "code": "khm-arena",
-    "filename": "booster/khm-arena.json"
+    "code": "khm-arena"
   },
   {
     "name": "Kaldheim Collector Booster",
-    "code": "khm-collector",
-    "filename": "booster/khm-collector.json"
+    "code": "khm-collector"
   },
   {
     "name": "Kaldheim Draft Booster",
-    "code": "khm-draft",
-    "filename": "booster/khm-draft.json"
+    "code": "khm-draft"
   },
   {
     "name": "Kaldheim Prerelease Promo Pack",
-    "code": "khm-prerelease",
-    "filename": "booster/khm-prerelease.json"
+    "code": "khm-prerelease"
   },
   {
     "name": "Kaldheim Set Booster",
-    "code": "khm-set",
-    "filename": "booster/khm-set.json"
+    "code": "khm-set"
   },
   {
     "name": "Kaldheim Theme Booster Black",
-    "code": "khm-theme-b",
-    "filename": "booster/khm-theme-b.json"
+    "code": "khm-theme-b"
   },
   {
     "name": "Kaldheim Theme Booster Green",
-    "code": "khm-theme-g",
-    "filename": "booster/khm-theme-g.json"
+    "code": "khm-theme-g"
   },
   {
     "name": "Kaldheim Theme Booster Red",
-    "code": "khm-theme-r",
-    "filename": "booster/khm-theme-r.json"
+    "code": "khm-theme-r"
   },
   {
     "name": "Kaldheim Theme Booster Blue",
-    "code": "khm-theme-u",
-    "filename": "booster/khm-theme-u.json"
+    "code": "khm-theme-u"
   },
   {
     "name": "Kaldheim Theme Booster Vikings",
-    "code": "khm-theme-vikings",
-    "filename": "booster/khm-theme-vikings.json"
+    "code": "khm-theme-vikings"
   },
   {
     "name": "Kaldheim Theme Booster White",
-    "code": "khm-theme-w",
-    "filename": "booster/khm-theme-w.json"
+    "code": "khm-theme-w"
   },
   {
     "name": "Commander Legends Collector Booster",
-    "code": "cmr-collector",
-    "filename": "booster/cmr-collector.json"
+    "code": "cmr-collector"
   },
   {
     "name": "Commander Legends Draft Booster",
-    "code": "cmr-draft",
-    "filename": "booster/cmr-draft.json"
+    "code": "cmr-draft"
   },
   {
     "name": "Kaladesh Remastered Arena Booster",
-    "code": "klr-arena",
-    "filename": "booster/klr-arena.json"
+    "code": "klr-arena"
   },
   {
     "name": "Zendikar Rising Expeditions Box Topper",
-    "code": "zne-box-topper",
-    "filename": "booster/zne-box-topper.json"
+    "code": "zne-box-topper"
   },
   {
     "name": "Zendikar Rising Arena Booster",
-    "code": "znr-arena",
-    "filename": "booster/znr-arena.json"
+    "code": "znr-arena"
   },
   {
     "name": "Zendikar Rising Collector Booster",
-    "code": "znr-collector",
-    "filename": "booster/znr-collector.json"
+    "code": "znr-collector"
   },
   {
     "name": "Zendikar Rising Draft Booster",
-    "code": "znr-draft",
-    "filename": "booster/znr-draft.json"
+    "code": "znr-draft"
   },
   {
     "name": "Zendikar Rising Prerelease Promo Pack",
-    "code": "znr-prerelease",
-    "filename": "booster/znr-prerelease.json"
+    "code": "znr-prerelease"
   },
   {
     "name": "Zendikar Rising Set Booster",
-    "code": "znr-set",
-    "filename": "booster/znr-set.json"
+    "code": "znr-set"
   },
   {
     "name": "Zendikar Rising Theme Booster Black",
-    "code": "znr-theme-b",
-    "filename": "booster/znr-theme-b.json"
+    "code": "znr-theme-b"
   },
   {
     "name": "Zendikar Rising Theme Booster Green",
-    "code": "znr-theme-g",
-    "filename": "booster/znr-theme-g.json"
+    "code": "znr-theme-g"
   },
   {
     "name": "Zendikar Rising Theme Booster Party",
-    "code": "znr-theme-party",
-    "filename": "booster/znr-theme-party.json"
+    "code": "znr-theme-party"
   },
   {
     "name": "Zendikar Rising Theme Booster Red",
-    "code": "znr-theme-r",
-    "filename": "booster/znr-theme-r.json"
+    "code": "znr-theme-r"
   },
   {
     "name": "Zendikar Rising Theme Booster Blue",
-    "code": "znr-theme-u",
-    "filename": "booster/znr-theme-u.json"
+    "code": "znr-theme-u"
   },
   {
     "name": "Zendikar Rising Theme Booster White",
-    "code": "znr-theme-w",
-    "filename": "booster/znr-theme-w.json"
+    "code": "znr-theme-w"
   },
   {
     "name": "Amonkhet Remastered Arena Booster",
-    "code": "akr-arena",
-    "filename": "booster/akr-arena.json"
+    "code": "akr-arena"
   },
   {
     "name": "Double Masters Box Topper Pack",
-    "code": "2xm-box-topper",
-    "filename": "booster/2xm-box-topper.json"
+    "code": "2xm-box-topper"
   },
   {
     "name": "Double Masters Draft Booster",
-    "code": "2xm-draft",
-    "filename": "booster/2xm-draft.json"
+    "code": "2xm-draft"
   },
   {
     "name": "Double Masters VIP Edition",
-    "code": "2xm-vip",
-    "filename": "booster/2xm-vip.json"
+    "code": "2xm-vip"
   },
   {
     "name": "Jumpstart Jumpstart Booster",
-    "code": "jmp-jumpstart",
-    "filename": "booster/jmp-jumpstart.json"
+    "code": "jmp-jumpstart"
   },
   {
     "name": "Core Set 2021 Arena Booster",
-    "code": "m21-arena",
-    "filename": "booster/m21-arena.json"
+    "code": "m21-arena"
   },
   {
     "name": "Core Set 2021 Collector Booster",
-    "code": "m21-collector",
-    "filename": "booster/m21-collector.json"
+    "code": "m21-collector"
   },
   {
     "name": "Core Set 2021 Draft Booster",
-    "code": "m21-draft",
-    "filename": "booster/m21-draft.json"
+    "code": "m21-draft"
   },
   {
     "name": "Core Set 2021 Prerelease Promo Pack",
-    "code": "m21-prerelease",
-    "filename": "booster/m21-prerelease.json"
+    "code": "m21-prerelease"
   },
   {
     "name": "Ikoria: Lair of Behemoths Arena Booster",
-    "code": "iko-arena",
-    "filename": "booster/iko-arena.json"
+    "code": "iko-arena"
   },
   {
     "name": "Ikoria: Lair of Behemoths Box Topper Pack",
-    "code": "iko-box-topper",
-    "filename": "booster/iko-box-topper.json"
+    "code": "iko-box-topper"
   },
   {
     "name": "Ikoria: Lair of Behemoths Collector Booster",
-    "code": "iko-collector",
-    "filename": "booster/iko-collector.json"
+    "code": "iko-collector"
   },
   {
     "name": "Ikoria: Lair of Behemoths Japanese Collector Booster",
-    "code": "iko-collector-jp",
-    "filename": "booster/iko-collector-jp.json"
+    "code": "iko-collector-jp"
   },
   {
     "name": "Ikoria: Lair of Behemoths Draft Booster",
-    "code": "iko-draft",
-    "filename": "booster/iko-draft.json"
+    "code": "iko-draft"
   },
   {
     "name": "Ikoria: Lair of Behemoths Japanese Draft Booster",
-    "code": "iko-jp",
-    "filename": "booster/iko-jp.json"
+    "code": "iko-jp"
   },
   {
     "name": "Ikoria: Lair of Behemoths Prerelease Promo Pack",
-    "code": "iko-prerelease",
-    "filename": "booster/iko-prerelease.json"
+    "code": "iko-prerelease"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Black",
-    "code": "iko-theme-b",
-    "filename": "booster/iko-theme-b.json"
+    "code": "iko-theme-b"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Green",
-    "code": "iko-theme-g",
-    "filename": "booster/iko-theme-g.json"
+    "code": "iko-theme-g"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Monsters",
-    "code": "iko-theme-monsters",
-    "filename": "booster/iko-theme-monsters.json"
+    "code": "iko-theme-monsters"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Red",
-    "code": "iko-theme-r",
-    "filename": "booster/iko-theme-r.json"
+    "code": "iko-theme-r"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Blue",
-    "code": "iko-theme-u",
-    "filename": "booster/iko-theme-u.json"
+    "code": "iko-theme-u"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster White",
-    "code": "iko-theme-w",
-    "filename": "booster/iko-theme-w.json"
+    "code": "iko-theme-w"
   },
   {
     "name": "Theros Beyond Death Arena Booster",
-    "code": "thb-arena",
-    "filename": "booster/thb-arena.json"
+    "code": "thb-arena"
   },
   {
     "name": "Theros Beyond Death Collector Booster",
-    "code": "thb-collector",
-    "filename": "booster/thb-collector.json"
+    "code": "thb-collector"
   },
   {
     "name": "Theros Beyond Death Draft Booster",
-    "code": "thb-draft",
-    "filename": "booster/thb-draft.json"
+    "code": "thb-draft"
   },
   {
     "name": "Theros Beyond Death Theme Booster Black",
-    "code": "thb-theme-b",
-    "filename": "booster/thb-theme-b.json"
+    "code": "thb-theme-b"
   },
   {
     "name": "Theros Beyond Death Theme Booster Green",
-    "code": "thb-theme-g",
-    "filename": "booster/thb-theme-g.json"
+    "code": "thb-theme-g"
   },
   {
     "name": "Theros Beyond Death Theme Booster Red",
-    "code": "thb-theme-r",
-    "filename": "booster/thb-theme-r.json"
+    "code": "thb-theme-r"
   },
   {
     "name": "Theros Beyond Death Theme Booster Blue",
-    "code": "thb-theme-u",
-    "filename": "booster/thb-theme-u.json"
+    "code": "thb-theme-u"
   },
   {
     "name": "Theros Beyond Death Theme Booster White",
-    "code": "thb-theme-w",
-    "filename": "booster/thb-theme-w.json"
+    "code": "thb-theme-w"
   },
   {
     "name": "SLD Blueprint Cards MK. 1",
-    "code": "sld-blueprint-mk1",
-    "filename": "booster/sld-blueprint-mk1.json"
+    "code": "sld-blueprint-mk1"
   },
   {
     "name": "SLD Blueprint Cards MK. 2",
-    "code": "sld-blueprint-mk2",
-    "filename": "booster/sld-blueprint-mk2.json"
+    "code": "sld-blueprint-mk2"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Black",
-    "code": "sld-stainedglass-b",
-    "filename": "booster/sld-stainedglass-b.json"
+    "code": "sld-stainedglass-b"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Colorless",
-    "code": "sld-stainedglass-c",
-    "filename": "booster/sld-stainedglass-c.json"
+    "code": "sld-stainedglass-c"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Green",
-    "code": "sld-stainedglass-g",
-    "filename": "booster/sld-stainedglass-g.json"
+    "code": "sld-stainedglass-g"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - International Women Day",
-    "code": "sld-stainedglass-iwd",
-    "filename": "booster/sld-stainedglass-iwd.json"
+    "code": "sld-stainedglass-iwd"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Red",
-    "code": "sld-stainedglass-r",
-    "filename": "booster/sld-stainedglass-r.json"
+    "code": "sld-stainedglass-r"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Tattoo",
-    "code": "sld-stainedglass-tattoo",
-    "filename": "booster/sld-stainedglass-tattoo.json"
+    "code": "sld-stainedglass-tattoo"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Blue",
-    "code": "sld-stainedglass-u",
-    "filename": "booster/sld-stainedglass-u.json"
+    "code": "sld-stainedglass-u"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Uncommon",
-    "code": "sld-stainedglass-uncommon",
-    "filename": "booster/sld-stainedglass-uncommon.json"
+    "code": "sld-stainedglass-uncommon"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - White",
-    "code": "sld-stainedglass-w",
-    "filename": "booster/sld-stainedglass-w.json"
+    "code": "sld-stainedglass-w"
   },
   {
     "name": "Mystery Booster Pack Convention Edition",
-    "code": "mb1-convention",
-    "filename": "booster/mb1-convention.json"
+    "code": "mb1-convention"
   },
   {
     "name": "Mystery Booster Pack Convention 2021 Edition",
-    "code": "mb1-convention-2021",
-    "filename": "booster/mb1-convention-2021.json"
+    "code": "mb1-convention-2021"
   },
   {
     "name": "Mystery Booster Pack Retail Edition",
-    "code": "mb1-draft",
-    "filename": "booster/mb1-draft.json"
+    "code": "mb1-draft"
   },
   {
     "name": "Throne of Eldraine Arena Booster",
-    "code": "eld-arena",
-    "filename": "booster/eld-arena.json"
+    "code": "eld-arena"
   },
   {
     "name": "Throne of Eldraine Collector Booster",
-    "code": "eld-collector",
-    "filename": "booster/eld-collector.json"
+    "code": "eld-collector"
   },
   {
     "name": "Throne of Eldraine Draft Booster",
-    "code": "eld-draft",
-    "filename": "booster/eld-draft.json"
+    "code": "eld-draft"
   },
   {
     "name": "Throne of Eldraine Prerelease Promo Pack",
-    "code": "eld-prerelease",
-    "filename": "booster/eld-prerelease.json"
+    "code": "eld-prerelease"
   },
   {
     "name": "Throne of Eldraine Theme Booster Black",
-    "code": "eld-theme-b",
-    "filename": "booster/eld-theme-b.json"
+    "code": "eld-theme-b"
   },
   {
     "name": "Throne of Eldraine Theme Booster Green",
-    "code": "eld-theme-g",
-    "filename": "booster/eld-theme-g.json"
+    "code": "eld-theme-g"
   },
   {
     "name": "Throne of Eldraine Theme Booster Red",
-    "code": "eld-theme-r",
-    "filename": "booster/eld-theme-r.json"
+    "code": "eld-theme-r"
   },
   {
     "name": "Throne of Eldraine Theme Booster Blue",
-    "code": "eld-theme-u",
-    "filename": "booster/eld-theme-u.json"
+    "code": "eld-theme-u"
   },
   {
     "name": "Throne of Eldraine Theme Booster White",
-    "code": "eld-theme-w",
-    "filename": "booster/eld-theme-w.json"
+    "code": "eld-theme-w"
   },
   {
     "name": "Core Set 2020 Arena Booster",
-    "code": "m20-arena",
-    "filename": "booster/m20-arena.json"
+    "code": "m20-arena"
   },
   {
     "name": "Core Set 2020 Draft Booster",
-    "code": "m20-draft",
-    "filename": "booster/m20-draft.json"
+    "code": "m20-draft"
   },
   {
     "name": "Core Set 2020 Prerelease Promo Pack",
-    "code": "m20-prerelease",
-    "filename": "booster/m20-prerelease.json"
+    "code": "m20-prerelease"
   },
   {
     "name": "Core Set 2020 Theme Booster Black",
-    "code": "m20-theme-b",
-    "filename": "booster/m20-theme-b.json"
+    "code": "m20-theme-b"
   },
   {
     "name": "Core Set 2020 Theme Booster Green",
-    "code": "m20-theme-g",
-    "filename": "booster/m20-theme-g.json"
+    "code": "m20-theme-g"
   },
   {
     "name": "Core Set 2020 Theme Booster Red",
-    "code": "m20-theme-r",
-    "filename": "booster/m20-theme-r.json"
+    "code": "m20-theme-r"
   },
   {
     "name": "Core Set 2020 Theme Booster Blue",
-    "code": "m20-theme-u",
-    "filename": "booster/m20-theme-u.json"
+    "code": "m20-theme-u"
   },
   {
     "name": "Core Set 2020 Theme Booster White",
-    "code": "m20-theme-w",
-    "filename": "booster/m20-theme-w.json"
+    "code": "m20-theme-w"
   },
   {
     "name": "Modern Horizons Draft Booster",
-    "code": "mh1-draft",
-    "filename": "booster/mh1-draft.json"
+    "code": "mh1-draft"
   },
   {
     "name": "War of the Spark Arena Booster",
-    "code": "war-arena",
-    "filename": "booster/war-arena.json"
+    "code": "war-arena"
   },
   {
     "name": "War of the Spark Draft Booster",
-    "code": "war-draft",
-    "filename": "booster/war-draft.json"
+    "code": "war-draft"
   },
   {
     "name": "War of the Spark Japanese Draft Booster",
-    "code": "war-jp",
-    "filename": "booster/war-jp.json"
+    "code": "war-jp"
   },
   {
     "name": "War of the Spark Prerelease Promo Pack",
-    "code": "war-prerelease",
-    "filename": "booster/war-prerelease.json"
+    "code": "war-prerelease"
   },
   {
     "name": "War of the Spark Theme Booster Black",
-    "code": "war-theme-b",
-    "filename": "booster/war-theme-b.json"
+    "code": "war-theme-b"
   },
   {
     "name": "War of the Spark Theme Booster Green",
-    "code": "war-theme-g",
-    "filename": "booster/war-theme-g.json"
+    "code": "war-theme-g"
   },
   {
     "name": "War of the Spark Theme Booster Red",
-    "code": "war-theme-r",
-    "filename": "booster/war-theme-r.json"
+    "code": "war-theme-r"
   },
   {
     "name": "War of the Spark Theme Booster Blue",
-    "code": "war-theme-u",
-    "filename": "booster/war-theme-u.json"
+    "code": "war-theme-u"
   },
   {
     "name": "War of the Spark Theme Booster White",
-    "code": "war-theme-w",
-    "filename": "booster/war-theme-w.json"
+    "code": "war-theme-w"
   },
   {
     "name": "Ravnica Allegiance Arena Booster",
-    "code": "rna-arena",
-    "filename": "booster/rna-arena.json"
+    "code": "rna-arena"
   },
   {
     "name": "Ravnica Allegiance Draft Booster",
-    "code": "rna-draft",
-    "filename": "booster/rna-draft.json"
+    "code": "rna-draft"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Azorius",
-    "code": "rna-theme-azorius",
-    "filename": "booster/rna-theme-azorius.json"
+    "code": "rna-theme-azorius"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Gruul",
-    "code": "rna-theme-gruul",
-    "filename": "booster/rna-theme-gruul.json"
+    "code": "rna-theme-gruul"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Orzhov",
-    "code": "rna-theme-orzhov",
-    "filename": "booster/rna-theme-orzhov.json"
+    "code": "rna-theme-orzhov"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Rakdos",
-    "code": "rna-theme-rakdos",
-    "filename": "booster/rna-theme-rakdos.json"
+    "code": "rna-theme-rakdos"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Simic",
-    "code": "rna-theme-simic",
-    "filename": "booster/rna-theme-simic.json"
+    "code": "rna-theme-simic"
   },
   {
     "name": "Ultimate Masters Box Topper Pack",
-    "code": "uma-box-topper",
-    "filename": "booster/uma-box-topper.json"
+    "code": "uma-box-topper"
   },
   {
     "name": "Ultimate Masters Draft Booster",
-    "code": "uma-draft",
-    "filename": "booster/uma-draft.json"
+    "code": "uma-draft"
   },
   {
     "name": "Guilds of Ravnica Arena Booster",
-    "code": "grn-arena",
-    "filename": "booster/grn-arena.json"
+    "code": "grn-arena"
   },
   {
     "name": "Guilds of Ravnica Draft Booster",
-    "code": "grn-draft",
-    "filename": "booster/grn-draft.json"
+    "code": "grn-draft"
   },
   {
     "name": "Guilds of Ravnica Theme Booster Boros",
-    "code": "grn-theme-boros",
-    "filename": "booster/grn-theme-boros.json"
+    "code": "grn-theme-boros"
   },
   {
     "name": "Guilds of Ravnica Theme Booster Dimir",
-    "code": "grn-theme-dimir",
-    "filename": "booster/grn-theme-dimir.json"
+    "code": "grn-theme-dimir"
   },
   {
     "name": "Guilds of Ravnica Theme Booster Golgari",
-    "code": "grn-theme-golgari",
-    "filename": "booster/grn-theme-golgari.json"
+    "code": "grn-theme-golgari"
   },
   {
     "name": "Guilds of Ravnica Theme Booster Izzet",
-    "code": "grn-theme-izzet",
-    "filename": "booster/grn-theme-izzet.json"
+    "code": "grn-theme-izzet"
   },
   {
     "name": "Guilds of Ravnica Theme Booster Selesnya",
-    "code": "grn-theme-selesnya",
-    "filename": "booster/grn-theme-selesnya.json"
+    "code": "grn-theme-selesnya"
   },
   {
     "name": "Core Set 2019 Arena Booster",
-    "code": "m19-arena",
-    "filename": "booster/m19-arena.json"
+    "code": "m19-arena"
   },
   {
     "name": "Core Set 2019 Draft Booster",
-    "code": "m19-draft",
-    "filename": "booster/m19-draft.json"
+    "code": "m19-draft"
   },
   {
     "name": "Core Set 2019 Prerelease Promo Pack",
-    "code": "m19-prerelease",
-    "filename": "booster/m19-prerelease.json"
+    "code": "m19-prerelease"
   },
   {
     "name": "Battlebond Draft Booster",
-    "code": "bbd-draft",
-    "filename": "booster/bbd-draft.json"
+    "code": "bbd-draft"
   },
   {
     "name": "Dominaria Arena Booster",
-    "code": "dom-arena",
-    "filename": "booster/dom-arena.json"
+    "code": "dom-arena"
   },
   {
     "name": "Dominaria Draft Booster",
-    "code": "dom-draft",
-    "filename": "booster/dom-draft.json"
+    "code": "dom-draft"
   },
   {
     "name": "Dominaria Prerelease Promo Pack",
-    "code": "dom-prerelease",
-    "filename": "booster/dom-prerelease.json"
+    "code": "dom-prerelease"
   },
   {
     "name": "Dominaria Theme Booster Black",
-    "code": "dom-theme-b",
-    "filename": "booster/dom-theme-b.json"
+    "code": "dom-theme-b"
   },
   {
     "name": "Dominaria Theme Booster Green",
-    "code": "dom-theme-g",
-    "filename": "booster/dom-theme-g.json"
+    "code": "dom-theme-g"
   },
   {
     "name": "Dominaria Theme Booster Red",
-    "code": "dom-theme-r",
-    "filename": "booster/dom-theme-r.json"
+    "code": "dom-theme-r"
   },
   {
     "name": "Dominaria Theme Booster Blue",
-    "code": "dom-theme-u",
-    "filename": "booster/dom-theme-u.json"
+    "code": "dom-theme-u"
   },
   {
     "name": "Dominaria Theme Booster White",
-    "code": "dom-theme-w",
-    "filename": "booster/dom-theme-w.json"
+    "code": "dom-theme-w"
   },
   {
     "name": "Masters 25 Draft Booster",
-    "code": "a25-draft",
-    "filename": "booster/a25-draft.json"
+    "code": "a25-draft"
   },
   {
     "name": "Rivals of Ixalan Arena Booster",
-    "code": "rix-arena",
-    "filename": "booster/rix-arena.json"
+    "code": "rix-arena"
   },
   {
     "name": "Rivals of Ixalan Draft Booster",
-    "code": "rix-draft",
-    "filename": "booster/rix-draft.json"
+    "code": "rix-draft"
   },
   {
     "name": "Unstable Draft Booster",
-    "code": "ust-draft",
-    "filename": "booster/ust-draft.json"
+    "code": "ust-draft"
   },
   {
     "name": "Iconic Masters Draft Booster",
-    "code": "ima-draft",
-    "filename": "booster/ima-draft.json"
+    "code": "ima-draft"
   },
   {
     "name": "Ixalan Arena Booster",
-    "code": "xln-arena",
-    "filename": "booster/xln-arena.json"
+    "code": "xln-arena"
   },
   {
     "name": "Ixalan Draft Booster",
-    "code": "xln-draft",
-    "filename": "booster/xln-draft.json"
+    "code": "xln-draft"
   },
   {
     "name": "Ixalan Prerelease Promo Pack",
-    "code": "xln-prerelease",
-    "filename": "booster/xln-prerelease.json"
+    "code": "xln-prerelease"
   },
   {
     "name": "Ixalan Treasure Chest Promo Booster",
-    "code": "xln-treasure-chest",
-    "filename": "booster/xln-treasure-chest.json"
+    "code": "xln-treasure-chest"
   },
   {
     "name": "Hour of Devastation Draft Booster",
-    "code": "hou-draft",
-    "filename": "booster/hou-draft.json"
+    "code": "hou-draft"
   },
   {
     "name": "Hour of Devastation Prerelease Promo Pack",
-    "code": "hou-prerelease",
-    "filename": "booster/hou-prerelease.json"
+    "code": "hou-prerelease"
   },
   {
     "name": "Amonkhet Draft Booster",
-    "code": "akh-draft",
-    "filename": "booster/akh-draft.json"
+    "code": "akh-draft"
   },
   {
     "name": "Amonkhet Prerelease Promo Pack",
-    "code": "akh-prerelease",
-    "filename": "booster/akh-prerelease.json"
+    "code": "akh-prerelease"
   },
   {
     "name": "Modern Masters 2017 Draft Booster",
-    "code": "mm3-draft",
-    "filename": "booster/mm3-draft.json"
+    "code": "mm3-draft"
   },
   {
     "name": "Aether Revolt Draft Booster",
-    "code": "aer-draft",
-    "filename": "booster/aer-draft.json"
+    "code": "aer-draft"
   },
   {
     "name": "Aether Revolt Prerelease Promo Pack",
-    "code": "aer-prerelease",
-    "filename": "booster/aer-prerelease.json"
+    "code": "aer-prerelease"
   },
   {
     "name": "Kaladesh Draft Booster",
-    "code": "kld-draft",
-    "filename": "booster/kld-draft.json"
+    "code": "kld-draft"
   },
   {
     "name": "Kaladesh Prerelease Promo Pack",
-    "code": "kld-prerelease",
-    "filename": "booster/kld-prerelease.json"
+    "code": "kld-prerelease"
   },
   {
     "name": "Conspiracy: Take the Crown Draft Booster",
-    "code": "cn2-draft",
-    "filename": "booster/cn2-draft.json"
+    "code": "cn2-draft"
   },
   {
     "name": "Eldritch Moon Draft Booster",
-    "code": "emn-draft",
-    "filename": "booster/emn-draft.json"
+    "code": "emn-draft"
   },
   {
     "name": "Eldritch Moon Prerelease Promo Pack",
-    "code": "emn-prerelease",
-    "filename": "booster/emn-prerelease.json"
+    "code": "emn-prerelease"
   },
   {
     "name": "Eternal Masters Draft Booster",
-    "code": "ema-draft",
-    "filename": "booster/ema-draft.json"
+    "code": "ema-draft"
   },
   {
     "name": "Shadows over Innistrad Draft Booster",
-    "code": "soi-draft",
-    "filename": "booster/soi-draft.json"
+    "code": "soi-draft"
   },
   {
     "name": "Oath of the Gatewatch Draft Booster",
-    "code": "ogw-draft",
-    "filename": "booster/ogw-draft.json"
+    "code": "ogw-draft"
   },
   {
     "name": "Battle for Zendikar Draft Booster",
-    "code": "bfz-draft",
-    "filename": "booster/bfz-draft.json"
+    "code": "bfz-draft"
   },
   {
     "name": "Battle for Zendikar Prerelease Promo Pack",
-    "code": "bfz-prerelease",
-    "filename": "booster/bfz-prerelease.json"
+    "code": "bfz-prerelease"
   },
   {
     "name": "Magic Origins Draft Booster",
-    "code": "ori-draft",
-    "filename": "booster/ori-draft.json"
+    "code": "ori-draft"
   },
   {
     "name": "Modern Masters 2015 Draft Booster",
-    "code": "mm2-draft",
-    "filename": "booster/mm2-draft.json"
+    "code": "mm2-draft"
   },
   {
     "name": "Tempest Remastered Magic Online Booster",
-    "code": "tpr-mtgo",
-    "filename": "booster/tpr-mtgo.json"
+    "code": "tpr-mtgo"
   },
   {
     "name": "Dragons of Tarkir Draft Booster",
-    "code": "dtk-draft",
-    "filename": "booster/dtk-draft.json"
+    "code": "dtk-draft"
   },
   {
     "name": "Dragons of Tarkir Fat Pack Promotional Cards",
-    "code": "dtk-fat-pack",
-    "filename": "booster/dtk-fat-pack.json"
+    "code": "dtk-fat-pack"
   },
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Atarka",
-    "code": "dtk-prerelease-atarka",
-    "filename": "booster/dtk-prerelease-atarka.json"
+    "code": "dtk-prerelease-atarka"
   },
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Dromoka",
-    "code": "dtk-prerelease-dromoka",
-    "filename": "booster/dtk-prerelease-dromoka.json"
+    "code": "dtk-prerelease-dromoka"
   },
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Kolaghan",
-    "code": "dtk-prerelease-kolaghan",
-    "filename": "booster/dtk-prerelease-kolaghan.json"
+    "code": "dtk-prerelease-kolaghan"
   },
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Ojutai",
-    "code": "dtk-prerelease-ojutai",
-    "filename": "booster/dtk-prerelease-ojutai.json"
+    "code": "dtk-prerelease-ojutai"
   },
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Silumgar",
-    "code": "dtk-prerelease-silumgar",
-    "filename": "booster/dtk-prerelease-silumgar.json"
+    "code": "dtk-prerelease-silumgar"
   },
   {
     "name": "Fate Reforged Draft Booster",
-    "code": "frf-draft",
-    "filename": "booster/frf-draft.json"
+    "code": "frf-draft"
   },
   {
     "name": "Khans of Tarkir Arena Booster",
-    "code": "ktk-arena",
-    "filename": "booster/ktk-arena.json"
+    "code": "ktk-arena"
   },
   {
     "name": "Khans of Tarkir Draft Booster",
-    "code": "ktk-draft",
-    "filename": "booster/ktk-draft.json"
+    "code": "ktk-draft"
   },
   {
     "name": "Magic 2015 Draft Booster",
-    "code": "m15-draft",
-    "filename": "booster/m15-draft.json"
+    "code": "m15-draft"
   },
   {
     "name": "Duels of the Planeswalkers 2015 Base Booster",
-    "code": "m15-duelspromo",
-    "filename": "booster/m15-duelspromo.json"
+    "code": "m15-duelspromo"
   },
   {
     "name": "Vintage Masters Magic Online Booster",
-    "code": "vma-mtgo",
-    "filename": "booster/vma-mtgo.json"
+    "code": "vma-mtgo"
   },
   {
     "name": "Conspiracy Draft Booster",
-    "code": "cns-draft",
-    "filename": "booster/cns-draft.json"
+    "code": "cns-draft"
   },
   {
     "name": "Journey into Nyx Draft Booster",
-    "code": "jou-draft",
-    "filename": "booster/jou-draft.json"
+    "code": "jou-draft"
   },
   {
     "name": "Born of the Gods Draft Booster",
-    "code": "bng-draft",
-    "filename": "booster/bng-draft.json"
+    "code": "bng-draft"
   },
   {
     "name": "Theros Draft Booster",
-    "code": "ths-draft",
-    "filename": "booster/ths-draft.json"
+    "code": "ths-draft"
   },
   {
     "name": "Magic 2014 Draft Booster",
-    "code": "m14-draft",
-    "filename": "booster/m14-draft.json"
+    "code": "m14-draft"
   },
   {
     "name": "Duels of the Planeswalkers 2014 Base Booster",
-    "code": "m14-duelspromo",
-    "filename": "booster/m14-duelspromo.json"
+    "code": "m14-duelspromo"
   },
   {
     "name": "Magic 2014 Six-card Booster Pack",
-    "code": "m14-six",
-    "filename": "booster/m14-six.json"
+    "code": "m14-six"
   },
   {
     "name": "Modern Masters Draft Booster",
-    "code": "mma-draft",
-    "filename": "booster/mma-draft.json"
+    "code": "mma-draft"
   },
   {
     "name": "Dragon's Maze Draft Booster",
-    "code": "dgm-draft",
-    "filename": "booster/dgm-draft.json"
+    "code": "dgm-draft"
   },
   {
     "name": "Dragon's Maze Six-card Booster Pack",
-    "code": "dgm-six",
-    "filename": "booster/dgm-six.json"
+    "code": "dgm-six"
   },
   {
     "name": "Gatecrash Draft Booster",
-    "code": "gtc-draft",
-    "filename": "booster/gtc-draft.json"
+    "code": "gtc-draft"
   },
   {
     "name": "Gatecrash Prerelease Pack Boros",
-    "code": "gtc-prerelease-boros",
-    "filename": "booster/gtc-prerelease-boros.json"
+    "code": "gtc-prerelease-boros"
   },
   {
     "name": "Gatecrash Prerelease Pack Dimir",
-    "code": "gtc-prerelease-dimir",
-    "filename": "booster/gtc-prerelease-dimir.json"
+    "code": "gtc-prerelease-dimir"
   },
   {
     "name": "Gatecrash Prerelease Pack Gruul",
-    "code": "gtc-prerelease-gruul",
-    "filename": "booster/gtc-prerelease-gruul.json"
+    "code": "gtc-prerelease-gruul"
   },
   {
     "name": "Gatecrash Prerelease Pack Orzhov",
-    "code": "gtc-prerelease-orzhov",
-    "filename": "booster/gtc-prerelease-orzhov.json"
+    "code": "gtc-prerelease-orzhov"
   },
   {
     "name": "Gatecrash Prerelease Pack Simic",
-    "code": "gtc-prerelease-simic",
-    "filename": "booster/gtc-prerelease-simic.json"
+    "code": "gtc-prerelease-simic"
   },
   {
     "name": "Gatecrash Six-card Booster Pack",
-    "code": "gtc-six",
-    "filename": "booster/gtc-six.json"
+    "code": "gtc-six"
   },
   {
     "name": "Return to Ravnica Draft Booster",
-    "code": "rtr-draft",
-    "filename": "booster/rtr-draft.json"
+    "code": "rtr-draft"
   },
   {
     "name": "Return to Ravnica Prerelease Pack Azorius",
-    "code": "rtr-prerelease-azorius",
-    "filename": "booster/rtr-prerelease-azorius.json"
+    "code": "rtr-prerelease-azorius"
   },
   {
     "name": "Return to Ravnica Prerelease Pack Golgari",
-    "code": "rtr-prerelease-golgari",
-    "filename": "booster/rtr-prerelease-golgari.json"
+    "code": "rtr-prerelease-golgari"
   },
   {
     "name": "Return to Ravnica Prerelease Pack Izzet",
-    "code": "rtr-prerelease-izzet",
-    "filename": "booster/rtr-prerelease-izzet.json"
+    "code": "rtr-prerelease-izzet"
   },
   {
     "name": "Return to Ravnica Prerelease Pack Rakdos",
-    "code": "rtr-prerelease-rakdos",
-    "filename": "booster/rtr-prerelease-rakdos.json"
+    "code": "rtr-prerelease-rakdos"
   },
   {
     "name": "Return to Ravnica Prerelease Pack Selesnya",
-    "code": "rtr-prerelease-selesnya",
-    "filename": "booster/rtr-prerelease-selesnya.json"
+    "code": "rtr-prerelease-selesnya"
   },
   {
     "name": "Return to Ravnica Six-card Booster Pack",
-    "code": "rtr-six",
-    "filename": "booster/rtr-six.json"
+    "code": "rtr-six"
   },
   {
     "name": "Magic 2013 Draft Booster",
-    "code": "m13-draft",
-    "filename": "booster/m13-draft.json"
+    "code": "m13-draft"
   },
   {
     "name": "Magic 2013 Six-card Booster Pack",
-    "code": "m13-six",
-    "filename": "booster/m13-six.json"
+    "code": "m13-six"
   },
   {
     "name": "Avacyn Restored Draft Booster",
-    "code": "avr-draft",
-    "filename": "booster/avr-draft.json"
+    "code": "avr-draft"
   },
   {
     "name": "Avacyn Restored Six-card Booster Pack",
-    "code": "avr-six",
-    "filename": "booster/avr-six.json"
+    "code": "avr-six"
   },
   {
     "name": "Dark Ascension Draft Booster",
-    "code": "dka-draft",
-    "filename": "booster/dka-draft.json"
+    "code": "dka-draft"
   },
   {
     "name": "Dark Ascension Six-card Booster Pack",
-    "code": "dka-six",
-    "filename": "booster/dka-six.json"
+    "code": "dka-six"
   },
   {
     "name": "Innistrad Draft Booster",
-    "code": "isd-draft",
-    "filename": "booster/isd-draft.json"
+    "code": "isd-draft"
   },
   {
     "name": "Innistrad Six-card Booster Pack",
-    "code": "isd-six",
-    "filename": "booster/isd-six.json"
+    "code": "isd-six"
   },
   {
     "name": "Magic 2012 Draft Booster",
-    "code": "m12-draft",
-    "filename": "booster/m12-draft.json"
+    "code": "m12-draft"
   },
   {
     "name": "Magic 2012 Six-card Booster Pack",
-    "code": "m12-six",
-    "filename": "booster/m12-six.json"
+    "code": "m12-six"
   },
   {
     "name": "New Phyrexia Draft Booster",
-    "code": "nph-draft",
-    "filename": "booster/nph-draft.json"
+    "code": "nph-draft"
   },
   {
     "name": "New Phyrexia Six-card Booster Pack",
-    "code": "nph-six",
-    "filename": "booster/nph-six.json"
+    "code": "nph-six"
   },
   {
     "name": "Mirrodin Besieged Draft Booster",
-    "code": "mbs-draft",
-    "filename": "booster/mbs-draft.json"
+    "code": "mbs-draft"
   },
   {
     "name": "Mirrodin Besieged Six-card Booster Pack",
-    "code": "mbs-six",
-    "filename": "booster/mbs-six.json"
+    "code": "mbs-six"
   },
   {
     "name": "Masters Edition IV Magic Online Booster",
-    "code": "me4-mtgo",
-    "filename": "booster/me4-mtgo.json"
+    "code": "me4-mtgo"
   },
   {
     "name": "Scars of Mirrodin Draft Booster",
-    "code": "som-draft",
-    "filename": "booster/som-draft.json"
+    "code": "som-draft"
   },
   {
     "name": "Scars of Mirrodin Six-card Booster Pack",
-    "code": "som-six",
-    "filename": "booster/som-six.json"
+    "code": "som-six"
   },
   {
     "name": "Magic 2011 Draft Booster",
-    "code": "m11-draft",
-    "filename": "booster/m11-draft.json"
+    "code": "m11-draft"
   },
   {
     "name": "Magic 2011 Six-card Booster Pack",
-    "code": "m11-six",
-    "filename": "booster/m11-six.json"
+    "code": "m11-six"
   },
   {
     "name": "Rise of the Eldrazi Draft Booster",
-    "code": "roe-draft",
-    "filename": "booster/roe-draft.json"
+    "code": "roe-draft"
   },
   {
     "name": "Rise of the Eldrazi Six-card Booster Pack",
-    "code": "roe-six",
-    "filename": "booster/roe-six.json"
+    "code": "roe-six"
   },
   {
     "name": "Worldwake Draft Booster",
-    "code": "wwk-draft",
-    "filename": "booster/wwk-draft.json"
+    "code": "wwk-draft"
   },
   {
     "name": "Worldwake Six-card Booster Pack",
-    "code": "wwk-six",
-    "filename": "booster/wwk-six.json"
+    "code": "wwk-six"
   },
   {
     "name": "Zendikar Draft Booster",
-    "code": "zen-draft",
-    "filename": "booster/zen-draft.json"
+    "code": "zen-draft"
   },
   {
     "name": "Zendikar Six-card Booster Pack",
-    "code": "zen-six",
-    "filename": "booster/zen-six.json"
+    "code": "zen-six"
   },
   {
     "name": "Masters Edition III Magic Online Booster",
-    "code": "me3-mtgo",
-    "filename": "booster/me3-mtgo.json"
+    "code": "me3-mtgo"
   },
   {
     "name": "Magic 2010 Draft Booster",
-    "code": "m10-draft",
-    "filename": "booster/m10-draft.json"
+    "code": "m10-draft"
   },
   {
     "name": "Magic 2010 Six-card Booster Pack",
-    "code": "m10-six",
-    "filename": "booster/m10-six.json"
+    "code": "m10-six"
   },
   {
     "name": "Alara Reborn Draft Booster",
-    "code": "arb-draft",
-    "filename": "booster/arb-draft.json"
+    "code": "arb-draft"
   },
   {
     "name": "Alara Reborn Six-card Booster Pack",
-    "code": "arb-six",
-    "filename": "booster/arb-six.json"
+    "code": "arb-six"
   },
   {
     "name": "Conflux Draft Booster",
-    "code": "con-draft",
-    "filename": "booster/con-draft.json"
+    "code": "con-draft"
   },
   {
     "name": "Conflux Six-card Booster Pack",
-    "code": "con-six",
-    "filename": "booster/con-six.json"
+    "code": "con-six"
   },
   {
     "name": "Shards of Alara Draft Booster",
-    "code": "ala-draft",
-    "filename": "booster/ala-draft.json"
+    "code": "ala-draft"
   },
   {
     "name": "Shards of Alara Premium Foil Booster",
-    "code": "ala-premium",
-    "filename": "booster/ala-premium.json"
+    "code": "ala-premium"
   },
   {
     "name": "Shards of Alara Tournament Deck",
-    "code": "ala-tournament",
-    "filename": "booster/ala-tournament.json"
+    "code": "ala-tournament"
   },
   {
     "name": "Masters Edition II Magic Online Booster",
-    "code": "me2-mtgo",
-    "filename": "booster/me2-mtgo.json"
+    "code": "me2-mtgo"
   },
   {
     "name": "Eventide Draft Booster",
-    "code": "eve-draft",
-    "filename": "booster/eve-draft.json"
+    "code": "eve-draft"
   },
   {
     "name": "Shadowmoor Draft Booster",
-    "code": "shm-draft",
-    "filename": "booster/shm-draft.json"
+    "code": "shm-draft"
   },
   {
     "name": "Shadowmoor Tournament Deck",
-    "code": "shm-tournament",
-    "filename": "booster/shm-tournament.json"
+    "code": "shm-tournament"
   },
   {
     "name": "Morningtide Draft Booster",
-    "code": "mor-draft",
-    "filename": "booster/mor-draft.json"
+    "code": "mor-draft"
   },
   {
     "name": "Lorwyn Draft Booster",
-    "code": "lrw-draft",
-    "filename": "booster/lrw-draft.json"
+    "code": "lrw-draft"
   },
   {
     "name": "Lorwyn Tournament Deck",
-    "code": "lrw-tournament",
-    "filename": "booster/lrw-tournament.json"
+    "code": "lrw-tournament"
   },
   {
     "name": "Masters Edition Magic Online Booster",
-    "code": "me1-mtgo",
-    "filename": "booster/me1-mtgo.json"
+    "code": "me1-mtgo"
   },
   {
     "name": "Tenth Edition Draft Booster",
-    "code": "10e-draft",
-    "filename": "booster/10e-draft.json"
+    "code": "10e-draft"
   },
   {
     "name": "Future Sight Draft Booster",
-    "code": "fut-draft",
-    "filename": "booster/fut-draft.json"
+    "code": "fut-draft"
   },
   {
     "name": "Planar Chaos Draft Booster",
-    "code": "plc-draft",
-    "filename": "booster/plc-draft.json"
+    "code": "plc-draft"
   },
   {
     "name": "Time Spiral Draft Booster",
-    "code": "tsp-draft",
-    "filename": "booster/tsp-draft.json"
+    "code": "tsp-draft"
   },
   {
     "name": "Coldsnap Draft Booster",
-    "code": "csp-draft",
-    "filename": "booster/csp-draft.json"
+    "code": "csp-draft"
   },
   {
     "name": "Dissension Draft Booster",
-    "code": "dis-draft",
-    "filename": "booster/dis-draft.json"
+    "code": "dis-draft"
   },
   {
     "name": "Guildpact Draft Booster",
-    "code": "gpt-draft",
-    "filename": "booster/gpt-draft.json"
+    "code": "gpt-draft"
   },
   {
     "name": "Ravnica: City of Guilds Draft Booster",
-    "code": "rav-draft",
-    "filename": "booster/rav-draft.json"
+    "code": "rav-draft"
   },
   {
     "name": "Ravnica: City of Guilds Tournament Deck",
-    "code": "rav-tournament",
-    "filename": "booster/rav-tournament.json"
+    "code": "rav-tournament"
   },
   {
     "name": "Ninth Edition Draft Booster",
-    "code": "9ed-draft",
-    "filename": "booster/9ed-draft.json"
+    "code": "9ed-draft"
   },
   {
     "name": "Saviors of Kamigawa Draft Booster",
-    "code": "sok-draft",
-    "filename": "booster/sok-draft.json"
+    "code": "sok-draft"
   },
   {
     "name": "Saviors of Kamigawa Fat Pack Promotional Cards",
-    "code": "sok-fat-pack",
-    "filename": "booster/sok-fat-pack.json"
+    "code": "sok-fat-pack"
   },
   {
     "name": "Betrayers of Kamigawa Draft Booster",
-    "code": "bok-draft",
-    "filename": "booster/bok-draft.json"
+    "code": "bok-draft"
   },
   {
     "name": "Betrayers of Kamigawa Fat Pack Promotional Cards",
-    "code": "bok-fat-pack",
-    "filename": "booster/bok-fat-pack.json"
+    "code": "bok-fat-pack"
   },
   {
     "name": "Unhinged Draft Booster",
-    "code": "unh-draft",
-    "filename": "booster/unh-draft.json"
+    "code": "unh-draft"
   },
   {
     "name": "Champions of Kamigawa Draft Booster",
-    "code": "chk-draft",
-    "filename": "booster/chk-draft.json"
+    "code": "chk-draft"
   },
   {
     "name": "Champions of Kamigawa Fat Pack Promotional Cards",
-    "code": "chk-fat-pack",
-    "filename": "booster/chk-fat-pack.json"
+    "code": "chk-fat-pack"
   },
   {
     "name": "Champions of Kamigawa Tournament Pack",
-    "code": "chk-tournament",
-    "filename": "booster/chk-tournament.json"
+    "code": "chk-tournament"
   },
   {
     "name": "Fifth Dawn Draft Booster",
-    "code": "5dn-draft",
-    "filename": "booster/5dn-draft.json"
+    "code": "5dn-draft"
   },
   {
     "name": "Fifth Dawn Fat Pack Promotional Cards",
-    "code": "5dn-fat-pack",
-    "filename": "booster/5dn-fat-pack.json"
+    "code": "5dn-fat-pack"
   },
   {
     "name": "Darksteel Draft Booster",
-    "code": "dst-draft",
-    "filename": "booster/dst-draft.json"
+    "code": "dst-draft"
   },
   {
     "name": "Darksteel Fat Pack Promotional Cards",
-    "code": "dst-fat-pack",
-    "filename": "booster/dst-fat-pack.json"
+    "code": "dst-fat-pack"
   },
   {
     "name": "Mirrodin Draft Booster",
-    "code": "mrd-draft",
-    "filename": "booster/mrd-draft.json"
+    "code": "mrd-draft"
   },
   {
     "name": "Mirrodin Fat Pack Promotional Cards",
-    "code": "mrd-fat-pack",
-    "filename": "booster/mrd-fat-pack.json"
+    "code": "mrd-fat-pack"
   },
   {
     "name": "Mirrodin Tournament Deck",
-    "code": "mrd-tournament",
-    "filename": "booster/mrd-tournament.json"
+    "code": "mrd-tournament"
   },
   {
     "name": "Eighth Edition Draft Booster",
-    "code": "8ed-draft",
-    "filename": "booster/8ed-draft.json"
+    "code": "8ed-draft"
   },
   {
     "name": "Scourge Draft Booster",
-    "code": "scg-draft",
-    "filename": "booster/scg-draft.json"
+    "code": "scg-draft"
   },
   {
     "name": "Scourge Fat Pack Promotional Cards",
-    "code": "scg-fat-pack",
-    "filename": "booster/scg-fat-pack.json"
+    "code": "scg-fat-pack"
   },
   {
     "name": "Legions Draft Booster",
-    "code": "lgn-draft",
-    "filename": "booster/lgn-draft.json"
+    "code": "lgn-draft"
   },
   {
     "name": "Legions Fat Pack Promotional Cards",
-    "code": "lgn-fat-pack",
-    "filename": "booster/lgn-fat-pack.json"
+    "code": "lgn-fat-pack"
   },
   {
     "name": "Onslaught Draft Booster",
-    "code": "ons-draft",
-    "filename": "booster/ons-draft.json"
+    "code": "ons-draft"
   },
   {
     "name": "Onslaught Fat Pack Promotional Cards",
-    "code": "ons-fat-pack",
-    "filename": "booster/ons-fat-pack.json"
+    "code": "ons-fat-pack"
   },
   {
     "name": "Onslaught Tournament Deck",
-    "code": "ons-tournament",
-    "filename": "booster/ons-tournament.json"
+    "code": "ons-tournament"
   },
   {
     "name": "Judgment Draft Booster",
-    "code": "jud-draft",
-    "filename": "booster/jud-draft.json"
+    "code": "jud-draft"
   },
   {
     "name": "Judgment Fat Pack Promotional Cards",
-    "code": "jud-fat-pack",
-    "filename": "booster/jud-fat-pack.json"
+    "code": "jud-fat-pack"
   },
   {
     "name": "Torment Draft Booster",
-    "code": "tor-draft",
-    "filename": "booster/tor-draft.json"
+    "code": "tor-draft"
   },
   {
     "name": "Torment Fat Pack Promotional Cards",
-    "code": "tor-fat-pack",
-    "filename": "booster/tor-fat-pack.json"
+    "code": "tor-fat-pack"
   },
   {
     "name": "Odyssey Draft Booster",
-    "code": "ody-draft",
-    "filename": "booster/ody-draft.json"
+    "code": "ody-draft"
   },
   {
     "name": "Odyssey Fat Pack Promotional Cards",
-    "code": "ody-fat-pack",
-    "filename": "booster/ody-fat-pack.json"
+    "code": "ody-fat-pack"
   },
   {
     "name": "Odyssey Tournament Pack",
-    "code": "ody-tournament",
-    "filename": "booster/ody-tournament.json"
+    "code": "ody-tournament"
   },
   {
     "name": "Apocalypse Draft Booster",
-    "code": "apc-draft",
-    "filename": "booster/apc-draft.json"
+    "code": "apc-draft"
   },
   {
     "name": "Apocalypse Fat Pack Promotional Cards",
-    "code": "apc-fat-pack",
-    "filename": "booster/apc-fat-pack.json"
+    "code": "apc-fat-pack"
   },
   {
     "name": "Seventh Edition Draft Booster",
-    "code": "7ed-draft",
-    "filename": "booster/7ed-draft.json"
+    "code": "7ed-draft"
   },
   {
     "name": "Planeshift Draft Booster",
-    "code": "pls-draft",
-    "filename": "booster/pls-draft.json"
+    "code": "pls-draft"
   },
   {
     "name": "Planeshift Fat Pack Promotional Cards",
-    "code": "pls-fat-pack",
-    "filename": "booster/pls-fat-pack.json"
+    "code": "pls-fat-pack"
   },
   {
     "name": "Invasion Draft Booster",
-    "code": "inv-draft",
-    "filename": "booster/inv-draft.json"
+    "code": "inv-draft"
   },
   {
     "name": "Invasion Fat Pack Promo Cards",
-    "code": "inv-fat-pack",
-    "filename": "booster/inv-fat-pack.json"
+    "code": "inv-fat-pack"
   },
   {
     "name": "Invasion Tournament Deck",
-    "code": "inv-tournament",
-    "filename": "booster/inv-tournament.json"
+    "code": "inv-tournament"
   },
   {
     "name": "Prophecy Draft Booster",
-    "code": "pcy-draft",
-    "filename": "booster/pcy-draft.json"
+    "code": "pcy-draft"
   },
   {
     "name": "Prophecy Fat Pack Promotional Cards",
-    "code": "pcy-fat-pack",
-    "filename": "booster/pcy-fat-pack.json"
+    "code": "pcy-fat-pack"
   },
   {
     "name": "Nemesis Draft Booster",
-    "code": "nem-draft",
-    "filename": "booster/nem-draft.json"
+    "code": "nem-draft"
   },
   {
     "name": "Nemesis Fat Pack Promotional Cards",
-    "code": "nem-fat-pack",
-    "filename": "booster/nem-fat-pack.json"
+    "code": "nem-fat-pack"
   },
   {
     "name": "Mercadian Masques Draft Booster",
-    "code": "mmq-draft",
-    "filename": "booster/mmq-draft.json"
+    "code": "mmq-draft"
   },
   {
     "name": "Mercadian Masques Fat Pack Promotional Cards",
-    "code": "mmq-fat-pack",
-    "filename": "booster/mmq-fat-pack.json"
+    "code": "mmq-fat-pack"
   },
   {
     "name": "Mercadian Masques Tournament Pack",
-    "code": "mmq-tournament",
-    "filename": "booster/mmq-tournament.json"
+    "code": "mmq-tournament"
   },
   {
     "name": "Starter 1999",
-    "code": "s99",
-    "filename": "booster/s99.json"
+    "code": "s99"
   },
   {
     "name": "Urza's Destiny Draft Booster",
-    "code": "uds-draft",
-    "filename": "booster/uds-draft.json"
+    "code": "uds-draft"
   },
   {
     "name": "Portal Three Kingdoms",
-    "code": "ptk",
-    "filename": "booster/ptk.json"
+    "code": "ptk"
   },
   {
     "name": "Classic Sixth Edition Draft Booster",
-    "code": "6ed-draft",
-    "filename": "booster/6ed-draft.json"
+    "code": "6ed-draft"
   },
   {
     "name": "Classic Sixth Edition Tournament Deck",
-    "code": "6ed-tournament",
-    "filename": "booster/6ed-tournament.json"
+    "code": "6ed-tournament"
   },
   {
     "name": "Urza's Legacy Draft Booster",
-    "code": "ulg-draft",
-    "filename": "booster/ulg-draft.json"
+    "code": "ulg-draft"
   },
   {
     "name": "Urza's Saga Draft Booster",
-    "code": "usg-draft",
-    "filename": "booster/usg-draft.json"
+    "code": "usg-draft"
   },
   {
     "name": "Urza's Saga Tournament Deck",
-    "code": "usg-tournament",
-    "filename": "booster/usg-tournament.json"
+    "code": "usg-tournament"
   },
   {
     "name": "Unglued Draft Booster",
-    "code": "ugl-draft",
-    "filename": "booster/ugl-draft.json"
+    "code": "ugl-draft"
   },
   {
     "name": "Portal Second Age",
-    "code": "p02",
-    "filename": "booster/p02.json"
+    "code": "p02"
   },
   {
     "name": "Exodus Draft Booster",
-    "code": "exo-draft",
-    "filename": "booster/exo-draft.json"
+    "code": "exo-draft"
   },
   {
     "name": "Stronghold Draft Booster",
-    "code": "sth-draft",
-    "filename": "booster/sth-draft.json"
+    "code": "sth-draft"
   },
   {
     "name": "Tempest Draft Booster",
-    "code": "tmp-draft",
-    "filename": "booster/tmp-draft.json"
+    "code": "tmp-draft"
   },
   {
     "name": "Tempest Starter Deck",
-    "code": "tmp-starter",
-    "filename": "booster/tmp-starter.json"
+    "code": "tmp-starter"
   },
   {
     "name": "Weatherlight Draft Booster",
-    "code": "wth-draft",
-    "filename": "booster/wth-draft.json"
+    "code": "wth-draft"
   },
   {
     "name": "Portal",
-    "code": "por",
-    "filename": "booster/por.json"
+    "code": "por"
   },
   {
     "name": "Fifth Edition Draft Booster",
-    "code": "5ed-draft",
-    "filename": "booster/5ed-draft.json"
+    "code": "5ed-draft"
   },
   {
     "name": "Fifth Edition Starter Tournament Deck",
-    "code": "5ed-starter",
-    "filename": "booster/5ed-starter.json"
+    "code": "5ed-starter"
   },
   {
     "name": "Visions Draft Booster",
-    "code": "vis-draft",
-    "filename": "booster/vis-draft.json"
+    "code": "vis-draft"
   },
   {
     "name": "Mirage Draft Booster",
-    "code": "mir-draft",
-    "filename": "booster/mir-draft.json"
+    "code": "mir-draft"
   },
   {
     "name": "Mirage Starter Deck",
-    "code": "mir-starter",
-    "filename": "booster/mir-starter.json"
+    "code": "mir-starter"
   },
   {
     "name": "Alliances",
-    "code": "all",
-    "filename": "booster/all.json"
+    "code": "all"
   },
   {
     "name": "Homelands",
-    "code": "hml",
-    "filename": "booster/hml.json"
+    "code": "hml"
   },
   {
     "name": "Chronicles",
-    "code": "chr",
-    "filename": "booster/chr.json"
+    "code": "chr"
   },
   {
     "name": "Ice Age",
-    "code": "ice",
-    "filename": "booster/ice.json"
+    "code": "ice"
   },
   {
     "name": "Ice Age Starter Deck",
-    "code": "ice-starter",
-    "filename": "booster/ice-starter.json"
+    "code": "ice-starter"
   },
   {
     "name": "Fourth Edition",
-    "code": "4ed",
-    "filename": "booster/4ed.json"
+    "code": "4ed"
   },
   {
     "name": "Fourth Edition Starter Deck",
-    "code": "4ed-starter",
-    "filename": "booster/4ed-starter.json"
+    "code": "4ed-starter"
   },
   {
     "name": "Fallen Empires",
-    "code": "fem",
-    "filename": "booster/fem.json"
+    "code": "fem"
   },
   {
     "name": "The Dark",
-    "code": "drk",
-    "filename": "booster/drk.json"
+    "code": "drk"
   },
   {
     "name": "Legends",
-    "code": "leg",
-    "filename": "booster/leg.json"
+    "code": "leg"
   },
   {
     "name": "Revised Edition",
-    "code": "3ed",
-    "filename": "booster/3ed.json"
+    "code": "3ed"
   },
   {
     "name": "Revised Edition Starter Deck",
-    "code": "3ed-starter",
-    "filename": "booster/3ed-starter.json"
+    "code": "3ed-starter"
   },
   {
     "name": "Antiquities",
-    "code": "atq",
-    "filename": "booster/atq.json"
+    "code": "atq"
   },
   {
     "name": "Arabian Nights",
-    "code": "arn",
-    "filename": "booster/arn.json"
+    "code": "arn"
   },
   {
     "name": "Unlimited Edition",
-    "code": "2ed",
-    "filename": "booster/2ed.json"
+    "code": "2ed"
   },
   {
     "name": "Unlimited Edition Starter Deck",
-    "code": "2ed-starter",
-    "filename": "booster/2ed-starter.json"
+    "code": "2ed-starter"
   },
   {
     "name": "Limited Edition Beta",
-    "code": "leb",
-    "filename": "booster/leb.json"
+    "code": "leb"
   },
   {
     "name": "Limited Edition Beta Starter Deck",
-    "code": "leb-starter",
-    "filename": "booster/leb-starter.json"
+    "code": "leb-starter"
   },
   {
     "name": "Limited Edition Alpha",
-    "code": "lea",
-    "filename": "booster/lea.json"
+    "code": "lea"
   },
   {
     "name": "Limited Edition Alpha Starter Deck",
-    "code": "lea-starter",
-    "filename": "booster/lea-starter.json"
+    "code": "lea-starter"
   }
 ]

@@ -16,7 +16,18 @@
         "etched_reprint": 1,
         "etched_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_legends",
+        "foil_rare_mythic_nonlegendary",
+        "extended_art_common_uncommon",
+        "extended_art_rare_mythic",
+        "etched_uncommon",
+        "etched_reprint",
+        "etched_rare_mythic"
+      ]
     }
   ],
   "sheets": {

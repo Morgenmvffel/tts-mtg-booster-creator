@@ -10,7 +10,12 @@
         "uncommon": 3,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic"
+      ]
     }
   ],
   "sheets": {

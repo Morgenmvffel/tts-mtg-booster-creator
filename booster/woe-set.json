@@ -14,7 +14,16 @@
         "rare_mythic": 1,
         "foil_with_showcase": 1
       },
-      "weight": 12
+      "weight": 12,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "enchanting_tales",
+        "rare_mythic",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -27,7 +36,17 @@
         "foil_with_showcase": 1,
         "the_list": 1
       },
-      "weight": 4
+      "weight": 4,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "enchanting_tales",
+        "rare_mythic",
+        "foil_with_showcase",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -39,7 +58,16 @@
         "rare_mythic": 1,
         "foil_with_showcase": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "enchanting_tales",
+        "rare_mythic",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -52,7 +80,17 @@
         "foil_with_showcase": 1,
         "the_list": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "enchanting_tales",
+        "rare_mythic",
+        "foil_with_showcase",
+        "the_list"
+      ]
     }
   ],
   "sheets": {

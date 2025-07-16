@@ -16,7 +16,18 @@
         "showcase_rm": 2,
         "foil_showcase_rm": 1
       },
-      "weight": 238
+      "weight": 238,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "eldrazi_land",
+        "retro_cu",
+        "foil_retro_cu",
+        "foil_rare_mythic",
+        "showcase_commander",
+        "showcase_rm",
+        "foil_showcase_rm"
+      ]
     },
     {
       "sheets": {
@@ -30,7 +41,18 @@
         "showcase_rm": 2,
         "foil_showcase_rm": 1
       },
-      "weight": 23
+      "weight": 23,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "eldrazi_land",
+        "retro_cu",
+        "foil_retro_cu",
+        "foil_rare_mythic",
+        "showcase_commander_foil",
+        "showcase_rm",
+        "foil_showcase_rm"
+      ]
     }
   ],
   "sheets": {

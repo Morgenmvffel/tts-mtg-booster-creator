@@ -12,7 +12,14 @@
         "uncommon": 3,
         "rare": 1
       },
-      "weight": 27
+      "weight": 27,
+      "sheet_order": [
+        "basic",
+        "contraption",
+        "common",
+        "uncommon",
+        "rare"
+      ]
     },
     {
       "sheets": {
@@ -23,7 +30,15 @@
         "uncommon": 3,
         "rare": 1
       },
-      "weight": 10
+      "weight": 10,
+      "sheet_order": [
+        "basic",
+        "contraption",
+        "foil",
+        "common",
+        "uncommon",
+        "rare"
+      ]
     },
     {
       "sheets": {
@@ -33,7 +48,14 @@
         "uncommon": 3,
         "rare": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "basic_foil",
+        "contraption",
+        "common",
+        "uncommon",
+        "rare"
+      ]
     },
     {
       "sheets": {
@@ -44,7 +66,15 @@
         "uncommon": 3,
         "rare": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "basic",
+        "contraption",
+        "contraption_foil",
+        "common",
+        "uncommon",
+        "rare"
+      ]
     }
   ],
   "sheets": {

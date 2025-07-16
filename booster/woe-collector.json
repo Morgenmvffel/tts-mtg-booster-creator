@@ -17,7 +17,19 @@
         "enchanting_tales_rare_mythic": 1,
         "alt_frame_foil": 1
       },
-      "weight": 179
+      "weight": 179,
+      "sheet_order": [
+        "foil_full_art_land",
+        "foil_common",
+        "foil_uncommon",
+        "enchanting_tales_uncommon",
+        "foil_enchanting_tales_uncommon",
+        "foil_rare_mythic",
+        "extended_art",
+        "rare_mythic_showcase",
+        "enchanting_tales_rare_mythic",
+        "alt_frame_foil"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "enchanting_tales_rare_mythic": 1,
         "alt_frame_foil": 1
       },
-      "weight": 21
+      "weight": 21,
+      "sheet_order": [
+        "foil_full_art_land",
+        "foil_common",
+        "foil_uncommon",
+        "enchanting_tales_uncommon",
+        "foil_enchanting_tales_uncommon",
+        "foil_rare_mythic",
+        "foil_extended_art",
+        "rare_mythic_showcase",
+        "enchanting_tales_rare_mythic",
+        "alt_frame_foil"
+      ]
     }
   ],
   "sheets": {

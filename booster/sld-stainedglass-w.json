@@ -8,7 +8,10 @@
       "sheets": {
         "stainedglass_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "stainedglass_white"
+      ]
     }
   ],
   "sheets": {

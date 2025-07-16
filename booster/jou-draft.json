@@ -11,7 +11,13 @@
         "uncommon": 3,
         "rare_mythic": 1
       },
-      "weight": 133889
+      "weight": 133889,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -21,13 +27,23 @@
         "rare_mythic": 1,
         "foil": 1
       },
-      "weight": 38871
+      "weight": 38871,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "foil"
+      ]
     },
     {
       "sheets": {
         "theros_gods": 15
       },
-      "weight": 40
+      "weight": 40,
+      "sheet_order": [
+        "theros_gods"
+      ]
     }
   ],
   "sheets": {

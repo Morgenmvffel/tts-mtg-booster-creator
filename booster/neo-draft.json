@@ -12,7 +12,14 @@
         "sfc_uncommon_with_showcase": 3,
         "rare_mythic_with_showcase": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "land",
+        "dfc_common_uncommon",
+        "sfc_common_with_showcase",
+        "sfc_uncommon_with_showcase",
+        "rare_mythic_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -23,7 +30,15 @@
         "sfc_uncommon_with_showcase": 3,
         "rare_mythic_with_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "land",
+        "dfc_common_uncommon",
+        "foil_with_showcase",
+        "sfc_common_with_showcase",
+        "sfc_uncommon_with_showcase",
+        "rare_mythic_with_showcase"
+      ]
     }
   ],
   "sheets": {

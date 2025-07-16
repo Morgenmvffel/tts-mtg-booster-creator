@@ -18,7 +18,20 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 293480596
+      "weight": 293480596,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +47,20 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 2366779
+      "weight": 2366779,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "surge_relic"
+      ]
     },
     {
       "sheets": {
@@ -51,7 +77,21 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 23560000
+      "weight": 23560000,
+      "sheet_order": [
+        "foil_common",
+        "nonfoil_sol_ring",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -68,7 +108,21 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 190000
+      "weight": 190000,
+      "sheet_order": [
+        "foil_common",
+        "nonfoil_sol_ring",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "surge_relic"
+      ]
     },
     {
       "sheets": {
@@ -85,7 +139,21 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 235600
+      "weight": 235600,
+      "sheet_order": [
+        "foil_common",
+        "serialized_sol_ring",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -102,7 +170,21 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 1900
+      "weight": 1900,
+      "sheet_order": [
+        "foil_common",
+        "serialized_sol_ring",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "surge_relic"
+      ]
     },
     {
       "sheets": {
@@ -119,7 +201,21 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 124
+      "weight": 124,
+      "sheet_order": [
+        "foil_common",
+        "the_one_ring",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -136,7 +232,21 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "the_one_ring",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "extended_core_rare_mythic",
+        "extended_jump_starter_rare_mythic",
+        "uncommon_showcase",
+        "rare_mythic_showcase",
+        "borderless_scene",
+        "foil_uncommon_showcase",
+        "surge_relic"
+      ]
     }
   ],
   "sheets": {

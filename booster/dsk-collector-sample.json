@@ -9,14 +9,22 @@
         "foil_uncommon": 1,
         "booster_fun": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "foil_uncommon",
+        "booster_fun"
+      ]
     },
     {
       "sheets": {
         "foil_uncommon": 1,
         "foil_booster_fun": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_uncommon",
+        "foil_booster_fun"
+      ]
     }
   ],
   "sheets": {

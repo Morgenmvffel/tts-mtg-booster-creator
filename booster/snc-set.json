@@ -14,7 +14,16 @@
         "rare_mythic": 1,
         "foil_with_showcase": 1
       },
-      "weight": 462
+      "weight": 462,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +35,16 @@
         "rare_mythic": 1,
         "gilded_foil": 1
       },
-      "weight": 33
+      "weight": 33,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "gilded_foil"
+      ]
     },
     {
       "sheets": {
@@ -39,7 +57,17 @@
         "the_list": 1,
         "foil_with_showcase": 1
       },
-      "weight": 154
+      "weight": 154,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "the_list",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -52,7 +80,17 @@
         "the_list": 1,
         "gilded_foil": 1
       },
-      "weight": 11
+      "weight": 11,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "the_list",
+        "gilded_foil"
+      ]
     },
     {
       "sheets": {
@@ -64,7 +102,16 @@
         "rare_mythic": 1,
         "foil_with_showcase": 1
       },
-      "weight": 126
+      "weight": 126,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -76,7 +123,16 @@
         "rare_mythic": 1,
         "gilded_foil": 1
       },
-      "weight": 9
+      "weight": 9,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "gilded_foil"
+      ]
     },
     {
       "sheets": {
@@ -89,7 +145,17 @@
         "the_list": 1,
         "foil_with_showcase": 1
       },
-      "weight": 42
+      "weight": 42,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "the_list",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -102,7 +168,17 @@
         "the_list": 1,
         "gilded_foil": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "rare_mythic",
+        "the_list",
+        "gilded_foil"
+      ]
     }
   ],
   "sheets": {

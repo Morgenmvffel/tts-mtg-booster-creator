@@ -17,7 +17,19 @@
         "otp_rare_mythic": 1,
         "finale": 1
       },
-      "weight": 18
+      "weight": 18,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_fullart_land",
+        "otp_uncommon",
+        "foil_otp_uncommon",
+        "foil_rare_mythic",
+        "showcase_rare_mythic",
+        "commander",
+        "otp_rare_mythic",
+        "finale"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "otp_rare_mythic": 1,
         "finale": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_fullart_land",
+        "otp_uncommon",
+        "foil_otp_uncommon",
+        "foil_rare_mythic",
+        "showcase_rare_mythic",
+        "foil_commander",
+        "otp_rare_mythic",
+        "finale"
+      ]
     }
   ],
   "sheets": {

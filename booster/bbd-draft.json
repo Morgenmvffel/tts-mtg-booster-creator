@@ -11,7 +11,13 @@
         "uncommon": 3,
         "rare_mythic": 1
       },
-      "weight": 28985
+      "weight": 28985,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -21,7 +27,14 @@
         "uncommon": 3,
         "rare_mythic": 1
       },
-      "weight": 11935
+      "weight": 11935,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -31,7 +44,14 @@
         "uncommon_partner_1": 2,
         "rare_mythic": 1
       },
-      "weight": 2046
+      "weight": 2046,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "uncommon_partner_1",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +62,15 @@
         "uncommon_partner_1": 2,
         "rare_mythic": 1
       },
-      "weight": 682
+      "weight": 682,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "uncommon_partner_1",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -52,7 +80,14 @@
         "uncommon_partner_2": 2,
         "rare_mythic": 1
       },
-      "weight": 2046
+      "weight": 2046,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "uncommon_partner_2",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -63,7 +98,15 @@
         "uncommon_partner_2": 2,
         "rare_mythic": 1
       },
-      "weight": 682
+      "weight": 682,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "uncommon_partner_2",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -73,7 +116,14 @@
         "uncommon_partner_3": 2,
         "rare_mythic": 1
       },
-      "weight": 2046
+      "weight": 2046,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "uncommon_partner_3",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -84,7 +134,15 @@
         "uncommon_partner_3": 2,
         "rare_mythic": 1
       },
-      "weight": 682
+      "weight": 682,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "uncommon_partner_3",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -94,7 +152,14 @@
         "uncommon_partner_4": 2,
         "rare_mythic": 1
       },
-      "weight": 2046
+      "weight": 2046,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "uncommon_partner_4",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -105,7 +170,15 @@
         "uncommon_partner_4": 2,
         "rare_mythic": 1
       },
-      "weight": 682
+      "weight": 682,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "uncommon_partner_4",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -115,7 +188,14 @@
         "uncommon_partner_5": 2,
         "rare_mythic": 1
       },
-      "weight": 2046
+      "weight": 2046,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "uncommon_partner_5",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -126,7 +206,15 @@
         "uncommon_partner_5": 2,
         "rare_mythic": 1
       },
-      "weight": 682
+      "weight": 682,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "uncommon_partner_5",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -135,7 +223,13 @@
         "uncommon": 2,
         "rare_partner_1": 2
       },
-      "weight": 930
+      "weight": 930,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_partner_1"
+      ]
     },
     {
       "sheets": {
@@ -145,7 +239,14 @@
         "uncommon": 2,
         "rare_partner_1": 2
       },
-      "weight": 310
+      "weight": 310,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "rare_partner_1"
+      ]
     },
     {
       "sheets": {
@@ -154,7 +255,13 @@
         "uncommon": 2,
         "rare_partner_2": 2
       },
-      "weight": 930
+      "weight": 930,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_partner_2"
+      ]
     },
     {
       "sheets": {
@@ -164,7 +271,14 @@
         "uncommon": 2,
         "rare_partner_2": 2
       },
-      "weight": 310
+      "weight": 310,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "rare_partner_2"
+      ]
     },
     {
       "sheets": {
@@ -173,7 +287,13 @@
         "uncommon": 2,
         "rare_partner_3": 2
       },
-      "weight": 930
+      "weight": 930,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_partner_3"
+      ]
     },
     {
       "sheets": {
@@ -183,7 +303,14 @@
         "uncommon": 2,
         "rare_partner_3": 2
       },
-      "weight": 310
+      "weight": 310,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "rare_partner_3"
+      ]
     },
     {
       "sheets": {
@@ -192,7 +319,13 @@
         "uncommon": 2,
         "rare_partner_4": 2
       },
-      "weight": 930
+      "weight": 930,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_partner_4"
+      ]
     },
     {
       "sheets": {
@@ -202,7 +335,14 @@
         "uncommon": 2,
         "rare_partner_4": 2
       },
-      "weight": 310
+      "weight": 310,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "rare_partner_4"
+      ]
     },
     {
       "sheets": {
@@ -211,7 +351,13 @@
         "uncommon": 2,
         "rare_partner_5": 2
       },
-      "weight": 930
+      "weight": 930,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "rare_partner_5"
+      ]
     },
     {
       "sheets": {
@@ -221,7 +367,14 @@
         "uncommon": 2,
         "rare_partner_5": 2
       },
-      "weight": 310
+      "weight": 310,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "rare_partner_5"
+      ]
     },
     {
       "sheets": {
@@ -230,7 +383,13 @@
         "uncommon": 2,
         "mythic_partner_1": 2
       },
-      "weight": 465
+      "weight": 465,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "mythic_partner_1"
+      ]
     },
     {
       "sheets": {
@@ -240,7 +399,14 @@
         "uncommon": 2,
         "mythic_partner_1": 2
       },
-      "weight": 155
+      "weight": 155,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "uncommon",
+        "mythic_partner_1"
+      ]
     },
     {
       "sheets": {
@@ -250,7 +416,14 @@
         "foil_mythic_partner_1": 2,
         "rare_mythic": 1
       },
-      "weight": 22
+      "weight": 22,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_mythic_partner_1",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -260,7 +433,14 @@
         "foil_rare_partner_1": 2,
         "rare_mythic": 1
       },
-      "weight": 44
+      "weight": 44,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_rare_partner_1",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -270,7 +450,14 @@
         "foil_rare_partner_2": 2,
         "rare_mythic": 1
       },
-      "weight": 44
+      "weight": 44,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_rare_partner_2",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -280,7 +467,14 @@
         "foil_rare_partner_3": 2,
         "rare_mythic": 1
       },
-      "weight": 44
+      "weight": 44,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_rare_partner_3",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -290,7 +484,14 @@
         "foil_rare_partner_4": 2,
         "rare_mythic": 1
       },
-      "weight": 44
+      "weight": 44,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_rare_partner_4",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -300,7 +501,14 @@
         "foil_rare_partner_5": 2,
         "rare_mythic": 1
       },
-      "weight": 44
+      "weight": 44,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_rare_partner_5",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -310,7 +518,14 @@
         "foil_uncommon_partner_1": 2,
         "rare_mythic": 1
       },
-      "weight": 88
+      "weight": 88,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_uncommon_partner_1",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -320,7 +535,14 @@
         "foil_uncommon_partner_2": 2,
         "rare_mythic": 1
       },
-      "weight": 88
+      "weight": 88,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_uncommon_partner_2",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -330,7 +552,14 @@
         "foil_uncommon_partner_3": 2,
         "rare_mythic": 1
       },
-      "weight": 88
+      "weight": 88,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_uncommon_partner_3",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -340,7 +569,14 @@
         "foil_uncommon_partner_4": 2,
         "rare_mythic": 1
       },
-      "weight": 88
+      "weight": 88,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_uncommon_partner_4",
+        "rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -350,7 +586,14 @@
         "foil_uncommon_partner_5": 2,
         "rare_mythic": 1
       },
-      "weight": 88
+      "weight": 88,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "foil_uncommon_partner_5",
+        "rare_mythic"
+      ]
     }
   ],
   "sheets": {

@@ -16,7 +16,18 @@
         "foil_uncommon": 2,
         "foil_common_or_basic": 4
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_all_showcase",
+        "foil_common_uncommon_showcase",
+        "rare_mythic_showcase",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_art",
+        "foil_showcase_basic",
+        "foil_uncommon",
+        "foil_common_or_basic"
+      ]
     }
   ],
   "sheets": {

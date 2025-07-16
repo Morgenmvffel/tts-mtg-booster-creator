@@ -17,7 +17,19 @@
         "white_border": 1,
         "playtest": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "white",
+        "blue",
+        "black",
+        "red",
+        "green",
+        "landmulticolorless",
+        "rare_mythic",
+        "future_sight",
+        "white_border",
+        "playtest"
+      ]
     }
   ],
   "sheets": {

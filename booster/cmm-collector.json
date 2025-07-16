@@ -17,7 +17,19 @@
         "etched_rare_mythic": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 96
+      "weight": 96,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "common_uncommon_showcase",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "rare_mythic_showcase",
+        "extended_commander",
+        "etched_rare_mythic",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "etched_rare_mythic": 1,
         "textured_rare_mythic": 1
       },
-      "weight": 4
+      "weight": 4,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "common_uncommon_showcase",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "rare_mythic_showcase",
+        "extended_commander",
+        "etched_rare_mythic",
+        "textured_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -47,7 +71,19 @@
         "etched_rare_mythic": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 24
+      "weight": 24,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "common_uncommon_showcase",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "rare_mythic_showcase",
+        "foil_extended_commander",
+        "etched_rare_mythic",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -62,7 +98,19 @@
         "etched_rare_mythic": 1,
         "textured_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "common_uncommon_showcase",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic",
+        "rare_mythic_showcase",
+        "foil_extended_commander",
+        "etched_rare_mythic",
+        "textured_rare_mythic"
+      ]
     }
   ],
   "sheets": {

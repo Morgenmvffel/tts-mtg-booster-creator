@@ -17,7 +17,19 @@
         "etched_common_uncommon": 1,
         "etched_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "sketch_common_uncommon",
+        "extended_art_rare",
+        "foil_boosterfun_common_uncommon",
+        "boosterfun_rare_mythic",
+        "foil_boosterfun_rare_mythic",
+        "etched_basic",
+        "etched_common_uncommon",
+        "etched_rare_mythic"
+      ]
     }
   ],
   "sheets": {

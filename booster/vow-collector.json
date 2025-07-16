@@ -17,7 +17,19 @@
         "rare_mythic_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 5
+      "weight": 5,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "common_uncommon_showcase",
+        "extended_rare_mythic",
+        "extended_commander",
+        "uncommon_dracula",
+        "rare_mythic_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -31,7 +43,18 @@
         "rare_mythic_dracula": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 5
+      "weight": 5,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "common_uncommon_showcase",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_dracula",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -47,7 +70,20 @@
         "rare_mythic_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "common_uncommon_showcase",
+        "foil_uncommon_dracula",
+        "extended_rare_mythic",
+        "extended_commander",
+        "uncommon_dracula",
+        "rare_mythic_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -62,7 +98,19 @@
         "rare_mythic_dracula": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "common_uncommon_showcase",
+        "foil_uncommon_dracula",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_dracula",
+        "foil_rare_mythic_showcase"
+      ]
     }
   ],
   "sheets": {

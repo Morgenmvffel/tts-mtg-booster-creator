@@ -19,7 +19,21 @@
         "etched_rare_mythic": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_common_uncommon_showcase",
+        "foil_common_uncommon_legendary",
+        "foil_rare_mythic",
+        "extended_commander",
+        "extended_rare_mythic",
+        "rare_mythic_showcase",
+        "etched_common_uncommon",
+        "etched_rare_mythic",
+        "foil_showcase_rare_mythic"
+      ]
     }
   ],
   "sheets": {

@@ -12,7 +12,14 @@
         "uncommon": 3,
         "nonlesson_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "sta",
+        "lesson",
+        "nonlesson_common",
+        "uncommon",
+        "nonlesson_rare_mythic"
+      ]
     }
   ],
   "sheets": {

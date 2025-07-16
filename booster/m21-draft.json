@@ -11,7 +11,13 @@
         "rare_mythic": 1,
         "basic_or_gainland": 1
       },
-      "weight": 20
+      "weight": 20,
+      "sheet_order": [
+        "nongainland_common",
+        "uncommon_with_showcase",
+        "rare_mythic",
+        "basic_or_gainland"
+      ]
     },
     {
       "sheets": {
@@ -21,7 +27,14 @@
         "rare_mythic": 1,
         "basic_or_gainland": 1
       },
-      "weight": 9
+      "weight": 9,
+      "sheet_order": [
+        "nongainland_common",
+        "foil",
+        "uncommon_with_showcase",
+        "rare_mythic",
+        "basic_or_gainland"
+      ]
     },
     {
       "sheets": {
@@ -31,7 +44,14 @@
         "rare_mythic": 1,
         "basic_or_gainland": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "nongainland_common",
+        "borderless_reprint",
+        "uncommon_with_showcase",
+        "rare_mythic",
+        "basic_or_gainland"
+      ]
     }
   ],
   "sheets": {

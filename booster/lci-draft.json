@@ -12,7 +12,14 @@
         "sfc_uncommon_with_showcase": 3,
         "rare_mythic_with_showcase": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "cave_fullart_land",
+        "sfc_common",
+        "dfc_common_uncommon",
+        "sfc_uncommon_with_showcase",
+        "rare_mythic_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -23,7 +30,15 @@
         "sfc_uncommon_with_showcase": 3,
         "rare_mythic_with_showcase": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cave_fullart_land",
+        "sfc_common",
+        "foil_with_showcase",
+        "dfc_common_uncommon",
+        "sfc_uncommon_with_showcase",
+        "rare_mythic_with_showcase"
+      ]
     }
   ],
   "sheets": {

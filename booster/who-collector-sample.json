@@ -8,14 +8,21 @@
       "sheets": {
         "alternate_frame": 2
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "alternate_frame"
+      ]
     },
     {
       "sheets": {
         "alternate_frame": 1,
         "alternate_frame_foil": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "alternate_frame",
+        "alternate_frame_foil"
+      ]
     }
   ],
   "sheets": {

@@ -22,7 +22,24 @@
         "tardis": 1,
         "finale": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "land",
+        "doctor",
+        "blast",
+        "timey",
+        "paradox",
+        "master",
+        "extended_new",
+        "foil_extended_new",
+        "extended_reprint",
+        "foil_extended_reprint",
+        "surge_extended_new",
+        "surge_extended_reprint",
+        "surge_wildcard",
+        "tardis",
+        "finale"
+      ]
     }
   ],
   "sheets": {

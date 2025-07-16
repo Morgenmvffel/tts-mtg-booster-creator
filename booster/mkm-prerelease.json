@@ -9,7 +9,11 @@
         "promo": 1,
         "bonus": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "promo",
+        "bonus"
+      ]
     }
   ],
   "sheets": {

@@ -12,7 +12,14 @@
         "enchanting_tales": 1,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "enchanting_tales",
+        "rare_mythic"
+      ]
     }
   ],
   "sheets": {

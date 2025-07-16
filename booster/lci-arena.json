@@ -12,7 +12,14 @@
         "sfc_uncommon": 3,
         "rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cave_basic_land",
+        "sfc_common",
+        "dfc_common_uncommon",
+        "sfc_uncommon",
+        "rare_mythic"
+      ]
     }
   ],
   "sheets": {

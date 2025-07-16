@@ -14,7 +14,16 @@
         "rm_extended": 1,
         "foil_rare_mythic": 1
       },
-      "weight": 70
+      "weight": 70,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common_or_basic",
+        "foil_uncommon",
+        "showcase",
+        "ancillary",
+        "rm_extended",
+        "foil_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +35,16 @@
         "rm_extended": 1,
         "foil_rare_mythic": 1
       },
-      "weight": 80
+      "weight": 80,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common_or_basic",
+        "foil_uncommon",
+        "showcase",
+        "ancillary",
+        "rm_extended",
+        "foil_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -38,7 +56,16 @@
         "rm_extended": 1,
         "foil_rare_mythic": 1
       },
-      "weight": 25
+      "weight": 25,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common_or_basic",
+        "foil_uncommon",
+        "showcase",
+        "ancillary",
+        "rm_extended",
+        "foil_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +77,16 @@
         "rm_extended": 1,
         "foil_rare_mythic": 1
       },
-      "weight": 14
+      "weight": 14,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common_or_basic",
+        "foil_uncommon",
+        "showcase",
+        "ancillary",
+        "rm_extended",
+        "foil_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -62,7 +98,16 @@
         "rm_extended": 1,
         "foil_rare_mythic": 1
       },
-      "weight": 7
+      "weight": 7,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common_or_basic",
+        "foil_uncommon",
+        "showcase",
+        "ancillary",
+        "rm_extended",
+        "foil_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -74,7 +119,16 @@
         "rm_extended": 1,
         "foil_rare_mythic": 1
       },
-      "weight": 4
+      "weight": 4,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common_or_basic",
+        "foil_uncommon",
+        "showcase",
+        "ancillary",
+        "rm_extended",
+        "foil_rare_mythic"
+      ]
     }
   ],
   "sheets": {

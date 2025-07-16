@@ -18,7 +18,20 @@
         "surge_booster_fun_u": 1,
         "hildebrant_poster_rm": 1
       },
-      "weight": 500
+      "weight": 500,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "surge_booster_fun_u",
+        "hildebrant_poster_rm"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +47,20 @@
         "surge_booster_fun_u": 1,
         "foil_hildebrant_poster_rm": 1
       },
-      "weight": 499
+      "weight": 499,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "surge_booster_fun_u",
+        "foil_hildebrant_poster_rm"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +76,20 @@
         "surge_booster_fun_u": 1,
         "serialized_poster": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "surge_booster_fun_u",
+        "serialized_poster"
+      ]
     },
     {
       "sheets": {
@@ -66,7 +105,20 @@
         "surge_booster_fun_rm": 1,
         "hildebrant_u": 1
       },
-      "weight": 500
+      "weight": 500,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "surge_booster_fun_rm",
+        "hildebrant_u"
+      ]
     },
     {
       "sheets": {
@@ -82,7 +134,20 @@
         "surge_booster_fun_rm": 1,
         "silver_hildebrant_u": 1
       },
-      "weight": 498
+      "weight": 498,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "surge_booster_fun_rm",
+        "silver_hildebrant_u"
+      ]
     },
     {
       "sheets": {
@@ -98,7 +163,20 @@
         "serialized_topper": 1,
         "hildebrant_u": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "serialized_topper",
+        "hildebrant_u"
+      ]
     },
     {
       "sheets": {
@@ -114,7 +192,20 @@
         "serialized_topper": 1,
         "silver_hildebrant_u": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "showcase_common",
+        "silver_showcase_common",
+        "showcase_uncommon",
+        "silver_showcase_uncommon",
+        "showcase_rare_mythic",
+        "silver_showcase_rare_mythic",
+        "surge_map_land",
+        "scene_jumpstart_rare_mythic",
+        "surge_extended_rare_mythic",
+        "serialized_topper",
+        "silver_hildebrant_u"
+      ]
     }
   ],
   "sheets": {

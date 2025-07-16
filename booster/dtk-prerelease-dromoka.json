@@ -10,7 +10,12 @@
         "uncommon": 4,
         "promo": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
     }
   ],
   "sheets": {

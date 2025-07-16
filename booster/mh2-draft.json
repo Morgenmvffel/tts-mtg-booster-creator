@@ -11,7 +11,13 @@
         "new_rare_mythic": 1,
         "reprint_to_modern": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "common_with_showcase",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint_to_modern"
+      ]
     },
     {
       "sheets": {
@@ -21,7 +27,14 @@
         "foil_with_showcase": 1,
         "reprint_to_modern": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common_with_showcase",
+        "new_uncommon",
+        "new_rare_mythic",
+        "foil_with_showcase",
+        "reprint_to_modern"
+      ]
     }
   ],
   "sheets": {

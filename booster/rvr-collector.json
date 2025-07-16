@@ -16,7 +16,18 @@
         "borderless_rare_mythic": 1,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 99
+      "weight": 99,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_artifact_land",
+        "retro_common_uncommon",
+        "foil_retro_common_uncommon",
+        "foil_rare_mythic",
+        "retro_rare_mythic",
+        "borderless_rare_mythic",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -30,7 +41,18 @@
         "borderless_rare_mythic": 1,
         "serialized": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_artifact_land",
+        "retro_common_uncommon",
+        "foil_retro_common_uncommon",
+        "foil_rare_mythic",
+        "retro_rare_mythic",
+        "borderless_rare_mythic",
+        "serialized"
+      ]
     }
   ],
   "sheets": {

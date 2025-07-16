@@ -16,7 +16,18 @@
         "booster_fun": 2,
         "foil_booster_fun": 1
       },
-      "weight": 19
+      "weight": 19,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "showcase_cu",
+        "retro_cu",
+        "foil_showcase_cu",
+        "foil_rare_mythic",
+        "booster_fun",
+        "foil_booster_fun"
+      ]
     },
     {
       "sheets": {
@@ -29,7 +40,17 @@
         "booster_fun": 2,
         "foil_booster_fun": 1
       },
-      "weight": 231
+      "weight": 231,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "retro_cu",
+        "foil_showcase_cu",
+        "foil_rare_mythic",
+        "booster_fun",
+        "foil_booster_fun"
+      ]
     }
   ],
   "sheets": {

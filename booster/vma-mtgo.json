@@ -11,7 +11,13 @@
         "rare_mythic": 1,
         "special": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "special"
+      ]
     },
     {
       "sheets": {
@@ -20,7 +26,13 @@
         "rare_mythic": 1,
         "foil": 1
       },
-      "weight": 157
+      "weight": 157,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "foil"
+      ]
     }
   ],
   "sheets": {

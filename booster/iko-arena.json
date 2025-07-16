@@ -11,7 +11,13 @@
         "uncommon_baseset": 3,
         "rare_mythic_baseset": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "basic_or_gainland",
+        "nongainland_common_baseset",
+        "uncommon_baseset",
+        "rare_mythic_baseset"
+      ]
     }
   ],
   "sheets": {

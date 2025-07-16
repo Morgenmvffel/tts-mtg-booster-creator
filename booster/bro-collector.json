@@ -18,7 +18,20 @@
         "transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 2189
+      "weight": 2189,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "transformers",
+        "foil_alt_art"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +47,20 @@
         "transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 11
+      "weight": 11,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "transformers",
+        "double_rainbow_serialized"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +76,20 @@
         "foil_transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 597
+      "weight": 597,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_transformers",
+        "foil_alt_art"
+      ]
     },
     {
       "sheets": {
@@ -66,7 +105,20 @@
         "foil_transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_transformers",
+        "double_rainbow_serialized"
+      ]
     },
     {
       "sheets": {
@@ -82,7 +134,20 @@
         "transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 2189
+      "weight": 2189,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "transformers",
+        "foil_alt_art"
+      ]
     },
     {
       "sheets": {
@@ -98,7 +163,20 @@
         "transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 11
+      "weight": 11,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "transformers",
+        "double_rainbow_serialized"
+      ]
     },
     {
       "sheets": {
@@ -114,7 +192,20 @@
         "foil_transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 597
+      "weight": 597,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_transformers",
+        "foil_alt_art"
+      ]
     },
     {
       "sheets": {
@@ -130,7 +221,20 @@
         "foil_transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_transformers",
+        "double_rainbow_serialized"
+      ]
     }
   ],
   "sheets": {

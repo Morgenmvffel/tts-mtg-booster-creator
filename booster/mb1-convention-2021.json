@@ -22,7 +22,24 @@
         "rare": 1,
         "playtest2": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "white_a",
+        "white_b",
+        "blue_a",
+        "blue_b",
+        "black_a",
+        "black_b",
+        "red_a",
+        "red_b",
+        "green_a",
+        "green_b",
+        "multicolor",
+        "colorless",
+        "old_frame",
+        "rare",
+        "playtest2"
+      ]
     }
   ],
   "sheets": {

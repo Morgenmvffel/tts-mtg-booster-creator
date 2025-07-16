@@ -12,7 +12,14 @@
         "common": 9,
         "uncommon": 3
       },
-      "weight": 18
+      "weight": 18,
+      "sheet_order": [
+        "mana_slot",
+        "retro_common_uncommon",
+        "rare_mythic_with_showcase",
+        "common",
+        "uncommon"
+      ]
     },
     {
       "sheets": {
@@ -23,7 +30,15 @@
         "foil_with_showcase": 1,
         "uncommon": 3
       },
-      "weight": 9
+      "weight": 9,
+      "sheet_order": [
+        "mana_slot",
+        "retro_common_uncommon",
+        "rare_mythic_with_showcase",
+        "common",
+        "foil_with_showcase",
+        "uncommon"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +47,13 @@
         "retro_rare_mythic": 1,
         "uncommon": 3
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "mana_slot",
+        "common",
+        "retro_rare_mythic",
+        "uncommon"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +63,14 @@
         "foil_with_showcase": 1,
         "uncommon": 3
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mana_slot",
+        "common",
+        "retro_rare_mythic",
+        "foil_with_showcase",
+        "uncommon"
+      ]
     }
   ],
   "sheets": {

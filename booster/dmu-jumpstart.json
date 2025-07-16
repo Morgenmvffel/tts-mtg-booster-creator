@@ -10,7 +10,12 @@
         "arcane_mischief_foils": 2,
         "rare_mythic_blue": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "arcane_mischief",
+        "arcane_mischief_foils",
+        "rare_mythic_blue"
+      ]
     },
     {
       "sheets": {
@@ -18,7 +23,12 @@
         "beast_territory_foils": 2,
         "rare_mythic_green": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "beast_territory",
+        "beast_territory_foils",
+        "rare_mythic_green"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +36,12 @@
         "coalition_corps_foils": 2,
         "rare_mythic_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "coalition_corps",
+        "coalition_corps_foils",
+        "rare_mythic_white"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +49,12 @@
         "coalition_legion_foils": 2,
         "rare_mythic_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "coalition_legion",
+        "coalition_legion_foils",
+        "rare_mythic_white"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +62,12 @@
         "monster_territory_foils": 2,
         "rare_mythic_green": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "monster_territory",
+        "monster_territory_foils",
+        "rare_mythic_green"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +75,12 @@
         "mystic_mischief_foils": 2,
         "rare_mythic_blue": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mystic_mischief",
+        "mystic_mischief_foils",
+        "rare_mythic_blue"
+      ]
     },
     {
       "sheets": {
@@ -58,7 +88,12 @@
         "ready_to_attack_foils": 2,
         "rare_mythic_red": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ready_to_attack",
+        "ready_to_attack_foils",
+        "rare_mythic_red"
+      ]
     },
     {
       "sheets": {
@@ -66,7 +101,12 @@
         "ready_to_charge_foils": 2,
         "rare_mythic_red": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "ready_to_charge",
+        "ready_to_charge_foils",
+        "rare_mythic_red"
+      ]
     },
     {
       "sheets": {
@@ -74,7 +114,12 @@
         "totally_merciless_foils": 2,
         "rare_mythic_black": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "totally_merciless",
+        "totally_merciless_foils",
+        "rare_mythic_black"
+      ]
     },
     {
       "sheets": {
@@ -82,7 +127,12 @@
         "totally_ruthless_foils": 2,
         "rare_mythic_black": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "totally_ruthless",
+        "totally_ruthless_foils",
+        "rare_mythic_black"
+      ]
     }
   ],
   "sheets": {

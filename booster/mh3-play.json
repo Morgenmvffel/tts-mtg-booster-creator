@@ -14,7 +14,16 @@
         "wildcard": 1,
         "foil_with_showcase": 1
       },
-      "weight": 189
+      "weight": 189,
+      "sheet_order": [
+        "land",
+        "common",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint",
+        "wildcard",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -27,7 +36,17 @@
         "wildcard": 1,
         "foil_with_showcase": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "land",
+        "special_guest",
+        "common",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint",
+        "wildcard",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -39,7 +58,16 @@
         "wildcard": 1,
         "foil_with_showcase": 1
       },
-      "weight": 126
+      "weight": 126,
+      "sheet_order": [
+        "foil_land",
+        "common",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint",
+        "wildcard",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -52,7 +80,17 @@
         "wildcard": 1,
         "foil_with_showcase": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "foil_land",
+        "special_guest",
+        "common",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint",
+        "wildcard",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -63,7 +101,15 @@
         "wildcard": 1,
         "foil_with_showcase": 1
       },
-      "weight": 315
+      "weight": 315,
+      "sheet_order": [
+        "common",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint",
+        "wildcard",
+        "foil_with_showcase"
+      ]
     },
     {
       "sheets": {
@@ -75,7 +121,16 @@
         "wildcard": 1,
         "foil_with_showcase": 1
       },
-      "weight": 5
+      "weight": 5,
+      "sheet_order": [
+        "common",
+        "special_guest",
+        "new_uncommon",
+        "new_rare_mythic",
+        "reprint",
+        "wildcard",
+        "foil_with_showcase"
+      ]
     }
   ],
   "sheets": {

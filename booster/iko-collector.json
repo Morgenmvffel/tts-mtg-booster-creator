@@ -17,7 +17,19 @@
         "godzilla": 1,
         "foil_showcase_any": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "commander",
+        "extended_art",
+        "rare_mythic_foil",
+        "common_uncommon_showcase",
+        "rare_mythic_showcase",
+        "godzilla",
+        "foil_showcase_any"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "godzilla_foil": 1,
         "foil_showcase_any": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "commander",
+        "extended_art",
+        "rare_mythic_foil",
+        "common_uncommon_showcase",
+        "rare_mythic_showcase",
+        "godzilla_foil",
+        "foil_showcase_any"
+      ]
     }
   ],
   "sheets": {

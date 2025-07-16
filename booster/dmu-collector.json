@@ -17,7 +17,19 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 16199
+      "weight": 16199,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "retold_uncommon",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 16199
+      "weight": 16199,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "etched_retold_uncommon",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -48,7 +72,20 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 12901
+      "weight": 12901,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "retold_uncommon",
+        "etched_retold_rare_mythic",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -64,7 +101,20 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 12901
+      "weight": 12901,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "etched_retold_uncommon",
+        "etched_retold_rare_mythic",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -79,7 +129,19 @@
         "etched_retold_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 9603
+      "weight": 9603,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "retold_uncommon",
+        "etched_retold_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -95,7 +157,20 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 501
+      "weight": 501,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "lost_legends",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "retold_uncommon",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -111,7 +186,20 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 501
+      "weight": 501,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "lost_legends",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "etched_retold_uncommon",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -128,7 +216,21 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 399
+      "weight": 399,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "lost_legends",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "retold_uncommon",
+        "etched_retold_rare_mythic",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -145,7 +247,21 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 399
+      "weight": 399,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "lost_legends",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "etched_retold_uncommon",
+        "etched_retold_rare_mythic",
+        "showcase_rare_mythic",
+        "textured_foil"
+      ]
     },
     {
       "sheets": {
@@ -161,7 +277,20 @@
         "etched_retold_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 297
+      "weight": 297,
+      "sheet_order": [
+        "foil_fullart_land",
+        "foil_common",
+        "lost_legends",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "foil_uncommon_showcase",
+        "foil_alt_border_rare_mythic",
+        "retold_uncommon",
+        "etched_retold_rare_mythic",
+        "textured_foil"
+      ]
     }
   ],
   "sheets": {

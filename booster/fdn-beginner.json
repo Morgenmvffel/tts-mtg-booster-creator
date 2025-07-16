@@ -8,61 +8,91 @@
       "sheets": {
         "cats": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "cats"
+      ]
     },
     {
       "sheets": {
         "elves": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "elves"
+      ]
     },
     {
       "sheets": {
         "goblins": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "goblins"
+      ]
     },
     {
       "sheets": {
         "healing": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "healing"
+      ]
     },
     {
       "sheets": {
         "inferno": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "inferno"
+      ]
     },
     {
       "sheets": {
         "pirates": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "pirates"
+      ]
     },
     {
       "sheets": {
         "primal": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "primal"
+      ]
     },
     {
       "sheets": {
         "undead": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "undead"
+      ]
     },
     {
       "sheets": {
         "vampires": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "vampires"
+      ]
     },
     {
       "sheets": {
         "wizards": 20
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "wizards"
+      ]
     }
   ],
   "sheets": {

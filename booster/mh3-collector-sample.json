@@ -9,14 +9,22 @@
         "foil_retro": 1,
         "showcase_rm": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "foil_retro",
+        "showcase_rm"
+      ]
     },
     {
       "sheets": {
         "foil_retro": 1,
         "foil_showcase_rm": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_retro",
+        "foil_showcase_rm"
+      ]
     }
   ],
   "sheets": {

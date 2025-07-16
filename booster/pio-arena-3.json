@@ -13,7 +13,15 @@
         "devotion": 1,
         "gate": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "variety",
+        "devotion",
+        "gate"
+      ]
     }
   ],
   "sheets": {

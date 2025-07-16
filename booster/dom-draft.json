@@ -11,7 +11,13 @@
         "nonlegendary_uncommon": 3,
         "legendary_rare_mythic": 1
       },
-      "weight": 3751
+      "weight": 3751,
+      "sheet_order": [
+        "basic",
+        "common",
+        "nonlegendary_uncommon",
+        "legendary_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -21,7 +27,14 @@
         "nonlegendary_uncommon": 3,
         "legendary_rare_mythic": 1
       },
-      "weight": 1089
+      "weight": 1089,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "nonlegendary_uncommon",
+        "legendary_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -31,7 +44,14 @@
         "legendary_uncommon": 1,
         "legendary_rare_mythic": 1
       },
-      "weight": 713
+      "weight": 713,
+      "sheet_order": [
+        "basic",
+        "common",
+        "nonlegendary_uncommon",
+        "legendary_uncommon",
+        "legendary_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +62,15 @@
         "legendary_uncommon": 1,
         "legendary_rare_mythic": 1
       },
-      "weight": 207
+      "weight": 207,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "nonlegendary_uncommon",
+        "legendary_uncommon",
+        "legendary_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -52,7 +80,14 @@
         "legendary_uncommon": 1,
         "nonlegendary_rare_mythic": 1
       },
-      "weight": 10540
+      "weight": 10540,
+      "sheet_order": [
+        "basic",
+        "common",
+        "nonlegendary_uncommon",
+        "legendary_uncommon",
+        "nonlegendary_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -63,7 +98,15 @@
         "legendary_uncommon": 1,
         "nonlegendary_rare_mythic": 1
       },
-      "weight": 3060
+      "weight": 3060,
+      "sheet_order": [
+        "basic",
+        "common",
+        "foil",
+        "nonlegendary_uncommon",
+        "legendary_uncommon",
+        "nonlegendary_rare_mythic"
+      ]
     }
   ],
   "sheets": {

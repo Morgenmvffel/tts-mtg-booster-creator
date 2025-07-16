@@ -15,7 +15,17 @@
         "foil_showcase_rare_mythic": 1,
         "etched_rare_mythic": 1
       },
-      "weight": 108
+      "weight": 108,
+      "sheet_order": [
+        "foil_uncommon",
+        "foil_showcase_uncommon",
+        "etched_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "nonfoil_extended",
+        "foil_showcase_rare_mythic",
+        "etched_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -28,7 +38,17 @@
         "foil_showcase_rare_mythic": 1,
         "etched_rare_mythic": 1
       },
-      "weight": 17
+      "weight": 17,
+      "sheet_order": [
+        "foil_uncommon",
+        "foil_showcase_uncommon",
+        "etched_uncommon",
+        "borderless_scene",
+        "foil_rare_mythic",
+        "nonfoil_extended",
+        "foil_showcase_rare_mythic",
+        "etched_rare_mythic"
+      ]
     }
   ],
   "sheets": {

@@ -12,7 +12,14 @@
         "dfc_uncommon": 1,
         "sfc_rare_mythic": 1
       },
-      "weight": 5
+      "weight": 5,
+      "sheet_order": [
+        "sfc_common",
+        "dfc_common",
+        "sfc_uncommon",
+        "dfc_uncommon",
+        "sfc_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -21,7 +28,13 @@
         "sfc_uncommon": 3,
         "dfc_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "sfc_common",
+        "dfc_common",
+        "sfc_uncommon",
+        "dfc_rare_mythic"
+      ]
     }
   ],
   "sheets": {

@@ -14,7 +14,16 @@
         "showcase_rare_mythic": 2,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 69
+      "weight": 69,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_land",
+        "foil_rare_mythic",
+        "commander_card",
+        "showcase_rare_mythic",
+        "foil_showcase_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +35,16 @@
         "showcase_rare_mythic": 2,
         "foil_showcase_rare_mythic": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_land",
+        "foil_rare_mythic",
+        "foil_commander",
+        "showcase_rare_mythic",
+        "foil_showcase_rare_mythic"
+      ]
     }
   ],
   "sheets": {

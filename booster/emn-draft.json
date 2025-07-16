@@ -12,7 +12,14 @@
         "sfc_rare_mythic": 1,
         "dfc_common_uncommon": 1
       },
-      "weight": 26
+      "weight": 26,
+      "sheet_order": [
+        "basic",
+        "sfc_common",
+        "sfc_uncommon",
+        "sfc_rare_mythic",
+        "dfc_common_uncommon"
+      ]
     },
     {
       "sheets": {
@@ -23,7 +30,15 @@
         "dfc_common_uncommon": 1,
         "foil": 1
       },
-      "weight": 9
+      "weight": 9,
+      "sheet_order": [
+        "basic",
+        "sfc_common",
+        "sfc_uncommon",
+        "sfc_rare_mythic",
+        "dfc_common_uncommon",
+        "foil"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +49,15 @@
         "dfc_common_uncommon": 1,
         "dfc_rare_mythic": 1
       },
-      "weight": 5
+      "weight": 5,
+      "sheet_order": [
+        "basic",
+        "sfc_common",
+        "sfc_uncommon",
+        "sfc_rare_mythic",
+        "dfc_common_uncommon",
+        "dfc_rare_mythic"
+      ]
     }
   ],
   "sheets": {

@@ -10,7 +10,12 @@
         "corruption_1_foils": 2,
         "rare_mythic_black": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "corruption_1",
+        "corruption_1_foils",
+        "rare_mythic_black"
+      ]
     },
     {
       "sheets": {
@@ -18,7 +23,12 @@
         "corruption_2_foils": 2,
         "rare_mythic_black": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "corruption_2",
+        "corruption_2_foils",
+        "rare_mythic_black"
+      ]
     },
     {
       "sheets": {
@@ -26,7 +36,12 @@
         "mite_y_1_foils": 2,
         "rare_mythic_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mite_y_1",
+        "mite_y_1_foils",
+        "rare_mythic_white"
+      ]
     },
     {
       "sheets": {
@@ -34,7 +49,12 @@
         "mite_y_2_foils": 2,
         "rare_mythic_white": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "mite_y_2",
+        "mite_y_2_foils",
+        "rare_mythic_white"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +62,12 @@
         "progress_1_foils": 2,
         "rare_mythic_blue": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "progress_1",
+        "progress_1_foils",
+        "rare_mythic_blue"
+      ]
     },
     {
       "sheets": {
@@ -50,7 +75,12 @@
         "progress_2_foils": 2,
         "rare_mythic_blue": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "progress_2",
+        "progress_2_foils",
+        "rare_mythic_blue"
+      ]
     },
     {
       "sheets": {
@@ -58,7 +88,12 @@
         "rebellious_1_foils": 2,
         "rare_mythic_red": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "rebellious_1",
+        "rebellious_1_foils",
+        "rare_mythic_red"
+      ]
     },
     {
       "sheets": {
@@ -66,7 +101,12 @@
         "rebellious_2_foils": 2,
         "rare_mythic_red": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "rebellious_2",
+        "rebellious_2_foils",
+        "rare_mythic_red"
+      ]
     },
     {
       "sheets": {
@@ -74,7 +114,12 @@
         "toxic_1_foils": 2,
         "rare_mythic_green": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "toxic_1",
+        "toxic_1_foils",
+        "rare_mythic_green"
+      ]
     },
     {
       "sheets": {
@@ -82,7 +127,12 @@
         "toxic_2_foils": 2,
         "rare_mythic_green": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "toxic_2",
+        "toxic_2_foils",
+        "rare_mythic_green"
+      ]
     }
   ],
   "sheets": {

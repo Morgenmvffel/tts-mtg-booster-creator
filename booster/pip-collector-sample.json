@@ -9,14 +9,22 @@
         "showcase_any": 1,
         "showcase_rm": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "showcase_any",
+        "showcase_rm"
+      ]
     },
     {
       "sheets": {
         "foil_showcase_any": 1,
         "showcase_rm": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_showcase_any",
+        "showcase_rm"
+      ]
     }
   ],
   "sheets": {

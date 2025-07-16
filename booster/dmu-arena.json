@@ -10,7 +10,12 @@
         "nonlegendary_uncommon": 3,
         "legendary_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "nonlegendary_uncommon",
+        "legendary_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -19,7 +24,13 @@
         "legendary_uncommon": 1,
         "nonlegendary_rare_mythic": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "common",
+        "nonlegendary_uncommon",
+        "legendary_uncommon",
+        "nonlegendary_rare_mythic"
+      ]
     }
   ],
   "sheets": {

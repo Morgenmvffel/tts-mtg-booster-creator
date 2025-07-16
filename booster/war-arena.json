@@ -10,7 +10,12 @@
         "nonplaneswalker_uncommon": 3,
         "planeswalker_rare_mythic": 1
       },
-      "weight": 29
+      "weight": 29,
+      "sheet_order": [
+        "common",
+        "nonplaneswalker_uncommon",
+        "planeswalker_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -19,7 +24,13 @@
         "planeswalker_uncommon": 1,
         "nonplaneswalker_rare_mythic": 1
       },
-      "weight": 92
+      "weight": 92,
+      "sheet_order": [
+        "common",
+        "nonplaneswalker_uncommon",
+        "planeswalker_uncommon",
+        "nonplaneswalker_rare_mythic"
+      ]
     }
   ],
   "sheets": {

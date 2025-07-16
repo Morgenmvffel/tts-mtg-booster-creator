@@ -9,7 +9,11 @@
         "common": 4,
         "uncommon": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon"
+      ]
     }
   ],
   "sheets": {

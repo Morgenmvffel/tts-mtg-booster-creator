@@ -9,14 +9,22 @@
         "nonfoil_rare_mythic": 1,
         "foil_uncommon_retro_artifact": 1
       },
-      "weight": 2
+      "weight": 2,
+      "sheet_order": [
+        "nonfoil_rare_mythic",
+        "foil_uncommon_retro_artifact"
+      ]
     },
     {
       "sheets": {
         "foil_rare_mythic": 1,
         "foil_uncommon_retro_artifact": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_rare_mythic",
+        "foil_uncommon_retro_artifact"
+      ]
     }
   ],
   "sheets": {

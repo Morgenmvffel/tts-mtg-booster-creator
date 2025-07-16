@@ -11,7 +11,13 @@
         "foil_basic": 2,
         "rare_mythic": 4
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "promo_transform_land",
+        "foil",
+        "foil_basic",
+        "rare_mythic"
+      ]
     }
   ],
   "sheets": {

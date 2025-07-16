@@ -17,7 +17,19 @@
         "foil_common_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1960
+      "weight": 1960,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_showcase",
+        "foil_common_uncommon_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "foil_common_uncommon_showcase": 1,
         "etched_rare_mythic_showcase": 1
       },
-      "weight": 91
+      "weight": 91,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_showcase",
+        "foil_common_uncommon_showcase",
+        "etched_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -47,7 +71,19 @@
         "foil_common_uncommon_showcase": 1,
         "gilded_rare_mythic_showcase": 1
       },
-      "weight": 315
+      "weight": 315,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_showcase",
+        "foil_common_uncommon_showcase",
+        "gilded_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -62,7 +98,19 @@
         "gilded_common_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1400
+      "weight": 1400,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_showcase",
+        "gilded_common_uncommon_showcase",
+        "foil_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -77,7 +125,19 @@
         "gilded_common_uncommon_showcase": 1,
         "etched_rare_mythic_showcase": 1
       },
-      "weight": 65
+      "weight": 65,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_showcase",
+        "gilded_common_uncommon_showcase",
+        "etched_rare_mythic_showcase"
+      ]
     },
     {
       "sheets": {
@@ -92,7 +152,19 @@
         "gilded_common_uncommon_showcase": 1,
         "gilded_rare_mythic_showcase": 1
       },
-      "weight": 225
+      "weight": 225,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander",
+        "rare_mythic_showcase",
+        "gilded_common_uncommon_showcase",
+        "gilded_rare_mythic_showcase"
+      ]
     }
   ],
   "sheets": {

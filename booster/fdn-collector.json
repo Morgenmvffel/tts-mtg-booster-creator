@@ -13,7 +13,15 @@
         "showcase_rare_mythic": 2,
         "foil_booster_fun": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_basic",
+        "foil_rare_mythic",
+        "showcase_rare_mythic",
+        "foil_booster_fun"
+      ]
     }
   ],
   "sheets": {

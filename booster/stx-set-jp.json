@@ -15,7 +15,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 17850
+      "weight": 17850,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -29,7 +39,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 5950
+      "weight": 5950,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -42,7 +63,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 20400
+      "weight": 20400,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -56,7 +87,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 6800
+      "weight": 6800,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -69,7 +111,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 6375
+      "weight": 6375,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -83,7 +135,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 2125
+      "weight": 2125,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -96,7 +159,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 3570
+      "weight": 3570,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -110,7 +183,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 1190
+      "weight": 1190,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -123,7 +207,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 1785
+      "weight": 1785,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -137,7 +231,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 595
+      "weight": 595,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -149,7 +254,16 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 102
+      "weight": 102,
+      "sheet_order": [
+        "basic",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -162,7 +276,17 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 34
+      "weight": 34,
+      "sheet_order": [
+        "basic",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -175,7 +299,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 3150
+      "weight": 3150,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -189,7 +323,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 1050
+      "weight": 1050,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -202,7 +347,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 3600
+      "weight": 3600,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -216,7 +371,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 1200
+      "weight": 1200,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -229,7 +395,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 1125
+      "weight": 1125,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -243,7 +419,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 375
+      "weight": 375,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -256,7 +443,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 630
+      "weight": 630,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -270,7 +467,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 210
+      "weight": 210,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -283,7 +491,17 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 315
+      "weight": 315,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -297,7 +515,18 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 105
+      "weight": 105,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -309,7 +538,16 @@
         "lesson": 1,
         "sta": 1
       },
-      "weight": 18
+      "weight": 18,
+      "sheet_order": [
+        "foil_basic",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta"
+      ]
     },
     {
       "sheets": {
@@ -322,7 +560,17 @@
         "sta": 1,
         "the_list": 1
       },
-      "weight": 6
+      "weight": 6,
+      "sheet_order": [
+        "foil_basic",
+        "uncommon",
+        "wildcard",
+        "rare_mythic",
+        "foil_with_showcase",
+        "lesson",
+        "sta",
+        "the_list"
+      ]
     }
   ],
   "sheets": {

@@ -10,7 +10,12 @@
         "uncommon_with_duplicates": 13,
         "rare": 2
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "common_with_duplicates",
+        "uncommon_with_duplicates",
+        "rare"
+      ]
     }
   ],
   "sheets": {

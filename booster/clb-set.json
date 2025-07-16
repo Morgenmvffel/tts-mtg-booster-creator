@@ -17,7 +17,19 @@
         "foil_with_showcase": 1,
         "foil_etched_legend": 1
       },
-      "weight": 12
+      "weight": 12,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "background",
+        "legendary_with_showcase",
+        "rare_mythic",
+        "foil_with_showcase",
+        "foil_etched_legend"
+      ]
     },
     {
       "sheets": {
@@ -33,7 +45,20 @@
         "foil_etched_legend": 1,
         "the_list": 1
       },
-      "weight": 4
+      "weight": 4,
+      "sheet_order": [
+        "basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "background",
+        "legendary_with_showcase",
+        "rare_mythic",
+        "foil_with_showcase",
+        "foil_etched_legend",
+        "the_list"
+      ]
     },
     {
       "sheets": {
@@ -48,7 +73,19 @@
         "foil_with_showcase": 1,
         "foil_etched_legend": 1
       },
-      "weight": 3
+      "weight": 3,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "background",
+        "legendary_with_showcase",
+        "rare_mythic",
+        "foil_with_showcase",
+        "foil_etched_legend"
+      ]
     },
     {
       "sheets": {
@@ -64,7 +101,20 @@
         "foil_etched_legend": 1,
         "the_list": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "common",
+        "uncommon",
+        "common_uncommon_showcase",
+        "wildcard",
+        "background",
+        "legendary_with_showcase",
+        "rare_mythic",
+        "foil_with_showcase",
+        "foil_etched_legend",
+        "the_list"
+      ]
     }
   ],
   "sheets": {

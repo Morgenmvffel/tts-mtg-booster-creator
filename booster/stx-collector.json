@@ -17,7 +17,19 @@
         "etched_sta_uncommon": 1,
         "etched_jp_sta_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "foil_lesson",
+        "extended_commander",
+        "extended_or_borderless_core",
+        "foil_sta_uncommon",
+        "foil_alt_art_wild",
+        "etched_sta_uncommon",
+        "etched_jp_sta_rare_mythic"
+      ]
     },
     {
       "sheets": {
@@ -32,7 +44,19 @@
         "etched_jp_sta_uncommon": 1,
         "etched_sta_rare_mythic": 1
       },
-      "weight": 1
+      "weight": 1,
+      "sheet_order": [
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "foil_lesson",
+        "extended_commander",
+        "extended_or_borderless_core",
+        "foil_sta_uncommon",
+        "foil_alt_art_wild",
+        "etched_jp_sta_uncommon",
+        "etched_sta_rare_mythic"
+      ]
     }
   ],
   "sheets": {
