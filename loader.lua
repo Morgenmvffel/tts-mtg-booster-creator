@@ -294,55 +294,45 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     end)
 end
 
-local function sortCardsByRarity(cards)
-    local rarityOrder = {"basic", "common", "special_guest", "uncommon", "showcase_cu", "retro_cu", "wildcard",
-                         "foil_showcase_cu", "rare_mythic", "foil_rare_mythic", "showcase_rare_mythic",
-                         "showcase_commander", "booster_fun", "foil_booster_fun", "foil_showcase_rare_mythic",
-                         "rare_mythic_with_boosterfun", "rare_mythic_with_showcase", "rare_mythic_showcase", "foil",
-                         "non_foil_land", "foil_basic", "foil_land", "basic", "land"}
-
-    local rarityScore = {}
-    for i, name in ipairs(rarityOrder) do
-        rarityScore[name] = i
+local function sortCardsBySheetOrder(cards, sheetOrder)
+    -- Create a mapping of sheet names to their index in sheetOrder
+    local sheetIndex = {}
+    for i, sheet in ipairs(sheetOrder) do
+        sheetIndex[sheet] = i
     end
 
-    local function getCardRarityRank(card)
+    -- Function to get the sheet index for sorting
+    local function getCardSheetIndex(card)
         local sheet = (card.sheetName or ""):lower()
-
-        -- Exact match
-        if rarityScore[sheet] then
-            return rarityScore[sheet], sheet
+        
+        -- If the sheet is in the sheetOrder, return its index, otherwise return a high index to place it at the end
+        if sheetIndex[sheet] then
+            return sheetIndex[sheet]
+        else
+            -- Log a message if the sheetName is not in the sheetOrder
+            log("Warning: sheetName '" .. sheet .. "' not found in sheetOrder.")
+            return #sheetOrder + 1  -- Place this card at the end if the sheet is not found in sheetOrder
         end
-
-        -- Fallback keywords
-        if sheet:find("uncommon") then
-            return rarityScore["uncommon"] or 4, sheet
-        end
-        if sheet:find("common") then
-            return rarityScore["common"] or 2, sheet
-        end
-        if sheet:find("rare") or sheet:find("mythic") then
-            return rarityScore["rare_mythic"] or 9, sheet
-        end
-
-        return 9999, sheet -- Unknown: lowest rarity, sorted alphabetically
     end
 
+    -- Sort cards based on their sheet order in reverse
     table.sort(cards, function(a, b)
-        local rankA, nameA = getCardRarityRank(a)
-        local rankB, nameB = getCardRarityRank(b)
+        local indexA = getCardSheetIndex(a)
+        local indexB = getCardSheetIndex(b)
 
-        if rankA ~= rankB then
-            return rankA > rankB -- descending rarity
-        else
-            return nameA < nameB -- ascending alphabetically for unknowns
+        -- First, sort by reversed sheet order (descending index)
+        if indexA ~= indexB then
+            return indexA > indexB  -- Reverse the order (descending index)
         end
+
+        -- If they are from the same sheet, fallback to sorting alphabetically by sheetName (or use the collectorNum as a tie-breaker if needed)
+        return a.collectorNum < b.collectorNum
     end)
 end
 
-local function spawnBagWithCards(cards, bagName, position, flipped, onFullySpawned, onError)
+local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, onFullySpawned, onError)
     -- Sort cards alphabetically by sheetName (fallback to name if missing)
-    sortCardsByRarity(cards)
+    sortCardsBySheetOrder(cards, sheetOrder)
     local containedObjects = {}
     local boosterName = ""
 
@@ -811,34 +801,25 @@ local function fetchCardData(cards, onComplete, onError)
 end
 
 -- Queries for the given card IDs, collates deck, and spawns objects.
-local function loadDeck(cardIDs, deckName, onComplete, onError)
+local function loadDeck(packs, deckName, onComplete, onError)
     local tokensPosition = self.positionToWorld(TOKENS_POSITION_OFFSET)
 
     printInfo("Querying Scryfall for card data...")
 
-    fetchCardData(cardIDs, function(cards, tokens)
-        local packs = {} -- packIndex -> list of cards
+    local sem = #packs  -- Semaphore for packs
+    local function decSem() sem = sem - 1 end
 
-        -- Categorize cards
-        for _, card in ipairs(cards) do
-            local packIndex = card.packIndex or 1
-            if not packs[packIndex] then
-                packs[packIndex] = {}
-            end
-            table.insert(packs[packIndex], card)
-        end
+    -- Table to collect all tokens
+    local allTokens = {}
 
-        printInfo("Spawning packs...")
+    -- Loop through each pack and call fetchCardData for each pack's card IDs
+    for packIndex, pack in ipairs(packs) do
+        local cardIDsForPack = pack.cards  -- Get card IDs for this pack
 
-        local packCount = 0
-        for _ in pairs(packs) do packCount = packCount + 1 end
+        fetchCardData(cardIDsForPack, function(cards, tokens)
+            -- After fetching the data for this pack, we can spawn the cards for this pack
+            -- printInfo("Spawning pack " .. packIndex)
 
-        local sem = packCount + 1  -- +1 for tokens
-        local function decSem() sem = sem - 1 end
-
-        -- Spawn each pack pile side by side
-        for packIndex, cardGroup in pairs(packs) do
-            -- print("Spawning pack " .. packIndex)
             local relativeOffset = {
                 MAINDECK_POSITION_OFFSET[1] + (packIndex - 1) * POSITION_SPACING,
                 MAINDECK_POSITION_OFFSET[2],
@@ -846,33 +827,42 @@ local function loadDeck(cardIDs, deckName, onComplete, onError)
             }
             local offset = self.positionToWorld(relativeOffset)
 
-            spawnBagWithCards(cardGroup, deckName .. " - Pack " .. packIndex, offset, true, function()
+            -- Spawn cards for this pack
+            spawnBagWithCards(cards, deckName .. " - Pack " .. packIndex, offset, false, pack.sheetOrder, function()
                 decSem()
             end, function(e)
-                printErr(e);
+                printErr(e)
                 decSem()
             end)
-        end
 
-        -- Spawn token deck
-        spawnDeck(tokens, deckName .. " - tokens", tokensPosition, 90, false, function()
+            -- Collect all tokens for later spawning
+            for _, token in ipairs(tokens) do
+                table.insert(allTokens, token)
+            end
+
+        end, function(e)
+            -- Error callback for fetchCardData
+            printErr("Failed to fetch card data for pack " .. packIndex .. ": " .. tostring(e))
+            decSem()
+        end)
+    end
+
+    -- Spawn all tokens at once after all packs are processed
+    Wait.condition(function()
+        -- Spawn the collected tokens only after all async fetch and card spawning are complete
+        spawnDeck(allTokens, deckName .. " - tokens", tokensPosition, 90, false, function()
             decSem()
         end, function(e)
-            printErr(e);
+            printErr(e)
             decSem()
         end)
-
-        -- Wait for all async spawns to complete
-        Wait.condition(function()
-            onComplete()
-        end, function()
-            return sem == 0
-        end, 10, function()
-            onError("Error spawning deck objects... timed out.")
-        end)
-
-    end, onError)
+    end, function()
+        return sem == 0  -- Wait for all packs to be processed
+    end, 10, function()
+        onError("Error spawning deck objects... timed out.")
+    end)
 end
+
 
 local function pickWeighted(options)
     local totalWeight = 0
@@ -972,32 +962,45 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
     local code = PackCode
 
     local function doPackGeneration(packInfo)
-        local allCards = {}
+        local packs = {}  -- This will hold each pack with cards and tokens.
 
         for packIndex = 1, numPacks do
             local boosterLayout = pickWeighted(packInfo.boosters)
 
-            for sheetName, count in pairs(boosterLayout.sheets) do
+            local pack = {
+                cards = {},   -- Array to store card data for this pack.
+                sheetOrder = boosterLayout.sheet_order,  -- Store the sheet order for later use
+            }
+
+            -- Loop through the sheet_order to respect the order of the sheets
+            for _, sheetName in ipairs(boosterLayout.sheet_order) do
+                local count = boosterLayout.sheets[sheetName]
                 local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
 
                 for _, rawId in ipairs(drawn) do
                     local setCode, collectorNum, isFoil = parseCardId(rawId)
 
-                    table.insert(allCards, {
+                    local cardData = {
                         count = 1,
                         name = "",
                         setCode = setCode,
                         collectorNum = collectorNum,
                         foil = isFoil,
                         packIndex = packIndex,
-                        sheetName = sheetName,
+                        sheetName = sheetName,  -- Keep track of which sheet the card came from
                         packName = packInfo.name
-                    })
+                    }
+
+                    -- Add each drawn card to the 'cards' array
+                    table.insert(pack.cards, cardData)
                 end
             end
+
+            -- Add the current pack to the list of packs
+            table.insert(packs, pack)
         end
 
-        onSuccess(allCards, "")
+        onSuccess(packs, "")
     end
 
     -- Use cached data if available
@@ -1054,8 +1057,8 @@ function generatePacks()
 
         printToAll("Starting pack generation...")
 
-        queryGeneratePacks(numberOfPacks, function(cardIDs, deckName)
-            loadDeck(cardIDs, deckName, function()
+        queryGeneratePacks(numberOfPacks, function(packs, deckName)
+            loadDeck(packs, deckName, function()
                 printToAll("Pack generation complete!")
                 lock = false
             end, function(e)
