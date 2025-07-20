@@ -8,7 +8,7 @@
       "sheets": {
         "foil_common": 4,
         "foil_uncommon": 3,
-        "eldrazi_land": 1,
+        "foil_eldrazi_land": 1,
         "retro_cu": 1,
         "foil_retro_cu": 1,
         "foil_rare_mythic": 1,
@@ -20,7 +20,7 @@
       "sheet_order": [
         "foil_common",
         "foil_uncommon",
-        "eldrazi_land",
+        "foil_eldrazi_land",
         "retro_cu",
         "foil_retro_cu",
         "foil_rare_mythic",
@@ -33,7 +33,7 @@
       "sheets": {
         "foil_common": 4,
         "foil_uncommon": 3,
-        "eldrazi_land": 1,
+        "foil_eldrazi_land": 1,
         "retro_cu": 1,
         "foil_retro_cu": 1,
         "foil_rare_mythic": 1,
@@ -45,7 +45,7 @@
       "sheet_order": [
         "foil_common",
         "foil_uncommon",
-        "eldrazi_land",
+        "foil_eldrazi_land",
         "retro_cu",
         "foil_retro_cu",
         "foil_rare_mythic",
@@ -267,14 +267,14 @@
         "mh3:9:foil": 1
       }
     },
-    "eldrazi_land": {
+    "foil_eldrazi_land": {
       "total_weight": 5,
       "cards": {
-        "mh3:304": 1,
-        "mh3:305": 1,
-        "mh3:306": 1,
-        "mh3:307": 1,
-        "mh3:308": 1
+        "mh3:304:foil": 1,
+        "mh3:305:foil": 1,
+        "mh3:306:foil": 1,
+        "mh3:307:foil": 1,
+        "mh3:308:foil": 1
       }
     },
     "retro_cu": {

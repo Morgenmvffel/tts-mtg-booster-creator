@@ -1,5 +1,9 @@
 [
   {
+    "name": "Final Fantasy Collector Booster",
+    "code": "fin-collector"
+  },
+  {
     "name": "Final Fantasy Play Booster",
     "code": "fin-play"
   },
@@ -8,8 +12,16 @@
     "code": "tdm-play"
   },
   {
+    "name": "Aetherdrift Collector Booster",
+    "code": "dft-collector"
+  },
+  {
     "name": "Aetherdrift Play Booster",
     "code": "dft-play"
+  },
+  {
+    "name": "Aetherdrift Prerelease Promo Pack",
+    "code": "dft-prerelease"
   },
   {
     "name": "Innistrad Remastered Collector Booster",
