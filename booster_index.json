@@ -1,11 +1,19 @@
 [
   {
+    "name": "Edge of Eternities Play Booster",
+    "code": "eoe-play"
+  },
+  {
     "name": "Final Fantasy Collector Booster",
     "code": "fin-collector"
   },
   {
     "name": "Final Fantasy Play Booster",
     "code": "fin-play"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Collector Booster",
+    "code": "tdm-collector"
   },
   {
     "name": "Tarkir: Dragonstorm Play Booster",
