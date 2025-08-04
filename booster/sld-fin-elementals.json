@@ -1,0 +1,32 @@
+{
+  "name": "SLD Final Fantasy Elementals",
+  "code": "sld-fin-elementals",
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "fin_elementals": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "fin_elementals"
+      ]
+    }
+  ],
+  "sheets": {
+    "fin_elementals": {
+      "total_weight": 5,
+      "cards": {
+        "sld:7004:foil": 1,
+        "sld:7005:foil": 1,
+        "sld:7006:foil": 1,
+        "sld:7007:foil": 1,
+        "sld:7008:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

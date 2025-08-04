@@ -1064,6 +1064,14 @@
     "code": "sld-blueprint-mk2"
   },
   {
+    "name": "SLD Chaos Emeralds",
+    "code": "sld-chaos-emeralds"
+  },
+  {
+    "name": "SLD Final Fantasy Elementals",
+    "code": "sld-fin-elementals"
+  },
+  {
     "name": "SLD Stained Glass Planeswalkers - Black",
     "code": "sld-stainedglass-b"
   },
