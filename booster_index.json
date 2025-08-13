@@ -1936,6 +1936,10 @@
     "code": "tor-fat-pack"
   },
   {
+    "name": "Torment Tournament Deck",
+    "code": "tor-tournament"
+  },
+  {
     "name": "Odyssey Draft Booster",
     "code": "ody-draft"
   },
@@ -2098,6 +2102,18 @@
   {
     "name": "Homelands",
     "code": "hml"
+  },
+  {
+    "name": "Renaissance German Booster",
+    "code": "ren-de"
+  },
+  {
+    "name": "Renaissance French Booster",
+    "code": "ren-fr"
+  },
+  {
+    "name": "Rinascimento",
+    "code": "rin"
   },
   {
     "name": "Chronicles",

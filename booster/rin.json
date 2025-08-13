@@ -1,0 +1,103 @@
+{
+  "name": "Rinascimento",
+  "code": "rin",
+  "set_code": "rin",
+  "set_name": "Rinascimento",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 6,
+        "uncommon": 2
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 114,
+      "cards": {
+        "rin:1": 6,
+        "rin:103": 4,
+        "rin:105": 4,
+        "rin:109": 6,
+        "rin:125": 6,
+        "rin:132": 4,
+        "rin:137": 6,
+        "rin:14": 4,
+        "rin:148": 4,
+        "rin:150": 4,
+        "rin:175": 3,
+        "rin:176": 3,
+        "rin:177": 3,
+        "rin:178": 3,
+        "rin:179": 3,
+        "rin:180": 3,
+        "rin:181": 3,
+        "rin:182": 3,
+        "rin:183": 3,
+        "rin:184": 3,
+        "rin:185": 3,
+        "rin:186": 3,
+        "rin:27": 4,
+        "rin:35": 4,
+        "rin:50": 6,
+        "rin:53": 4,
+        "rin:72": 3,
+        "rin:82": 6,
+        "rin:99": 3
+      }
+    },
+    "uncommon": {
+      "total_weight": 109,
+      "cards": {
+        "rin:10": 3,
+        "rin:100": 2,
+        "rin:101": 2,
+        "rin:102": 3,
+        "rin:106": 1,
+        "rin:110": 2,
+        "rin:111": 2,
+        "rin:113": 3,
+        "rin:114": 2,
+        "rin:116": 1,
+        "rin:118": 2,
+        "rin:119": 3,
+        "rin:121": 3,
+        "rin:127": 2,
+        "rin:128": 3,
+        "rin:130": 2,
+        "rin:134": 3,
+        "rin:135": 2,
+        "rin:138": 2,
+        "rin:139": 3,
+        "rin:140": 3,
+        "rin:141": 2,
+        "rin:142": 3,
+        "rin:144": 3,
+        "rin:171": 3,
+        "rin:172": 6,
+        "rin:173": 2,
+        "rin:174": 9,
+        "rin:25": 3,
+        "rin:26": 3,
+        "rin:31": 2,
+        "rin:5": 3,
+        "rin:55": 3,
+        "rin:60": 6,
+        "rin:61": 3,
+        "rin:70": 1,
+        "rin:71": 2,
+        "rin:77": 1,
+        "rin:79": 3,
+        "rin:81": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "rin"
+  ]
+}
