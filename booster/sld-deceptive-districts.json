@@ -1,0 +1,32 @@
+{
+  "name": "SLD Deceptive Districts",
+  "code": "sld-deceptive-districts",
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "deceptive_districts": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "deceptive_districts"
+      ]
+    }
+  ],
+  "sheets": {
+    "deceptive_districts": {
+      "total_weight": 5,
+      "cards": {
+        "sld:888:foil": 1,
+        "sld:889:foil": 1,
+        "sld:890:foil": 1,
+        "sld:891:foil": 1,
+        "sld:892:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

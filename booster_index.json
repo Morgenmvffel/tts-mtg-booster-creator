@@ -1080,6 +1080,10 @@
     "code": "sld-chaos-emeralds"
   },
   {
+    "name": "SLD Deceptive Districts",
+    "code": "sld-deceptive-districts"
+  },
+  {
     "name": "SLD Final Fantasy Elementals",
     "code": "sld-fin-elementals"
   },
@@ -2104,12 +2108,8 @@
     "code": "hml"
   },
   {
-    "name": "Renaissance German Booster",
-    "code": "ren-de"
-  },
-  {
-    "name": "Renaissance French Booster",
-    "code": "ren-fr"
+    "name": "Renaissance Booster",
+    "code": "ren"
   },
   {
     "name": "Rinascimento",
