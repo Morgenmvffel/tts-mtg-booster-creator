@@ -16,7 +16,7 @@
         "foil_rare_mythic": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 1,
+      "weight": 5,
       "sheet_order": [
         "foil_basic",
         "foil_common",
@@ -27,6 +27,31 @@
         "rare_mythic_showcase",
         "foil_rare_mythic",
         "foil_rare_mythic_showcase"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_basic": 1,
+        "foil_common": 5,
+        "foil_uncommon": 2,
+        "common_uncommon_showcase": 2,
+        "foil_common_uncommon_showcase": 1,
+        "extended_rare_mythic": 1,
+        "rare_mythic_showcase": 1,
+        "foil_rare_mythic": 1,
+        "foil_expedition": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "foil_basic",
+        "foil_common",
+        "foil_uncommon",
+        "common_uncommon_showcase",
+        "foil_common_uncommon_showcase",
+        "extended_rare_mythic",
+        "rare_mythic_showcase",
+        "foil_rare_mythic",
+        "foil_expedition"
       ]
     }
   ],
@@ -553,9 +578,45 @@
         "znr:378:foil": 2,
         "znr:379:foil": 2
       }
+    },
+    "foil_expedition": {
+      "total_weight": 30,
+      "cards": {
+        "zne:10:foil": 1,
+        "zne:11:foil": 1,
+        "zne:12:foil": 1,
+        "zne:13:foil": 1,
+        "zne:14:foil": 1,
+        "zne:15:foil": 1,
+        "zne:16:foil": 1,
+        "zne:17:foil": 1,
+        "zne:18:foil": 1,
+        "zne:19:foil": 1,
+        "zne:1:foil": 1,
+        "zne:20:foil": 1,
+        "zne:21:foil": 1,
+        "zne:22:foil": 1,
+        "zne:23:foil": 1,
+        "zne:24:foil": 1,
+        "zne:25:foil": 1,
+        "zne:26:foil": 1,
+        "zne:27:foil": 1,
+        "zne:28:foil": 1,
+        "zne:29:foil": 1,
+        "zne:2:foil": 1,
+        "zne:30:foil": 1,
+        "zne:3:foil": 1,
+        "zne:4:foil": 1,
+        "zne:5:foil": 1,
+        "zne:6:foil": 1,
+        "zne:7:foil": 1,
+        "zne:8:foil": 1,
+        "zne:9:foil": 1
+      }
     }
   },
   "source_set_codes": [
+    "zne",
     "znr"
   ]
 }
