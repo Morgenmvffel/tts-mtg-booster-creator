@@ -1,6 +1,17 @@
 {
   "name": "Alara Reborn Draft Booster",
   "code": "arb-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "arb",
   "set_name": "Alara Reborn",
   "boosters": [

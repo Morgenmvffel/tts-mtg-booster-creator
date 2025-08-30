@@ -1,6 +1,7 @@
 {
   "name": "Tempest Draft Booster",
   "code": "tmp-draft",
+  "languages": [],
   "set_code": "tmp",
   "set_name": "Tempest",
   "boosters": [

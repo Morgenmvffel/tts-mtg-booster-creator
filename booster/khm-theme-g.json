@@ -1,6 +1,9 @@
 {
   "name": "Kaldheim Theme Booster Green",
   "code": "khm-theme-g",
+  "languages": [
+    "en"
+  ],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

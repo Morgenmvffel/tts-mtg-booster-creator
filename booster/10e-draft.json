@@ -1,6 +1,17 @@
 {
   "name": "Tenth Edition Draft Booster",
   "code": "10e-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "10e",
   "set_name": "Tenth Edition",
   "boosters": [

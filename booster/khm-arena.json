@@ -1,6 +1,7 @@
 {
   "name": "Kaldheim Arena Booster",
   "code": "khm-arena",
+  "languages": [],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

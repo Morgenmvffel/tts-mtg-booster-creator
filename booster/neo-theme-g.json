@@ -1,6 +1,9 @@
 {
   "name": "Kamigawa: Neon Dynasty Theme Booster Green",
   "code": "neo-theme-g",
+  "languages": [
+    "en"
+  ],
   "set_code": "neo",
   "set_name": "Kamigawa: Neon Dynasty",
   "boosters": [

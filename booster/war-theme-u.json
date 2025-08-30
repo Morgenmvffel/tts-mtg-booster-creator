@@ -1,6 +1,19 @@
 {
   "name": "War of the Spark Theme Booster Blue",
   "code": "war-theme-u",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "war",
   "set_name": "War of the Spark",
   "boosters": [

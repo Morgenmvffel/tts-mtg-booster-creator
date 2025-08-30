@@ -1,6 +1,9 @@
 {
   "name": "Masters Edition IV Magic Online Booster",
   "code": "me4-mtgo",
+  "languages": [
+    "en"
+  ],
   "set_code": "me4",
   "set_name": "Masters Edition IV",
   "boosters": [

@@ -1,6 +1,16 @@
 {
   "name": "The Lost Caverns of Ixalan Collector Sample Booster",
   "code": "lci-collector-sample",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "lci",
   "set_name": "The Lost Caverns of Ixalan",
   "boosters": [

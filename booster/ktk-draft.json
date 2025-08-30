@@ -1,6 +1,19 @@
 {
   "name": "Khans of Tarkir Draft Booster",
   "code": "ktk-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ktk",
   "set_name": "Khans of Tarkir",
   "boosters": [

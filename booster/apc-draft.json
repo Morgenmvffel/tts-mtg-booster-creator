@@ -1,6 +1,17 @@
 {
   "name": "Apocalypse Draft Booster",
   "code": "apc-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "apc",
   "set_name": "Apocalypse",
   "boosters": [

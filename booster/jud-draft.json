@@ -1,6 +1,17 @@
 {
   "name": "Judgment Draft Booster",
   "code": "jud-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "jud",
   "set_name": "Judgment",
   "boosters": [

@@ -1,6 +1,14 @@
 {
   "name": "Aetherdrift Play Booster",
   "code": "dft-play",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "dft",
   "set_name": "Aetherdrift",
   "boosters": [

@@ -1,6 +1,9 @@
 {
   "name": "Strixhaven: School of Mages Collector Booster",
   "code": "stx-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",
   "boosters": [

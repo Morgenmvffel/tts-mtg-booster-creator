@@ -1,6 +1,14 @@
 {
   "name": "Duskmourn: House of Horror Collector Sample Booster",
   "code": "dsk-collector-sample",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "dsk",
   "set_name": "Duskmourn: House of Horror",
   "boosters": [

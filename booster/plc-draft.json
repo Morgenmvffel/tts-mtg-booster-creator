@@ -1,6 +1,17 @@
 {
   "name": "Planar Chaos Draft Booster",
   "code": "plc-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "plc",
   "set_name": "Planar Chaos",
   "boosters": [

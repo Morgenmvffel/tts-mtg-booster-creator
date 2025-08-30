@@ -1,6 +1,9 @@
 {
   "name": "Dominaria United Set Booster",
   "code": "dmu-set",
+  "languages": [
+    "en"
+  ],
   "set_code": "dmu",
   "set_name": "Dominaria United",
   "boosters": [

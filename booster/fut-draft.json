@@ -1,6 +1,17 @@
 {
   "name": "Future Sight Draft Booster",
   "code": "fut-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "fut",
   "set_name": "Future Sight",
   "boosters": [

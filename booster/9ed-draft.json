@@ -1,6 +1,17 @@
 {
   "name": "Ninth Edition Draft Booster",
   "code": "9ed-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "9ed",
   "set_name": "Ninth Edition",
   "boosters": [

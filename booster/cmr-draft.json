@@ -1,6 +1,17 @@
 {
   "name": "Commander Legends Draft Booster",
   "code": "cmr-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "cmr",
   "set_name": "Commander Legends",
   "boosters": [

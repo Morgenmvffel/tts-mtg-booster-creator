@@ -1,6 +1,19 @@
 {
   "name": "Eldritch Moon Draft Booster",
   "code": "emn-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "emn",
   "set_name": "Eldritch Moon",
   "boosters": [

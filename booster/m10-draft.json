@@ -1,6 +1,17 @@
 {
   "name": "Magic 2010 Draft Booster",
   "code": "m10-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m10",
   "set_name": "Magic 2010",
   "boosters": [

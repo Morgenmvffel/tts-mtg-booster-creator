@@ -1,6 +1,19 @@
 {
   "name": "Innistrad: Midnight Hunt Theme Booster White",
   "code": "mid-theme-w",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "mid",
   "set_name": "Innistrad: Midnight Hunt",
   "boosters": [

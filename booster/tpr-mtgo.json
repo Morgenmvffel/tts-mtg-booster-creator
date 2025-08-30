@@ -1,6 +1,9 @@
 {
   "name": "Tempest Remastered Magic Online Booster",
   "code": "tpr-mtgo",
+  "languages": [
+    "en"
+  ],
   "set_code": "tpr",
   "set_name": "Tempest Remastered",
   "boosters": [

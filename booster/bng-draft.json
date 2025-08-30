@@ -1,6 +1,19 @@
 {
   "name": "Born of the Gods Draft Booster",
   "code": "bng-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "bng",
   "set_name": "Born of the Gods",
   "boosters": [

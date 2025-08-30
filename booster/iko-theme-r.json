@@ -1,6 +1,19 @@
 {
   "name": "Ikoria: Lair of Behemoths Theme Booster Red",
   "code": "iko-theme-r",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "iko",
   "set_name": "Ikoria: Lair of Behemoths",
   "boosters": [

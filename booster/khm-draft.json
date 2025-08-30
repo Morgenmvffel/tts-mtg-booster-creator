@@ -1,6 +1,9 @@
 {
   "name": "Kaldheim Draft Booster",
   "code": "khm-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

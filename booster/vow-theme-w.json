@@ -1,6 +1,9 @@
 {
   "name": "Innistrad: Crimson Vow Theme Booster White",
   "code": "vow-theme-w",
+  "languages": [
+    "en"
+  ],
   "set_code": "vow",
   "set_name": "Innistrad: Crimson Vow",
   "boosters": [

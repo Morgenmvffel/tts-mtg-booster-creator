@@ -1,6 +1,17 @@
 {
   "name": "Scourge Draft Booster",
   "code": "scg-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "scg",
   "set_name": "Scourge",
   "boosters": [

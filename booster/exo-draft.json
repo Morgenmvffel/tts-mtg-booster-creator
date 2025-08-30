@@ -1,6 +1,7 @@
 {
   "name": "Exodus Draft Booster",
   "code": "exo-draft",
+  "languages": [],
   "set_code": "exo",
   "set_name": "Exodus",
   "boosters": [

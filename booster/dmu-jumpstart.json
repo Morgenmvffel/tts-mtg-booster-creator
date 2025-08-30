@@ -1,6 +1,9 @@
 {
   "name": "Dominaria United Jumpstart Booster",
   "code": "dmu-jumpstart",
+  "languages": [
+    "en"
+  ],
   "set_code": "dmu",
   "set_name": "Dominaria United",
   "boosters": [
@@ -161,7 +164,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:265:foil": 2
+        "dmu:265:foil": 1,
+        "dmu:266:foil": 1
       }
     },
     "rare_mythic_blue": {
@@ -205,7 +209,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:274:foil": 2
+        "dmu:274:foil": 1,
+        "dmu:275:foil": 1
       }
     },
     "rare_mythic_green": {
@@ -247,7 +252,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:262:foil": 2
+        "dmu:262:foil": 1,
+        "dmu:263:foil": 1
       }
     },
     "rare_mythic_white": {
@@ -290,7 +296,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:262:foil": 2
+        "dmu:262:foil": 1,
+        "dmu:263:foil": 1
       }
     },
     "monster_territory": {
@@ -320,7 +327,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:274:foil": 2
+        "dmu:274:foil": 1,
+        "dmu:275:foil": 1
       }
     },
     "mystic_mischief": {
@@ -348,7 +356,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:265:foil": 2
+        "dmu:265:foil": 1,
+        "dmu:266:foil": 1
       }
     },
     "ready_to_attack": {
@@ -376,7 +385,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:271:foil": 2
+        "dmu:271:foil": 1,
+        "dmu:272:foil": 1
       }
     },
     "rare_mythic_red": {
@@ -418,7 +428,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:271:foil": 2
+        "dmu:271:foil": 1,
+        "dmu:272:foil": 1
       }
     },
     "totally_merciless": {
@@ -446,7 +457,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:268:foil": 2
+        "dmu:268:foil": 1,
+        "dmu:269:foil": 1
       }
     },
     "rare_mythic_black": {
@@ -488,7 +500,8 @@
       "fixed": true,
       "total_weight": 2,
       "cards": {
-        "dmu:268:foil": 2
+        "dmu:268:foil": 1,
+        "dmu:269:foil": 1
       }
     }
   },

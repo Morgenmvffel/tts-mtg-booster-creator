@@ -1,6 +1,17 @@
 {
   "name": "Time Spiral Draft Booster",
   "code": "tsp-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "tsp",
   "set_name": "Time Spiral",
   "boosters": [

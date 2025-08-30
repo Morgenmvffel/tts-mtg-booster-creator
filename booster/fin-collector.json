@@ -1,6 +1,9 @@
 {
   "name": "Final Fantasy Collector Booster",
   "code": "fin-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "fin",
   "set_name": "Final Fantasy",
   "boosters": [

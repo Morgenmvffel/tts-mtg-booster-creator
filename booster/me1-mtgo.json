@@ -1,6 +1,9 @@
 {
   "name": "Masters Edition Magic Online Booster",
   "code": "me1-mtgo",
+  "languages": [
+    "en"
+  ],
   "set_code": "me1",
   "set_name": "Masters Edition",
   "boosters": [

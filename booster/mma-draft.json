@@ -1,6 +1,7 @@
 {
   "name": "Modern Masters Draft Booster",
   "code": "mma-draft",
+  "languages": [],
   "set_code": "mma",
   "set_name": "Modern Masters",
   "boosters": [

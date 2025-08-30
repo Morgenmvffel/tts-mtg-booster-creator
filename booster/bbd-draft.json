@@ -1,6 +1,11 @@
 {
   "name": "Battlebond Draft Booster",
   "code": "bbd-draft",
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
   "set_code": "bbd",
   "set_name": "Battlebond",
   "boosters": [

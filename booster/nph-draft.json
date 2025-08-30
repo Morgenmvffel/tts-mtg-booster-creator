@@ -1,6 +1,18 @@
 {
   "name": "New Phyrexia Draft Booster",
   "code": "nph-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "nph",
   "set_name": "New Phyrexia",
   "boosters": [

@@ -1,6 +1,19 @@
 {
   "name": "Core Set 2020 Draft Booster",
   "code": "m20-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m20",
   "set_name": "Core Set 2020",
   "boosters": [

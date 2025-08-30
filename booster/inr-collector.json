@@ -1,6 +1,9 @@
 {
   "name": "Innistrad Remastered Collector Booster",
   "code": "inr-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "inr",
   "set_name": "Innistrad Remastered",
   "boosters": [

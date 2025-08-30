@@ -1,6 +1,9 @@
 {
   "name": "Throne of Eldraine Theme Booster White",
   "code": "eld-theme-w",
+  "languages": [
+    "en"
+  ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",
   "boosters": [

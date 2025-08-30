@@ -1,6 +1,17 @@
 {
   "name": "Onslaught Draft Booster",
   "code": "ons-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "ons",
   "set_name": "Onslaught",
   "boosters": [

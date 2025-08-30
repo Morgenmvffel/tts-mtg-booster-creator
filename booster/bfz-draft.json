@@ -1,6 +1,19 @@
 {
   "name": "Battle for Zendikar Draft Booster",
   "code": "bfz-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "bfz",
   "set_name": "Battle for Zendikar",
   "boosters": [

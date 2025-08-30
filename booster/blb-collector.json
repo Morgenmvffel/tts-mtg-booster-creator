@@ -1,6 +1,14 @@
 {
   "name": "Bloomburrow Collector Booster",
   "code": "blb-collector",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "blb",
   "set_name": "Bloomburrow",
   "boosters": [

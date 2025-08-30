@@ -1,6 +1,16 @@
 {
   "name": "Saviors of Kamigawa Draft Booster",
   "code": "sok-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "sok",
   "set_name": "Saviors of Kamigawa",
   "boosters": [

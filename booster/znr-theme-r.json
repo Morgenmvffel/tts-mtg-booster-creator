@@ -1,6 +1,9 @@
 {
   "name": "Zendikar Rising Theme Booster Red",
   "code": "znr-theme-r",
+  "languages": [
+    "en"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

@@ -1,6 +1,19 @@
 {
   "name": "Amonkhet Draft Booster",
   "code": "akh-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "akh",
   "set_name": "Amonkhet",
   "boosters": [

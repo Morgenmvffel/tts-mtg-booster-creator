@@ -1,6 +1,9 @@
 {
   "name": "Innistrad: Double Feature Draft Booster",
   "code": "dbl-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "dbl",
   "set_name": "Innistrad: Double Feature",
   "boosters": [

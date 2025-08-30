@@ -1,6 +1,9 @@
 {
   "name": "Masters Edition III Magic Online Booster",
   "code": "me3-mtgo",
+  "languages": [
+    "en"
+  ],
   "set_code": "me3",
   "set_name": "Masters Edition III",
   "boosters": [

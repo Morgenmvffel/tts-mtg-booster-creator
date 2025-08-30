@@ -1,6 +1,17 @@
 {
   "name": "Ravnica: City of Guilds Draft Booster",
   "code": "rav-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rav",
   "set_name": "Ravnica: City of Guilds",
   "boosters": [

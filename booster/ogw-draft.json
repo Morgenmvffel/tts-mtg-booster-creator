@@ -1,6 +1,19 @@
 {
   "name": "Oath of the Gatewatch Draft Booster",
   "code": "ogw-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ogw",
   "set_name": "Oath of the Gatewatch",
   "boosters": [

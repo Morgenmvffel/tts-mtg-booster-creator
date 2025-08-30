@@ -1,6 +1,16 @@
 {
   "name": "March of the Machine Collector Booster",
   "code": "mom-collector",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mom",
   "set_name": "March of the Machine",
   "boosters": [

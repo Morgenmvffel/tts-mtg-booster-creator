@@ -1,6 +1,17 @@
 {
   "name": "Alara Reborn Six-card Booster Pack",
   "code": "arb-six",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "arb",
   "set_name": "Alara Reborn",
   "boosters": [

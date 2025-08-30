@@ -1,6 +1,19 @@
 {
   "name": "Theros Draft Booster",
   "code": "ths-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ths",
   "set_name": "Theros",
   "boosters": [

@@ -1,6 +1,14 @@
 {
   "name": "Aetherdrift Collector Booster",
   "code": "dft-collector",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "dft",
   "set_name": "Aetherdrift",
   "boosters": [

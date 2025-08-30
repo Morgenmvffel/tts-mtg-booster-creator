@@ -1,6 +1,9 @@
 {
   "name": "Adventures in the Forgotten Realms Draft Booster",
   "code": "afr-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "afr",
   "set_name": "Adventures in the Forgotten Realms",
   "boosters": [

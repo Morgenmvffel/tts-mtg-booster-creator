@@ -1,6 +1,9 @@
 {
   "name": "Mystery Booster 2 Pack",
   "code": "mb2-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "mb2",
   "set_name": "Mystery Booster 2",
   "boosters": [

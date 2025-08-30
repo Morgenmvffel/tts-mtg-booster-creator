@@ -1,6 +1,9 @@
 {
   "name": "Unstable Draft Booster",
   "code": "ust-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "ust",
   "set_name": "Unstable",
   "boosters": [

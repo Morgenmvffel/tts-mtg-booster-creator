@@ -1,6 +1,16 @@
 {
   "name": "The Lord of the Rings: Tales of Middle-earth Set Booster",
   "code": "ltr-set",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "ltr",
   "set_name": "The Lord of the Rings: Tales of Middle-earth",
   "boosters": [

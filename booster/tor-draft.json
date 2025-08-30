@@ -1,6 +1,17 @@
 {
   "name": "Torment Draft Booster",
   "code": "tor-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "tor",
   "set_name": "Torment",
   "boosters": [

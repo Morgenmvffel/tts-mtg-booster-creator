@@ -1,6 +1,17 @@
 {
   "name": "Invasion Draft Booster",
   "code": "inv-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "inv",
   "set_name": "Invasion",
   "boosters": [

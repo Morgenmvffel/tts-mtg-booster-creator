@@ -1,6 +1,17 @@
 {
   "name": "Guildpact Draft Booster",
   "code": "gpt-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "gpt",
   "set_name": "Guildpact",
   "boosters": [

@@ -1,6 +1,12 @@
 {
   "name": "Doctor Who Collector Sample Booster",
   "code": "who-collector-sample",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "jp"
+  ],
   "set_code": "who",
   "set_name": "Doctor Who",
   "boosters": [

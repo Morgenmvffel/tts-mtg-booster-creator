@@ -1,6 +1,19 @@
 {
   "name": "Dragon's Maze Draft Booster",
   "code": "dgm-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dgm",
   "set_name": "Dragon's Maze",
   "boosters": [

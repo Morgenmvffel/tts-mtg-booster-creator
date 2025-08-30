@@ -1,6 +1,9 @@
 {
   "name": "Unfinity Collector Booster",
   "code": "unf-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "unf",
   "set_name": "Unfinity",
   "boosters": [

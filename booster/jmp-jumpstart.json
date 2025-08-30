@@ -1,6 +1,9 @@
 {
   "name": "Jumpstart Jumpstart Booster",
   "code": "jmp-jumpstart",
+  "languages": [
+    "en"
+  ],
   "set_code": "jmp",
   "set_name": "Jumpstart",
   "boosters": [

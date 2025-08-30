@@ -1,6 +1,18 @@
 {
   "name": "Magic 2011 Six-card Booster Pack",
   "code": "m11-six",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m11",
   "set_name": "Magic 2011",
   "boosters": [

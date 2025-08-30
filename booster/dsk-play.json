@@ -1,6 +1,14 @@
 {
   "name": "Duskmourn: House of Horror Play Booster",
   "code": "dsk-play",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "dsk",
   "set_name": "Duskmourn: House of Horror",
   "boosters": [

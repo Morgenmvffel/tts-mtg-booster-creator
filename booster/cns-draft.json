@@ -1,6 +1,11 @@
 {
   "name": "Conspiracy Draft Booster",
   "code": "cns-draft",
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
   "set_code": "cns",
   "set_name": "Conspiracy",
   "boosters": [

@@ -1,6 +1,17 @@
 {
   "name": "Shards of Alara Draft Booster",
   "code": "ala-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ala",
   "set_name": "Shards of Alara",
   "boosters": [

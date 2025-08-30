@@ -1,6 +1,16 @@
 {
   "name": "Murders at Karlov Manor Collector Booster",
   "code": "mkm-collector",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mkm",
   "set_name": "Murders at Karlov Manor",
   "boosters": [

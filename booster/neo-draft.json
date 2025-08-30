@@ -1,6 +1,9 @@
 {
   "name": "Kamigawa: Neon Dynasty Draft Booster",
   "code": "neo-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "neo",
   "set_name": "Kamigawa: Neon Dynasty",
   "boosters": [

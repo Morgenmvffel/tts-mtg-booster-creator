@@ -1,6 +1,7 @@
 {
   "name": "Commander Legends Collector Booster",
   "code": "cmr-collector",
+  "languages": [],
   "set_code": "cmr",
   "set_name": "Commander Legends",
   "boosters": [

@@ -1,6 +1,17 @@
 {
   "name": "Eventide Draft Booster",
   "code": "eve-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "eve",
   "set_name": "Eventide",
   "boosters": [

@@ -1,6 +1,7 @@
 {
   "name": "Visions Draft Booster",
   "code": "vis-draft",
+  "languages": [],
   "set_code": "vis",
   "set_name": "Visions",
   "boosters": [

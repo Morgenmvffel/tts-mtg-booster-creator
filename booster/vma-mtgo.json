@@ -1,6 +1,9 @@
 {
   "name": "Vintage Masters Magic Online Booster",
   "code": "vma-mtgo",
+  "languages": [
+    "en"
+  ],
   "set_code": "vma",
   "set_name": "Vintage Masters",
   "boosters": [

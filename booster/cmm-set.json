@@ -1,6 +1,14 @@
 {
   "name": "Commander Masters Set Booster",
   "code": "cmm-set",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "cmm",
   "set_name": "Commander Masters",
   "boosters": [

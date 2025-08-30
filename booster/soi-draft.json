@@ -1,6 +1,19 @@
 {
   "name": "Shadows over Innistrad Draft Booster",
   "code": "soi-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "soi",
   "set_name": "Shadows over Innistrad",
   "boosters": [

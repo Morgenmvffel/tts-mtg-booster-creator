@@ -1,6 +1,16 @@
 {
   "name": "Urza's Legacy Draft Booster",
   "code": "ulg-draft",
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "ulg",
   "set_name": "Urza's Legacy",
   "boosters": [

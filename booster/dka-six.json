@@ -1,6 +1,19 @@
 {
   "name": "Dark Ascension Six-card Booster Pack",
   "code": "dka-six",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dka",
   "set_name": "Dark Ascension",
   "boosters": [

@@ -1,6 +1,16 @@
 {
   "name": "Fifth Dawn Draft Booster",
   "code": "5dn-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "5dn",
   "set_name": "Fifth Dawn",
   "boosters": [

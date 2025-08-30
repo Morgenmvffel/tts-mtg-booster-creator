@@ -1,6 +1,7 @@
 {
   "name": "Mirage Starter Deck",
   "code": "mir-starter",
+  "languages": [],
   "set_code": "mir",
   "set_name": "Mirage",
   "boosters": [

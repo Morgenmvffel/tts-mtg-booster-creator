@@ -1,6 +1,19 @@
 {
   "name": "Magic 2015 Draft Booster",
   "code": "m15-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m15",
   "set_name": "Magic 2015",
   "boosters": [

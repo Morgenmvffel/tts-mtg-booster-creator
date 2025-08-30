@@ -1,6 +1,9 @@
 {
   "name": "Streets of New Capenna Theme Booster Riveteers",
   "code": "snc-theme-riveteers",
+  "languages": [
+    "en"
+  ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",
   "boosters": [

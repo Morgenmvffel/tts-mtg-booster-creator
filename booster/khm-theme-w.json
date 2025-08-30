@@ -1,6 +1,9 @@
 {
   "name": "Kaldheim Theme Booster White",
   "code": "khm-theme-w",
+  "languages": [
+    "en"
+  ],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

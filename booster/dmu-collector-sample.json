@@ -1,6 +1,9 @@
 {
   "name": "Dominaria United Collector Sample Booster",
   "code": "dmu-collector-sample",
+  "languages": [
+    "en"
+  ],
   "set_code": "dmu",
   "set_name": "Dominaria United",
   "boosters": [

@@ -1,6 +1,19 @@
 {
   "name": "Avacyn Restored Six-card Booster Pack",
   "code": "avr-six",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "avr",
   "set_name": "Avacyn Restored",
   "boosters": [

@@ -1,6 +1,19 @@
 {
   "name": "Theros Beyond Death Theme Booster Black",
   "code": "thb-theme-b",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "thb",
   "set_name": "Theros Beyond Death",
   "boosters": [

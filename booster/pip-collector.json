@@ -1,6 +1,7 @@
 {
   "name": "Fallout Collector Booster",
   "code": "pip-collector",
+  "languages": [],
   "set_code": "pip",
   "set_name": "Fallout",
   "boosters": [

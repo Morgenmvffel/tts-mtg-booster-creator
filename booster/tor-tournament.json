@@ -1,6 +1,7 @@
 {
   "name": "Torment Tournament Deck",
   "code": "tor-tournament",
+  "languages": [],
   "set_code": "tor",
   "set_name": "Torment",
   "boosters": [

@@ -1,6 +1,17 @@
 {
   "name": "Conflux Draft Booster",
   "code": "con-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "con",
   "set_name": "Conflux",
   "boosters": [

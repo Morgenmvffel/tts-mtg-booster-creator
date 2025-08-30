@@ -1,6 +1,17 @@
 {
   "name": "Legions Draft Booster",
   "code": "lgn-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "lgn",
   "set_name": "Legions",
   "boosters": [

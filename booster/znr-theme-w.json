@@ -1,6 +1,9 @@
 {
   "name": "Zendikar Rising Theme Booster White",
   "code": "znr-theme-w",
+  "languages": [
+    "en"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

@@ -1,6 +1,14 @@
 {
   "name": "Foundations Play Booster",
   "code": "fdn-play",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "fdn",
   "set_name": "Foundations",
   "boosters": [

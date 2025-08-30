@@ -1,6 +1,14 @@
 {
   "name": "Tarkir: Dragonstorm Play Booster",
   "code": "tdm-play",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "tdm",
   "set_name": "Tarkir: Dragonstorm",
   "boosters": [

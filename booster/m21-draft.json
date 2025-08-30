@@ -1,6 +1,19 @@
 {
   "name": "Core Set 2021 Draft Booster",
   "code": "m21-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m21",
   "set_name": "Core Set 2021",
   "boosters": [

@@ -1,6 +1,16 @@
 {
   "name": "Coldsnap Draft Booster",
   "code": "csp-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "csp",
   "set_name": "Coldsnap",
   "boosters": [

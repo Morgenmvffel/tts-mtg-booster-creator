@@ -1,6 +1,16 @@
 {
   "name": "Betrayers of Kamigawa Draft Booster",
   "code": "bok-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "bok",
   "set_name": "Betrayers of Kamigawa",
   "boosters": [

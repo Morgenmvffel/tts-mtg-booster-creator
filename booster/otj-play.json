@@ -1,6 +1,16 @@
 {
   "name": "Outlaws of Thunder Junction Play Booster",
   "code": "otj-play",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "otj",
   "set_name": "Outlaws of Thunder Junction",
   "boosters": [

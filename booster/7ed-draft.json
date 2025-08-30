@@ -1,6 +1,17 @@
 {
   "name": "Seventh Edition Draft Booster",
   "code": "7ed-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "7ed",
   "set_name": "Seventh Edition",
   "boosters": [

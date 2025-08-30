@@ -1,6 +1,9 @@
 {
   "name": "Zendikar Rising Draft Booster",
   "code": "znr-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

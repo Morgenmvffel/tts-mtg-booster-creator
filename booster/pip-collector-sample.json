@@ -1,6 +1,15 @@
 {
   "name": "Fallout Collector Sample Booster",
   "code": "pip-collector-sample",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "pip",
   "set_name": "Fallout",
   "boosters": [

@@ -1,6 +1,7 @@
 {
   "name": "Urza's Saga Draft Booster",
   "code": "usg-draft",
+  "languages": [],
   "set_code": "usg",
   "set_name": "Urza's Saga",
   "boosters": [

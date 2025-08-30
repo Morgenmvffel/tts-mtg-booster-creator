@@ -1,6 +1,9 @@
 {
   "name": "Kamigawa: Neon Dynasty Theme Booster Ninjas",
   "code": "neo-theme-ninjas",
+  "languages": [
+    "en"
+  ],
   "set_code": "neo",
   "set_name": "Kamigawa: Neon Dynasty",
   "boosters": [

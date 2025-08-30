@@ -1,6 +1,15 @@
 {
   "name": "Jumpstart 2022 Jumpstart Booster",
   "code": "j22-jumpstart",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "j22",
   "set_name": "Jumpstart 2022",
   "boosters": [

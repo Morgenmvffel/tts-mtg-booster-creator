@@ -1,6 +1,17 @@
 {
   "name": "Worldwake Six-card Booster Pack",
   "code": "wwk-six",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "wwk",
   "set_name": "Worldwake",
   "boosters": [

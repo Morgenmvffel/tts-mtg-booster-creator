@@ -1,6 +1,19 @@
 {
   "name": "Journey into Nyx Draft Booster",
   "code": "jou-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "jou",
   "set_name": "Journey into Nyx",
   "boosters": [

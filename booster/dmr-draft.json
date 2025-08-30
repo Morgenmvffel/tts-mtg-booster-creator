@@ -1,6 +1,16 @@
 {
   "name": "Dominaria Remastered Draft Booster",
   "code": "dmr-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "dmr",
   "set_name": "Dominaria Remastered",
   "boosters": [

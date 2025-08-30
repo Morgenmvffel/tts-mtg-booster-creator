@@ -1,6 +1,16 @@
 {
   "name": "Ravnica Remastered Draft Booster",
   "code": "rvr-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "rvr",
   "set_name": "Ravnica Remastered",
   "boosters": [

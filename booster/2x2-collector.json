@@ -1,6 +1,13 @@
 {
   "name": "Double Masters 2022 Collector Booster",
   "code": "2x2-collector",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "jp"
+  ],
   "set_code": "2x2",
   "set_name": "Double Masters 2022",
   "boosters": [

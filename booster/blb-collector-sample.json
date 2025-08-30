@@ -1,6 +1,14 @@
 {
   "name": "Bloomburrow Collector Sample Booster",
   "code": "blb-collector-sample",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "blb",
   "set_name": "Bloomburrow",
   "boosters": [

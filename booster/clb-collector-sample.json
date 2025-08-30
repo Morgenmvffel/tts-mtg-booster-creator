@@ -1,6 +1,19 @@
 {
   "name": "Commander Legends: Battle for Baldur's Gate Collector Sample Booster",
   "code": "clb-collector-sample",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "clb",
   "set_name": "Commander Legends: Battle for Baldur's Gate",
   "boosters": [

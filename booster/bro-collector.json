@@ -1,6 +1,16 @@
 {
   "name": "The Brothers' War Collector Booster",
   "code": "bro-collector",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "bro",
   "set_name": "The Brothers' War",
   "boosters": [

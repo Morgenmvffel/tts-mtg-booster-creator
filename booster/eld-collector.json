@@ -1,6 +1,9 @@
 {
   "name": "Throne of Eldraine Collector Booster",
   "code": "eld-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",
   "boosters": [

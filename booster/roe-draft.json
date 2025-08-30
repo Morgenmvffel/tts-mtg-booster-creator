@@ -1,6 +1,17 @@
 {
   "name": "Rise of the Eldrazi Draft Booster",
   "code": "roe-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "roe",
   "set_name": "Rise of the Eldrazi",
   "boosters": [

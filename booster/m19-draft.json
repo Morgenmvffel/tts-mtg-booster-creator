@@ -1,6 +1,19 @@
 {
   "name": "Core Set 2019 Draft Booster",
   "code": "m19-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m19",
   "set_name": "Core Set 2019",
   "boosters": [

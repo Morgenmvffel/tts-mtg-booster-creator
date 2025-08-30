@@ -1,6 +1,16 @@
 {
   "name": "Darksteel Draft Booster",
   "code": "dst-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "dst",
   "set_name": "Darksteel",
   "boosters": [

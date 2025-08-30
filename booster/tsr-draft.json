@@ -1,6 +1,18 @@
 {
   "name": "Time Spiral Remastered Draft Booster",
   "code": "tsr-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "tsr",
   "set_name": "Time Spiral Remastered",
   "boosters": [

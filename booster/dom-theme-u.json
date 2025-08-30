@@ -1,6 +1,19 @@
 {
   "name": "Dominaria Theme Booster Blue",
   "code": "dom-theme-u",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dom",
   "set_name": "Dominaria",
   "boosters": [

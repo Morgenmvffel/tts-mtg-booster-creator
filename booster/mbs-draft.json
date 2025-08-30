@@ -1,6 +1,18 @@
 {
   "name": "Mirrodin Besieged Draft Booster",
   "code": "mbs-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "mbs",
   "set_name": "Mirrodin Besieged",
   "boosters": [

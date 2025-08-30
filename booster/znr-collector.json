@@ -1,6 +1,9 @@
 {
   "name": "Zendikar Rising Collector Booster",
   "code": "znr-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

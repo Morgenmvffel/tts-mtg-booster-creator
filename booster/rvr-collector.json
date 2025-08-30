@@ -1,6 +1,16 @@
 {
   "name": "Ravnica Remastered Collector Booster",
   "code": "rvr-collector",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "rvr",
   "set_name": "Ravnica Remastered",
   "boosters": [

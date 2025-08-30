@@ -1,6 +1,7 @@
 {
   "name": "Stronghold Draft Booster",
   "code": "sth-draft",
+  "languages": [],
   "set_code": "sth",
   "set_name": "Stronghold",
   "boosters": [

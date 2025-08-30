@@ -2,6 +2,9 @@
   {
     "name": "Edge of Eternities Play Booster",
     "code": "eoe-play",
+    "languages": [
+      "en"
+    ],
     "set_code": "eoe",
     "set_name": "Edge of Eternities",
     "boosters": [
@@ -1165,6 +1168,7 @@
   {
     "name": "Final Fantasy Bundle Promo Card",
     "code": "fin-bundle-promo",
+    "languages": [],
     "set_code": "fin",
     "set_name": "Final Fantasy",
     "boosters": [
@@ -1354,6 +1358,9 @@
   {
     "name": "Final Fantasy Collector Booster",
     "code": "fin-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
     "boosters": [
@@ -2475,6 +2482,9 @@
   {
     "name": "Final Fantasy Collector Sample Booster",
     "code": "fin-collector-sample",
+    "languages": [
+      "en"
+    ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
     "boosters": [
@@ -2743,6 +2753,9 @@
   {
     "name": "Final Fantasy Play Booster",
     "code": "fin-play",
+    "languages": [
+      "en"
+    ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
     "boosters": [
@@ -4162,6 +4175,7 @@
   {
     "name": "Final Fantasy Prerelease Promo Pack",
     "code": "fin-prerelease",
+    "languages": [],
     "set_code": "fin",
     "set_name": "Final Fantasy",
     "boosters": [
@@ -4283,6 +4297,14 @@
   {
     "name": "Tarkir: Dragonstorm Collector Booster",
     "code": "tdm-collector",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "tdm",
     "set_name": "Tarkir: Dragonstorm",
     "boosters": [
@@ -4983,6 +5005,14 @@
   {
     "name": "Tarkir: Dragonstorm Play Booster",
     "code": "tdm-play",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "tdm",
     "set_name": "Tarkir: Dragonstorm",
     "boosters": [
@@ -6193,6 +6223,14 @@
   {
     "name": "Aetherdrift Collector Booster",
     "code": "dft-collector",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "dft",
     "set_name": "Aetherdrift",
     "boosters": [
@@ -6806,6 +6844,14 @@
   {
     "name": "Aetherdrift Play Booster",
     "code": "dft-play",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "dft",
     "set_name": "Aetherdrift",
     "boosters": [
@@ -7944,6 +7990,7 @@
   {
     "name": "Aetherdrift Prerelease Promo Pack",
     "code": "dft-prerelease",
+    "languages": [],
     "set_code": "dft",
     "set_name": "Aetherdrift",
     "boosters": [
@@ -8051,6 +8098,9 @@
   {
     "name": "Innistrad Remastered Collector Booster",
     "code": "inr-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "inr",
     "set_name": "Innistrad Remastered",
     "boosters": [
@@ -8841,6 +8891,9 @@
   {
     "name": "Innistrad Remastered Play Booster",
     "code": "inr-play",
+    "languages": [
+      "en"
+    ],
     "set_code": "inr",
     "set_name": "Innistrad Remastered",
     "boosters": [
@@ -10065,6 +10118,7 @@
   {
     "name": "Pioneer Masters Arena Draft Booster: Planeswalkers",
     "code": "pio-arena-1",
+    "languages": [],
     "set_code": "pio",
     "set_name": "Pioneer Masters",
     "boosters": [
@@ -10713,6 +10767,7 @@
   {
     "name": "Pioneer Masters Arena Draft Booster: Spells",
     "code": "pio-arena-2",
+    "languages": [],
     "set_code": "pio",
     "set_name": "Pioneer Masters",
     "boosters": [
@@ -11361,6 +11416,7 @@
   {
     "name": "Pioneer Masters Arena Draft Booster: Devotion",
     "code": "pio-arena-3",
+    "languages": [],
     "set_code": "pio",
     "set_name": "Pioneer Masters",
     "boosters": [
@@ -12009,6 +12065,14 @@
   {
     "name": "Foundations Beginners Box Booster",
     "code": "fdn-beginner",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "fdn",
     "set_name": "Foundations",
     "boosters": [
@@ -12320,6 +12384,7 @@
   {
     "name": "Foundations Collector Booster",
     "code": "fdn-collector",
+    "languages": [],
     "set_code": "fdn",
     "set_name": "Foundations",
     "boosters": [
@@ -12976,6 +13041,14 @@
   {
     "name": "Foundations Play Booster",
     "code": "fdn-play",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "fdn",
     "set_name": "Foundations",
     "boosters": [
@@ -14183,6 +14256,7 @@
   {
     "name": "Foundations Prerelease Promo Pack",
     "code": "fdn-prerelease",
+    "languages": [],
     "set_code": "fdn",
     "set_name": "Foundations",
     "boosters": [
@@ -14290,6 +14364,14 @@
   {
     "name": "Foundations Jumpstart Booster",
     "code": "j25-jumpstart",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "j25",
     "set_name": "Foundations Jumpstart",
     "boosters": [
@@ -18077,6 +18159,14 @@
   {
     "name": "Duskmourn: House of Horror Collector Booster",
     "code": "dsk-collector",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "dsk",
     "set_name": "Duskmourn: House of Horror",
     "boosters": [
@@ -18698,6 +18788,14 @@
   {
     "name": "Duskmourn: House of Horror Collector Sample Booster",
     "code": "dsk-collector-sample",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "dsk",
     "set_name": "Duskmourn: House of Horror",
     "boosters": [
@@ -18980,6 +19078,14 @@
   {
     "name": "Duskmourn: House of Horror Play Booster",
     "code": "dsk-play",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "dsk",
     "set_name": "Duskmourn: House of Horror",
     "boosters": [
@@ -20200,6 +20306,7 @@
   {
     "name": "Duskmourn: House of Horror Prerelease Promo Pack",
     "code": "dsk-prerelease",
+    "languages": [],
     "set_code": "dsk",
     "set_name": "Duskmourn: House of Horror",
     "boosters": [
@@ -20307,6 +20414,14 @@
   {
     "name": "Bloomburrow Collector Booster",
     "code": "blb-collector",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "blb",
     "set_name": "Bloomburrow",
     "boosters": [
@@ -20948,6 +21063,14 @@
   {
     "name": "Bloomburrow Collector Sample Booster",
     "code": "blb-collector-sample",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "blb",
     "set_name": "Bloomburrow",
     "boosters": [
@@ -21295,6 +21418,14 @@
   {
     "name": "Bloomburrow Play Booster",
     "code": "blb-play",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "blb",
     "set_name": "Bloomburrow",
     "boosters": [
@@ -22445,6 +22576,7 @@
   {
     "name": "Bloomburrow Prerelease Promo Pack",
     "code": "blb-prerelease",
+    "languages": [],
     "set_code": "blb",
     "set_name": "Bloomburrow",
     "boosters": [
@@ -22552,6 +22684,9 @@
   {
     "name": "Mystery Booster 2 Pack",
     "code": "mb2-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "mb2",
     "set_name": "Mystery Booster 2",
     "boosters": [
@@ -24758,6 +24893,15 @@
   {
     "name": "Assassin's Creed Beyond Booster",
     "code": "acr",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "acr",
     "set_name": "Assassin's Creed",
     "boosters": [
@@ -25166,6 +25310,15 @@
   {
     "name": "Assassin's Creed Collector Booster",
     "code": "acr-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "acr",
     "set_name": "Assassin's Creed",
     "boosters": [
@@ -25580,6 +25733,16 @@
   {
     "name": "Modern Horizons 3 Collector Booster",
     "code": "mh3-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mh3",
     "set_name": "Modern Horizons 3",
     "boosters": [
@@ -26469,6 +26632,16 @@
   {
     "name": "Modern Horizons 3 Collector Sample Booster",
     "code": "mh3-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mh3",
     "set_name": "Modern Horizons 3",
     "boosters": [
@@ -26995,6 +27168,16 @@
   {
     "name": "Modern Horizons 3 Play Booster",
     "code": "mh3-play",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mh3",
     "set_name": "Modern Horizons 3",
     "boosters": [
@@ -28456,6 +28639,7 @@
   {
     "name": "Modern Horizons 3 Prerelease Promo Pack",
     "code": "mh3-prerelease",
+    "languages": [],
     "set_code": "mh3",
     "set_name": "Modern Horizons 3",
     "boosters": [
@@ -28563,6 +28747,16 @@
   {
     "name": "Outlaws of Thunder Junction Collector Booster",
     "code": "otj-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "otj",
     "set_name": "Outlaws of Thunder Junction",
     "boosters": [
@@ -29481,6 +29675,16 @@
   {
     "name": "Outlaws of Thunder Junction Collector Sample Booster",
     "code": "otj-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "otj",
     "set_name": "Outlaws of Thunder Junction",
     "boosters": [
@@ -29804,6 +30008,16 @@
   {
     "name": "Outlaws of Thunder Junction Play Booster",
     "code": "otj-play",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "otj",
     "set_name": "Outlaws of Thunder Junction",
     "boosters": [
@@ -30951,6 +31165,7 @@
   {
     "name": "Outlaws of Thunder Junction Prerelease Promo Pack",
     "code": "otj-prerelease",
+    "languages": [],
     "set_code": "otj",
     "set_name": "Outlaws of Thunder Junction",
     "boosters": [
@@ -31058,6 +31273,7 @@
   {
     "name": "Fallout Collector Booster",
     "code": "pip-collector",
+    "languages": [],
     "set_code": "pip",
     "set_name": "Fallout",
     "boosters": [
@@ -33320,6 +33536,15 @@
   {
     "name": "Fallout Collector Sample Booster",
     "code": "pip-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "pip",
     "set_name": "Fallout",
     "boosters": [
@@ -33941,6 +34166,9 @@
   {
     "name": "Ravnica: Clue Edition Booster",
     "code": "clu",
+    "languages": [
+      "en"
+    ],
     "set_code": "clu",
     "set_name": "Ravnica: Clue Edition",
     "boosters": [
@@ -34575,6 +34803,7 @@
   {
     "name": "Ravnica: Clue Edition Box Topper Pack",
     "code": "clu-box-topper",
+    "languages": [],
     "set_code": "clu",
     "set_name": "Ravnica: Clue Edition",
     "boosters": [
@@ -34612,6 +34841,16 @@
   {
     "name": "Murders at Karlov Manor Collector Booster",
     "code": "mkm-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mkm",
     "set_name": "Murders at Karlov Manor",
     "boosters": [
@@ -35344,6 +35583,16 @@
   {
     "name": "Murders at Karlov Manor Collector Sample Booster",
     "code": "mkm-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mkm",
     "set_name": "Murders at Karlov Manor",
     "boosters": [
@@ -35623,6 +35872,16 @@
   {
     "name": "Murders at Karlov Manor Play Booster",
     "code": "mkm-play",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mkm",
     "set_name": "Murders at Karlov Manor",
     "boosters": [
@@ -36901,6 +37160,16 @@
   {
     "name": "Murders at Karlov Manor Arena Play Booster",
     "code": "mkm-play-arena",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mkm",
     "set_name": "Murders at Karlov Manor",
     "boosters": [
@@ -37886,6 +38155,7 @@
   {
     "name": "Murders at Karlov Manor Prerelease Promo Pack",
     "code": "mkm-prerelease",
+    "languages": [],
     "set_code": "mkm",
     "set_name": "Murders at Karlov Manor",
     "boosters": [
@@ -38014,6 +38284,16 @@
   {
     "name": "Ravnica Remastered Collector Booster",
     "code": "rvr-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "rvr",
     "set_name": "Ravnica Remastered",
     "boosters": [
@@ -38832,6 +39112,16 @@
   {
     "name": "Ravnica Remastered Draft Booster",
     "code": "rvr-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "rvr",
     "set_name": "Ravnica Remastered",
     "boosters": [
@@ -39684,6 +39974,7 @@
   {
     "name": "The Lost Caverns of Ixalan Arena Booster",
     "code": "lci-arena",
+    "languages": [],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -40043,6 +40334,7 @@
   {
     "name": "The Lost Caverns of Ixalan Non-foil Box Topper",
     "code": "lci-box-topper",
+    "languages": [],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -40090,6 +40382,7 @@
   {
     "name": "The Lost Caverns of Ixalan Foil Box Topper",
     "code": "lci-box-topper-foil",
+    "languages": [],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -40137,6 +40430,7 @@
   {
     "name": "The Lost Caverns of Ixalan Bundle Promo Card",
     "code": "lci-bundle-promo",
+    "languages": [],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -40185,6 +40479,16 @@
   {
     "name": "The Lost Caverns of Ixalan Collector Booster",
     "code": "lci-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -41189,6 +41493,16 @@
   {
     "name": "The Lost Caverns of Ixalan Collector Sample Booster",
     "code": "lci-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -41347,6 +41661,16 @@
   {
     "name": "The Lost Caverns of Ixalan Draft Booster",
     "code": "lci-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -42131,6 +42455,7 @@
   {
     "name": "The Lost Caverns of Ixalan Gift Bundle Promo Card",
     "code": "lci-gift-bundle-promo",
+    "languages": [],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -42179,6 +42504,7 @@
   {
     "name": "The Lost Caverns of Ixalan Prerelease Promo Pack",
     "code": "lci-prerelease",
+    "languages": [],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -42274,6 +42600,16 @@
   {
     "name": "The Lost Caverns of Ixalan Set Booster",
     "code": "lci-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "lci",
     "set_name": "The Lost Caverns of Ixalan",
     "boosters": [
@@ -43720,6 +44056,7 @@
   {
     "name": "Doctor Who Collector Booster",
     "code": "who-collector",
+    "languages": [],
     "set_code": "who",
     "set_name": "Doctor Who",
     "boosters": [
@@ -45658,6 +45995,12 @@
   {
     "name": "Doctor Who Collector Sample Booster",
     "code": "who-collector-sample",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "jp"
+    ],
     "set_code": "who",
     "set_name": "Doctor Who",
     "boosters": [
@@ -46167,6 +46510,7 @@
   {
     "name": "Wilds of Eldraine Arena Booster",
     "code": "woe-arena",
+    "languages": [],
     "set_code": "woe",
     "set_name": "Wilds of Eldraine",
     "boosters": [
@@ -46563,6 +46907,16 @@
   {
     "name": "Wilds of Eldraine Collector Booster",
     "code": "woe-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "woe",
     "set_name": "Wilds of Eldraine",
     "boosters": [
@@ -47411,6 +47765,16 @@
   {
     "name": "Wilds of Eldraine Collector Sample Booster",
     "code": "woe-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "woe",
     "set_name": "Wilds of Eldraine",
     "boosters": [
@@ -47838,6 +48202,16 @@
   {
     "name": "Wilds of Eldraine Draft Booster",
     "code": "woe-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "woe",
     "set_name": "Wilds of Eldraine",
     "boosters": [
@@ -48699,6 +49073,7 @@
   {
     "name": "Wilds of Eldraine Prerelease Promo Pack",
     "code": "woe-prerelease",
+    "languages": [],
     "set_code": "woe",
     "set_name": "Wilds of Eldraine",
     "boosters": [
@@ -48806,6 +49181,16 @@
   {
     "name": "Wilds of Eldraine Set Booster",
     "code": "woe-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "woe",
     "set_name": "Wilds of Eldraine",
     "boosters": [
@@ -50323,6 +50708,14 @@
   {
     "name": "Commander Masters Collector Booster",
     "code": "cmm-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "cmm",
     "set_name": "Commander Masters",
     "boosters": [
@@ -51372,6 +51765,14 @@
   {
     "name": "Commander Masters Collector Sample Booster",
     "code": "cmm-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "cmm",
     "set_name": "Commander Masters",
     "boosters": [
@@ -51626,6 +52027,14 @@
   {
     "name": "Commander Masters Draft Booster",
     "code": "cmm-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "cmm",
     "set_name": "Commander Masters",
     "boosters": [
@@ -52806,6 +53215,14 @@
   {
     "name": "Commander Masters Set Booster",
     "code": "cmm-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "cmm",
     "set_name": "Commander Masters",
     "boosters": [
@@ -54927,6 +55344,7 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Arena Booster",
     "code": "ltr-arena",
+    "languages": [],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -55257,6 +55675,7 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Box Topper Pack",
     "code": "ltr-box-topper",
+    "languages": [],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -55314,6 +55733,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Collector Booster",
     "code": "ltr-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -56346,6 +56775,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Collector Sample Booster",
     "code": "ltr-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -56758,6 +57197,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Special Edition Collector Booster",
     "code": "ltr-collector-special",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -58048,6 +58497,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Draft Booster",
     "code": "ltr-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -58875,6 +59334,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Jumpstart Booster",
     "code": "ltr-jumpstart",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -59253,6 +59722,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Jumpstart Booster Volume 2",
     "code": "ltr-jumpstart-v2",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -59635,6 +60114,7 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Prerelease Promo Pack",
     "code": "ltr-prerelease",
+    "languages": [],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -59754,6 +60234,16 @@
   {
     "name": "The Lord of the Rings: Tales of Middle-earth Set Booster",
     "code": "ltr-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ltr",
     "set_name": "The Lord of the Rings: Tales of Middle-earth",
     "boosters": [
@@ -61271,6 +61761,16 @@
   {
     "name": "March of the Machine: The Aftermath Epilogue Booster",
     "code": "mat",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mat",
     "set_name": "March of the Machine: The Aftermath",
     "boosters": [
@@ -61539,6 +62039,16 @@
   {
     "name": "March of the Machine: The Aftermath Arena Booster",
     "code": "mat-arena",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mat",
     "set_name": "March of the Machine: The Aftermath",
     "boosters": [
@@ -62066,6 +62576,16 @@
   {
     "name": "March of the Machine: The Aftermath Collector Booster",
     "code": "mat-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mat",
     "set_name": "March of the Machine: The Aftermath",
     "boosters": [
@@ -62486,6 +63006,16 @@
   {
     "name": "March of the Machine Arena Booster",
     "code": "mom-arena",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -62961,6 +63491,16 @@
   {
     "name": "March of the Machine Collector Booster",
     "code": "mom-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -64471,6 +65011,16 @@
   {
     "name": "March of the Machine Collector Sample Booster",
     "code": "mom-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -64813,6 +65363,16 @@
   {
     "name": "March of the Machine Draft Booster",
     "code": "mom-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -65776,6 +66336,16 @@
   {
     "name": "March of the Machine Jumpstart Booster",
     "code": "mom-jumpstart",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -66248,6 +66818,16 @@
   {
     "name": "March of the Machine Prerelease Promo Pack",
     "code": "mom-prerelease",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -66391,6 +66971,16 @@
   {
     "name": "March of the Machine Set Booster",
     "code": "mom-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mom",
     "set_name": "March of the Machine",
     "boosters": [
@@ -68004,6 +68594,7 @@
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Creature Type Terror",
     "code": "sir-arena-1",
+    "languages": [],
     "set_code": "sir",
     "set_name": "Shadows over Innistrad Remastered",
     "boosters": [
@@ -68348,6 +68939,7 @@
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Fatal Flashback",
     "code": "sir-arena-2",
+    "languages": [],
     "set_code": "sir",
     "set_name": "Shadows over Innistrad Remastered",
     "boosters": [
@@ -68692,6 +69284,7 @@
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Morbid And Macabre",
     "code": "sir-arena-3",
+    "languages": [],
     "set_code": "sir",
     "set_name": "Shadows over Innistrad Remastered",
     "boosters": [
@@ -69036,6 +69629,7 @@
   {
     "name": "Shadows over Innistrad Remastered Arena Booster: Abominable All Stars",
     "code": "sir-arena-4",
+    "languages": [],
     "set_code": "sir",
     "set_name": "Shadows over Innistrad Remastered",
     "boosters": [
@@ -69384,6 +69978,16 @@
   {
     "name": "Phyrexia: All Will Be One Arena Booster",
     "code": "one-arena",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -69713,6 +70317,7 @@
   {
     "name": "Phyrexia: All Will Be One Collector Booster",
     "code": "one-collector",
+    "languages": [],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -70400,6 +71005,16 @@
   {
     "name": "Phyrexia: All Will Be One Collector Sample Booster",
     "code": "one-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -70689,6 +71304,7 @@
   {
     "name": "Phyrexia: All Will Be One Compleat Edition Booster",
     "code": "one-compleat",
+    "languages": [],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -70762,6 +71378,16 @@
   {
     "name": "Phyrexia: All Will Be One Draft Booster",
     "code": "one-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -71560,6 +72186,16 @@
   {
     "name": "Phyrexia: All Will Be One Jumpstart Booster",
     "code": "one-jumpstart",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -72033,6 +72669,7 @@
   {
     "name": "Phyrexia: All Will Be One Prerelease Promo Pack",
     "code": "one-prerelease",
+    "languages": [],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -72140,6 +72777,16 @@
   {
     "name": "Phyrexia: All Will Be One Set Booster",
     "code": "one-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "one",
     "set_name": "Phyrexia: All Will Be One",
     "boosters": [
@@ -73622,6 +74269,7 @@
   {
     "name": "Dominaria Remastered Collector Booster",
     "code": "dmr-collector",
+    "languages": [],
     "set_code": "dmr",
     "set_name": "Dominaria Remastered",
     "boosters": [
@@ -74346,6 +74994,16 @@
   {
     "name": "Dominaria Remastered Draft Booster",
     "code": "dmr-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "dmr",
     "set_name": "Dominaria Remastered",
     "boosters": [
@@ -75271,6 +75929,15 @@
   {
     "name": "Jumpstart 2022 Jumpstart Booster",
     "code": "j22-jumpstart",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
     "set_code": "j22",
     "set_name": "Jumpstart 2022",
     "boosters": [
@@ -79056,6 +79723,7 @@
   {
     "name": "30th Anniversary Edition Draft Booster",
     "code": "30a-draft",
+    "languages": [],
     "set_code": "30a",
     "set_name": "30th Anniversary Edition",
     "boosters": [
@@ -79712,6 +80380,7 @@
   {
     "name": "The Brothers' War Arena Booster",
     "code": "bro-arena",
+    "languages": [],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -80155,6 +80824,16 @@
   {
     "name": "The Brothers' War Collector Booster",
     "code": "bro-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -81325,6 +82004,16 @@
   {
     "name": "The Brothers' War Collector Sample Booster",
     "code": "bro-collector-sample",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -81710,6 +82399,16 @@
   {
     "name": "The Brothers' War Draft Booster",
     "code": "bro-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -82626,6 +83325,16 @@
   {
     "name": "The Brothers' War Jumpstart Booster",
     "code": "bro-jumpstart",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -82784,7 +83493,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:268:foil": 2
+          "bro:268:foil": 1,
+          "bro:269:foil": 1
         }
       },
       "rare_mythic_white": {
@@ -82827,7 +83537,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:268:foil": 2
+          "bro:268:foil": 1,
+          "bro:269:foil": 1
         }
       },
       "powerstones_1": {
@@ -82853,7 +83564,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:270:foil": 2
+          "bro:270:foil": 1,
+          "bro:271:foil": 1
         }
       },
       "rare_mythic_blue": {
@@ -82895,7 +83607,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:270:foil": 2
+          "bro:270:foil": 1,
+          "bro:271:foil": 1
         }
       },
       "titanic_1": {
@@ -82921,7 +83634,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:276:foil": 2
+          "bro:276:foil": 1,
+          "bro:277:foil": 1
         }
       },
       "rare_mythic_green": {
@@ -82963,7 +83677,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:276:foil": 2
+          "bro:276:foil": 1,
+          "bro:277:foil": 1
         }
       },
       "unearthed_1": {
@@ -82989,7 +83704,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:272:foil": 2
+          "bro:272:foil": 1,
+          "bro:273:foil": 1
         }
       },
       "rare_mythic_black": {
@@ -83032,7 +83748,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:272:foil": 2
+          "bro:272:foil": 1,
+          "bro:273:foil": 1
         }
       },
       "welded_1": {
@@ -83058,7 +83775,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:274:foil": 2
+          "bro:274:foil": 1,
+          "bro:275:foil": 1
         }
       },
       "rare_mythic_red": {
@@ -83099,7 +83817,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "bro:274:foil": 2
+          "bro:274:foil": 1,
+          "bro:275:foil": 1
         }
       }
     },
@@ -83110,6 +83829,7 @@
   {
     "name": "The Brothers' War Prerelease Promo Pack",
     "code": "bro-prerelease",
+    "languages": [],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -83223,6 +83943,16 @@
   {
     "name": "The Brothers' War Set Booster",
     "code": "bro-set",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "bro",
     "set_name": "The Brothers' War",
     "boosters": [
@@ -84970,6 +85700,7 @@
   {
     "name": "Secret Lair 30th Anniversary Countdown Kit",
     "code": "slc",
+    "languages": [],
     "set_code": "slc",
     "set_name": "Secret Lair 30th Anniversary Countdown Kit",
     "boosters": [
@@ -85268,6 +85999,7 @@
   {
     "name": "Unfinity Box Topper",
     "code": "unf-box-topper",
+    "languages": [],
     "set_code": "unf",
     "set_name": "Unfinity",
     "boosters": [
@@ -85305,6 +86037,9 @@
   {
     "name": "Unfinity Collector Booster",
     "code": "unf-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "unf",
     "set_name": "Unfinity",
     "boosters": [
@@ -86557,6 +87292,9 @@
   {
     "name": "Unfinity Draft Booster",
     "code": "unf-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "unf",
     "set_name": "Unfinity",
     "boosters": [
@@ -87452,6 +88190,9 @@
   {
     "name": "Dominaria United Arena Booster",
     "code": "dmu-arena",
+    "languages": [
+      "en"
+    ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -87780,6 +88521,7 @@
   {
     "name": "Dominaria United Box Topper Pack",
     "code": "dmu-box-topper",
+    "languages": [],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -87827,6 +88569,9 @@
   {
     "name": "Dominaria United Collector Booster",
     "code": "dmu-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -88992,6 +89737,9 @@
   {
     "name": "Dominaria United Collector Sample Booster",
     "code": "dmu-collector-sample",
+    "languages": [
+      "en"
+    ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -89279,6 +90027,9 @@
   {
     "name": "Dominaria United Draft Booster",
     "code": "dmu-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -90068,6 +90819,9 @@
   {
     "name": "Dominaria United Jumpstart Booster",
     "code": "dmu-jumpstart",
+    "languages": [
+      "en"
+    ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -90228,7 +90982,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:265:foil": 2
+          "dmu:265:foil": 1,
+          "dmu:266:foil": 1
         }
       },
       "rare_mythic_blue": {
@@ -90272,7 +91027,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:274:foil": 2
+          "dmu:274:foil": 1,
+          "dmu:275:foil": 1
         }
       },
       "rare_mythic_green": {
@@ -90314,7 +91070,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:262:foil": 2
+          "dmu:262:foil": 1,
+          "dmu:263:foil": 1
         }
       },
       "rare_mythic_white": {
@@ -90357,7 +91114,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:262:foil": 2
+          "dmu:262:foil": 1,
+          "dmu:263:foil": 1
         }
       },
       "monster_territory": {
@@ -90387,7 +91145,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:274:foil": 2
+          "dmu:274:foil": 1,
+          "dmu:275:foil": 1
         }
       },
       "mystic_mischief": {
@@ -90415,7 +91174,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:265:foil": 2
+          "dmu:265:foil": 1,
+          "dmu:266:foil": 1
         }
       },
       "ready_to_attack": {
@@ -90443,7 +91203,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:271:foil": 2
+          "dmu:271:foil": 1,
+          "dmu:272:foil": 1
         }
       },
       "rare_mythic_red": {
@@ -90485,7 +91246,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:271:foil": 2
+          "dmu:271:foil": 1,
+          "dmu:272:foil": 1
         }
       },
       "totally_merciless": {
@@ -90513,7 +91275,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:268:foil": 2
+          "dmu:268:foil": 1,
+          "dmu:269:foil": 1
         }
       },
       "rare_mythic_black": {
@@ -90555,7 +91318,8 @@
         "fixed": true,
         "total_weight": 2,
         "cards": {
-          "dmu:268:foil": 2
+          "dmu:268:foil": 1,
+          "dmu:269:foil": 1
         }
       }
     },
@@ -90566,6 +91330,7 @@
   {
     "name": "Dominaria United Prerelease Promo Pack",
     "code": "dmu-prerelease",
+    "languages": [],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -90673,6 +91438,9 @@
   {
     "name": "Dominaria United Set Booster",
     "code": "dmu-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
     "boosters": [
@@ -92112,6 +92880,13 @@
   {
     "name": "Double Masters 2022 Collector Booster",
     "code": "2x2-collector",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "jp"
+    ],
     "set_code": "2x2",
     "set_name": "Double Masters 2022",
     "boosters": [
@@ -92872,6 +93647,7 @@
   {
     "name": "Double Masters 2022 Draft Booster",
     "code": "2x2-draft",
+    "languages": [],
     "set_code": "2x2",
     "set_name": "Double Masters 2022",
     "boosters": [
@@ -93751,6 +94527,7 @@
   {
     "name": "Commander Legends: Battle for Baldur's Gate Collector Booster",
     "code": "clb-collector",
+    "languages": [],
     "set_code": "clb",
     "set_name": "Commander Legends: Battle for Baldur's Gate",
     "boosters": [
@@ -94652,6 +95429,19 @@
   {
     "name": "Commander Legends: Battle for Baldur's Gate Collector Sample Booster",
     "code": "clb-collector-sample",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "clb",
     "set_name": "Commander Legends: Battle for Baldur's Gate",
     "boosters": [
@@ -94995,6 +95785,19 @@
   {
     "name": "Commander Legends: Battle for Baldur's Gate Draft Booster",
     "code": "clb-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "clb",
     "set_name": "Commander Legends: Battle for Baldur's Gate",
     "boosters": [
@@ -95987,6 +96790,7 @@
   {
     "name": "Commander Legends: Battle for Baldur's Gate Prerelease Promo Pack",
     "code": "clb-prerelease",
+    "languages": [],
     "set_code": "clb",
     "set_name": "Commander Legends: Battle for Baldur's Gate",
     "boosters": [
@@ -96113,6 +96917,19 @@
   {
     "name": "Commander Legends: Battle for Baldur's Gate Set Booster",
     "code": "clb-set",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "clb",
     "set_name": "Commander Legends: Battle for Baldur's Gate",
     "boosters": [
@@ -98164,6 +98981,7 @@
   {
     "name": "Streets of New Capenna Arena Booster",
     "code": "snc-arena",
+    "languages": [],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -98467,6 +99285,9 @@
   {
     "name": "Streets of New Capenna Collector Booster",
     "code": "snc-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -99353,6 +100174,9 @@
   {
     "name": "Streets of New Capenna Collector Sample Booster",
     "code": "snc-collector-sample",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -99717,6 +100541,9 @@
   {
     "name": "Streets of New Capenna Draft Booster",
     "code": "snc-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -100508,6 +101335,7 @@
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Brokers",
     "code": "snc-prerelease-brokers",
+    "languages": [],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -100761,6 +101589,7 @@
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Cabaretti",
     "code": "snc-prerelease-cabaretti",
+    "languages": [],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -101015,6 +101844,7 @@
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Maestros",
     "code": "snc-prerelease-maestros",
+    "languages": [],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -101267,6 +102097,7 @@
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Obscura",
     "code": "snc-prerelease-obscura",
+    "languages": [],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -101522,6 +102353,7 @@
   {
     "name": "Streets of New Capenna Seeded Prerelease Pack Riveteers",
     "code": "snc-prerelease-riveteers",
+    "languages": [],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -101775,6 +102607,9 @@
   {
     "name": "Streets of New Capenna Set Booster",
     "code": "snc-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -103130,6 +103965,9 @@
   {
     "name": "Streets of New Capenna Theme Booster Brokers",
     "code": "snc-theme-brokers",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -103321,6 +104159,9 @@
   {
     "name": "Streets of New Capenna Theme Booster Cabaretti",
     "code": "snc-theme-cabaretti",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -103513,6 +104354,9 @@
   {
     "name": "Streets of New Capenna Theme Booster Maestros",
     "code": "snc-theme-maestros",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -103703,6 +104547,9 @@
   {
     "name": "Streets of New Capenna Theme Booster Obscura",
     "code": "snc-theme-obscura",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -103896,6 +104743,9 @@
   {
     "name": "Streets of New Capenna Theme Booster Riveteers",
     "code": "snc-theme-riveteers",
+    "languages": [
+      "en"
+    ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
     "boosters": [
@@ -104087,6 +104937,7 @@
   {
     "name": "Kamigawa: Neon Dynasty Arena Booster",
     "code": "neo-arena",
+    "languages": [],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -104445,6 +105296,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Collector Booster",
     "code": "neo-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -105367,6 +106221,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Draft Booster",
     "code": "neo-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -106279,6 +107136,7 @@
   {
     "name": "Kamigawa: Neon Dynasty Prerelease Promo Pack",
     "code": "neo-prerelease",
+    "languages": [],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -106383,6 +107241,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Set Booster",
     "code": "neo-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -108034,6 +108895,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Black",
     "code": "neo-theme-b",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -108239,6 +109103,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Green",
     "code": "neo-theme-g",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -108446,6 +109313,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Ninjas",
     "code": "neo-theme-ninjas",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -108672,6 +109542,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Red",
     "code": "neo-theme-r",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -108878,6 +109751,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster Blue",
     "code": "neo-theme-u",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -109084,6 +109960,9 @@
   {
     "name": "Kamigawa: Neon Dynasty Theme Booster White",
     "code": "neo-theme-w",
+    "languages": [
+      "en"
+    ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
     "boosters": [
@@ -109290,6 +110169,9 @@
   {
     "name": "Innistrad: Double Feature Draft Booster",
     "code": "dbl-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "dbl",
     "set_name": "Innistrad: Double Feature",
     "boosters": [
@@ -110649,6 +111531,9 @@
   {
     "name": "Innistrad: Crimson Vow Arena Booster",
     "code": "vow-arena",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -110992,6 +111877,7 @@
   {
     "name": "Innistrad: Crimson Vow Box Topper Pack",
     "code": "vow-box-topper",
+    "languages": [],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -111037,6 +111923,9 @@
   {
     "name": "Innistrad: Crimson Vow Collector Booster",
     "code": "vow-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -111757,6 +112646,9 @@
   {
     "name": "Innistrad: Crimson Vow Draft Booster",
     "code": "vow-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -112543,6 +113435,7 @@
   {
     "name": "Innistrad: Crimson Vow Prerelease Promo Pack",
     "code": "vow-prerelease",
+    "languages": [],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -112654,6 +113547,9 @@
   {
     "name": "Innistrad: Crimson Vow Set Booster",
     "code": "vow-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -114071,6 +114967,9 @@
   {
     "name": "Innistrad: Crimson Vow Theme Booster Black",
     "code": "vow-theme-b",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -114261,6 +115160,9 @@
   {
     "name": "Innistrad: Crimson Vow Theme Booster Green",
     "code": "vow-theme-g",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -114450,6 +115352,9 @@
   {
     "name": "Innistrad: Crimson Vow Theme Booster Red",
     "code": "vow-theme-r",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -114640,6 +115545,9 @@
   {
     "name": "Innistrad: Crimson Vow Theme Booster Blue",
     "code": "vow-theme-u",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -114829,6 +115737,9 @@
   {
     "name": "Innistrad: Crimson Vow Theme Booster Vampires",
     "code": "vow-theme-vampires",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -115034,6 +115945,9 @@
   {
     "name": "Innistrad: Crimson Vow Theme Booster White",
     "code": "vow-theme-w",
+    "languages": [
+      "en"
+    ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "boosters": [
@@ -115223,6 +116137,19 @@
   {
     "name": "Innistrad: Midnight Hunt Arena Booster",
     "code": "mid-arena",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -115566,6 +116493,7 @@
   {
     "name": "Innistrad: Midnight Hunt Collector Booster",
     "code": "mid-collector",
+    "languages": [],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -116176,6 +117104,19 @@
   {
     "name": "Innistrad: Midnight Hunt Draft Booster",
     "code": "mid-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -116956,6 +117897,7 @@
   {
     "name": "Innistrad: Midnight Hunt Prerelease Promo Pack",
     "code": "mid-prerelease",
+    "languages": [],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -117067,6 +118009,19 @@
   {
     "name": "Innistrad: Midnight Hunt Set Booster",
     "code": "mid-set",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -118478,6 +119433,19 @@
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Black",
     "code": "mid-theme-b",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -118666,6 +119634,19 @@
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Green",
     "code": "mid-theme-g",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -118851,6 +119832,19 @@
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Red",
     "code": "mid-theme-r",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -119036,6 +120030,19 @@
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Blue",
     "code": "mid-theme-u",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -119221,6 +120228,19 @@
   {
     "name": "Innistrad: Midnight Hunt Theme Booster White",
     "code": "mid-theme-w",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -119405,6 +120425,19 @@
   {
     "name": "Innistrad: Midnight Hunt Theme Booster Werewolves",
     "code": "mid-theme-werewolves",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
     "boosters": [
@@ -119604,6 +120637,7 @@
   {
     "name": "Adventures in the Forgotten Realms Arena Booster",
     "code": "afr-arena",
+    "languages": [],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -119907,6 +120941,7 @@
   {
     "name": "Adventures in the Forgotten Realms Collector Booster",
     "code": "afr-collector",
+    "languages": [],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -120563,6 +121598,9 @@
   {
     "name": "Adventures in the Forgotten Realms Draft Booster",
     "code": "afr-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -121350,6 +122388,7 @@
   {
     "name": "Adventures in the Forgotten Realms Prerelease Promo Pack",
     "code": "afr-prerelease",
+    "languages": [],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -121457,6 +122496,9 @@
   {
     "name": "Adventures in the Forgotten Realms Set Booster",
     "code": "afr-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -123333,6 +124375,9 @@
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Black",
     "code": "afr-theme-b",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -123528,6 +124573,9 @@
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Dungeon Theme",
     "code": "afr-theme-dungeons",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -123712,6 +124760,9 @@
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Green",
     "code": "afr-theme-g",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -123907,6 +124958,9 @@
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Red",
     "code": "afr-theme-r",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -124102,6 +125156,9 @@
   {
     "name": "Adventures in the Forgotten Realms Theme Booster Blue",
     "code": "afr-theme-u",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -124297,6 +125354,9 @@
   {
     "name": "Adventures in the Forgotten Realms Theme Booster White",
     "code": "afr-theme-w",
+    "languages": [
+      "en"
+    ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
     "boosters": [
@@ -124492,6 +125552,7 @@
   {
     "name": "Modern Horizons 2 Collector Booster",
     "code": "mh2-collector",
+    "languages": [],
     "set_code": "mh2",
     "set_name": "Modern Horizons 2",
     "boosters": [
@@ -125230,6 +126291,19 @@
   {
     "name": "Modern Horizons 2 Draft Booster",
     "code": "mh2-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mh2",
     "set_name": "Modern Horizons 2",
     "boosters": [
@@ -126183,6 +127257,19 @@
   {
     "name": "Modern Horizons 2 Set Booster",
     "code": "mh2-set",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mh2",
     "set_name": "Modern Horizons 2",
     "boosters": [
@@ -128474,6 +129561,7 @@
   {
     "name": "Strixhaven: School of Mages Arena Booster",
     "code": "stx-arena",
+    "languages": [],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -128869,6 +129957,9 @@
   {
     "name": "Strixhaven: School of Mages Collector Booster",
     "code": "stx-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -129805,6 +130896,9 @@
   {
     "name": "Strixhaven: School of Mages Draft Booster",
     "code": "stx-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -130580,6 +131674,9 @@
   {
     "name": "Strixhaven: School of Mages Japanese Draft Booster",
     "code": "stx-jp",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -131481,6 +132578,9 @@
   {
     "name": "Strixhaven: School of Mages Set Booster",
     "code": "stx-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -133453,6 +134553,9 @@
   {
     "name": "Strixhaven: School of Mages Japanese Set Booster",
     "code": "stx-set-jp",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -135614,6 +136717,9 @@
   {
     "name": "Strixhaven: School of Mages Theme Booster Lorehold",
     "code": "stx-theme-lorehold",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -135794,6 +136900,9 @@
   {
     "name": "Strixhaven: School of Mages Theme Booster Prismari",
     "code": "stx-theme-prismari",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -135970,6 +137079,9 @@
   {
     "name": "Strixhaven: School of Mages Theme Booster Quandrix",
     "code": "stx-theme-quandrix",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -136146,6 +137258,9 @@
   {
     "name": "Strixhaven: School of Mages Theme Booster Silverquill",
     "code": "stx-theme-silverquill",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -136323,6 +137438,9 @@
   {
     "name": "Strixhaven: School of Mages Theme Booster Witherbloom",
     "code": "stx-theme-witherbloom",
+    "languages": [
+      "en"
+    ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
     "boosters": [
@@ -136501,6 +137619,18 @@
   {
     "name": "Time Spiral Remastered Draft Booster",
     "code": "tsr-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "tsr",
     "set_name": "Time Spiral Remastered",
     "boosters": [
@@ -137392,6 +138522,7 @@
   {
     "name": "Kaldheim Arena Booster",
     "code": "khm-arena",
+    "languages": [],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -137726,6 +138857,7 @@
   {
     "name": "Kaldheim Collector Booster",
     "code": "khm-collector",
+    "languages": [],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -138309,6 +139441,9 @@
   {
     "name": "Kaldheim Draft Booster",
     "code": "khm-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -139046,6 +140181,7 @@
   {
     "name": "Kaldheim Prerelease Promo Pack",
     "code": "khm-prerelease",
+    "languages": [],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -139158,6 +140294,9 @@
   {
     "name": "Kaldheim Set Booster",
     "code": "khm-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -141024,6 +142163,9 @@
   {
     "name": "Kaldheim Theme Booster Black",
     "code": "khm-theme-b",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -141217,6 +142359,9 @@
   {
     "name": "Kaldheim Theme Booster Green",
     "code": "khm-theme-g",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -141406,6 +142551,9 @@
   {
     "name": "Kaldheim Theme Booster Red",
     "code": "khm-theme-r",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -141598,6 +142746,9 @@
   {
     "name": "Kaldheim Theme Booster Blue",
     "code": "khm-theme-u",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -141789,6 +142940,9 @@
   {
     "name": "Kaldheim Theme Booster Vikings",
     "code": "khm-theme-vikings",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -142077,6 +143231,9 @@
   {
     "name": "Kaldheim Theme Booster White",
     "code": "khm-theme-w",
+    "languages": [
+      "en"
+    ],
     "set_code": "khm",
     "set_name": "Kaldheim",
     "boosters": [
@@ -142271,6 +143428,7 @@
   {
     "name": "Commander Legends Collector Booster",
     "code": "cmr-collector",
+    "languages": [],
     "set_code": "cmr",
     "set_name": "Commander Legends",
     "boosters": [
@@ -142917,6 +144075,17 @@
   {
     "name": "Commander Legends Draft Booster",
     "code": "cmr-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "cmr",
     "set_name": "Commander Legends",
     "boosters": [
@@ -143861,6 +145030,7 @@
   {
     "name": "Kaladesh Remastered Arena Booster",
     "code": "klr-arena",
+    "languages": [],
     "set_code": "klr",
     "set_name": "Kaladesh Remastered",
     "boosters": [
@@ -144189,6 +145359,7 @@
   {
     "name": "Zendikar Rising Expeditions Box Topper",
     "code": "zne-box-topper",
+    "languages": [],
     "set_code": "zne",
     "set_name": "Zendikar Rising Expeditions",
     "boosters": [
@@ -144246,6 +145417,9 @@
   {
     "name": "Zendikar Rising Arena Booster",
     "code": "znr-arena",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -144578,6 +145752,9 @@
   {
     "name": "Zendikar Rising Collector Booster",
     "code": "znr-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -145200,6 +146377,9 @@
   {
     "name": "Zendikar Rising Draft Booster",
     "code": "znr-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -145943,6 +147123,7 @@
   {
     "name": "Zendikar Rising Prerelease Promo Pack",
     "code": "znr-prerelease",
+    "languages": [],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -146054,6 +147235,9 @@
   {
     "name": "Zendikar Rising Set Booster",
     "code": "znr-set",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -147839,6 +149023,9 @@
   {
     "name": "Zendikar Rising Theme Booster Black",
     "code": "znr-theme-b",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -148034,6 +149221,9 @@
   {
     "name": "Zendikar Rising Theme Booster Green",
     "code": "znr-theme-g",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -148228,6 +149418,9 @@
   {
     "name": "Zendikar Rising Theme Booster Party",
     "code": "znr-theme-party",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -148477,6 +149670,9 @@
   {
     "name": "Zendikar Rising Theme Booster Red",
     "code": "znr-theme-r",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -148672,6 +149868,9 @@
   {
     "name": "Zendikar Rising Theme Booster Blue",
     "code": "znr-theme-u",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -148867,6 +150066,9 @@
   {
     "name": "Zendikar Rising Theme Booster White",
     "code": "znr-theme-w",
+    "languages": [
+      "en"
+    ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
     "boosters": [
@@ -149061,6 +150263,7 @@
   {
     "name": "Amonkhet Remastered Arena Booster",
     "code": "akr-arena",
+    "languages": [],
     "set_code": "akr",
     "set_name": "Amonkhet Remastered",
     "boosters": [
@@ -149406,6 +150609,7 @@
   {
     "name": "Double Masters Box Topper Pack",
     "code": "2xm-box-topper",
+    "languages": [],
     "set_code": "2xm",
     "set_name": "Double Masters",
     "boosters": [
@@ -149473,6 +150677,7 @@
   {
     "name": "Double Masters Draft Booster",
     "code": "2xm-draft",
+    "languages": [],
     "set_code": "2xm",
     "set_name": "Double Masters",
     "boosters": [
@@ -150186,6 +151391,7 @@
   {
     "name": "Double Masters VIP Edition",
     "code": "2xm-vip",
+    "languages": [],
     "set_code": "2xm",
     "set_name": "Double Masters",
     "boosters": [
@@ -150703,6 +151909,9 @@
   {
     "name": "Jumpstart Jumpstart Booster",
     "code": "jmp-jumpstart",
+    "languages": [
+      "en"
+    ],
     "set_code": "jmp",
     "set_name": "Jumpstart",
     "boosters": [
@@ -154578,6 +155787,7 @@
   {
     "name": "Core Set 2021 Arena Booster",
     "code": "m21-arena",
+    "languages": [],
     "set_code": "m21",
     "set_name": "Core Set 2021",
     "boosters": [
@@ -154901,6 +156111,7 @@
   {
     "name": "Core Set 2021 Collector Booster",
     "code": "m21-collector",
+    "languages": [],
     "set_code": "m21",
     "set_name": "Core Set 2021",
     "boosters": [
@@ -155450,6 +156661,19 @@
   {
     "name": "Core Set 2021 Draft Booster",
     "code": "m21-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m21",
     "set_name": "Core Set 2021",
     "boosters": [
@@ -156179,6 +157403,7 @@
   {
     "name": "Core Set 2021 Prerelease Promo Pack",
     "code": "m21-prerelease",
+    "languages": [],
     "set_code": "m21",
     "set_name": "Core Set 2021",
     "boosters": [
@@ -156274,6 +157499,7 @@
   {
     "name": "Ikoria: Lair of Behemoths Arena Booster",
     "code": "iko-arena",
+    "languages": [],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -156597,6 +157823,7 @@
   {
     "name": "Ikoria: Lair of Behemoths Box Topper Pack",
     "code": "iko-box-topper",
+    "languages": [],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -156639,6 +157866,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Collector Booster",
     "code": "iko-collector",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -157314,6 +158554,9 @@
   {
     "name": "Ikoria: Lair of Behemoths Japanese Collector Booster",
     "code": "iko-collector-jp",
+    "languages": [
+      "jp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -157995,6 +159238,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Draft Booster",
     "code": "iko-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -158690,6 +159946,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Japanese Draft Booster",
     "code": "iko-jp",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -159431,6 +160700,7 @@
   {
     "name": "Ikoria: Lair of Behemoths Prerelease Promo Pack",
     "code": "iko-prerelease",
+    "languages": [],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -159526,6 +160796,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Black",
     "code": "iko-theme-b",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -159702,6 +160985,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Green",
     "code": "iko-theme-g",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -159879,6 +161175,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Monsters",
     "code": "iko-theme-monsters",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -160231,6 +161540,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Red",
     "code": "iko-theme-r",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -160408,6 +161730,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Blue",
     "code": "iko-theme-u",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -160584,6 +161919,19 @@
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster White",
     "code": "iko-theme-w",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
     "boosters": [
@@ -160761,6 +162109,7 @@
   {
     "name": "Theros Beyond Death Arena Booster",
     "code": "thb-arena",
+    "languages": [],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -161052,6 +162401,19 @@
   {
     "name": "Theros Beyond Death Collector Booster",
     "code": "thb-collector",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -161645,6 +163007,19 @@
   {
     "name": "Theros Beyond Death Draft Booster",
     "code": "thb-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -162252,6 +163627,19 @@
   {
     "name": "Theros Beyond Death Theme Booster Black",
     "code": "thb-theme-b",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -162443,6 +163831,19 @@
   {
     "name": "Theros Beyond Death Theme Booster Green",
     "code": "thb-theme-g",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -162634,6 +164035,19 @@
   {
     "name": "Theros Beyond Death Theme Booster Red",
     "code": "thb-theme-r",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -162825,6 +164239,19 @@
   {
     "name": "Theros Beyond Death Theme Booster Blue",
     "code": "thb-theme-u",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -163016,6 +164443,19 @@
   {
     "name": "Theros Beyond Death Theme Booster White",
     "code": "thb-theme-w",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "thb",
     "set_name": "Theros Beyond Death",
     "boosters": [
@@ -163207,6 +164647,7 @@
   {
     "name": "SLD Blueprint Cards MK. 1",
     "code": "sld-blueprint-mk1",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163239,6 +164680,7 @@
   {
     "name": "SLD Blueprint Cards MK. 2",
     "code": "sld-blueprint-mk2",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163271,6 +164713,7 @@
   {
     "name": "SLD Chaos Emeralds",
     "code": "sld-chaos-emeralds",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163305,6 +164748,7 @@
   {
     "name": "SLD Deceptive Districts",
     "code": "sld-deceptive-districts",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163337,6 +164781,7 @@
   {
     "name": "SLD Final Fantasy Elementals",
     "code": "sld-fin-elementals",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163369,6 +164814,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Black",
     "code": "sld-stainedglass-b",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163405,6 +164851,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Colorless",
     "code": "sld-stainedglass-c",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163434,6 +164881,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Green",
     "code": "sld-stainedglass-g",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163472,6 +164920,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - International Women Day",
     "code": "sld-stainedglass-iwd",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163517,6 +164966,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Red",
     "code": "sld-stainedglass-r",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163555,6 +165005,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Tattoo",
     "code": "sld-stainedglass-tattoo",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163597,6 +165048,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Blue",
     "code": "sld-stainedglass-u",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163635,6 +165087,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - Uncommon",
     "code": "sld-stainedglass-uncommon",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163682,6 +165135,7 @@
   {
     "name": "SLD Stained Glass Planeswalkers - White",
     "code": "sld-stainedglass-w",
+    "languages": [],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
     "boosters": [
@@ -163719,6 +165173,7 @@
   {
     "name": "Mystery Booster Pack Convention Edition",
     "code": "mb1-convention",
+    "languages": [],
     "set_code": "mb1",
     "set_name": "Mystery Booster",
     "boosters": [
@@ -165660,6 +167115,7 @@
   {
     "name": "Mystery Booster Pack Convention 2021 Edition",
     "code": "mb1-convention-2021",
+    "languages": [],
     "set_code": "mb1",
     "set_name": "Mystery Booster",
     "boosters": [
@@ -167601,6 +169057,7 @@
   {
     "name": "Mystery Booster Pack Retail Edition",
     "code": "mb1-draft",
+    "languages": [],
     "set_code": "mb1",
     "set_name": "Mystery Booster",
     "boosters": [
@@ -169541,6 +170998,7 @@
   {
     "name": "Throne of Eldraine Arena Booster",
     "code": "eld-arena",
+    "languages": [],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -169832,6 +171290,9 @@
   {
     "name": "Throne of Eldraine Collector Booster",
     "code": "eld-collector",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -170434,6 +171895,9 @@
   {
     "name": "Throne of Eldraine Draft Booster",
     "code": "eld-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -171146,6 +172610,7 @@
   {
     "name": "Throne of Eldraine Prerelease Promo Pack",
     "code": "eld-prerelease",
+    "languages": [],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -171241,6 +172706,9 @@
   {
     "name": "Throne of Eldraine Theme Booster Black",
     "code": "eld-theme-b",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -171437,6 +172905,9 @@
   {
     "name": "Throne of Eldraine Theme Booster Green",
     "code": "eld-theme-g",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -171633,6 +173104,9 @@
   {
     "name": "Throne of Eldraine Theme Booster Red",
     "code": "eld-theme-r",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -171829,6 +173303,9 @@
   {
     "name": "Throne of Eldraine Theme Booster Blue",
     "code": "eld-theme-u",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -172025,6 +173502,9 @@
   {
     "name": "Throne of Eldraine Theme Booster White",
     "code": "eld-theme-w",
+    "languages": [
+      "en"
+    ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
     "boosters": [
@@ -172221,6 +173701,7 @@
   {
     "name": "Core Set 2020 Arena Booster",
     "code": "m20-arena",
+    "languages": [],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -172550,6 +174031,19 @@
   {
     "name": "Core Set 2020 Draft Booster",
     "code": "m20-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -173181,6 +174675,7 @@
   {
     "name": "Core Set 2020 Prerelease Promo Pack",
     "code": "m20-prerelease",
+    "languages": [],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -173276,6 +174771,19 @@
   {
     "name": "Core Set 2020 Theme Booster Black",
     "code": "m20-theme-b",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -173423,6 +174931,19 @@
   {
     "name": "Core Set 2020 Theme Booster Green",
     "code": "m20-theme-g",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -173570,6 +175091,19 @@
   {
     "name": "Core Set 2020 Theme Booster Red",
     "code": "m20-theme-r",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -173717,6 +175251,19 @@
   {
     "name": "Core Set 2020 Theme Booster Blue",
     "code": "m20-theme-u",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -173864,6 +175411,19 @@
   {
     "name": "Core Set 2020 Theme Booster White",
     "code": "m20-theme-w",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m20",
     "set_name": "Core Set 2020",
     "boosters": [
@@ -174011,6 +175571,19 @@
   {
     "name": "Modern Horizons Draft Booster",
     "code": "mh1-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mh1",
     "set_name": "Modern Horizons",
     "boosters": [
@@ -174590,6 +176163,19 @@
   {
     "name": "War of the Spark Arena Booster",
     "code": "war-arena",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -174906,6 +176492,19 @@
   {
     "name": "War of the Spark Draft Booster",
     "code": "war-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -175551,6 +177150,19 @@
   {
     "name": "War of the Spark Japanese Draft Booster",
     "code": "war-jp",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -176268,6 +177880,7 @@
   {
     "name": "War of the Spark Prerelease Promo Pack",
     "code": "war-prerelease",
+    "languages": [],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -176426,6 +178039,19 @@
   {
     "name": "War of the Spark Theme Booster Black",
     "code": "war-theme-b",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -176565,6 +178191,19 @@
   {
     "name": "War of the Spark Theme Booster Green",
     "code": "war-theme-g",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -176702,6 +178341,19 @@
   {
     "name": "War of the Spark Theme Booster Red",
     "code": "war-theme-r",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -176840,6 +178492,19 @@
   {
     "name": "War of the Spark Theme Booster Blue",
     "code": "war-theme-u",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -176978,6 +178643,19 @@
   {
     "name": "War of the Spark Theme Booster White",
     "code": "war-theme-w",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "war",
     "set_name": "War of the Spark",
     "boosters": [
@@ -177116,6 +178794,7 @@
   {
     "name": "Ravnica Allegiance Arena Booster",
     "code": "rna-arena",
+    "languages": [],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -177424,6 +179103,19 @@
   {
     "name": "Ravnica Allegiance Draft Booster",
     "code": "rna-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -178013,6 +179705,19 @@
   {
     "name": "Ravnica Allegiance Theme Booster Azorius",
     "code": "rna-theme-azorius",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -178173,6 +179878,19 @@
   {
     "name": "Ravnica Allegiance Theme Booster Gruul",
     "code": "rna-theme-gruul",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -178333,6 +180051,19 @@
   {
     "name": "Ravnica Allegiance Theme Booster Orzhov",
     "code": "rna-theme-orzhov",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -178492,6 +180223,19 @@
   {
     "name": "Ravnica Allegiance Theme Booster Rakdos",
     "code": "rna-theme-rakdos",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -178654,6 +180398,19 @@
   {
     "name": "Ravnica Allegiance Theme Booster Simic",
     "code": "rna-theme-simic",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rna",
     "set_name": "Ravnica Allegiance",
     "boosters": [
@@ -178816,6 +180573,7 @@
   {
     "name": "Ultimate Masters Box Topper Pack",
     "code": "uma-box-topper",
+    "languages": [],
     "set_code": "uma",
     "set_name": "Ultimate Masters",
     "boosters": [
@@ -178883,6 +180641,7 @@
   {
     "name": "Ultimate Masters Draft Booster",
     "code": "uma-draft",
+    "languages": [],
     "set_code": "uma",
     "set_name": "Ultimate Masters",
     "boosters": [
@@ -179440,6 +181199,7 @@
   {
     "name": "Guilds of Ravnica Arena Booster",
     "code": "grn-arena",
+    "languages": [],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -179748,6 +181508,19 @@
   {
     "name": "Guilds of Ravnica Draft Booster",
     "code": "grn-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -180337,6 +182110,19 @@
   {
     "name": "Guilds of Ravnica Theme Booster Boros",
     "code": "grn-theme-boros",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -180498,6 +182284,19 @@
   {
     "name": "Guilds of Ravnica Theme Booster Dimir",
     "code": "grn-theme-dimir",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -180659,6 +182458,19 @@
   {
     "name": "Guilds of Ravnica Theme Booster Golgari",
     "code": "grn-theme-golgari",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -180816,6 +182628,19 @@
   {
     "name": "Guilds of Ravnica Theme Booster Izzet",
     "code": "grn-theme-izzet",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -180968,6 +182793,19 @@
   {
     "name": "Guilds of Ravnica Theme Booster Selesnya",
     "code": "grn-theme-selesnya",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "grn",
     "set_name": "Guilds of Ravnica",
     "boosters": [
@@ -181129,6 +182967,7 @@
   {
     "name": "Core Set 2019 Arena Booster",
     "code": "m19-arena",
+    "languages": [],
     "set_code": "m19",
     "set_name": "Core Set 2019",
     "boosters": [
@@ -181458,6 +183297,19 @@
   {
     "name": "Core Set 2019 Draft Booster",
     "code": "m19-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m19",
     "set_name": "Core Set 2019",
     "boosters": [
@@ -182089,6 +183941,7 @@
   {
     "name": "Core Set 2019 Prerelease Promo Pack",
     "code": "m19-prerelease",
+    "languages": [],
     "set_code": "m19",
     "set_name": "Core Set 2019",
     "boosters": [
@@ -182185,6 +184038,11 @@
   {
     "name": "Battlebond Draft Booster",
     "code": "bbd-draft",
+    "languages": [
+      "cn",
+      "en",
+      "jp"
+    ],
     "set_code": "bbd",
     "set_name": "Battlebond",
     "boosters": [
@@ -183433,6 +185291,19 @@
   {
     "name": "Dominaria Arena Booster",
     "code": "dom-arena",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -183764,6 +185635,19 @@
   {
     "name": "Dominaria Draft Booster",
     "code": "dom-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -184455,6 +186339,7 @@
   {
     "name": "Dominaria Prerelease Promo Pack",
     "code": "dom-prerelease",
+    "languages": [],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -184550,6 +186435,19 @@
   {
     "name": "Dominaria Theme Booster Black",
     "code": "dom-theme-b",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -184702,6 +186600,19 @@
   {
     "name": "Dominaria Theme Booster Green",
     "code": "dom-theme-g",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -184853,6 +186764,19 @@
   {
     "name": "Dominaria Theme Booster Red",
     "code": "dom-theme-r",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -185005,6 +186929,19 @@
   {
     "name": "Dominaria Theme Booster Blue",
     "code": "dom-theme-u",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -185156,6 +187093,19 @@
   {
     "name": "Dominaria Theme Booster White",
     "code": "dom-theme-w",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dom",
     "set_name": "Dominaria",
     "boosters": [
@@ -185307,6 +187257,7 @@
   {
     "name": "Masters 25 Draft Booster",
     "code": "a25-draft",
+    "languages": [],
     "set_code": "a25",
     "set_name": "Masters 25",
     "boosters": [
@@ -185854,6 +187805,7 @@
   {
     "name": "Rivals of Ixalan Arena Booster",
     "code": "rix-arena",
+    "languages": [],
     "set_code": "rix",
     "set_name": "Rivals of Ixalan",
     "boosters": [
@@ -186087,6 +188039,19 @@
   {
     "name": "Rivals of Ixalan Draft Booster",
     "code": "rix-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rix",
     "set_name": "Rivals of Ixalan",
     "boosters": [
@@ -186550,6 +188515,9 @@
   {
     "name": "Unstable Draft Booster",
     "code": "ust-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "ust",
     "set_name": "Unstable",
     "boosters": [
@@ -187211,6 +189179,7 @@
   {
     "name": "Iconic Masters Draft Booster",
     "code": "ima-draft",
+    "languages": [],
     "set_code": "ima",
     "set_name": "Iconic Masters",
     "boosters": [
@@ -187758,6 +189727,7 @@
   {
     "name": "Ixalan Arena Booster",
     "code": "xln-arena",
+    "languages": [],
     "set_code": "xln",
     "set_name": "Ixalan",
     "boosters": [
@@ -188059,6 +190029,19 @@
   {
     "name": "Ixalan Draft Booster",
     "code": "xln-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "xln",
     "set_name": "Ixalan",
     "boosters": [
@@ -188688,6 +190671,7 @@
   {
     "name": "Ixalan Prerelease Promo Pack",
     "code": "xln-prerelease",
+    "languages": [],
     "set_code": "xln",
     "set_name": "Ixalan",
     "boosters": [
@@ -188793,6 +190777,7 @@
   {
     "name": "Ixalan Treasure Chest Promo Booster",
     "code": "xln-treasure-chest",
+    "languages": [],
     "set_code": "xln",
     "set_name": "Ixalan",
     "boosters": [
@@ -190379,6 +192364,19 @@
   {
     "name": "Hour of Devastation Draft Booster",
     "code": "hou-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "hou",
     "set_name": "Hour of Devastation",
     "boosters": [
@@ -190873,6 +192871,7 @@
   {
     "name": "Hour of Devastation Prerelease Promo Pack",
     "code": "hou-prerelease",
+    "languages": [],
     "set_code": "hou",
     "set_name": "Hour of Devastation",
     "boosters": [
@@ -190954,6 +192953,19 @@
   {
     "name": "Amonkhet Draft Booster",
     "code": "akh-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "akh",
     "set_name": "Amonkhet",
     "boosters": [
@@ -191594,6 +193606,7 @@
   {
     "name": "Amonkhet Prerelease Promo Pack",
     "code": "akh-prerelease",
+    "languages": [],
     "set_code": "akh",
     "set_name": "Amonkhet",
     "boosters": [
@@ -191689,6 +193702,7 @@
   {
     "name": "Modern Masters 2017 Draft Booster",
     "code": "mm3-draft",
+    "languages": [],
     "set_code": "mm3",
     "set_name": "Modern Masters 2017",
     "boosters": [
@@ -192236,6 +194250,19 @@
   {
     "name": "Aether Revolt Draft Booster",
     "code": "aer-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "aer",
     "set_name": "Aether Revolt",
     "boosters": [
@@ -192731,6 +194758,7 @@
   {
     "name": "Aether Revolt Prerelease Promo Pack",
     "code": "aer-prerelease",
+    "languages": [],
     "set_code": "aer",
     "set_name": "Aether Revolt",
     "boosters": [
@@ -192812,6 +194840,19 @@
   {
     "name": "Kaladesh Draft Booster",
     "code": "kld-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "kld",
     "set_name": "Kaladesh",
     "boosters": [
@@ -193442,6 +195483,7 @@
   {
     "name": "Kaladesh Prerelease Promo Pack",
     "code": "kld-prerelease",
+    "languages": [],
     "set_code": "kld",
     "set_name": "Kaladesh",
     "boosters": [
@@ -193537,6 +195579,11 @@
   {
     "name": "Conspiracy: Take the Crown Draft Booster",
     "code": "cn2-draft",
+    "languages": [
+      "cn",
+      "en",
+      "jp"
+    ],
     "set_code": "cn2",
     "set_name": "Conspiracy: Take the Crown",
     "boosters": [
@@ -194087,6 +196134,19 @@
   {
     "name": "Eldritch Moon Draft Booster",
     "code": "emn-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "emn",
     "set_name": "Eldritch Moon",
     "boosters": [
@@ -194632,6 +196692,7 @@
   {
     "name": "Eldritch Moon Prerelease Promo Pack",
     "code": "emn-prerelease",
+    "languages": [],
     "set_code": "emn",
     "set_name": "Eldritch Moon",
     "boosters": [
@@ -194720,6 +196781,7 @@
   {
     "name": "Eternal Masters Draft Booster",
     "code": "ema-draft",
+    "languages": [],
     "set_code": "ema",
     "set_name": "Eternal Masters",
     "boosters": [
@@ -195267,6 +197329,19 @@
   {
     "name": "Shadows over Innistrad Draft Booster",
     "code": "soi-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "soi",
     "set_name": "Shadows over Innistrad",
     "boosters": [
@@ -195965,6 +198040,19 @@
   {
     "name": "Oath of the Gatewatch Draft Booster",
     "code": "ogw-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "ogw",
     "set_name": "Oath of the Gatewatch",
     "boosters": [
@@ -196476,6 +198564,19 @@
   {
     "name": "Battle for Zendikar Draft Booster",
     "code": "bfz-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "bfz",
     "set_name": "Battle for Zendikar",
     "boosters": [
@@ -197121,6 +199222,7 @@
   {
     "name": "Battle for Zendikar Prerelease Promo Pack",
     "code": "bfz-prerelease",
+    "languages": [],
     "set_code": "bfz",
     "set_name": "Battle for Zendikar",
     "boosters": [
@@ -197216,6 +199318,19 @@
   {
     "name": "Magic Origins Draft Booster",
     "code": "ori-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "ori",
     "set_name": "Magic Origins",
     "boosters": [
@@ -197831,6 +199946,7 @@
   {
     "name": "Modern Masters 2015 Draft Booster",
     "code": "mm2-draft",
+    "languages": [],
     "set_code": "mm2",
     "set_name": "Modern Masters 2015",
     "boosters": [
@@ -198378,6 +200494,9 @@
   {
     "name": "Tempest Remastered Magic Online Booster",
     "code": "tpr-mtgo",
+    "languages": [
+      "en"
+    ],
     "set_code": "tpr",
     "set_name": "Tempest Remastered",
     "boosters": [
@@ -198987,6 +201106,19 @@
   {
     "name": "Dragons of Tarkir Draft Booster",
     "code": "dtk-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -199586,6 +201718,7 @@
   {
     "name": "Dragons of Tarkir Fat Pack Promotional Cards",
     "code": "dtk-fat-pack",
+    "languages": [],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -199742,6 +201875,7 @@
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Atarka",
     "code": "dtk-prerelease-atarka",
+    "languages": [],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -199839,6 +201973,7 @@
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Dromoka",
     "code": "dtk-prerelease-dromoka",
+    "languages": [],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -199938,6 +202073,7 @@
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Kolaghan",
     "code": "dtk-prerelease-kolaghan",
+    "languages": [],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -200035,6 +202171,7 @@
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Ojutai",
     "code": "dtk-prerelease-ojutai",
+    "languages": [],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -200129,6 +202266,7 @@
   {
     "name": "Dragons of Tarkir Seeded Prerelease Booster Silumgar",
     "code": "dtk-prerelease-silumgar",
+    "languages": [],
     "set_code": "dtk",
     "set_name": "Dragons of Tarkir",
     "boosters": [
@@ -200228,6 +202366,19 @@
   {
     "name": "Fate Reforged Draft Booster",
     "code": "frf-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "frf",
     "set_name": "Fate Reforged",
     "boosters": [
@@ -200665,6 +202816,7 @@
   {
     "name": "Khans of Tarkir Arena Booster",
     "code": "ktk-arena",
+    "languages": [],
     "set_code": "ktk",
     "set_name": "Khans of Tarkir",
     "boosters": [
@@ -200956,6 +203108,19 @@
   {
     "name": "Khans of Tarkir Draft Booster",
     "code": "ktk-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "ktk",
     "set_name": "Khans of Tarkir",
     "boosters": [
@@ -201565,6 +203730,19 @@
   {
     "name": "Magic 2015 Draft Booster",
     "code": "m15-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m15",
     "set_name": "Magic 2015",
     "boosters": [
@@ -202174,6 +204352,7 @@
   {
     "name": "Duels of the Planeswalkers 2015 Base Booster",
     "code": "m15-duelspromo",
+    "languages": [],
     "set_code": "m15",
     "set_name": "Magic 2015",
     "boosters": [
@@ -202389,6 +204568,9 @@
   {
     "name": "Vintage Masters Magic Online Booster",
     "code": "vma-mtgo",
+    "languages": [
+      "en"
+    ],
     "set_code": "vma",
     "set_name": "Vintage Masters",
     "boosters": [
@@ -203108,6 +205290,11 @@
   {
     "name": "Conspiracy Draft Booster",
     "code": "cns-draft",
+    "languages": [
+      "cn",
+      "en",
+      "jp"
+    ],
     "set_code": "cns",
     "set_name": "Conspiracy",
     "boosters": [
@@ -203636,6 +205823,19 @@
   {
     "name": "Journey into Nyx Draft Booster",
     "code": "jou-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "jou",
     "set_name": "Journey into Nyx",
     "boosters": [
@@ -204088,6 +206288,19 @@
   {
     "name": "Born of the Gods Draft Booster",
     "code": "bng-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "bng",
     "set_name": "Born of the Gods",
     "boosters": [
@@ -204510,6 +206723,19 @@
   {
     "name": "Theros Draft Booster",
     "code": "ths-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "ths",
     "set_name": "Theros",
     "boosters": [
@@ -205079,6 +207305,19 @@
   {
     "name": "Magic 2014 Draft Booster",
     "code": "m14-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m14",
     "set_name": "Magic 2014",
     "boosters": [
@@ -205648,6 +207887,7 @@
   {
     "name": "Duels of the Planeswalkers 2014 Base Booster",
     "code": "m14-duelspromo",
+    "languages": [],
     "set_code": "m14",
     "set_name": "Magic 2014",
     "boosters": [
@@ -205843,6 +208083,19 @@
   {
     "name": "Magic 2014 Six-card Booster Pack",
     "code": "m14-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m14",
     "set_name": "Magic 2014",
     "boosters": [
@@ -206166,6 +208419,7 @@
   {
     "name": "Modern Masters Draft Booster",
     "code": "mma-draft",
+    "languages": [],
     "set_code": "mma",
     "set_name": "Modern Masters",
     "boosters": [
@@ -206673,6 +208927,19 @@
   {
     "name": "Dragon's Maze Draft Booster",
     "code": "dgm-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dgm",
     "set_name": "Dragon's Maze",
     "boosters": [
@@ -207068,6 +209335,19 @@
   {
     "name": "Dragon's Maze Six-card Booster Pack",
     "code": "dgm-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dgm",
     "set_name": "Dragon's Maze",
     "boosters": [
@@ -207324,6 +209604,19 @@
   {
     "name": "Gatecrash Draft Booster",
     "code": "gtc-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -207919,6 +210212,7 @@
   {
     "name": "Gatecrash Prerelease Pack Boros",
     "code": "gtc-prerelease-boros",
+    "languages": [],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -208033,6 +210327,7 @@
   {
     "name": "Gatecrash Prerelease Pack Dimir",
     "code": "gtc-prerelease-dimir",
+    "languages": [],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -208147,6 +210442,7 @@
   {
     "name": "Gatecrash Prerelease Pack Gruul",
     "code": "gtc-prerelease-gruul",
+    "languages": [],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -208261,6 +210557,7 @@
   {
     "name": "Gatecrash Prerelease Pack Orzhov",
     "code": "gtc-prerelease-orzhov",
+    "languages": [],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -208375,6 +210672,7 @@
   {
     "name": "Gatecrash Prerelease Pack Simic",
     "code": "gtc-prerelease-simic",
+    "languages": [],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -208489,6 +210787,19 @@
   {
     "name": "Gatecrash Six-card Booster Pack",
     "code": "gtc-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "gtc",
     "set_name": "Gatecrash",
     "boosters": [
@@ -208838,6 +211149,19 @@
   {
     "name": "Return to Ravnica Draft Booster",
     "code": "rtr-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -209457,6 +211781,7 @@
   {
     "name": "Return to Ravnica Prerelease Pack Azorius",
     "code": "rtr-prerelease-azorius",
+    "languages": [],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -209572,6 +211897,7 @@
   {
     "name": "Return to Ravnica Prerelease Pack Golgari",
     "code": "rtr-prerelease-golgari",
+    "languages": [],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -209689,6 +212015,7 @@
   {
     "name": "Return to Ravnica Prerelease Pack Izzet",
     "code": "rtr-prerelease-izzet",
+    "languages": [],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -209804,6 +212131,7 @@
   {
     "name": "Return to Ravnica Prerelease Pack Rakdos",
     "code": "rtr-prerelease-rakdos",
+    "languages": [],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -209918,6 +212246,7 @@
   {
     "name": "Return to Ravnica Prerelease Pack Selesnya",
     "code": "rtr-prerelease-selesnya",
+    "languages": [],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -210033,6 +212362,19 @@
   {
     "name": "Return to Ravnica Six-card Booster Pack",
     "code": "rtr-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rtr",
     "set_name": "Return to Ravnica",
     "boosters": [
@@ -210381,6 +212723,19 @@
   {
     "name": "Magic 2013 Draft Booster",
     "code": "m13-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m13",
     "set_name": "Magic 2013",
     "boosters": [
@@ -210950,6 +213305,19 @@
   {
     "name": "Magic 2013 Six-card Booster Pack",
     "code": "m13-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m13",
     "set_name": "Magic 2013",
     "boosters": [
@@ -211273,6 +213641,19 @@
   {
     "name": "Avacyn Restored Draft Booster",
     "code": "avr-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "avr",
     "set_name": "Avacyn Restored",
     "boosters": [
@@ -211832,6 +214213,19 @@
   {
     "name": "Avacyn Restored Six-card Booster Pack",
     "code": "avr-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "avr",
     "set_name": "Avacyn Restored",
     "boosters": [
@@ -212150,6 +214544,19 @@
   {
     "name": "Dark Ascension Draft Booster",
     "code": "dka-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dka",
     "set_name": "Dark Ascension",
     "boosters": [
@@ -212562,6 +214969,19 @@
   {
     "name": "Dark Ascension Six-card Booster Pack",
     "code": "dka-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dka",
     "set_name": "Dark Ascension",
     "boosters": [
@@ -212810,6 +215230,19 @@
   {
     "name": "Innistrad Draft Booster",
     "code": "isd-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "isd",
     "set_name": "Innistrad",
     "boosters": [
@@ -213418,6 +215851,19 @@
   {
     "name": "Innistrad Six-card Booster Pack",
     "code": "isd-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "isd",
     "set_name": "Innistrad",
     "boosters": [
@@ -213756,6 +216202,19 @@
   {
     "name": "Magic 2012 Draft Booster",
     "code": "m12-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m12",
     "set_name": "Magic 2012",
     "boosters": [
@@ -214325,6 +216784,19 @@
   {
     "name": "Magic 2012 Six-card Booster Pack",
     "code": "m12-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m12",
     "set_name": "Magic 2012",
     "boosters": [
@@ -214648,6 +217120,18 @@
   {
     "name": "New Phyrexia Draft Booster",
     "code": "nph-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "nph",
     "set_name": "New Phyrexia",
     "boosters": [
@@ -215069,6 +217553,18 @@
   {
     "name": "New Phyrexia Six-card Booster Pack",
     "code": "nph-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "nph",
     "set_name": "New Phyrexia",
     "boosters": [
@@ -215318,6 +217814,18 @@
   {
     "name": "Mirrodin Besieged Draft Booster",
     "code": "mbs-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mbs",
     "set_name": "Mirrodin Besieged",
     "boosters": [
@@ -215699,6 +218207,18 @@
   {
     "name": "Mirrodin Besieged Six-card Booster Pack",
     "code": "mbs-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mbs",
     "set_name": "Mirrodin Besieged",
     "boosters": [
@@ -215928,6 +218448,9 @@
   {
     "name": "Masters Edition IV Magic Online Booster",
     "code": "me4-mtgo",
+    "languages": [
+      "en"
+    ],
     "set_code": "me4",
     "set_name": "Masters Edition IV",
     "boosters": [
@@ -216537,6 +219060,18 @@
   {
     "name": "Scars of Mirrodin Draft Booster",
     "code": "som-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "som",
     "set_name": "Scars of Mirrodin",
     "boosters": [
@@ -217106,6 +219641,18 @@
   {
     "name": "Scars of Mirrodin Six-card Booster Pack",
     "code": "som-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "som",
     "set_name": "Scars of Mirrodin",
     "boosters": [
@@ -217429,6 +219976,18 @@
   {
     "name": "Magic 2011 Draft Booster",
     "code": "m11-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m11",
     "set_name": "Magic 2011",
     "boosters": [
@@ -217998,6 +220557,18 @@
   {
     "name": "Magic 2011 Six-card Booster Pack",
     "code": "m11-six",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m11",
     "set_name": "Magic 2011",
     "boosters": [
@@ -218321,6 +220892,17 @@
   {
     "name": "Rise of the Eldrazi Draft Booster",
     "code": "roe-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "roe",
     "set_name": "Rise of the Eldrazi",
     "boosters": [
@@ -218888,6 +221470,17 @@
   {
     "name": "Rise of the Eldrazi Six-card Booster Pack",
     "code": "roe-six",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "roe",
     "set_name": "Rise of the Eldrazi",
     "boosters": [
@@ -219210,6 +221803,17 @@
   {
     "name": "Worldwake Draft Booster",
     "code": "wwk-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "wwk",
     "set_name": "Worldwake",
     "boosters": [
@@ -219592,6 +222196,17 @@
   {
     "name": "Worldwake Six-card Booster Pack",
     "code": "wwk-six",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "wwk",
     "set_name": "Worldwake",
     "boosters": [
@@ -219832,6 +222447,17 @@
   {
     "name": "Zendikar Draft Booster",
     "code": "zen-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "zen",
     "set_name": "Zendikar",
     "boosters": [
@@ -220401,6 +223027,17 @@
   {
     "name": "Zendikar Six-card Booster Pack",
     "code": "zen-six",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "zen",
     "set_name": "Zendikar",
     "boosters": [
@@ -220724,6 +223361,9 @@
   {
     "name": "Masters Edition III Magic Online Booster",
     "code": "me3-mtgo",
+    "languages": [
+      "en"
+    ],
     "set_code": "me3",
     "set_name": "Masters Edition III",
     "boosters": [
@@ -221255,6 +223895,17 @@
   {
     "name": "Magic 2010 Draft Booster",
     "code": "m10-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m10",
     "set_name": "Magic 2010",
     "boosters": [
@@ -221824,6 +224475,17 @@
   {
     "name": "Magic 2010 Six-card Booster Pack",
     "code": "m10-six",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "m10",
     "set_name": "Magic 2010",
     "boosters": [
@@ -222147,6 +224809,17 @@
   {
     "name": "Alara Reborn Draft Booster",
     "code": "arb-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "arb",
     "set_name": "Alara Reborn",
     "boosters": [
@@ -222528,6 +225201,17 @@
   {
     "name": "Alara Reborn Six-card Booster Pack",
     "code": "arb-six",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "arb",
     "set_name": "Alara Reborn",
     "boosters": [
@@ -222768,6 +225452,17 @@
   {
     "name": "Conflux Draft Booster",
     "code": "con-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "con",
     "set_name": "Conflux",
     "boosters": [
@@ -223150,6 +225845,17 @@
   {
     "name": "Conflux Six-card Booster Pack",
     "code": "con-six",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "con",
     "set_name": "Conflux",
     "boosters": [
@@ -223390,6 +226096,17 @@
   {
     "name": "Shards of Alara Draft Booster",
     "code": "ala-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "ala",
     "set_name": "Shards of Alara",
     "boosters": [
@@ -223958,6 +226675,7 @@
   {
     "name": "Shards of Alara Premium Foil Booster",
     "code": "ala-premium",
+    "languages": [],
     "set_code": "ala",
     "set_name": "Shards of Alara",
     "boosters": [
@@ -224547,6 +227265,7 @@
   {
     "name": "Shards of Alara Tournament Deck",
     "code": "ala-tournament",
+    "languages": [],
     "set_code": "ala",
     "set_name": "Shards of Alara",
     "boosters": [
@@ -224832,6 +227551,9 @@
   {
     "name": "Masters Edition II Magic Online Booster",
     "code": "me2-mtgo",
+    "languages": [
+      "en"
+    ],
     "set_code": "me2",
     "set_name": "Masters Edition II",
     "boosters": [
@@ -225393,6 +228115,17 @@
   {
     "name": "Eventide Draft Booster",
     "code": "eve-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "eve",
     "set_name": "Eventide",
     "boosters": [
@@ -225814,6 +228547,17 @@
   {
     "name": "Shadowmoor Draft Booster",
     "code": "shm-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "shm",
     "set_name": "Shadowmoor",
     "boosters": [
@@ -226457,6 +229201,7 @@
   {
     "name": "Shadowmoor Tournament Deck",
     "code": "shm-tournament",
+    "languages": [],
     "set_code": "shm",
     "set_name": "Shadowmoor",
     "boosters": [
@@ -226809,6 +229554,17 @@
   {
     "name": "Morningtide Draft Booster",
     "code": "mor-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "mor",
     "set_name": "Morningtide",
     "boosters": [
@@ -227171,6 +229927,17 @@
   {
     "name": "Lorwyn Draft Booster",
     "code": "lrw-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "lrw",
     "set_name": "Lorwyn",
     "boosters": [
@@ -227815,6 +230582,7 @@
   {
     "name": "Lorwyn Tournament Deck",
     "code": "lrw-tournament",
+    "languages": [],
     "set_code": "lrw",
     "set_name": "Lorwyn",
     "boosters": [
@@ -228167,6 +230935,9 @@
   {
     "name": "Masters Edition Magic Online Booster",
     "code": "me1-mtgo",
+    "languages": [
+      "en"
+    ],
     "set_code": "me1",
     "set_name": "Masters Edition",
     "boosters": [
@@ -228628,6 +231399,17 @@
   {
     "name": "Tenth Edition Draft Booster",
     "code": "10e-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "10e",
     "set_name": "Tenth Edition",
     "boosters": [
@@ -229720,6 +232502,17 @@
   {
     "name": "Future Sight Draft Booster",
     "code": "fut-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "fut",
     "set_name": "Future Sight",
     "boosters": [
@@ -230142,6 +232935,17 @@
   {
     "name": "Planar Chaos Draft Booster",
     "code": "plc-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "plc",
     "set_name": "Planar Chaos",
     "boosters": [
@@ -230551,6 +233355,17 @@
   {
     "name": "Time Spiral Draft Booster",
     "code": "tsp-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "tsp",
     "set_name": "Time Spiral",
     "boosters": [
@@ -231447,6 +234262,16 @@
   {
     "name": "Coldsnap Draft Booster",
     "code": "csp-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "csp",
     "set_name": "Coldsnap",
     "boosters": [
@@ -231819,6 +234644,17 @@
   {
     "name": "Dissension Draft Booster",
     "code": "dis-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "dis",
     "set_name": "Dissension",
     "boosters": [
@@ -232342,6 +235178,17 @@
   {
     "name": "Guildpact Draft Booster",
     "code": "gpt-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "gpt",
     "set_name": "Guildpact",
     "boosters": [
@@ -232835,6 +235682,17 @@
   {
     "name": "Ravnica: City of Guilds Draft Booster",
     "code": "rav-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "rav",
     "set_name": "Ravnica: City of Guilds",
     "boosters": [
@@ -233590,6 +236448,7 @@
   {
     "name": "Ravnica: City of Guilds Tournament Deck",
     "code": "rav-tournament",
+    "languages": [],
     "set_code": "rav",
     "set_name": "Ravnica: City of Guilds",
     "boosters": [
@@ -233947,6 +236806,17 @@
   {
     "name": "Ninth Edition Draft Booster",
     "code": "9ed-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "ru",
+      "sp"
+    ],
     "set_code": "9ed",
     "set_name": "Ninth Edition",
     "boosters": [
@@ -234973,6 +237843,16 @@
   {
     "name": "Saviors of Kamigawa Draft Booster",
     "code": "sok-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "sok",
     "set_name": "Saviors of Kamigawa",
     "boosters": [
@@ -235467,6 +238347,7 @@
   {
     "name": "Saviors of Kamigawa Fat Pack Promotional Cards",
     "code": "sok-fat-pack",
+    "languages": [],
     "set_code": "sok",
     "set_name": "Saviors of Kamigawa",
     "boosters": [
@@ -235577,6 +238458,16 @@
   {
     "name": "Betrayers of Kamigawa Draft Booster",
     "code": "bok-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "bok",
     "set_name": "Betrayers of Kamigawa",
     "boosters": [
@@ -236071,6 +238962,7 @@
   {
     "name": "Betrayers of Kamigawa Fat Pack Promotional Cards",
     "code": "bok-fat-pack",
+    "languages": [],
     "set_code": "bok",
     "set_name": "Betrayers of Kamigawa",
     "boosters": [
@@ -236181,6 +239073,9 @@
   {
     "name": "Unhinged Draft Booster",
     "code": "unh-draft",
+    "languages": [
+      "en"
+    ],
     "set_code": "unh",
     "set_name": "Unhinged",
     "boosters": [
@@ -236533,6 +239428,16 @@
   {
     "name": "Champions of Kamigawa Draft Booster",
     "code": "chk-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "chk",
     "set_name": "Champions of Kamigawa",
     "boosters": [
@@ -237291,6 +240196,7 @@
   {
     "name": "Champions of Kamigawa Fat Pack Promotional Cards",
     "code": "chk-fat-pack",
+    "languages": [],
     "set_code": "chk",
     "set_name": "Champions of Kamigawa",
     "boosters": [
@@ -237455,6 +240361,7 @@
   {
     "name": "Champions of Kamigawa Tournament Pack",
     "code": "chk-tournament",
+    "languages": [],
     "set_code": "chk",
     "set_name": "Champions of Kamigawa",
     "boosters": [
@@ -237813,6 +240720,16 @@
   {
     "name": "Fifth Dawn Draft Booster",
     "code": "5dn-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "5dn",
     "set_name": "Fifth Dawn",
     "boosters": [
@@ -238307,6 +241224,7 @@
   {
     "name": "Fifth Dawn Fat Pack Promotional Cards",
     "code": "5dn-fat-pack",
+    "languages": [],
     "set_code": "5dn",
     "set_name": "Fifth Dawn",
     "boosters": [
@@ -238417,6 +241335,16 @@
   {
     "name": "Darksteel Draft Booster",
     "code": "dst-draft",
+    "languages": [
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "dst",
     "set_name": "Darksteel",
     "boosters": [
@@ -238911,6 +241839,7 @@
   {
     "name": "Darksteel Fat Pack Promotional Cards",
     "code": "dst-fat-pack",
+    "languages": [],
     "set_code": "dst",
     "set_name": "Darksteel",
     "boosters": [
@@ -239021,6 +241950,17 @@
   {
     "name": "Mirrodin Draft Booster",
     "code": "mrd-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mrd",
     "set_name": "Mirrodin",
     "boosters": [
@@ -239777,6 +242717,7 @@
   {
     "name": "Mirrodin Fat Pack Promotional Cards",
     "code": "mrd-fat-pack",
+    "languages": [],
     "set_code": "mrd",
     "set_name": "Mirrodin",
     "boosters": [
@@ -239941,6 +242882,7 @@
   {
     "name": "Mirrodin Tournament Deck",
     "code": "mrd-tournament",
+    "languages": [],
     "set_code": "mrd",
     "set_name": "Mirrodin",
     "boosters": [
@@ -240298,6 +243240,17 @@
   {
     "name": "Eighth Edition Draft Booster",
     "code": "8ed-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "8ed",
     "set_name": "Eighth Edition",
     "boosters": [
@@ -241324,6 +244277,17 @@
   {
     "name": "Scourge Draft Booster",
     "code": "scg-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "scg",
     "set_name": "Scourge",
     "boosters": [
@@ -241774,6 +244738,7 @@
   {
     "name": "Scourge Fat Pack Promotional Cards",
     "code": "scg-fat-pack",
+    "languages": [],
     "set_code": "scg",
     "set_name": "Scourge",
     "boosters": [
@@ -241884,6 +244849,17 @@
   {
     "name": "Legions Draft Booster",
     "code": "lgn-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "lgn",
     "set_name": "Legions",
     "boosters": [
@@ -242338,6 +245314,7 @@
   {
     "name": "Legions Fat Pack Promotional Cards",
     "code": "lgn-fat-pack",
+    "languages": [],
     "set_code": "lgn",
     "set_name": "Legions",
     "boosters": [
@@ -242448,6 +245425,17 @@
   {
     "name": "Onslaught Draft Booster",
     "code": "ons-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ons",
     "set_name": "Onslaught",
     "boosters": [
@@ -243292,6 +246280,7 @@
   {
     "name": "Onslaught Fat Pack Promotional Cards",
     "code": "ons-fat-pack",
+    "languages": [],
     "set_code": "ons",
     "set_name": "Onslaught",
     "boosters": [
@@ -243456,6 +246445,7 @@
   {
     "name": "Onslaught Tournament Deck",
     "code": "ons-tournament",
+    "languages": [],
     "set_code": "ons",
     "set_name": "Onslaught",
     "boosters": [
@@ -243857,6 +246847,17 @@
   {
     "name": "Judgment Draft Booster",
     "code": "jud-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "jud",
     "set_name": "Judgment",
     "boosters": [
@@ -244306,6 +247307,7 @@
   {
     "name": "Judgment Fat Pack Promotional Cards",
     "code": "jud-fat-pack",
+    "languages": [],
     "set_code": "jud",
     "set_name": "Judgment",
     "boosters": [
@@ -244416,6 +247418,17 @@
   {
     "name": "Torment Draft Booster",
     "code": "tor-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "tor",
     "set_name": "Torment",
     "boosters": [
@@ -244866,6 +247879,7 @@
   {
     "name": "Torment Fat Pack Promotional Cards",
     "code": "tor-fat-pack",
+    "languages": [],
     "set_code": "tor",
     "set_name": "Torment",
     "boosters": [
@@ -244976,6 +247990,7 @@
   {
     "name": "Torment Tournament Deck",
     "code": "tor-tournament",
+    "languages": [],
     "set_code": "tor",
     "set_name": "Torment",
     "boosters": [
@@ -245191,6 +248206,17 @@
   {
     "name": "Odyssey Draft Booster",
     "code": "ody-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ody",
     "set_name": "Odyssey",
     "boosters": [
@@ -246035,6 +249061,7 @@
   {
     "name": "Odyssey Fat Pack Promotional Cards",
     "code": "ody-fat-pack",
+    "languages": [],
     "set_code": "ody",
     "set_name": "Odyssey",
     "boosters": [
@@ -246199,6 +249226,7 @@
   {
     "name": "Odyssey Tournament Pack",
     "code": "ody-tournament",
+    "languages": [],
     "set_code": "ody",
     "set_name": "Odyssey",
     "boosters": [
@@ -246600,6 +249628,17 @@
   {
     "name": "Apocalypse Draft Booster",
     "code": "apc-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "apc",
     "set_name": "Apocalypse",
     "boosters": [
@@ -247049,6 +250088,7 @@
   {
     "name": "Apocalypse Fat Pack Promotional Cards",
     "code": "apc-fat-pack",
+    "languages": [],
     "set_code": "apc",
     "set_name": "Apocalypse",
     "boosters": [
@@ -247159,6 +250199,17 @@
   {
     "name": "Seventh Edition Draft Booster",
     "code": "7ed-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "7ed",
     "set_name": "Seventh Edition",
     "boosters": [
@@ -248185,6 +251236,17 @@
   {
     "name": "Planeshift Draft Booster",
     "code": "pls-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "pls",
     "set_name": "Planeshift",
     "boosters": [
@@ -248638,6 +251700,7 @@
   {
     "name": "Planeshift Fat Pack Promotional Cards",
     "code": "pls-fat-pack",
+    "languages": [],
     "set_code": "pls",
     "set_name": "Planeshift",
     "boosters": [
@@ -248748,6 +251811,17 @@
   {
     "name": "Invasion Draft Booster",
     "code": "inv-draft",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "inv",
     "set_name": "Invasion",
     "boosters": [
@@ -249592,6 +252666,7 @@
   {
     "name": "Invasion Fat Pack Promo Cards",
     "code": "inv-fat-pack",
+    "languages": [],
     "set_code": "inv",
     "set_name": "Invasion",
     "boosters": [
@@ -249756,6 +252831,7 @@
   {
     "name": "Invasion Tournament Deck",
     "code": "inv-tournament",
+    "languages": [],
     "set_code": "inv",
     "set_name": "Invasion",
     "boosters": [
@@ -250157,6 +253233,16 @@
   {
     "name": "Prophecy Draft Booster",
     "code": "pcy-draft",
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "pcy",
     "set_name": "Prophecy",
     "boosters": [
@@ -250607,6 +253693,7 @@
   {
     "name": "Prophecy Fat Pack Promotional Cards",
     "code": "pcy-fat-pack",
+    "languages": [],
     "set_code": "pcy",
     "set_name": "Prophecy",
     "boosters": [
@@ -250717,6 +253804,16 @@
   {
     "name": "Nemesis Draft Booster",
     "code": "nem-draft",
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "nem",
     "set_name": "Nemesis",
     "boosters": [
@@ -251167,6 +254264,7 @@
   {
     "name": "Nemesis Fat Pack Promotional Cards",
     "code": "nem-fat-pack",
+    "languages": [],
     "set_code": "nem",
     "set_name": "Nemesis",
     "boosters": [
@@ -251277,6 +254375,16 @@
   {
     "name": "Mercadian Masques Draft Booster",
     "code": "mmq-draft",
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "mmq",
     "set_name": "Mercadian Masques",
     "boosters": [
@@ -252121,6 +255229,7 @@
   {
     "name": "Mercadian Masques Fat Pack Promotional Cards",
     "code": "mmq-fat-pack",
+    "languages": [],
     "set_code": "mmq",
     "set_name": "Mercadian Masques",
     "boosters": [
@@ -252285,6 +255394,7 @@
   {
     "name": "Mercadian Masques Tournament Pack",
     "code": "mmq-tournament",
+    "languages": [],
     "set_code": "mmq",
     "set_name": "Mercadian Masques",
     "boosters": [
@@ -252686,6 +255796,7 @@
   {
     "name": "Starter 1999",
     "code": "s99",
+    "languages": [],
     "set_code": "s99",
     "set_name": "Starter 1999",
     "boosters": [
@@ -252908,6 +256019,16 @@
   {
     "name": "Urza's Destiny Draft Booster",
     "code": "uds-draft",
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "uds",
     "set_name": "Urza's Destiny",
     "boosters": [
@@ -253358,6 +256479,7 @@
   {
     "name": "Portal Three Kingdoms",
     "code": "ptk",
+    "languages": [],
     "set_code": "ptk",
     "set_name": "Portal Three Kingdoms",
     "boosters": [
@@ -253586,6 +256708,7 @@
   {
     "name": "Classic Sixth Edition Draft Booster",
     "code": "6ed-draft",
+    "languages": [],
     "set_code": "6ed",
     "set_name": "Classic Sixth Edition",
     "boosters": [
@@ -253958,6 +257081,7 @@
   {
     "name": "Classic Sixth Edition Tournament Deck",
     "code": "6ed-tournament",
+    "languages": [],
     "set_code": "6ed",
     "set_name": "Classic Sixth Edition",
     "boosters": [
@@ -254359,6 +257483,16 @@
   {
     "name": "Urza's Legacy Draft Booster",
     "code": "ulg-draft",
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
+    ],
     "set_code": "ulg",
     "set_name": "Urza's Legacy",
     "boosters": [
@@ -254809,6 +257943,7 @@
   {
     "name": "Urza's Saga Draft Booster",
     "code": "usg-draft",
+    "languages": [],
     "set_code": "usg",
     "set_name": "Urza's Saga",
     "boosters": [
@@ -255181,6 +258316,7 @@
   {
     "name": "Urza's Saga Tournament Deck",
     "code": "usg-tournament",
+    "languages": [],
     "set_code": "usg",
     "set_name": "Urza's Saga",
     "boosters": [
@@ -255582,6 +258718,7 @@
   {
     "name": "Unglued Draft Booster",
     "code": "ugl-draft",
+    "languages": [],
     "set_code": "ugl",
     "set_name": "Unglued",
     "boosters": [
@@ -255718,6 +258855,7 @@
   {
     "name": "Portal Second Age",
     "code": "p02",
+    "languages": [],
     "set_code": "p02",
     "set_name": "Portal Second Age",
     "boosters": [
@@ -255932,6 +259070,7 @@
   {
     "name": "Exodus Draft Booster",
     "code": "exo-draft",
+    "languages": [],
     "set_code": "exo",
     "set_name": "Exodus",
     "boosters": [
@@ -256117,6 +259256,7 @@
   {
     "name": "Stronghold Draft Booster",
     "code": "sth-draft",
+    "languages": [],
     "set_code": "sth",
     "set_name": "Stronghold",
     "boosters": [
@@ -256302,6 +259442,7 @@
   {
     "name": "Tempest Draft Booster",
     "code": "tmp-draft",
+    "languages": [],
     "set_code": "tmp",
     "set_name": "Tempest",
     "boosters": [
@@ -256674,6 +259815,7 @@
   {
     "name": "Tempest Starter Deck",
     "code": "tmp-starter",
+    "languages": [],
     "set_code": "tmp",
     "set_name": "Tempest",
     "boosters": [
@@ -257075,6 +260217,7 @@
   {
     "name": "Weatherlight Draft Booster",
     "code": "wth-draft",
+    "languages": [],
     "set_code": "wth",
     "set_name": "Weatherlight",
     "boosters": [
@@ -257284,6 +260427,7 @@
   {
     "name": "Portal",
     "code": "por",
+    "languages": [],
     "set_code": "por",
     "set_name": "Portal",
     "boosters": [
@@ -257548,6 +260692,7 @@
   {
     "name": "Fifth Edition Draft Booster",
     "code": "5ed-draft",
+    "languages": [],
     "set_code": "5ed",
     "set_name": "Fifth Edition",
     "boosters": [
@@ -258019,6 +261164,7 @@
   {
     "name": "Fifth Edition Starter Tournament Deck",
     "code": "5ed-starter",
+    "languages": [],
     "set_code": "5ed",
     "set_name": "Fifth Edition",
     "boosters": [
@@ -258519,6 +261665,7 @@
   {
     "name": "Visions Draft Booster",
     "code": "vis-draft",
+    "languages": [],
     "set_code": "vis",
     "set_name": "Visions",
     "boosters": [
@@ -258728,6 +261875,7 @@
   {
     "name": "Mirage Draft Booster",
     "code": "mir-draft",
+    "languages": [],
     "set_code": "mir",
     "set_name": "Mirage",
     "boosters": [
@@ -259100,6 +262248,7 @@
   {
     "name": "Mirage Starter Deck",
     "code": "mir-starter",
+    "languages": [],
     "set_code": "mir",
     "set_name": "Mirage",
     "boosters": [
@@ -259501,6 +262650,7 @@
   {
     "name": "Alliances",
     "code": "all",
+    "languages": [],
     "set_code": "all",
     "set_name": "Alliances",
     "boosters": [
@@ -259741,6 +262891,7 @@
   {
     "name": "Homelands",
     "code": "hml",
+    "languages": [],
     "set_code": "hml",
     "set_name": "Homelands",
     "boosters": [
@@ -259915,6 +263066,7 @@
   {
     "name": "Renaissance Booster",
     "code": "ren",
+    "languages": [],
     "set_code": "ren",
     "set_name": "Renaissance",
     "boosters": [
@@ -260071,6 +263223,7 @@
   {
     "name": "Rinascimento",
     "code": "rin",
+    "languages": [],
     "set_code": "rin",
     "set_name": "Rinascimento",
     "boosters": [
@@ -260174,6 +263327,7 @@
   {
     "name": "Chronicles",
     "code": "chr",
+    "languages": [],
     "set_code": "chr",
     "set_name": "Chronicles",
     "boosters": [
@@ -260333,6 +263487,7 @@
   {
     "name": "Ice Age",
     "code": "ice",
+    "languages": [],
     "set_code": "ice",
     "set_name": "Ice Age",
     "boosters": [
@@ -260738,6 +263893,7 @@
   {
     "name": "Ice Age Starter Deck",
     "code": "ice-starter",
+    "languages": [],
     "set_code": "ice",
     "set_name": "Ice Age",
     "boosters": [
@@ -261172,6 +264328,7 @@
   {
     "name": "Fourth Edition",
     "code": "4ed",
+    "languages": [],
     "set_code": "4ed",
     "set_name": "Fourth Edition",
     "boosters": [
@@ -261577,6 +264734,7 @@
   {
     "name": "Fourth Edition Starter Deck",
     "code": "4ed-starter",
+    "languages": [],
     "set_code": "4ed",
     "set_name": "Fourth Edition",
     "boosters": [
@@ -262006,6 +265164,7 @@
   {
     "name": "Fallen Empires",
     "code": "fem",
+    "languages": [],
     "set_code": "fem",
     "set_name": "Fallen Empires",
     "boosters": [
@@ -262227,6 +265386,7 @@
   {
     "name": "The Dark",
     "code": "drk",
+    "languages": [],
     "set_code": "drk",
     "set_name": "The Dark",
     "boosters": [
@@ -262380,6 +265540,7 @@
   {
     "name": "Legends",
     "code": "leg",
+    "languages": [],
     "set_code": "leg",
     "set_name": "Legends",
     "boosters": [
@@ -262731,6 +265892,7 @@
   {
     "name": "Revised Edition",
     "code": "3ed",
+    "languages": [],
     "set_code": "3ed",
     "set_name": "Revised Edition",
     "boosters": [
@@ -263091,6 +266253,7 @@
   {
     "name": "Revised Edition Starter Deck",
     "code": "3ed-starter",
+    "languages": [],
     "set_code": "3ed",
     "set_name": "Revised Edition",
     "boosters": [
@@ -263453,6 +266616,7 @@
   {
     "name": "Antiquities",
     "code": "atq",
+    "languages": [],
     "set_code": "atq",
     "set_name": "Antiquities",
     "boosters": [
@@ -263587,6 +266751,7 @@
   {
     "name": "Arabian Nights",
     "code": "arn",
+    "languages": [],
     "set_code": "arn",
     "set_name": "Arabian Nights",
     "boosters": [
@@ -263713,6 +266878,7 @@
   {
     "name": "Unlimited Edition",
     "code": "2ed",
+    "languages": [],
     "set_code": "2ed",
     "set_name": "Unlimited Edition",
     "boosters": [
@@ -264072,6 +267238,7 @@
   {
     "name": "Unlimited Edition Starter Deck",
     "code": "2ed-starter",
+    "languages": [],
     "set_code": "2ed",
     "set_name": "Unlimited Edition",
     "boosters": [
@@ -264433,6 +267600,7 @@
   {
     "name": "Limited Edition Beta",
     "code": "leb",
+    "languages": [],
     "set_code": "leb",
     "set_name": "Limited Edition Beta",
     "boosters": [
@@ -264792,6 +267960,7 @@
   {
     "name": "Limited Edition Beta Starter Deck",
     "code": "leb-starter",
+    "languages": [],
     "set_code": "leb",
     "set_name": "Limited Edition Beta",
     "boosters": [
@@ -265153,6 +268322,7 @@
   {
     "name": "Limited Edition Alpha",
     "code": "lea",
+    "languages": [],
     "set_code": "lea",
     "set_name": "Limited Edition Alpha",
     "boosters": [
@@ -265501,6 +268671,7 @@
   {
     "name": "Limited Edition Alpha Starter Deck",
     "code": "lea-starter",
+    "languages": [],
     "set_code": "lea",
     "set_name": "Limited Edition Alpha",
     "boosters": [

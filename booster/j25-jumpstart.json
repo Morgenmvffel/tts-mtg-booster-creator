@@ -1,6 +1,14 @@
 {
   "name": "Foundations Jumpstart Booster",
   "code": "j25-jumpstart",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "j25",
   "set_name": "Foundations Jumpstart",
   "boosters": [

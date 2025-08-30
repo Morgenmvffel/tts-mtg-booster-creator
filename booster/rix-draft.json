@@ -1,6 +1,19 @@
 {
   "name": "Rivals of Ixalan Draft Booster",
   "code": "rix-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rix",
   "set_name": "Rivals of Ixalan",
   "boosters": [

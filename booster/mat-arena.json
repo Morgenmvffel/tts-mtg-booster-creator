@@ -1,6 +1,16 @@
 {
   "name": "March of the Machine: The Aftermath Arena Booster",
   "code": "mat-arena",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mat",
   "set_name": "March of the Machine: The Aftermath",
   "boosters": [

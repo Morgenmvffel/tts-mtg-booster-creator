@@ -1,6 +1,9 @@
 {
   "name": "Zendikar Rising Arena Booster",
   "code": "znr-arena",
+  "languages": [
+    "en"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

@@ -1,6 +1,9 @@
 {
   "name": "Strixhaven: School of Mages Theme Booster Lorehold",
   "code": "stx-theme-lorehold",
+  "languages": [
+    "en"
+  ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",
   "boosters": [

@@ -1,6 +1,19 @@
 {
   "name": "Dragon's Maze Six-card Booster Pack",
   "code": "dgm-six",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dgm",
   "set_name": "Dragon's Maze",
   "boosters": [

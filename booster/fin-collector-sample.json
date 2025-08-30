@@ -1,6 +1,9 @@
 {
   "name": "Final Fantasy Collector Sample Booster",
   "code": "fin-collector-sample",
+  "languages": [
+    "en"
+  ],
   "set_code": "fin",
   "set_name": "Final Fantasy",
   "boosters": [

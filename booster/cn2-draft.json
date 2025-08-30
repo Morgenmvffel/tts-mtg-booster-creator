@@ -1,6 +1,11 @@
 {
   "name": "Conspiracy: Take the Crown Draft Booster",
   "code": "cn2-draft",
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
   "set_code": "cn2",
   "set_name": "Conspiracy: Take the Crown",
   "boosters": [

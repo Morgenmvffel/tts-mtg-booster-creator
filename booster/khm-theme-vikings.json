@@ -1,6 +1,9 @@
 {
   "name": "Kaldheim Theme Booster Vikings",
   "code": "khm-theme-vikings",
+  "languages": [
+    "en"
+  ],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

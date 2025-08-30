@@ -1,6 +1,19 @@
 {
   "name": "Kaladesh Draft Booster",
   "code": "kld-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "kld",
   "set_name": "Kaladesh",
   "boosters": [

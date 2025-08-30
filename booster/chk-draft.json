@@ -1,6 +1,16 @@
 {
   "name": "Champions of Kamigawa Draft Booster",
   "code": "chk-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "chk",
   "set_name": "Champions of Kamigawa",
   "boosters": [

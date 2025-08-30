@@ -1,6 +1,19 @@
 {
   "name": "Dragons of Tarkir Draft Booster",
   "code": "dtk-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dtk",
   "set_name": "Dragons of Tarkir",
   "boosters": [

@@ -1,6 +1,16 @@
 {
   "name": "Urza's Destiny Draft Booster",
   "code": "uds-draft",
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "uds",
   "set_name": "Urza's Destiny",
   "boosters": [

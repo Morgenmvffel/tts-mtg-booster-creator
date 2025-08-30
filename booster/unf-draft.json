@@ -1,6 +1,9 @@
 {
   "name": "Unfinity Draft Booster",
   "code": "unf-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "unf",
   "set_name": "Unfinity",
   "boosters": [

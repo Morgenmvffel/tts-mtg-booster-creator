@@ -1,6 +1,17 @@
 {
   "name": "Dissension Draft Booster",
   "code": "dis-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dis",
   "set_name": "Dissension",
   "boosters": [

@@ -1,6 +1,19 @@
 {
   "name": "Dominaria Theme Booster Green",
   "code": "dom-theme-g",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dom",
   "set_name": "Dominaria",
   "boosters": [

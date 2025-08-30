@@ -1,6 +1,14 @@
 {
   "name": "Foundations Beginners Box Booster",
   "code": "fdn-beginner",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "fdn",
   "set_name": "Foundations",
   "boosters": [

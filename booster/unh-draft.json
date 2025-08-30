@@ -1,6 +1,9 @@
 {
   "name": "Unhinged Draft Booster",
   "code": "unh-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "unh",
   "set_name": "Unhinged",
   "boosters": [

@@ -1,6 +1,9 @@
 {
   "name": "Edge of Eternities Play Booster",
   "code": "eoe-play",
+  "languages": [
+    "en"
+  ],
   "set_code": "eoe",
   "set_name": "Edge of Eternities",
   "boosters": [

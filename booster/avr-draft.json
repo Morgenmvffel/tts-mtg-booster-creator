@@ -1,6 +1,19 @@
 {
   "name": "Avacyn Restored Draft Booster",
   "code": "avr-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "avr",
   "set_name": "Avacyn Restored",
   "boosters": [

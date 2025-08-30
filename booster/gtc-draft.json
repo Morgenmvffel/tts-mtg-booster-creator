@@ -1,6 +1,19 @@
 {
   "name": "Gatecrash Draft Booster",
   "code": "gtc-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "gtc",
   "set_name": "Gatecrash",
   "boosters": [

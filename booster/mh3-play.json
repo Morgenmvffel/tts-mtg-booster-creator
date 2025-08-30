@@ -1,6 +1,16 @@
 {
   "name": "Modern Horizons 3 Play Booster",
   "code": "mh3-play",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mh3",
   "set_name": "Modern Horizons 3",
   "boosters": [

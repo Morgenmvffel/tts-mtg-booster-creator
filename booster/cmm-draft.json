@@ -1,6 +1,14 @@
 {
   "name": "Commander Masters Draft Booster",
   "code": "cmm-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "cmm",
   "set_name": "Commander Masters",
   "boosters": [

@@ -1,6 +1,9 @@
 {
   "name": "Dominaria United Draft Booster",
   "code": "dmu-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "dmu",
   "set_name": "Dominaria United",
   "boosters": [

@@ -1,6 +1,9 @@
 {
   "name": "Adventures in the Forgotten Realms Theme Booster Green",
   "code": "afr-theme-g",
+  "languages": [
+    "en"
+  ],
   "set_code": "afr",
   "set_name": "Adventures in the Forgotten Realms",
   "boosters": [

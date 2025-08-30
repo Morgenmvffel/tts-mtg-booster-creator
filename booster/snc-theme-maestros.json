@@ -1,6 +1,9 @@
 {
   "name": "Streets of New Capenna Theme Booster Maestros",
   "code": "snc-theme-maestros",
+  "languages": [
+    "en"
+  ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",
   "boosters": [

@@ -1,6 +1,9 @@
 {
   "name": "Innistrad Remastered Play Booster",
   "code": "inr-play",
+  "languages": [
+    "en"
+  ],
   "set_code": "inr",
   "set_name": "Innistrad Remastered",
   "boosters": [

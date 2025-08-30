@@ -1,6 +1,9 @@
 {
   "name": "Kaldheim Set Booster",
   "code": "khm-set",
+  "languages": [
+    "en"
+  ],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

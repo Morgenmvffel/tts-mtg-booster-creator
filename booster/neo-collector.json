@@ -1,6 +1,9 @@
 {
   "name": "Kamigawa: Neon Dynasty Collector Booster",
   "code": "neo-collector",
+  "languages": [
+    "en"
+  ],
   "set_code": "neo",
   "set_name": "Kamigawa: Neon Dynasty",
   "boosters": [

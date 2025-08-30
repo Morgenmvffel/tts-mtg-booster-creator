@@ -1,6 +1,9 @@
 {
   "name": "Strixhaven: School of Mages Draft Booster",
   "code": "stx-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",
   "boosters": [

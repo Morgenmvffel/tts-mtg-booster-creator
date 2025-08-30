@@ -1,6 +1,18 @@
 {
   "name": "Scars of Mirrodin Six-card Booster Pack",
   "code": "som-six",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "som",
   "set_name": "Scars of Mirrodin",
   "boosters": [

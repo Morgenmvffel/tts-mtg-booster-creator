@@ -1,6 +1,19 @@
 {
   "name": "Dominaria Arena Booster",
   "code": "dom-arena",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dom",
   "set_name": "Dominaria",
   "boosters": [

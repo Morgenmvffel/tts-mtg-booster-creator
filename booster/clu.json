@@ -1,6 +1,9 @@
 {
   "name": "Ravnica: Clue Edition Booster",
   "code": "clu",
+  "languages": [
+    "en"
+  ],
   "set_code": "clu",
   "set_name": "Ravnica: Clue Edition",
   "boosters": [

@@ -1,6 +1,14 @@
 {
   "name": "Tarkir: Dragonstorm Collector Booster",
   "code": "tdm-collector",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "tdm",
   "set_name": "Tarkir: Dragonstorm",
   "boosters": [

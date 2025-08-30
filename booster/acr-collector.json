@@ -1,6 +1,15 @@
 {
   "name": "Assassin's Creed Collector Booster",
   "code": "acr-collector",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "acr",
   "set_name": "Assassin's Creed",
   "boosters": [

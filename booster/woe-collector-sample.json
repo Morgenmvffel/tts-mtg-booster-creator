@@ -1,6 +1,16 @@
 {
   "name": "Wilds of Eldraine Collector Sample Booster",
   "code": "woe-collector-sample",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "woe",
   "set_name": "Wilds of Eldraine",
   "boosters": [

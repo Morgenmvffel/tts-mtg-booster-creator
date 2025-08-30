@@ -1,6 +1,7 @@
 {
   "name": "Weatherlight Draft Booster",
   "code": "wth-draft",
+  "languages": [],
   "set_code": "wth",
   "set_name": "Weatherlight",
   "boosters": [

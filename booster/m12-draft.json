@@ -1,6 +1,19 @@
 {
   "name": "Magic 2012 Draft Booster",
   "code": "m12-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m12",
   "set_name": "Magic 2012",
   "boosters": [

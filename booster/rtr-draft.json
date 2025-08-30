@@ -1,6 +1,19 @@
 {
   "name": "Return to Ravnica Draft Booster",
   "code": "rtr-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rtr",
   "set_name": "Return to Ravnica",
   "boosters": [

@@ -1,6 +1,16 @@
 {
   "name": "Murders at Karlov Manor Arena Play Booster",
   "code": "mkm-play-arena",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mkm",
   "set_name": "Murders at Karlov Manor",
   "boosters": [

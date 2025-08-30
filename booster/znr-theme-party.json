@@ -1,6 +1,9 @@
 {
   "name": "Zendikar Rising Theme Booster Party",
   "code": "znr-theme-party",
+  "languages": [
+    "en"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

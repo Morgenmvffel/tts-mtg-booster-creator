@@ -1,6 +1,19 @@
 {
   "name": "Aether Revolt Draft Booster",
   "code": "aer-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "aer",
   "set_name": "Aether Revolt",
   "boosters": [

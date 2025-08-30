@@ -1,6 +1,17 @@
 {
   "name": "Lorwyn Draft Booster",
   "code": "lrw-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "lrw",
   "set_name": "Lorwyn",
   "boosters": [

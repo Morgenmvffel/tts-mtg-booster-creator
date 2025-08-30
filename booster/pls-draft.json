@@ -1,6 +1,17 @@
 {
   "name": "Planeshift Draft Booster",
   "code": "pls-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "pls",
   "set_name": "Planeshift",
   "boosters": [

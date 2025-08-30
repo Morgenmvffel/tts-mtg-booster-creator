@@ -1,6 +1,19 @@
 {
   "name": "Magic Origins Draft Booster",
   "code": "ori-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ori",
   "set_name": "Magic Origins",
   "boosters": [

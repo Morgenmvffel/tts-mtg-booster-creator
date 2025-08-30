@@ -1,6 +1,9 @@
 {
   "name": "Innistrad: Crimson Vow Set Booster",
   "code": "vow-set",
+  "languages": [
+    "en"
+  ],
   "set_code": "vow",
   "set_name": "Innistrad: Crimson Vow",
   "boosters": [

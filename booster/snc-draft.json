@@ -1,6 +1,9 @@
 {
   "name": "Streets of New Capenna Draft Booster",
   "code": "snc-draft",
+  "languages": [
+    "en"
+  ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",
   "boosters": [

@@ -1,6 +1,17 @@
 {
   "name": "Zendikar Draft Booster",
   "code": "zen-draft",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "zen",
   "set_name": "Zendikar",
   "boosters": [

@@ -1,6 +1,15 @@
 {
   "name": "Assassin's Creed Beyond Booster",
   "code": "acr",
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "acr",
   "set_name": "Assassin's Creed",
   "boosters": [

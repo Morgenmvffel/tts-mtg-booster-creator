@@ -1,6 +1,19 @@
 {
   "name": "Ixalan Draft Booster",
   "code": "xln-draft",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "xln",
   "set_name": "Ixalan",
   "boosters": [
