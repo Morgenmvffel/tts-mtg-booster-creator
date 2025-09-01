@@ -2,7 +2,17 @@
   "name": "Kaldheim Theme Booster Black",
   "code": "khm-theme-b",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "khm",
   "set_name": "Kaldheim",

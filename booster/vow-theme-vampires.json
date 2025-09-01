@@ -2,7 +2,17 @@
   "name": "Innistrad: Crimson Vow Theme Booster Vampires",
   "code": "vow-theme-vampires",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "vow",
   "set_name": "Innistrad: Crimson Vow",

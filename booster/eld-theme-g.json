@@ -2,7 +2,17 @@
   "name": "Throne of Eldraine Theme Booster Green",
   "code": "eld-theme-g",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",

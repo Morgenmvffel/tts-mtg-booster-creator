@@ -35313,7 +35313,7 @@
           "clu:231": 1,
           "clu:232": 1,
           "clu:251": 1,
-          "clu:254": 5,
+          "clu:255": 5,
           "clu:39": 1,
           "clu:61": 1,
           "clu:65": 1,
@@ -35342,7 +35342,7 @@
           "clu:232": 1,
           "clu:249": 1,
           "clu:25": 1,
-          "clu:266": 5,
+          "clu:269": 5,
           "clu:39": 1
         }
       },
@@ -35362,7 +35362,7 @@
           "clu:243": 1,
           "clu:244": 1,
           "clu:253": 1,
-          "clu:262": 5,
+          "clu:263": 5,
           "clu:32": 1,
           "clu:35": 1,
           "mkm:95": 1
@@ -35428,7 +35428,7 @@
           "clu:235": 1,
           "clu:236": 1,
           "clu:250": 1,
-          "clu:270": 5,
+          "clu:273": 5,
           "clu:43": 1,
           "clu:48": 1,
           "mkm:174": 1
@@ -35451,7 +35451,7 @@
           "clu:237": 1,
           "clu:238": 1,
           "clu:249": 1,
-          "clu:266": 5,
+          "clu:267": 5,
           "clu:33": 1,
           "clu:34": 1
         }
@@ -35473,7 +35473,7 @@
           "clu:237": 1,
           "clu:238": 1,
           "clu:250": 1,
-          "clu:270": 5,
+          "clu:272": 5,
           "clu:33": 1,
           "clu:44": 1
         }
@@ -35491,7 +35491,7 @@
           "clu:233": 1,
           "clu:234": 1,
           "clu:252": 1,
-          "clu:258": 5,
+          "clu:261": 5,
           "clu:38": 1,
           "clu:49": 1,
           "clu:85": 1,
@@ -35516,7 +35516,7 @@
           "clu:233": 1,
           "clu:234": 1,
           "clu:253": 1,
-          "clu:262": 5,
+          "clu:264": 5,
           "clu:30": 1,
           "clu:49": 1,
           "mkm:95": 1
@@ -35534,7 +35534,7 @@
           "clu:239": 1,
           "clu:240": 1,
           "clu:252": 1,
-          "clu:258": 5,
+          "clu:260": 5,
           "clu:31": 1,
           "clu:41": 1,
           "clu:81": 1,
@@ -35561,7 +35561,7 @@
           "clu:239": 1,
           "clu:240": 1,
           "clu:249": 1,
-          "clu:266": 5,
+          "clu:268": 5,
           "clu:28": 1,
           "clu:31": 1
         }
@@ -35575,7 +35575,7 @@
           "clu:241": 1,
           "clu:242": 1,
           "clu:251": 1,
-          "clu:254": 5,
+          "clu:257": 5,
           "clu:47": 1,
           "clu:52": 1,
           "clu:53": 1,
@@ -35604,7 +35604,7 @@
           "clu:241": 1,
           "clu:242": 1,
           "clu:253": 1,
-          "clu:262": 5,
+          "clu:265": 5,
           "clu:29": 1,
           "mkm:91": 1,
           "mkm:95": 1
@@ -35619,7 +35619,7 @@
           "clu:245": 1,
           "clu:246": 1,
           "clu:251": 1,
-          "clu:254": 5,
+          "clu:256": 5,
           "clu:27": 1,
           "clu:45": 1,
           "clu:56": 1,
@@ -35663,7 +35663,7 @@
           "clu:247": 1,
           "clu:248": 1,
           "clu:252": 1,
-          "clu:258": 5,
+          "clu:259": 5,
           "clu:42": 1,
           "clu:50": 1,
           "clu:87": 1,
@@ -35693,7 +35693,7 @@
           "clu:247": 1,
           "clu:248": 1,
           "clu:250": 1,
-          "clu:270": 5,
+          "clu:271": 5,
           "clu:37": 1,
           "clu:42": 1
         }
@@ -89095,7 +89095,14 @@
     "name": "Dominaria United Arena Booster",
     "code": "dmu-arena",
     "languages": [
-      "en"
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
     ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
@@ -89474,7 +89481,14 @@
     "name": "Dominaria United Collector Booster",
     "code": "dmu-collector",
     "languages": [
-      "en"
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
     ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
@@ -90642,7 +90656,14 @@
     "name": "Dominaria United Collector Sample Booster",
     "code": "dmu-collector-sample",
     "languages": [
-      "en"
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
     ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
@@ -90932,7 +90953,14 @@
     "name": "Dominaria United Draft Booster",
     "code": "dmu-draft",
     "languages": [
-      "en"
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
     ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
@@ -91724,7 +91752,14 @@
     "name": "Dominaria United Jumpstart Booster",
     "code": "dmu-jumpstart",
     "languages": [
-      "en"
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
     ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
@@ -92343,7 +92378,14 @@
     "name": "Dominaria United Set Booster",
     "code": "dmu-set",
     "languages": [
-      "en"
+      "cn",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "pt",
+      "sp"
     ],
     "set_code": "dmu",
     "set_name": "Dominaria United",
@@ -100190,7 +100232,17 @@
     "name": "Streets of New Capenna Collector Booster",
     "code": "snc-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -101079,7 +101131,17 @@
     "name": "Streets of New Capenna Collector Sample Booster",
     "code": "snc-collector-sample",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -101446,7 +101508,17 @@
     "name": "Streets of New Capenna Draft Booster",
     "code": "snc-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -103512,7 +103584,17 @@
     "name": "Streets of New Capenna Set Booster",
     "code": "snc-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -104870,7 +104952,17 @@
     "name": "Streets of New Capenna Theme Booster Brokers",
     "code": "snc-theme-brokers",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -105064,7 +105156,17 @@
     "name": "Streets of New Capenna Theme Booster Cabaretti",
     "code": "snc-theme-cabaretti",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -105259,7 +105361,17 @@
     "name": "Streets of New Capenna Theme Booster Maestros",
     "code": "snc-theme-maestros",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -105452,7 +105564,17 @@
     "name": "Streets of New Capenna Theme Booster Obscura",
     "code": "snc-theme-obscura",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -105648,7 +105770,17 @@
     "name": "Streets of New Capenna Theme Booster Riveteers",
     "code": "snc-theme-riveteers",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -106201,7 +106333,17 @@
     "name": "Kamigawa: Neon Dynasty Collector Booster",
     "code": "neo-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -107126,7 +107268,17 @@
     "name": "Kamigawa: Neon Dynasty Draft Booster",
     "code": "neo-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -108146,7 +108298,17 @@
     "name": "Kamigawa: Neon Dynasty Set Booster",
     "code": "neo-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -109800,7 +109962,17 @@
     "name": "Kamigawa: Neon Dynasty Theme Booster Black",
     "code": "neo-theme-b",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -110008,7 +110180,17 @@
     "name": "Kamigawa: Neon Dynasty Theme Booster Green",
     "code": "neo-theme-g",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -110218,7 +110400,17 @@
     "name": "Kamigawa: Neon Dynasty Theme Booster Ninjas",
     "code": "neo-theme-ninjas",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -110447,7 +110639,17 @@
     "name": "Kamigawa: Neon Dynasty Theme Booster Red",
     "code": "neo-theme-r",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -110656,7 +110858,17 @@
     "name": "Kamigawa: Neon Dynasty Theme Booster Blue",
     "code": "neo-theme-u",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -110865,7 +111077,17 @@
     "name": "Kamigawa: Neon Dynasty Theme Booster White",
     "code": "neo-theme-w",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "neo",
     "set_name": "Kamigawa: Neon Dynasty",
@@ -112436,7 +112658,17 @@
     "name": "Innistrad: Crimson Vow Arena Booster",
     "code": "vow-arena",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -112828,7 +113060,17 @@
     "name": "Innistrad: Crimson Vow Collector Booster",
     "code": "vow-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -113551,7 +113793,17 @@
     "name": "Innistrad: Crimson Vow Draft Booster",
     "code": "vow-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -114452,7 +114704,17 @@
     "name": "Innistrad: Crimson Vow Set Booster",
     "code": "vow-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -115872,7 +116134,17 @@
     "name": "Innistrad: Crimson Vow Theme Booster Black",
     "code": "vow-theme-b",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -116065,7 +116337,17 @@
     "name": "Innistrad: Crimson Vow Theme Booster Green",
     "code": "vow-theme-g",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -116257,7 +116539,17 @@
     "name": "Innistrad: Crimson Vow Theme Booster Red",
     "code": "vow-theme-r",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -116450,7 +116742,17 @@
     "name": "Innistrad: Crimson Vow Theme Booster Blue",
     "code": "vow-theme-u",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -116642,7 +116944,17 @@
     "name": "Innistrad: Crimson Vow Theme Booster Vampires",
     "code": "vow-theme-vampires",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -116850,7 +117162,17 @@
     "name": "Innistrad: Crimson Vow Theme Booster White",
     "code": "vow-theme-w",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "vow",
     "set_name": "Innistrad: Crimson Vow",
@@ -130862,7 +131184,17 @@
     "name": "Strixhaven: School of Mages Collector Booster",
     "code": "stx-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -131801,7 +132133,17 @@
     "name": "Strixhaven: School of Mages Draft Booster",
     "code": "stx-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -132579,7 +132921,17 @@
     "name": "Strixhaven: School of Mages Japanese Draft Booster",
     "code": "stx-jp",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -133483,7 +133835,17 @@
     "name": "Strixhaven: School of Mages Set Booster",
     "code": "stx-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -135458,7 +135820,17 @@
     "name": "Strixhaven: School of Mages Japanese Set Booster",
     "code": "stx-set-jp",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -137622,7 +137994,17 @@
     "name": "Strixhaven: School of Mages Theme Booster Lorehold",
     "code": "stx-theme-lorehold",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -137805,7 +138187,17 @@
     "name": "Strixhaven: School of Mages Theme Booster Prismari",
     "code": "stx-theme-prismari",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -137984,7 +138376,17 @@
     "name": "Strixhaven: School of Mages Theme Booster Quandrix",
     "code": "stx-theme-quandrix",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -138163,7 +138565,17 @@
     "name": "Strixhaven: School of Mages Theme Booster Silverquill",
     "code": "stx-theme-silverquill",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -138343,7 +138755,17 @@
     "name": "Strixhaven: School of Mages Theme Booster Witherbloom",
     "code": "stx-theme-witherbloom",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -140346,7 +140768,17 @@
     "name": "Kaldheim Draft Booster",
     "code": "khm-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -141199,7 +141631,17 @@
     "name": "Kaldheim Set Booster",
     "code": "khm-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -143068,7 +143510,17 @@
     "name": "Kaldheim Theme Booster Black",
     "code": "khm-theme-b",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -143264,7 +143716,17 @@
     "name": "Kaldheim Theme Booster Green",
     "code": "khm-theme-g",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -143456,7 +143918,17 @@
     "name": "Kaldheim Theme Booster Red",
     "code": "khm-theme-r",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -143651,7 +144123,17 @@
     "name": "Kaldheim Theme Booster Blue",
     "code": "khm-theme-u",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -143845,7 +144327,17 @@
     "name": "Kaldheim Theme Booster Vikings",
     "code": "khm-theme-vikings",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -144136,7 +144628,17 @@
     "name": "Kaldheim Theme Booster White",
     "code": "khm-theme-w",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -146322,7 +146824,17 @@
     "name": "Zendikar Rising Arena Booster",
     "code": "znr-arena",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -146657,7 +147169,17 @@
     "name": "Zendikar Rising Collector Booster",
     "code": "znr-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -147282,7 +147804,17 @@
     "name": "Zendikar Rising Draft Booster",
     "code": "znr-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -148140,7 +148672,17 @@
     "name": "Zendikar Rising Set Booster",
     "code": "znr-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -149928,7 +150470,17 @@
     "name": "Zendikar Rising Theme Booster Black",
     "code": "znr-theme-b",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -150126,7 +150678,17 @@
     "name": "Zendikar Rising Theme Booster Green",
     "code": "znr-theme-g",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -150323,7 +150885,17 @@
     "name": "Zendikar Rising Theme Booster Party",
     "code": "znr-theme-party",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -150575,7 +151147,17 @@
     "name": "Zendikar Rising Theme Booster Red",
     "code": "znr-theme-r",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -150773,7 +151355,17 @@
     "name": "Zendikar Rising Theme Booster Blue",
     "code": "znr-theme-u",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -150971,7 +151563,17 @@
     "name": "Zendikar Rising Theme Booster White",
     "code": "znr-theme-w",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -172195,7 +172797,17 @@
     "name": "Throne of Eldraine Collector Booster",
     "code": "eld-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -172800,7 +173412,17 @@
     "name": "Throne of Eldraine Draft Booster",
     "code": "eld-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -173611,7 +174233,17 @@
     "name": "Throne of Eldraine Theme Booster Black",
     "code": "eld-theme-b",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -173810,7 +174442,17 @@
     "name": "Throne of Eldraine Theme Booster Green",
     "code": "eld-theme-g",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -174009,7 +174651,17 @@
     "name": "Throne of Eldraine Theme Booster Red",
     "code": "eld-theme-r",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -174208,7 +174860,17 @@
     "name": "Throne of Eldraine Theme Booster Blue",
     "code": "eld-theme-u",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -174407,7 +175069,17 @@
     "name": "Throne of Eldraine Theme Booster White",
     "code": "eld-theme-w",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",

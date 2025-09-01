@@ -2,7 +2,17 @@
   "name": "Throne of Eldraine Theme Booster Black",
   "code": "eld-theme-b",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",

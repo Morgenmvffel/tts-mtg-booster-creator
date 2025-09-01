@@ -2,7 +2,17 @@
   "name": "Throne of Eldraine Draft Booster",
   "code": "eld-draft",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",

@@ -2,7 +2,17 @@
   "name": "Streets of New Capenna Collector Booster",
   "code": "snc-collector",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",

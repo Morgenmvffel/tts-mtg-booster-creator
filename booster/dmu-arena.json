@@ -2,7 +2,14 @@
   "name": "Dominaria United Arena Booster",
   "code": "dmu-arena",
   "languages": [
-    "en"
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
   ],
   "set_code": "dmu",
   "set_name": "Dominaria United",

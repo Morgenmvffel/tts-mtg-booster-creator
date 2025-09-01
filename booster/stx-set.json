@@ -2,7 +2,17 @@
   "name": "Strixhaven: School of Mages Set Booster",
   "code": "stx-set",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",

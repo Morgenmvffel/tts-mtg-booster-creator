@@ -2,7 +2,17 @@
   "name": "Zendikar Rising Draft Booster",
   "code": "znr-draft",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",

@@ -2,7 +2,17 @@
   "name": "Innistrad: Crimson Vow Collector Booster",
   "code": "vow-collector",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "vow",
   "set_name": "Innistrad: Crimson Vow",

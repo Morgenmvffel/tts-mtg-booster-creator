@@ -2,7 +2,17 @@
   "name": "Streets of New Capenna Theme Booster Brokers",
   "code": "snc-theme-brokers",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",

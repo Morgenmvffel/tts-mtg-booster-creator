@@ -2,7 +2,17 @@
   "name": "Kamigawa: Neon Dynasty Theme Booster Red",
   "code": "neo-theme-r",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "neo",
   "set_name": "Kamigawa: Neon Dynasty",
