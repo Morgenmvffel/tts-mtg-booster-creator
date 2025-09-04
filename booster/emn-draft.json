@@ -310,7 +310,7 @@
         "emn:54a": 2,
         "emn:63a": 2,
         "emn:91": 5,
-        "emn:96a": 5
+        "emn:96": 5
       }
     },
     "foil": {
@@ -349,7 +349,7 @@
         "emn:128:foil": 1602,
         "emn:129:foil": 3024,
         "emn:12:foil": 3024,
-        "emn:130a:foil": 1246,
+        "emn:130:foil": 1246,
         "emn:131:foil": 1246,
         "emn:132:foil": 1246,
         "emn:133:foil": 1602,
@@ -381,7 +381,7 @@
         "emn:157:foil": 1602,
         "emn:158:foil": 1602,
         "emn:159:foil": 1602,
-        "emn:15a:foil": 1246,
+        "emn:15:foil": 1246,
         "emn:160:foil": 3024,
         "emn:161:foil": 1602,
         "emn:162:foil": 623,
@@ -516,7 +516,7 @@
         "emn:93:foil": 623,
         "emn:94:foil": 1602,
         "emn:95:foil": 1602,
-        "emn:96a:foil": 3024,
+        "emn:96:foil": 3024,
         "emn:97:foil": 1602,
         "emn:98:foil": 1246,
         "emn:99:foil": 1246,
@@ -542,8 +542,8 @@
       "total_weight": 12,
       "cards": {
         "emn:111a": 2,
-        "emn:130a": 2,
-        "emn:15a": 2,
+        "emn:130": 2,
+        "emn:15": 2,
         "emn:191a": 1,
         "emn:204": 2,
         "emn:28": 1,
