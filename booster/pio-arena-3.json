@@ -1,7 +1,9 @@
 {
   "name": "Pioneer Masters Arena Draft Booster: Devotion",
   "code": "pio-arena-3",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "pio",
   "set_name": "Pioneer Masters",
   "boosters": [

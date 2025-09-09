@@ -1,7 +1,18 @@
 {
   "name": "Urza's Saga Tournament Deck",
   "code": "usg-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "sp"
+  ],
   "set_code": "usg",
   "set_name": "Urza's Saga",
   "boosters": [

@@ -1,7 +1,9 @@
 {
   "name": "Limited Edition Alpha Starter Deck",
   "code": "lea-starter",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "lea",
   "set_name": "Limited Edition Alpha",
   "boosters": [

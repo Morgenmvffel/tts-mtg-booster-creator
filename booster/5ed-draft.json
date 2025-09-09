@@ -1,7 +1,18 @@
 {
   "name": "Fifth Edition Draft Booster",
   "code": "5ed-draft",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "sp"
+  ],
   "set_code": "5ed",
   "set_name": "Fifth Edition",
   "boosters": [

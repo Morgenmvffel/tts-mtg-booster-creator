@@ -1,7 +1,9 @@
 {
   "name": "Kaladesh Remastered Arena Booster",
   "code": "klr-arena",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "klr",
   "set_name": "Kaladesh Remastered",
   "boosters": [

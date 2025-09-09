@@ -1,7 +1,9 @@
 {
   "name": "Mystery Booster Pack Retail Edition",
   "code": "mb1-draft",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "mb1",
   "set_name": "Mystery Booster",
   "boosters": [

@@ -1,7 +1,9 @@
 {
   "name": "Unlimited Edition",
   "code": "2ed",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "2ed",
   "set_name": "Unlimited Edition",
   "boosters": [

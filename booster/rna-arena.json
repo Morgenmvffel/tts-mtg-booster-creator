@@ -1,7 +1,19 @@
 {
   "name": "Ravnica Allegiance Arena Booster",
   "code": "rna-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rna",
   "set_name": "Ravnica Allegiance",
   "boosters": [

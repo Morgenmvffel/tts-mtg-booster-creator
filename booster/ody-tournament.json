@@ -1,7 +1,17 @@
 {
   "name": "Odyssey Tournament Pack",
   "code": "ody-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "ody",
   "set_name": "Odyssey",
   "boosters": [

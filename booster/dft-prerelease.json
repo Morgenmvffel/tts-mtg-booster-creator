@@ -1,7 +1,14 @@
 {
   "name": "Aetherdrift Prerelease Promo Pack",
   "code": "dft-prerelease",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "dft",
   "set_name": "Aetherdrift",
   "boosters": [

@@ -1,7 +1,16 @@
 {
   "name": "The Lost Caverns of Ixalan Bundle Promo Card",
   "code": "lci-bundle-promo",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "lci",
   "set_name": "The Lost Caverns of Ixalan",
   "boosters": [

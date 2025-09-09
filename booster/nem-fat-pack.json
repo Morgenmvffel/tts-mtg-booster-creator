@@ -1,7 +1,16 @@
 {
   "name": "Nemesis Fat Pack Promotional Cards",
   "code": "nem-fat-pack",
-  "languages": [],
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "nem",
   "set_name": "Nemesis",
   "boosters": [

@@ -1,7 +1,9 @@
 {
   "name": "Final Fantasy Bundle Promo Card",
   "code": "fin-bundle-promo",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "fin",
   "set_name": "Final Fantasy",
   "boosters": [

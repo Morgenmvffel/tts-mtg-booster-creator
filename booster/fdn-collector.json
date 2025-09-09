@@ -1,7 +1,14 @@
 {
   "name": "Foundations Collector Booster",
   "code": "fdn-collector",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "fdn",
   "set_name": "Foundations",
   "boosters": [

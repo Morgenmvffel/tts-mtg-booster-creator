@@ -1,7 +1,16 @@
 {
   "name": "Mercadian Masques Tournament Pack",
   "code": "mmq-tournament",
-  "languages": [],
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mmq",
   "set_name": "Mercadian Masques",
   "boosters": [

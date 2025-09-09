@@ -1,7 +1,9 @@
 {
   "name": "Limited Edition Beta",
   "code": "leb",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "leb",
   "set_name": "Limited Edition Beta",
   "boosters": [

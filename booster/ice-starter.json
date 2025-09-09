@@ -1,7 +1,14 @@
 {
   "name": "Ice Age Starter Deck",
   "code": "ice-starter",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "pt",
+    "sp"
+  ],
   "set_code": "ice",
   "set_name": "Ice Age",
   "boosters": [

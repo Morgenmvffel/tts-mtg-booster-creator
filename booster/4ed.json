@@ -1,7 +1,15 @@
 {
   "name": "Fourth Edition",
   "code": "4ed",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "4ed",
   "set_name": "Fourth Edition",
   "boosters": [

@@ -1,7 +1,16 @@
 {
   "name": "Champions of Kamigawa Tournament Pack",
   "code": "chk-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "chk",
   "set_name": "Champions of Kamigawa",
   "boosters": [

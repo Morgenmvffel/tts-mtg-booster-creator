@@ -1,7 +1,19 @@
 {
   "name": "Dragons of Tarkir Seeded Prerelease Booster Ojutai",
   "code": "dtk-prerelease-ojutai",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dtk",
   "set_name": "Dragons of Tarkir",
   "boosters": [

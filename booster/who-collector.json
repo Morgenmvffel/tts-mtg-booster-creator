@@ -1,7 +1,12 @@
 {
   "name": "Doctor Who Collector Booster",
   "code": "who-collector",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "jp"
+  ],
   "set_code": "who",
   "set_name": "Doctor Who",
   "boosters": [

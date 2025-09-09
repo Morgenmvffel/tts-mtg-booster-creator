@@ -1,7 +1,14 @@
 {
   "name": "Duskmourn: House of Horror Prerelease Promo Pack",
   "code": "dsk-prerelease",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
   "set_code": "dsk",
   "set_name": "Duskmourn: House of Horror",
   "boosters": [

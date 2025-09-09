@@ -1,7 +1,19 @@
 {
   "name": "Streets of New Capenna Arena Booster",
   "code": "snc-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",
   "boosters": [

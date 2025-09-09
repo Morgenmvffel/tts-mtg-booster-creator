@@ -1,7 +1,9 @@
 {
   "name": "SLD Stained Glass Planeswalkers - Tattoo",
   "code": "sld-stainedglass-tattoo",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",
   "boosters": [

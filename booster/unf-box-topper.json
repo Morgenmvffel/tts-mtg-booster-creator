@@ -1,7 +1,9 @@
 {
   "name": "Unfinity Box Topper",
   "code": "unf-box-topper",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "unf",
   "set_name": "Unfinity",
   "boosters": [

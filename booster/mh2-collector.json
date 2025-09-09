@@ -1,7 +1,19 @@
 {
   "name": "Modern Horizons 2 Collector Booster",
   "code": "mh2-collector",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "mh2",
   "set_name": "Modern Horizons 2",
   "boosters": [

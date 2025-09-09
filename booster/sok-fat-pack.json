@@ -1,7 +1,16 @@
 {
   "name": "Saviors of Kamigawa Fat Pack Promotional Cards",
   "code": "sok-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "sok",
   "set_name": "Saviors of Kamigawa",
   "boosters": [

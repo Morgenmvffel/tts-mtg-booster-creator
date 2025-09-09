@@ -1,7 +1,10 @@
 {
   "name": "The Dark",
   "code": "drk",
-  "languages": [],
+  "languages": [
+    "en",
+    "it"
+  ],
   "set_code": "drk",
   "set_name": "The Dark",
   "boosters": [

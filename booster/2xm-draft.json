@@ -1,7 +1,13 @@
 {
   "name": "Double Masters Draft Booster",
   "code": "2xm-draft",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "jp"
+  ],
   "set_code": "2xm",
   "set_name": "Double Masters",
   "boosters": [

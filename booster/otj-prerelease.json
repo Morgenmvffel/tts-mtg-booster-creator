@@ -1,7 +1,16 @@
 {
   "name": "Outlaws of Thunder Junction Prerelease Promo Pack",
   "code": "otj-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "otj",
   "set_name": "Outlaws of Thunder Junction",
   "boosters": [

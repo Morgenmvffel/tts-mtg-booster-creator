@@ -1,7 +1,9 @@
 {
   "name": "SLD Stained Glass Planeswalkers - Black",
   "code": "sld-stainedglass-b",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",
   "boosters": [

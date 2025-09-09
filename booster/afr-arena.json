@@ -1,7 +1,9 @@
 {
   "name": "Adventures in the Forgotten Realms Arena Booster",
   "code": "afr-arena",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "afr",
   "set_name": "Adventures in the Forgotten Realms",
   "boosters": [

@@ -1,7 +1,16 @@
 {
   "name": "The Lost Caverns of Ixalan Foil Box Topper",
   "code": "lci-box-topper-foil",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "lci",
   "set_name": "The Lost Caverns of Ixalan",
   "boosters": [

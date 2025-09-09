@@ -1,7 +1,19 @@
 {
   "name": "Ixalan Arena Booster",
   "code": "xln-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "xln",
   "set_name": "Ixalan",
   "boosters": [

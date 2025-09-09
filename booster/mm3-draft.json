@@ -1,7 +1,11 @@
 {
   "name": "Modern Masters 2017 Draft Booster",
   "code": "mm3-draft",
-  "languages": [],
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
   "set_code": "mm3",
   "set_name": "Modern Masters 2017",
   "boosters": [

@@ -1,7 +1,14 @@
 {
   "name": "Alliances",
   "code": "all",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "pt",
+    "sp"
+  ],
   "set_code": "all",
   "set_name": "Alliances",
   "boosters": [

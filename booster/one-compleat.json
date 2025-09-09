@@ -1,7 +1,16 @@
 {
   "name": "Phyrexia: All Will Be One Compleat Edition Booster",
   "code": "one-compleat",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "one",
   "set_name": "Phyrexia: All Will Be One",
   "boosters": [

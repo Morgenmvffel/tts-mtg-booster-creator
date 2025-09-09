@@ -1,7 +1,16 @@
 {
   "name": "Modern Horizons 3 Prerelease Promo Pack",
   "code": "mh3-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mh3",
   "set_name": "Modern Horizons 3",
   "boosters": [

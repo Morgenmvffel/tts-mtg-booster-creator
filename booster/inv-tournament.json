@@ -1,7 +1,17 @@
 {
   "name": "Invasion Tournament Deck",
   "code": "inv-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "inv",
   "set_name": "Invasion",
   "boosters": [

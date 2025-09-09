@@ -1,7 +1,19 @@
 {
   "name": "Zendikar Rising Prerelease Promo Pack",
   "code": "znr-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",
   "boosters": [

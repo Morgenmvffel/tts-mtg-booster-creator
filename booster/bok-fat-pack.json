@@ -1,7 +1,16 @@
 {
   "name": "Betrayers of Kamigawa Fat Pack Promotional Cards",
   "code": "bok-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "bok",
   "set_name": "Betrayers of Kamigawa",
   "boosters": [

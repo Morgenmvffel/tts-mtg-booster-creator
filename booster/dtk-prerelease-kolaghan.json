@@ -1,7 +1,19 @@
 {
   "name": "Dragons of Tarkir Seeded Prerelease Booster Kolaghan",
   "code": "dtk-prerelease-kolaghan",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dtk",
   "set_name": "Dragons of Tarkir",
   "boosters": [

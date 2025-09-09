@@ -1,7 +1,9 @@
 {
   "name": "Ravnica: Clue Edition Box Topper Pack",
   "code": "clu-box-topper",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "clu",
   "set_name": "Ravnica: Clue Edition",
   "boosters": [

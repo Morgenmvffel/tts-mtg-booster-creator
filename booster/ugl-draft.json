@@ -1,7 +1,9 @@
 {
   "name": "Unglued Draft Booster",
   "code": "ugl-draft",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "ugl",
   "set_name": "Unglued",
   "boosters": [

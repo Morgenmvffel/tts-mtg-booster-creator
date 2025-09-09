@@ -1,7 +1,16 @@
 {
   "name": "The Brothers' War Prerelease Promo Pack",
   "code": "bro-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "bro",
   "set_name": "The Brothers' War",
   "boosters": [

@@ -1,7 +1,11 @@
 {
   "name": "Iconic Masters Draft Booster",
   "code": "ima-draft",
-  "languages": [],
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
   "set_code": "ima",
   "set_name": "Iconic Masters",
   "boosters": [

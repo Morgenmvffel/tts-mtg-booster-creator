@@ -1,7 +1,10 @@
 {
   "name": "Renaissance Booster",
   "code": "ren",
-  "languages": [],
+  "languages": [
+    "fr",
+    "de"
+  ],
   "set_code": "ren",
   "set_name": "Renaissance",
   "boosters": [

@@ -1,7 +1,19 @@
 {
   "name": "Streets of New Capenna Seeded Prerelease Pack Obscura",
   "code": "snc-prerelease-obscura",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",
   "boosters": [

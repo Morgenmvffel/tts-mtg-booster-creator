@@ -1,7 +1,19 @@
 {
   "name": "Zendikar Rising Expeditions Box Topper",
   "code": "zne-box-topper",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "zne",
   "set_name": "Zendikar Rising Expeditions",
   "boosters": [

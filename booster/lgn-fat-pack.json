@@ -1,7 +1,17 @@
 {
   "name": "Legions Fat Pack Promotional Cards",
   "code": "lgn-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "lgn",
   "set_name": "Legions",
   "boosters": [

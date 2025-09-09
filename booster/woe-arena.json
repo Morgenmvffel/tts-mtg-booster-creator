@@ -1,7 +1,16 @@
 {
   "name": "Wilds of Eldraine Arena Booster",
   "code": "woe-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "woe",
   "set_name": "Wilds of Eldraine",
   "boosters": [

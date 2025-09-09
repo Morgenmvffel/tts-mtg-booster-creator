@@ -1,7 +1,19 @@
 {
   "name": "Kaldheim Prerelease Promo Pack",
   "code": "khm-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "khm",
   "set_name": "Kaldheim",
   "boosters": [

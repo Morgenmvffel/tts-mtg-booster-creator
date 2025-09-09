@@ -1,7 +1,9 @@
 {
   "name": "Adventures in the Forgotten Realms Collector Booster",
   "code": "afr-collector",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "afr",
   "set_name": "Adventures in the Forgotten Realms",
   "boosters": [

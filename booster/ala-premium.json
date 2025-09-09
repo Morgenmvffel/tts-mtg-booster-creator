@@ -1,7 +1,17 @@
 {
   "name": "Shards of Alara Premium Foil Booster",
   "code": "ala-premium",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ala",
   "set_name": "Shards of Alara",
   "boosters": [

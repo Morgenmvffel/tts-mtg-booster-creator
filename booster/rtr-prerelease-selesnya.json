@@ -1,7 +1,19 @@
 {
   "name": "Return to Ravnica Prerelease Pack Selesnya",
   "code": "rtr-prerelease-selesnya",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rtr",
   "set_name": "Return to Ravnica",
   "boosters": [

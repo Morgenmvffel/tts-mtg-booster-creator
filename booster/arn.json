@@ -1,7 +1,9 @@
 {
   "name": "Arabian Nights",
   "code": "arn",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "arn",
   "set_name": "Arabian Nights",
   "boosters": [

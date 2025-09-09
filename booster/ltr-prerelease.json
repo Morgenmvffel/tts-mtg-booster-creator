@@ -1,7 +1,16 @@
 {
   "name": "The Lord of the Rings: Tales of Middle-earth Prerelease Promo Pack",
   "code": "ltr-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "ltr",
   "set_name": "The Lord of the Rings: Tales of Middle-earth",
   "boosters": [

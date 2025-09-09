@@ -1,7 +1,9 @@
 {
   "name": "Antiquities",
   "code": "atq",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "atq",
   "set_name": "Antiquities",
   "boosters": [

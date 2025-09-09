@@ -1,7 +1,16 @@
 {
   "name": "Prophecy Fat Pack Promotional Cards",
   "code": "pcy-fat-pack",
-  "languages": [],
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "pcy",
   "set_name": "Prophecy",
   "boosters": [

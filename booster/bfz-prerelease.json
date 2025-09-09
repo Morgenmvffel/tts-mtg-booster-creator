@@ -1,7 +1,19 @@
 {
   "name": "Battle for Zendikar Prerelease Promo Pack",
   "code": "bfz-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "bfz",
   "set_name": "Battle for Zendikar",
   "boosters": [

@@ -1,7 +1,16 @@
 {
   "name": "Darksteel Fat Pack Promotional Cards",
   "code": "dst-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "dst",
   "set_name": "Darksteel",
   "boosters": [

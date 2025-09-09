@@ -1,7 +1,13 @@
 {
   "name": "Double Masters 2022 Draft Booster",
   "code": "2x2-draft",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "jp"
+  ],
   "set_code": "2x2",
   "set_name": "Double Masters 2022",
   "boosters": [

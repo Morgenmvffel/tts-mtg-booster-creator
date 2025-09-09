@@ -1,7 +1,9 @@
 {
   "name": "SLD Deceptive Districts",
   "code": "sld-deceptive-districts",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",
   "boosters": [

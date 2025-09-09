@@ -1,7 +1,9 @@
 {
   "name": "SLD Blueprint Cards MK. 2",
   "code": "sld-blueprint-mk2",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",
   "boosters": [

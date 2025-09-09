@@ -1,7 +1,19 @@
 {
   "name": "Duels of the Planeswalkers 2014 Base Booster",
   "code": "m14-duelspromo",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m14",
   "set_name": "Magic 2014",
   "boosters": [

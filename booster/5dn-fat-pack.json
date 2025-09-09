@@ -1,7 +1,16 @@
 {
   "name": "Fifth Dawn Fat Pack Promotional Cards",
   "code": "5dn-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "5dn",
   "set_name": "Fifth Dawn",
   "boosters": [

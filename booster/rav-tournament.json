@@ -1,7 +1,17 @@
 {
   "name": "Ravnica: City of Guilds Tournament Deck",
   "code": "rav-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rav",
   "set_name": "Ravnica: City of Guilds",
   "boosters": [

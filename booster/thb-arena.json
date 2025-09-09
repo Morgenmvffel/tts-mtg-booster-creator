@@ -1,7 +1,19 @@
 {
   "name": "Theros Beyond Death Arena Booster",
   "code": "thb-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "thb",
   "set_name": "Theros Beyond Death",
   "boosters": [

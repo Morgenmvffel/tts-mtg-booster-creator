@@ -1,7 +1,17 @@
 {
   "name": "Apocalypse Fat Pack Promotional Cards",
   "code": "apc-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "apc",
   "set_name": "Apocalypse",
   "boosters": [

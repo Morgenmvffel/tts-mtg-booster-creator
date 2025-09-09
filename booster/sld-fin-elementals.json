@@ -1,7 +1,9 @@
 {
   "name": "SLD Final Fantasy Elementals",
   "code": "sld-fin-elementals",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",
   "boosters": [

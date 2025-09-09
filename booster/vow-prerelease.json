@@ -1,7 +1,19 @@
 {
   "name": "Innistrad: Crimson Vow Prerelease Promo Pack",
   "code": "vow-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "vow",
   "set_name": "Innistrad: Crimson Vow",
   "boosters": [

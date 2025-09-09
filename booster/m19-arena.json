@@ -1,7 +1,19 @@
 {
   "name": "Core Set 2019 Arena Booster",
   "code": "m19-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "m19",
   "set_name": "Core Set 2019",
   "boosters": [

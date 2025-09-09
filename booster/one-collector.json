@@ -1,7 +1,16 @@
 {
   "name": "Phyrexia: All Will Be One Collector Booster",
   "code": "one-collector",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "one",
   "set_name": "Phyrexia: All Will Be One",
   "boosters": [

@@ -1,7 +1,19 @@
 {
   "name": "Dragons of Tarkir Seeded Prerelease Booster Atarka",
   "code": "dtk-prerelease-atarka",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "dtk",
   "set_name": "Dragons of Tarkir",
   "boosters": [

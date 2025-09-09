@@ -1,7 +1,16 @@
 {
   "name": "Murders at Karlov Manor Prerelease Promo Pack",
   "code": "mkm-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mkm",
   "set_name": "Murders at Karlov Manor",
   "boosters": [

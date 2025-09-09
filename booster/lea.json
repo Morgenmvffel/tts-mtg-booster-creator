@@ -1,7 +1,9 @@
 {
   "name": "Limited Edition Alpha",
   "code": "lea",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "lea",
   "set_name": "Limited Edition Alpha",
   "boosters": [

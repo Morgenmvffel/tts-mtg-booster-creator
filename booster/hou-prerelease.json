@@ -1,7 +1,19 @@
 {
   "name": "Hour of Devastation Prerelease Promo Pack",
   "code": "hou-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "hou",
   "set_name": "Hour of Devastation",
   "boosters": [

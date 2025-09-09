@@ -1,7 +1,15 @@
 {
   "name": "Portal",
   "code": "por",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "jp",
+    "sp"
+  ],
   "set_code": "por",
   "set_name": "Portal",
   "boosters": [

@@ -1,7 +1,19 @@
 {
   "name": "Khans of Tarkir Arena Booster",
   "code": "ktk-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ktk",
   "set_name": "Khans of Tarkir",
   "boosters": [

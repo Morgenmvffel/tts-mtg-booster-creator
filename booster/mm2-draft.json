@@ -1,7 +1,11 @@
 {
   "name": "Modern Masters 2015 Draft Booster",
   "code": "mm2-draft",
-  "languages": [],
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
   "set_code": "mm2",
   "set_name": "Modern Masters 2015",
   "boosters": [

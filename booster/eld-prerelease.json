@@ -1,7 +1,19 @@
 {
   "name": "Throne of Eldraine Prerelease Promo Pack",
   "code": "eld-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",
   "boosters": [

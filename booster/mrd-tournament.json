@@ -1,7 +1,17 @@
 {
   "name": "Mirrodin Tournament Deck",
   "code": "mrd-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mrd",
   "set_name": "Mirrodin",
   "boosters": [

@@ -1,7 +1,17 @@
 {
   "name": "Torment Fat Pack Promotional Cards",
   "code": "tor-fat-pack",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "tor",
   "set_name": "Torment",
   "boosters": [

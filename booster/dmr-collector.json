@@ -1,7 +1,16 @@
 {
   "name": "Dominaria Remastered Collector Booster",
   "code": "dmr-collector",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "dmr",
   "set_name": "Dominaria Remastered",
   "boosters": [

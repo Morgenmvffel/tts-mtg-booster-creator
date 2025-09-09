@@ -1,7 +1,9 @@
 {
   "name": "Shadows over Innistrad Remastered Arena Booster: Creature Type Terror",
   "code": "sir-arena-1",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "sir",
   "set_name": "Shadows over Innistrad Remastered",
   "boosters": [

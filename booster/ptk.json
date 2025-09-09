@@ -1,7 +1,12 @@
 {
   "name": "Portal Three Kingdoms",
   "code": "ptk",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "en",
+    "jp"
+  ],
   "set_code": "ptk",
   "set_name": "Portal Three Kingdoms",
   "boosters": [

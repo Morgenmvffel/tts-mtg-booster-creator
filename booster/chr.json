@@ -1,7 +1,9 @@
 {
   "name": "Chronicles",
   "code": "chr",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "chr",
   "set_name": "Chronicles",
   "boosters": [

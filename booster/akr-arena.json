@@ -1,7 +1,9 @@
 {
   "name": "Amonkhet Remastered Arena Booster",
   "code": "akr-arena",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "akr",
   "set_name": "Amonkhet Remastered",
   "boosters": [

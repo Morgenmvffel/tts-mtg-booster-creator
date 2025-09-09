@@ -1,7 +1,10 @@
 {
   "name": "Legends",
   "code": "leg",
-  "languages": [],
+  "languages": [
+    "en",
+    "it"
+  ],
   "set_code": "leg",
   "set_name": "Legends",
   "boosters": [

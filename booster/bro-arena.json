@@ -1,7 +1,16 @@
 {
   "name": "The Brothers' War Arena Booster",
   "code": "bro-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "bro",
   "set_name": "The Brothers' War",
   "boosters": [

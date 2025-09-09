@@ -1,7 +1,16 @@
 {
   "name": "Dominaria United Box Topper Pack",
   "code": "dmu-box-topper",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "dmu",
   "set_name": "Dominaria United",
   "boosters": [

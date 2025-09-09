@@ -1,7 +1,9 @@
 {
   "name": "Secret Lair 30th Anniversary Countdown Kit",
   "code": "slc",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "slc",
   "set_name": "Secret Lair 30th Anniversary Countdown Kit",
   "boosters": [

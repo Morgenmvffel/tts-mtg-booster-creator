@@ -1,7 +1,9 @@
 {
   "name": "Limited Edition Beta Starter Deck",
   "code": "leb-starter",
-  "languages": [],
+  "languages": [
+    "en"
+  ],
   "set_code": "leb",
   "set_name": "Limited Edition Beta",
   "boosters": [

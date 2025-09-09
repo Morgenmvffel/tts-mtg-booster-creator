@@ -1,7 +1,19 @@
 {
   "name": "Rivals of Ixalan Arena Booster",
   "code": "rix-arena",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "rix",
   "set_name": "Rivals of Ixalan",
   "boosters": [

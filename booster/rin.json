@@ -1,7 +1,9 @@
 {
   "name": "Rinascimento",
   "code": "rin",
-  "languages": [],
+  "languages": [
+    "it"
+  ],
   "set_code": "rin",
   "set_name": "Rinascimento",
   "boosters": [

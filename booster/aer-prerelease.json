@@ -1,7 +1,19 @@
 {
   "name": "Aether Revolt Prerelease Promo Pack",
   "code": "aer-prerelease",
-  "languages": [],
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "aer",
   "set_name": "Aether Revolt",
   "boosters": [

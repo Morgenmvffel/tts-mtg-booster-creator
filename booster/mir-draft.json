@@ -1,7 +1,15 @@
 {
   "name": "Mirage Draft Booster",
   "code": "mir-draft",
-  "languages": [],
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
   "set_code": "mir",
   "set_name": "Mirage",
   "boosters": [

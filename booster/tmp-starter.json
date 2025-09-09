@@ -1,7 +1,17 @@
 {
   "name": "Tempest Starter Deck",
   "code": "tmp-starter",
-  "languages": [],
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "sp"
+  ],
   "set_code": "tmp",
   "set_name": "Tempest",
   "boosters": [

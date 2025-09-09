@@ -1,7 +1,17 @@
 {
   "name": "Shards of Alara Tournament Deck",
   "code": "ala-tournament",
-  "languages": [],
+  "languages": [
+    "cn",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "ru",
+    "sp"
+  ],
   "set_code": "ala",
   "set_name": "Shards of Alara",
   "boosters": [
