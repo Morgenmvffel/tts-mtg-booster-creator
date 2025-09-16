@@ -774,13 +774,14 @@
       }
     },
     "transformers": {
-      "total_weight": 112,
+      "total_weight": 119,
       "cards": {
         "bot:10a": 7,
         "bot:11a": 7,
         "bot:12a": 7,
         "bot:13a": 7,
         "bot:14a": 7,
+        "bot:15a": 7,
         "bot:16a": 1,
         "bot:17a": 1,
         "bot:18a": 1,
@@ -1065,13 +1066,14 @@
       }
     },
     "foil_transformers": {
-      "total_weight": 112,
+      "total_weight": 119,
       "cards": {
         "bot:10a:foil": 7,
         "bot:11a:foil": 7,
         "bot:12a:foil": 7,
         "bot:13a:foil": 7,
         "bot:14a:foil": 7,
+        "bot:15a:foil": 7,
         "bot:16a:foil": 1,
         "bot:17a:foil": 1,
         "bot:18a:foil": 1,

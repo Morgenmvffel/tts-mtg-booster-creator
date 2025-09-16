@@ -125,7 +125,7 @@
   "sheets": {
     "uncommon": {
       "allow_duplicates": true,
-      "total_weight": 44,
+      "total_weight": 46,
       "cards": {
         "khm:103": 1,
         "khm:106": 1,
@@ -144,6 +144,7 @@
         "khm:163": 1,
         "khm:170": 1,
         "khm:18": 1,
+        "khm:186": 1,
         "khm:191": 1,
         "khm:2": 1,
         "khm:209": 1,
@@ -166,6 +167,7 @@
         "khm:387": 1,
         "khm:389": 1,
         "khm:391": 1,
+        "khm:393": 1,
         "khm:60": 1,
         "khm:75": 1,
         "khm:76": 1,
@@ -175,7 +177,7 @@
     },
     "common": {
       "allow_duplicates": true,
-      "total_weight": 74,
+      "total_weight": 75,
       "cards": {
         "khm:1": 1,
         "khm:10": 1,
@@ -245,6 +247,7 @@
         "khm:78": 1,
         "khm:83": 1,
         "khm:84": 1,
+        "khm:85": 1,
         "khm:87": 1,
         "khm:89": 1,
         "khm:91": 1,
@@ -254,7 +257,7 @@
       }
     },
     "rare_mythic": {
-      "total_weight": 65,
+      "total_weight": 71,
       "cards": {
         "khm:107": 2,
         "khm:109": 2,
@@ -270,7 +273,9 @@
         "khm:156": 2,
         "khm:161": 2,
         "khm:167": 2,
+        "khm:177": 2,
         "khm:185": 2,
+        "khm:20": 2,
         "khm:22": 1,
         "khm:24": 2,
         "khm:26": 2,
@@ -284,6 +289,7 @@
         "khm:41": 1,
         "khm:61": 2,
         "khm:69": 2,
+        "khm:73": 2,
         "khm:79": 2,
         "khm:81": 1,
         "khm:82": 2,
