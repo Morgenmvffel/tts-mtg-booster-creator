@@ -1,0 +1,40 @@
+{
+  "name": "SLD Magic: The Baseballing Signed Cards",
+  "code": "sld-baseball-signed",
+  "languages": [
+    "en"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "baseballing_signed": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "baseballing_signed"
+      ]
+    }
+  ],
+  "sheets": {
+    "baseballing_signed": {
+      "total_weight": 10,
+      "cards": {
+        "sld:745a:foil": 1,
+        "sld:745b:foil": 1,
+        "sld:746a:foil": 1,
+        "sld:746b:foil": 1,
+        "sld:747a:foil": 1,
+        "sld:747b:foil": 1,
+        "sld:748a:foil": 1,
+        "sld:748b:foil": 1,
+        "sld:749a:foil": 1,
+        "sld:749b:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

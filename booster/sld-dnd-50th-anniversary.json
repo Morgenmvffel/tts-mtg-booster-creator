@@ -1,0 +1,35 @@
+{
+  "name": "SLD D&D 50th Anniversary Superdrop",
+  "code": "sld-dnd-50th-anniversary",
+  "languages": [
+    "en"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "dnd_anniversary": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "dnd_anniversary"
+      ]
+    }
+  ],
+  "sheets": {
+    "dnd_anniversary": {
+      "total_weight": 5,
+      "cards": {
+        "sld:874:foil": 1,
+        "sld:875:foil": 1,
+        "sld:876:foil": 1,
+        "sld:877:foil": 1,
+        "sld:878:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1080,6 +1080,10 @@
     "code": "thb-theme-w"
   },
   {
+    "name": "SLD Magic: The Baseballing Signed Cards",
+    "code": "sld-baseball-signed"
+  },
+  {
     "name": "SLD Blueprint Cards MK. 1",
     "code": "sld-blueprint-mk1"
   },
@@ -1094,6 +1098,10 @@
   {
     "name": "SLD Deceptive Districts",
     "code": "sld-deceptive-districts"
+  },
+  {
+    "name": "SLD D&D 50th Anniversary Superdrop",
+    "code": "sld-dnd-50th-anniversary"
   },
   {
     "name": "SLD Final Fantasy Elementals",
