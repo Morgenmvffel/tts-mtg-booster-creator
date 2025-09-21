@@ -19,18 +19,13 @@
   ],
   "sheets": {
     "baseballing_signed": {
-      "total_weight": 10,
+      "total_weight": 5,
       "cards": {
         "sld:745a:foil": 1,
-        "sld:745b:foil": 1,
         "sld:746a:foil": 1,
-        "sld:746b:foil": 1,
         "sld:747a:foil": 1,
-        "sld:747b:foil": 1,
         "sld:748a:foil": 1,
-        "sld:748b:foil": 1,
-        "sld:749a:foil": 1,
-        "sld:749b:foil": 1
+        "sld:749a:foil": 1
       }
     }
   },
