@@ -29,7 +29,7 @@
   ],
   "sheets": {
     "dracula_foil": {
-      "total_weight": 41,
+      "total_weight": 39,
       "cards": {
         "vow:329:foil": 4,
         "vow:330:foil": 1,
@@ -47,8 +47,7 @@
         "vow:342:foil": 2,
         "vow:343:foil": 1,
         "vow:344:foil": 2,
-        "vow:345:foil": 2,
-        "vow:403:foil": 2
+        "vow:345:foil": 2
       }
     }
   },

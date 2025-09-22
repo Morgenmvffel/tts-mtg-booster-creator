@@ -780,7 +780,7 @@
       }
     },
     "foil_extended_art": {
-      "total_weight": 116,
+      "total_weight": 114,
       "cards": {
         "woc:29:foil": 2,
         "woc:30:foil": 2,
@@ -845,8 +845,7 @@
         "woe:371:foil": 2,
         "woe:372:foil": 2,
         "woe:373:foil": 2,
-        "woe:374:foil": 2,
-        "woe:381:foil": 2
+        "woe:374:foil": 2
       }
     }
   },
