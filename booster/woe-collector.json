@@ -594,7 +594,7 @@
       }
     },
     "alt_frame_foil": {
-      "total_weight": 1484,
+      "total_weight": 1424,
       "cards": {
         "woc:29:foil": 12,
         "woc:30:foil": 12,
@@ -686,11 +686,6 @@
         "woe:367:foil": 12,
         "woe:368:foil": 12,
         "woe:369:foil": 12,
-        "woe:370:foil": 12,
-        "woe:371:foil": 12,
-        "woe:372:foil": 12,
-        "woe:373:foil": 12,
-        "woe:374:foil": 12,
         "woe:381:foil": 12,
         "wot:100:foil": 2,
         "wot:101:foil": 2,
@@ -780,7 +775,7 @@
       }
     },
     "foil_extended_art": {
-      "total_weight": 114,
+      "total_weight": 104,
       "cards": {
         "woc:29:foil": 2,
         "woc:30:foil": 2,
@@ -840,12 +835,7 @@
         "woe:366:foil": 1,
         "woe:367:foil": 2,
         "woe:368:foil": 2,
-        "woe:369:foil": 2,
-        "woe:370:foil": 2,
-        "woe:371:foil": 2,
-        "woe:372:foil": 2,
-        "woe:373:foil": 2,
-        "woe:374:foil": 2
+        "woe:369:foil": 2
       }
     }
   },
