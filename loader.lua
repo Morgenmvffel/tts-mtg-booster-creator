@@ -1090,6 +1090,15 @@ end
 BoosterIndex = nil
 BoosterDataCache = {}
 
+local function escapeXml(str)
+    str = string.gsub(str, "&", "&amp;")
+    str = string.gsub(str, "<", "&lt;")
+    str = string.gsub(str, ">", "&gt;")
+    str = string.gsub(str, '"', "&quot;")
+    str = string.gsub(str, "'", "&apos;")
+    return str
+end
+
 local function buildDropdownFromIndex()
     local optionsXml = ""
 
@@ -1099,9 +1108,10 @@ local function buildDropdownFromIndex()
             selectedStr = ' selected="true"'
             PackCode = entry.code
         end
-        optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>', entry.code, -- value
-            selectedStr,                                                                         -- selected="true" if first
-            entry.name                                                                           -- label shown in dropdown
+        print(entry.name)
+        optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>', escapeXml(entry.code), -- value
+            selectedStr,                                                                                    -- selected="true" if first
+            escapeXml(entry.name    )                                                                       -- label shown in dropdown
         )
     end
 
