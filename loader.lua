@@ -1108,7 +1108,7 @@ local function buildDropdownFromIndex()
             selectedStr = ' selected="true"'
             PackCode = entry.code
         end
-        print(entry.name)
+        -- print(entry.name)
         optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>', escapeXml(entry.code), -- value
             selectedStr,                                                                                    -- selected="true" if first
             escapeXml(entry.name    )                                                                       -- label shown in dropdown
