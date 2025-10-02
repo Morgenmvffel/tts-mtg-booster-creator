@@ -52,8 +52,13 @@
   ],
   "sheets": {
     "foil_common": {
-      "total_weight": 65,
+      "total_weight": 70,
       "cards": {
+        "spe:11:foil": 1,
+        "spe:16:foil": 1,
+        "spe:19:foil": 1,
+        "spe:1:foil": 1,
+        "spe:5:foil": 1,
         "spm:101:foil": 1,
         "spm:102:foil": 1,
         "spm:103:foil": 1,
@@ -122,8 +127,13 @@
       }
     },
     "foil_uncommon": {
-      "total_weight": 58,
+      "total_weight": 63,
       "cards": {
+        "spe:15:foil": 1,
+        "spe:17:foil": 1,
+        "spe:3:foil": 1,
+        "spe:7:foil": 1,
+        "spe:9:foil": 1,
         "spm:100:foil": 1,
         "spm:109:foil": 1,
         "spm:117:foil": 1,
@@ -195,8 +205,18 @@
       }
     },
     "foil_rare_mythic": {
-      "total_weight": 121,
+      "total_weight": 136,
       "cards": {
+        "spe:10:foil": 2,
+        "spe:12:foil": 1,
+        "spe:13:foil": 2,
+        "spe:14:foil": 1,
+        "spe:18:foil": 1,
+        "spe:20:foil": 2,
+        "spe:2:foil": 2,
+        "spe:4:foil": 1,
+        "spe:6:foil": 2,
+        "spe:8:foil": 1,
         "spm:105:foil": 2,
         "spm:106:foil": 2,
         "spm:108a:foil": 1,
