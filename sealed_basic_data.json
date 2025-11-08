@@ -168702,6 +168702,45 @@
     ]
   },
   {
+    "name": "SLD Spider-Man bonus cards",
+    "code": "sld-spider-man",
+    "languages": [
+      "en"
+    ],
+    "set_code": "sld",
+    "set_name": "Secret Lair Drop",
+    "boosters": [
+      {
+        "sheets": {
+          "spiderman_bonus": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "spiderman_bonus"
+        ]
+      }
+    ],
+    "sheets": {
+      "spiderman_bonus": {
+        "total_weight": 333,
+        "cards": {
+          "sld:7013": 1,
+          "sld:7014": 1,
+          "sld:7015": 1,
+          "sld:7016": 10,
+          "sld:7017": 10,
+          "sld:7018": 10,
+          "sld:7019": 100,
+          "sld:7020": 100,
+          "sld:7021": 100
+        }
+      }
+    },
+    "source_set_codes": [
+      "sld"
+    ]
+  },
+  {
     "name": "SLD Stained Glass Planeswalkers - Black",
     "code": "sld-stainedglass-b",
     "languages": [
