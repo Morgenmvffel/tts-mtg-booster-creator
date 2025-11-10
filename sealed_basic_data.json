@@ -3,7 +3,12 @@
     "name": "Marvel's Spider-Man Collector Booster",
     "code": "spm-collector",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "spm",
     "set_name": "Marvel's Spider-Man",
@@ -557,7 +562,12 @@
     "name": "Marvel's Spider-Man Play Booster",
     "code": "spm-play",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "spm",
     "set_name": "Marvel's Spider-Man",
@@ -1412,7 +1422,12 @@
     "name": "Edge of Eternities Collector Booster",
     "code": "eoe-collector",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "eoe",
     "set_name": "Edge of Eternities",
@@ -2316,7 +2331,12 @@
     "name": "Edge of Eternities Play Booster",
     "code": "eoe-play",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "eoe",
     "set_name": "Edge of Eternities",
@@ -3482,7 +3502,12 @@
     "name": "Final Fantasy Bundle Promo Card",
     "code": "fin-bundle-promo",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
@@ -3674,7 +3699,12 @@
     "name": "Final Fantasy Collector Booster",
     "code": "fin-collector",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
@@ -4798,7 +4828,12 @@
     "name": "Final Fantasy Collector Sample Booster",
     "code": "fin-collector-sample",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
@@ -5069,7 +5104,12 @@
     "name": "Final Fantasy Play Booster",
     "code": "fin-play",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "fin",
     "set_name": "Final Fantasy",
@@ -6491,7 +6531,12 @@
     "name": "Final Fantasy Prerelease Promo Pack",
     "code": "fin-prerelease",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "fin",
     "set_name": "Final Fantasy",

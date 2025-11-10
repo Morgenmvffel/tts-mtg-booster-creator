@@ -2,7 +2,12 @@
   "name": "Final Fantasy Collector Sample Booster",
   "code": "fin-collector-sample",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "fin",
   "set_name": "Final Fantasy",

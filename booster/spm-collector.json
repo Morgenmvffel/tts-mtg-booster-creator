@@ -2,7 +2,12 @@
   "name": "Marvel's Spider-Man Collector Booster",
   "code": "spm-collector",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "spm",
   "set_name": "Marvel's Spider-Man",

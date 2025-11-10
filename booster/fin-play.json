@@ -2,7 +2,12 @@
   "name": "Final Fantasy Play Booster",
   "code": "fin-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "fin",
   "set_name": "Final Fantasy",
