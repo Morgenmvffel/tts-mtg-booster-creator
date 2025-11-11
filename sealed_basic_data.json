@@ -88731,6 +88731,297 @@
     ]
   },
   {
+    "name": "Secret Lair Countdown Encyclopedia Booster",
+    "code": "slc-encyclopedia",
+    "languages": [
+      "en"
+    ],
+    "set_code": "slc",
+    "set_name": "Secret Lair Countdown",
+    "boosters": [
+      {
+        "sheets": {
+          "slot1": 1,
+          "slot2": 1,
+          "slot3": 1,
+          "slot4": 1,
+          "slot5": 1,
+          "slot6": 1,
+          "slot7": 1,
+          "slot8": 1,
+          "slot9": 1,
+          "slot10": 1,
+          "slot11": 1,
+          "slot12": 1,
+          "slot13": 1,
+          "slot14": 1,
+          "slot15": 1,
+          "slot16": 1,
+          "slot17": 1,
+          "slot18": 1,
+          "slot19": 1,
+          "slot20": 1,
+          "slot21": 1,
+          "slot22": 1,
+          "slot23": 1,
+          "slot24": 1,
+          "slot25": 1,
+          "slot26": 1,
+          "slot27": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "slot1",
+          "slot2",
+          "slot3",
+          "slot4",
+          "slot5",
+          "slot6",
+          "slot7",
+          "slot8",
+          "slot9",
+          "slot10",
+          "slot11",
+          "slot12",
+          "slot13",
+          "slot14",
+          "slot15",
+          "slot16",
+          "slot17",
+          "slot18",
+          "slot19",
+          "slot20",
+          "slot21",
+          "slot22",
+          "slot23",
+          "slot24",
+          "slot25",
+          "slot26",
+          "slot27"
+        ]
+      }
+    ],
+    "sheets": {
+      "slot1": {
+        "total_weight": 100,
+        "cards": {
+          "slc:1": 70,
+          "slc:1:foil": 27,
+          "slc:28:foil": 3
+        }
+      },
+      "slot2": {
+        "total_weight": 100,
+        "cards": {
+          "slc:2": 70,
+          "slc:29:foil": 3,
+          "slc:2:foil": 27
+        }
+      },
+      "slot3": {
+        "total_weight": 100,
+        "cards": {
+          "slc:3": 70,
+          "slc:30:foil": 3,
+          "slc:3:foil": 27
+        }
+      },
+      "slot4": {
+        "total_weight": 100,
+        "cards": {
+          "slc:31:foil": 3,
+          "slc:4": 70,
+          "slc:4:foil": 27
+        }
+      },
+      "slot5": {
+        "total_weight": 100,
+        "cards": {
+          "slc:32:foil": 3,
+          "slc:5": 70,
+          "slc:5:foil": 27
+        }
+      },
+      "slot6": {
+        "total_weight": 100,
+        "cards": {
+          "slc:33:foil": 3,
+          "slc:6": 70,
+          "slc:6:foil": 27
+        }
+      },
+      "slot7": {
+        "total_weight": 100,
+        "cards": {
+          "slc:34:foil": 3,
+          "slc:7": 70,
+          "slc:7:foil": 27
+        }
+      },
+      "slot8": {
+        "total_weight": 100,
+        "cards": {
+          "slc:35:foil": 3,
+          "slc:8": 70,
+          "slc:8:foil": 27
+        }
+      },
+      "slot9": {
+        "total_weight": 100,
+        "cards": {
+          "slc:36:foil": 3,
+          "slc:9": 70,
+          "slc:9:foil": 27
+        }
+      },
+      "slot10": {
+        "total_weight": 100,
+        "cards": {
+          "slc:10": 70,
+          "slc:10:foil": 27,
+          "slc:37:foil": 3
+        }
+      },
+      "slot11": {
+        "total_weight": 100,
+        "cards": {
+          "slc:11": 70,
+          "slc:11:foil": 27,
+          "slc:38:foil": 3
+        }
+      },
+      "slot12": {
+        "total_weight": 100,
+        "cards": {
+          "slc:12": 70,
+          "slc:12:foil": 27,
+          "slc:39:foil": 3
+        }
+      },
+      "slot13": {
+        "total_weight": 100,
+        "cards": {
+          "slc:13": 70,
+          "slc:13:foil": 27,
+          "slc:40:foil": 3
+        }
+      },
+      "slot14": {
+        "total_weight": 100,
+        "cards": {
+          "slc:14": 70,
+          "slc:14:foil": 27,
+          "slc:41:foil": 3
+        }
+      },
+      "slot15": {
+        "total_weight": 100,
+        "cards": {
+          "slc:15": 70,
+          "slc:15:foil": 27,
+          "slc:42:foil": 3
+        }
+      },
+      "slot16": {
+        "total_weight": 100,
+        "cards": {
+          "slc:16": 70,
+          "slc:16:foil": 27,
+          "slc:43:foil": 3
+        }
+      },
+      "slot17": {
+        "total_weight": 100,
+        "cards": {
+          "slc:17": 70,
+          "slc:17:foil": 27,
+          "slc:44:foil": 3
+        }
+      },
+      "slot18": {
+        "total_weight": 100,
+        "cards": {
+          "slc:18": 70,
+          "slc:18:foil": 27,
+          "slc:45:foil": 3
+        }
+      },
+      "slot19": {
+        "total_weight": 100,
+        "cards": {
+          "slc:19": 70,
+          "slc:19:foil": 27,
+          "slc:46:foil": 3
+        }
+      },
+      "slot20": {
+        "total_weight": 100,
+        "cards": {
+          "slc:20": 70,
+          "slc:20:foil": 27,
+          "slc:47:foil": 3
+        }
+      },
+      "slot21": {
+        "total_weight": 100,
+        "cards": {
+          "slc:21": 70,
+          "slc:21:foil": 27,
+          "slc:48:foil": 3
+        }
+      },
+      "slot22": {
+        "total_weight": 100,
+        "cards": {
+          "slc:22": 70,
+          "slc:22:foil": 27,
+          "slc:49:foil": 3
+        }
+      },
+      "slot23": {
+        "total_weight": 100,
+        "cards": {
+          "slc:23": 70,
+          "slc:23:foil": 27,
+          "slc:50:foil": 3
+        }
+      },
+      "slot24": {
+        "total_weight": 100,
+        "cards": {
+          "slc:24": 70,
+          "slc:24:foil": 27,
+          "slc:51:foil": 3
+        }
+      },
+      "slot25": {
+        "total_weight": 100,
+        "cards": {
+          "slc:25": 70,
+          "slc:25:foil": 27,
+          "slc:52:foil": 3
+        }
+      },
+      "slot26": {
+        "total_weight": 100,
+        "cards": {
+          "slc:26": 70,
+          "slc:26:foil": 27,
+          "slc:53:foil": 3
+        }
+      },
+      "slot27": {
+        "total_weight": 1,
+        "cards": {
+          "slc:27:foil": 1
+        }
+      }
+    },
+    "source_set_codes": [
+      "slc"
+    ]
+  },
+  {
     "name": "Unfinity Box Topper",
     "code": "unf-box-topper",
     "languages": [
