@@ -19,7 +19,26 @@
         "rare_mythic_with_boosterfun": 1,
         "wildcard": 1,
         "foil": 1,
-        "land": 1
+        "non_foil_land": 1
+      },
+      "weight": 252,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic_with_boosterfun",
+        "wildcard",
+        "foil",
+        "non_foil_land"
+      ]
+    },
+    {
+      "sheets": {
+        "common": 7,
+        "uncommon": 3,
+        "rare_mythic_with_boosterfun": 1,
+        "wildcard": 1,
+        "foil": 1,
+        "foil_land": 1
       },
       "weight": 63,
       "sheet_order": [
@@ -28,7 +47,7 @@
         "rare_mythic_with_boosterfun",
         "wildcard",
         "foil",
-        "land"
+        "foil_land"
       ]
     },
     {
@@ -39,7 +58,28 @@
         "rare_mythic_with_boosterfun": 1,
         "wildcard": 1,
         "foil": 1,
-        "land": 1
+        "non_foil_land": 1
+      },
+      "weight": 4,
+      "sheet_order": [
+        "common",
+        "special_guest",
+        "uncommon",
+        "rare_mythic_with_boosterfun",
+        "wildcard",
+        "foil",
+        "non_foil_land"
+      ]
+    },
+    {
+      "sheets": {
+        "common": 6,
+        "special_guest": 1,
+        "uncommon": 3,
+        "rare_mythic_with_boosterfun": 1,
+        "wildcard": 1,
+        "foil": 1,
+        "foil_land": 1
       },
       "weight": 1,
       "sheet_order": [
@@ -49,7 +89,7 @@
         "rare_mythic_with_boosterfun",
         "wildcard",
         "foil",
-        "land"
+        "foil_land"
       ]
     }
   ],
@@ -1088,7 +1128,7 @@
         "dft:9:foil": 138348
       }
     },
-    "land": {
+    "non_foil_land": {
       "total_weight": 40,
       "cards": {
         "dft:251": 2,
@@ -1121,6 +1161,41 @@
         "dft:289": 1,
         "dft:290": 1,
         "dft:291": 1
+      }
+    },
+    "foil_land": {
+      "total_weight": 40,
+      "cards": {
+        "dft:251:foil": 2,
+        "dft:252:foil": 2,
+        "dft:254:foil": 2,
+        "dft:256:foil": 2,
+        "dft:262:foil": 2,
+        "dft:263:foil": 2,
+        "dft:265:foil": 2,
+        "dft:266:foil": 2,
+        "dft:267:foil": 2,
+        "dft:271:foil": 2,
+        "dft:272:foil": 1,
+        "dft:273:foil": 1,
+        "dft:274:foil": 1,
+        "dft:275:foil": 1,
+        "dft:276:foil": 1,
+        "dft:277:foil": 1,
+        "dft:278:foil": 1,
+        "dft:279:foil": 1,
+        "dft:280:foil": 1,
+        "dft:281:foil": 1,
+        "dft:282:foil": 1,
+        "dft:283:foil": 1,
+        "dft:284:foil": 1,
+        "dft:285:foil": 1,
+        "dft:286:foil": 1,
+        "dft:287:foil": 1,
+        "dft:288:foil": 1,
+        "dft:289:foil": 1,
+        "dft:290:foil": 1,
+        "dft:291:foil": 1
       }
     },
     "special_guest": {

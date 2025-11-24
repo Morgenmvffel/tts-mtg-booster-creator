@@ -2,12 +2,7 @@
   "name": "Aetherdrift Box Topper",
   "code": "dft-box-topper",
   "languages": [
-    "de",
-    "en",
-    "fr",
-    "it",
-    "jp",
-    "sp"
+    "en"
   ],
   "set_code": "dft",
   "set_name": "Aetherdrift",
