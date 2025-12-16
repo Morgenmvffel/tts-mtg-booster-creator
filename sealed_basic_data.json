@@ -2214,7 +2214,10 @@
     "name": "Avatar: The Last Airbender Eternal Jumpstart Booster",
     "code": "tle-jumpstart",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "jp"
     ],
     "set_code": "tle",
     "set_name": "Avatar: The Last Airbender Eternal",
