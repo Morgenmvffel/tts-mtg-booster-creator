@@ -11604,7 +11604,7 @@
           "wildcard": 1,
           "foil": 1
         },
-        "weight": 63,
+        "weight": 126,
         "sheet_order": [
           "land",
           "common",
@@ -11624,9 +11624,49 @@
           "wildcard": 1,
           "foil": 1
         },
-        "weight": 1,
+        "weight": 2,
         "sheet_order": [
           "land",
+          "common",
+          "special_guest",
+          "uncommon",
+          "rare_mythic_with_boosterfun",
+          "wildcard",
+          "foil"
+        ]
+      },
+      {
+        "sheets": {
+          "foil_land": 1,
+          "common": 7,
+          "uncommon": 3,
+          "rare_mythic_with_boosterfun": 1,
+          "wildcard": 1,
+          "foil": 1
+        },
+        "weight": 63,
+        "sheet_order": [
+          "foil_land",
+          "common",
+          "uncommon",
+          "rare_mythic_with_boosterfun",
+          "wildcard",
+          "foil"
+        ]
+      },
+      {
+        "sheets": {
+          "foil_land": 1,
+          "common": 6,
+          "special_guest": 1,
+          "uncommon": 3,
+          "rare_mythic_with_boosterfun": 1,
+          "wildcard": 1,
+          "foil": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "foil_land",
           "common",
           "special_guest",
           "uncommon",
@@ -12791,6 +12831,36 @@
           "spg:111": 1,
           "spg:112": 1,
           "spg:113": 1
+        }
+      },
+      "foil_land": {
+        "total_weight": 400,
+        "cards": {
+          "tdm:250:foil": 36,
+          "tdm:251:foil": 36,
+          "tdm:254:foil": 36,
+          "tdm:258:foil": 36,
+          "tdm:265:foil": 36,
+          "tdm:267:foil": 36,
+          "tdm:268:foil": 36,
+          "tdm:269:foil": 36,
+          "tdm:270:foil": 36,
+          "tdm:271:foil": 36,
+          "tdm:272:foil": 2,
+          "tdm:273:foil": 2,
+          "tdm:274:foil": 2,
+          "tdm:275:foil": 2,
+          "tdm:276:foil": 2,
+          "tdm:277:foil": 3,
+          "tdm:278:foil": 3,
+          "tdm:279:foil": 3,
+          "tdm:280:foil": 3,
+          "tdm:281:foil": 3,
+          "tdm:282:foil": 3,
+          "tdm:283:foil": 3,
+          "tdm:284:foil": 3,
+          "tdm:285:foil": 3,
+          "tdm:286:foil": 3
         }
       }
     },
