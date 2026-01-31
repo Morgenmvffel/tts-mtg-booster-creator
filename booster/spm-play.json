@@ -2,7 +2,12 @@
   "name": "Marvel's Spider-Man Play Booster",
   "code": "spm-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "spm",
   "set_name": "Marvel's Spider-Man",

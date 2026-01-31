@@ -1,5 +1,25 @@
 [
   {
+    "name": "Lorwyn Eclipsed Collector Booster",
+    "code": "ecl-collector"
+  },
+  {
+    "name": "Lorwyn Eclipsed Play Booster",
+    "code": "ecl-play"
+  },
+  {
+    "name": "Avatar: The Last Airbender Collector Booster",
+    "code": "tla-collector"
+  },
+  {
+    "name": "Avatar: The Last Airbender Play Booster",
+    "code": "tla-play"
+  },
+  {
+    "name": "Avatar: The Last Airbender Eternal Jumpstart Booster",
+    "code": "tle-jumpstart"
+  },
+  {
     "name": "Marvel's Spider-Man Collector Booster",
     "code": "spm-collector"
   },
@@ -42,6 +62,10 @@
   {
     "name": "Tarkir: Dragonstorm Play Booster",
     "code": "tdm-play"
+  },
+  {
+    "name": "Aetherdrift Box Topper",
+    "code": "dft-box-topper"
   },
   {
     "name": "Aetherdrift Collector Booster",
@@ -476,8 +500,12 @@
     "code": "bro-set"
   },
   {
-    "name": "Secret Lair 30th Anniversary Countdown Kit",
+    "name": "Secret Lair Countdown An Encyclopedia of Magic",
     "code": "slc"
+  },
+  {
+    "name": "Secret Lair Countdown 30th Anniversary Countdown Kit",
+    "code": "slc-encyclopedia"
   },
   {
     "name": "Unfinity Box Topper",
@@ -1106,6 +1134,10 @@
   {
     "name": "SLD Final Fantasy Elementals",
     "code": "sld-fin-elementals"
+  },
+  {
+    "name": "SLD Spider-Man bonus cards",
+    "code": "sld-spider-man"
   },
   {
     "name": "SLD Stained Glass Planeswalkers - Black",
@@ -2162,6 +2194,10 @@
   {
     "name": "The Dark",
     "code": "drk"
+  },
+  {
+    "name": "Summer Magic / Edgar",
+    "code": "sum"
   },
   {
     "name": "Legends",

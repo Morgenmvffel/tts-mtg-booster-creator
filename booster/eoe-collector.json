@@ -2,7 +2,12 @@
   "name": "Edge of Eternities Collector Booster",
   "code": "eoe-collector",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "eoe",
   "set_name": "Edge of Eternities",

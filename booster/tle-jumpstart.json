@@ -1,0 +1,2006 @@
+{
+  "name": "Avatar: The Last Airbender Eternal Jumpstart Booster",
+  "code": "tle-jumpstart",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "jp"
+  ],
+  "set_code": "tle",
+  "set_name": "Avatar: The Last Airbender Eternal",
+  "boosters": [
+    {
+      "sheets": {
+        "aang": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "aang"
+      ]
+    },
+    {
+      "sheets": {
+        "adaptive": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "adaptive"
+      ]
+    },
+    {
+      "sheets": {
+        "adept_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "adept_1"
+      ]
+    },
+    {
+      "sheets": {
+        "adept_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "adept_2"
+      ]
+    },
+    {
+      "sheets": {
+        "airbending": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "airbending"
+      ]
+    },
+    {
+      "sheets": {
+        "alliance_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "alliance_1"
+      ]
+    },
+    {
+      "sheets": {
+        "alliance_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "alliance_2"
+      ]
+    },
+    {
+      "sheets": {
+        "at_the_zoo": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "at_the_zoo"
+      ]
+    },
+    {
+      "sheets": {
+        "azula": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "azula"
+      ]
+    },
+    {
+      "sheets": {
+        "bad_advice": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bad_advice"
+      ]
+    },
+    {
+      "sheets": {
+        "bounty_hunter_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bounty_hunter_1"
+      ]
+    },
+    {
+      "sheets": {
+        "bounty_hunter_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bounty_hunter_2"
+      ]
+    },
+    {
+      "sheets": {
+        "bumi": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bumi"
+      ]
+    },
+    {
+      "sheets": {
+        "cabbages": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "cabbages"
+      ]
+    },
+    {
+      "sheets": {
+        "earthbending_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "earthbending_1"
+      ]
+    },
+    {
+      "sheets": {
+        "earthbending_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "earthbending_2"
+      ]
+    },
+    {
+      "sheets": {
+        "earth_kingdom_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "earth_kingdom_1"
+      ]
+    },
+    {
+      "sheets": {
+        "earth_kingdom_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "earth_kingdom_2"
+      ]
+    },
+    {
+      "sheets": {
+        "earth_rumble_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "earth_rumble_1"
+      ]
+    },
+    {
+      "sheets": {
+        "earth_rumble_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "earth_rumble_2"
+      ]
+    },
+    {
+      "sheets": {
+        "firebending_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "firebending_1"
+      ]
+    },
+    {
+      "sheets": {
+        "firebending_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "firebending_2"
+      ]
+    },
+    {
+      "sheets": {
+        "fire_nation": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "fire_nation"
+      ]
+    },
+    {
+      "sheets": {
+        "freedom_fighters": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "freedom_fighters"
+      ]
+    },
+    {
+      "sheets": {
+        "gliding_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "gliding_1"
+      ]
+    },
+    {
+      "sheets": {
+        "gliding_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "gliding_2"
+      ]
+    },
+    {
+      "sheets": {
+        "hei_bai_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "hei_bai_1"
+      ]
+    },
+    {
+      "sheets": {
+        "hei_bai_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "hei_bai_2"
+      ]
+    },
+    {
+      "sheets": {
+        "hunting_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "hunting_1"
+      ]
+    },
+    {
+      "sheets": {
+        "hunting_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "hunting_2"
+      ]
+    },
+    {
+      "sheets": {
+        "insurgent_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "insurgent_1"
+      ]
+    },
+    {
+      "sheets": {
+        "insurgent_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "insurgent_2"
+      ]
+    },
+    {
+      "sheets": {
+        "iroh": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "iroh"
+      ]
+    },
+    {
+      "sheets": {
+        "katara": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "katara"
+      ]
+    },
+    {
+      "sheets": {
+        "kyoshi": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "kyoshi"
+      ]
+    },
+    {
+      "sheets": {
+        "learning_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "learning_1"
+      ]
+    },
+    {
+      "sheets": {
+        "learning_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "learning_2"
+      ]
+    },
+    {
+      "sheets": {
+        "lessons_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "lessons_1"
+      ]
+    },
+    {
+      "sheets": {
+        "lessons_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "lessons_2"
+      ]
+    },
+    {
+      "sheets": {
+        "librarian": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "librarian"
+      ]
+    },
+    {
+      "sheets": {
+        "musicians": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "musicians"
+      ]
+    },
+    {
+      "sheets": {
+        "nightmares": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "nightmares"
+      ]
+    },
+    {
+      "sheets": {
+        "ozai": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "ozai"
+      ]
+    },
+    {
+      "sheets": {
+        "powerful_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "powerful_1"
+      ]
+    },
+    {
+      "sheets": {
+        "powerful_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "powerful_2"
+      ]
+    },
+    {
+      "sheets": {
+        "rebelling_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "rebelling_1"
+      ]
+    },
+    {
+      "sheets": {
+        "rebelling_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "rebelling_2"
+      ]
+    },
+    {
+      "sheets": {
+        "reinforced_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "reinforced_1"
+      ]
+    },
+    {
+      "sheets": {
+        "reinforced_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "reinforced_2"
+      ]
+    },
+    {
+      "sheets": {
+        "relentless_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "relentless_1"
+      ]
+    },
+    {
+      "sheets": {
+        "relentless_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "relentless_2"
+      ]
+    },
+    {
+      "sheets": {
+        "roku": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "roku"
+      ]
+    },
+    {
+      "sheets": {
+        "shrines": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "shrines"
+      ]
+    },
+    {
+      "sheets": {
+        "siege_engines": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "siege_engines"
+      ]
+    },
+    {
+      "sheets": {
+        "soaring_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "soaring_1"
+      ]
+    },
+    {
+      "sheets": {
+        "soaring_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "soaring_2"
+      ]
+    },
+    {
+      "sheets": {
+        "sparky_sparky_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "sparky_sparky_1"
+      ]
+    },
+    {
+      "sheets": {
+        "sparky_sparky_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "sparky_sparky_2"
+      ]
+    },
+    {
+      "sheets": {
+        "spirit": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "spirit"
+      ]
+    },
+    {
+      "sheets": {
+        "swordmaster": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "swordmaster"
+      ]
+    },
+    {
+      "sheets": {
+        "toph": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "toph"
+      ]
+    },
+    {
+      "sheets": {
+        "underwater": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "underwater"
+      ]
+    },
+    {
+      "sheets": {
+        "warriors": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "warriors"
+      ]
+    },
+    {
+      "sheets": {
+        "wise_1": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "wise_1"
+      ]
+    },
+    {
+      "sheets": {
+        "wise_2": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "wise_2"
+      ]
+    },
+    {
+      "sheets": {
+        "zuko": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "zuko"
+      ]
+    }
+  ],
+  "sheets": {
+    "aang": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:18": 1,
+        "tla:24": 1,
+        "tla:26": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:41": 1,
+        "tla:8": 1,
+        "tla:9": 1,
+        "tle:152": 1,
+        "tle:217": 1,
+        "tle:262": 1,
+        "tle:74": 1,
+        "tle:79": 1,
+        "tle:80": 1
+      }
+    },
+    "adaptive": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:21": 1,
+        "tla:257": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:46": 1,
+        "tla:53": 1,
+        "tla:59": 1,
+        "tla:68": 1,
+        "tla:74": 1,
+        "tla:80": 1,
+        "tle:159": 1,
+        "tle:224": 1,
+        "tle:263": 1,
+        "tle:90": 1,
+        "tle:95": 1
+      }
+    },
+    "adept_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:238": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:47": 1,
+        "tla:51": 1,
+        "tla:53": 1,
+        "tla:56": 1,
+        "tla:59": 1,
+        "tla:70": 1,
+        "tla:80": 1,
+        "tle:158": 1,
+        "tle:226": 1,
+        "tle:263": 1,
+        "tle:94": 1,
+        "tle:97": 1
+      }
+    },
+    "adept_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:238": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:52": 1,
+        "tla:56": 1,
+        "tla:59": 1,
+        "tla:62": 1,
+        "tla:63": 1,
+        "tla:66": 1,
+        "tla:70": 1,
+        "tla:74": 1,
+        "tla:80": 1,
+        "tle:157": 1,
+        "tle:263": 1,
+        "tle:94": 1
+      }
+    },
+    "airbending": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:21": 1,
+        "tla:24": 1,
+        "tla:25": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:32": 1,
+        "tla:4": 1,
+        "tla:6": 1,
+        "tla:7": 1,
+        "tla:8": 1,
+        "tla:9": 1,
+        "tle:262": 1,
+        "tle:80": 1,
+        "tle:81": 1
+      }
+    },
+    "alliance_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:19": 1,
+        "tla:21": 1,
+        "tla:229": 1,
+        "tla:241": 1,
+        "tla:243": 1,
+        "tla:26": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:35": 1,
+        "tle:216": 1,
+        "tle:256": 1,
+        "tle:262": 1,
+        "tle:76": 1,
+        "tle:84": 1
+      }
+    },
+    "alliance_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:19": 1,
+        "tla:21": 1,
+        "tla:241": 1,
+        "tla:243": 1,
+        "tla:26": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:33": 1,
+        "tla:35": 1,
+        "tle:151": 1,
+        "tle:256": 1,
+        "tle:262": 1,
+        "tle:76": 1,
+        "tle:77": 1,
+        "tle:78": 1
+      }
+    },
+    "at_the_zoo": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:171": 1,
+        "tla:187": 1,
+        "tla:188": 1,
+        "tla:189": 1,
+        "tla:194": 1,
+        "tla:200": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:128": 1,
+        "tle:131": 1,
+        "tle:138": 1,
+        "tle:250": 1,
+        "tle:251": 1,
+        "tle:255": 1,
+        "tle:261": 1
+      }
+    },
+    "azula": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:100": 1,
+        "tla:108": 1,
+        "tla:119": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:84": 1,
+        "tla:90": 1,
+        "tla:92": 1,
+        "tla:93": 1,
+        "tla:96": 1,
+        "tle:101": 1,
+        "tle:102": 1,
+        "tle:161": 1,
+        "tle:229": 1,
+        "tle:264": 1
+      }
+    },
+    "bad_advice": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:105": 1,
+        "tla:113": 1,
+        "tla:119": 1,
+        "tla:224": 1,
+        "tla:233": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:92": 1,
+        "tla:93": 1,
+        "tla:95": 1,
+        "tle:102": 1,
+        "tle:108": 1,
+        "tle:229": 1,
+        "tle:231": 1,
+        "tle:264": 1
+      }
+    },
+    "bounty_hunter_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:106": 1,
+        "tla:115": 1,
+        "tla:119": 1,
+        "tla:123": 1,
+        "tla:237": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:85": 1,
+        "tla:86": 1,
+        "tla:95": 1,
+        "tle:107": 1,
+        "tle:109": 1,
+        "tle:160": 1,
+        "tle:233": 1,
+        "tle:264": 1
+      }
+    },
+    "bounty_hunter_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:100": 1,
+        "tla:106": 1,
+        "tla:112": 1,
+        "tla:115": 1,
+        "tla:119": 1,
+        "tla:237": 1,
+        "tla:252": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:85": 1,
+        "tla:89": 1,
+        "tla:95": 1,
+        "tle:109": 1,
+        "tle:160": 1,
+        "tle:264": 1
+      }
+    },
+    "bumi": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:166": 1,
+        "tla:169": 1,
+        "tla:176": 1,
+        "tla:179": 1,
+        "tla:187": 1,
+        "tla:190": 1,
+        "tla:193": 1,
+        "tla:202": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:133": 1,
+        "tle:136": 1,
+        "tle:137": 1,
+        "tle:146": 1,
+        "tle:261": 1
+      }
+    },
+    "cabbages": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:180": 1,
+        "tla:185": 1,
+        "tla:193": 1,
+        "tla:194": 1,
+        "tla:201": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:129": 1,
+        "tle:132": 1,
+        "tle:133": 1,
+        "tle:134": 1,
+        "tle:138": 1,
+        "tle:169": 1,
+        "tle:252": 1,
+        "tle:261": 1
+      }
+    },
+    "earthbending_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:173": 1,
+        "tla:175": 1,
+        "tla:176": 1,
+        "tla:191": 1,
+        "tla:193": 1,
+        "tla:198": 1,
+        "tla:200": 1,
+        "tla:216": 1,
+        "tla:277": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:168": 1,
+        "tle:252": 1,
+        "tle:259": 1,
+        "tle:261": 1
+      }
+    },
+    "earthbending_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:166": 1,
+        "tla:173": 1,
+        "tla:176": 1,
+        "tla:191": 1,
+        "tla:193": 1,
+        "tla:198": 1,
+        "tla:216": 1,
+        "tla:277": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:142": 1,
+        "tle:143": 1,
+        "tle:251": 1,
+        "tle:259": 1,
+        "tle:261": 1
+      }
+    },
+    "earth_kingdom_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:164": 1,
+        "tla:180": 1,
+        "tla:182": 1,
+        "tla:198": 1,
+        "tla:216": 1,
+        "tla:243": 1,
+        "tla:257": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:149": 1,
+        "tle:167": 1,
+        "tle:252": 1,
+        "tle:253": 1,
+        "tle:256": 1,
+        "tle:261": 1
+      }
+    },
+    "earth_kingdom_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:164": 1,
+        "tla:173": 1,
+        "tla:181": 1,
+        "tla:182": 1,
+        "tla:187": 1,
+        "tla:198": 1,
+        "tla:202": 1,
+        "tla:216": 1,
+        "tla:243": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:167": 1,
+        "tle:252": 1,
+        "tle:256": 1,
+        "tle:261": 1
+      }
+    },
+    "earth_rumble_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:168": 1,
+        "tla:174": 1,
+        "tla:189": 1,
+        "tla:190": 1,
+        "tla:191": 1,
+        "tla:198": 1,
+        "tla:218": 1,
+        "tla:248": 1,
+        "tla:257": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:141": 1,
+        "tle:252": 1,
+        "tle:255": 1,
+        "tle:261": 1
+      }
+    },
+    "earth_rumble_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:164": 1,
+        "tla:168": 1,
+        "tla:172": 1,
+        "tla:187": 1,
+        "tla:190": 1,
+        "tla:218": 1,
+        "tla:248": 1,
+        "tla:257": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:132": 1,
+        "tle:141": 1,
+        "tle:251": 1,
+        "tle:255": 1,
+        "tle:261": 1
+      }
+    },
+    "firebending_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:130": 1,
+        "tla:134": 1,
+        "tla:136": 1,
+        "tla:137": 1,
+        "tla:138": 1,
+        "tla:142": 1,
+        "tla:146": 1,
+        "tla:163": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:124": 1,
+        "tle:235": 1,
+        "tle:242": 1,
+        "tle:243": 1,
+        "tle:260": 1
+      }
+    },
+    "firebending_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:128": 1,
+        "tla:130": 1,
+        "tla:133": 1,
+        "tla:134": 1,
+        "tla:138": 1,
+        "tla:142": 1,
+        "tla:152": 1,
+        "tla:161": 1,
+        "tla:163": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:122": 1,
+        "tle:124": 1,
+        "tle:242": 1,
+        "tle:260": 1
+      }
+    },
+    "fire_nation": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:130": 1,
+        "tla:133": 1,
+        "tla:138": 1,
+        "tla:139": 1,
+        "tla:140": 1,
+        "tla:146": 1,
+        "tla:147": 1,
+        "tla:158": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:120": 1,
+        "tle:126": 1,
+        "tle:150": 1,
+        "tle:166": 1,
+        "tle:260": 1
+      }
+    },
+    "freedom_fighters": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:25": 1,
+        "tla:250": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:32": 1,
+        "tle:147": 1,
+        "tle:151": 1,
+        "tle:154": 1,
+        "tle:262": 1,
+        "tle:76": 1,
+        "tle:77": 1,
+        "tle:78": 1,
+        "tle:82": 1,
+        "tle:88": 1
+      }
+    },
+    "gliding_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:22": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:29": 1,
+        "tla:31": 1,
+        "tla:32": 1,
+        "tla:4": 1,
+        "tla:43": 1,
+        "tla:8": 1,
+        "tla:9": 1,
+        "tle:262": 1,
+        "tle:75": 1,
+        "tle:79": 1,
+        "tle:80": 1,
+        "tle:88": 1
+      }
+    },
+    "gliding_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:21": 1,
+        "tla:22": 1,
+        "tla:25": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:29": 1,
+        "tla:31": 1,
+        "tla:4": 1,
+        "tla:41": 1,
+        "tla:43": 1,
+        "tla:9": 1,
+        "tle:262": 1,
+        "tle:75": 1,
+        "tle:77": 1,
+        "tle:86": 1
+      }
+    },
+    "hei_bai_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:225": 1,
+        "tla:237": 1,
+        "tla:24": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:32": 1,
+        "tla:34": 1,
+        "tla:37": 1,
+        "tla:40": 1,
+        "tle:146": 1,
+        "tle:151": 1,
+        "tle:262": 1,
+        "tle:80": 1,
+        "tle:87": 1
+      }
+    },
+    "hei_bai_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:14": 1,
+        "tla:15": 1,
+        "tla:225": 1,
+        "tla:237": 1,
+        "tla:25": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:32": 1,
+        "tla:37": 1,
+        "tle:146": 1,
+        "tle:212": 1,
+        "tle:262": 1,
+        "tle:84": 1,
+        "tle:87": 1
+      }
+    },
+    "hunting_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:101": 1,
+        "tla:106": 1,
+        "tla:116": 1,
+        "tla:234": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:86": 1,
+        "tla:95": 1,
+        "tla:96": 1,
+        "tle:103": 1,
+        "tle:148": 1,
+        "tle:162": 1,
+        "tle:228": 1,
+        "tle:233": 1,
+        "tle:264": 1
+      }
+    },
+    "hunting_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:101": 1,
+        "tla:106": 1,
+        "tla:116": 1,
+        "tla:120": 1,
+        "tla:234": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:84": 1,
+        "tla:86": 1,
+        "tla:95": 1,
+        "tle:110": 1,
+        "tle:148": 1,
+        "tle:162": 1,
+        "tle:231": 1,
+        "tle:264": 1
+      }
+    },
+    "insurgent_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:21": 1,
+        "tla:24": 1,
+        "tla:25": 1,
+        "tla:26": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:33": 1,
+        "tla:4": 1,
+        "tla:7": 1,
+        "tla:9": 1,
+        "tle:149": 1,
+        "tle:217": 1,
+        "tle:262": 1,
+        "tle:77": 1,
+        "tle:86": 1
+      }
+    },
+    "insurgent_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:21": 1,
+        "tla:23": 1,
+        "tla:241": 1,
+        "tla:26": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:9": 1,
+        "tle:149": 1,
+        "tle:153": 1,
+        "tle:216": 1,
+        "tle:217": 1,
+        "tle:262": 1,
+        "tle:77": 1,
+        "tle:87": 1
+      }
+    },
+    "iroh": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:124": 1,
+        "tla:131": 1,
+        "tla:138": 1,
+        "tla:141": 1,
+        "tla:142": 1,
+        "tla:148": 1,
+        "tla:155": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:119": 1,
+        "tle:150": 1,
+        "tle:163": 1,
+        "tle:164": 1,
+        "tle:165": 1,
+        "tle:260": 1
+      }
+    },
+    "katara": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:241": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:52": 1,
+        "tla:54": 1,
+        "tla:58": 1,
+        "tla:63": 1,
+        "tla:66": 1,
+        "tla:68": 1,
+        "tla:71": 1,
+        "tla:82": 1,
+        "tle:157": 1,
+        "tle:226": 1,
+        "tle:263": 1,
+        "tle:93": 1
+      }
+    },
+    "kyoshi": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:164": 1,
+        "tla:170": 1,
+        "tla:190": 1,
+        "tla:193": 1,
+        "tla:216": 1,
+        "tla:243": 1,
+        "tla:257": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:130": 1,
+        "tle:135": 1,
+        "tle:138": 1,
+        "tle:140": 1,
+        "tle:144": 1,
+        "tle:261": 1
+      }
+    },
+    "learning_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:187": 1,
+        "tla:191": 1,
+        "tla:193": 1,
+        "tla:194": 1,
+        "tla:196": 1,
+        "tla:197": 1,
+        "tla:202": 1,
+        "tla:223": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tla:3": 1,
+        "tle:135": 1,
+        "tle:137": 1,
+        "tle:146": 1,
+        "tle:261": 1
+      }
+    },
+    "learning_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:193": 1,
+        "tla:194": 1,
+        "tla:197": 1,
+        "tla:199": 1,
+        "tla:202": 1,
+        "tla:236": 1,
+        "tla:248": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tla:3": 1,
+        "tle:129": 1,
+        "tle:135": 1,
+        "tle:141": 1,
+        "tle:146": 1,
+        "tle:261": 1
+      }
+    },
+    "lessons_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:21": 1,
+        "tla:236": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:44": 1,
+        "tla:46": 1,
+        "tla:53": 1,
+        "tla:54": 1,
+        "tla:56": 1,
+        "tla:58": 1,
+        "tla:66": 1,
+        "tle:100": 1,
+        "tle:148": 1,
+        "tle:263": 1,
+        "tle:91": 1
+      }
+    },
+    "lessons_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:236": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:44": 1,
+        "tla:52": 1,
+        "tla:54": 1,
+        "tla:56": 1,
+        "tla:62": 1,
+        "tla:63": 1,
+        "tla:66": 1,
+        "tla:80": 1,
+        "tle:100": 1,
+        "tle:148": 1,
+        "tle:263": 1,
+        "tle:91": 1
+      }
+    },
+    "librarian": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:238": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:3": 1,
+        "tla:44": 1,
+        "tla:53": 1,
+        "tla:60": 1,
+        "tla:66": 1,
+        "tla:80": 1,
+        "tle:155": 1,
+        "tle:170": 1,
+        "tle:224": 1,
+        "tle:263": 1,
+        "tle:92": 1,
+        "tle:98": 1
+      }
+    },
+    "musicians": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:125": 1,
+        "tla:126": 1,
+        "tla:130": 1,
+        "tla:148": 1,
+        "tla:152": 1,
+        "tla:158": 1,
+        "tla:250": 1,
+        "tla:278": 1,
+        "tla:285": 5,
+        "tla:290": 1,
+        "tle:113": 1,
+        "tle:116": 1,
+        "tle:118": 1,
+        "tle:122": 1,
+        "tle:236": 1,
+        "tle:260": 1
+      }
+    },
+    "nightmares": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:105": 1,
+        "tla:107": 1,
+        "tla:115": 1,
+        "tla:118": 1,
+        "tla:123": 1,
+        "tla:225": 1,
+        "tla:237": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:85": 1,
+        "tla:90": 1,
+        "tla:95": 1,
+        "tle:103": 1,
+        "tle:233": 1,
+        "tle:264": 1
+      }
+    },
+    "ozai": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:100": 1,
+        "tla:103": 1,
+        "tla:113": 1,
+        "tla:252": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:86": 1,
+        "tla:89": 1,
+        "tla:90": 1,
+        "tla:92": 1,
+        "tla:95": 1,
+        "tle:104": 1,
+        "tle:111": 1,
+        "tle:229": 1,
+        "tle:264": 1
+      }
+    },
+    "powerful_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:131": 1,
+        "tla:135": 1,
+        "tla:138": 1,
+        "tla:141": 1,
+        "tla:148": 1,
+        "tla:152": 1,
+        "tla:155": 1,
+        "tla:157": 1,
+        "tla:218": 1,
+        "tla:248": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:115": 1,
+        "tle:164": 1,
+        "tle:260": 1
+      }
+    },
+    "powerful_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:127": 1,
+        "tla:135": 1,
+        "tla:138": 1,
+        "tla:140": 1,
+        "tla:148": 1,
+        "tla:155": 1,
+        "tla:248": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:115": 1,
+        "tle:118": 1,
+        "tle:164": 1,
+        "tle:241": 1,
+        "tle:255": 1,
+        "tle:260": 1
+      }
+    },
+    "rebelling_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:125": 1,
+        "tla:130": 1,
+        "tla:133": 1,
+        "tla:140": 1,
+        "tla:156": 1,
+        "tla:161": 1,
+        "tla:229": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:118": 1,
+        "tle:120": 1,
+        "tle:125": 1,
+        "tle:150": 1,
+        "tle:236": 1,
+        "tle:260": 1
+      }
+    },
+    "rebelling_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:131": 1,
+        "tla:140": 1,
+        "tla:156": 1,
+        "tla:229": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:118": 1,
+        "tle:120": 1,
+        "tle:123": 1,
+        "tle:125": 1,
+        "tle:147": 1,
+        "tle:150": 1,
+        "tle:236": 1,
+        "tle:258": 1,
+        "tle:260": 1
+      }
+    },
+    "reinforced_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:104": 1,
+        "tla:233": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:84": 1,
+        "tla:86": 1,
+        "tla:88": 1,
+        "tla:89": 1,
+        "tla:93": 1,
+        "tla:96": 1,
+        "tle:106": 1,
+        "tle:150": 1,
+        "tle:228": 1,
+        "tle:257": 1,
+        "tle:264": 1
+      }
+    },
+    "reinforced_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:103": 1,
+        "tla:104": 1,
+        "tla:219": 1,
+        "tla:233": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:88": 1,
+        "tla:93": 1,
+        "tla:95": 1,
+        "tla:97": 1,
+        "tle:106": 1,
+        "tle:150": 1,
+        "tle:228": 1,
+        "tle:231": 1,
+        "tle:264": 1
+      }
+    },
+    "relentless_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:103": 1,
+        "tla:110": 1,
+        "tla:115": 1,
+        "tla:119": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:84": 1,
+        "tla:85": 1,
+        "tla:88": 1,
+        "tla:90": 1,
+        "tle:105": 1,
+        "tle:110": 1,
+        "tle:229": 1,
+        "tle:233": 1,
+        "tle:264": 1
+      }
+    },
+    "relentless_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:103": 1,
+        "tla:105": 1,
+        "tla:110": 1,
+        "tla:252": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:84": 1,
+        "tla:85": 1,
+        "tla:86": 1,
+        "tla:89": 1,
+        "tla:90": 1,
+        "tla:95": 1,
+        "tle:105": 1,
+        "tle:229": 1,
+        "tle:264": 1
+      }
+    },
+    "roku": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:124": 1,
+        "tla:129": 1,
+        "tla:136": 1,
+        "tla:138": 1,
+        "tla:142": 1,
+        "tla:161": 1,
+        "tla:281": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:112": 1,
+        "tle:115": 1,
+        "tle:117": 1,
+        "tle:242": 1,
+        "tle:243": 1,
+        "tle:260": 1
+      }
+    },
+    "shrines": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:1": 1,
+        "tla:111": 1,
+        "tla:129": 1,
+        "tla:184": 1,
+        "tla:190": 1,
+        "tla:194": 1,
+        "tla:202": 1,
+        "tla:223": 1,
+        "tla:254": 1,
+        "tla:281": 1,
+        "tla:282": 1,
+        "tla:283": 1,
+        "tla:284": 1,
+        "tla:285": 1,
+        "tla:286": 1,
+        "tla:291": 1,
+        "tla:36": 1,
+        "tla:72": 1,
+        "tle:139": 1,
+        "tle:261": 1
+      }
+    },
+    "siege_engines": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:100": 1,
+        "tla:103": 1,
+        "tla:110": 1,
+        "tla:121": 1,
+        "tla:237": 1,
+        "tla:256": 1,
+        "tla:284": 6,
+        "tla:289": 1,
+        "tla:86": 1,
+        "tla:89": 1,
+        "tla:90": 1,
+        "tla:95": 1,
+        "tla:98": 1,
+        "tla:99": 1,
+        "tle:264": 1
+      }
+    },
+    "soaring_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:212": 1,
+        "tla:234": 1,
+        "tla:241": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:46": 1,
+        "tla:51": 1,
+        "tla:53": 1,
+        "tla:64": 1,
+        "tla:71": 1,
+        "tla:74": 1,
+        "tla:82": 1,
+        "tle:223": 1,
+        "tle:256": 1,
+        "tle:263": 1
+      }
+    },
+    "soaring_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:212": 1,
+        "tla:234": 1,
+        "tla:241": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:45": 1,
+        "tla:46": 1,
+        "tla:53": 1,
+        "tla:66": 1,
+        "tla:74": 1,
+        "tla:82": 1,
+        "tla:83": 1,
+        "tle:159": 1,
+        "tle:223": 1,
+        "tle:263": 1
+      }
+    },
+    "sparky_sparky_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:125": 1,
+        "tla:127": 1,
+        "tla:128": 1,
+        "tla:134": 1,
+        "tla:136": 1,
+        "tla:140": 1,
+        "tla:141": 1,
+        "tla:150": 1,
+        "tla:159": 1,
+        "tla:163": 1,
+        "tla:218": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:114": 1,
+        "tle:260": 1
+      }
+    },
+    "sparky_sparky_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:127": 1,
+        "tla:128": 1,
+        "tla:134": 1,
+        "tla:138": 1,
+        "tla:149": 1,
+        "tla:150": 1,
+        "tla:159": 1,
+        "tla:161": 1,
+        "tla:163": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:114": 1,
+        "tle:123": 1,
+        "tle:235": 1,
+        "tle:260": 1
+      }
+    },
+    "spirit": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:45": 1,
+        "tla:50": 1,
+        "tla:53": 1,
+        "tla:58": 1,
+        "tla:60": 1,
+        "tla:66": 1,
+        "tla:72": 1,
+        "tle:158": 1,
+        "tle:223": 1,
+        "tle:224": 1,
+        "tle:263": 1,
+        "tle:89": 1,
+        "tle:92": 1
+      }
+    },
+    "swordmaster": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:17": 1,
+        "tla:21": 1,
+        "tla:257": 1,
+        "tla:258": 1,
+        "tla:260": 1,
+        "tla:28": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:33": 1,
+        "tle:153": 1,
+        "tle:212": 1,
+        "tle:262": 1,
+        "tle:77": 1,
+        "tle:83": 1,
+        "tle:84": 1
+      }
+    },
+    "toph": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:166": 1,
+        "tla:173": 1,
+        "tla:187": 1,
+        "tla:191": 1,
+        "tla:193": 1,
+        "tla:194": 1,
+        "tla:216": 1,
+        "tla:286": 6,
+        "tla:291": 1,
+        "tle:140": 1,
+        "tle:142": 1,
+        "tle:143": 1,
+        "tle:145": 1,
+        "tle:251": 1,
+        "tle:261": 1
+      }
+    },
+    "underwater": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:281": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:53": 1,
+        "tla:55": 1,
+        "tla:57": 1,
+        "tla:66": 1,
+        "tla:68": 1,
+        "tla:70": 1,
+        "tle:156": 1,
+        "tle:223": 1,
+        "tle:226": 1,
+        "tle:263": 1,
+        "tle:96": 1,
+        "tle:97": 1
+      }
+    },
+    "warriors": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:24": 1,
+        "tla:241": 1,
+        "tla:257": 1,
+        "tla:26": 1,
+        "tla:282": 6,
+        "tla:287": 1,
+        "tla:31": 1,
+        "tla:32": 1,
+        "tla:38": 1,
+        "tle:154": 1,
+        "tle:216": 1,
+        "tle:262": 1,
+        "tle:84": 1,
+        "tle:85": 1,
+        "tle:88": 1
+      }
+    },
+    "wise_1": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:234": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:51": 1,
+        "tla:54": 1,
+        "tla:59": 1,
+        "tla:67": 1,
+        "tla:68": 1,
+        "tla:80": 1,
+        "tle:100": 1,
+        "tle:156": 1,
+        "tle:157": 1,
+        "tle:226": 1,
+        "tle:263": 1,
+        "tle:99": 1
+      }
+    },
+    "wise_2": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:234": 1,
+        "tla:241": 1,
+        "tla:283": 6,
+        "tla:288": 1,
+        "tla:58": 1,
+        "tla:60": 1,
+        "tla:67": 1,
+        "tla:68": 1,
+        "tla:71": 1,
+        "tla:75": 1,
+        "tle:100": 1,
+        "tle:157": 1,
+        "tle:226": 1,
+        "tle:263": 1,
+        "tle:90": 1
+      }
+    },
+    "zuko": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "tla:133": 1,
+        "tla:138": 1,
+        "tla:146": 1,
+        "tla:147": 1,
+        "tla:148": 1,
+        "tla:159": 1,
+        "tla:161": 1,
+        "tla:285": 6,
+        "tla:290": 1,
+        "tle:117": 1,
+        "tle:121": 1,
+        "tle:127": 1,
+        "tle:166": 1,
+        "tle:235": 1,
+        "tle:260": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "tla",
+    "tle"
+  ]
+}

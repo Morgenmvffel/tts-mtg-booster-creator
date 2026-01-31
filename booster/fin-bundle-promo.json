@@ -2,7 +2,12 @@
   "name": "Final Fantasy Bundle Promo Card",
   "code": "fin-bundle-promo",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "fin",
   "set_name": "Final Fantasy",
