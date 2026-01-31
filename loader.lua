@@ -6,6 +6,7 @@ SCRYFALL_MULTIVERSE_BASE_URL = "https://api.scryfall.com/cards/multiverse/"
 SCRYFALL_SET_NUM_BASE_URL = "https://api.scryfall.com/cards/"
 SCRYFALL_SEARCH_BASE_URL = "https://api.scryfall.com/cards/search/?q="
 SCRYFALL_NAME_BASE_URL = "https://api.scryfall.com/cards/named/?exact="
+SCRYFALL_COLLECTION_URL = "https://api.scryfall.com/cards/collection"
 
 PACK_ODDS_URL = "https://raw.githubusercontent.com/taw/magic-sealed-data/refs/heads/master/sealed_basic_data.json"
 BOOSTER_INDEX_URL =
@@ -30,6 +31,17 @@ DEFAULT_LANGUAGE = "en"
 -- Pack Amounts
 MAX_PACK_AMOUNT = 6
 MIN_PACK_AMOUNT = 1
+
+-- API Rate Limiting and Timeouts
+RATE_LIMIT_DELAY = 0.1  -- seconds between API requests (10 req/sec)
+MAX_RETRY_ATTEMPTS = 5
+RETRY_BACKOFF_BASE = 2  -- seconds for first retry (doubles each time)
+RETRY_BACKOFF_MAX = 10  -- maximum seconds to wait
+QUERY_TIMEOUT = 30      -- seconds before individual query times out
+FETCH_TIMEOUT = 60      -- seconds before batch fetch times out
+LOAD_TIMEOUT = 120      -- seconds before full load times out
+TOKEN_RETRY_DELAY = 2   -- seconds to wait before retrying token fetch
+COLLECTION_BATCH_SIZE = 75  -- Scryfall collection API limit
 
 LANGUAGES = {
     ["en"] = "en",
@@ -579,7 +591,7 @@ local function parseCardData(cardID, data)
     card.collectorNum = data.collector_number
 
     if data.layout == "transform" or data.layout == "art_series" or data.layout == "double_sided" or data.layout ==
-        "modal_dfc" or data.layout == "double_faced_token" then
+        "modal_dfc" or data.layout == "double_faced_token" or data.layout == "reversible_card" then
         for i, face in ipairs(data.card_faces) do
             card.faces[i] = {
                 imageURI = pickImageURI(face, data.highres_image, data.image_status),
@@ -627,11 +639,11 @@ local function handleCardResponse(cardID, data, onSuccess, onError)
                 
                 -- Handle 429 rate limit with retry
                 if errorMsg:match("429") then
-                    log("Rate limited (429) for token, retrying in 2 seconds...")
+                    log("Rate limited (429) for token, retrying in " .. TOKEN_RETRY_DELAY .. " seconds...")
                     Wait.time(function()
                         addToken(name, uri)
-                    end, 2)
-                    decSem()
+                    end, TOKEN_RETRY_DELAY)
+                    -- Don't decrement semaphore here - the retry will handle it
                     return
                 end
                 
@@ -702,7 +714,7 @@ local function handleCardResponse(cardID, data, onSuccess, onError)
         onSuccess(card, tokens)
     end, function()
         return (sem == 0)
-    end, 30, function()
+    end, QUERY_TIMEOUT, function()
         onError("Error loading card data... timed out.")
     end)
 end
@@ -715,7 +727,15 @@ end
 local function queryCard(cardID, forceStandardLanguage, onSuccess, onError, retryCount)
     retryCount = retryCount or 0
     
-    if retryCount > 5 then
+    -- Validate input
+    if not cardID or not cardID.setCode or not cardID.collectorNum then
+        local errMsg = "Invalid cardID: missing setCode or collectorNum"
+        log(errMsg)
+        onError(errMsg)
+        return
+    end
+    
+    if retryCount > MAX_RETRY_ATTEMPTS then
         log("Max retries exceeded for card: " .. cardID.setCode .. ":" .. cardID.collectorNum)
         onError("Max retries exceeded")
         return
@@ -725,11 +745,16 @@ local function queryCard(cardID, forceStandardLanguage, onSuccess, onError, retr
 
     local language_code = getLanguageCode()
 
-    if forceStandardLanguage and cardID.setCode and string.len(cardID.setCode) > 0 and cardID.collectorNum and string.len(cardID.collectorNum) > 0 then
+    if forceStandardLanguage and string.len(cardID.setCode) > 0 and string.len(cardID.collectorNum) > 0 then
         query_url = SCRYFALL_SET_NUM_BASE_URL .. string.lower(cardID.setCode) .. "/" .. cardID.collectorNum
-    elseif cardID.setCode and string.len(cardID.setCode) > 0 and cardID.collectorNum and string.len(cardID.collectorNum) > 0 then
+    elseif string.len(cardID.setCode) > 0 and string.len(cardID.collectorNum) > 0 then
         query_url = SCRYFALL_SET_NUM_BASE_URL ..
         string.lower(cardID.setCode) .. "/" .. cardID.collectorNum .. "/" .. language_code
+    else
+        local errMsg = "Empty setCode or collectorNum for card"
+        log(errMsg)
+        onError(errMsg)
+        return
     end
 
     log("queryCard: " .. query_url)
@@ -739,25 +764,25 @@ local function queryCard(cardID, forceStandardLanguage, onSuccess, onError, retr
         ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
     }
 
-    webRequest = WebRequest.custom(query_url, "GET", true, "", headers, function(webReturn)
+    local webRequest = WebRequest.custom(query_url, "GET", true, "", headers, function(webReturn)
         if webReturn.is_error or webReturn.error then
             local errorMsg = webReturn.error or "unknown error"
             
             -- Handle 429 rate limit with exponential backoff
             if errorMsg:match("429") then
-                local backoffTime = math.min(2 * (2 ^ retryCount), 10)  -- 2s, 4s, 8s, max 10s
-                log("Rate limited (429) for " .. query_url .. ", retry #" .. (retryCount + 1) .. " in " .. backoffTime .. " seconds...")
+                local backoffTime = math.min(RETRY_BACKOFF_BASE * (2 ^ retryCount), RETRY_BACKOFF_MAX)
+                log(string.format("[RATE-LIMIT] 429 for %s:%s - retry #%d in %.1fs", cardID.setCode, cardID.collectorNum, retryCount + 1, backoffTime))
                 Wait.time(function()
                     queryCard(cardID, forceStandardLanguage, onSuccess, onError, retryCount + 1)
                 end, backoffTime)
                 return
             end
             
-            log("WebRequest error for " .. query_url .. ": " .. errorMsg)
+            log(string.format("[ERROR] WebRequest failed for %s:%s - %s", cardID.setCode, cardID.collectorNum, errorMsg))
             onError("Web request error: " .. errorMsg)
             return
         elseif string.len(webReturn.text) == 0 then
-            log("Empty response for " .. query_url)
+            log(string.format("[ERROR] Empty response for %s:%s", cardID.setCode, cardID.collectorNum))
             onError("empty response")
             return
         end
@@ -789,10 +814,117 @@ local function queryCard(cardID, forceStandardLanguage, onSuccess, onError, retr
     end)
 end
 
--- Queries card data for all cards.
--- TODO use the bulk api (blocked by JSON decode issue)
+-- Queries multiple cards using Scryfall's Collection API (bulk endpoint)
+-- Much faster than individual queries - batches up to 75 cards per request
+local function queryCardCollection(cardIDs, onSuccess, onError, retryCount)
+    retryCount = retryCount or 0
+    
+    if retryCount > MAX_RETRY_ATTEMPTS then
+        log("[ERROR] Max retries exceeded for collection query")
+        onError("Max retries exceeded")
+        return
+    end
+    
+    -- Build the identifiers array for the collection API
+    local identifiers = {}
+    for _, cardID in ipairs(cardIDs) do
+        table.insert(identifiers, {
+            set = string.lower(cardID.setCode),
+            collector_number = cardID.collectorNum
+        })
+    end
+    
+    -- Create the request body
+    local requestBody = jsonencode({
+        identifiers = identifiers
+    })
+    
+    log(string.format("queryCardCollection: Fetching %d cards in bulk", #cardIDs))
+    
+    local headers = {
+        ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+        ["Accept"] = "application/json;q=0.9,*/*;q=0.8",
+        ["Content-Type"] = "application/json"
+    }
+    
+    local webRequest = WebRequest.custom(SCRYFALL_COLLECTION_URL, "POST", true, requestBody, headers, function(webReturn)
+        if webReturn.is_error or webReturn.error then
+            local errorMsg = webReturn.error or "unknown error"
+            
+            -- Handle 429 rate limit with exponential backoff
+            if errorMsg:match("429") then
+                local backoffTime = math.min(RETRY_BACKOFF_BASE * (2 ^ retryCount), RETRY_BACKOFF_MAX)
+                log(string.format("[RATE-LIMIT] 429 for collection query - retry #%d in %.1fs", retryCount + 1, backoffTime))
+                Wait.time(function()
+                    queryCardCollection(cardIDs, onSuccess, onError, retryCount + 1)
+                end, backoffTime)
+                return
+            end
+            
+            log("[ERROR] Collection API request failed: " .. errorMsg)
+            onError("Collection API error: " .. errorMsg)
+            return
+        elseif string.len(webReturn.text) == 0 then
+            log("[ERROR] Empty response from collection API")
+            onError("empty response")
+            return
+        end
+        
+        local success, data = pcall(function() return jsondecode(webReturn.text) end)
+        
+        if not success then
+            onError("failed to parse JSON response")
+            return
+        elseif not data then
+            onError("empty JSON response")
+            return
+        elseif data.object == "error" then
+            onError("Collection API returned error: " .. (data.details or "unknown"))
+            return
+        end
+        
+        -- Process all returned cards
+        if not data.data or #data.data == 0 then
+            log("[WARNING] Collection API returned no cards")
+            onSuccess({})
+            return
+        end
+        
+        -- Create a map of cards by set:collector_number for quick lookup
+        local cardMap = {}
+        for _, cardData in ipairs(data.data) do
+            local key = string.lower(cardData.set) .. ":" .. cardData.collector_number
+            cardMap[key] = cardData
+        end
+        
+        -- Match returned cards to our cardIDs in order, handling missing cards
+        local results = {}
+        for _, cardID in ipairs(cardIDs) do
+            local key = string.lower(cardID.setCode) .. ":" .. cardID.collectorNum
+            local cardData = cardMap[key]
+            
+            if cardData then
+                table.insert(results, {
+                    cardID = cardID,
+                    data = cardData
+                })
+            else
+                log(string.format("[WARNING] Card not found in collection response: %s:%s", cardID.setCode, cardID.collectorNum))
+                -- We'll need to query this one individually later
+                table.insert(results, {
+                    cardID = cardID,
+                    data = nil
+                })
+            end
+        end
+        
+        onSuccess(results)
+    end)
+end
+
+-- Queries card data for all cards using bulk Collection API
 local function fetchCardData(cards, onComplete, onError)
-    log("fetchCardData: Starting fetch for " .. #cards .. " cards")
+    log("fetchCardData: Starting bulk fetch for " .. #cards .. " cards")
     local sem = 0
     local function incSem() sem = sem + 1 end
     local function decSem() sem = sem - 1 end
@@ -800,81 +932,98 @@ local function fetchCardData(cards, onComplete, onError)
     local cardData = {}
     local tokensData = {}
 
-    local function onQuerySuccess(card, tokens)
-        table.insert(cardData, card)
-        for _, token in ipairs(tokens) do
-            table.insert(tokensData, token)
-        end
-        decSem()
-    end
-
-    local function onQueryFailed(e)
-        log("Error querying scryfall: " .. e)
-        decSem()
-    end
-
-    local language = getLanguageCode()
-
     local function cleanCollectorNum(collectorNum)
         return string.match(collectorNum, "%d+")
     end
 
-    -- Rate limiting: Add delay between requests (100ms = 10 requests/second)
-    local requestDelay = 0
-    for _, cardID in ipairs(cards) do
-        incSem()  -- Increment semaphore BEFORE scheduling the delayed request
+    -- Split cards into batches of COLLECTION_BATCH_SIZE (75)
+    local batches = {}
+    for i = 1, #cards, COLLECTION_BATCH_SIZE do
+        local batch = {}
+        for j = i, math.min(i + COLLECTION_BATCH_SIZE - 1, #cards) do
+            table.insert(batch, cards[j])
+        end
+        table.insert(batches, batch)
+    end
+
+    log(string.format("fetchCardData: Split into %d batches", #batches))
+
+    -- Process each batch with a slight delay
+    local batchDelay = 0
+    for batchIndex, batch in ipairs(batches) do
+        incSem()
         Wait.time(function()
-            -- Add timeout protection for individual queries (30 seconds per card)
-            local queryTimedOut = false
-            local queryCompleted = false
-            
-            Wait.time(function()
-                if not queryCompleted then
-                    queryTimedOut = true
-                    log("Query timeout for card: " .. cardID.setCode .. ":" .. cardID.collectorNum)
-                    decSem()
-                end
-            end, 30)
-            
-            local function safeOnSuccess(card, tokens)
-                if not queryTimedOut then
-                    queryCompleted = true
-                    onQuerySuccess(card, tokens)
-                end
-            end
-            
-            local function safeOnError(e)
-                if not queryTimedOut then
-                    queryCompleted = true
-                    onQueryFailed(e)
-                end
-            end
-            
-            queryCard(
-                cardID,
-                false,
-                safeOnSuccess,
-                function(e) -- onError
-                    -- try again, with collecter num cleaned.
-                    log("query retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
-                    cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
-                    queryCard(
-                        cardID,
-                        false,
-                        safeOnSuccess,
-                        function(e)
-                            log("language retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
-                            cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
-                            queryCard(
-                                cardID,
-                                true,
-                                safeOnSuccess,
-                                safeOnError
-                            )
+            queryCardCollection(batch, function(results)
+                -- Process results and handle cards that need individual queries
+                local cardsNeedingRetry = {}
+                
+                for _, result in ipairs(results) do
+                    if result.data then
+                        -- Card found, process it
+                        incSem()
+                        handleCardResponse(result.cardID, result.data, function(card, tokens)
+                            table.insert(cardData, card)
+                            for _, token in ipairs(tokens) do
+                                table.insert(tokensData, token)
+                            end
+                            decSem()
+                        end, function(e)
+                            log("[ERROR] Failed to process card from collection: " .. e)
+                            decSem()
                         end)
-                end)
-        end, requestDelay)
-        requestDelay = requestDelay + 0.1  -- 100ms delay between requests
+                    else
+                        -- Card not found in collection, need individual query
+                        table.insert(cardsNeedingRetry, result.cardID)
+                    end
+                end
+
+                -- Query missing cards individually
+                for _, cardID in ipairs(cardsNeedingRetry) do
+                    incSem()
+                    
+                    local function safeOnSuccess(card, tokens)
+                        table.insert(cardData, card)
+                        for _, token in ipairs(tokens) do
+                            table.insert(tokensData, token)
+                        end
+                        decSem()
+                    end
+                    
+                    local function safeOnError(e)
+                        log("[ERROR] Individual query failed: " .. e)
+                        decSem()
+                    end
+                    
+                    -- Try with original collector number first (preserves 'a' suffix for DFCs)
+                    log(string.format("[RETRY] Individual query for missing card: %s:%s", cardID.setCode, cardID.collectorNum))
+                    
+                    queryCard(cardID, false, safeOnSuccess, function(e)
+                        -- Try again with cleaned collector number
+                        log(string.format("[RETRY] Cleaning collector number for %s:%s", cardID.setCode, cardID.collectorNum))
+                        local cleanedCardID = {
+                            setCode = cardID.setCode,
+                            collectorNum = cleanCollectorNum(cardID.collectorNum),
+                            foil = cardID.foil,
+                            packIndex = cardID.packIndex,
+                            sheetName = cardID.sheetName,
+                            packName = cardID.packName
+                        }
+                        
+                        queryCard(cleanedCardID, false, safeOnSuccess, function(e)
+                            -- Final fallback: standard language
+                            log(string.format("[RETRY] Falling back to standard language for %s:%s", cleanedCardID.setCode, cleanedCardID.collectorNum))
+                            queryCard(cleanedCardID, true, safeOnSuccess, safeOnError)
+                        end)
+                    end)
+                end
+
+                decSem()
+            end, function(e)
+                log("[ERROR] Batch collection query failed: " .. e)
+                decSem()
+            end)
+        end, batchDelay)
+        batchDelay = batchDelay + RATE_LIMIT_DELAY
     end
 
     Wait.condition(
@@ -883,7 +1032,7 @@ local function fetchCardData(cards, onComplete, onError)
             onComplete(cardData, tokensData)
         end,
         function() return (sem == 0) end,
-        60,  -- Increased timeout for rate limiting
+        FETCH_TIMEOUT,
         function()
             log("fetchCardData: TIMEOUT - sem = " .. sem .. ", fetched " .. #cardData .. " of " .. #cards .. " cards")
             onError("Error loading card images... timed out.")
@@ -912,9 +1061,19 @@ local function loadDeck(packs, deckName, onComplete, onError)
     
     local function processNextPack()
         if currentPackIndex > #packs then
-            -- All packs processed, spawn tokens
-            log("loadDeck: All packs processed. Spawning " .. #allTokens .. " tokens")
-            spawnDeck(allTokens, deckName .. " - tokens", tokensPosition, 90, false, function()
+            -- All packs processed, deduplicate and spawn tokens
+            local uniqueTokens = {}
+            local tokenKeys = {}
+            for _, token in ipairs(allTokens) do
+                local key = token.scryfallID or token.oracleID or token.name
+                if not tokenKeys[key] then
+                    tokenKeys[key] = true
+                    table.insert(uniqueTokens, token)
+                end
+            end
+            
+            log("loadDeck: All packs processed. Spawning " .. #uniqueTokens .. " unique tokens (deduplicated from " .. #allTokens .. " total)")
+            spawnDeck(uniqueTokens, deckName .. " - tokens", tokensPosition, 90, false, function()
                 log("loadDeck: Tokens spawned successfully")
                 onComplete()
             end
@@ -986,7 +1145,7 @@ local function loadDeck(packs, deckName, onComplete, onError)
         end
     end, function()
         return sem == 0 and currentPackIndex > #packs
-    end, 120, function()
+    end, LOAD_TIMEOUT, function()
         log("loadDeck: TIMEOUT - sem = " .. sem .. ", processed " .. (currentPackIndex - 1) .. " of " .. #packs .. " packs")
         onError("Error spawning deck objects... timed out.")
     end)
@@ -1042,33 +1201,37 @@ local function drawCardsFromSheet(sheetData, count)
         return selected
     end
 
-    -- Regular random weighted draw
-    local cardList = {}
-    for id, weight in pairs(sheetData.cards) do
-        table.insert(cardList, {
-            id = id,
-            weight = weight
-        })
+    -- Cache the card list structure on the sheet data to avoid rebuilding
+    if not sheetData._cardListCache then
+        sheetData._cardListCache = {}
+        for id, weight in pairs(sheetData.cards) do
+            table.insert(sheetData._cardListCache, {
+                id = id,
+                weight = weight
+            })
+        end
     end
 
     local allowDuplicates = sheetData.allow_duplicates == true
-    local drawnSet = {} -- tracks which cards we've already drawn
-    local availableCards = cardList -- initially all cards available
 
-    for _ = 1, count do
-        local pick
-
-        if allowDuplicates then
-            -- Simple case: just pick randomly with replacement
-            pick = pickCard(availableCards)
-        else
-            -- No duplicates: pick from remaining cards
+    if allowDuplicates then
+        -- Simple case: just pick randomly with replacement
+        for _ = 1, count do
+            local pick = pickCard(sheetData._cardListCache)
+            table.insert(selected, pick)
+        end
+    else
+        -- No duplicates: pick from remaining cards
+        local drawnSet = {}
+        local availableCards = sheetData._cardListCache
+        
+        for _ = 1, count do
             if #availableCards == 0 then
                 -- Shouldn't happen, but fallback to allowing duplicates
-                availableCards = cardList
+                availableCards = sheetData._cardListCache
             end
 
-            pick = pickCard(availableCards)
+            local pick = pickCard(availableCards)
             
             if not drawnSet[pick] then
                 drawnSet[pick] = true
@@ -1082,9 +1245,9 @@ local function drawCardsFromSheet(sheetData, count)
                 end
                 availableCards = newAvailable
             end
+            
+            table.insert(selected, pick)
         end
-
-        table.insert(selected, pick)
     end
 
     return selected
