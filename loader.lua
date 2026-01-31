@@ -335,6 +335,7 @@ local function sortCardsBySheetOrder(cards, sheetOrder)
 end
 
 local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, onFullySpawned, onError)
+    log("spawnBagWithCards: Creating bag '" .. bagName .. "' with " .. #cards .. " cards")
     -- Sort cards alphabetically by sheetName (fallback to name if missing)
     -- log(sheetOrder)
     sortCardsBySheetOrder(cards, sheetOrder)
@@ -458,8 +459,10 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
     })
 
     if bagObj then
+        log("spawnBagWithCards: Successfully spawned bag '" .. bagName .. "'")
         onFullySpawned(bagObj)
     else
+        log("spawnBagWithCards: FAILED to spawn bag '" .. bagName .. "'")
         if onError then
             onError("Failed to spawn custom bag")
         end
@@ -490,6 +493,7 @@ local function pickImageURI(cardData, highres_image, image_status)
         image_status = cardData.image_status
     end
 
+    local uri
     if pngGraphics and cardData.image_uris.png then
         uri = stripScryfallImageURI(cardData.image_uris.png)
     else
@@ -612,9 +616,26 @@ local function handleCardResponse(cardID, data, onSuccess, onError)
     local function addToken(name, uri)
         incSem()
 
-        WebRequest.get(uri, function(webReturn)
+        local headers = {
+            ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+            ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
+        }
+
+        WebRequest.custom(uri, "GET", true, "", headers, function(webReturn)
             if webReturn.is_error or webReturn.error or string.len(webReturn.text) == 0 then
-                log("Error fetching token: " .. webReturn.error or "unknown")
+                local errorMsg = webReturn.error or "unknown"
+                
+                -- Handle 429 rate limit with retry
+                if errorMsg:match("429") then
+                    log("Rate limited (429) for token, retrying in 2 seconds...")
+                    Wait.time(function()
+                        addToken(name, uri)
+                    end, 2)
+                    decSem()
+                    return
+                end
+                
+                log("Error fetching token: " .. errorMsg)
                 decSem()
                 return
             end
@@ -691,7 +712,15 @@ end
 -- if forceNameQuery is true, will query scryfall by card name ignoring other data.
 -- if forceSetNumLangQuery is true, will query scryfall by set/num/lang ignoring other data.
 -- onSuccess is called with a populated card table, and a table of associated tokens.
-local function queryCard(cardID, forceStandardLanguage, onSuccess, onError)
+local function queryCard(cardID, forceStandardLanguage, onSuccess, onError, retryCount)
+    retryCount = retryCount or 0
+    
+    if retryCount > 5 then
+        log("Max retries exceeded for card: " .. cardID.setCode .. ":" .. cardID.collectorNum)
+        onError("Max retries exceeded")
+        return
+    end
+    
     local query_url
 
     local language_code = getLanguageCode()
@@ -703,13 +732,32 @@ local function queryCard(cardID, forceStandardLanguage, onSuccess, onError)
         string.lower(cardID.setCode) .. "/" .. cardID.collectorNum .. "/" .. language_code
     end
 
-    -- log(query_url)
+    log("queryCard: " .. query_url)
 
-    webRequest = WebRequest.get(query_url, function(webReturn)
+    local headers = {
+        ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+        ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
+    }
+
+    webRequest = WebRequest.custom(query_url, "GET", true, "", headers, function(webReturn)
         if webReturn.is_error or webReturn.error then
-            onError("Web request error: " .. webReturn.error or "unknown")
+            local errorMsg = webReturn.error or "unknown error"
+            
+            -- Handle 429 rate limit with exponential backoff
+            if errorMsg:match("429") then
+                local backoffTime = math.min(2 * (2 ^ retryCount), 10)  -- 2s, 4s, 8s, max 10s
+                log("Rate limited (429) for " .. query_url .. ", retry #" .. (retryCount + 1) .. " in " .. backoffTime .. " seconds...")
+                Wait.time(function()
+                    queryCard(cardID, forceStandardLanguage, onSuccess, onError, retryCount + 1)
+                end, backoffTime)
+                return
+            end
+            
+            log("WebRequest error for " .. query_url .. ": " .. errorMsg)
+            onError("Web request error: " .. errorMsg)
             return
         elseif string.len(webReturn.text) == 0 then
+            log("Empty response for " .. query_url)
             onError("empty response")
             return
         end
@@ -744,6 +792,7 @@ end
 -- Queries card data for all cards.
 -- TODO use the bulk api (blocked by JSON decode issue)
 local function fetchCardData(cards, onComplete, onError)
+    log("fetchCardData: Starting fetch for " .. #cards .. " cards")
     local sem = 0
     local function incSem() sem = sem + 1 end
     local function decSem() sem = sem - 1 end
@@ -770,40 +819,75 @@ local function fetchCardData(cards, onComplete, onError)
         return string.match(collectorNum, "%d+")
     end
 
+    -- Rate limiting: Add delay between requests (100ms = 10 requests/second)
+    local requestDelay = 0
     for _, cardID in ipairs(cards) do
-        incSem()
-        queryCard(
-            cardID,
-            false,
-            function(card, tokens)  -- onSuccess
-                onQuerySuccess(card, tokens)
-            end,
-            function(e) -- onError
-                -- try again, with collecter num cleaned.
-                log("query retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
-                cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
-                queryCard(
-                    cardID,
-                    false,
-                    onQuerySuccess,
-                    function(e)
-                        log("language retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
-                        cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
-                        queryCard(
-                            cardID,
-                            true,
-                            onQuerySuccess,
-                            onQueryFailed
-                        )
-                    end)
-            end)
+        incSem()  -- Increment semaphore BEFORE scheduling the delayed request
+        Wait.time(function()
+            -- Add timeout protection for individual queries (30 seconds per card)
+            local queryTimedOut = false
+            local queryCompleted = false
+            
+            Wait.time(function()
+                if not queryCompleted then
+                    queryTimedOut = true
+                    log("Query timeout for card: " .. cardID.setCode .. ":" .. cardID.collectorNum)
+                    decSem()
+                end
+            end, 30)
+            
+            local function safeOnSuccess(card, tokens)
+                if not queryTimedOut then
+                    queryCompleted = true
+                    onQuerySuccess(card, tokens)
+                end
+            end
+            
+            local function safeOnError(e)
+                if not queryTimedOut then
+                    queryCompleted = true
+                    onQueryFailed(e)
+                end
+            end
+            
+            queryCard(
+                cardID,
+                false,
+                safeOnSuccess,
+                function(e) -- onError
+                    -- try again, with collecter num cleaned.
+                    log("query retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
+                    cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
+                    queryCard(
+                        cardID,
+                        false,
+                        safeOnSuccess,
+                        function(e)
+                            log("language retry for cardid:" .. cardID.setCode .. ":" .. cardID.collectorNum)
+                            cardID.collectorNum = cleanCollectorNum(cardID.collectorNum)
+                            queryCard(
+                                cardID,
+                                true,
+                                safeOnSuccess,
+                                safeOnError
+                            )
+                        end)
+                end)
+        end, requestDelay)
+        requestDelay = requestDelay + 0.1  -- 100ms delay between requests
     end
 
     Wait.condition(
-        function() onComplete(cardData, tokensData) end,
+        function()
+            log("fetchCardData: Complete. Fetched " .. #cardData .. " cards and " .. #tokensData .. " tokens")
+            onComplete(cardData, tokensData)
+        end,
         function() return (sem == 0) end,
-        30,
-        function() onError("Error loading card images... timed out.") end
+        60,  -- Increased timeout for rate limiting
+        function()
+            log("fetchCardData: TIMEOUT - sem = " .. sem .. ", fetched " .. #cardData .. " of " .. #cards .. " cards")
+            onError("Error loading card images... timed out.")
+        end
     )
 end
 
@@ -812,16 +896,42 @@ local function loadDeck(packs, deckName, onComplete, onError)
     local tokensPosition = self.positionToWorld(TOKENS_POSITION_OFFSET)
 
     printInfo("Querying Scryfall for card data...")
+    log("loadDeck: Processing " .. #packs .. " packs")
 
     local sem = #packs -- Semaphore for packs
-    local function decSem() sem = sem - 1 end
+    local function decSem()
+        sem = sem - 1
+        log("loadDeck: Pack complete. Remaining: " .. sem)
+    end
 
     -- Table to collect all tokens
     local allTokens = {}
 
-    -- Loop through each pack and call fetchCardData for each pack's card IDs
-    for packIndex, pack in ipairs(packs) do
-        local cardIDsForPack = pack.cards -- Get card IDs for this pack
+    -- Process packs sequentially to avoid overwhelming Scryfall API
+    local currentPackIndex = 1
+    
+    local function processNextPack()
+        if currentPackIndex > #packs then
+            -- All packs processed, spawn tokens
+            log("loadDeck: All packs processed. Spawning " .. #allTokens .. " tokens")
+            spawnDeck(allTokens, deckName .. " - tokens", tokensPosition, 90, false, function()
+                log("loadDeck: Tokens spawned successfully")
+                onComplete()
+            end
+            , function(e)
+                log("loadDeck: Token spawn error: " .. tostring(e))
+                printErr(e)
+                onComplete()
+            end)
+            return
+        end
+        
+        local packIndex = currentPackIndex
+        local pack = packs[packIndex]
+        local cardIDsForPack = pack.cards
+        log("loadDeck: Starting pack " .. packIndex .. " with " .. #cardIDsForPack .. " cards")
+        
+        currentPackIndex = currentPackIndex + 1
 
         fetchCardData(cardIDsForPack, function(cards, tokens)
             -- After fetching the data for this pack, we can spawn the cards for this pack
@@ -835,11 +945,19 @@ local function loadDeck(packs, deckName, onComplete, onError)
             local offset = self.positionToWorld(relativeOffset)
 
             -- Spawn cards for this pack
+            log("loadDeck: Spawning bag for pack " .. packIndex .. " with " .. #cards .. " cards")
             spawnBagWithCards(cards, deckName .. " - Pack " .. packIndex, offset, false, pack.sheetOrder, function()
+                log("loadDeck: Bag spawned successfully for pack " .. packIndex)
                 decSem()
+                
+                -- Process next pack after this one completes
+                processNextPack()
             end, function(e)
                 printErr(e)
                 decSem()
+                
+                -- Process next pack even on error
+                processNextPack()
             end)
 
             -- Collect all tokens for later spawning
@@ -850,23 +968,26 @@ local function loadDeck(packs, deckName, onComplete, onError)
             -- Error callback for fetchCardData
             printErr("Failed to fetch card data for pack " .. packIndex .. ": " .. tostring(e))
             decSem()
+            
+            -- Process next pack even on error
+            processNextPack()
         end)
     end
+    
+    -- Start processing first pack
+    processNextPack()
 
     -- Spawn all tokens at once after all packs are processed
+    -- (This Wait.condition is now just a safety net since processNextPack handles completion)
     Wait.condition(function()
-        -- Spawn the collected tokens only after all async fetch and card spawning are complete
-        spawnDeck(allTokens, deckName .. " - tokens", tokensPosition, 90, false, function()
-            decSem()
+        -- This should not normally be reached, but included as safety
+        if sem == 0 and currentPackIndex > #packs then
+            log("loadDeck: Safety check - ensuring completion")
         end
-        , function(e)
-            printErr(e)
-            decSem()
-        end)
-        onComplete()
     end, function()
-        return sem == 0 -- Wait for all packs to be processed
-    end, 10, function()
+        return sem == 0 and currentPackIndex > #packs
+    end, 120, function()
+        log("loadDeck: TIMEOUT - sem = " .. sem .. ", processed " .. (currentPackIndex - 1) .. " of " .. #packs .. " packs")
         onError("Error spawning deck objects... timed out.")
     end)
 end
@@ -882,7 +1003,7 @@ local function pickWeighted(options)
     local cumulative = 0
     for _, option in ipairs(options) do
         cumulative = cumulative + option.weight
-        if roll <= cumulative then
+        if roll < cumulative then
             return option
         end
     end
@@ -900,7 +1021,7 @@ local function pickCard(cardList)
     local cumulative = 0
     for _, entry in ipairs(cardList) do
         cumulative = cumulative + entry.weight
-        if r <= cumulative then
+        if r < cumulative then
             return entry.id
         end
     end
@@ -932,18 +1053,35 @@ local function drawCardsFromSheet(sheetData, count)
 
     local allowDuplicates = sheetData.allow_duplicates == true
     local drawnSet = {} -- tracks which cards we've already drawn
+    local availableCards = cardList -- initially all cards available
 
     for _ = 1, count do
         local pick
-        local attempts = 0
 
-        repeat
-            pick = pickCard(cardList)
-            attempts = attempts + 1
-        until allowDuplicates or not drawnSet[pick] or attempts > 50
+        if allowDuplicates then
+            -- Simple case: just pick randomly with replacement
+            pick = pickCard(availableCards)
+        else
+            -- No duplicates: pick from remaining cards
+            if #availableCards == 0 then
+                -- Shouldn't happen, but fallback to allowing duplicates
+                availableCards = cardList
+            end
 
-        if not allowDuplicates then
-            drawnSet[pick] = true
+            pick = pickCard(availableCards)
+            
+            if not drawnSet[pick] then
+                drawnSet[pick] = true
+                
+                -- Remove the drawn card from available pool
+                local newAvailable = {}
+                for _, card in ipairs(availableCards) do
+                    if card.id ~= pick then
+                        table.insert(newAvailable, card)
+                    end
+                end
+                availableCards = newAvailable
+            end
         end
 
         table.insert(selected, pick)
@@ -1033,7 +1171,13 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
 
     -- Fetch the booster JSON
     local boosterUrl = BASE_BOOSTER_FILE_URL .. "/" .. boosterMeta.code .. ".json"
-    WebRequest.get(boosterUrl, function(webReturn)
+    
+    local headers = {
+        ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+        ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
+    }
+
+    WebRequest.custom(boosterUrl, "GET", true, "", headers, function(webReturn)
         if webReturn.error or webReturn.is_error or string.len(webReturn.text) == 0 then
             onError("Failed to fetch booster data for " .. code)
             return
@@ -1130,7 +1274,13 @@ end
 
 local function queryBoosterIndex()
     local url = BOOSTER_INDEX_URL
-    WebRequest.get(url, function(webReturn)
+    
+    local headers = {
+        ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+        ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
+    }
+
+    WebRequest.custom(url, "GET", true, "", headers, function(webReturn)
         if webReturn.error or webReturn.is_error or string.len(webReturn.text) == 0 then
             onError("Failed to fetch booster index: " .. (webReturn.error or "Unknown error"))
             return
