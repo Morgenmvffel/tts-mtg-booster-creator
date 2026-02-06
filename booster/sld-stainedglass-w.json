@@ -2,7 +2,10 @@
   "name": "SLD Stained Glass Planeswalkers - White",
   "code": "sld-stainedglass-w",
   "languages": [
-    "en"
+    "en",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",

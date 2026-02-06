@@ -2,13 +2,11 @@
   "name": "Weatherlight Draft Booster",
   "code": "wth-draft",
   "languages": [
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],

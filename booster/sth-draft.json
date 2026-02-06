@@ -2,13 +2,11 @@
   "name": "Stronghold Draft Booster",
   "code": "sth-draft",
   "languages": [
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],

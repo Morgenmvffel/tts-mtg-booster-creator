@@ -2,13 +2,11 @@
   "name": "Tempest Draft Booster",
   "code": "tmp-draft",
   "languages": [
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],

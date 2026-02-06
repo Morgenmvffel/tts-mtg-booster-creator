@@ -2,7 +2,10 @@
   "name": "SLD Stained Glass Planeswalkers - Uncommon",
   "code": "sld-stainedglass-uncommon",
   "languages": [
-    "en"
+    "en",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",

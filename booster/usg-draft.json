@@ -2,14 +2,11 @@
   "name": "Urza's Saga Draft Booster",
   "code": "usg-draft",
   "languages": [
-    "cn",
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],

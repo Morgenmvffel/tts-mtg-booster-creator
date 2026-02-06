@@ -2,7 +2,12 @@
   "name": "Avatar: The Last Airbender Collector Booster",
   "code": "tla-collector",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "tla",
   "set_name": "Avatar: The Last Airbender",

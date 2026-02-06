@@ -2,7 +2,10 @@
   "name": "SLD Chaos Emeralds",
   "code": "sld-chaos-emeralds",
   "languages": [
-    "en"
+    "en",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",

@@ -2,14 +2,11 @@
   "name": "Fifth Edition Starter Tournament Deck",
   "code": "5ed-starter",
   "languages": [
-    "cn",
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],

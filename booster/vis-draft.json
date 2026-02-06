@@ -2,13 +2,11 @@
   "name": "Visions Draft Booster",
   "code": "vis-draft",
   "languages": [
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],

@@ -2,7 +2,10 @@
   "name": "SLD Final Fantasy Elementals",
   "code": "sld-fin-elementals",
   "languages": [
-    "en"
+    "en",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",

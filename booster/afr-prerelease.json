@@ -2,7 +2,17 @@
   "name": "Adventures in the Forgotten Realms Prerelease Promo Pack",
   "code": "afr-prerelease",
   "languages": [
-    "en"
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
   ],
   "set_code": "afr",
   "set_name": "Adventures in the Forgotten Realms",

@@ -2,7 +2,10 @@
   "name": "SLD Spider-Man bonus cards",
   "code": "sld-spider-man",
   "languages": [
-    "en"
+    "en",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",

@@ -2,7 +2,10 @@
   "name": "SLD Stained Glass Planeswalkers - International Women Day",
   "code": "sld-stainedglass-iwd",
   "languages": [
-    "en"
+    "en",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sld",
   "set_name": "Secret Lair Drop",

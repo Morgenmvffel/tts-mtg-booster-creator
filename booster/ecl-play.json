@@ -2,7 +2,12 @@
   "name": "Lorwyn Eclipsed Play Booster",
   "code": "ecl-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "ecl",
   "set_name": "Lorwyn Eclipsed",

@@ -2,7 +2,12 @@
   "name": "Avatar: The Last Airbender Play Booster",
   "code": "tla-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "tla",
   "set_name": "Avatar: The Last Airbender",

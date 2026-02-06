@@ -3,7 +3,12 @@
     "name": "Lorwyn Eclipsed Collector Booster",
     "code": "ecl-collector",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "ecl",
     "set_name": "Lorwyn Eclipsed",
@@ -605,7 +610,12 @@
     "name": "Lorwyn Eclipsed Play Booster",
     "code": "ecl-play",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "ecl",
     "set_name": "Lorwyn Eclipsed",
@@ -1800,7 +1810,12 @@
     "name": "Avatar: The Last Airbender Collector Booster",
     "code": "tla-collector",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "tla",
     "set_name": "Avatar: The Last Airbender",
@@ -2764,7 +2779,12 @@
     "name": "Avatar: The Last Airbender Play Booster",
     "code": "tla-play",
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "tla",
     "set_name": "Avatar: The Last Airbender",
@@ -4014,7 +4034,9 @@
       "de",
       "en",
       "fr",
-      "jp"
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "tle",
     "set_name": "Avatar: The Last Airbender Eternal",
@@ -59484,6 +59506,7 @@
       "cn",
       "de",
       "en",
+      "fr",
       "jp",
       "pt",
       "sp"
@@ -60541,6 +60564,7 @@
       "cn",
       "de",
       "en",
+      "fr",
       "jp",
       "pt",
       "sp"
@@ -60803,6 +60827,7 @@
       "cn",
       "de",
       "en",
+      "fr",
       "jp",
       "pt",
       "sp"
@@ -61992,6 +62017,7 @@
       "cn",
       "de",
       "en",
+      "fr",
       "jp",
       "pt",
       "sp"
@@ -130548,7 +130574,17 @@
     "name": "Adventures in the Forgotten Realms Arena Booster",
     "code": "afr-arena",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -130854,7 +130890,17 @@
     "name": "Adventures in the Forgotten Realms Collector Booster",
     "code": "afr-collector",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -131513,7 +131559,17 @@
     "name": "Adventures in the Forgotten Realms Draft Booster",
     "code": "afr-draft",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -132303,7 +132359,17 @@
     "name": "Adventures in the Forgotten Realms Prerelease Promo Pack",
     "code": "afr-prerelease",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -132413,7 +132479,17 @@
     "name": "Adventures in the Forgotten Realms Set Booster",
     "code": "afr-set",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -134292,7 +134368,17 @@
     "name": "Adventures in the Forgotten Realms Theme Booster Black",
     "code": "afr-theme-b",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -134490,7 +134576,17 @@
     "name": "Adventures in the Forgotten Realms Theme Booster Dungeon Theme",
     "code": "afr-theme-dungeons",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -134677,7 +134773,17 @@
     "name": "Adventures in the Forgotten Realms Theme Booster Green",
     "code": "afr-theme-g",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -134875,7 +134981,17 @@
     "name": "Adventures in the Forgotten Realms Theme Booster Red",
     "code": "afr-theme-r",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -135073,7 +135189,17 @@
     "name": "Adventures in the Forgotten Realms Theme Booster Blue",
     "code": "afr-theme-u",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -135271,7 +135397,17 @@
     "name": "Adventures in the Forgotten Realms Theme Booster White",
     "code": "afr-theme-w",
     "languages": [
-      "en"
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
     ],
     "set_code": "afr",
     "set_name": "Adventures in the Forgotten Realms",
@@ -153599,6 +153735,7 @@
       "it",
       "jp",
       "pt",
+      "ru",
       "sp"
     ],
     "set_code": "cmr",
@@ -154360,6 +154497,7 @@
       "it",
       "jp",
       "pt",
+      "ru",
       "sp"
     ],
     "set_code": "cmr",
@@ -175163,7 +175301,10 @@
     "name": "SLD Magic: The Baseballing Signed Cards",
     "code": "sld-baseball-signed",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175198,7 +175339,10 @@
     "name": "SLD Blueprint Cards MK. 1",
     "code": "sld-blueprint-mk1",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175233,7 +175377,10 @@
     "name": "SLD Blueprint Cards MK. 2",
     "code": "sld-blueprint-mk2",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175268,7 +175415,10 @@
     "name": "SLD Chaos Emeralds",
     "code": "sld-chaos-emeralds",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175305,7 +175455,10 @@
     "name": "SLD Deceptive Districts",
     "code": "sld-deceptive-districts",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175340,7 +175493,10 @@
     "name": "SLD D&D 50th Anniversary Superdrop",
     "code": "sld-dnd-50th-anniversary",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175375,7 +175531,10 @@
     "name": "SLD Final Fantasy Elementals",
     "code": "sld-fin-elementals",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175410,7 +175569,10 @@
     "name": "SLD Spider-Man bonus cards",
     "code": "sld-spider-man",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175449,7 +175611,10 @@
     "name": "SLD Stained Glass Planeswalkers - Black",
     "code": "sld-stainedglass-b",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175488,7 +175653,10 @@
     "name": "SLD Stained Glass Planeswalkers - Colorless",
     "code": "sld-stainedglass-c",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175520,7 +175688,10 @@
     "name": "SLD Stained Glass Planeswalkers - Green",
     "code": "sld-stainedglass-g",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175561,7 +175732,10 @@
     "name": "SLD Stained Glass Planeswalkers - International Women Day",
     "code": "sld-stainedglass-iwd",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175609,7 +175783,10 @@
     "name": "SLD Stained Glass Planeswalkers - Red",
     "code": "sld-stainedglass-r",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175650,7 +175827,10 @@
     "name": "SLD Stained Glass Planeswalkers - Tattoo",
     "code": "sld-stainedglass-tattoo",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175695,7 +175875,10 @@
     "name": "SLD Stained Glass Planeswalkers - Blue",
     "code": "sld-stainedglass-u",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175736,7 +175919,10 @@
     "name": "SLD Stained Glass Planeswalkers - Uncommon",
     "code": "sld-stainedglass-uncommon",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -175786,7 +175972,10 @@
     "name": "SLD Stained Glass Planeswalkers - White",
     "code": "sld-stainedglass-w",
     "languages": [
-      "en"
+      "en",
+      "it",
+      "jp",
+      "sp"
     ],
     "set_code": "sld",
     "set_name": "Secret Lair Drop",
@@ -253279,8 +253468,6 @@
     "name": "Mirrodin Draft Booster",
     "code": "mrd-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -254046,8 +254233,6 @@
     "name": "Mirrodin Fat Pack Promotional Cards",
     "code": "mrd-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -254221,8 +254406,6 @@
     "name": "Mirrodin Tournament Deck",
     "code": "mrd-tournament",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -254589,8 +254772,6 @@
     "name": "Eighth Edition Draft Booster",
     "code": "8ed-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -255626,8 +255807,6 @@
     "name": "Scourge Draft Booster",
     "code": "scg-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -256087,8 +256266,6 @@
     "name": "Scourge Fat Pack Promotional Cards",
     "code": "scg-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -256208,8 +256385,6 @@
     "name": "Legions Draft Booster",
     "code": "lgn-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -256673,8 +256848,6 @@
     "name": "Legions Fat Pack Promotional Cards",
     "code": "lgn-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -256794,8 +256967,6 @@
     "name": "Onslaught Draft Booster",
     "code": "ons-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -257649,8 +257820,6 @@
     "name": "Onslaught Fat Pack Promotional Cards",
     "code": "ons-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -257824,8 +257993,6 @@
     "name": "Onslaught Tournament Deck",
     "code": "ons-tournament",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -258236,8 +258403,6 @@
     "name": "Judgment Draft Booster",
     "code": "jud-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -258696,8 +258861,6 @@
     "name": "Judgment Fat Pack Promotional Cards",
     "code": "jud-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -258817,8 +258980,6 @@
     "name": "Torment Draft Booster",
     "code": "tor-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -259278,8 +259439,6 @@
     "name": "Torment Fat Pack Promotional Cards",
     "code": "tor-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -259399,8 +259558,6 @@
     "name": "Torment Tournament Deck",
     "code": "tor-tournament",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -259625,8 +259782,6 @@
     "name": "Odyssey Draft Booster",
     "code": "ody-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -260480,8 +260635,6 @@
     "name": "Odyssey Fat Pack Promotional Cards",
     "code": "ody-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -260655,8 +260808,6 @@
     "name": "Odyssey Tournament Pack",
     "code": "ody-tournament",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -261648,12 +261799,9 @@
     "name": "Seventh Edition Draft Booster",
     "code": "7ed-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
-      "it",
       "jp",
       "pt",
       "sp"
@@ -262685,8 +262833,6 @@
     "name": "Planeshift Draft Booster",
     "code": "pls-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -263149,8 +263295,6 @@
     "name": "Planeshift Fat Pack Promotional Cards",
     "code": "pls-fat-pack",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -264712,7 +264856,6 @@
     "name": "Prophecy Draft Booster",
     "code": "pcy-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -265172,7 +265315,6 @@
     "name": "Prophecy Fat Pack Promotional Cards",
     "code": "pcy-fat-pack",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -265292,7 +265434,6 @@
     "name": "Nemesis Draft Booster",
     "code": "nem-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -265752,7 +265893,6 @@
     "name": "Nemesis Fat Pack Promotional Cards",
     "code": "nem-fat-pack",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -265872,7 +266012,6 @@
     "name": "Mercadian Masques Draft Booster",
     "code": "mmq-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -266726,7 +266865,6 @@
     "name": "Mercadian Masques Fat Pack Promotional Cards",
     "code": "mmq-fat-pack",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -266900,7 +267038,6 @@
     "name": "Mercadian Masques Tournament Pack",
     "code": "mmq-tournament",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -267536,7 +267673,6 @@
     "name": "Urza's Destiny Draft Booster",
     "code": "uds-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -267997,7 +268133,6 @@
     "code": "ptk",
     "languages": [
       "cn",
-      "cs",
       "en",
       "jp"
     ],
@@ -268230,8 +268365,6 @@
     "name": "Classic Sixth Edition Draft Booster",
     "code": "6ed-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -268613,8 +268746,6 @@
     "name": "Classic Sixth Edition Tournament Deck",
     "code": "6ed-tournament",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -269025,7 +269156,6 @@
     "name": "Urza's Legacy Draft Booster",
     "code": "ulg-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
@@ -269485,14 +269615,11 @@
     "name": "Urza's Saga Draft Booster",
     "code": "usg-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -269869,14 +269996,11 @@
     "name": "Urza's Saga Tournament Deck",
     "code": "usg-tournament",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -270644,13 +270768,11 @@
     "name": "Exodus Draft Booster",
     "code": "exo-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -270840,13 +270962,11 @@
     "name": "Stronghold Draft Booster",
     "code": "sth-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -271036,13 +271156,11 @@
     "name": "Tempest Draft Booster",
     "code": "tmp-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -271419,13 +271537,11 @@
     "name": "Tempest Starter Deck",
     "code": "tmp-starter",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -271831,13 +271947,11 @@
     "name": "Weatherlight Draft Booster",
     "code": "wth-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -272051,8 +272165,6 @@
     "name": "Portal",
     "code": "por",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
@@ -272324,14 +272436,11 @@
     "name": "Fifth Edition Draft Booster",
     "code": "5ed-draft",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -272807,14 +272916,11 @@
     "name": "Fifth Edition Starter Tournament Deck",
     "code": "5ed-starter",
     "languages": [
-      "cn",
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -273319,13 +273425,11 @@
     "name": "Visions Draft Booster",
     "code": "vis-draft",
     "languages": [
-      "cs",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "sp"
     ],
@@ -274920,6 +275024,7 @@
     "name": "Rinascimento",
     "code": "rin",
     "languages": [
+      "en",
       "it"
     ],
     "set_code": "rin",

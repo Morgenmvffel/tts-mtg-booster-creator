@@ -2,13 +2,11 @@
   "name": "Exodus Draft Booster",
   "code": "exo-draft",
   "languages": [
-    "cs",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
     "sp"
   ],
