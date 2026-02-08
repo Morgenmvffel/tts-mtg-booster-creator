@@ -559,7 +559,7 @@
       }
     },
     "foil_booster_fun": {
-      "total_weight": 1260000,
+      "total_weight": 1260252,
       "cards": {
         "spg:104:foil": 7560,
         "spg:105:foil": 7560,
@@ -681,7 +681,8 @@
         "tdm:415:foil": 1260,
         "tdm:416:foil": 1260,
         "tdm:417:foil": 1260,
-        "tdm:418:foil": 1260
+        "tdm:418:foil": 1260,
+        "tdm:419:foil": 252
       }
     },
     "foil_basic": {
