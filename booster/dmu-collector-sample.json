@@ -195,7 +195,7 @@
       }
     },
     "foil_rare_mythic": {
-      "total_weight": 156,
+      "total_weight": 146,
       "cards": {
         "dmc:71:foil": 2,
         "dmc:72:foil": 2,
@@ -281,12 +281,7 @@
         "dmu:419:foil": 2,
         "dmu:420:foil": 2,
         "dmu:421:foil": 2,
-        "dmu:422:foil": 2,
-        "dmu:423:foil": 2,
-        "dmu:424:foil": 2,
-        "dmu:425:foil": 2,
-        "dmu:426:foil": 2,
-        "dmu:427:foil": 2
+        "dmu:422:foil": 2
       }
     }
   },
