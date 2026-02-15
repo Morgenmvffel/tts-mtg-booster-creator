@@ -531,7 +531,7 @@
       }
     },
     "foil_booster_fun": {
-      "total_weight": 90000,
+      "total_weight": 90018,
       "cards": {
         "dft:295:foil": 560,
         "dft:296:foil": 1119,
@@ -591,6 +591,7 @@
         "dft:373:foil": 1119,
         "dft:374:foil": 1119,
         "dft:375:foil": 1119,
+        "dft:376:foil": 18,
         "dft:377:foil": 1119,
         "dft:378:foil": 1119,
         "dft:379:foil": 560,
