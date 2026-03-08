@@ -1,5 +1,9 @@
 [
   {
+    "name": "Teenage Mutant Ninja Turtles Collector Booster",
+    "code": "tmt-collector"
+  },
+  {
     "name": "Teenage Mutant Ninja Turtles Play Booster",
     "code": "tmt-play"
   },
@@ -42,6 +46,10 @@
   {
     "name": "Final Fantasy Bundle Promo Card",
     "code": "fin-bundle-promo"
+  },
+  {
+    "name": "Final Fantasy Chocobo Bundle",
+    "code": "fin-chocobo-bundle"
   },
   {
     "name": "Final Fantasy Collector Booster",
