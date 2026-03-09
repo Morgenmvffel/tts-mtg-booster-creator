@@ -48,8 +48,12 @@
     "code": "fin-bundle-promo"
   },
   {
-    "name": "Final Fantasy Chocobo Bundle",
+    "name": "Final Fantasy Chocobo Bundle Booster",
     "code": "fin-chocobo-bundle"
+  },
+  {
+    "name": "Final Fantasy Chocobo Bundle Scene",
+    "code": "fin-chocobo-bundle-scene"
   },
   {
     "name": "Final Fantasy Collector Booster",

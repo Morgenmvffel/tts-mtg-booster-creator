@@ -11597,7 +11597,7 @@
     ]
   },
   {
-    "name": "Final Fantasy Chocobo Bundle",
+    "name": "Final Fantasy Chocobo Bundle Booster",
     "code": "fin-chocobo-bundle",
     "languages": [
       "de",
@@ -11614,15 +11614,13 @@
         "sheets": {
           "chocobo_basic_a": 5,
           "chocobo_basic_b": 5,
-          "borderless_chocobo": 2,
-          "scene_card": 1
+          "borderless_chocobo": 2
         },
         "weight": 1,
         "sheet_order": [
           "chocobo_basic_a",
           "chocobo_basic_b",
-          "borderless_chocobo",
-          "scene_card"
+          "borderless_chocobo"
         ]
       }
     ],
@@ -11673,7 +11671,38 @@
           "fin:570:foil": 1,
           "fin:571:foil": 1
         }
-      },
+      }
+    },
+    "source_set_codes": [
+      "fic",
+      "fin"
+    ]
+  },
+  {
+    "name": "Final Fantasy Chocobo Bundle Scene",
+    "code": "fin-chocobo-bundle-scene",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
+    "set_code": "fin",
+    "set_name": "Final Fantasy",
+    "boosters": [
+      {
+        "sheets": {
+          "scene_card": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "scene_card"
+        ]
+      }
+    ],
+    "sheets": {
       "scene_card": {
         "total_weight": 24,
         "cards": {
@@ -11705,8 +11734,7 @@
       }
     },
     "source_set_codes": [
-      "fic",
-      "fin"
+      "fic"
     ]
   },
   {

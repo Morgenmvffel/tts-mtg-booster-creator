@@ -1,5 +1,5 @@
 {
-  "name": "Final Fantasy Chocobo Bundle",
+  "name": "Final Fantasy Chocobo Bundle Booster",
   "code": "fin-chocobo-bundle",
   "languages": [
     "de",
@@ -16,15 +16,13 @@
       "sheets": {
         "chocobo_basic_a": 5,
         "chocobo_basic_b": 5,
-        "borderless_chocobo": 2,
-        "scene_card": 1
+        "borderless_chocobo": 2
       },
       "weight": 1,
       "sheet_order": [
         "chocobo_basic_a",
         "chocobo_basic_b",
-        "borderless_chocobo",
-        "scene_card"
+        "borderless_chocobo"
       ]
     }
   ],
@@ -74,35 +72,6 @@
         "fin:569:foil": 1,
         "fin:570:foil": 1,
         "fin:571:foil": 1
-      }
-    },
-    "scene_card": {
-      "total_weight": 24,
-      "cards": {
-        "fic:442": 1,
-        "fic:443": 1,
-        "fic:444": 1,
-        "fic:445": 1,
-        "fic:446": 1,
-        "fic:447": 1,
-        "fic:448": 1,
-        "fic:449": 1,
-        "fic:450": 1,
-        "fic:451": 1,
-        "fic:452": 1,
-        "fic:453": 1,
-        "fic:454": 1,
-        "fic:455": 1,
-        "fic:456": 1,
-        "fic:457": 1,
-        "fic:458": 1,
-        "fic:459": 1,
-        "fic:460": 1,
-        "fic:461": 1,
-        "fic:462": 1,
-        "fic:463": 1,
-        "fic:464": 1,
-        "fic:465": 1
       }
     }
   },
