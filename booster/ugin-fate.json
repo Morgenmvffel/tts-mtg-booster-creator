@@ -1,0 +1,84 @@
+{
+  "name": "Ugin's Fate Event Booster Pack",
+  "code": "ugin-fate",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ugin",
+  "set_name": "Ugin's Fate",
+  "boosters": [
+    {
+      "sheets": {
+        "altart": 2,
+        "land": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "altart",
+        "land"
+      ]
+    }
+  ],
+  "sheets": {
+    "altart": {
+      "total_weight": 127,
+      "cards": {
+        "ugin:1": 1,
+        "ugin:113": 2,
+        "ugin:123": 4,
+        "ugin:129": 8,
+        "ugin:131": 8,
+        "ugin:146": 2,
+        "ugin:161": 4,
+        "ugin:164": 4,
+        "ugin:19": 2,
+        "ugin:216": 2,
+        "ugin:217": 4,
+        "ugin:220": 2,
+        "ugin:24": 8,
+        "ugin:26": 8,
+        "ugin:30": 4,
+        "ugin:36": 2,
+        "ugin:46": 4,
+        "ugin:48": 8,
+        "ugin:59": 8,
+        "ugin:68": 8,
+        "ugin:73": 2,
+        "ugin:85": 8,
+        "ugin:88": 4,
+        "ugin:96": 8,
+        "ugin:97": 4,
+        "ugin:98": 8
+      }
+    },
+    "land": {
+      "total_weight": 10,
+      "cards": {
+        "frf:176": 1,
+        "frf:177": 1,
+        "frf:178": 1,
+        "frf:179": 1,
+        "frf:180": 1,
+        "frf:181": 1,
+        "frf:182": 1,
+        "frf:183": 1,
+        "frf:184": 1,
+        "frf:185": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "frf",
+    "ugin"
+  ]
+}
