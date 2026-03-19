@@ -2,7 +2,12 @@
   "name": "Teenage Mutant Ninja Turtles Collector Booster",
   "code": "tmt-collector",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "tmt",
   "set_name": "Teenage Mutant Ninja Turtles",
