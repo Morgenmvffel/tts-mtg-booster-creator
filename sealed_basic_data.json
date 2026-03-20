@@ -12628,7 +12628,7 @@
         }
       },
       "foil_boosterfun_rare_mythic": {
-        "total_weight": 182700000,
+        "total_weight": 182730450,
         "cards": {
           "fin:310a:foil": 2309328,
           "fin:311a:foil": 2309328,
@@ -12741,6 +12741,7 @@
           "fin:551b:foil": 109620,
           "fin:551c:foil": 109620,
           "fin:551d:foil": 109620,
+          "fin:551f:foil": 30450,
           "fin:577:foil": 574200
         }
       },
