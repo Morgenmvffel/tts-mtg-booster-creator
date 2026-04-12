@@ -19,10 +19,10 @@ BOOSTER_IMAGE_URL =
 FOIL_EFFECT_URL =
 "https://steamusercontent-a.akamaihd.net/ugc/18215652933654632959/A843EB4C96D1CE5E339D66F48A414D671B2CB4CC/"
 
-MAINDECK_POSITION_OFFSET = { 2, 0.2, -0.2 }
-TOKENS_POSITION_OFFSET = { 1.9, 0.2, 0.9 }
+MAINDECK_POSITION_OFFSET = { 1.89, 0.2, -0.04 }
+TOKENS_POSITION_OFFSET = { 1.8, 0.2, 1 }
 
-POSITION_SPACING = -0.8
+POSITION_SPACING = -0.756
 
 DEFAULT_CARDBACK =
 "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/f/f8/Magic_card_back.jpg?version=0ddc8d41c3b69c2c3c4bb5d72669ffd7"
@@ -92,6 +92,25 @@ enableFoil = true
 blowCache = false
 pngGraphics = true
 spawnEverythingFaceDown = false
+filteredBoosters = nil  -- Will store filtered boosters for random selection, nil means all boosters
+randomBoostersPerPack = true  -- When true, each pack gets a random booster
+useRandomBoosterSelection = false  -- True when generation was started from the Random button
+
+-- Booster search/filter state
+boosterSearchFilter = ""  -- current search text for dropdown filter
+
+-- Booster filter options
+filterDraft = true
+filterCollector = true
+filterPlay = true
+filterSet = false
+filterArena = false
+filterPrerelease = false
+filterJumpstart = true
+filterTheme = false
+filterOther = false
+filterVintage = true
+filterSLD = false
 
 ------ UTILITY
 local function trim(s)
@@ -1268,20 +1287,31 @@ local function parseCardId(cardId)
 end
 
 local function queryGeneratePacks(numPacks, onSuccess, onError)
-    local code = PackCode
+    local function doPackGeneration(packIndex, packCode, onPackComplete, onPackError)
+        -- Fetch booster info for this pack
+        local boosterMeta = nil
+        for _, entry in ipairs(BoosterIndex or {}) do
+            if entry.code == packCode then
+                boosterMeta = entry
+                break
+            end
+        end
 
-    local function doPackGeneration(packInfo)
-        local packs = {} -- This will hold each pack with cards and tokens.
+        if not boosterMeta then
+            onPackError("Booster entry not found in index for code: " .. tostring(packCode))
+            return
+        end
 
-        for packIndex = 1, numPacks do
+        -- Use cached data if available
+        if BoosterDataCache[packCode] then
+            local packInfo = BoosterDataCache[packCode]
             local boosterLayout = pickWeighted(packInfo.boosters)
 
             local pack = {
-                cards = {},                             -- Array to store card data for this pack.
-                sheetOrder = boosterLayout.sheet_order, -- Store the sheet order for later use
+                cards = {},
+                sheetOrder = boosterLayout.sheet_order,
             }
 
-            -- Loop through the sheet_order to respect the order of the sheets
             for _, sheetName in ipairs(boosterLayout.sheet_order) do
                 local count = boosterLayout.sheets[sheetName]
                 local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
@@ -1291,72 +1321,124 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
 
                     local cardData = {
                         count = 1,
-                        name = "", -- Add actual card name here if needed.
+                        name = "",
                         setCode = setCode,
                         collectorNum = collectorNum,
                         foil = isFoil,
                         packIndex = packIndex,
-                        sheetName = sheetName, -- Keep track of which sheet the card came from
+                        sheetName = sheetName,
                         packName = packInfo.name
                     }
 
-                    -- Add each drawn card to the 'cards' array
                     table.insert(pack.cards, cardData)
                 end
             end
 
-            -- Add the current pack to the list of packs
-            table.insert(packs, pack)
-        end
-
-        onSuccess(packs, "")
-    end
-
-    -- Use cached data if available
-    if BoosterDataCache[code] then
-        doPackGeneration(BoosterDataCache[code])
-        return
-    end
-
-    -- Find the booster file entry
-    local boosterMeta = nil
-    for _, entry in ipairs(BoosterIndex or {}) do
-        if entry.code == code then
-            boosterMeta = entry
-            break
-        end
-    end
-
-    if not boosterMeta then
-        onError("Booster entry not found in index for code: " .. tostring(code))
-        return
-    end
-
-    -- Fetch the booster JSON
-    local boosterUrl = BASE_BOOSTER_FILE_URL .. "/" .. boosterMeta.code .. ".json"
-    
-    local headers = {
-        ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
-        ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
-    }
-
-    WebRequest.custom(boosterUrl, "GET", true, "", headers, function(webReturn)
-        if webReturn.error or webReturn.is_error or string.len(webReturn.text) == 0 then
-            onError("Failed to fetch booster data for " .. code)
+            onPackComplete(pack)
             return
         end
 
-        local success, data = pcall(function()
-            return jsondecode(webReturn.text)
+        -- Fetch the booster JSON
+        local boosterUrl = BASE_BOOSTER_FILE_URL .. "/" .. boosterMeta.code .. ".json"
+        
+        local headers = {
+            ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+            ["Accept"] = "application/json;q=0.9,*/*;q=0.8"
+        }
+
+        WebRequest.custom(boosterUrl, "GET", true, "", headers, function(webReturn)
+            if webReturn.error or webReturn.is_error or string.len(webReturn.text) == 0 then
+                onPackError("Failed to fetch booster data for " .. packCode)
+                return
+            end
+
+            local success, data = pcall(function()
+                return jsondecode(webReturn.text)
+            end)
+            if not success or not data then
+                onPackError("Failed to parse booster JSON for " .. packCode)
+                return
+            end
+
+            BoosterDataCache[packCode] = data
+            local packInfo = data
+            local boosterLayout = pickWeighted(packInfo.boosters)
+
+            local pack = {
+                cards = {},
+                sheetOrder = boosterLayout.sheet_order,
+            }
+
+            for _, sheetName in ipairs(boosterLayout.sheet_order) do
+                local count = boosterLayout.sheets[sheetName]
+                local drawn = drawCardsFromSheet(packInfo.sheets[sheetName], count)
+
+                for _, rawId in ipairs(drawn) do
+                    local setCode, collectorNum, isFoil = parseCardId(rawId)
+
+                    local cardData = {
+                        count = 1,
+                        name = "",
+                        setCode = setCode,
+                        collectorNum = collectorNum,
+                        foil = isFoil,
+                        packIndex = packIndex,
+                        sheetName = sheetName,
+                        packName = packInfo.name
+                    }
+
+                    table.insert(pack.cards, cardData)
+                end
+            end
+
+            onPackComplete(pack)
         end)
-        if not success or not data then
-            onError("Failed to parse booster JSON for " .. code)
+    end
+
+    -- Generate packs sequentially
+    local allPacks = {}
+    local currentPack = 0
+    local fixedRandomPackCode = nil
+    
+    local function generateNextPack()
+        currentPack = currentPack + 1
+        if currentPack > numPacks then
+            onSuccess(allPacks, "")
             return
         end
 
-        BoosterDataCache[code] = data
-        doPackGeneration(data)
-    end)
+        -- Determine booster code for this pack
+        local packCode
+        if useRandomBoosterSelection then
+            local availableBoosters = filteredBoosters or BoosterIndex
+            if not availableBoosters or #availableBoosters == 0 then
+                onError("No boosters available for random selection. Adjust filters in Advanced menu.")
+                return
+            end
+
+            if randomBoostersPerPack then
+                local randomIndex = math.random(1, #availableBoosters)
+                packCode = availableBoosters[randomIndex].code
+            else
+                if not fixedRandomPackCode then
+                    local randomIndex = math.random(1, #availableBoosters)
+                    fixedRandomPackCode = availableBoosters[randomIndex].code
+                end
+                packCode = fixedRandomPackCode
+            end
+        else
+            packCode = PackCode
+        end
+
+        doPackGeneration(currentPack, packCode, function(pack)
+            table.insert(allPacks, pack)
+            generateNextPack()
+        end, function(e)
+            onError(e)
+        end)
+    end
+
+    generateNextPack()
 end
 
 function generatePacks()
@@ -1406,33 +1488,56 @@ local function escapeXml(str)
     return str
 end
 
-local function buildDropdownFromIndex()
-    local optionsXml = ""
+local baseXmlCache = nil  -- base XML without the selector panel, cached for search rebuilds
 
-    for i, entry in ipairs(BoosterIndex) do
-        local selectedStr = ""
-        if i == 1 then
-            selectedStr = ' selected="true"'
-            PackCode = entry.code
+local function buildDropdownPanel(filter)
+    local lowerFilter = string.lower(filter or "")
+    local matches = {}
+
+    for _, entry in ipairs(BoosterIndex) do
+        if lowerFilter == "" or
+           string.find(string.lower(entry.name), lowerFilter, 1, true) or
+           string.find(string.lower(entry.code), lowerFilter, 1, true) then
+            table.insert(matches, entry)
         end
-        -- print(entry.name)
-        optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>', escapeXml(entry.code), -- value
-            selectedStr,                                                                                    -- selected="true" if first
-            escapeXml(entry.name    )                                                                       -- label shown in dropdown
-        )
     end
 
-    local old_xml = self.UI.getXml()
+    -- Keep the current pack selected if it is still visible; otherwise default to the first match
+    local currentVisible = false
+    for _, entry in ipairs(matches) do
+        if entry.code == PackCode then
+            currentVisible = true
+            break
+        end
+    end
+    if not currentVisible then
+        PackCode = (#matches > 0) and matches[1].code or ""
+    end
 
-    local xml = string.format([[
-        <Panel id="MTGPackGeneratorSelector" position="80 -120 -10" rotation="180 180 0" width="300" height="300">
-            <Dropdown id="dynamicDropdown" position="82 -10 0" onValueChanged="onDropdownChanged" width="470" height="30" scrollSensitivity="30">
+    local optionsXml = ""
+    for _, entry in ipairs(matches) do
+        local selectedStr = (entry.code == PackCode) and ' selected="true"' or ""
+        optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>',
+            escapeXml(entry.code), selectedStr, escapeXml(entry.name))
+    end
+    if #matches == 0 then
+        optionsXml = '<Option value="">No results found</Option>'
+    end
+
+    return string.format([[
+        <Panel id="MTGPackGeneratorSelector" position="80 -122 -10" rotation="180 180 0" width="300" height="300">
+            <InputField id="boosterSearch" position="80 3 0" width="453" height="30"
+                placeholder="Search boosters..." onEndEdit="mtgdl__onSearchInput" text="%s"/>
+            <Dropdown id="dynamicDropdown" position="80 -30 0" onValueChanged="onDropdownChanged" width="453" height="30" scrollSensitivity="30" dropdownHeight="190" itemHeight="45">
                 %s
             </Dropdown>
         </Panel>
-    ]], optionsXml)
+    ]], escapeXml(filter or ""), optionsXml)
+end
 
-    self.UI.setXml(xml .. old_xml)
+local function buildDropdownFromIndex()
+    baseXmlCache = self.UI.getXml()
+    self.UI.setXml(buildDropdownPanel("") .. baseXmlCache)
 end
 
 local function queryBoosterIndex()
@@ -1461,6 +1566,7 @@ local function queryBoosterIndex()
 
         print("Booster index loaded.")
         buildDropdownFromIndex()
+        applyBoosterFilters()
     end)
 end
 
@@ -1474,6 +1580,12 @@ function onDropdownChanged(player, value, id)
             return
         end
     end
+end
+
+function mtgdl__onSearchInput(player, value)
+    boosterSearchFilter = value
+    if baseXmlCache == nil then return end
+    self.UI.setXml(buildDropdownPanel(value) .. baseXmlCache)
 end
 
 ------ UI
@@ -1505,10 +1617,10 @@ local function drawUI()
         function_owner = self,
         label = "Enter the Amount of Packs",
         alignment = 2,
-        position = { -0.4, 0.1, 1.15 },
-        width = 240,
-        height = 160,
-        font_size = 130,
+        position = { -1, 0.1, 1.15 },
+        width = 150,
+        height = 150,
+        font_size = 120,
         validation = 2,
         value = packAmount
     })
@@ -1517,10 +1629,10 @@ local function drawUI()
         click_function = "onGeneratePackButton",
         function_owner = self,
         label = "Generate Packs",
-        position = { 1, 0.1, 1.15 },
+        position = { 0.1, 0.1, 1.15 },
         rotation = { 0, 0, 0 },
-        width = 850,
-        height = 160,
+        width = 800,
+        height = 150,
         font_size = 80,
         color = { 0.5, 0.5, 0.5 },
         font_color = {
@@ -1528,17 +1640,35 @@ local function drawUI()
             b = 1,
             g = 1
         },
-        tooltip = "Click to generate your packs"
+        tooltip = "Click to generate your selected packs"
+    })
+
+    self.createButton({
+        click_function = "onRandomBoosterButton",
+        function_owner = self,
+        label = "Random",
+        position = { 1.4, 0.1, 1.15 },
+        rotation = { 0, 0, 0 },
+        width = 350,
+        height = 150,
+        font_size = 70,
+        color = { 0.3, 0.5, 0.3 },
+        font_color = {
+            r = 1,
+            b = 1,
+            g = 1
+        },
+        tooltip = "Click to generate random booster(s). Uses Booster Filters in the Advanced menu."
     })
 
     self.createButton({
         click_function = "onToggleAdvancedButton",
         function_owner = self,
         label = "...",
-        position = { 2.25, 0.1, 1.15 },
+        position = { 2.1, 0.1, 1.15 },
         rotation = { 0, 0, 0 },
-        width = 160,
-        height = 160,
+        width = 150,
+        height = 150,
         font_size = 100,
         color = { 0.5, 0.5, 0.5 },
         font_color = {
@@ -1585,6 +1715,23 @@ function onGeneratePackButton(_, pc, _)
         return
     end
 
+    useRandomBoosterSelection = false
+    playerColor = pc
+    startLuaCoroutine(self, "generatePacks")
+end
+
+function onRandomBoosterButton(_, pc, _)
+    if lock then
+        printToColor("Another pack is currently generated. Please wait for that to finish.", pc)
+        return
+    end
+
+    if not BoosterIndex or #BoosterIndex == 0 then
+        printToColor("Booster index not yet loaded. Please wait.", pc)
+        return
+    end
+
+    useRandomBoosterSelection = true
     playerColor = pc
     startLuaCoroutine(self, "generatePacks")
 end
@@ -1638,6 +1785,117 @@ end
 
 function mtgdl__onFaceDownInput(_, value, _)
     spawnEverythingFaceDown = stringToBool(value)
+end
+
+function mtgdl__onRandomBoostersPerPackInput(_, value, _)
+    randomBoostersPerPack = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function applyBoosterFilters()
+    if not BoosterIndex then
+        return
+    end
+
+    local filtered = {}
+    
+    for _, booster in ipairs(BoosterIndex) do
+        local code = string.lower(booster.code)
+        local shouldInclude = false
+
+        -- Check for SLD category
+        if string.sub(code, 1, 3) == "sld" then
+            shouldInclude = filterSLD
+        elseif string.find(code, "-") then
+            -- Has hyphen - categorize by suffix
+            if string.find(code, "-draft") then
+                shouldInclude = filterDraft
+            elseif string.find(code, "-collector%-sample") then
+                shouldInclude = filterOther
+            elseif string.find(code, "-collector") then
+                shouldInclude = filterCollector
+            elseif string.find(code, "-play") then
+                shouldInclude = filterPlay
+            elseif string.find(code, "-set") then
+                shouldInclude = filterSet
+            elseif string.find(code, "-arena") then
+                shouldInclude = filterArena
+            elseif string.find(code, "-prerelease") then
+                shouldInclude = filterPrerelease
+            elseif string.find(code, "-jumpstart") then
+                shouldInclude = filterJumpstart
+            elseif string.find(code, "-theme") then
+                shouldInclude = filterTheme
+            else
+                -- Other hyphenated codes (box-topper, bundle-promo, etc.)
+                shouldInclude = filterOther
+            end
+        else
+
+            shouldInclude = filterVintage
+        end
+
+        if shouldInclude then
+            table.insert(filtered, booster)
+        end
+    end
+
+    filteredBoosters = (#filtered > 0) and filtered or BoosterIndex
+end
+
+function mtgdl__onFilterDraftInput(_, value, _)
+    filterDraft = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterCollectorInput(_, value, _)
+    filterCollector = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterPlayInput(_, value, _)
+    filterPlay = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterSetInput(_, value, _)
+    filterSet = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterArenaInput(_, value, _)
+    filterArena = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterPrereleaseInput(_, value, _)
+    filterPrerelease = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterJumpstartInput(_, value, _)
+    filterJumpstart = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterThemeInput(_, value, _)
+    filterTheme = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterOtherInput(_, value, _)
+    filterOther = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterVintageInput(_, value, _)
+    filterVintage = stringToBool(value)
+    applyBoosterFilters()
+end
+
+function mtgdl__onFilterSLDInput(_, value, _)
+    filterSLD = stringToBool(value)
+    applyBoosterFilters()
 end
 
 ------ TTS CALLBACKS
