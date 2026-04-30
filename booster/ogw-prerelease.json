@@ -1,0 +1,94 @@
+{
+  "name": "Oath of the Gatewatch Prerelease Promo Pack",
+  "code": "ogw-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ogw",
+  "set_name": "Oath of the Gatewatch",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 96,
+      "cards": {
+        "pogw:104s:foil": 1,
+        "pogw:109s:foil": 2,
+        "pogw:110s:foil": 2,
+        "pogw:113s:foil": 2,
+        "pogw:119s:foil": 2,
+        "pogw:125s:foil": 2,
+        "pogw:126s:foil": 1,
+        "pogw:132s:foil": 2,
+        "pogw:138s:foil": 1,
+        "pogw:13s:foil": 2,
+        "pogw:140s:foil": 2,
+        "pogw:144s:foil": 2,
+        "pogw:147s:foil": 2,
+        "pogw:151s:foil": 2,
+        "pogw:155s:foil": 2,
+        "pogw:156s:foil": 2,
+        "pogw:162s:foil": 2,
+        "pogw:166s:foil": 2,
+        "pogw:169s:foil": 2,
+        "pogw:16s:foil": 2,
+        "pogw:171s:foil": 2,
+        "pogw:174s:foil": 1,
+        "pogw:175s:foil": 2,
+        "pogw:176s:foil": 2,
+        "pogw:177s:foil": 2,
+        "pogw:182s:foil": 2,
+        "pogw:19s:foil": 1,
+        "pogw:1s:foil": 2,
+        "pogw:25s:foil": 1,
+        "pogw:29s:foil": 2,
+        "pogw:2s:foil": 2,
+        "pogw:30s:foil": 2,
+        "pogw:37s:foil": 2,
+        "pogw:3s:foil": 2,
+        "pogw:43s:foil": 2,
+        "pogw:44s:foil": 2,
+        "pogw:4s:foil": 1,
+        "pogw:53s:foil": 1,
+        "pogw:57s:foil": 2,
+        "pogw:60s:foil": 2,
+        "pogw:61s:foil": 2,
+        "pogw:63s:foil": 1,
+        "pogw:67s:foil": 2,
+        "pogw:68s:foil": 2,
+        "pogw:6s:foil": 2,
+        "pogw:72s:foil": 1,
+        "pogw:77s:foil": 2,
+        "pogw:7s:foil": 2,
+        "pogw:84s:foil": 2,
+        "pogw:86s:foil": 1,
+        "pogw:89s:foil": 2,
+        "pogw:96s:foil": 2,
+        "pogw:98s:foil": 1,
+        "pogw:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pogw"
+  ]
+}

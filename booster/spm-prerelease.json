@@ -1,0 +1,103 @@
+{
+  "name": "Marvel's Spider-Man Prerelease Promo Pack",
+  "code": "spm-prerelease",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "spm",
+  "set_name": "Marvel's Spider-Man",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pspm:105s:foil": 2,
+        "pspm:106s:foil": 2,
+        "pspm:108sa:foil": 1,
+        "pspm:10sa:foil": 1,
+        "pspm:111s:foil": 2,
+        "pspm:112s:foil": 2,
+        "pspm:114s:foil": 2,
+        "pspm:118s:foil": 2,
+        "pspm:11s:foil": 2,
+        "pspm:122s:foil": 1,
+        "pspm:123s:foil": 2,
+        "pspm:124s:foil": 2,
+        "pspm:125s:foil": 2,
+        "pspm:126s:foil": 2,
+        "pspm:127s:foil": 1,
+        "pspm:128s:foil": 1,
+        "pspm:131s:foil": 2,
+        "pspm:133s:foil": 2,
+        "pspm:134s:foil": 2,
+        "pspm:135s:foil": 1,
+        "pspm:142s:foil": 2,
+        "pspm:145s:foil": 2,
+        "pspm:14s:foil": 2,
+        "pspm:150s:foil": 2,
+        "pspm:152s:foil": 2,
+        "pspm:153s:foil": 2,
+        "pspm:155s:foil": 2,
+        "pspm:156s:foil": 2,
+        "pspm:157s:foil": 2,
+        "pspm:162s:foil": 2,
+        "pspm:165s:foil": 2,
+        "pspm:166s:foil": 2,
+        "pspm:171s:foil": 2,
+        "pspm:172s:foil": 2,
+        "pspm:180s:foil": 2,
+        "pspm:182s:foil": 2,
+        "pspm:187s:foil": 2,
+        "pspm:1s:foil": 1,
+        "pspm:24s:foil": 2,
+        "pspm:28s:foil": 2,
+        "pspm:2s:foil": 2,
+        "pspm:32s:foil": 2,
+        "pspm:33s:foil": 2,
+        "pspm:34s:foil": 1,
+        "pspm:35s:foil": 2,
+        "pspm:37s:foil": 2,
+        "pspm:39sa:foil": 1,
+        "pspm:46s:foil": 2,
+        "pspm:49s:foil": 2,
+        "pspm:51s:foil": 1,
+        "pspm:52s:foil": 2,
+        "pspm:54s:foil": 2,
+        "pspm:55sa:foil": 1,
+        "pspm:56s:foil": 1,
+        "pspm:59s:foil": 2,
+        "pspm:60s:foil": 2,
+        "pspm:66s:foil": 1,
+        "pspm:74s:foil": 2,
+        "pspm:76s:foil": 2,
+        "pspm:78sa:foil": 1,
+        "pspm:81s:foil": 2,
+        "pspm:83s:foil": 2,
+        "pspm:87s:foil": 2,
+        "pspm:8s:foil": 2,
+        "pspm:92s:foil": 2,
+        "pspm:93s:foil": 1,
+        "pspm:94s:foil": 2,
+        "pspm:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pspm"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Rivals of Ixalan Prerelease Promo Pack",
+  "code": "rix-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "rix",
+  "set_name": "Rivals of Ixalan",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 109,
+      "cards": {
+        "prix:100s:foil": 2,
+        "prix:103s:foil": 2,
+        "prix:111s:foil": 1,
+        "prix:115s:foil": 2,
+        "prix:121s:foil": 2,
+        "prix:127s:foil": 2,
+        "prix:130s:foil": 2,
+        "prix:136s:foil": 2,
+        "prix:142s:foil": 2,
+        "prix:144s:foil": 1,
+        "prix:147s:foil": 2,
+        "prix:150s:foil": 2,
+        "prix:151s:foil": 2,
+        "prix:152s:foil": 1,
+        "prix:154s:foil": 1,
+        "prix:157s:foil": 1,
+        "prix:158sa:foil": 2,
+        "prix:159s:foil": 1,
+        "prix:160sa:foil": 2,
+        "prix:162s:foil": 1,
+        "prix:165sa:foil": 2,
+        "prix:166sa:foil": 2,
+        "prix:167s:foil": 2,
+        "prix:16s:foil": 2,
+        "prix:171s:foil": 2,
+        "prix:173sa:foil": 2,
+        "prix:174s:foil": 1,
+        "prix:175s:foil": 2,
+        "prix:176sa:foil": 1,
+        "prix:177s:foil": 2,
+        "prix:179sa:foil": 2,
+        "prix:180s:foil": 1,
+        "prix:182s:foil": 2,
+        "prix:185s:foil": 2,
+        "prix:18s:foil": 2,
+        "prix:22s:foil": 2,
+        "prix:24s:foil": 2,
+        "prix:28s:foil": 2,
+        "prix:29s:foil": 1,
+        "prix:2s:foil": 2,
+        "prix:30s:foil": 2,
+        "prix:31s:foil": 2,
+        "prix:33s:foil": 2,
+        "prix:40s:foil": 2,
+        "prix:42s:foil": 2,
+        "prix:45s:foil": 2,
+        "prix:46s:foil": 2,
+        "prix:51s:foil": 2,
+        "prix:59s:foil": 1,
+        "prix:60s:foil": 2,
+        "prix:64s:foil": 2,
+        "prix:66s:foil": 2,
+        "prix:68s:foil": 2,
+        "prix:77s:foil": 2,
+        "prix:86s:foil": 2,
+        "prix:87s:foil": 2,
+        "prix:88s:foil": 1,
+        "prix:90s:foil": 2,
+        "prix:92s:foil": 2,
+        "prix:94s:foil": 2,
+        "prix:99s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "prix"
+  ]
+}

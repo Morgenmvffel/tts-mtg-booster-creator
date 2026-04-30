@@ -1,0 +1,54 @@
+{
+  "name": "Signature Spellbook: Jace",
+  "code": "ss1",
+  "languages": [
+    "en"
+  ],
+  "set_code": "ss1",
+  "set_name": "Signature Spellbook: Jace",
+  "boosters": [
+    {
+      "sheets": {
+        "nonfoil": 8,
+        "foil": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "nonfoil",
+        "foil"
+      ]
+    }
+  ],
+  "sheets": {
+    "nonfoil": {
+      "fixed": true,
+      "total_weight": 8,
+      "cards": {
+        "ss1:1": 1,
+        "ss1:2": 1,
+        "ss1:3": 1,
+        "ss1:4": 1,
+        "ss1:5": 1,
+        "ss1:6": 1,
+        "ss1:7": 1,
+        "ss1:8": 1
+      }
+    },
+    "foil": {
+      "total_weight": 8,
+      "cards": {
+        "ss1:1:foil": 1,
+        "ss1:2:foil": 1,
+        "ss1:3:foil": 1,
+        "ss1:4:foil": 1,
+        "ss1:5:foil": 1,
+        "ss1:6:foil": 1,
+        "ss1:7:foil": 1,
+        "ss1:8:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "ss1"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Ravnica Allegiance Prerelease Promo Pack",
+  "code": "rna-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "rna",
+  "set_name": "Ravnica Allegiance",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 75,
+      "cards": {
+        "prna:106s:foil": 2,
+        "prna:108s:foil": 2,
+        "prna:109s:foil": 2,
+        "prna:11s:foil": 2,
+        "prna:124s:foil": 2,
+        "prna:128s:foil": 2,
+        "prna:130s:foil": 2,
+        "prna:131s:foil": 2,
+        "prna:134s:foil": 2,
+        "prna:151s:foil": 2,
+        "prna:157s:foil": 2,
+        "prna:158s:foil": 2,
+        "prna:15s:foil": 2,
+        "prna:161s:foil": 2,
+        "prna:165s:foil": 2,
+        "prna:169s:foil": 1,
+        "prna:170s:foil": 2,
+        "prna:179s:foil": 2,
+        "prna:183s:foil": 1,
+        "prna:185s:foil": 2,
+        "prna:187s:foil": 2,
+        "prna:189s:foil": 2,
+        "prna:193s:foil": 2,
+        "prna:199s:foil": 1,
+        "prna:200s:foil": 1,
+        "prna:205s:foil": 1,
+        "prna:207s:foil": 2,
+        "prna:212s:foil": 2,
+        "prna:213s:foil": 2,
+        "prna:214s:foil": 2,
+        "prna:27s:foil": 2,
+        "prna:29s:foil": 2,
+        "prna:32s:foil": 2,
+        "prna:45s:foil": 2,
+        "prna:55s:foil": 2,
+        "prna:61s:foil": 2,
+        "prna:74s:foil": 2,
+        "prna:76s:foil": 2,
+        "prna:83s:foil": 2,
+        "prna:92s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "prna"
+  ]
+}

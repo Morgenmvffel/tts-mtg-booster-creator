@@ -1,0 +1,70 @@
+{
+  "name": "Fate Reforged Prerelease Promo Pack",
+  "code": "frf-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "frf",
+  "set_name": "Fate Reforged",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 55,
+      "cards": {
+        "pfrf:100s:foil": 2,
+        "pfrf:113s:foil": 1,
+        "pfrf:11s:foil": 2,
+        "pfrf:137s:foil": 2,
+        "pfrf:138s:foil": 2,
+        "pfrf:143s:foil": 1,
+        "pfrf:146s:foil": 2,
+        "pfrf:148s:foil": 2,
+        "pfrf:149s:foil": 2,
+        "pfrf:151s:foil": 2,
+        "pfrf:155s:foil": 2,
+        "pfrf:156s:foil": 2,
+        "pfrf:157s:foil": 2,
+        "pfrf:19s:foil": 2,
+        "pfrf:22s:foil": 2,
+        "pfrf:27s:foil": 1,
+        "pfrf:36s:foil": 2,
+        "pfrf:50s:foil": 2,
+        "pfrf:52s:foil": 2,
+        "pfrf:54s:foil": 2,
+        "pfrf:56s:foil": 1,
+        "pfrf:62s:foil": 2,
+        "pfrf:64s:foil": 1,
+        "pfrf:75s:foil": 2,
+        "pfrf:84s:foil": 2,
+        "pfrf:87s:foil": 2,
+        "pfrf:90s:foil": 2,
+        "pfrf:91s:foil": 2,
+        "pfrf:99s:foil": 2,
+        "pfrf:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pfrf"
+  ]
+}

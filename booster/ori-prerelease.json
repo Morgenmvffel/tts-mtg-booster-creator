@@ -1,0 +1,80 @@
+{
+  "name": "Magic Origins Prerelease Promo Pack",
+  "code": "ori-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ori",
+  "set_name": "Magic Origins",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 75,
+      "cards": {
+        "pori:101s:foil": 2,
+        "pori:104s:foil": 2,
+        "pori:105s:foil": 2,
+        "pori:106sa:foil": 1,
+        "pori:112s:foil": 2,
+        "pori:127s:foil": 2,
+        "pori:135sa:foil": 1,
+        "pori:137s:foil": 2,
+        "pori:141s:foil": 2,
+        "pori:143s:foil": 2,
+        "pori:14s:foil": 2,
+        "pori:151s:foil": 2,
+        "pori:157s:foil": 2,
+        "pori:160s:foil": 2,
+        "pori:172s:foil": 2,
+        "pori:176s:foil": 2,
+        "pori:177s:foil": 2,
+        "pori:182s:foil": 2,
+        "pori:186s:foil": 2,
+        "pori:189sa:foil": 1,
+        "pori:191s:foil": 2,
+        "pori:193s:foil": 2,
+        "pori:19s:foil": 2,
+        "pori:21s:foil": 2,
+        "pori:23sa:foil": 1,
+        "pori:24s:foil": 2,
+        "pori:29s:foil": 2,
+        "pori:38s:foil": 2,
+        "pori:40s:foil": 2,
+        "pori:43s:foil": 2,
+        "pori:58s:foil": 2,
+        "pori:60sa:foil": 1,
+        "pori:64s:foil": 2,
+        "pori:75s:foil": 2,
+        "pori:78s:foil": 2,
+        "pori:79s:foil": 2,
+        "pori:84s:foil": 2,
+        "pori:90s:foil": 2,
+        "pori:93s:foil": 2,
+        "pori:99s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pori"
+  ]
+}

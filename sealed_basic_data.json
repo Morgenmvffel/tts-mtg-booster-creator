@@ -8027,6 +8027,121 @@
     ]
   },
   {
+    "name": "Avatar: The Last Airbender Prerelease Promo Pack",
+    "code": "tla-prerelease",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
+    "set_code": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 140,
+        "cards": {
+          "ptla:102s:foil": 2,
+          "ptla:107s:foil": 1,
+          "ptla:109s:foil": 2,
+          "ptla:10s:foil": 1,
+          "ptla:112s:foil": 2,
+          "ptla:114s:foil": 1,
+          "ptla:116s:foil": 2,
+          "ptla:117sa:foil": 1,
+          "ptla:12s:foil": 2,
+          "ptla:132s:foil": 1,
+          "ptla:137s:foil": 2,
+          "ptla:139s:foil": 2,
+          "ptla:144s:foil": 2,
+          "ptla:145sa:foil": 1,
+          "ptla:150s:foil": 2,
+          "ptla:151s:foil": 2,
+          "ptla:154s:foil": 1,
+          "ptla:160s:foil": 2,
+          "ptla:162s:foil": 2,
+          "ptla:165s:foil": 2,
+          "ptla:167s:foil": 1,
+          "ptla:171s:foil": 2,
+          "ptla:172s:foil": 2,
+          "ptla:175s:foil": 2,
+          "ptla:177s:foil": 2,
+          "ptla:178s:foil": 2,
+          "ptla:181s:foil": 2,
+          "ptla:186sa:foil": 1,
+          "ptla:203sa:foil": 2,
+          "ptla:204sa:foil": 2,
+          "ptla:207sa:foil": 1,
+          "ptla:208s:foil": 2,
+          "ptla:209s:foil": 2,
+          "ptla:211s:foil": 1,
+          "ptla:217s:foil": 2,
+          "ptla:220s:foil": 2,
+          "ptla:221s:foil": 2,
+          "ptla:227s:foil": 2,
+          "ptla:228s:foil": 2,
+          "ptla:230s:foil": 2,
+          "ptla:231s:foil": 2,
+          "ptla:232s:foil": 2,
+          "ptla:235s:foil": 1,
+          "ptla:239s:foil": 2,
+          "ptla:23s:foil": 2,
+          "ptla:240s:foil": 2,
+          "ptla:242s:foil": 2,
+          "ptla:246s:foil": 2,
+          "ptla:247s:foil": 2,
+          "ptla:253s:foil": 2,
+          "ptla:259s:foil": 1,
+          "ptla:261s:foil": 1,
+          "ptla:262s:foil": 1,
+          "ptla:263s:foil": 2,
+          "ptla:264s:foil": 2,
+          "ptla:266s:foil": 2,
+          "ptla:268s:foil": 2,
+          "ptla:270s:foil": 2,
+          "ptla:276s:foil": 2,
+          "ptla:278s:foil": 2,
+          "ptla:27sa:foil": 1,
+          "ptla:29s:foil": 2,
+          "ptla:35s:foil": 2,
+          "ptla:37s:foil": 2,
+          "ptla:39s:foil": 1,
+          "ptla:5s:foil": 2,
+          "ptla:61sa:foil": 1,
+          "ptla:64s:foil": 2,
+          "ptla:69s:foil": 1,
+          "ptla:6s:foil": 2,
+          "ptla:73s:foil": 2,
+          "ptla:75s:foil": 2,
+          "ptla:76s:foil": 2,
+          "ptla:77s:foil": 2,
+          "ptla:78s:foil": 1,
+          "ptla:79s:foil": 2,
+          "ptla:83s:foil": 2,
+          "ptla:87s:foil": 2,
+          "ptla:94s:foil": 2,
+          "ptla:98s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "ptla"
+    ]
+  },
+  {
     "name": "Avatar: The Last Airbender Eternal Jumpstart Booster",
     "code": "tle-jumpstart",
     "languages": [
@@ -11454,6 +11569,109 @@
     ]
   },
   {
+    "name": "Marvel's Spider-Man Prerelease Promo Pack",
+    "code": "spm-prerelease",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
+    "set_code": "spm",
+    "set_name": "Marvel's Spider-Man",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 121,
+        "cards": {
+          "pspm:105s:foil": 2,
+          "pspm:106s:foil": 2,
+          "pspm:108sa:foil": 1,
+          "pspm:10sa:foil": 1,
+          "pspm:111s:foil": 2,
+          "pspm:112s:foil": 2,
+          "pspm:114s:foil": 2,
+          "pspm:118s:foil": 2,
+          "pspm:11s:foil": 2,
+          "pspm:122s:foil": 1,
+          "pspm:123s:foil": 2,
+          "pspm:124s:foil": 2,
+          "pspm:125s:foil": 2,
+          "pspm:126s:foil": 2,
+          "pspm:127s:foil": 1,
+          "pspm:128s:foil": 1,
+          "pspm:131s:foil": 2,
+          "pspm:133s:foil": 2,
+          "pspm:134s:foil": 2,
+          "pspm:135s:foil": 1,
+          "pspm:142s:foil": 2,
+          "pspm:145s:foil": 2,
+          "pspm:14s:foil": 2,
+          "pspm:150s:foil": 2,
+          "pspm:152s:foil": 2,
+          "pspm:153s:foil": 2,
+          "pspm:155s:foil": 2,
+          "pspm:156s:foil": 2,
+          "pspm:157s:foil": 2,
+          "pspm:162s:foil": 2,
+          "pspm:165s:foil": 2,
+          "pspm:166s:foil": 2,
+          "pspm:171s:foil": 2,
+          "pspm:172s:foil": 2,
+          "pspm:180s:foil": 2,
+          "pspm:182s:foil": 2,
+          "pspm:187s:foil": 2,
+          "pspm:1s:foil": 1,
+          "pspm:24s:foil": 2,
+          "pspm:28s:foil": 2,
+          "pspm:2s:foil": 2,
+          "pspm:32s:foil": 2,
+          "pspm:33s:foil": 2,
+          "pspm:34s:foil": 1,
+          "pspm:35s:foil": 2,
+          "pspm:37s:foil": 2,
+          "pspm:39sa:foil": 1,
+          "pspm:46s:foil": 2,
+          "pspm:49s:foil": 2,
+          "pspm:51s:foil": 1,
+          "pspm:52s:foil": 2,
+          "pspm:54s:foil": 2,
+          "pspm:55sa:foil": 1,
+          "pspm:56s:foil": 1,
+          "pspm:59s:foil": 2,
+          "pspm:60s:foil": 2,
+          "pspm:66s:foil": 1,
+          "pspm:74s:foil": 2,
+          "pspm:76s:foil": 2,
+          "pspm:78sa:foil": 1,
+          "pspm:81s:foil": 2,
+          "pspm:83s:foil": 2,
+          "pspm:87s:foil": 2,
+          "pspm:8s:foil": 2,
+          "pspm:92s:foil": 2,
+          "pspm:93s:foil": 1,
+          "pspm:94s:foil": 2,
+          "pspm:9s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pspm"
+    ]
+  },
+  {
     "name": "Edge of Eternities Collector Booster",
     "code": "eoe-collector",
     "languages": [
@@ -13531,6 +13749,121 @@
       "eoe",
       "eos",
       "spg"
+    ]
+  },
+  {
+    "name": "Edge of Eternities Prerelease Promo Pack",
+    "code": "eoe-prerelease",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
+    "set_code": "eoe",
+    "set_name": "Edge of Eternities",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 140,
+        "cards": {
+          "peoe:113s:foil": 2,
+          "peoe:115s:foil": 1,
+          "peoe:116s:foil": 2,
+          "peoe:127s:foil": 2,
+          "peoe:128s:foil": 2,
+          "peoe:132s:foil": 1,
+          "peoe:145s:foil": 2,
+          "peoe:148s:foil": 2,
+          "peoe:151s:foil": 2,
+          "peoe:153s:foil": 2,
+          "peoe:159s:foil": 2,
+          "peoe:15s:foil": 1,
+          "peoe:162s:foil": 1,
+          "peoe:163s:foil": 2,
+          "peoe:167s:foil": 2,
+          "peoe:168s:foil": 2,
+          "peoe:172s:foil": 2,
+          "peoe:182s:foil": 1,
+          "peoe:183s:foil": 2,
+          "peoe:192s:foil": 2,
+          "peoe:196s:foil": 2,
+          "peoe:19s:foil": 2,
+          "peoe:1s:foil": 2,
+          "peoe:200s:foil": 2,
+          "peoe:201s:foil": 1,
+          "peoe:208s:foil": 2,
+          "peoe:20s:foil": 2,
+          "peoe:210s:foil": 2,
+          "peoe:214s:foil": 2,
+          "peoe:215s:foil": 2,
+          "peoe:216s:foil": 2,
+          "peoe:217s:foil": 2,
+          "peoe:219s:foil": 2,
+          "peoe:222s:foil": 2,
+          "peoe:223s:foil": 2,
+          "peoe:224s:foil": 2,
+          "peoe:226s:foil": 1,
+          "peoe:228s:foil": 2,
+          "peoe:229s:foil": 2,
+          "peoe:231s:foil": 2,
+          "peoe:238s:foil": 1,
+          "peoe:239s:foil": 1,
+          "peoe:240s:foil": 1,
+          "peoe:241s:foil": 2,
+          "peoe:242s:foil": 2,
+          "peoe:247s:foil": 2,
+          "peoe:24s:foil": 2,
+          "peoe:250s:foil": 1,
+          "peoe:251s:foil": 2,
+          "peoe:253s:foil": 1,
+          "peoe:254s:foil": 2,
+          "peoe:255s:foil": 1,
+          "peoe:256s:foil": 2,
+          "peoe:257s:foil": 2,
+          "peoe:258s:foil": 2,
+          "peoe:259s:foil": 1,
+          "peoe:25s:foil": 2,
+          "peoe:260s:foil": 1,
+          "peoe:261s:foil": 2,
+          "peoe:27s:foil": 2,
+          "peoe:2s:foil": 1,
+          "peoe:35s:foil": 2,
+          "peoe:40s:foil": 2,
+          "peoe:4s:foil": 2,
+          "peoe:51s:foil": 2,
+          "peoe:56s:foil": 2,
+          "peoe:68s:foil": 2,
+          "peoe:69s:foil": 2,
+          "peoe:72s:foil": 1,
+          "peoe:78s:foil": 2,
+          "peoe:79s:foil": 2,
+          "peoe:7s:foil": 2,
+          "peoe:81s:foil": 2,
+          "peoe:86s:foil": 1,
+          "peoe:87s:foil": 1,
+          "peoe:88s:foil": 2,
+          "peoe:91s:foil": 2,
+          "peoe:97s:foil": 2,
+          "peoe:99s:foil": 2,
+          "peoe:9s:foil": 1
+        }
+      }
+    },
+    "source_set_codes": [
+      "peoe"
     ]
   },
   {
@@ -18825,6 +19158,121 @@
     "source_set_codes": [
       "spg",
       "tdm"
+    ]
+  },
+  {
+    "name": "Tarkir: Dragonstorm Prerelease Promo Pack",
+    "code": "tdm-prerelease",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
+    "set_code": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 140,
+        "cards": {
+          "ptdm:103s:foil": 2,
+          "ptdm:105s:foil": 1,
+          "ptdm:111s:foil": 2,
+          "ptdm:118s:foil": 2,
+          "ptdm:11s:foil": 1,
+          "ptdm:122s:foil": 2,
+          "ptdm:123s:foil": 1,
+          "ptdm:127s:foil": 2,
+          "ptdm:136sa:foil": 2,
+          "ptdm:138s:foil": 1,
+          "ptdm:144s:foil": 2,
+          "ptdm:149s:foil": 2,
+          "ptdm:150s:foil": 2,
+          "ptdm:161s:foil": 2,
+          "ptdm:166s:foil": 2,
+          "ptdm:167s:foil": 1,
+          "ptdm:170s:foil": 2,
+          "ptdm:171s:foil": 2,
+          "ptdm:172s:foil": 1,
+          "ptdm:174s:foil": 1,
+          "ptdm:176s:foil": 1,
+          "ptdm:179s:foil": 1,
+          "ptdm:182s:foil": 2,
+          "ptdm:183s:foil": 2,
+          "ptdm:184s:foil": 2,
+          "ptdm:185s:foil": 2,
+          "ptdm:187s:foil": 2,
+          "ptdm:189s:foil": 2,
+          "ptdm:192s:foil": 2,
+          "ptdm:194s:foil": 2,
+          "ptdm:196s:foil": 1,
+          "ptdm:1s:foil": 1,
+          "ptdm:202s:foil": 2,
+          "ptdm:204s:foil": 2,
+          "ptdm:206s:foil": 2,
+          "ptdm:209s:foil": 2,
+          "ptdm:210s:foil": 1,
+          "ptdm:211s:foil": 2,
+          "ptdm:212s:foil": 1,
+          "ptdm:215s:foil": 2,
+          "ptdm:218s:foil": 2,
+          "ptdm:220s:foil": 2,
+          "ptdm:222s:foil": 2,
+          "ptdm:223s:foil": 1,
+          "ptdm:225s:foil": 2,
+          "ptdm:228s:foil": 2,
+          "ptdm:22s:foil": 2,
+          "ptdm:230s:foil": 1,
+          "ptdm:231s:foil": 2,
+          "ptdm:233s:foil": 1,
+          "ptdm:235s:foil": 2,
+          "ptdm:236s:foil": 2,
+          "ptdm:237s:foil": 2,
+          "ptdm:240s:foil": 2,
+          "ptdm:246s:foil": 1,
+          "ptdm:24s:foil": 1,
+          "ptdm:252s:foil": 2,
+          "ptdm:253s:foil": 2,
+          "ptdm:257s:foil": 2,
+          "ptdm:259s:foil": 2,
+          "ptdm:260s:foil": 2,
+          "ptdm:261s:foil": 2,
+          "ptdm:2s:foil": 2,
+          "ptdm:32s:foil": 2,
+          "ptdm:33s:foil": 2,
+          "ptdm:37s:foil": 2,
+          "ptdm:42s:foil": 2,
+          "ptdm:51sa:foil": 2,
+          "ptdm:52s:foil": 2,
+          "ptdm:59s:foil": 2,
+          "ptdm:5s:foil": 2,
+          "ptdm:60s:foil": 1,
+          "ptdm:67s:foil": 2,
+          "ptdm:73s:foil": 2,
+          "ptdm:86s:foil": 2,
+          "ptdm:87s:foil": 1,
+          "ptdm:90sa:foil": 2,
+          "ptdm:91s:foil": 2,
+          "ptdm:92s:foil": 2,
+          "ptdm:93s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "ptdm"
     ]
   },
   {
@@ -141456,6 +141904,126 @@
     ]
   },
   {
+    "name": "Modern Horizons 2 Prerelease Promo Pack",
+    "code": "mh2-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "mh2",
+    "set_name": "Modern Horizons 2",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 140,
+        "cards": {
+          "pmh2:102s:foil": 1,
+          "pmh2:106s:foil": 2,
+          "pmh2:116s:foil": 2,
+          "pmh2:117s:foil": 2,
+          "pmh2:118s:foil": 2,
+          "pmh2:120s:foil": 2,
+          "pmh2:126s:foil": 1,
+          "pmh2:129s:foil": 2,
+          "pmh2:12s:foil": 2,
+          "pmh2:132s:foil": 2,
+          "pmh2:137s:foil": 2,
+          "pmh2:138s:foil": 1,
+          "pmh2:148s:foil": 2,
+          "pmh2:151s:foil": 1,
+          "pmh2:153s:foil": 2,
+          "pmh2:157s:foil": 1,
+          "pmh2:162s:foil": 2,
+          "pmh2:166s:foil": 2,
+          "pmh2:171s:foil": 2,
+          "pmh2:176s:foil": 2,
+          "pmh2:178s:foil": 1,
+          "pmh2:182s:foil": 2,
+          "pmh2:186s:foil": 2,
+          "pmh2:189s:foil": 2,
+          "pmh2:192s:foil": 1,
+          "pmh2:197s:foil": 1,
+          "pmh2:198s:foil": 2,
+          "pmh2:199s:foil": 1,
+          "pmh2:202s:foil": 1,
+          "pmh2:204s:foil": 2,
+          "pmh2:205s:foil": 2,
+          "pmh2:206s:foil": 2,
+          "pmh2:207s:foil": 2,
+          "pmh2:208s:foil": 2,
+          "pmh2:214s:foil": 2,
+          "pmh2:216s:foil": 2,
+          "pmh2:218s:foil": 2,
+          "pmh2:219s:foil": 2,
+          "pmh2:224s:foil": 2,
+          "pmh2:225s:foil": 2,
+          "pmh2:227s:foil": 1,
+          "pmh2:22s:foil": 2,
+          "pmh2:231s:foil": 2,
+          "pmh2:234s:foil": 1,
+          "pmh2:236s:foil": 2,
+          "pmh2:238s:foil": 1,
+          "pmh2:23s:foil": 2,
+          "pmh2:242s:foil": 2,
+          "pmh2:243s:foil": 2,
+          "pmh2:244s:foil": 2,
+          "pmh2:248s:foil": 2,
+          "pmh2:250s:foil": 2,
+          "pmh2:254s:foil": 2,
+          "pmh2:259s:foil": 2,
+          "pmh2:260s:foil": 2,
+          "pmh2:261s:foil": 2,
+          "pmh2:26s:foil": 2,
+          "pmh2:27s:foil": 2,
+          "pmh2:29s:foil": 2,
+          "pmh2:30s:foil": 1,
+          "pmh2:32s:foil": 1,
+          "pmh2:35s:foil": 2,
+          "pmh2:39s:foil": 2,
+          "pmh2:44s:foil": 2,
+          "pmh2:47s:foil": 2,
+          "pmh2:52s:foil": 1,
+          "pmh2:58s:foil": 2,
+          "pmh2:59s:foil": 2,
+          "pmh2:67s:foil": 1,
+          "pmh2:68s:foil": 2,
+          "pmh2:69s:foil": 1,
+          "pmh2:71s:foil": 2,
+          "pmh2:75s:foil": 1,
+          "pmh2:80s:foil": 2,
+          "pmh2:81s:foil": 2,
+          "pmh2:87s:foil": 1,
+          "pmh2:92s:foil": 2,
+          "pmh2:93s:foil": 2,
+          "pmh2:96s:foil": 2,
+          "pmh2:97s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pmh2"
+    ]
+  },
+  {
     "name": "Modern Horizons 2 Set Booster",
     "code": "mh2-set",
     "languages": [
@@ -146816,6 +147384,136 @@
     "source_set_codes": [
       "sta",
       "stx"
+    ]
+  },
+  {
+    "name": "Strixhaven: School of Mages Prerelease Promo Pack",
+    "code": "stx-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "stx",
+    "set_name": "Strixhaven: School of Mages",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 159,
+        "cards": {
+          "pstx:101s:foil": 2,
+          "pstx:108s:foil": 2,
+          "pstx:113s:foil": 2,
+          "pstx:119s:foil": 2,
+          "pstx:120s:foil": 2,
+          "pstx:127s:foil": 2,
+          "pstx:128s:foil": 1,
+          "pstx:130s:foil": 2,
+          "pstx:133s:foil": 2,
+          "pstx:146s:foil": 2,
+          "pstx:147sa:foil": 2,
+          "pstx:148sa:foil": 1,
+          "pstx:149sa:foil": 1,
+          "pstx:14s:foil": 2,
+          "pstx:150sa:foil": 2,
+          "pstx:151sa:foil": 1,
+          "pstx:152sa:foil": 2,
+          "pstx:153sa:foil": 1,
+          "pstx:154sa:foil": 2,
+          "pstx:155sa:foil": 2,
+          "pstx:156sa:foil": 1,
+          "pstx:157sa:foil": 2,
+          "pstx:158sa:foil": 2,
+          "pstx:159sa:foil": 2,
+          "pstx:160sa:foil": 2,
+          "pstx:161sa:foil": 2,
+          "pstx:163s:foil": 1,
+          "pstx:165s:foil": 2,
+          "pstx:167s:foil": 1,
+          "pstx:168s:foil": 1,
+          "pstx:172s:foil": 2,
+          "pstx:173s:foil": 2,
+          "pstx:174s:foil": 2,
+          "pstx:179s:foil": 2,
+          "pstx:17s:foil": 2,
+          "pstx:180s:foil": 2,
+          "pstx:181s:foil": 2,
+          "pstx:189s:foil": 1,
+          "pstx:191s:foil": 1,
+          "pstx:192s:foil": 1,
+          "pstx:196s:foil": 1,
+          "pstx:199s:foil": 2,
+          "pstx:203s:foil": 1,
+          "pstx:205s:foil": 2,
+          "pstx:20s:foil": 2,
+          "pstx:214s:foil": 2,
+          "pstx:217s:foil": 2,
+          "pstx:21s:foil": 1,
+          "pstx:221s:foil": 2,
+          "pstx:228s:foil": 2,
+          "pstx:230s:foil": 1,
+          "pstx:232s:foil": 2,
+          "pstx:234s:foil": 2,
+          "pstx:240s:foil": 1,
+          "pstx:244s:foil": 2,
+          "pstx:245s:foil": 1,
+          "pstx:246s:foil": 2,
+          "pstx:248s:foil": 2,
+          "pstx:253s:foil": 2,
+          "pstx:259s:foil": 2,
+          "pstx:264s:foil": 2,
+          "pstx:265s:foil": 2,
+          "pstx:266s:foil": 2,
+          "pstx:267s:foil": 2,
+          "pstx:269s:foil": 2,
+          "pstx:272s:foil": 2,
+          "pstx:274s:foil": 2,
+          "pstx:27s:foil": 2,
+          "pstx:29s:foil": 2,
+          "pstx:33s:foil": 2,
+          "pstx:37s:foil": 2,
+          "pstx:42s:foil": 2,
+          "pstx:44s:foil": 2,
+          "pstx:48s:foil": 2,
+          "pstx:57s:foil": 2,
+          "pstx:58s:foil": 2,
+          "pstx:5s:foil": 1,
+          "pstx:64s:foil": 2,
+          "pstx:66s:foil": 2,
+          "pstx:67s:foil": 2,
+          "pstx:6sa:foil": 2,
+          "pstx:7s:foil": 2,
+          "pstx:80s:foil": 2,
+          "pstx:82s:foil": 2,
+          "pstx:83s:foil": 1,
+          "pstx:86s:foil": 2,
+          "pstx:94s:foil": 2,
+          "pstx:95s:foil": 1,
+          "pstx:96s:foil": 2,
+          "pstx:98s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pstx"
     ]
   },
   {
@@ -172239,6 +172937,60 @@
     ]
   },
   {
+    "name": "Signature Spellbook: Chandra",
+    "code": "ss3",
+    "languages": [
+      "en"
+    ],
+    "set_code": "ss3",
+    "set_name": "Signature Spellbook: Chandra",
+    "boosters": [
+      {
+        "sheets": {
+          "nonfoil": 8,
+          "foil": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "nonfoil",
+          "foil"
+        ]
+      }
+    ],
+    "sheets": {
+      "nonfoil": {
+        "fixed": true,
+        "total_weight": 8,
+        "cards": {
+          "ss3:1": 1,
+          "ss3:2": 1,
+          "ss3:3": 1,
+          "ss3:4": 1,
+          "ss3:5": 1,
+          "ss3:6": 1,
+          "ss3:7": 1,
+          "ss3:8": 1
+        }
+      },
+      "foil": {
+        "total_weight": 8,
+        "cards": {
+          "ss3:1:foil": 1,
+          "ss3:2:foil": 1,
+          "ss3:3:foil": 1,
+          "ss3:4:foil": 1,
+          "ss3:5:foil": 1,
+          "ss3:6:foil": 1,
+          "ss3:7:foil": 1,
+          "ss3:8:foil": 1
+        }
+      }
+    },
+    "source_set_codes": [
+      "ss3"
+    ]
+  },
+  {
     "name": "Ikoria: Lair of Behemoths Arena Booster",
     "code": "iko-arena",
     "languages": [
@@ -178412,6 +179164,114 @@
     },
     "source_set_codes": [
       "thb"
+    ]
+  },
+  {
+    "name": "Theros Beyond Death Prerelease Promo Pack",
+    "code": "thb-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "thb",
+    "set_name": "Theros Beyond Death",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 121,
+        "cards": {
+          "pthb:108s:foil": 2,
+          "pthb:117s:foil": 2,
+          "pthb:118s:foil": 2,
+          "pthb:123s:foil": 2,
+          "pthb:124s:foil": 2,
+          "pthb:12s:foil": 2,
+          "pthb:13s:foil": 2,
+          "pthb:147s:foil": 1,
+          "pthb:148s:foil": 2,
+          "pthb:14s:foil": 1,
+          "pthb:150s:foil": 1,
+          "pthb:151s:foil": 2,
+          "pthb:156s:foil": 2,
+          "pthb:157s:foil": 2,
+          "pthb:158s:foil": 2,
+          "pthb:161s:foil": 2,
+          "pthb:165s:foil": 2,
+          "pthb:169s:foil": 2,
+          "pthb:170s:foil": 2,
+          "pthb:178s:foil": 2,
+          "pthb:181s:foil": 2,
+          "pthb:185s:foil": 1,
+          "pthb:188s:foil": 2,
+          "pthb:18s:foil": 1,
+          "pthb:190s:foil": 1,
+          "pthb:198s:foil": 2,
+          "pthb:19s:foil": 2,
+          "pthb:207s:foil": 2,
+          "pthb:208s:foil": 1,
+          "pthb:209s:foil": 2,
+          "pthb:210s:foil": 2,
+          "pthb:211s:foil": 1,
+          "pthb:212s:foil": 2,
+          "pthb:214s:foil": 2,
+          "pthb:215s:foil": 2,
+          "pthb:217s:foil": 2,
+          "pthb:218s:foil": 2,
+          "pthb:220s:foil": 1,
+          "pthb:221s:foil": 1,
+          "pthb:222s:foil": 2,
+          "pthb:224s:foil": 1,
+          "pthb:229s:foil": 1,
+          "pthb:235s:foil": 2,
+          "pthb:236s:foil": 2,
+          "pthb:243s:foil": 2,
+          "pthb:244s:foil": 2,
+          "pthb:245s:foil": 2,
+          "pthb:246s:foil": 2,
+          "pthb:247s:foil": 2,
+          "pthb:248s:foil": 2,
+          "pthb:24s:foil": 2,
+          "pthb:37s:foil": 2,
+          "pthb:39s:foil": 2,
+          "pthb:3s:foil": 2,
+          "pthb:43s:foil": 2,
+          "pthb:52s:foil": 1,
+          "pthb:55s:foil": 2,
+          "pthb:60s:foil": 2,
+          "pthb:71s:foil": 1,
+          "pthb:72s:foil": 2,
+          "pthb:73s:foil": 2,
+          "pthb:76s:foil": 2,
+          "pthb:80s:foil": 2,
+          "pthb:84s:foil": 2,
+          "pthb:90s:foil": 2,
+          "pthb:93s:foil": 1,
+          "pthb:94s:foil": 2,
+          "pthb:98s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pthb"
     ]
   },
   {
@@ -190671,6 +191531,60 @@
     ]
   },
   {
+    "name": "Signature Spellbook: Gideon",
+    "code": "ss2",
+    "languages": [
+      "en"
+    ],
+    "set_code": "ss2",
+    "set_name": "Signature Spellbook: Gideon",
+    "boosters": [
+      {
+        "sheets": {
+          "nonfoil": 8,
+          "foil": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "nonfoil",
+          "foil"
+        ]
+      }
+    ],
+    "sheets": {
+      "nonfoil": {
+        "fixed": true,
+        "total_weight": 8,
+        "cards": {
+          "ss2:1": 1,
+          "ss2:2": 1,
+          "ss2:3": 1,
+          "ss2:4": 1,
+          "ss2:5": 1,
+          "ss2:6": 1,
+          "ss2:7": 1,
+          "ss2:8": 1
+        }
+      },
+      "foil": {
+        "total_weight": 8,
+        "cards": {
+          "ss2:1:foil": 1,
+          "ss2:2:foil": 1,
+          "ss2:3:foil": 1,
+          "ss2:4:foil": 1,
+          "ss2:5:foil": 1,
+          "ss2:6:foil": 1,
+          "ss2:7:foil": 1,
+          "ss2:8:foil": 1
+        }
+      }
+    },
+    "source_set_codes": [
+      "ss2"
+    ]
+  },
+  {
     "name": "Modern Horizons Draft Booster",
     "code": "mh1-draft",
     "languages": [
@@ -194829,6 +195743,86 @@
     ]
   },
   {
+    "name": "Ravnica Allegiance Prerelease Promo Pack",
+    "code": "rna-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "rna",
+    "set_name": "Ravnica Allegiance",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 75,
+        "cards": {
+          "prna:106s:foil": 2,
+          "prna:108s:foil": 2,
+          "prna:109s:foil": 2,
+          "prna:11s:foil": 2,
+          "prna:124s:foil": 2,
+          "prna:128s:foil": 2,
+          "prna:130s:foil": 2,
+          "prna:131s:foil": 2,
+          "prna:134s:foil": 2,
+          "prna:151s:foil": 2,
+          "prna:157s:foil": 2,
+          "prna:158s:foil": 2,
+          "prna:15s:foil": 2,
+          "prna:161s:foil": 2,
+          "prna:165s:foil": 2,
+          "prna:169s:foil": 1,
+          "prna:170s:foil": 2,
+          "prna:179s:foil": 2,
+          "prna:183s:foil": 1,
+          "prna:185s:foil": 2,
+          "prna:187s:foil": 2,
+          "prna:189s:foil": 2,
+          "prna:193s:foil": 2,
+          "prna:199s:foil": 1,
+          "prna:200s:foil": 1,
+          "prna:205s:foil": 1,
+          "prna:207s:foil": 2,
+          "prna:212s:foil": 2,
+          "prna:213s:foil": 2,
+          "prna:214s:foil": 2,
+          "prna:27s:foil": 2,
+          "prna:29s:foil": 2,
+          "prna:32s:foil": 2,
+          "prna:45s:foil": 2,
+          "prna:55s:foil": 2,
+          "prna:61s:foil": 2,
+          "prna:74s:foil": 2,
+          "prna:76s:foil": 2,
+          "prna:83s:foil": 2,
+          "prna:92s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "prna"
+    ]
+  },
+  {
     "name": "Ravnica Allegiance Theme Booster Azorius",
     "code": "rna-theme-azorius",
     "languages": [
@@ -197252,6 +198246,86 @@
     ]
   },
   {
+    "name": "Guilds of Ravnica Prerelease Promo Pack",
+    "code": "grn-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "grn",
+    "set_name": "Guilds of Ravnica",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 75,
+        "cards": {
+          "pgrn:109s:foil": 2,
+          "pgrn:113s:foil": 2,
+          "pgrn:115s:foil": 2,
+          "pgrn:123s:foil": 2,
+          "pgrn:124s:foil": 2,
+          "pgrn:132s:foil": 2,
+          "pgrn:148s:foil": 2,
+          "pgrn:152s:foil": 2,
+          "pgrn:153s:foil": 1,
+          "pgrn:165s:foil": 2,
+          "pgrn:168s:foil": 2,
+          "pgrn:170s:foil": 2,
+          "pgrn:171s:foil": 2,
+          "pgrn:179s:foil": 2,
+          "pgrn:180s:foil": 2,
+          "pgrn:183s:foil": 2,
+          "pgrn:184s:foil": 1,
+          "pgrn:192s:foil": 2,
+          "pgrn:19s:foil": 2,
+          "pgrn:203s:foil": 2,
+          "pgrn:204s:foil": 2,
+          "pgrn:205s:foil": 2,
+          "pgrn:207s:foil": 1,
+          "pgrn:208s:foil": 1,
+          "pgrn:211s:foil": 1,
+          "pgrn:221sa:foil": 2,
+          "pgrn:222sa:foil": 2,
+          "pgrn:224sa:foil": 2,
+          "pgrn:225sa:foil": 2,
+          "pgrn:229sa:foil": 2,
+          "pgrn:30s:foil": 2,
+          "pgrn:44s:foil": 2,
+          "pgrn:47s:foil": 2,
+          "pgrn:4s:foil": 2,
+          "pgrn:51s:foil": 2,
+          "pgrn:63s:foil": 2,
+          "pgrn:71s:foil": 2,
+          "pgrn:75s:foil": 2,
+          "pgrn:84s:foil": 2,
+          "pgrn:8s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pgrn"
+    ]
+  },
+  {
     "name": "Guilds of Ravnica Theme Booster Boros",
     "code": "grn-theme-boros",
     "languages": [
@@ -199204,6 +200278,60 @@
     ]
   },
   {
+    "name": "Signature Spellbook: Jace",
+    "code": "ss1",
+    "languages": [
+      "en"
+    ],
+    "set_code": "ss1",
+    "set_name": "Signature Spellbook: Jace",
+    "boosters": [
+      {
+        "sheets": {
+          "nonfoil": 8,
+          "foil": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "nonfoil",
+          "foil"
+        ]
+      }
+    ],
+    "sheets": {
+      "nonfoil": {
+        "fixed": true,
+        "total_weight": 8,
+        "cards": {
+          "ss1:1": 1,
+          "ss1:2": 1,
+          "ss1:3": 1,
+          "ss1:4": 1,
+          "ss1:5": 1,
+          "ss1:6": 1,
+          "ss1:7": 1,
+          "ss1:8": 1
+        }
+      },
+      "foil": {
+        "total_weight": 8,
+        "cards": {
+          "ss1:1:foil": 1,
+          "ss1:2:foil": 1,
+          "ss1:3:foil": 1,
+          "ss1:4:foil": 1,
+          "ss1:5:foil": 1,
+          "ss1:6:foil": 1,
+          "ss1:7:foil": 1,
+          "ss1:8:foil": 1
+        }
+      }
+    },
+    "source_set_codes": [
+      "ss1"
+    ]
+  },
+  {
     "name": "Battlebond Draft Booster",
     "code": "bbd-draft",
     "languages": [
@@ -200454,6 +201582,50 @@
     },
     "source_set_codes": [
       "bbd"
+    ]
+  },
+  {
+    "name": "Battlebond Prerelease Promo Pack",
+    "code": "bbd-prerelease",
+    "languages": [
+      "cn",
+      "en",
+      "jp"
+    ],
+    "set_code": "bbd",
+    "set_name": "Battlebond",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 22,
+        "cards": {
+          "pbbd:10s:foil": 2,
+          "pbbd:11s:foil": 2,
+          "pbbd:12s:foil": 2,
+          "pbbd:255s:foil": 1,
+          "pbbd:256s:foil": 1,
+          "pbbd:3s:foil": 2,
+          "pbbd:4s:foil": 2,
+          "pbbd:5s:foil": 2,
+          "pbbd:6s:foil": 2,
+          "pbbd:7s:foil": 2,
+          "pbbd:8s:foil": 2,
+          "pbbd:9s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pbbd"
     ]
   },
   {
@@ -203706,6 +204878,107 @@
     },
     "source_set_codes": [
       "rix"
+    ]
+  },
+  {
+    "name": "Rivals of Ixalan Prerelease Promo Pack",
+    "code": "rix-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "rix",
+    "set_name": "Rivals of Ixalan",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 109,
+        "cards": {
+          "prix:100s:foil": 2,
+          "prix:103s:foil": 2,
+          "prix:111s:foil": 1,
+          "prix:115s:foil": 2,
+          "prix:121s:foil": 2,
+          "prix:127s:foil": 2,
+          "prix:130s:foil": 2,
+          "prix:136s:foil": 2,
+          "prix:142s:foil": 2,
+          "prix:144s:foil": 1,
+          "prix:147s:foil": 2,
+          "prix:150s:foil": 2,
+          "prix:151s:foil": 2,
+          "prix:152s:foil": 1,
+          "prix:154s:foil": 1,
+          "prix:157s:foil": 1,
+          "prix:158sa:foil": 2,
+          "prix:159s:foil": 1,
+          "prix:160sa:foil": 2,
+          "prix:162s:foil": 1,
+          "prix:165sa:foil": 2,
+          "prix:166sa:foil": 2,
+          "prix:167s:foil": 2,
+          "prix:16s:foil": 2,
+          "prix:171s:foil": 2,
+          "prix:173sa:foil": 2,
+          "prix:174s:foil": 1,
+          "prix:175s:foil": 2,
+          "prix:176sa:foil": 1,
+          "prix:177s:foil": 2,
+          "prix:179sa:foil": 2,
+          "prix:180s:foil": 1,
+          "prix:182s:foil": 2,
+          "prix:185s:foil": 2,
+          "prix:18s:foil": 2,
+          "prix:22s:foil": 2,
+          "prix:24s:foil": 2,
+          "prix:28s:foil": 2,
+          "prix:29s:foil": 1,
+          "prix:2s:foil": 2,
+          "prix:30s:foil": 2,
+          "prix:31s:foil": 2,
+          "prix:33s:foil": 2,
+          "prix:40s:foil": 2,
+          "prix:42s:foil": 2,
+          "prix:45s:foil": 2,
+          "prix:46s:foil": 2,
+          "prix:51s:foil": 2,
+          "prix:59s:foil": 1,
+          "prix:60s:foil": 2,
+          "prix:64s:foil": 2,
+          "prix:66s:foil": 2,
+          "prix:68s:foil": 2,
+          "prix:77s:foil": 2,
+          "prix:86s:foil": 2,
+          "prix:87s:foil": 2,
+          "prix:88s:foil": 1,
+          "prix:90s:foil": 2,
+          "prix:92s:foil": 2,
+          "prix:94s:foil": 2,
+          "prix:99s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "prix"
     ]
   },
   {
@@ -213342,6 +214615,123 @@
     ]
   },
   {
+    "name": "Shadows over Innistrad Prerelease Promo Pack",
+    "code": "soi-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "soi",
+    "set_name": "Shadows over Innistrad",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 136,
+        "cards": {
+          "psoi:101s:foil": 1,
+          "psoi:107s:foil": 2,
+          "psoi:108sa:foil": 2,
+          "psoi:109s:foil": 2,
+          "psoi:111s:foil": 2,
+          "psoi:122s:foil": 2,
+          "psoi:124s:foil": 1,
+          "psoi:12s:foil": 2,
+          "psoi:131s:foil": 1,
+          "psoi:139s:foil": 2,
+          "psoi:13s:foil": 1,
+          "psoi:141s:foil": 2,
+          "psoi:145s:foil": 2,
+          "psoi:148s:foil": 2,
+          "psoi:151s:foil": 2,
+          "psoi:155s:foil": 2,
+          "psoi:157s:foil": 2,
+          "psoi:159sa:foil": 2,
+          "psoi:15s:foil": 2,
+          "psoi:162s:foil": 1,
+          "psoi:163s:foil": 2,
+          "psoi:16s:foil": 2,
+          "psoi:179s:foil": 2,
+          "psoi:181s:foil": 2,
+          "psoi:192s:foil": 1,
+          "psoi:1s:foil": 2,
+          "psoi:200s:foil": 2,
+          "psoi:202s:foil": 2,
+          "psoi:212s:foil": 2,
+          "psoi:21sa:foil": 2,
+          "psoi:225sa:foil": 2,
+          "psoi:226s:foil": 1,
+          "psoi:227s:foil": 2,
+          "psoi:228s:foil": 2,
+          "psoi:230s:foil": 2,
+          "psoi:233s:foil": 2,
+          "psoi:234s:foil": 2,
+          "psoi:235s:foil": 1,
+          "psoi:241s:foil": 2,
+          "psoi:242s:foil": 2,
+          "psoi:243sa:foil": 1,
+          "psoi:244s:foil": 2,
+          "psoi:245s:foil": 1,
+          "psoi:246s:foil": 2,
+          "psoi:247s:foil": 1,
+          "psoi:248s:foil": 1,
+          "psoi:249s:foil": 2,
+          "psoi:250s:foil": 1,
+          "psoi:251s:foil": 1,
+          "psoi:252s:foil": 2,
+          "psoi:253s:foil": 2,
+          "psoi:264s:foil": 2,
+          "psoi:265s:foil": 2,
+          "psoi:270s:foil": 2,
+          "psoi:271s:foil": 2,
+          "psoi:272s:foil": 2,
+          "psoi:274s:foil": 2,
+          "psoi:276s:foil": 2,
+          "psoi:278s:foil": 2,
+          "psoi:281sa:foil": 2,
+          "psoi:2s:foil": 2,
+          "psoi:31s:foil": 2,
+          "psoi:43s:foil": 2,
+          "psoi:53s:foil": 2,
+          "psoi:58s:foil": 2,
+          "psoi:59s:foil": 2,
+          "psoi:5sa:foil": 1,
+          "psoi:63s:foil": 2,
+          "psoi:65s:foil": 1,
+          "psoi:69s:foil": 1,
+          "psoi:75s:foil": 2,
+          "psoi:81s:foil": 2,
+          "psoi:88sa:foil": 1,
+          "psoi:8s:foil": 2,
+          "psoi:92sa:foil": 2,
+          "psoi:96s:foil": 2,
+          "psoi:99s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "psoi"
+    ]
+  },
+  {
     "name": "Oath of the Gatewatch Draft Booster",
     "code": "ogw-draft",
     "languages": [
@@ -213863,6 +215253,100 @@
       "bfz",
       "exp",
       "ogw"
+    ]
+  },
+  {
+    "name": "Oath of the Gatewatch Prerelease Promo Pack",
+    "code": "ogw-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "ogw",
+    "set_name": "Oath of the Gatewatch",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 96,
+        "cards": {
+          "pogw:104s:foil": 1,
+          "pogw:109s:foil": 2,
+          "pogw:110s:foil": 2,
+          "pogw:113s:foil": 2,
+          "pogw:119s:foil": 2,
+          "pogw:125s:foil": 2,
+          "pogw:126s:foil": 1,
+          "pogw:132s:foil": 2,
+          "pogw:138s:foil": 1,
+          "pogw:13s:foil": 2,
+          "pogw:140s:foil": 2,
+          "pogw:144s:foil": 2,
+          "pogw:147s:foil": 2,
+          "pogw:151s:foil": 2,
+          "pogw:155s:foil": 2,
+          "pogw:156s:foil": 2,
+          "pogw:162s:foil": 2,
+          "pogw:166s:foil": 2,
+          "pogw:169s:foil": 2,
+          "pogw:16s:foil": 2,
+          "pogw:171s:foil": 2,
+          "pogw:174s:foil": 1,
+          "pogw:175s:foil": 2,
+          "pogw:176s:foil": 2,
+          "pogw:177s:foil": 2,
+          "pogw:182s:foil": 2,
+          "pogw:19s:foil": 1,
+          "pogw:1s:foil": 2,
+          "pogw:25s:foil": 1,
+          "pogw:29s:foil": 2,
+          "pogw:2s:foil": 2,
+          "pogw:30s:foil": 2,
+          "pogw:37s:foil": 2,
+          "pogw:3s:foil": 2,
+          "pogw:43s:foil": 2,
+          "pogw:44s:foil": 2,
+          "pogw:4s:foil": 1,
+          "pogw:53s:foil": 1,
+          "pogw:57s:foil": 2,
+          "pogw:60s:foil": 2,
+          "pogw:61s:foil": 2,
+          "pogw:63s:foil": 1,
+          "pogw:67s:foil": 2,
+          "pogw:68s:foil": 2,
+          "pogw:6s:foil": 2,
+          "pogw:72s:foil": 1,
+          "pogw:77s:foil": 2,
+          "pogw:7s:foil": 2,
+          "pogw:84s:foil": 2,
+          "pogw:86s:foil": 1,
+          "pogw:89s:foil": 2,
+          "pogw:96s:foil": 2,
+          "pogw:98s:foil": 1,
+          "pogw:9s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pogw"
     ]
   },
   {
@@ -215257,6 +216741,86 @@
     },
     "source_set_codes": [
       "ori"
+    ]
+  },
+  {
+    "name": "Magic Origins Prerelease Promo Pack",
+    "code": "ori-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "ori",
+    "set_name": "Magic Origins",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 75,
+        "cards": {
+          "pori:101s:foil": 2,
+          "pori:104s:foil": 2,
+          "pori:105s:foil": 2,
+          "pori:106sa:foil": 1,
+          "pori:112s:foil": 2,
+          "pori:127s:foil": 2,
+          "pori:135sa:foil": 1,
+          "pori:137s:foil": 2,
+          "pori:141s:foil": 2,
+          "pori:143s:foil": 2,
+          "pori:14s:foil": 2,
+          "pori:151s:foil": 2,
+          "pori:157s:foil": 2,
+          "pori:160s:foil": 2,
+          "pori:172s:foil": 2,
+          "pori:176s:foil": 2,
+          "pori:177s:foil": 2,
+          "pori:182s:foil": 2,
+          "pori:186s:foil": 2,
+          "pori:189sa:foil": 1,
+          "pori:191s:foil": 2,
+          "pori:193s:foil": 2,
+          "pori:19s:foil": 2,
+          "pori:21s:foil": 2,
+          "pori:23sa:foil": 1,
+          "pori:24s:foil": 2,
+          "pori:29s:foil": 2,
+          "pori:38s:foil": 2,
+          "pori:40s:foil": 2,
+          "pori:43s:foil": 2,
+          "pori:58s:foil": 2,
+          "pori:60sa:foil": 1,
+          "pori:64s:foil": 2,
+          "pori:75s:foil": 2,
+          "pori:78s:foil": 2,
+          "pori:79s:foil": 2,
+          "pori:84s:foil": 2,
+          "pori:90s:foil": 2,
+          "pori:93s:foil": 2,
+          "pori:99s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pori"
     ]
   },
   {
@@ -218206,6 +219770,76 @@
     ]
   },
   {
+    "name": "Fate Reforged Prerelease Promo Pack",
+    "code": "frf-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "frf",
+    "set_name": "Fate Reforged",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 55,
+        "cards": {
+          "pfrf:100s:foil": 2,
+          "pfrf:113s:foil": 1,
+          "pfrf:11s:foil": 2,
+          "pfrf:137s:foil": 2,
+          "pfrf:138s:foil": 2,
+          "pfrf:143s:foil": 1,
+          "pfrf:146s:foil": 2,
+          "pfrf:148s:foil": 2,
+          "pfrf:149s:foil": 2,
+          "pfrf:151s:foil": 2,
+          "pfrf:155s:foil": 2,
+          "pfrf:156s:foil": 2,
+          "pfrf:157s:foil": 2,
+          "pfrf:19s:foil": 2,
+          "pfrf:22s:foil": 2,
+          "pfrf:27s:foil": 1,
+          "pfrf:36s:foil": 2,
+          "pfrf:50s:foil": 2,
+          "pfrf:52s:foil": 2,
+          "pfrf:54s:foil": 2,
+          "pfrf:56s:foil": 1,
+          "pfrf:62s:foil": 2,
+          "pfrf:64s:foil": 1,
+          "pfrf:75s:foil": 2,
+          "pfrf:84s:foil": 2,
+          "pfrf:87s:foil": 2,
+          "pfrf:90s:foil": 2,
+          "pfrf:91s:foil": 2,
+          "pfrf:99s:foil": 2,
+          "pfrf:9s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pfrf"
+    ]
+  },
+  {
     "name": "Ugin's Fate Event Booster Pack",
     "code": "ugin-fate",
     "languages": [
@@ -219213,6 +220847,86 @@
     },
     "source_set_codes": [
       "ktk"
+    ]
+  },
+  {
+    "name": "Khans of Tarkir Prerelease Promo Pack",
+    "code": "ktk-prerelease",
+    "languages": [
+      "cn",
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "kr",
+      "pt",
+      "ru",
+      "sp"
+    ],
+    "set_code": "ktk",
+    "set_name": "Khans of Tarkir",
+    "boosters": [
+      {
+        "sheets": {
+          "prerelease_promo": 1
+        },
+        "weight": 1,
+        "sheet_order": [
+          "prerelease_promo"
+        ]
+      }
+    ],
+    "sheets": {
+      "prerelease_promo": {
+        "total_weight": 75,
+        "cards": {
+          "pktk:106s:foil": 2,
+          "pktk:108s:foil": 2,
+          "pktk:113s:foil": 2,
+          "pktk:12s:foil": 2,
+          "pktk:133s:foil": 2,
+          "pktk:13s:foil": 2,
+          "pktk:144s:foil": 2,
+          "pktk:154s:foil": 2,
+          "pktk:160s:foil": 2,
+          "pktk:163s:foil": 1,
+          "pktk:164s:foil": 2,
+          "pktk:166s:foil": 2,
+          "pktk:168s:foil": 2,
+          "pktk:171s:foil": 2,
+          "pktk:173s:foil": 2,
+          "pktk:174s:foil": 2,
+          "pktk:176s:foil": 2,
+          "pktk:179s:foil": 2,
+          "pktk:180s:foil": 2,
+          "pktk:182s:foil": 2,
+          "pktk:185s:foil": 2,
+          "pktk:18s:foil": 2,
+          "pktk:190s:foil": 1,
+          "pktk:193s:foil": 2,
+          "pktk:195s:foil": 2,
+          "pktk:199s:foil": 1,
+          "pktk:200s:foil": 2,
+          "pktk:203s:foil": 2,
+          "pktk:206s:foil": 1,
+          "pktk:207s:foil": 2,
+          "pktk:209s:foil": 2,
+          "pktk:210s:foil": 2,
+          "pktk:211s:foil": 2,
+          "pktk:214s:foil": 1,
+          "pktk:36s:foil": 2,
+          "pktk:42s:foil": 2,
+          "pktk:58s:foil": 2,
+          "pktk:66s:foil": 2,
+          "pktk:73s:foil": 2,
+          "pktk:82s:foil": 2
+        }
+      }
+    },
+    "source_set_codes": [
+      "pktk"
     ]
   },
   {

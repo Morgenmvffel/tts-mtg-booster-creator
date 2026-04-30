@@ -1,0 +1,80 @@
+{
+  "name": "Khans of Tarkir Prerelease Promo Pack",
+  "code": "ktk-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ktk",
+  "set_name": "Khans of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 75,
+      "cards": {
+        "pktk:106s:foil": 2,
+        "pktk:108s:foil": 2,
+        "pktk:113s:foil": 2,
+        "pktk:12s:foil": 2,
+        "pktk:133s:foil": 2,
+        "pktk:13s:foil": 2,
+        "pktk:144s:foil": 2,
+        "pktk:154s:foil": 2,
+        "pktk:160s:foil": 2,
+        "pktk:163s:foil": 1,
+        "pktk:164s:foil": 2,
+        "pktk:166s:foil": 2,
+        "pktk:168s:foil": 2,
+        "pktk:171s:foil": 2,
+        "pktk:173s:foil": 2,
+        "pktk:174s:foil": 2,
+        "pktk:176s:foil": 2,
+        "pktk:179s:foil": 2,
+        "pktk:180s:foil": 2,
+        "pktk:182s:foil": 2,
+        "pktk:185s:foil": 2,
+        "pktk:18s:foil": 2,
+        "pktk:190s:foil": 1,
+        "pktk:193s:foil": 2,
+        "pktk:195s:foil": 2,
+        "pktk:199s:foil": 1,
+        "pktk:200s:foil": 2,
+        "pktk:203s:foil": 2,
+        "pktk:206s:foil": 1,
+        "pktk:207s:foil": 2,
+        "pktk:209s:foil": 2,
+        "pktk:210s:foil": 2,
+        "pktk:211s:foil": 2,
+        "pktk:214s:foil": 1,
+        "pktk:36s:foil": 2,
+        "pktk:42s:foil": 2,
+        "pktk:58s:foil": 2,
+        "pktk:66s:foil": 2,
+        "pktk:73s:foil": 2,
+        "pktk:82s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pktk"
+  ]
+}

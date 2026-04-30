@@ -1,0 +1,44 @@
+{
+  "name": "Battlebond Prerelease Promo Pack",
+  "code": "bbd-prerelease",
+  "languages": [
+    "cn",
+    "en",
+    "jp"
+  ],
+  "set_code": "bbd",
+  "set_name": "Battlebond",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 22,
+      "cards": {
+        "pbbd:10s:foil": 2,
+        "pbbd:11s:foil": 2,
+        "pbbd:12s:foil": 2,
+        "pbbd:255s:foil": 1,
+        "pbbd:256s:foil": 1,
+        "pbbd:3s:foil": 2,
+        "pbbd:4s:foil": 2,
+        "pbbd:5s:foil": 2,
+        "pbbd:6s:foil": 2,
+        "pbbd:7s:foil": 2,
+        "pbbd:8s:foil": 2,
+        "pbbd:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pbbd"
+  ]
+}

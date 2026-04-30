@@ -1,0 +1,108 @@
+{
+  "name": "Theros Beyond Death Prerelease Promo Pack",
+  "code": "thb-prerelease",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "thb",
+  "set_name": "Theros Beyond Death",
+  "boosters": [
+    {
+      "sheets": {
+        "prerelease_promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "prerelease_promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "prerelease_promo": {
+      "total_weight": 121,
+      "cards": {
+        "pthb:108s:foil": 2,
+        "pthb:117s:foil": 2,
+        "pthb:118s:foil": 2,
+        "pthb:123s:foil": 2,
+        "pthb:124s:foil": 2,
+        "pthb:12s:foil": 2,
+        "pthb:13s:foil": 2,
+        "pthb:147s:foil": 1,
+        "pthb:148s:foil": 2,
+        "pthb:14s:foil": 1,
+        "pthb:150s:foil": 1,
+        "pthb:151s:foil": 2,
+        "pthb:156s:foil": 2,
+        "pthb:157s:foil": 2,
+        "pthb:158s:foil": 2,
+        "pthb:161s:foil": 2,
+        "pthb:165s:foil": 2,
+        "pthb:169s:foil": 2,
+        "pthb:170s:foil": 2,
+        "pthb:178s:foil": 2,
+        "pthb:181s:foil": 2,
+        "pthb:185s:foil": 1,
+        "pthb:188s:foil": 2,
+        "pthb:18s:foil": 1,
+        "pthb:190s:foil": 1,
+        "pthb:198s:foil": 2,
+        "pthb:19s:foil": 2,
+        "pthb:207s:foil": 2,
+        "pthb:208s:foil": 1,
+        "pthb:209s:foil": 2,
+        "pthb:210s:foil": 2,
+        "pthb:211s:foil": 1,
+        "pthb:212s:foil": 2,
+        "pthb:214s:foil": 2,
+        "pthb:215s:foil": 2,
+        "pthb:217s:foil": 2,
+        "pthb:218s:foil": 2,
+        "pthb:220s:foil": 1,
+        "pthb:221s:foil": 1,
+        "pthb:222s:foil": 2,
+        "pthb:224s:foil": 1,
+        "pthb:229s:foil": 1,
+        "pthb:235s:foil": 2,
+        "pthb:236s:foil": 2,
+        "pthb:243s:foil": 2,
+        "pthb:244s:foil": 2,
+        "pthb:245s:foil": 2,
+        "pthb:246s:foil": 2,
+        "pthb:247s:foil": 2,
+        "pthb:248s:foil": 2,
+        "pthb:24s:foil": 2,
+        "pthb:37s:foil": 2,
+        "pthb:39s:foil": 2,
+        "pthb:3s:foil": 2,
+        "pthb:43s:foil": 2,
+        "pthb:52s:foil": 1,
+        "pthb:55s:foil": 2,
+        "pthb:60s:foil": 2,
+        "pthb:71s:foil": 1,
+        "pthb:72s:foil": 2,
+        "pthb:73s:foil": 2,
+        "pthb:76s:foil": 2,
+        "pthb:80s:foil": 2,
+        "pthb:84s:foil": 2,
+        "pthb:90s:foil": 2,
+        "pthb:93s:foil": 1,
+        "pthb:94s:foil": 2,
+        "pthb:98s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "pthb"
+  ]
+}
