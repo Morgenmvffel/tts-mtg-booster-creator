@@ -2,7 +2,12 @@
   "name": "Secrets of Strixhaven Collector Booster",
   "code": "sos-collector",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sos",
   "set_name": "Secrets of Strixhaven",

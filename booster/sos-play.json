@@ -2,7 +2,12 @@
   "name": "Secrets of Strixhaven Play Booster",
   "code": "sos-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "sos",
   "set_name": "Secrets of Strixhaven",
