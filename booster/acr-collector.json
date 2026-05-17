@@ -189,7 +189,7 @@
       }
     },
     "foil_basic": {
-      "total_weight": 28,
+      "total_weight": 10,
       "cards": {
         "acr:101:foil": 1,
         "acr:102:foil": 1,
@@ -200,25 +200,7 @@
         "acr:107:foil": 1,
         "acr:108:foil": 1,
         "acr:109:foil": 1,
-        "acr:110:foil": 1,
-        "acr:111:foil": 1,
-        "acr:112:foil": 1,
-        "acr:113:foil": 1,
-        "acr:114:foil": 1,
-        "acr:115:foil": 1,
-        "acr:116:foil": 1,
-        "acr:117:foil": 1,
-        "acr:118:foil": 1,
-        "acr:118z:foil": 1,
-        "acr:119:foil": 1,
-        "acr:120:foil": 1,
-        "acr:120z:foil": 1,
-        "acr:121:foil": 1,
-        "acr:122:foil": 1,
-        "acr:123:foil": 1,
-        "acr:124:foil": 1,
-        "acr:125:foil": 1,
-        "acr:126:foil": 1
+        "acr:110:foil": 1
       }
     },
     "foil_rare_mythic": {
