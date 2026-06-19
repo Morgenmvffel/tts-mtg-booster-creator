@@ -1,5 +1,13 @@
 [
   {
+    "name": "Marvel Super Heroes Collector Booster",
+    "code": "msh-collector"
+  },
+  {
+    "name": "Marvel Super Heroes Play Booster",
+    "code": "msh-play"
+  },
+  {
     "name": "Secrets of Strixhaven Collector Booster",
     "code": "sos-collector"
   },
