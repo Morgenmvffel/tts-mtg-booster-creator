@@ -1,0 +1,1506 @@
+{
+  "name": "Marvel Super Heroes Jumpstart Booster",
+  "code": "msh-jumpstart",
+  "languages": [
+    "en"
+  ],
+  "set_code": "msh",
+  "set_name": "Marvel Super Heroes",
+  "boosters": [
+    {
+      "sheets": {
+        "agents_of_s_h_i_e_l_d": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "agents_of_s_h_i_e_l_d"
+      ]
+    },
+    {
+      "sheets": {
+        "analyzed": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "analyzed"
+      ]
+    },
+    {
+      "sheets": {
+        "animal": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "animal"
+      ]
+    },
+    {
+      "sheets": {
+        "armed": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "armed"
+      ]
+    },
+    {
+      "sheets": {
+        "atlantis": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "atlantis"
+      ]
+    },
+    {
+      "sheets": {
+        "battalion": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "battalion"
+      ]
+    },
+    {
+      "sheets": {
+        "blink": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "blink"
+      ]
+    },
+    {
+      "sheets": {
+        "boosted": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "boosted"
+      ]
+    },
+    {
+      "sheets": {
+        "caretakers": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "caretakers"
+      ]
+    },
+    {
+      "sheets": {
+        "conniving": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "conniving"
+      ]
+    },
+    {
+      "sheets": {
+        "counterargument": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "counterargument"
+      ]
+    },
+    {
+      "sheets": {
+        "doom": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "doom"
+      ]
+    },
+    {
+      "sheets": {
+        "equipped": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "equipped"
+      ]
+    },
+    {
+      "sheets": {
+        "fantastic": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "fantastic"
+      ]
+    },
+    {
+      "sheets": {
+        "fearless": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "fearless"
+      ]
+    },
+    {
+      "sheets": {
+        "geniuses": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "geniuses"
+      ]
+    },
+    {
+      "sheets": {
+        "great_lakes_avengers": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "great_lakes_avengers"
+      ]
+    },
+    {
+      "sheets": {
+        "hydra": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "hydra"
+      ]
+    },
+    {
+      "sheets": {
+        "heroes_for_hire": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "heroes_for_hire"
+      ]
+    },
+    {
+      "sheets": {
+        "incredible": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "incredible"
+      ]
+    },
+    {
+      "sheets": {
+        "iron_man": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "iron_man"
+      ]
+    },
+    {
+      "sheets": {
+        "kang_dynasty": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "kang_dynasty"
+      ]
+    },
+    {
+      "sheets": {
+        "lethal": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "lethal"
+      ]
+    },
+    {
+      "sheets": {
+        "marvelous": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "marvelous"
+      ]
+    },
+    {
+      "sheets": {
+        "masters_of_evil": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "masters_of_evil"
+      ]
+    },
+    {
+      "sheets": {
+        "mayhem": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "mayhem"
+      ]
+    },
+    {
+      "sheets": {
+        "precise": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "precise"
+      ]
+    },
+    {
+      "sheets": {
+        "pym_particles": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "pym_particles"
+      ]
+    },
+    {
+      "sheets": {
+        "rampaging": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "rampaging"
+      ]
+    },
+    {
+      "sheets": {
+        "returned": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "returned"
+      ]
+    },
+    {
+      "sheets": {
+        "runaways": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "runaways"
+      ]
+    },
+    {
+      "sheets": {
+        "savage_lands": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "savage_lands"
+      ]
+    },
+    {
+      "sheets": {
+        "scarlet": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "scarlet"
+      ]
+    },
+    {
+      "sheets": {
+        "soaring": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "soaring"
+      ]
+    },
+    {
+      "sheets": {
+        "speedy": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "speedy"
+      ]
+    },
+    {
+      "sheets": {
+        "spider_verse": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "spider_verse"
+      ]
+    },
+    {
+      "sheets": {
+        "squadron": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "squadron"
+      ]
+    },
+    {
+      "sheets": {
+        "street_level_villains": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "street_level_villains"
+      ]
+    },
+    {
+      "sheets": {
+        "tenacious": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "tenacious"
+      ]
+    },
+    {
+      "sheets": {
+        "thor": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "thor"
+      ]
+    },
+    {
+      "sheets": {
+        "thunderbolts": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "thunderbolts"
+      ]
+    },
+    {
+      "sheets": {
+        "towering": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "towering"
+      ]
+    },
+    {
+      "sheets": {
+        "trained": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "trained"
+      ]
+    },
+    {
+      "sheets": {
+        "tricksters": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "tricksters"
+      ]
+    },
+    {
+      "sheets": {
+        "ultron": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "ultron"
+      ]
+    },
+    {
+      "sheets": {
+        "uncanny": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "uncanny"
+      ]
+    },
+    {
+      "sheets": {
+        "vehicles": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "vehicles"
+      ]
+    },
+    {
+      "sheets": {
+        "wakanda": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "wakanda"
+      ]
+    },
+    {
+      "sheets": {
+        "web_slinging": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "web_slinging"
+      ]
+    },
+    {
+      "sheets": {
+        "wild": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "wild"
+      ]
+    },
+    {
+      "sheets": {
+        "young_avengers": 20
+      },
+      "weight": 1,
+      "sheet_order": [
+        "young_avengers"
+      ]
+    }
+  ],
+  "sheets": {
+    "agents_of_s_h_i_e_l_d": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:523": 1,
+        "msc:580": 1,
+        "msc:603": 1,
+        "msc:609": 1,
+        "msh:1": 1,
+        "msh:15": 1,
+        "msh:249": 1,
+        "msh:287": 7,
+        "msh:32": 1,
+        "msh:36": 1,
+        "msh:4": 1,
+        "msh:41": 1,
+        "msh:5": 1,
+        "msh:7": 1
+      }
+    },
+    "analyzed": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:574": 1,
+        "msc:581": 1,
+        "msc:635": 1,
+        "msc:641": 1,
+        "msc:643": 1,
+        "msc:644": 1,
+        "msc:751": 1,
+        "msc:761": 1,
+        "msh:256": 1,
+        "msh:289": 7,
+        "msh:46": 1,
+        "msh:51": 1,
+        "msh:54": 1,
+        "msh:82": 1
+      }
+    },
+    "animal": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:579": 1,
+        "msc:713": 1,
+        "msc:726": 1,
+        "msc:734": 1,
+        "msc:748": 1,
+        "msc:817": 1,
+        "msh:161": 1,
+        "msh:168": 1,
+        "msh:169": 1,
+        "msh:172": 1,
+        "msh:178": 1,
+        "msh:185": 1,
+        "msh:191": 1,
+        "msh:295": 7
+      }
+    },
+    "armed": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:582": 1,
+        "msc:647": 1,
+        "msc:660": 1,
+        "msc:675": 1,
+        "msc:752": 1,
+        "msh:102": 1,
+        "msh:110": 1,
+        "msh:112": 1,
+        "msh:114": 1,
+        "msh:116": 1,
+        "msh:121": 1,
+        "msh:236": 1,
+        "msh:291": 7,
+        "msh:99": 1
+      }
+    },
+    "atlantis": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:581": 1,
+        "msc:616": 1,
+        "msc:618": 1,
+        "msc:631": 1,
+        "msc:632": 1,
+        "msc:635": 1,
+        "msc:638": 1,
+        "msc:760": 1,
+        "msc:789": 1,
+        "msh:289": 7,
+        "msh:45": 1,
+        "msh:46": 1,
+        "msh:47": 1,
+        "msh:54": 1
+      }
+    },
+    "battalion": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:517": 1,
+        "msc:572": 1,
+        "msc:580": 1,
+        "msc:588": 1,
+        "msc:593": 1,
+        "msc:595": 1,
+        "msc:597": 1,
+        "msc:598": 1,
+        "msc:611": 1,
+        "msc:613": 1,
+        "msc:781": 1,
+        "msh:15": 1,
+        "msh:236": 1,
+        "msh:287": 7
+      }
+    },
+    "blink": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:581": 1,
+        "msc:617": 1,
+        "msc:619": 1,
+        "msc:624": 1,
+        "msc:637": 1,
+        "msc:638": 1,
+        "msc:639": 1,
+        "msc:640": 1,
+        "msc:642": 1,
+        "msc:821": 1,
+        "msh:289": 7,
+        "msh:61": 1,
+        "msh:73": 1,
+        "msh:82": 1
+      }
+    },
+    "boosted": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:578": 1,
+        "msc:690": 1,
+        "msc:693": 1,
+        "msc:698": 1,
+        "msc:703": 1,
+        "msc:743": 1,
+        "msc:763": 1,
+        "msc:804": 1,
+        "msh:135": 1,
+        "msh:136": 1,
+        "msh:158": 1,
+        "msh:160": 1,
+        "msh:198": 1,
+        "msh:293": 7
+      }
+    },
+    "caretakers": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:517": 1,
+        "msc:525": 1,
+        "msc:580": 1,
+        "msc:591": 1,
+        "msc:592": 1,
+        "msc:601": 1,
+        "msc:757": 1,
+        "msc:758": 1,
+        "msc:773": 1,
+        "msh:14": 1,
+        "msh:26": 1,
+        "msh:287": 7,
+        "msh:37": 1,
+        "msh:39": 1
+      }
+    },
+    "conniving": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:531": 1,
+        "msc:581": 1,
+        "msc:619": 1,
+        "msc:630": 1,
+        "msc:747": 1,
+        "msc:783": 1,
+        "msc:784": 1,
+        "msc:785": 1,
+        "msc:789": 1,
+        "msc:821": 1,
+        "msh:276": 1,
+        "msh:289": 6,
+        "msh:63": 1,
+        "msh:64": 1,
+        "msh:81": 1
+      }
+    },
+    "counterargument": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:580": 1,
+        "msc:594": 1,
+        "msc:602": 1,
+        "msc:612": 1,
+        "msc:745": 1,
+        "msc:769": 1,
+        "msc:770": 1,
+        "msc:771": 1,
+        "msc:774": 1,
+        "msc:778": 1,
+        "msh:24": 1,
+        "msh:287": 7,
+        "msh:31": 1,
+        "msh:41": 1
+      }
+    },
+    "doom": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:535": 1,
+        "msc:576": 1,
+        "msc:582": 1,
+        "msc:654": 1,
+        "msc:655": 1,
+        "msc:792": 1,
+        "msc:793": 1,
+        "msc:794": 1,
+        "msc:795": 1,
+        "msc:796": 1,
+        "msh:108": 1,
+        "msh:109": 1,
+        "msh:113": 1,
+        "msh:291": 7
+      }
+    },
+    "equipped": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:523": 1,
+        "msc:570": 1,
+        "msc:580": 1,
+        "msc:586": 1,
+        "msc:587": 1,
+        "msc:598": 1,
+        "msc:601": 1,
+        "msc:605": 1,
+        "msc:608": 1,
+        "msh:1": 1,
+        "msh:236": 1,
+        "msh:244": 1,
+        "msh:287": 7,
+        "msh:39": 1
+      }
+    },
+    "fantastic": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:564": 1,
+        "msc:579": 1,
+        "msc:614": 1,
+        "msc:620": 1,
+        "msc:690": 1,
+        "msc:741": 1,
+        "msc:749": 1,
+        "msc:815": 1,
+        "msc:828": 1,
+        "msh:136": 1,
+        "msh:17": 1,
+        "msh:190": 1,
+        "msh:247": 1,
+        "msh:261": 1,
+        "msh:271": 1,
+        "msh:287": 1,
+        "msh:289": 1,
+        "msh:293": 1,
+        "msh:295": 1,
+        "msh:66": 1
+      }
+    },
+    "fearless": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:578": 1,
+        "msc:685": 1,
+        "msc:686": 1,
+        "msc:687": 1,
+        "msc:706": 1,
+        "msc:754": 1,
+        "msc:810": 1,
+        "msc:811": 1,
+        "msc:812": 1,
+        "msh:125": 1,
+        "msh:134": 1,
+        "msh:135": 1,
+        "msh:139": 1,
+        "msh:293": 7
+      }
+    },
+    "geniuses": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:530": 1,
+        "msc:567": 1,
+        "msc:581": 1,
+        "msc:620": 1,
+        "msc:636": 1,
+        "msc:739": 1,
+        "msc:746": 1,
+        "msh:206": 1,
+        "msh:289": 7,
+        "msh:48": 1,
+        "msh:54": 1,
+        "msh:55": 1,
+        "msh:63": 1,
+        "msh:77": 1
+      }
+    },
+    "great_lakes_avengers": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:579": 1,
+        "msc:713": 1,
+        "msc:714": 1,
+        "msc:720": 1,
+        "msc:721": 1,
+        "msc:727": 1,
+        "msc:734": 1,
+        "msh:168": 1,
+        "msh:169": 1,
+        "msh:181": 1,
+        "msh:185": 1,
+        "msh:192": 1,
+        "msh:193": 1,
+        "msh:295": 7
+      }
+    },
+    "hydra": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:537": 1,
+        "msc:582": 1,
+        "msc:649": 1,
+        "msc:660": 1,
+        "msc:673": 1,
+        "msh:100": 1,
+        "msh:101": 1,
+        "msh:291": 7,
+        "msh:85": 1,
+        "msh:86": 1,
+        "msh:88": 1,
+        "msh:91": 1,
+        "msh:92": 1,
+        "msh:93": 1
+      }
+    },
+    "heroes_for_hire": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:549": 1,
+        "msc:578": 1,
+        "msc:680": 1,
+        "msc:683": 1,
+        "msc:688": 1,
+        "msc:692": 1,
+        "msc:696": 1,
+        "msc:802": 1,
+        "msh:139": 1,
+        "msh:140": 1,
+        "msh:145": 1,
+        "msh:149": 1,
+        "msh:153": 1,
+        "msh:293": 7
+      }
+    },
+    "incredible": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:567": 1,
+        "msc:579": 1,
+        "msc:724": 1,
+        "msc:725": 1,
+        "msc:728": 1,
+        "msc:745": 1,
+        "msh:164": 1,
+        "msh:167": 1,
+        "msh:168": 1,
+        "msh:169": 1,
+        "msh:185": 1,
+        "msh:189": 1,
+        "msh:198": 1,
+        "msh:295": 7
+      }
+    },
+    "iron_man": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:569": 1,
+        "msc:572": 1,
+        "msc:581": 1,
+        "msc:617": 1,
+        "msc:622": 1,
+        "msc:626": 1,
+        "msc:633": 1,
+        "msc:750": 1,
+        "msc:755": 1,
+        "msh:289": 7,
+        "msh:55": 1,
+        "msh:57": 1,
+        "msh:58": 1,
+        "msh:73": 1
+      }
+    },
+    "kang_dynasty": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:569": 1,
+        "msc:581": 1,
+        "msc:623": 1,
+        "msc:629": 1,
+        "msc:634": 1,
+        "msc:641": 1,
+        "msc:642": 1,
+        "msc:761": 1,
+        "msc:787": 1,
+        "msc:788": 1,
+        "msh:289": 7,
+        "msh:48": 1,
+        "msh:50": 1,
+        "msh:73": 1
+      }
+    },
+    "lethal": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:537": 1,
+        "msc:582": 1,
+        "msc:648": 1,
+        "msc:664": 1,
+        "msc:667": 1,
+        "msc:676": 1,
+        "msc:800": 1,
+        "msc:801": 1,
+        "msh:108": 1,
+        "msh:110": 1,
+        "msh:114": 1,
+        "msh:122": 1,
+        "msh:291": 7,
+        "msh:99": 1
+      }
+    },
+    "marvelous": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:517": 1,
+        "msc:580": 1,
+        "msc:589": 1,
+        "msc:606": 1,
+        "msc:607": 1,
+        "msc:613": 1,
+        "msc:743": 1,
+        "msc:744": 1,
+        "msh:12": 1,
+        "msh:15": 1,
+        "msh:16": 1,
+        "msh:287": 7,
+        "msh:33": 1,
+        "msh:37": 1
+      }
+    },
+    "masters_of_evil": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:534": 1,
+        "msc:582": 1,
+        "msc:653": 1,
+        "msc:665": 1,
+        "msc:672": 1,
+        "msc:747": 1,
+        "msh:103": 1,
+        "msh:105": 1,
+        "msh:120": 1,
+        "msh:123": 1,
+        "msh:235": 1,
+        "msh:291": 7,
+        "msh:92": 1,
+        "msh:99": 1
+      }
+    },
+    "mayhem": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:582": 1,
+        "msc:657": 1,
+        "msc:666": 1,
+        "msc:749": 1,
+        "msc:791": 1,
+        "msc:797": 1,
+        "msc:799": 1,
+        "msc:822": 1,
+        "msc:825": 1,
+        "msh:109": 1,
+        "msh:110": 1,
+        "msh:113": 1,
+        "msh:123": 1,
+        "msh:291": 7
+      }
+    },
+    "precise": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:517": 1,
+        "msc:525": 1,
+        "msc:580": 1,
+        "msc:596": 1,
+        "msc:597": 1,
+        "msc:610": 1,
+        "msc:779": 1,
+        "msh:13": 1,
+        "msh:19": 1,
+        "msh:22": 1,
+        "msh:287": 7,
+        "msh:29": 1,
+        "msh:3": 1,
+        "msh:33": 1
+      }
+    },
+    "pym_particles": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:581": 1,
+        "msc:635": 1,
+        "msc:646": 1,
+        "msc:739": 1,
+        "msc:759": 1,
+        "msc:786": 1,
+        "msh:289": 7,
+        "msh:43": 1,
+        "msh:44": 1,
+        "msh:48": 1,
+        "msh:50": 1,
+        "msh:56": 1,
+        "msh:70": 1,
+        "msh:78": 1
+      }
+    },
+    "rampaging": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:558": 1,
+        "msc:566": 1,
+        "msc:579": 1,
+        "msc:713": 1,
+        "msc:716": 1,
+        "msc:730": 1,
+        "msc:823": 1,
+        "msh:163": 1,
+        "msh:175": 1,
+        "msh:176": 1,
+        "msh:179": 1,
+        "msh:186": 1,
+        "msh:235": 1,
+        "msh:295": 7
+      }
+    },
+    "returned": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:535": 1,
+        "msc:537": 1,
+        "msc:540": 1,
+        "msc:582": 1,
+        "msc:658": 1,
+        "msc:663": 1,
+        "msc:670": 1,
+        "msc:762": 1,
+        "msh:109": 1,
+        "msh:118": 1,
+        "msh:119": 1,
+        "msh:291": 7,
+        "msh:86": 1,
+        "msh:98": 1
+      }
+    },
+    "runaways": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:549": 1,
+        "msc:568": 1,
+        "msc:574": 1,
+        "msc:578": 1,
+        "msc:677": 1,
+        "msc:682": 1,
+        "msc:684": 1,
+        "msc:694": 1,
+        "msc:698": 1,
+        "msc:700": 1,
+        "msc:809": 1,
+        "msh:125": 1,
+        "msh:133": 1,
+        "msh:293": 7
+      }
+    },
+    "savage_lands": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:563": 1,
+        "msc:568": 1,
+        "msc:579": 1,
+        "msc:711": 1,
+        "msc:719": 1,
+        "msc:731": 1,
+        "msc:814": 1,
+        "msc:816": 1,
+        "msc:819": 1,
+        "msc:827": 1,
+        "msh:168": 1,
+        "msh:174": 1,
+        "msh:182": 1,
+        "msh:185": 1,
+        "msh:295": 6
+      }
+    },
+    "scarlet": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:557": 1,
+        "msc:578": 1,
+        "msc:699": 1,
+        "msc:707": 1,
+        "msc:708": 1,
+        "msc:803": 1,
+        "msc:806": 1,
+        "msh:133": 1,
+        "msh:141": 1,
+        "msh:143": 1,
+        "msh:152": 1,
+        "msh:153": 1,
+        "msh:158": 1,
+        "msh:293": 7
+      }
+    },
+    "soaring": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:581": 1,
+        "msc:619": 1,
+        "msc:621": 1,
+        "msc:632": 1,
+        "msc:645": 1,
+        "msc:755": 1,
+        "msc:790": 1,
+        "msh:289": 7,
+        "msh:43": 1,
+        "msh:52": 1,
+        "msh:53": 1,
+        "msh:58": 1,
+        "msh:61": 1,
+        "msh:73": 1
+      }
+    },
+    "speedy": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:549": 1,
+        "msc:578": 1,
+        "msc:702": 1,
+        "msc:709": 1,
+        "msc:710": 1,
+        "msc:764": 1,
+        "msc:807": 1,
+        "msc:811": 1,
+        "msh:142": 1,
+        "msh:148": 1,
+        "msh:152": 1,
+        "msh:154": 1,
+        "msh:159": 1,
+        "msh:293": 7
+      }
+    },
+    "spider_verse": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:549": 1,
+        "msc:578": 1,
+        "msc:695": 1,
+        "msc:705": 1,
+        "msc:740": 1,
+        "msc:742": 1,
+        "msc:749": 1,
+        "msc:754": 1,
+        "msc:805": 1,
+        "msc:807": 1,
+        "msc:808": 1,
+        "msc:810": 1,
+        "msc:813": 1,
+        "msc:874": 1,
+        "msh:293": 6
+      }
+    },
+    "squadron": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:580": 1,
+        "msc:585": 1,
+        "msc:590": 1,
+        "msc:597": 1,
+        "msc:599": 1,
+        "msc:600": 1,
+        "msc:604": 1,
+        "msc:615": 1,
+        "msh:16": 1,
+        "msh:287": 7,
+        "msh:3": 1,
+        "msh:41": 1,
+        "msh:7": 1,
+        "msh:8": 1
+      }
+    },
+    "street_level_villains": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:577": 1,
+        "msc:582": 1,
+        "msc:651": 1,
+        "msc:652": 1,
+        "msc:659": 1,
+        "msc:661": 1,
+        "msc:663": 1,
+        "msc:792": 1,
+        "msc:794": 1,
+        "msc:798": 1,
+        "msh:102": 1,
+        "msh:104": 1,
+        "msh:291": 7,
+        "msh:85": 1
+      }
+    },
+    "tenacious": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:568": 1,
+        "msc:579": 1,
+        "msc:711": 1,
+        "msc:729": 1,
+        "msc:735": 1,
+        "msc:736": 1,
+        "msc:817": 1,
+        "msc:828": 1,
+        "msh:162": 1,
+        "msh:170": 1,
+        "msh:178": 1,
+        "msh:180": 1,
+        "msh:185": 1,
+        "msh:194": 1,
+        "msh:295": 6
+      }
+    },
+    "thor": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:578": 1,
+        "msc:678": 1,
+        "msc:697": 1,
+        "msc:699": 1,
+        "msc:701": 1,
+        "msc:756": 1,
+        "msc:765": 1,
+        "msc:806": 1,
+        "msh:126": 1,
+        "msh:140": 1,
+        "msh:141": 1,
+        "msh:142": 1,
+        "msh:143": 1,
+        "msh:293": 7
+      }
+    },
+    "thunderbolts": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:566": 1,
+        "msc:582": 1,
+        "msc:650": 1,
+        "msc:656": 1,
+        "msc:662": 1,
+        "msc:671": 1,
+        "msc:674": 1,
+        "msc:762": 1,
+        "msc:824": 1,
+        "msh:107": 1,
+        "msh:113": 1,
+        "msh:114": 1,
+        "msh:291": 7,
+        "msh:92": 1
+      }
+    },
+    "towering": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:558": 1,
+        "msc:566": 1,
+        "msc:571": 1,
+        "msc:579": 1,
+        "msc:722": 1,
+        "msc:739": 1,
+        "msc:744": 1,
+        "msc:766": 1,
+        "msc:818": 1,
+        "msc:819": 1,
+        "msh:167": 1,
+        "msh:181": 1,
+        "msh:182": 1,
+        "msh:295": 7
+      }
+    },
+    "trained": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:558": 1,
+        "msc:579": 1,
+        "msc:712": 1,
+        "msc:732": 1,
+        "msc:745": 1,
+        "msh:171": 1,
+        "msh:178": 1,
+        "msh:180": 1,
+        "msh:183": 1,
+        "msh:186": 1,
+        "msh:194": 1,
+        "msh:195": 1,
+        "msh:196": 1,
+        "msh:295": 7
+      }
+    },
+    "tricksters": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:581": 1,
+        "msc:625": 1,
+        "msc:627": 1,
+        "msc:628": 1,
+        "msc:629": 1,
+        "msc:635": 1,
+        "msc:759": 1,
+        "msc:782": 1,
+        "msh:214": 1,
+        "msh:289": 7,
+        "msh:44": 1,
+        "msh:63": 1,
+        "msh:81": 1,
+        "msh:82": 1
+      }
+    },
+    "ultron": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:535": 1,
+        "msc:574": 1,
+        "msc:582": 1,
+        "msc:655": 1,
+        "msc:663": 1,
+        "msc:668": 1,
+        "msc:669": 1,
+        "msc:824": 1,
+        "msh:109": 1,
+        "msh:111": 1,
+        "msh:114": 1,
+        "msh:253": 1,
+        "msh:291": 7,
+        "msh:93": 1
+      }
+    },
+    "uncanny": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:558": 1,
+        "msc:579": 1,
+        "msc:711": 1,
+        "msc:715": 1,
+        "msc:717": 1,
+        "msc:718": 1,
+        "msc:733": 1,
+        "msc:737": 1,
+        "msc:738": 1,
+        "msc:767": 1,
+        "msh:168": 1,
+        "msh:192": 1,
+        "msh:206": 1,
+        "msh:295": 7
+      }
+    },
+    "vehicles": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:578": 1,
+        "msc:679": 1,
+        "msc:681": 1,
+        "msc:691": 1,
+        "msc:704": 1,
+        "msc:753": 1,
+        "msc:763": 1,
+        "msc:811": 1,
+        "msh:137": 1,
+        "msh:144": 1,
+        "msh:157": 1,
+        "msh:209": 1,
+        "msh:249": 1,
+        "msh:293": 7
+      }
+    },
+    "wakanda": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:580": 1,
+        "msc:584": 1,
+        "msc:597": 1,
+        "msc:608": 1,
+        "msc:611": 1,
+        "msc:613": 1,
+        "msc:746": 1,
+        "msc:748": 1,
+        "msh:254": 1,
+        "msh:27": 1,
+        "msh:287": 7,
+        "msh:29": 1,
+        "msh:40": 1,
+        "msh:7": 1
+      }
+    },
+    "web_slinging": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:580": 1,
+        "msc:583": 1,
+        "msc:612": 1,
+        "msc:758": 1,
+        "msc:768": 1,
+        "msc:772": 1,
+        "msc:775": 1,
+        "msc:776": 1,
+        "msc:777": 1,
+        "msc:780": 1,
+        "msc:820": 1,
+        "msc:826": 1,
+        "msh:287": 7,
+        "msh:41": 1
+      }
+    },
+    "wild": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:558": 1,
+        "msc:559": 1,
+        "msc:568": 1,
+        "msc:579": 1,
+        "msc:711": 1,
+        "msc:723": 1,
+        "msc:736": 1,
+        "msc:828": 1,
+        "msh:163": 1,
+        "msh:170": 1,
+        "msh:174": 1,
+        "msh:177": 1,
+        "msh:183": 1,
+        "msh:295": 7
+      }
+    },
+    "young_avengers": {
+      "fixed": true,
+      "total_weight": 20,
+      "cards": {
+        "msc:549": 1,
+        "msc:557": 1,
+        "msc:569": 1,
+        "msc:570": 1,
+        "msc:571": 1,
+        "msc:578": 1,
+        "msc:684": 1,
+        "msc:689": 1,
+        "msh:131": 1,
+        "msh:132": 1,
+        "msh:142": 1,
+        "msh:152": 1,
+        "msh:155": 1,
+        "msh:293": 7
+      }
+    }
+  },
+  "source_set_codes": [
+    "msc",
+    "msh"
+  ]
+}
