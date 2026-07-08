@@ -438,8 +438,16 @@
       }
     },
     "foil_rare_mythic": {
-      "total_weight": 136,
+      "total_weight": 150,
       "cards": {
+        "nec:31:foil": 2,
+        "nec:32:foil": 1,
+        "nec:33:foil": 2,
+        "nec:34:foil": 2,
+        "nec:35:foil": 2,
+        "nec:36:foil": 2,
+        "nec:37:foil": 1,
+        "nec:38:foil": 2,
         "neo:101:foil": 2,
         "neo:102:foil": 1,
         "neo:111:foil": 2,

@@ -989,8 +989,20 @@
       }
     },
     "foil_extended_commander_rare_mythic": {
-      "total_weight": 22,
+      "total_weight": 48,
       "cards": {
+        "lcc:10a:foil": 2,
+        "lcc:11a:foil": 2,
+        "lcc:12:foil": 2,
+        "lcc:13a:foil": 2,
+        "lcc:14:foil": 2,
+        "lcc:15a:foil": 1,
+        "lcc:16a:foil": 1,
+        "lcc:17:foil": 1,
+        "lcc:18:foil": 1,
+        "lcc:19:foil": 1,
+        "lcc:1:foil": 1,
+        "lcc:20:foil": 1,
         "lcc:21:foil": 2,
         "lcc:22a:foil": 2,
         "lcc:23a:foil": 2,
@@ -1000,13 +1012,21 @@
         "lcc:27:foil": 1,
         "lcc:28:foil": 1,
         "lcc:29:foil": 1,
+        "lcc:2:foil": 1,
         "lcc:30:foil": 1,
         "lcc:31a:foil": 2,
         "lcc:32:foil": 1,
         "lcc:33:foil": 2,
         "lcc:34:foil": 1,
         "lcc:35a:foil": 1,
-        "lcc:36a:foil": 1
+        "lcc:36a:foil": 1,
+        "lcc:3:foil": 1,
+        "lcc:4:foil": 1,
+        "lcc:5:foil": 1,
+        "lcc:6:foil": 1,
+        "lcc:7:foil": 1,
+        "lcc:8:foil": 1,
+        "lcc:9:foil": 2
       }
     }
   },
