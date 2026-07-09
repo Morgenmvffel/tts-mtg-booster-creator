@@ -16,8 +16,8 @@
     {
       "sheets": {
         "basics": 22,
-        "common_with_duplicates": 25,
-        "uncommon_with_duplicates": 10,
+        "common_with_duplicates": 26,
+        "uncommon_with_duplicates": 9,
         "rare": 3
       },
       "weight": 1,

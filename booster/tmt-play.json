@@ -861,31 +861,31 @@
     "non_foil_land": {
       "total_weight": 25,
       "cards": {
-        "tmt:183": 4,
-        "tmt:185": 4,
-        "tmt:186": 4,
-        "tmt:187": 4,
-        "tmt:189": 4,
-        "tmt:191": 1,
-        "tmt:192": 1,
-        "tmt:193": 1,
-        "tmt:194": 1,
-        "tmt:195": 1
+        "tmt:183": 3,
+        "tmt:185": 3,
+        "tmt:186": 3,
+        "tmt:187": 3,
+        "tmt:189": 3,
+        "tmt:191": 2,
+        "tmt:192": 2,
+        "tmt:193": 2,
+        "tmt:194": 2,
+        "tmt:195": 2
       }
     },
     "foil_land": {
       "total_weight": 25,
       "cards": {
-        "tmt:183:foil": 4,
-        "tmt:185:foil": 4,
-        "tmt:186:foil": 4,
-        "tmt:187:foil": 4,
-        "tmt:189:foil": 4,
-        "tmt:191:foil": 1,
-        "tmt:192:foil": 1,
-        "tmt:193:foil": 1,
-        "tmt:194:foil": 1,
-        "tmt:195:foil": 1
+        "tmt:183:foil": 3,
+        "tmt:185:foil": 3,
+        "tmt:186:foil": 3,
+        "tmt:187:foil": 3,
+        "tmt:189:foil": 3,
+        "tmt:191:foil": 2,
+        "tmt:192:foil": 2,
+        "tmt:193:foil": 2,
+        "tmt:194:foil": 2,
+        "tmt:195:foil": 2
       }
     },
     "source_material": {

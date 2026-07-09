@@ -1,0 +1,41 @@
+{
+  "name": "Secrets of Strixhaven Codex Booster",
+  "code": "sos-codex-bundle",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sos",
+  "set_name": "Secrets of Strixhaven",
+  "boosters": [
+    {
+      "sheets": {
+        "codex_artifact": 2
+      },
+      "weight": 1,
+      "sheet_order": [
+        "codex_artifact"
+      ]
+    }
+  ],
+  "sheets": {
+    "codex_artifact": {
+      "total_weight": 6,
+      "cards": {
+        "soc:427:foil": 1,
+        "soc:428:foil": 1,
+        "soc:429:foil": 1,
+        "soc:430:foil": 1,
+        "soc:431:foil": 1,
+        "soc:432:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "soc"
+  ]
+}

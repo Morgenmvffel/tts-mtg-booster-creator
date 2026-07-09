@@ -31,28 +31,23 @@
   ],
   "sheets": {
     "foil_basic": {
-      "total_weight": 20,
+      "total_weight": 15,
       "cards": {
-        "mrd:287:foil": 1,
-        "mrd:288:foil": 1,
-        "mrd:289:foil": 1,
-        "mrd:290:foil": 1,
-        "mrd:291:foil": 1,
-        "mrd:292:foil": 1,
-        "mrd:293:foil": 1,
-        "mrd:294:foil": 1,
-        "mrd:295:foil": 1,
-        "mrd:296:foil": 1,
-        "mrd:297:foil": 1,
-        "mrd:298:foil": 1,
-        "mrd:299:foil": 1,
-        "mrd:300:foil": 1,
-        "mrd:301:foil": 1,
-        "mrd:302:foil": 1,
-        "mrd:303:foil": 1,
-        "mrd:304:foil": 1,
-        "mrd:305:foil": 1,
-        "mrd:306:foil": 1
+        "dtk:250:foil": 1,
+        "dtk:251:foil": 1,
+        "dtk:252:foil": 1,
+        "dtk:253:foil": 1,
+        "dtk:254:foil": 1,
+        "dtk:255:foil": 1,
+        "dtk:256:foil": 1,
+        "dtk:257:foil": 1,
+        "dtk:258:foil": 1,
+        "dtk:259:foil": 1,
+        "dtk:260:foil": 1,
+        "dtk:261:foil": 1,
+        "dtk:262:foil": 1,
+        "dtk:263:foil": 1,
+        "dtk:264:foil": 1
       }
     },
     "foil_common": {
@@ -163,7 +158,6 @@
     }
   },
   "source_set_codes": [
-    "dtk",
-    "mrd"
+    "dtk"
   ]
 }

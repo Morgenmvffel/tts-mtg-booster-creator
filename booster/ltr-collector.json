@@ -28,7 +28,7 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 293480596,
+      "weight": 1231133628,
       "sheet_order": [
         "foil_common",
         "foil_uncommon",
@@ -57,7 +57,7 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 2366779,
+      "weight": 9928497,
       "sheet_order": [
         "foil_common",
         "foil_uncommon",
@@ -87,7 +87,7 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 23560000,
+      "weight": 8060000,
       "sheet_order": [
         "foil_common",
         "nonfoil_sol_ring",
@@ -118,7 +118,7 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 190000,
+      "weight": 65000,
       "sheet_order": [
         "foil_common",
         "nonfoil_sol_ring",
@@ -149,7 +149,7 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 235600,
+      "weight": 806000,
       "sheet_order": [
         "foil_common",
         "serialized_sol_ring",
@@ -180,7 +180,7 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 1900,
+      "weight": 6500,
       "sheet_order": [
         "foil_common",
         "serialized_sol_ring",
@@ -211,7 +211,7 @@
         "foil_uncommon_showcase": 1,
         "foil_rare_mythic_showcase": 1
       },
-      "weight": 124,
+      "weight": 372,
       "sheet_order": [
         "foil_common",
         "the_one_ring",
@@ -242,7 +242,7 @@
         "foil_uncommon_showcase": 1,
         "surge_relic": 1
       },
-      "weight": 1,
+      "weight": 3,
       "sheet_order": [
         "foil_common",
         "the_one_ring",

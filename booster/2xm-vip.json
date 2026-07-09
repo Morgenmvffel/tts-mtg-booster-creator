@@ -17,16 +17,16 @@
         "foil_rare_mythic": 2,
         "foil_uncommon": 8,
         "foil_common": 9,
-        "foil_plains_1": 1,
-        "foil_plains_2": 1,
-        "foil_island_1": 1,
-        "foil_island_2": 1,
-        "foil_swamp_1": 1,
-        "foil_swamp_2": 1,
-        "foil_mountain_1": 1,
-        "foil_mountain_2": 1,
-        "foil_forest_1": 1,
-        "foil_forest_2": 1,
+        "plains_1": 1,
+        "plains_2": 1,
+        "island_1": 1,
+        "island_2": 1,
+        "swamp_1": 1,
+        "swamp_2": 1,
+        "mountain_1": 1,
+        "mountain_2": 1,
+        "forest_1": 1,
+        "forest_2": 1,
         "foil_basic": 2
       },
       "weight": 1,
@@ -35,16 +35,16 @@
         "foil_rare_mythic",
         "foil_uncommon",
         "foil_common",
-        "foil_plains_1",
-        "foil_plains_2",
-        "foil_island_1",
-        "foil_island_2",
-        "foil_swamp_1",
-        "foil_swamp_2",
-        "foil_mountain_1",
-        "foil_mountain_2",
-        "foil_forest_1",
-        "foil_forest_2",
+        "plains_1",
+        "plains_2",
+        "island_1",
+        "island_2",
+        "swamp_1",
+        "swamp_2",
+        "mountain_1",
+        "mountain_2",
+        "forest_1",
+        "forest_2",
         "foil_basic"
       ]
     }
@@ -442,64 +442,64 @@
         "2xm:96:foil": 1
       }
     },
-    "foil_plains_1": {
+    "plains_1": {
       "total_weight": 1,
       "cards": {
-        "2xm:373:foil": 1
+        "2xm:373": 1
       }
     },
-    "foil_plains_2": {
+    "plains_2": {
       "total_weight": 1,
       "cards": {
-        "2xm:374:foil": 1
+        "2xm:374": 1
       }
     },
-    "foil_island_1": {
+    "island_1": {
       "total_weight": 1,
       "cards": {
-        "2xm:375:foil": 1
+        "2xm:375": 1
       }
     },
-    "foil_island_2": {
+    "island_2": {
       "total_weight": 1,
       "cards": {
-        "2xm:376:foil": 1
+        "2xm:376": 1
       }
     },
-    "foil_swamp_1": {
+    "swamp_1": {
       "total_weight": 1,
       "cards": {
-        "2xm:377:foil": 1
+        "2xm:377": 1
       }
     },
-    "foil_swamp_2": {
+    "swamp_2": {
       "total_weight": 1,
       "cards": {
-        "2xm:378:foil": 1
+        "2xm:378": 1
       }
     },
-    "foil_mountain_1": {
+    "mountain_1": {
       "total_weight": 1,
       "cards": {
-        "2xm:379:foil": 1
+        "2xm:379": 1
       }
     },
-    "foil_mountain_2": {
+    "mountain_2": {
       "total_weight": 1,
       "cards": {
-        "2xm:380:foil": 1
+        "2xm:380": 1
       }
     },
-    "foil_forest_1": {
+    "forest_1": {
       "total_weight": 1,
       "cards": {
-        "2xm:381:foil": 1
+        "2xm:381": 1
       }
     },
-    "foil_forest_2": {
+    "forest_2": {
       "total_weight": 1,
       "cards": {
-        "2xm:382:foil": 1
+        "2xm:382": 1
       }
     },
     "foil_basic": {

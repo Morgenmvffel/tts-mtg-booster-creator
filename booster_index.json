@@ -12,6 +12,10 @@
     "code": "msh-play"
   },
   {
+    "name": "Secrets of Strixhaven Codex Booster",
+    "code": "sos-codex-bundle"
+  },
+  {
     "name": "Secrets of Strixhaven Collector Booster",
     "code": "sos-collector"
   },
@@ -108,6 +112,10 @@
     "code": "tdm-collector"
   },
   {
+    "name": "Tarkir: Dragonstorm Collector Sample Booster",
+    "code": "tdm-collector-sample"
+  },
+  {
     "name": "Tarkir: Dragonstorm Play Booster",
     "code": "tdm-play"
   },
@@ -122,6 +130,10 @@
   {
     "name": "Aetherdrift Collector Booster",
     "code": "dft-collector"
+  },
+  {
+    "name": "Aetherdrift Collector Sample Booster",
+    "code": "dft-collector-sample"
   },
   {
     "name": "Aetherdrift Play Booster",
@@ -178,6 +190,10 @@
   {
     "name": "Duskmourn: House of Horror Collector Sample Booster",
     "code": "dsk-collector-sample"
+  },
+  {
+    "name": "Duskmourn: House of Horror Nightmare Bundle Booster",
+    "code": "dsk-nightmare"
   },
   {
     "name": "Duskmourn: House of Horror Play Booster",
@@ -304,10 +320,6 @@
     "code": "lci-box-topper-foil"
   },
   {
-    "name": "The Lost Caverns of Ixalan Bundle Promo Card",
-    "code": "lci-bundle-promo"
-  },
-  {
     "name": "The Lost Caverns of Ixalan Collector Booster",
     "code": "lci-collector"
   },
@@ -318,10 +330,6 @@
   {
     "name": "The Lost Caverns of Ixalan Draft Booster",
     "code": "lci-draft"
-  },
-  {
-    "name": "The Lost Caverns of Ixalan Gift Bundle Promo Card",
-    "code": "lci-gift-bundle-promo"
   },
   {
     "name": "The Lost Caverns of Ixalan Prerelease Promo Pack",
@@ -1372,6 +1380,10 @@
     "code": "rna-arena"
   },
   {
+    "name": "Ravnica Allegiance Collector Booster",
+    "code": "rna-collector"
+  },
+  {
     "name": "Ravnica Allegiance Draft Booster",
     "code": "rna-draft"
   },
@@ -1976,6 +1988,10 @@
     "code": "tsp-draft"
   },
   {
+    "name": "Time Spiral Tournament Pack",
+    "code": "tsp-tournament"
+  },
+  {
     "name": "Coldsnap Draft Booster",
     "code": "csp-draft"
   },
@@ -2106,10 +2122,6 @@
   {
     "name": "Torment Fat Pack Promotional Cards",
     "code": "tor-fat-pack"
-  },
-  {
-    "name": "Torment Tournament Deck",
-    "code": "tor-tournament"
   },
   {
     "name": "Odyssey Draft Booster",

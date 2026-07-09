@@ -23,6 +23,7 @@
         "foil_common_or_basic": 6,
         "foil_uncommon": 2,
         "showcase": 1,
+        "foil_showcase": 1,
         "ancillary": 1,
         "rm_extended": 1,
         "foil_rare_mythic": 1
@@ -33,6 +34,7 @@
         "foil_common_or_basic",
         "foil_uncommon",
         "showcase",
+        "foil_showcase",
         "ancillary",
         "rm_extended",
         "foil_rare_mythic"
@@ -44,6 +46,7 @@
         "foil_common_or_basic": 5,
         "foil_uncommon": 3,
         "showcase": 1,
+        "foil_showcase": 1,
         "ancillary": 1,
         "rm_extended": 1,
         "foil_rare_mythic": 1
@@ -54,6 +57,7 @@
         "foil_common_or_basic",
         "foil_uncommon",
         "showcase",
+        "foil_showcase",
         "ancillary",
         "rm_extended",
         "foil_rare_mythic"
@@ -65,6 +69,7 @@
         "foil_common_or_basic": 4,
         "foil_uncommon": 4,
         "showcase": 1,
+        "foil_showcase": 1,
         "ancillary": 1,
         "rm_extended": 1,
         "foil_rare_mythic": 1
@@ -75,6 +80,7 @@
         "foil_common_or_basic",
         "foil_uncommon",
         "showcase",
+        "foil_showcase",
         "ancillary",
         "rm_extended",
         "foil_rare_mythic"
@@ -86,6 +92,7 @@
         "foil_common_or_basic": 3,
         "foil_uncommon": 5,
         "showcase": 1,
+        "foil_showcase": 1,
         "ancillary": 1,
         "rm_extended": 1,
         "foil_rare_mythic": 1
@@ -96,6 +103,7 @@
         "foil_common_or_basic",
         "foil_uncommon",
         "showcase",
+        "foil_showcase",
         "ancillary",
         "rm_extended",
         "foil_rare_mythic"
@@ -107,6 +115,7 @@
         "foil_common_or_basic": 2,
         "foil_uncommon": 6,
         "showcase": 1,
+        "foil_showcase": 1,
         "ancillary": 1,
         "rm_extended": 1,
         "foil_rare_mythic": 1
@@ -117,6 +126,7 @@
         "foil_common_or_basic",
         "foil_uncommon",
         "showcase",
+        "foil_showcase",
         "ancillary",
         "rm_extended",
         "foil_rare_mythic"
@@ -128,6 +138,7 @@
         "foil_common_or_basic": 1,
         "foil_uncommon": 7,
         "showcase": 1,
+        "foil_showcase": 1,
         "ancillary": 1,
         "rm_extended": 1,
         "foil_rare_mythic": 1
@@ -138,6 +149,7 @@
         "foil_common_or_basic",
         "foil_uncommon",
         "showcase",
+        "foil_showcase",
         "ancillary",
         "rm_extended",
         "foil_rare_mythic"
@@ -378,6 +390,35 @@
         "thb:52": 1,
         "thb:53": 4,
         "thb:91": 4
+      }
+    },
+    "foil_showcase": {
+      "total_weight": 58,
+      "cards": {
+        "thb:118:foil": 2,
+        "thb:124:foil": 2,
+        "thb:13:foil": 2,
+        "thb:160:foil": 4,
+        "thb:166:foil": 4,
+        "thb:170:foil": 2,
+        "thb:255:foil": 1,
+        "thb:256:foil": 1,
+        "thb:257:foil": 1,
+        "thb:258:foil": 4,
+        "thb:259:foil": 1,
+        "thb:260:foil": 4,
+        "thb:261:foil": 1,
+        "thb:262:foil": 1,
+        "thb:263:foil": 4,
+        "thb:264:foil": 4,
+        "thb:265:foil": 1,
+        "thb:266:foil": 1,
+        "thb:267:foil": 4,
+        "thb:268:foil": 1,
+        "thb:52:foil": 1,
+        "thb:53:foil": 4,
+        "thb:5:foil": 4,
+        "thb:91:foil": 4
       }
     },
     "ancillary": {

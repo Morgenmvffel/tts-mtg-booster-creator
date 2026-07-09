@@ -46,13 +46,13 @@
   ],
   "sheets": {
     "foil_basic": {
-      "total_weight": 20,
+      "total_weight": 10,
       "cards": {
-        "one:262:foil": 3,
-        "one:263:foil": 3,
-        "one:264:foil": 3,
-        "one:265:foil": 3,
-        "one:266:foil": 3,
+        "one:262:foil": 1,
+        "one:263:foil": 1,
+        "one:264:foil": 1,
+        "one:265:foil": 1,
+        "one:266:foil": 1,
         "one:267:foil": 1,
         "one:268:foil": 1,
         "one:269:foil": 1,

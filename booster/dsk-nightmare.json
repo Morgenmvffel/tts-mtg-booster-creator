@@ -1,0 +1,48 @@
+{
+  "name": "Duskmourn: House of Horror Nightmare Bundle Booster",
+  "code": "dsk-nightmare",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "dsk",
+  "set_name": "Duskmourn: House of Horror",
+  "boosters": [
+    {
+      "sheets": {
+        "borderless": 1,
+        "movie_poster": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "borderless",
+        "movie_poster"
+      ]
+    }
+  ],
+  "sheets": {
+    "borderless": {
+      "total_weight": 3,
+      "cards": {
+        "dsc:368:foil": 1,
+        "dsc:369:foil": 1,
+        "dsc:370:foil": 1
+      }
+    },
+    "movie_poster": {
+      "total_weight": 3,
+      "cards": {
+        "dsc:371:foil": 1,
+        "dsc:372:foil": 1,
+        "dsc:373:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "dsc"
+  ]
+}

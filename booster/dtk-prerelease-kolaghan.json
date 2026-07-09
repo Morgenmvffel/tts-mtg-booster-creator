@@ -90,16 +90,18 @@
       }
     },
     "promo": {
-      "total_weight": 15,
+      "total_weight": 19,
       "cards": {
         "pdtk:112s:foil": 2,
         "pdtk:141s:foil": 2,
         "pdtk:162s:foil": 2,
+        "pdtk:167s:foil": 2,
         "pdtk:169s:foil": 2,
         "pdtk:214s:foil": 2,
         "pdtk:218s:foil": 1,
         "pdtk:224s:foil": 2,
-        "pdtk:88s:foil": 2
+        "pdtk:88s:foil": 2,
+        "pdtk:93s:foil": 2
       }
     }
   },

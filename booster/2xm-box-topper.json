@@ -13,7 +13,7 @@
   "boosters": [
     {
       "sheets": {
-        "boxtopper": 1
+        "boxtopper": 2
       },
       "weight": 1,
       "sheet_order": [
