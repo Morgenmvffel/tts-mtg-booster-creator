@@ -1,0 +1,113 @@
+{
+  "name": "Theros Prerelease Pack Path of Wisdom",
+  "code": "ths-prerelease-wisdom",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ths",
+  "set_name": "Theros",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 23,
+      "cards": {
+        "ths:212": 1,
+        "ths:216": 1,
+        "ths:217": 1,
+        "ths:218": 1,
+        "ths:221": 1,
+        "ths:229": 1,
+        "ths:38": 1,
+        "ths:39": 1,
+        "ths:41": 1,
+        "ths:43": 1,
+        "ths:48": 1,
+        "ths:50": 1,
+        "ths:52": 1,
+        "ths:55": 1,
+        "ths:56": 1,
+        "ths:57": 1,
+        "ths:59": 1,
+        "ths:64": 1,
+        "ths:67": 1,
+        "ths:70": 1,
+        "ths:72": 1,
+        "ths:73": 1,
+        "ths:74": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "ths:211": 1,
+        "ths:213": 1,
+        "ths:215": 1,
+        "ths:219": 1,
+        "ths:222": 1,
+        "ths:47": 1,
+        "ths:49": 1,
+        "ths:51": 1,
+        "ths:58": 1,
+        "ths:61": 1,
+        "ths:62": 1,
+        "ths:68": 1,
+        "ths:69": 1,
+        "ths:71": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 13,
+      "cards": {
+        "ths:210": 1,
+        "ths:214": 1,
+        "ths:220": 1,
+        "ths:223": 1,
+        "ths:40": 1,
+        "ths:42": 1,
+        "ths:46": 1,
+        "ths:53": 1,
+        "ths:54": 1,
+        "ths:60": 1,
+        "ths:63": 1,
+        "ths:65": 1,
+        "ths:66": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pths:63\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "pths",
+    "ths"
+  ]
+}

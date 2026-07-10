@@ -1,0 +1,97 @@
+{
+  "name": "Born of the Gods Prerelease Pack Destined to Lead",
+  "code": "bng-prerelease-lead",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "bng",
+  "set_name": "Born of the Gods",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "bng:10": 1,
+        "bng:15": 1,
+        "bng:16": 1,
+        "bng:18": 1,
+        "bng:19": 1,
+        "bng:20": 1,
+        "bng:21": 1,
+        "bng:22": 1,
+        "bng:25": 1,
+        "bng:3": 1,
+        "bng:8": 1,
+        "bng:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 13,
+      "cards": {
+        "bng:1": 1,
+        "bng:12": 1,
+        "bng:13": 1,
+        "bng:14": 1,
+        "bng:158": 1,
+        "bng:160": 1,
+        "bng:161": 1,
+        "bng:162": 1,
+        "bng:23": 1,
+        "bng:28": 1,
+        "bng:29": 1,
+        "bng:4": 1,
+        "bng:6": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 9,
+      "cards": {
+        "bng:11": 1,
+        "bng:157": 1,
+        "bng:159": 1,
+        "bng:17": 1,
+        "bng:24": 1,
+        "bng:26": 1,
+        "bng:27": 1,
+        "bng:5": 1,
+        "bng:7": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pbng:26\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "bng",
+    "pbng"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Khans of Tarkir Seeded Prerelease Booster Abzan",
+  "code": "ktk-prerelease-abzan",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ktk",
+  "set_name": "Khans of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 33,
+      "cards": {
+        "ktk:10": 1,
+        "ktk:127": 1,
+        "ktk:128": 1,
+        "ktk:129": 1,
+        "ktk:131": 1,
+        "ktk:135": 1,
+        "ktk:139": 1,
+        "ktk:140": 1,
+        "ktk:142": 1,
+        "ktk:15": 1,
+        "ktk:155": 1,
+        "ktk:162": 1,
+        "ktk:19": 1,
+        "ktk:21": 1,
+        "ktk:215": 1,
+        "ktk:23": 1,
+        "ktk:24": 1,
+        "ktk:29": 1,
+        "ktk:3": 1,
+        "ktk:4": 1,
+        "ktk:65": 1,
+        "ktk:68": 1,
+        "ktk:7": 1,
+        "ktk:70": 1,
+        "ktk:71": 1,
+        "ktk:77": 1,
+        "ktk:80": 1,
+        "ktk:84": 1,
+        "ktk:86": 1,
+        "ktk:87": 1,
+        "ktk:9": 1,
+        "ktk:93": 1,
+        "ktk:94": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 22,
+      "cards": {
+        "ktk:1": 1,
+        "ktk:138": 1,
+        "ktk:150": 1,
+        "ktk:156": 1,
+        "ktk:157": 1,
+        "ktk:161": 1,
+        "ktk:165": 1,
+        "ktk:170": 1,
+        "ktk:183": 1,
+        "ktk:2": 1,
+        "ktk:241": 1,
+        "ktk:25": 1,
+        "ktk:26": 1,
+        "ktk:28": 1,
+        "ktk:30": 1,
+        "ktk:5": 1,
+        "ktk:6": 1,
+        "ktk:69": 1,
+        "ktk:74": 1,
+        "ktk:79": 1,
+        "ktk:83": 1,
+        "ktk:92": 1
+      }
+    },
+    "promo": {
+      "total_weight": 19,
+      "cards": {
+        "pktk:12s:foil": 2,
+        "pktk:133s:foil": 2,
+        "pktk:13s:foil": 2,
+        "pktk:154s:foil": 2,
+        "pktk:160s:foil": 2,
+        "pktk:163s:foil": 1,
+        "pktk:174s:foil": 2,
+        "pktk:179s:foil": 2,
+        "pktk:200s:foil": 2,
+        "pktk:210s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ktk",
+    "pktk"
+  ]
+}

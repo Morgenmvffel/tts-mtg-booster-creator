@@ -1,0 +1,93 @@
+{
+  "name": "Magic Origins Seeded Prerelease Booster Chandra",
+  "code": "ori-prerelease-chandra",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ori",
+  "set_name": "Magic Origins",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 4,
+        "uncommon": 2,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 19,
+      "cards": {
+        "ori:129": 1,
+        "ori:130": 1,
+        "ori:132": 1,
+        "ori:133": 1,
+        "ori:136": 1,
+        "ori:138": 1,
+        "ori:139": 1,
+        "ori:140": 1,
+        "ori:145": 1,
+        "ori:146": 1,
+        "ori:149": 1,
+        "ori:152": 1,
+        "ori:153": 1,
+        "ori:154": 1,
+        "ori:158": 1,
+        "ori:163": 1,
+        "ori:164": 1,
+        "ori:166": 1,
+        "ori:167": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 11,
+      "cards": {
+        "ori:128": 1,
+        "ori:134": 1,
+        "ori:142": 1,
+        "ori:144": 1,
+        "ori:148": 1,
+        "ori:150": 1,
+        "ori:155": 1,
+        "ori:159": 1,
+        "ori:161": 1,
+        "ori:162": 1,
+        "ori:165": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pori:127s:foil": 2,
+        "pori:135sa:foil": 1,
+        "pori:137s:foil": 2,
+        "pori:141s:foil": 2,
+        "pori:143s:foil": 2,
+        "pori:151s:foil": 2,
+        "pori:157s:foil": 2,
+        "pori:160s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ori",
+    "pori"
+  ]
+}

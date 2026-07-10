@@ -1,0 +1,112 @@
+{
+  "name": "Theros Prerelease Pack Path of Ambition",
+  "code": "ths-prerelease-ambition",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ths",
+  "set_name": "Theros",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 23,
+      "cards": {
+        "ths:100": 1,
+        "ths:101": 1,
+        "ths:103": 1,
+        "ths:105": 1,
+        "ths:106": 1,
+        "ths:109": 1,
+        "ths:212": 1,
+        "ths:216": 1,
+        "ths:217": 1,
+        "ths:218": 1,
+        "ths:221": 1,
+        "ths:229": 1,
+        "ths:77": 1,
+        "ths:78": 1,
+        "ths:79": 1,
+        "ths:80": 1,
+        "ths:81": 1,
+        "ths:84": 1,
+        "ths:87": 1,
+        "ths:88": 1,
+        "ths:89": 1,
+        "ths:94": 1,
+        "ths:96": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "ths:102": 1,
+        "ths:108": 1,
+        "ths:211": 1,
+        "ths:213": 1,
+        "ths:215": 1,
+        "ths:219": 1,
+        "ths:222": 1,
+        "ths:82": 1,
+        "ths:83": 1,
+        "ths:86": 1,
+        "ths:92": 1,
+        "ths:93": 1,
+        "ths:97": 1,
+        "ths:99": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 12,
+      "cards": {
+        "ths:107": 1,
+        "ths:110": 1,
+        "ths:210": 1,
+        "ths:214": 1,
+        "ths:220": 1,
+        "ths:223": 1,
+        "ths:75": 1,
+        "ths:76": 1,
+        "ths:85": 1,
+        "ths:90": 1,
+        "ths:91": 1,
+        "ths:98": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pths:75\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "pths",
+    "ths"
+  ]
+}

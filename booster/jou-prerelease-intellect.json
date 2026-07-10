@@ -1,0 +1,98 @@
+{
+  "name": "Journey into Nyx Prerelease Pack Forged in Intellect",
+  "code": "jou-prerelease-intellect",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "jou",
+  "set_name": "Journey into Nyx",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "jou:30": 1,
+        "jou:32": 1,
+        "jou:33": 1,
+        "jou:38": 1,
+        "jou:39": 1,
+        "jou:41": 1,
+        "jou:45": 1,
+        "jou:49": 1,
+        "jou:52": 1,
+        "jou:53": 1,
+        "jou:56": 1,
+        "jou:57": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "jou:158": 1,
+        "jou:159": 1,
+        "jou:160": 1,
+        "jou:161": 1,
+        "jou:34": 1,
+        "jou:35": 1,
+        "jou:40": 1,
+        "jou:43": 1,
+        "jou:44": 1,
+        "jou:47": 1,
+        "jou:48": 1,
+        "jou:54": 1,
+        "jou:55": 1,
+        "jou:58": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 9,
+      "cards": {
+        "jou:162": 1,
+        "jou:163": 1,
+        "jou:31": 1,
+        "jou:36": 1,
+        "jou:37": 1,
+        "jou:42": 1,
+        "jou:46": 1,
+        "jou:50": 1,
+        "jou:51": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pjou:51\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jou",
+    "pjou"
+  ]
+}

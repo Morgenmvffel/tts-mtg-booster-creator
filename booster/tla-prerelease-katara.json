@@ -1,0 +1,115 @@
+{
+  "name": "Avatar: The Last Airbender Seeded Prerelease Pack Katara",
+  "code": "tla-prerelease-katara",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "tla",
+  "set_name": "Avatar: The Last Airbender",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 9,
+        "uncommon": 3,
+        "land": 1,
+        "rare_mythic": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "land",
+        "rare_mythic"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 18,
+      "cards": {
+        "tla:1": 1,
+        "tla:254": 1,
+        "tla:255": 1,
+        "tla:257": 1,
+        "tla:3": 1,
+        "tla:49": 1,
+        "tla:50": 1,
+        "tla:51": 1,
+        "tla:52": 1,
+        "tla:53": 1,
+        "tla:56": 1,
+        "tla:58": 1,
+        "tla:62": 1,
+        "tla:66": 1,
+        "tla:67": 1,
+        "tla:68": 1,
+        "tla:80": 1,
+        "tla:82": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 21,
+      "cards": {
+        "tla:2": 1,
+        "tla:256": 1,
+        "tla:258": 1,
+        "tla:260": 1,
+        "tla:44": 1,
+        "tla:45": 1,
+        "tla:46": 1,
+        "tla:47": 1,
+        "tla:48": 1,
+        "tla:54": 1,
+        "tla:55": 1,
+        "tla:57": 1,
+        "tla:59": 1,
+        "tla:60": 1,
+        "tla:63": 1,
+        "tla:65": 1,
+        "tla:70": 1,
+        "tla:71": 1,
+        "tla:72": 1,
+        "tla:74": 1,
+        "tla:81": 1
+      }
+    },
+    "land": {
+      "total_weight": 4,
+      "cards": {
+        "tla:265": 1,
+        "tla:272": 1,
+        "tla:274": 1,
+        "tla:279": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 26,
+      "cards": {
+        "tla:259": 1,
+        "tla:261": 1,
+        "tla:262": 1,
+        "tla:264": 2,
+        "tla:270": 2,
+        "tla:278": 2,
+        "tla:61a": 1,
+        "tla:64": 2,
+        "tla:69": 1,
+        "tla:73": 2,
+        "tla:75": 2,
+        "tla:76": 2,
+        "tla:77": 2,
+        "tla:78": 1,
+        "tla:79": 2,
+        "tla:83": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "tla"
+  ]
+}

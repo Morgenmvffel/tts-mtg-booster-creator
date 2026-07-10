@@ -12,6 +12,10 @@
     "code": "msh-play"
   },
   {
+    "name": "Marvel Super Heroes Prerelease Promo Pack",
+    "code": "msh-prerelease"
+  },
+  {
     "name": "Secrets of Strixhaven Codex Booster",
     "code": "sos-codex-bundle"
   },
@@ -24,6 +28,26 @@
     "code": "sos-play"
   },
   {
+    "name": "Secrets of Strixhaven Prerelease Promo Pack Lorehold",
+    "code": "sos-prerelease-lorehold"
+  },
+  {
+    "name": "Secrets of Strixhaven Prerelease Promo Pack Prismari",
+    "code": "sos-prerelease-prismari"
+  },
+  {
+    "name": "Secrets of Strixhaven Prerelease Promo Pack Quandrix",
+    "code": "sos-prerelease-quandrix"
+  },
+  {
+    "name": "Secrets of Strixhaven Prerelease Promo Pack Silverquill",
+    "code": "sos-prerelease-silverquill"
+  },
+  {
+    "name": "Secrets of Strixhaven Prerelease Promo Pack Witherbloom",
+    "code": "sos-prerelease-witherbloom"
+  },
+  {
     "name": "Teenage Mutant Ninja Turtles Collector Booster",
     "code": "tmt-collector"
   },
@@ -32,12 +56,20 @@
     "code": "tmt-play"
   },
   {
+    "name": "Teenage Mutant Ninja Turtles Prerelease Promo Pack",
+    "code": "tmt-prerelease"
+  },
+  {
     "name": "Lorwyn Eclipsed Collector Booster",
     "code": "ecl-collector"
   },
   {
     "name": "Lorwyn Eclipsed Play Booster",
     "code": "ecl-play"
+  },
+  {
+    "name": "Lorwyn Eclipsed Prerelease Promo Pack",
+    "code": "ecl-prerelease"
   },
   {
     "name": "Avatar: The Last Airbender Collector Booster",
@@ -50,6 +82,26 @@
   {
     "name": "Avatar: The Last Airbender Prerelease Promo Pack",
     "code": "tla-prerelease"
+  },
+  {
+    "name": "Avatar: The Last Airbender Seeded Prerelease Pack Aang",
+    "code": "tla-prerelease-aang"
+  },
+  {
+    "name": "Avatar: The Last Airbender Seeded Prerelease Pack Azula",
+    "code": "tla-prerelease-azula"
+  },
+  {
+    "name": "Avatar: The Last Airbender Seeded Prerelease Pack Katara",
+    "code": "tla-prerelease-katara"
+  },
+  {
+    "name": "Avatar: The Last Airbender Seeded Prerelease Pack Toph",
+    "code": "tla-prerelease-toph"
+  },
+  {
+    "name": "Avatar: The Last Airbender Seeded Prerelease Pack Zuko",
+    "code": "tla-prerelease-zuko"
   },
   {
     "name": "Avatar: The Last Airbender Eternal Jumpstart Booster",
@@ -70,6 +122,10 @@
   {
     "name": "Edge of Eternities Collector Booster",
     "code": "eoe-collector"
+  },
+  {
+    "name": "Edge of Eternities Collector Sample Booster",
+    "code": "eoe-collector-sample"
   },
   {
     "name": "Edge of Eternities Play Booster",
@@ -122,6 +178,26 @@
   {
     "name": "Tarkir: Dragonstorm Prerelease Promo Pack",
     "code": "tdm-prerelease"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Seeded Prerelease Booster Abzan",
+    "code": "tdm-prerelease-abzan"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Seeded Prerelease Booster Jeskai",
+    "code": "tdm-prerelease-jeskai"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Seeded Prerelease Booster Mardu",
+    "code": "tdm-prerelease-mardu"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Seeded Prerelease Booster Sultai",
+    "code": "tdm-prerelease-sultai"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Seeded Prerelease Booster Temur",
+    "code": "tdm-prerelease-temur"
   },
   {
     "name": "Aetherdrift Box Topper",
@@ -1628,8 +1704,24 @@
     "code": "ori-draft"
   },
   {
-    "name": "Magic Origins Prerelease Promo Pack",
-    "code": "ori-prerelease"
+    "name": "Magic Origins Seeded Prerelease Booster Chandra",
+    "code": "ori-prerelease-chandra"
+  },
+  {
+    "name": "Magic Origins Seeded Prerelease Booster Gideon",
+    "code": "ori-prerelease-gideon"
+  },
+  {
+    "name": "Magic Origins Seeded Prerelease Booster Jace",
+    "code": "ori-prerelease-jace"
+  },
+  {
+    "name": "Magic Origins Seeded Prerelease Booster Liliana",
+    "code": "ori-prerelease-liliana"
+  },
+  {
+    "name": "Magic Origins Seeded Prerelease Booster Nissa",
+    "code": "ori-prerelease-nissa"
   },
   {
     "name": "Modern Masters 2015 Draft Booster",
@@ -1672,8 +1764,24 @@
     "code": "frf-draft"
   },
   {
-    "name": "Fate Reforged Prerelease Promo Pack",
-    "code": "frf-prerelease"
+    "name": "Fate Reforged Seeded Prerelease Booster Abzan",
+    "code": "frf-prerelease-abzan"
+  },
+  {
+    "name": "Fate Reforged Seeded Prerelease Booster Jeskai",
+    "code": "frf-prerelease-jeskai"
+  },
+  {
+    "name": "Fate Reforged Seeded Prerelease Booster Mardu",
+    "code": "frf-prerelease-mardu"
+  },
+  {
+    "name": "Fate Reforged Seeded Prerelease Booster Sultai",
+    "code": "frf-prerelease-sultai"
+  },
+  {
+    "name": "Fate Reforged Seeded Prerelease Booster Temur",
+    "code": "frf-prerelease-temur"
   },
   {
     "name": "Ugin's Fate Event Booster Pack",
@@ -1688,8 +1796,24 @@
     "code": "ktk-draft"
   },
   {
-    "name": "Khans of Tarkir Prerelease Promo Pack",
-    "code": "ktk-prerelease"
+    "name": "Khans of Tarkir Seeded Prerelease Booster Abzan",
+    "code": "ktk-prerelease-abzan"
+  },
+  {
+    "name": "Khans of Tarkir Seeded Prerelease Booster Jeskai",
+    "code": "ktk-prerelease-jeskai"
+  },
+  {
+    "name": "Khans of Tarkir Seeded Prerelease Booster Mardu",
+    "code": "ktk-prerelease-mardu"
+  },
+  {
+    "name": "Khans of Tarkir Seeded Prerelease Booster Sultai",
+    "code": "ktk-prerelease-sultai"
+  },
+  {
+    "name": "Khans of Tarkir Seeded Prerelease Booster Temur",
+    "code": "ktk-prerelease-temur"
   },
   {
     "name": "Magic 2015 Draft Booster",
@@ -1712,12 +1836,72 @@
     "code": "jou-draft"
   },
   {
+    "name": "Journey into Nyx Prerelease Pack Forged in Glory",
+    "code": "jou-prerelease-glory"
+  },
+  {
+    "name": "Journey into Nyx Prerelease Pack Forged in Intellect",
+    "code": "jou-prerelease-intellect"
+  },
+  {
+    "name": "Journey into Nyx Prerelease Pack Forged in Pursuit",
+    "code": "jou-prerelease-pursuit"
+  },
+  {
+    "name": "Journey into Nyx Prerelease Pack Forged in Tyranny",
+    "code": "jou-prerelease-tyranny"
+  },
+  {
+    "name": "Journey into Nyx Prerelease Pack Forged in War",
+    "code": "jou-prerelease-war"
+  },
+  {
     "name": "Born of the Gods Draft Booster",
     "code": "bng-draft"
   },
   {
+    "name": "Born of the Gods Prerelease Pack Destined to Conquer",
+    "code": "bng-prerelease-conquer"
+  },
+  {
+    "name": "Born of the Gods Prerelease Pack Destined to Dominate",
+    "code": "bng-prerelease-dominate"
+  },
+  {
+    "name": "Born of the Gods Prerelease Pack Destined to Lead",
+    "code": "bng-prerelease-lead"
+  },
+  {
+    "name": "Born of the Gods Prerelease Pack Destined to Outwit",
+    "code": "bng-prerelease-outwit"
+  },
+  {
+    "name": "Born of the Gods Prerelease Pack Destined to Thrive",
+    "code": "bng-prerelease-thrive"
+  },
+  {
     "name": "Theros Draft Booster",
     "code": "ths-draft"
+  },
+  {
+    "name": "Theros Prerelease Pack Path of Ambition",
+    "code": "ths-prerelease-ambition"
+  },
+  {
+    "name": "Theros Prerelease Pack Path of Battle",
+    "code": "ths-prerelease-battle"
+  },
+  {
+    "name": "Theros Prerelease Pack Path of Honor",
+    "code": "ths-prerelease-honor"
+  },
+  {
+    "name": "Theros Prerelease Pack Path of Might",
+    "code": "ths-prerelease-might"
+  },
+  {
+    "name": "Theros Prerelease Pack Path of Wisdom",
+    "code": "ths-prerelease-wisdom"
   },
   {
     "name": "Magic 2014 Draft Booster",

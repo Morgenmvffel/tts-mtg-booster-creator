@@ -1,0 +1,104 @@
+{
+  "name": "Fate Reforged Seeded Prerelease Booster Temur",
+  "code": "frf-prerelease-temur",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "frf",
+  "set_name": "Fate Reforged",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 23,
+      "cards": {
+        "frf:103": 1,
+        "frf:116": 1,
+        "frf:121": 1,
+        "frf:122": 1,
+        "frf:128": 1,
+        "frf:129": 1,
+        "frf:130": 1,
+        "frf:133": 1,
+        "frf:135": 1,
+        "frf:140": 1,
+        "frf:144": 1,
+        "frf:150": 1,
+        "frf:152": 1,
+        "frf:31": 1,
+        "frf:33": 1,
+        "frf:45": 1,
+        "frf:47": 1,
+        "frf:57": 1,
+        "frf:59": 1,
+        "frf:92": 1,
+        "frf:95": 1,
+        "frf:96": 1,
+        "frf:98": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 19,
+      "cards": {
+        "frf:101": 1,
+        "frf:105": 1,
+        "frf:111": 1,
+        "frf:112": 1,
+        "frf:118": 1,
+        "frf:132": 1,
+        "frf:136": 1,
+        "frf:139": 1,
+        "frf:141": 1,
+        "frf:147": 1,
+        "frf:32": 1,
+        "frf:34": 1,
+        "frf:35": 1,
+        "frf:44": 1,
+        "frf:46": 1,
+        "frf:48": 1,
+        "frf:51": 1,
+        "frf:94": 1,
+        "frf:97": 1
+      }
+    },
+    "promo": {
+      "total_weight": 13,
+      "cards": {
+        "pfrf:100s:foil": 2,
+        "pfrf:113s:foil": 1,
+        "pfrf:138s:foil": 2,
+        "pfrf:146s:foil": 2,
+        "pfrf:148s:foil": 2,
+        "pfrf:54s:foil": 2,
+        "pfrf:91s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "frf",
+    "pfrf"
+  ]
+}

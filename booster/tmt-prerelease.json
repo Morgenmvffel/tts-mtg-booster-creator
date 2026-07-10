@@ -1,0 +1,103 @@
+{
+  "name": "Teenage Mutant Ninja Turtles Prerelease Promo Pack",
+  "code": "tmt-prerelease",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "tmt",
+  "set_name": "Teenage Mutant Ninja Turtles",
+  "boosters": [
+    {
+      "sheets": {
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "promo": {
+      "total_weight": 121,
+      "cards": {
+        "tmt:102:foil": 1,
+        "tmt:103:foil": 2,
+        "tmt:105:foil": 2,
+        "tmt:106:foil": 2,
+        "tmt:108:foil": 2,
+        "tmt:115:foil": 2,
+        "tmt:117:foil": 2,
+        "tmt:119:foil": 1,
+        "tmt:121:foil": 2,
+        "tmt:122:foil": 2,
+        "tmt:124:foil": 2,
+        "tmt:128:foil": 2,
+        "tmt:134:foil": 2,
+        "tmt:135:foil": 2,
+        "tmt:13:foil": 2,
+        "tmt:140:foil": 2,
+        "tmt:142:foil": 1,
+        "tmt:143:foil": 2,
+        "tmt:144:foil": 2,
+        "tmt:153:foil": 2,
+        "tmt:154:foil": 1,
+        "tmt:157:foil": 2,
+        "tmt:158:foil": 2,
+        "tmt:15:foil": 2,
+        "tmt:162:foil": 1,
+        "tmt:166:foil": 2,
+        "tmt:167:foil": 2,
+        "tmt:169:foil": 2,
+        "tmt:171:foil": 2,
+        "tmt:172:foil": 2,
+        "tmt:175:foil": 1,
+        "tmt:177:foil": 2,
+        "tmt:179:foil": 1,
+        "tmt:17:foil": 1,
+        "tmt:181:foil": 2,
+        "tmt:182:foil": 2,
+        "tmt:188:foil": 2,
+        "tmt:18:foil": 2,
+        "tmt:22:foil": 2,
+        "tmt:24:foil": 2,
+        "tmt:25:foil": 1,
+        "tmt:26:foil": 2,
+        "tmt:27:foil": 2,
+        "tmt:29:foil": 2,
+        "tmt:2:foil": 2,
+        "tmt:34:foil": 2,
+        "tmt:35:foil": 2,
+        "tmt:36:foil": 1,
+        "tmt:41:foil": 2,
+        "tmt:42:foil": 2,
+        "tmt:43:foil": 2,
+        "tmt:46:foil": 1,
+        "tmt:50:foil": 2,
+        "tmt:55:foil": 1,
+        "tmt:58:foil": 2,
+        "tmt:60:foil": 1,
+        "tmt:66:foil": 2,
+        "tmt:67:foil": 2,
+        "tmt:71:foil": 2,
+        "tmt:72:foil": 2,
+        "tmt:73:foil": 2,
+        "tmt:78:foil": 2,
+        "tmt:80:foil": 2,
+        "tmt:83:foil": 1,
+        "tmt:86:foil": 1,
+        "tmt:88:foil": 2,
+        "tmt:89:foil": 2,
+        "tmt:92:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "tmt"
+  ]
+}

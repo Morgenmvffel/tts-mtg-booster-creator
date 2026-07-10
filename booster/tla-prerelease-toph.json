@@ -1,0 +1,113 @@
+{
+  "name": "Avatar: The Last Airbender Seeded Prerelease Pack Toph",
+  "code": "tla-prerelease-toph",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "tla",
+  "set_name": "Avatar: The Last Airbender",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 9,
+        "uncommon": 3,
+        "land": 1,
+        "rare_mythic": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "land",
+        "rare_mythic"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 18,
+      "cards": {
+        "tla:1": 1,
+        "tla:166": 1,
+        "tla:170": 1,
+        "tla:176": 1,
+        "tla:180": 1,
+        "tla:187": 1,
+        "tla:188": 1,
+        "tla:189": 1,
+        "tla:190": 1,
+        "tla:191": 1,
+        "tla:193": 1,
+        "tla:194": 1,
+        "tla:200": 1,
+        "tla:202": 1,
+        "tla:254": 1,
+        "tla:255": 1,
+        "tla:257": 1,
+        "tla:3": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 21,
+      "cards": {
+        "tla:164": 1,
+        "tla:168": 1,
+        "tla:169": 1,
+        "tla:173": 1,
+        "tla:174": 1,
+        "tla:179": 1,
+        "tla:182": 1,
+        "tla:183": 1,
+        "tla:184": 1,
+        "tla:185": 1,
+        "tla:192": 1,
+        "tla:195": 1,
+        "tla:196": 1,
+        "tla:197": 1,
+        "tla:198": 1,
+        "tla:199": 1,
+        "tla:2": 1,
+        "tla:201": 1,
+        "tla:256": 1,
+        "tla:258": 1,
+        "tla:260": 1
+      }
+    },
+    "land": {
+      "total_weight": 4,
+      "cards": {
+        "tla:269": 1,
+        "tla:271": 1,
+        "tla:272": 1,
+        "tla:275": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 23,
+      "cards": {
+        "tla:165": 2,
+        "tla:167": 1,
+        "tla:171": 2,
+        "tla:172": 2,
+        "tla:175": 2,
+        "tla:178": 2,
+        "tla:181": 2,
+        "tla:186a": 1,
+        "tla:259": 1,
+        "tla:261": 1,
+        "tla:262": 1,
+        "tla:266": 2,
+        "tla:270": 2,
+        "tla:278": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "tla"
+  ]
+}

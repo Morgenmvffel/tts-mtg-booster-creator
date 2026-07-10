@@ -1,0 +1,119 @@
+{
+  "name": "Khans of Tarkir Seeded Prerelease Booster Jeskai",
+  "code": "ktk-prerelease-jeskai",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ktk",
+  "set_name": "Khans of Tarkir",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 32,
+      "cards": {
+        "ktk:10": 1,
+        "ktk:101": 1,
+        "ktk:102": 1,
+        "ktk:103": 1,
+        "ktk:114": 1,
+        "ktk:120": 1,
+        "ktk:121": 1,
+        "ktk:122": 1,
+        "ktk:123": 1,
+        "ktk:124": 1,
+        "ktk:14": 1,
+        "ktk:15": 1,
+        "ktk:175": 1,
+        "ktk:19": 1,
+        "ktk:20": 1,
+        "ktk:222": 1,
+        "ktk:23": 1,
+        "ktk:24": 1,
+        "ktk:33": 1,
+        "ktk:35": 1,
+        "ktk:37": 1,
+        "ktk:4": 1,
+        "ktk:44": 1,
+        "ktk:47": 1,
+        "ktk:48": 1,
+        "ktk:55": 1,
+        "ktk:61": 1,
+        "ktk:62": 1,
+        "ktk:63": 1,
+        "ktk:7": 1,
+        "ktk:9": 1,
+        "ktk:95": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 24,
+      "cards": {
+        "ktk:104": 1,
+        "ktk:109": 1,
+        "ktk:111": 1,
+        "ktk:118": 1,
+        "ktk:177": 1,
+        "ktk:181": 1,
+        "ktk:188": 1,
+        "ktk:194": 1,
+        "ktk:212": 1,
+        "ktk:213": 1,
+        "ktk:22": 1,
+        "ktk:236": 1,
+        "ktk:25": 1,
+        "ktk:26": 1,
+        "ktk:28": 1,
+        "ktk:32": 1,
+        "ktk:38": 1,
+        "ktk:43": 1,
+        "ktk:46": 1,
+        "ktk:5": 1,
+        "ktk:50": 1,
+        "ktk:51": 1,
+        "ktk:60": 1,
+        "ktk:97": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pktk:108s:foil": 2,
+        "pktk:173s:foil": 2,
+        "pktk:176s:foil": 2,
+        "pktk:180s:foil": 2,
+        "pktk:18s:foil": 2,
+        "pktk:190s:foil": 1,
+        "pktk:195s:foil": 2,
+        "pktk:58s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ktk",
+    "pktk"
+  ]
+}

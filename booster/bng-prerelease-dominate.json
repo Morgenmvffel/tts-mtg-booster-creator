@@ -1,0 +1,97 @@
+{
+  "name": "Born of the Gods Prerelease Pack Destined to Dominate",
+  "code": "bng-prerelease-dominate",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "bng",
+  "set_name": "Born of the Gods",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "bng:60": 1,
+        "bng:64": 1,
+        "bng:67": 1,
+        "bng:70": 1,
+        "bng:72": 1,
+        "bng:74": 1,
+        "bng:76": 1,
+        "bng:77": 1,
+        "bng:78": 1,
+        "bng:82": 1,
+        "bng:85": 1,
+        "bng:86": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 13,
+      "cards": {
+        "bng:158": 1,
+        "bng:160": 1,
+        "bng:161": 1,
+        "bng:162": 1,
+        "bng:58": 1,
+        "bng:59": 1,
+        "bng:61": 1,
+        "bng:62": 1,
+        "bng:65": 1,
+        "bng:71": 1,
+        "bng:81": 1,
+        "bng:83": 1,
+        "bng:84": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 9,
+      "cards": {
+        "bng:157": 1,
+        "bng:159": 1,
+        "bng:63": 1,
+        "bng:66": 1,
+        "bng:68": 1,
+        "bng:69": 1,
+        "bng:73": 1,
+        "bng:75": 1,
+        "bng:80": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pbng:66\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "bng",
+    "pbng"
+  ]
+}

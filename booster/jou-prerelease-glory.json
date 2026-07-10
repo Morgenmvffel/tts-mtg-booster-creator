@@ -1,0 +1,98 @@
+{
+  "name": "Journey into Nyx Prerelease Pack Forged in Glory",
+  "code": "jou-prerelease-glory",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "jou",
+  "set_name": "Journey into Nyx",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "jou:11": 1,
+        "jou:13": 1,
+        "jou:14": 1,
+        "jou:17": 1,
+        "jou:19": 1,
+        "jou:2": 1,
+        "jou:20": 1,
+        "jou:27": 1,
+        "jou:28": 1,
+        "jou:3": 1,
+        "jou:4": 1,
+        "jou:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "jou:10": 1,
+        "jou:158": 1,
+        "jou:159": 1,
+        "jou:16": 1,
+        "jou:160": 1,
+        "jou:161": 1,
+        "jou:18": 1,
+        "jou:21": 1,
+        "jou:22": 1,
+        "jou:23": 1,
+        "jou:24": 1,
+        "jou:26": 1,
+        "jou:29": 1,
+        "jou:5": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 9,
+      "cards": {
+        "jou:1": 1,
+        "jou:12": 1,
+        "jou:15": 1,
+        "jou:162": 1,
+        "jou:163": 1,
+        "jou:25": 1,
+        "jou:6": 1,
+        "jou:7": 1,
+        "jou:8": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pjou:6\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jou",
+    "pjou"
+  ]
+}

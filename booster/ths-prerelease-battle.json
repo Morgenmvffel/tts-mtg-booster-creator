@@ -1,0 +1,113 @@
+{
+  "name": "Theros Prerelease Pack Path of Battle",
+  "code": "ths-prerelease-battle",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ths",
+  "set_name": "Theros",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 23,
+      "cards": {
+        "ths:111": 1,
+        "ths:114": 1,
+        "ths:115": 1,
+        "ths:118": 1,
+        "ths:119": 1,
+        "ths:125": 1,
+        "ths:127": 1,
+        "ths:129": 1,
+        "ths:130": 1,
+        "ths:133": 1,
+        "ths:137": 1,
+        "ths:139": 1,
+        "ths:140": 1,
+        "ths:141": 1,
+        "ths:145": 1,
+        "ths:146": 1,
+        "ths:147": 1,
+        "ths:212": 1,
+        "ths:216": 1,
+        "ths:217": 1,
+        "ths:218": 1,
+        "ths:221": 1,
+        "ths:229": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "ths:113": 1,
+        "ths:116": 1,
+        "ths:121": 1,
+        "ths:123": 1,
+        "ths:128": 1,
+        "ths:131": 1,
+        "ths:132": 1,
+        "ths:136": 1,
+        "ths:142": 1,
+        "ths:211": 1,
+        "ths:213": 1,
+        "ths:215": 1,
+        "ths:219": 1,
+        "ths:222": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 13,
+      "cards": {
+        "ths:112": 1,
+        "ths:120": 1,
+        "ths:122": 1,
+        "ths:124": 1,
+        "ths:126": 1,
+        "ths:135": 1,
+        "ths:138": 1,
+        "ths:143": 1,
+        "ths:144": 1,
+        "ths:210": 1,
+        "ths:214": 1,
+        "ths:220": 1,
+        "ths:223": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pths:120\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "pths",
+    "ths"
+  ]
+}

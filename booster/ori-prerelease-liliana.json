@@ -1,0 +1,92 @@
+{
+  "name": "Magic Origins Seeded Prerelease Booster Liliana",
+  "code": "ori-prerelease-liliana",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ori",
+  "set_name": "Magic Origins",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 4,
+        "uncommon": 2,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 19,
+      "cards": {
+        "ori:102": 1,
+        "ori:107": 1,
+        "ori:109": 1,
+        "ori:111": 1,
+        "ori:113": 1,
+        "ori:114": 1,
+        "ori:115": 1,
+        "ori:116": 1,
+        "ori:119": 1,
+        "ori:121": 1,
+        "ori:123": 1,
+        "ori:124": 1,
+        "ori:125": 1,
+        "ori:126": 1,
+        "ori:86": 1,
+        "ori:89": 1,
+        "ori:91": 1,
+        "ori:95": 1,
+        "ori:97": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 10,
+      "cards": {
+        "ori:108": 1,
+        "ori:110": 1,
+        "ori:117": 1,
+        "ori:118": 1,
+        "ori:122": 1,
+        "ori:85": 1,
+        "ori:87": 1,
+        "ori:88": 1,
+        "ori:96": 1,
+        "ori:98": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pori:101s:foil": 2,
+        "pori:104s:foil": 2,
+        "pori:105s:foil": 2,
+        "pori:106sa:foil": 1,
+        "pori:112s:foil": 2,
+        "pori:90s:foil": 2,
+        "pori:93s:foil": 2,
+        "pori:99s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ori",
+    "pori"
+  ]
+}

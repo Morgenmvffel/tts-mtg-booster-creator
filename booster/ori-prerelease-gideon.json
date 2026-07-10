@@ -1,0 +1,93 @@
+{
+  "name": "Magic Origins Seeded Prerelease Booster Gideon",
+  "code": "ori-prerelease-gideon",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ori",
+  "set_name": "Magic Origins",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 4,
+        "uncommon": 2,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 19,
+      "cards": {
+        "ori:1": 1,
+        "ori:10": 1,
+        "ori:12": 1,
+        "ori:13": 1,
+        "ori:15": 1,
+        "ori:17": 1,
+        "ori:18": 1,
+        "ori:2": 1,
+        "ori:20": 1,
+        "ori:25": 1,
+        "ori:26": 1,
+        "ori:32": 1,
+        "ori:34": 1,
+        "ori:36": 1,
+        "ori:42": 1,
+        "ori:5": 1,
+        "ori:6": 1,
+        "ori:8": 1,
+        "ori:9": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 11,
+      "cards": {
+        "ori:11": 1,
+        "ori:22": 1,
+        "ori:27": 1,
+        "ori:28": 1,
+        "ori:3": 1,
+        "ori:30": 1,
+        "ori:35": 1,
+        "ori:37": 1,
+        "ori:39": 1,
+        "ori:41": 1,
+        "ori:7": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pori:14s:foil": 2,
+        "pori:19s:foil": 2,
+        "pori:21s:foil": 2,
+        "pori:23sa:foil": 1,
+        "pori:24s:foil": 2,
+        "pori:29s:foil": 2,
+        "pori:38s:foil": 2,
+        "pori:40s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ori",
+    "pori"
+  ]
+}

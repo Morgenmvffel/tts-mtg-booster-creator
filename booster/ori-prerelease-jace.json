@@ -1,0 +1,93 @@
+{
+  "name": "Magic Origins Seeded Prerelease Booster Jace",
+  "code": "ori-prerelease-jace",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ori",
+  "set_name": "Magic Origins",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 4,
+        "uncommon": 2,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 19,
+      "cards": {
+        "ori:45": 1,
+        "ori:46": 1,
+        "ori:47": 1,
+        "ori:48": 1,
+        "ori:50": 1,
+        "ori:52": 1,
+        "ori:54": 1,
+        "ori:56": 1,
+        "ori:57": 1,
+        "ori:63": 1,
+        "ori:65": 1,
+        "ori:66": 1,
+        "ori:68": 1,
+        "ori:69": 1,
+        "ori:70": 1,
+        "ori:71": 1,
+        "ori:72": 1,
+        "ori:77": 1,
+        "ori:82": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 11,
+      "cards": {
+        "ori:44": 1,
+        "ori:49": 1,
+        "ori:59": 1,
+        "ori:62": 1,
+        "ori:67": 1,
+        "ori:73": 1,
+        "ori:74": 1,
+        "ori:76": 1,
+        "ori:80": 1,
+        "ori:81": 1,
+        "ori:83": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pori:43s:foil": 2,
+        "pori:58s:foil": 2,
+        "pori:60sa:foil": 1,
+        "pori:64s:foil": 2,
+        "pori:75s:foil": 2,
+        "pori:78s:foil": 2,
+        "pori:79s:foil": 2,
+        "pori:84s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ori",
+    "pori"
+  ]
+}

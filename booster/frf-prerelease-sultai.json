@@ -1,0 +1,104 @@
+{
+  "name": "Fate Reforged Seeded Prerelease Booster Sultai",
+  "code": "frf-prerelease-sultai",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "frf",
+  "set_name": "Fate Reforged",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 26,
+      "cards": {
+        "frf:121": 1,
+        "frf:124": 1,
+        "frf:128": 1,
+        "frf:129": 1,
+        "frf:133": 1,
+        "frf:135": 1,
+        "frf:152": 1,
+        "frf:153": 1,
+        "frf:31": 1,
+        "frf:33": 1,
+        "frf:45": 1,
+        "frf:47": 1,
+        "frf:53": 1,
+        "frf:57": 1,
+        "frf:58": 1,
+        "frf:59": 1,
+        "frf:61": 1,
+        "frf:68": 1,
+        "frf:72": 1,
+        "frf:73": 1,
+        "frf:81": 1,
+        "frf:82": 1,
+        "frf:85": 1,
+        "frf:86": 1,
+        "frf:88": 1,
+        "frf:89": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 17,
+      "cards": {
+        "frf:132": 1,
+        "frf:136": 1,
+        "frf:139": 1,
+        "frf:32": 1,
+        "frf:34": 1,
+        "frf:40": 1,
+        "frf:44": 1,
+        "frf:46": 1,
+        "frf:48": 1,
+        "frf:49": 1,
+        "frf:51": 1,
+        "frf:66": 1,
+        "frf:67": 1,
+        "frf:69": 1,
+        "frf:71": 1,
+        "frf:80": 1,
+        "frf:83": 1
+      }
+    },
+    "promo": {
+      "total_weight": 11,
+      "cards": {
+        "pfrf:146s:foil": 2,
+        "pfrf:54s:foil": 2,
+        "pfrf:56s:foil": 1,
+        "pfrf:62s:foil": 2,
+        "pfrf:84s:foil": 2,
+        "pfrf:87s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "frf",
+    "pfrf"
+  ]
+}

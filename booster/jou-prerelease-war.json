@@ -1,0 +1,98 @@
+{
+  "name": "Journey into Nyx Prerelease Pack Forged in War",
+  "code": "jou-prerelease-war",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "jou",
+  "set_name": "Journey into Nyx",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "jou:102": 1,
+        "jou:103": 1,
+        "jou:105": 1,
+        "jou:109": 1,
+        "jou:110": 1,
+        "jou:111": 1,
+        "jou:114": 1,
+        "jou:90": 1,
+        "jou:95": 1,
+        "jou:96": 1,
+        "jou:97": 1,
+        "jou:99": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "jou:101": 1,
+        "jou:104": 1,
+        "jou:107": 1,
+        "jou:108": 1,
+        "jou:113": 1,
+        "jou:116": 1,
+        "jou:158": 1,
+        "jou:159": 1,
+        "jou:160": 1,
+        "jou:161": 1,
+        "jou:88": 1,
+        "jou:91": 1,
+        "jou:92": 1,
+        "jou:98": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 9,
+      "cards": {
+        "jou:100": 1,
+        "jou:106": 1,
+        "jou:112": 1,
+        "jou:115": 1,
+        "jou:162": 1,
+        "jou:163": 1,
+        "jou:89": 1,
+        "jou:93": 1,
+        "jou:94": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pjou:112\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jou",
+    "pjou"
+  ]
+}

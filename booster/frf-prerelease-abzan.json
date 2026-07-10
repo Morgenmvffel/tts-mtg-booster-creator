@@ -1,0 +1,102 @@
+{
+  "name": "Fate Reforged Seeded Prerelease Booster Abzan",
+  "code": "frf-prerelease-abzan",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "frf",
+  "set_name": "Fate Reforged",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 21,
+      "cards": {
+        "frf:121": 1,
+        "frf:128": 1,
+        "frf:129": 1,
+        "frf:13": 1,
+        "frf:133": 1,
+        "frf:134": 1,
+        "frf:135": 1,
+        "frf:153": 1,
+        "frf:154": 1,
+        "frf:2": 1,
+        "frf:21": 1,
+        "frf:24": 1,
+        "frf:25": 1,
+        "frf:26": 1,
+        "frf:3": 1,
+        "frf:4": 1,
+        "frf:5": 1,
+        "frf:61": 1,
+        "frf:68": 1,
+        "frf:73": 1,
+        "frf:81": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 19,
+      "cards": {
+        "frf:119": 1,
+        "frf:12": 1,
+        "frf:120": 1,
+        "frf:123": 1,
+        "frf:125": 1,
+        "frf:126": 1,
+        "frf:132": 1,
+        "frf:136": 1,
+        "frf:139": 1,
+        "frf:14": 1,
+        "frf:16": 1,
+        "frf:23": 1,
+        "frf:28": 1,
+        "frf:66": 1,
+        "frf:67": 1,
+        "frf:69": 1,
+        "frf:7": 1,
+        "frf:71": 1,
+        "frf:76": 1
+      }
+    },
+    "promo": {
+      "total_weight": 13,
+      "cards": {
+        "pfrf:11s:foil": 2,
+        "pfrf:137s:foil": 2,
+        "pfrf:143s:foil": 1,
+        "pfrf:146s:foil": 2,
+        "pfrf:19s:foil": 2,
+        "pfrf:22s:foil": 2,
+        "pfrf:9s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "frf",
+    "pfrf"
+  ]
+}

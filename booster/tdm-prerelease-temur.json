@@ -1,0 +1,155 @@
+{
+  "name": "Tarkir: Dragonstorm Seeded Prerelease Booster Temur",
+  "code": "tdm-prerelease-temur",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "tdm",
+  "set_name": "Tarkir: Dragonstorm",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 9,
+        "uncommon": 3,
+        "land": 1,
+        "rare_mythic": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "land",
+        "rare_mythic"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 34,
+      "cards": {
+        "tdm:107": 1,
+        "tdm:112": 1,
+        "tdm:113": 1,
+        "tdm:116": 1,
+        "tdm:119": 1,
+        "tdm:124a": 1,
+        "tdm:125": 1,
+        "tdm:128": 1,
+        "tdm:129": 1,
+        "tdm:132": 1,
+        "tdm:134": 1,
+        "tdm:145": 1,
+        "tdm:148": 1,
+        "tdm:151": 1,
+        "tdm:154": 1,
+        "tdm:157a": 1,
+        "tdm:158": 1,
+        "tdm:159": 1,
+        "tdm:163": 1,
+        "tdm:165": 1,
+        "tdm:229": 1,
+        "tdm:40a": 1,
+        "tdm:41": 1,
+        "tdm:45": 1,
+        "tdm:47": 1,
+        "tdm:48": 1,
+        "tdm:49": 1,
+        "tdm:53": 1,
+        "tdm:54": 1,
+        "tdm:56": 1,
+        "tdm:57": 1,
+        "tdm:61": 1,
+        "tdm:62": 1,
+        "tdm:66": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 38,
+      "cards": {
+        "tdm:101": 1,
+        "tdm:102": 1,
+        "tdm:108": 1,
+        "tdm:115": 1,
+        "tdm:117": 1,
+        "tdm:121": 1,
+        "tdm:126": 1,
+        "tdm:130": 1,
+        "tdm:131": 1,
+        "tdm:135": 1,
+        "tdm:139": 1,
+        "tdm:142": 1,
+        "tdm:143": 1,
+        "tdm:147": 1,
+        "tdm:152": 1,
+        "tdm:153": 1,
+        "tdm:162": 1,
+        "tdm:164": 1,
+        "tdm:169": 1,
+        "tdm:180": 1,
+        "tdm:181": 1,
+        "tdm:188": 1,
+        "tdm:198": 1,
+        "tdm:201": 1,
+        "tdm:205": 1,
+        "tdm:221a": 1,
+        "tdm:234a": 1,
+        "tdm:248": 1,
+        "tdm:35": 1,
+        "tdm:38": 1,
+        "tdm:43": 1,
+        "tdm:44": 1,
+        "tdm:46": 1,
+        "tdm:50": 1,
+        "tdm:55": 1,
+        "tdm:58": 1,
+        "tdm:63": 1,
+        "tdm:64": 1
+      }
+    },
+    "land": {
+      "total_weight": 4,
+      "cards": {
+        "tdm:255": 1,
+        "tdm:265": 1,
+        "tdm:268": 1,
+        "tdm:269": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 41,
+      "cards": {
+        "tdm:105": 1,
+        "tdm:111": 2,
+        "tdm:118": 2,
+        "tdm:123": 1,
+        "tdm:136a": 2,
+        "tdm:138": 1,
+        "tdm:144": 2,
+        "tdm:150": 2,
+        "tdm:161": 2,
+        "tdm:179": 1,
+        "tdm:182": 2,
+        "tdm:187": 2,
+        "tdm:189": 2,
+        "tdm:220": 2,
+        "tdm:225": 2,
+        "tdm:228": 2,
+        "tdm:233": 1,
+        "tdm:261": 2,
+        "tdm:37": 2,
+        "tdm:42": 2,
+        "tdm:51a": 2,
+        "tdm:59": 2,
+        "tdm:67": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "tdm"
+  ]
+}

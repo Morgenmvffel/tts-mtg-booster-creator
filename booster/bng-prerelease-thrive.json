@@ -1,0 +1,96 @@
+{
+  "name": "Born of the Gods Prerelease Pack Destined to Thrive",
+  "code": "bng-prerelease-thrive",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "bng",
+  "set_name": "Born of the Gods",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "bng:117": 1,
+        "bng:118": 1,
+        "bng:120": 1,
+        "bng:125": 1,
+        "bng:127": 1,
+        "bng:131": 1,
+        "bng:134": 1,
+        "bng:136": 1,
+        "bng:138": 1,
+        "bng:139": 1,
+        "bng:141": 1,
+        "bng:142": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 13,
+      "cards": {
+        "bng:116": 1,
+        "bng:126": 1,
+        "bng:128": 1,
+        "bng:130": 1,
+        "bng:132": 1,
+        "bng:133": 1,
+        "bng:135": 1,
+        "bng:140": 1,
+        "bng:143": 1,
+        "bng:158": 1,
+        "bng:160": 1,
+        "bng:161": 1,
+        "bng:162": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 8,
+      "cards": {
+        "bng:119": 1,
+        "bng:121": 1,
+        "bng:123": 1,
+        "bng:124": 1,
+        "bng:129": 1,
+        "bng:137": 1,
+        "bng:157": 1,
+        "bng:159": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pbng:129\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "bng",
+    "pbng"
+  ]
+}

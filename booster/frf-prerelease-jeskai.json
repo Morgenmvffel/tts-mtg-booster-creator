@@ -1,0 +1,108 @@
+{
+  "name": "Fate Reforged Seeded Prerelease Booster Jeskai",
+  "code": "frf-prerelease-jeskai",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "frf",
+  "set_name": "Fate Reforged",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 4,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 24,
+      "cards": {
+        "frf:10": 1,
+        "frf:103": 1,
+        "frf:115": 1,
+        "frf:13": 1,
+        "frf:150": 1,
+        "frf:158": 1,
+        "frf:21": 1,
+        "frf:24": 1,
+        "frf:25": 1,
+        "frf:26": 1,
+        "frf:31": 1,
+        "frf:33": 1,
+        "frf:37": 1,
+        "frf:38": 1,
+        "frf:39": 1,
+        "frf:45": 1,
+        "frf:47": 1,
+        "frf:57": 1,
+        "frf:59": 1,
+        "frf:6": 1,
+        "frf:92": 1,
+        "frf:95": 1,
+        "frf:96": 1,
+        "frf:98": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 21,
+      "cards": {
+        "frf:101": 1,
+        "frf:104": 1,
+        "frf:111": 1,
+        "frf:112": 1,
+        "frf:15": 1,
+        "frf:16": 1,
+        "frf:17": 1,
+        "frf:23": 1,
+        "frf:28": 1,
+        "frf:29": 1,
+        "frf:32": 1,
+        "frf:34": 1,
+        "frf:42": 1,
+        "frf:44": 1,
+        "frf:46": 1,
+        "frf:48": 1,
+        "frf:51": 1,
+        "frf:7": 1,
+        "frf:93": 1,
+        "frf:94": 1,
+        "frf:97": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pfrf:19s:foil": 2,
+        "pfrf:22s:foil": 2,
+        "pfrf:27s:foil": 1,
+        "pfrf:36s:foil": 2,
+        "pfrf:50s:foil": 2,
+        "pfrf:52s:foil": 2,
+        "pfrf:54s:foil": 2,
+        "pfrf:91s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "frf",
+    "pfrf"
+  ]
+}

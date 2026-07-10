@@ -1,0 +1,97 @@
+{
+  "name": "Born of the Gods Prerelease Pack Destined to Outwit",
+  "code": "bng-prerelease-outwit",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "bng",
+  "set_name": "Born of the Gods",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "bng:33": 1,
+        "bng:34": 1,
+        "bng:35": 1,
+        "bng:36": 1,
+        "bng:38": 1,
+        "bng:41": 1,
+        "bng:45": 1,
+        "bng:46": 1,
+        "bng:49": 1,
+        "bng:51": 1,
+        "bng:52": 1,
+        "bng:53": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "bng:158": 1,
+        "bng:160": 1,
+        "bng:161": 1,
+        "bng:162": 1,
+        "bng:30": 1,
+        "bng:32": 1,
+        "bng:37": 1,
+        "bng:40": 1,
+        "bng:42": 1,
+        "bng:43": 1,
+        "bng:47": 1,
+        "bng:50": 1,
+        "bng:54": 1,
+        "bng:56": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 8,
+      "cards": {
+        "bng:157": 1,
+        "bng:159": 1,
+        "bng:31": 1,
+        "bng:39": 1,
+        "bng:44": 1,
+        "bng:48": 1,
+        "bng:55": 1,
+        "bng:57": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pbng:31\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "bng",
+    "pbng"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Journey into Nyx Prerelease Pack Forged in Tyranny",
+  "code": "jou-prerelease-tyranny",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "jou",
+  "set_name": "Journey into Nyx",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "jou:60": 1,
+        "jou:61": 1,
+        "jou:63": 1,
+        "jou:64": 1,
+        "jou:67": 1,
+        "jou:69": 1,
+        "jou:71": 1,
+        "jou:73": 1,
+        "jou:77": 1,
+        "jou:78": 1,
+        "jou:79": 1,
+        "jou:81": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "jou:158": 1,
+        "jou:159": 1,
+        "jou:160": 1,
+        "jou:161": 1,
+        "jou:59": 1,
+        "jou:62": 1,
+        "jou:70": 1,
+        "jou:72": 1,
+        "jou:76": 1,
+        "jou:80": 1,
+        "jou:83": 1,
+        "jou:84": 1,
+        "jou:85": 1,
+        "jou:86": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 9,
+      "cards": {
+        "jou:162": 1,
+        "jou:163": 1,
+        "jou:65": 1,
+        "jou:66": 1,
+        "jou:68": 1,
+        "jou:74": 1,
+        "jou:75": 1,
+        "jou:82": 1,
+        "jou:87": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pjou:66\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jou",
+    "pjou"
+  ]
+}

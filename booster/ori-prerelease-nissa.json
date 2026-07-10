@@ -1,0 +1,93 @@
+{
+  "name": "Magic Origins Seeded Prerelease Booster Nissa",
+  "code": "ori-prerelease-nissa",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "ori",
+  "set_name": "Magic Origins",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 4,
+        "uncommon": 2,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 19,
+      "cards": {
+        "ori:168": 1,
+        "ori:170": 1,
+        "ori:175": 1,
+        "ori:181": 1,
+        "ori:184": 1,
+        "ori:185": 1,
+        "ori:187": 1,
+        "ori:188": 1,
+        "ori:190": 1,
+        "ori:192": 1,
+        "ori:194": 1,
+        "ori:195": 1,
+        "ori:196": 1,
+        "ori:200": 1,
+        "ori:201": 1,
+        "ori:204": 1,
+        "ori:205": 1,
+        "ori:206": 1,
+        "ori:208": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 11,
+      "cards": {
+        "ori:171": 1,
+        "ori:173": 1,
+        "ori:174": 1,
+        "ori:178": 1,
+        "ori:183": 1,
+        "ori:197": 1,
+        "ori:198": 1,
+        "ori:199": 1,
+        "ori:202": 1,
+        "ori:203": 1,
+        "ori:209": 1
+      }
+    },
+    "promo": {
+      "total_weight": 15,
+      "cards": {
+        "pori:172s:foil": 2,
+        "pori:176s:foil": 2,
+        "pori:177s:foil": 2,
+        "pori:182s:foil": 2,
+        "pori:186s:foil": 2,
+        "pori:189sa:foil": 1,
+        "pori:191s:foil": 2,
+        "pori:193s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "ori",
+    "pori"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Journey into Nyx Prerelease Pack Forged in Pursuit",
+  "code": "jou-prerelease-pursuit",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "jou",
+  "set_name": "Journey into Nyx",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 10,
+        "uncommon": 3,
+        "rare_mythic": 1,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare_mythic",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 12,
+      "cards": {
+        "jou:120": 1,
+        "jou:123": 1,
+        "jou:124": 1,
+        "jou:127": 1,
+        "jou:129": 1,
+        "jou:130": 1,
+        "jou:131": 1,
+        "jou:133": 1,
+        "jou:134": 1,
+        "jou:136": 1,
+        "jou:137": 1,
+        "jou:139": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 14,
+      "cards": {
+        "jou:117": 1,
+        "jou:118": 1,
+        "jou:119": 1,
+        "jou:125": 1,
+        "jou:132": 1,
+        "jou:138": 1,
+        "jou:141": 1,
+        "jou:142": 1,
+        "jou:143": 1,
+        "jou:144": 1,
+        "jou:158": 1,
+        "jou:159": 1,
+        "jou:160": 1,
+        "jou:161": 1
+      }
+    },
+    "rare_mythic": {
+      "total_weight": 8,
+      "cards": {
+        "jou:121": 1,
+        "jou:122": 1,
+        "jou:126": 1,
+        "jou:128": 1,
+        "jou:135": 1,
+        "jou:140": 1,
+        "jou:162": 1,
+        "jou:163": 1
+      }
+    },
+    "promo": {
+      "total_weight": 1,
+      "cards": {
+        "pjou:126\u2605:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "jou",
+    "pjou"
+  ]
+}
