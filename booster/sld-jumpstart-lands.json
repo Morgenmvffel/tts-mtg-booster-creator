@@ -1,0 +1,58 @@
+{
+  "name": "SLD Foil Jumpstart Lands (2021-2022)",
+  "code": "sld-jumpstart-lands",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "lands": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "lands"
+      ]
+    }
+  ],
+  "sheets": {
+    "lands": {
+      "total_weight": 148,
+      "cards": {
+        "sld:540:foil": 3,
+        "sld:541:foil": 5,
+        "sld:542:foil": 5,
+        "sld:543:foil": 2,
+        "sld:544:foil": 5,
+        "sld:545:foil": 3,
+        "sld:546:foil": 7,
+        "sld:547:foil": 1,
+        "sld:548:foil": 11,
+        "sld:549:foil": 13,
+        "sld:550:foil": 5,
+        "sld:554:foil": 5,
+        "sld:559:foil": 7,
+        "sld:564:foil": 4,
+        "sld:565:foil": 3,
+        "sld:567:foil": 3,
+        "sld:568:foil": 13,
+        "sld:569:foil": 17,
+        "sld:570:foil": 1,
+        "sld:574:foil": 8,
+        "sld:575:foil": 3,
+        "sld:576:foil": 6,
+        "sld:577:foil": 8,
+        "sld:578:foil": 4,
+        "sld:579:foil": 6
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

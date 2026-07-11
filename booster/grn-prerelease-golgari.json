@@ -1,0 +1,116 @@
+{
+  "name": "Guilds of Ravnica Seeded Prerelease Booster Golgari",
+  "code": "grn-prerelease-golgari",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "grn",
+  "set_name": "Guilds of Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 31,
+      "cards": {
+        "grn:126": 1,
+        "grn:127": 1,
+        "grn:129": 1,
+        "grn:133": 1,
+        "grn:134": 1,
+        "grn:135": 1,
+        "grn:142": 1,
+        "grn:143": 1,
+        "grn:146": 1,
+        "grn:147": 1,
+        "grn:149": 1,
+        "grn:150": 1,
+        "grn:169": 1,
+        "grn:196": 1,
+        "grn:210": 1,
+        "grn:218": 1,
+        "grn:237": 1,
+        "grn:248": 1,
+        "grn:249": 1,
+        "grn:62": 1,
+        "grn:64": 1,
+        "grn:65": 1,
+        "grn:67": 1,
+        "grn:70": 1,
+        "grn:72": 1,
+        "grn:78": 1,
+        "grn:80": 1,
+        "grn:85": 1,
+        "grn:86": 1,
+        "grn:88": 1,
+        "grn:89": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 20,
+      "cards": {
+        "grn:121": 1,
+        "grn:125": 1,
+        "grn:128": 1,
+        "grn:130": 1,
+        "grn:131": 1,
+        "grn:136": 1,
+        "grn:137": 1,
+        "grn:173": 1,
+        "grn:175": 1,
+        "grn:190": 1,
+        "grn:194": 1,
+        "grn:201": 1,
+        "grn:230a": 1,
+        "grn:66": 1,
+        "grn:73": 1,
+        "grn:74": 1,
+        "grn:79": 1,
+        "grn:81": 1,
+        "grn:82": 1,
+        "grn:87": 1
+      }
+    },
+    "promo": {
+      "total_weight": 19,
+      "cards": {
+        "pgrn:123s:foil": 2,
+        "pgrn:124s:foil": 2,
+        "pgrn:132s:foil": 2,
+        "pgrn:148s:foil": 2,
+        "pgrn:180s:foil": 2,
+        "pgrn:211s:foil": 1,
+        "pgrn:225sa:foil": 2,
+        "pgrn:71s:foil": 2,
+        "pgrn:75s:foil": 2,
+        "pgrn:84s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "grn",
+    "pgrn"
+  ]
+}

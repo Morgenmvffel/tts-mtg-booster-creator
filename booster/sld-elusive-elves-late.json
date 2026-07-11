@@ -1,0 +1,63 @@
+{
+  "name": "SLD Elusive Elves (late, May 2024 onward)",
+  "code": "sld-elusive-elves-late",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "elves": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "elves"
+      ]
+    }
+  ],
+  "sheets": {
+    "elves": {
+      "total_weight": 4332,
+      "cards": {
+        "sld:752:foil": 3,
+        "sld:754:foil": 3,
+        "sld:755:foil": 3,
+        "sld:756:foil": 3,
+        "sld:757:foil": 2,
+        "sld:759:foil": 254,
+        "sld:761:foil": 1,
+        "sld:762:foil": 108,
+        "sld:763:foil": 279,
+        "sld:765:foil": 6,
+        "sld:766:foil": 141,
+        "sld:767:foil": 179,
+        "sld:768:foil": 6,
+        "sld:769:foil": 43,
+        "sld:770:foil": 195,
+        "sld:771:foil": 409,
+        "sld:772:foil": 27,
+        "sld:773:foil": 183,
+        "sld:774:foil": 195,
+        "sld:775:foil": 120,
+        "sld:776:foil": 264,
+        "sld:777:foil": 529,
+        "sld:779:foil": 215,
+        "sld:780:foil": 104,
+        "sld:782:foil": 488,
+        "sld:783:foil": 14,
+        "sld:785:foil": 14,
+        "sld:786:foil": 461,
+        "sld:788:foil": 51,
+        "sld:789:foil": 32
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

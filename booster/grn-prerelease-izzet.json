@@ -1,0 +1,111 @@
+{
+  "name": "Guilds of Ravnica Seeded Prerelease Booster Izzet",
+  "code": "grn-prerelease-izzet",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "grn",
+  "set_name": "Guilds of Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 31,
+      "cards": {
+        "grn:100": 1,
+        "grn:101": 1,
+        "grn:104": 1,
+        "grn:105": 1,
+        "grn:110": 1,
+        "grn:111": 1,
+        "grn:112": 1,
+        "grn:114": 1,
+        "grn:118": 1,
+        "grn:119": 1,
+        "grn:174": 1,
+        "grn:178": 1,
+        "grn:199": 1,
+        "grn:217": 1,
+        "grn:238": 1,
+        "grn:251": 1,
+        "grn:252": 1,
+        "grn:31": 1,
+        "grn:35": 1,
+        "grn:37": 1,
+        "grn:42": 1,
+        "grn:43": 1,
+        "grn:46": 1,
+        "grn:50": 1,
+        "grn:52": 1,
+        "grn:57": 1,
+        "grn:58": 1,
+        "grn:60": 1,
+        "grn:94": 1,
+        "grn:95": 1,
+        "grn:96": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 17,
+      "cards": {
+        "grn:103": 1,
+        "grn:106": 1,
+        "grn:107": 1,
+        "grn:108": 1,
+        "grn:116": 1,
+        "grn:117": 1,
+        "grn:154": 1,
+        "grn:155": 1,
+        "grn:163": 1,
+        "grn:185": 1,
+        "grn:214": 1,
+        "grn:228a": 1,
+        "grn:32": 1,
+        "grn:45": 1,
+        "grn:53": 1,
+        "grn:93": 1,
+        "grn:97": 1
+      }
+    },
+    "promo": {
+      "total_weight": 8,
+      "cards": {
+        "pgrn:113s:foil": 1,
+        "pgrn:115s:foil": 1,
+        "pgrn:171s:foil": 1,
+        "pgrn:179s:foil": 1,
+        "pgrn:192s:foil": 1,
+        "pgrn:224sa:foil": 1,
+        "pgrn:47s:foil": 1,
+        "pgrn:51s:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "grn",
+    "pgrn"
+  ]
+}

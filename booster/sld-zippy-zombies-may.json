@@ -1,0 +1,38 @@
+{
+  "name": "SLD Zippy Zombies (May 2025)",
+  "code": "sld-zippy-zombies-may",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "zombies": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "zombies"
+      ]
+    }
+  ],
+  "sheets": {
+    "zombies": {
+      "total_weight": 238,
+      "cards": {
+        "sld:835:foil": 50,
+        "sld:836:foil": 30,
+        "sld:846:foil": 1,
+        "sld:852:foil": 67,
+        "sld:859:foil": 90
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -296,6 +296,10 @@
     "code": "blb-prerelease"
   },
   {
+    "name": "Bloomburrow Value Booster",
+    "code": "blb-value"
+  },
+  {
     "name": "Mystery Booster 2 Pack",
     "code": "mb2-draft"
   },
@@ -992,8 +996,24 @@
     "code": "stx-jp"
   },
   {
-    "name": "Strixhaven: School of Mages Prerelease Promo Pack",
-    "code": "stx-prerelease"
+    "name": "Strixhaven: School of Mages Seeded Prerelease Booster Lorehold",
+    "code": "stx-prerelease-lorehold"
+  },
+  {
+    "name": "Strixhaven: School of Mages Seeded Prerelease Booster Prismari",
+    "code": "stx-prerelease-prismari"
+  },
+  {
+    "name": "Strixhaven: School of Mages Seeded Prerelease Booster Quandrix",
+    "code": "stx-prerelease-quandrix"
+  },
+  {
+    "name": "Strixhaven: School of Mages Seeded Prerelease Booster Silverquill",
+    "code": "stx-prerelease-silverquill"
+  },
+  {
+    "name": "Strixhaven: School of Mages Seeded Prerelease Booster Witherbloom",
+    "code": "stx-prerelease-witherbloom"
   },
   {
     "name": "Strixhaven: School of Mages Set Booster",
@@ -1284,8 +1304,28 @@
     "code": "sld-dnd-50th-anniversary"
   },
   {
+    "name": "SLD Elusive Elves (early, through February 2024)",
+    "code": "sld-elusive-elves-early"
+  },
+  {
+    "name": "SLD Elusive Elves (late, May 2024 onward)",
+    "code": "sld-elusive-elves-late"
+  },
+  {
     "name": "SLD Final Fantasy Elementals",
     "code": "sld-fin-elementals"
+  },
+  {
+    "name": "SLD Handsome Humans (June 2026)",
+    "code": "sld-handsome-humans-jun"
+  },
+  {
+    "name": "SLD Handsome Humans (May 2026)",
+    "code": "sld-handsome-humans-may"
+  },
+  {
+    "name": "SLD Foil Jumpstart Lands (2021-2022)",
+    "code": "sld-jumpstart-lands"
   },
   {
     "name": "SLD Spider-Man bonus cards",
@@ -1326,6 +1366,26 @@
   {
     "name": "SLD Stained Glass Planeswalkers - White",
     "code": "sld-stainedglass-w"
+  },
+  {
+    "name": "SLD Surprise Slivers (2022-2023)",
+    "code": "sld-surprise-slivers"
+  },
+  {
+    "name": "SLD Zippy Zombies (February 2025)",
+    "code": "sld-zippy-zombies-feb"
+  },
+  {
+    "name": "SLD Zippy Zombies (June 2025)",
+    "code": "sld-zippy-zombies-jun"
+  },
+  {
+    "name": "SLD Zippy Zombies (March 2025)",
+    "code": "sld-zippy-zombies-mar"
+  },
+  {
+    "name": "SLD Zippy Zombies (May 2025)",
+    "code": "sld-zippy-zombies-may"
   },
   {
     "name": "Mystery Booster Pack Convention Edition",
@@ -1464,8 +1524,24 @@
     "code": "rna-draft"
   },
   {
-    "name": "Ravnica Allegiance Prerelease Promo Pack",
-    "code": "rna-prerelease"
+    "name": "Ravnica Allegiance Seeded Prerelease Booster Azorius",
+    "code": "rna-prerelease-azorius"
+  },
+  {
+    "name": "Ravnica Allegiance Seeded Prerelease Booster Gruul",
+    "code": "rna-prerelease-gruul"
+  },
+  {
+    "name": "Ravnica Allegiance Seeded Prerelease Booster Orzhov",
+    "code": "rna-prerelease-orzhov"
+  },
+  {
+    "name": "Ravnica Allegiance Seeded Prerelease Booster Rakdos",
+    "code": "rna-prerelease-rakdos"
+  },
+  {
+    "name": "Ravnica Allegiance Seeded Prerelease Booster Simic",
+    "code": "rna-prerelease-simic"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Azorius",
@@ -1504,8 +1580,24 @@
     "code": "grn-draft"
   },
   {
-    "name": "Guilds of Ravnica Prerelease Promo Pack",
-    "code": "grn-prerelease"
+    "name": "Guilds of Ravnica Seeded Prerelease Booster Boros",
+    "code": "grn-prerelease-boros"
+  },
+  {
+    "name": "Guilds of Ravnica Seeded Prerelease Booster Dimir",
+    "code": "grn-prerelease-dimir"
+  },
+  {
+    "name": "Guilds of Ravnica Seeded Prerelease Booster Golgari",
+    "code": "grn-prerelease-golgari"
+  },
+  {
+    "name": "Guilds of Ravnica Seeded Prerelease Booster Izzet",
+    "code": "grn-prerelease-izzet"
+  },
+  {
+    "name": "Guilds of Ravnica Seeded Prerelease Booster Selesnya",
+    "code": "grn-prerelease-selesnya"
   },
   {
     "name": "Guilds of Ravnica Theme Booster Boros",
@@ -1650,6 +1742,10 @@
   {
     "name": "Aether Revolt Prerelease Promo Pack",
     "code": "aer-prerelease"
+  },
+  {
+    "name": "Kaladesh Holiday Buy-a-Box Promo Pack",
+    "code": "kld-buyabox"
   },
   {
     "name": "Kaladesh Draft Booster",
@@ -1822,6 +1918,26 @@
   {
     "name": "Duels of the Planeswalkers 2015 Base Booster",
     "code": "m15-duelspromo"
+  },
+  {
+    "name": "Magic 2015 Seeded Prerelease Booster Ambition",
+    "code": "m15-prerelease-ambition"
+  },
+  {
+    "name": "Magic 2015 Seeded Prerelease Booster Ferocity",
+    "code": "m15-prerelease-ferocity"
+  },
+  {
+    "name": "Magic 2015 Seeded Prerelease Booster Guile",
+    "code": "m15-prerelease-guile"
+  },
+  {
+    "name": "Magic 2015 Seeded Prerelease Booster Strength",
+    "code": "m15-prerelease-strength"
+  },
+  {
+    "name": "Magic 2015 Seeded Prerelease Booster Valor",
+    "code": "m15-prerelease-valor"
   },
   {
     "name": "Vintage Masters Magic Online Booster",
@@ -2034,6 +2150,14 @@
   {
     "name": "Mirrodin Besieged Draft Booster",
     "code": "mbs-draft"
+  },
+  {
+    "name": "Mirrodin Besieged Mirran Faction Booster",
+    "code": "mbs-mirran"
+  },
+  {
+    "name": "Mirrodin Besieged Phyrexian Faction Booster",
+    "code": "mbs-phyrexian"
   },
   {
     "name": "Mirrodin Besieged Six-card Booster Pack",

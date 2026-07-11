@@ -1,0 +1,38 @@
+{
+  "name": "SLD Handsome Humans (May 2026)",
+  "code": "sld-handsome-humans-may",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "humans": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "humans"
+      ]
+    }
+  ],
+  "sheets": {
+    "humans": {
+      "total_weight": 167,
+      "cards": {
+        "sld:7130:foil": 1,
+        "sld:7137:foil": 136,
+        "sld:7143:foil": 19,
+        "sld:7144:foil": 2,
+        "sld:7147:foil": 9
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

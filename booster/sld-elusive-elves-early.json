@@ -1,0 +1,50 @@
+{
+  "name": "SLD Elusive Elves (early, through February 2024)",
+  "code": "sld-elusive-elves-early",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "elves": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "elves"
+      ]
+    }
+  ],
+  "sheets": {
+    "elves": {
+      "total_weight": 1131,
+      "cards": {
+        "sld:756:foil": 1,
+        "sld:757:foil": 1,
+        "sld:759:foil": 137,
+        "sld:762:foil": 58,
+        "sld:763:foil": 150,
+        "sld:766:foil": 76,
+        "sld:768:foil": 3,
+        "sld:770:foil": 105,
+        "sld:771:foil": 220,
+        "sld:772:foil": 14,
+        "sld:773:foil": 98,
+        "sld:775:foil": 64,
+        "sld:779:foil": 116,
+        "sld:780:foil": 56,
+        "sld:783:foil": 7,
+        "sld:785:foil": 8,
+        "sld:789:foil": 17
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "SLD Surprise Slivers (2022-2023)",
+  "code": "sld-surprise-slivers",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "slivers": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "slivers"
+      ]
+    }
+  ],
+  "sheets": {
+    "slivers": {
+      "total_weight": 1631,
+      "cards": {
+        "sld:610:foil": 2,
+        "sld:611:foil": 2,
+        "sld:612:foil": 22,
+        "sld:613:foil": 47,
+        "sld:617:foil": 59,
+        "sld:619:foil": 3,
+        "sld:620:foil": 213,
+        "sld:623:foil": 106,
+        "sld:626:foil": 9,
+        "sld:627:foil": 61,
+        "sld:628:foil": 73,
+        "sld:631:foil": 10,
+        "sld:632:foil": 55,
+        "sld:633:foil": 143,
+        "sld:634:foil": 11,
+        "sld:635:foil": 85,
+        "sld:636:foil": 120,
+        "sld:637:foil": 2,
+        "sld:638:foil": 110,
+        "sld:643:foil": 8,
+        "sld:644:foil": 4,
+        "sld:646:foil": 83,
+        "sld:647:foil": 33,
+        "sld:648:foil": 2,
+        "sld:649:foil": 23,
+        "sld:651:foil": 55,
+        "sld:654:foil": 22,
+        "sld:655:foil": 1,
+        "sld:656:foil": 16,
+        "sld:657:foil": 129,
+        "sld:659:foil": 40,
+        "sld:660:foil": 24,
+        "sld:661:foil": 9,
+        "sld:663:foil": 9,
+        "sld:664:foil": 27,
+        "sld:666:foil": 12,
+        "sld:668:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

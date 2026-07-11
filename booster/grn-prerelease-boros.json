@@ -1,0 +1,119 @@
+{
+  "name": "Guilds of Ravnica Seeded Prerelease Booster Boros",
+  "code": "grn-prerelease-boros",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "grn",
+  "set_name": "Guilds of Ravnica",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 32,
+      "cards": {
+        "grn:1": 1,
+        "grn:100": 1,
+        "grn:101": 1,
+        "grn:104": 1,
+        "grn:110": 1,
+        "grn:112": 1,
+        "grn:114": 1,
+        "grn:118": 1,
+        "grn:119": 1,
+        "grn:120": 1,
+        "grn:14": 1,
+        "grn:15": 1,
+        "grn:17": 1,
+        "grn:172": 1,
+        "grn:176": 1,
+        "grn:198": 1,
+        "grn:21": 1,
+        "grn:216": 1,
+        "grn:22": 1,
+        "grn:23": 1,
+        "grn:231": 1,
+        "grn:243": 1,
+        "grn:244": 1,
+        "grn:25": 1,
+        "grn:27": 1,
+        "grn:28": 1,
+        "grn:29": 1,
+        "grn:3": 1,
+        "grn:5": 1,
+        "grn:92": 1,
+        "grn:94": 1,
+        "grn:95": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 22,
+      "cards": {
+        "grn:102": 1,
+        "grn:103": 1,
+        "grn:106": 1,
+        "grn:107": 1,
+        "grn:108": 1,
+        "grn:116": 1,
+        "grn:117": 1,
+        "grn:12": 1,
+        "grn:13": 1,
+        "grn:156": 1,
+        "grn:16": 1,
+        "grn:182": 1,
+        "grn:187": 1,
+        "grn:202": 1,
+        "grn:209": 1,
+        "grn:227a": 1,
+        "grn:24": 1,
+        "grn:26": 1,
+        "grn:7": 1,
+        "grn:9": 1,
+        "grn:93": 1,
+        "grn:97": 1
+      }
+    },
+    "promo": {
+      "total_weight": 19,
+      "cards": {
+        "pgrn:109s:foil": 2,
+        "pgrn:115s:foil": 2,
+        "pgrn:153s:foil": 1,
+        "pgrn:165s:foil": 2,
+        "pgrn:19s:foil": 2,
+        "pgrn:203s:foil": 2,
+        "pgrn:204s:foil": 2,
+        "pgrn:229sa:foil": 2,
+        "pgrn:4s:foil": 2,
+        "pgrn:8s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "grn",
+    "pgrn"
+  ]
+}

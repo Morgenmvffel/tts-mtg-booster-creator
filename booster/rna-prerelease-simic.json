@@ -1,0 +1,121 @@
+{
+  "name": "Ravnica Allegiance Seeded Prerelease Booster Simic",
+  "code": "rna-prerelease-simic",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "rna",
+  "set_name": "Ravnica Allegiance",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 33,
+      "cards": {
+        "rna:121": 1,
+        "rna:127": 1,
+        "rna:132": 1,
+        "rna:133": 1,
+        "rna:137": 1,
+        "rna:138": 1,
+        "rna:139": 1,
+        "rna:140": 1,
+        "rna:142": 1,
+        "rna:143": 1,
+        "rna:144": 1,
+        "rna:145": 1,
+        "rna:146": 1,
+        "rna:152": 1,
+        "rna:153": 1,
+        "rna:178": 1,
+        "rna:218": 1,
+        "rna:240": 1,
+        "rna:257": 1,
+        "rna:258": 1,
+        "rna:33": 1,
+        "rna:34": 1,
+        "rna:36": 1,
+        "rna:39": 1,
+        "rna:41": 1,
+        "rna:44": 1,
+        "rna:46": 1,
+        "rna:48": 1,
+        "rna:49": 1,
+        "rna:51": 1,
+        "rna:53": 1,
+        "rna:54": 1,
+        "rna:57": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 22,
+      "cards": {
+        "rna:123": 1,
+        "rna:125": 1,
+        "rna:126": 1,
+        "rna:136": 1,
+        "rna:141": 1,
+        "rna:147": 1,
+        "rna:148": 1,
+        "rna:149": 1,
+        "rna:163": 1,
+        "rna:174": 1,
+        "rna:175": 1,
+        "rna:180": 1,
+        "rna:206": 1,
+        "rna:226a": 1,
+        "rna:37": 1,
+        "rna:38": 1,
+        "rna:40": 1,
+        "rna:47": 1,
+        "rna:52": 1,
+        "rna:56": 1,
+        "rna:59": 1,
+        "rna:60": 1
+      }
+    },
+    "promo": {
+      "total_weight": 21,
+      "cards": {
+        "prna:124s:foil": 2,
+        "prna:128s:foil": 2,
+        "prna:130s:foil": 2,
+        "prna:131s:foil": 2,
+        "prna:134s:foil": 2,
+        "prna:158s:foil": 2,
+        "prna:183s:foil": 1,
+        "prna:207s:foil": 2,
+        "prna:214s:foil": 2,
+        "prna:32s:foil": 2,
+        "prna:55s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "prna",
+    "rna"
+  ]
+}

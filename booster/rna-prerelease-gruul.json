@@ -1,0 +1,120 @@
+{
+  "name": "Ravnica Allegiance Seeded Prerelease Booster Gruul",
+  "code": "rna-prerelease-gruul",
+  "languages": [
+    "cn",
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "kr",
+    "pt",
+    "ru",
+    "sp"
+  ],
+  "set_code": "rna",
+  "set_name": "Ravnica Allegiance",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 33,
+      "cards": {
+        "rna:100": 1,
+        "rna:103": 1,
+        "rna:104": 1,
+        "rna:105": 1,
+        "rna:110": 1,
+        "rna:111": 1,
+        "rna:113": 1,
+        "rna:117": 1,
+        "rna:119": 1,
+        "rna:121": 1,
+        "rna:127": 1,
+        "rna:132": 1,
+        "rna:133": 1,
+        "rna:135": 1,
+        "rna:137": 1,
+        "rna:138": 1,
+        "rna:139": 1,
+        "rna:143": 1,
+        "rna:144": 1,
+        "rna:145": 1,
+        "rna:146": 1,
+        "rna:150": 1,
+        "rna:173": 1,
+        "rna:202": 1,
+        "rna:203": 1,
+        "rna:217": 1,
+        "rna:234": 1,
+        "rna:249": 1,
+        "rna:250": 1,
+        "rna:91": 1,
+        "rna:93": 1,
+        "rna:94": 1,
+        "rna:98": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 22,
+      "cards": {
+        "rna:101": 1,
+        "rna:102": 1,
+        "rna:112": 1,
+        "rna:116": 1,
+        "rna:120": 1,
+        "rna:123": 1,
+        "rna:125": 1,
+        "rna:126": 1,
+        "rna:129": 1,
+        "rna:136": 1,
+        "rna:141": 1,
+        "rna:147": 1,
+        "rna:149": 1,
+        "rna:159": 1,
+        "rna:162": 1,
+        "rna:201": 1,
+        "rna:210": 1,
+        "rna:215": 1,
+        "rna:223a": 1,
+        "rna:95": 1,
+        "rna:96": 1,
+        "rna:97": 1
+      }
+    },
+    "promo": {
+      "total_weight": 19,
+      "cards": {
+        "prna:106s:foil": 2,
+        "prna:108s:foil": 2,
+        "prna:124s:foil": 2,
+        "prna:130s:foil": 2,
+        "prna:134s:foil": 2,
+        "prna:161s:foil": 2,
+        "prna:179s:foil": 2,
+        "prna:193s:foil": 2,
+        "prna:200s:foil": 1,
+        "prna:92s:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "prna",
+    "rna"
+  ]
+}
