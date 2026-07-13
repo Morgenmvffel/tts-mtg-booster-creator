@@ -2,7 +2,12 @@
   "name": "Marvel Super Heroes Play Booster",
   "code": "msh-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "msh",
   "set_name": "Marvel Super Heroes",

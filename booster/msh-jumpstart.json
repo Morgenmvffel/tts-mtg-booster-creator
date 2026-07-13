@@ -2,7 +2,12 @@
   "name": "Marvel Super Heroes Jumpstart Booster",
   "code": "msh-jumpstart",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "msh",
   "set_name": "Marvel Super Heroes",

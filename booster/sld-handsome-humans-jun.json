@@ -22,13 +22,13 @@
   ],
   "sheets": {
     "humans": {
-      "total_weight": 5,
+      "total_weight": 163,
       "cards": {
-        "sld:7135:foil": 1,
-        "sld:7138:foil": 1,
-        "sld:7139:foil": 1,
+        "sld:7135:foil": 22,
+        "sld:7138:foil": 56,
+        "sld:7139:foil": 73,
         "sld:7145:foil": 1,
-        "sld:7152:foil": 1
+        "sld:7152:foil": 11
       }
     }
   },
