@@ -2730,7 +2730,7 @@
       },
       "trained": {
         "fixed": true,
-        "total_weight": 19,
+        "total_weight": 20,
         "cards": {
           "msc:558": 1,
           "msc:579": 1,
@@ -2745,6 +2745,7 @@
           "msh:194": 1,
           "msh:195": 1,
           "msh:196": 1,
+          "msh:286": 1,
           "msh:295": 3,
           "msh:296": 3
         }
