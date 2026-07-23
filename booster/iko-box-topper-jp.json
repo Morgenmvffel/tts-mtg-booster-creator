@@ -1,6 +1,6 @@
 {
-  "name": "Ikoria: Lair of Behemoths Box Topper Pack",
-  "code": "iko-box-topper",
+  "name": "Ikoria: Lair of Behemoths Japanese Box Topper Pack",
+  "code": "iko-box-topper-jp",
   "languages": [
     "cs",
     "ct",
@@ -29,7 +29,7 @@
   ],
   "sheets": {
     "box_topper": {
-      "total_weight": 15,
+      "total_weight": 18,
       "cards": {
         "iko:370:foil": 1,
         "iko:371:foil": 1,
@@ -45,7 +45,10 @@
         "iko:381:foil": 1,
         "iko:382:foil": 1,
         "iko:383:foil": 1,
-        "iko:384:foil": 1
+        "iko:384:foil": 1,
+        "iko:385:foil": 1,
+        "iko:386:foil": 1,
+        "iko:387:foil": 1
       }
     }
   },
