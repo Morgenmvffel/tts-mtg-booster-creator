@@ -2,17 +2,9 @@
   "name": "Kaldheim Theme Booster Red",
   "code": "khm-theme-r",
   "languages": [
-    "cs",
-    "ct",
     "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "fr"
   ],
   "set_code": "khm",
   "set_name": "Kaldheim",

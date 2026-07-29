@@ -2,11 +2,14 @@
   "name": "Classic Sixth Edition Draft Booster",
   "code": "6ed-draft",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
+    "kr",
     "pt",
     "sp"
   ],

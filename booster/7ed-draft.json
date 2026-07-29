@@ -2,9 +2,12 @@
   "name": "Seventh Edition Draft Booster",
   "code": "7ed-draft",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",
+    "it",
     "jp",
     "pt",
     "sp"

@@ -2,17 +2,9 @@
   "name": "Strixhaven: School of Mages Theme Booster Prismari",
   "code": "stx-theme-prismari",
   "languages": [
-    "cs",
-    "ct",
     "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "fr"
   ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",

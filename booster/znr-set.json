@@ -2,17 +2,8 @@
   "name": "Zendikar Rising Set Booster",
   "code": "znr-set",
   "languages": [
-    "cs",
-    "ct",
-    "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "jp"
   ],
   "set_code": "znr",
   "set_name": "Zendikar Rising",

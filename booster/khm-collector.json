@@ -2,16 +2,11 @@
   "name": "Kaldheim Collector Booster",
   "code": "khm-collector",
   "languages": [
-    "cs",
-    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
-    "pt",
-    "ru",
     "sp"
   ],
   "set_code": "khm",

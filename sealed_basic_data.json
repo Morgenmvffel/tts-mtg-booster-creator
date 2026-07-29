@@ -12593,6 +12593,61 @@
     ]
   },
   {
+    "name": "Avatar: The Last Airbender Commander's Bundle Promos",
+    "code": "tla-commander-bundle",
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
+    ],
+    "set_code": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "boosters": [
+      {
+        "sheets": {
+          "fixed_staple": 3,
+          "reprint": 2
+        },
+        "weight": 1,
+        "sheet_order": [
+          "fixed_staple",
+          "reprint"
+        ]
+      }
+    ],
+    "sheets": {
+      "fixed_staple": {
+        "total_weight": 3,
+        "cards": {
+          "tle:315": 1,
+          "tle:316": 1,
+          "tle:317": 1
+        }
+      },
+      "reprint": {
+        "total_weight": 10,
+        "cards": {
+          "tle:305": 1,
+          "tle:306": 1,
+          "tle:307": 1,
+          "tle:308": 1,
+          "tle:309": 1,
+          "tle:310": 1,
+          "tle:311": 1,
+          "tle:312": 1,
+          "tle:313": 1,
+          "tle:314": 1
+        }
+      }
+    },
+    "source_set_codes": [
+      "tle"
+    ]
+  },
+  {
     "name": "Avatar: The Last Airbender Play Booster",
     "code": "tla-play",
     "languages": [
@@ -117451,17 +117506,10 @@
     "name": "Commander Legends: Battle for Baldur's Gate Collector Booster",
     "code": "clb-collector",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
       "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "clb",
     "set_name": "Commander Legends: Battle for Baldur's Gate",
@@ -118722,7 +118770,6 @@
     "code": "clb-draft",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
@@ -118730,7 +118777,6 @@
       "jp",
       "kr",
       "pt",
-      "ru",
       "sp"
     ],
     "set_code": "clb",
@@ -119727,15 +119773,12 @@
     "code": "clb-prerelease",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
-      "ru",
       "sp"
     ],
     "set_code": "clb",
@@ -119874,7 +119917,6 @@
       "jp",
       "kr",
       "pt",
-      "ru",
       "sp"
     ],
     "set_code": "clb",
@@ -122246,16 +122288,10 @@
     "code": "snc-collector",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "snc",
     "set_name": "Streets of New Capenna",
@@ -123522,13 +123558,11 @@
     "code": "snc-draft",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -124326,13 +124360,11 @@
     "code": "snc-prerelease-brokers",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -124592,13 +124624,11 @@
     "code": "snc-prerelease-cabaretti",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -124859,13 +124889,11 @@
     "code": "snc-prerelease-maestros",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -125124,13 +125152,11 @@
     "code": "snc-prerelease-obscura",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -125392,13 +125418,11 @@
     "code": "snc-prerelease-riveteers",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -127063,13 +127087,11 @@
     "code": "snc-theme-brokers",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -127267,13 +127289,11 @@
     "code": "snc-theme-cabaretti",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -127472,13 +127492,11 @@
     "code": "snc-theme-maestros",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -127675,13 +127693,11 @@
     "code": "snc-theme-obscura",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -127881,13 +127897,11 @@
     "code": "snc-theme-riveteers",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -139867,17 +139881,10 @@
     "name": "Innistrad: Midnight Hunt Collector Booster",
     "code": "mid-collector",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
       "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -141408,13 +141415,11 @@
     "code": "mid-set",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
       "pt",
       "ru",
       "sp"
@@ -142831,17 +142836,7 @@
     "name": "Innistrad: Midnight Hunt Theme Booster Black",
     "code": "mid-theme-b",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "en"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -143032,17 +143027,7 @@
     "name": "Innistrad: Midnight Hunt Theme Booster Green",
     "code": "mid-theme-g",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "en"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -143230,17 +143215,7 @@
     "name": "Innistrad: Midnight Hunt Theme Booster Red",
     "code": "mid-theme-r",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "en"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -143428,17 +143403,7 @@
     "name": "Innistrad: Midnight Hunt Theme Booster Blue",
     "code": "mid-theme-u",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "en"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -143626,17 +143591,7 @@
     "name": "Innistrad: Midnight Hunt Theme Booster White",
     "code": "mid-theme-w",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "en"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -143823,17 +143778,7 @@
     "name": "Innistrad: Midnight Hunt Theme Booster Werewolves",
     "code": "mid-theme-werewolves",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "en"
     ],
     "set_code": "mid",
     "set_name": "Innistrad: Midnight Hunt",
@@ -153655,16 +153600,11 @@
     "name": "Strixhaven: School of Mages Collector Booster",
     "code": "stx-collector",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
-      "pt",
-      "ru",
       "sp"
     ],
     "set_code": "stx",
@@ -154610,7 +154550,6 @@
       "en",
       "fr",
       "it",
-      "jp",
       "kr",
       "pt",
       "ru",
@@ -155392,17 +155331,7 @@
     "name": "Strixhaven: School of Mages Japanese Draft Booster",
     "code": "stx-jp",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -157444,16 +157373,9 @@
     "code": "stx-set",
     "languages": [
       "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -159428,17 +159350,7 @@
     "name": "Strixhaven: School of Mages Japanese Set Booster",
     "code": "stx-set-jp",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -161602,17 +161514,9 @@
     "name": "Strixhaven: School of Mages Theme Booster Lorehold",
     "code": "stx-theme-lorehold",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -161795,17 +161699,9 @@
     "name": "Strixhaven: School of Mages Theme Booster Prismari",
     "code": "stx-theme-prismari",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -161984,17 +161880,9 @@
     "name": "Strixhaven: School of Mages Theme Booster Quandrix",
     "code": "stx-theme-quandrix",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -162173,17 +162061,9 @@
     "name": "Strixhaven: School of Mages Theme Booster Silverquill",
     "code": "stx-theme-silverquill",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -162363,17 +162243,9 @@
     "name": "Strixhaven: School of Mages Theme Booster Witherbloom",
     "code": "stx-theme-witherbloom",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "stx",
     "set_name": "Strixhaven: School of Mages",
@@ -163804,16 +163676,11 @@
     "name": "Kaldheim Collector Booster",
     "code": "khm-collector",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
-      "kr",
-      "pt",
-      "ru",
       "sp"
     ],
     "set_code": "khm",
@@ -165275,17 +165142,10 @@
     "name": "Kaldheim Set Booster",
     "code": "khm-set",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
       "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -167154,17 +167014,9 @@
     "name": "Kaldheim Theme Booster Black",
     "code": "khm-theme-b",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -167360,17 +167212,9 @@
     "name": "Kaldheim Theme Booster Green",
     "code": "khm-theme-g",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -167562,17 +167406,9 @@
     "name": "Kaldheim Theme Booster Red",
     "code": "khm-theme-r",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -167767,17 +167603,9 @@
     "name": "Kaldheim Theme Booster Blue",
     "code": "khm-theme-u",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -167971,17 +167799,9 @@
     "name": "Kaldheim Theme Booster Vikings",
     "code": "khm-theme-vikings",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -168278,17 +168098,9 @@
     "name": "Kaldheim Theme Booster White",
     "code": "khm-theme-w",
     "languages": [
-      "cs",
-      "ct",
       "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "fr"
     ],
     "set_code": "khm",
     "set_name": "Kaldheim",
@@ -169255,7 +169067,6 @@
       "it",
       "jp",
       "pt",
-      "ru",
       "sp"
     ],
     "set_code": "cmr",
@@ -172473,17 +172284,8 @@
     "name": "Zendikar Rising Set Booster",
     "code": "znr-set",
     "languages": [
-      "cs",
-      "ct",
-      "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "znr",
     "set_name": "Zendikar Rising",
@@ -183308,17 +183110,7 @@
     "name": "Ikoria: Lair of Behemoths Japanese Box Topper Pack",
     "code": "iko-box-topper-jp",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
@@ -185446,17 +185238,7 @@
     "name": "Ikoria: Lair of Behemoths Japanese Draft Booster",
     "code": "iko-jp",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "iko",
     "set_name": "Ikoria: Lair of Behemoths",
@@ -197647,17 +197429,8 @@
     "name": "Throne of Eldraine Collector Booster",
     "code": "eld-collector",
     "languages": [
-      "cs",
-      "ct",
-      "de",
       "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "eld",
     "set_name": "Throne of Eldraine",
@@ -203667,17 +203440,7 @@
     "name": "War of the Spark Japanese Draft Booster",
     "code": "war-jp",
     "languages": [
-      "cs",
-      "ct",
-      "de",
-      "en",
-      "fr",
-      "it",
-      "jp",
-      "kr",
-      "pt",
-      "ru",
-      "sp"
+      "jp"
     ],
     "set_code": "war",
     "set_name": "War of the Spark",
@@ -266360,6 +266123,7 @@
     "code": "10e-draft",
     "languages": [
       "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -277466,6 +277230,8 @@
     "name": "Mirrodin Draft Booster",
     "code": "mrd-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -278770,6 +278536,8 @@
     "name": "Eighth Edition Draft Booster",
     "code": "8ed-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -279805,6 +279573,8 @@
     "name": "Scourge Draft Booster",
     "code": "scg-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -280383,6 +280153,8 @@
     "name": "Legions Draft Booster",
     "code": "lgn-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -282401,6 +282173,8 @@
     "name": "Judgment Draft Booster",
     "code": "jud-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -282978,6 +282752,8 @@
     "name": "Torment Draft Booster",
     "code": "tor-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -283556,6 +283332,8 @@
     "name": "Odyssey Draft Booster",
     "code": "ody-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -285509,9 +285287,12 @@
     "name": "Seventh Edition Draft Booster",
     "code": "7ed-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
+      "it",
       "jp",
       "pt",
       "sp"
@@ -286543,6 +286324,8 @@
     "name": "Planeshift Draft Booster",
     "code": "pls-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -289144,6 +288927,7 @@
     "name": "Nemesis Draft Booster",
     "code": "nem-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -289722,6 +289506,7 @@
     "name": "Mercadian Masques Draft Booster",
     "code": "mmq-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -291383,6 +291168,7 @@
     "name": "Urza's Destiny Draft Booster",
     "code": "uds-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -291843,6 +291629,7 @@
     "code": "ptk",
     "languages": [
       "cs",
+      "ct",
       "en",
       "jp"
     ],
@@ -292075,11 +291862,14 @@
     "name": "Classic Sixth Edition Draft Booster",
     "code": "6ed-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
@@ -292866,6 +292656,7 @@
     "name": "Urza's Legacy Draft Booster",
     "code": "ulg-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -293325,11 +293116,14 @@
     "name": "Urza's Saga Draft Booster",
     "code": "usg-draft",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
@@ -294482,8 +294276,6 @@
       "en",
       "fr",
       "it",
-      "jp",
-      "pt",
       "sp"
     ],
     "set_code": "exo",
@@ -294676,8 +294468,6 @@
       "en",
       "fr",
       "it",
-      "jp",
-      "pt",
       "sp"
     ],
     "set_code": "sth",
@@ -294870,8 +294660,6 @@
       "en",
       "fr",
       "it",
-      "jp",
-      "pt",
       "sp"
     ],
     "set_code": "tmp",
@@ -295657,11 +295445,13 @@
     "name": "Weatherlight Draft Booster",
     "code": "wth-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
@@ -296146,6 +295936,7 @@
     "name": "Fifth Edition Draft Booster",
     "code": "5ed-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -297135,11 +296926,13 @@
     "name": "Visions Draft Booster",
     "code": "vis-draft",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
@@ -299858,11 +299651,13 @@
     "name": "Fourth Edition",
     "code": "4ed",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],

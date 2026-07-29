@@ -2,11 +2,13 @@
   "name": "Fourth Edition",
   "code": "4ed",
   "languages": [
+    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
+    "kr",
     "pt",
     "sp"
   ],

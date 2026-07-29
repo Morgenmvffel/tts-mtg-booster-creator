@@ -3,16 +3,9 @@
   "code": "stx-set",
   "languages": [
     "cs",
-    "ct",
     "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "fr"
   ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",

@@ -2,17 +2,9 @@
   "name": "Kaldheim Theme Booster Blue",
   "code": "khm-theme-u",
   "languages": [
-    "cs",
-    "ct",
     "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "fr"
   ],
   "set_code": "khm",
   "set_name": "Kaldheim",

@@ -2,6 +2,8 @@
   "name": "Planeshift Draft Booster",
   "code": "pls-draft",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",

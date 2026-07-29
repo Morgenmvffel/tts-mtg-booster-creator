@@ -3,15 +3,12 @@
   "code": "clb-prerelease",
   "languages": [
     "cs",
-    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
-    "kr",
     "pt",
-    "ru",
     "sp"
   ],
   "set_code": "clb",

@@ -2,6 +2,8 @@
   "name": "Torment Draft Booster",
   "code": "tor-draft",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",

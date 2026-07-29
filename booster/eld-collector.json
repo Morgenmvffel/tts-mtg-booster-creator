@@ -2,17 +2,8 @@
   "name": "Throne of Eldraine Collector Booster",
   "code": "eld-collector",
   "languages": [
-    "cs",
-    "ct",
-    "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "jp"
   ],
   "set_code": "eld",
   "set_name": "Throne of Eldraine",

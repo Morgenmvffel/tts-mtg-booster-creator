@@ -2,6 +2,8 @@
   "name": "Legions Draft Booster",
   "code": "lgn-draft",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",

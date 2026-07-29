@@ -2,17 +2,9 @@
   "name": "Strixhaven: School of Mages Theme Booster Silverquill",
   "code": "stx-theme-silverquill",
   "languages": [
-    "cs",
-    "ct",
     "de",
     "en",
-    "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "fr"
   ],
   "set_code": "stx",
   "set_name": "Strixhaven: School of Mages",

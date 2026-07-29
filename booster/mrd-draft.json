@@ -2,6 +2,8 @@
   "name": "Mirrodin Draft Booster",
   "code": "mrd-draft",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",

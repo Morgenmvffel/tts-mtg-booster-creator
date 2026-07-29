@@ -3,16 +3,10 @@
   "code": "snc-collector",
   "languages": [
     "cs",
-    "ct",
     "de",
     "en",
     "fr",
-    "it",
-    "jp",
-    "kr",
-    "pt",
-    "ru",
-    "sp"
+    "jp"
   ],
   "set_code": "snc",
   "set_name": "Streets of New Capenna",

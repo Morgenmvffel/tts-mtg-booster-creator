@@ -3,7 +3,6 @@
   "code": "clb-draft",
   "languages": [
     "cs",
-    "ct",
     "de",
     "en",
     "fr",
@@ -11,7 +10,6 @@
     "jp",
     "kr",
     "pt",
-    "ru",
     "sp"
   ],
   "set_code": "clb",
