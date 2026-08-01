@@ -2,6 +2,8 @@
   "name": "Mirrodin Tournament Deck",
   "code": "mrd-tournament",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",

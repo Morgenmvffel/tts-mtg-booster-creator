@@ -2,11 +2,14 @@
   "name": "Classic Sixth Edition Tournament Deck",
   "code": "6ed-tournament",
   "languages": [
+    "cs",
+    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
+    "kr",
     "pt",
     "sp"
   ],

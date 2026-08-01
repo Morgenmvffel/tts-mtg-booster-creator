@@ -2,11 +2,13 @@
   "name": "Fourth Edition Starter Deck",
   "code": "4ed-starter",
   "languages": [
+    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
+    "kr",
     "pt",
     "sp"
   ],

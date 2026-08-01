@@ -277997,6 +277997,8 @@
     "name": "Mirrodin Fat Pack Promotional Cards",
     "code": "mrd-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -278170,6 +278172,8 @@
     "name": "Mirrodin Tournament Deck",
     "code": "mrd-tournament",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -280034,6 +280038,8 @@
     "name": "Scourge Fat Pack Promotional Cards",
     "code": "scg-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -280618,6 +280624,8 @@
     "name": "Legions Fat Pack Promotional Cards",
     "code": "lgn-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -282633,6 +282641,8 @@
     "name": "Judgment Fat Pack Promotional Cards",
     "code": "jud-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -283213,6 +283223,8 @@
     "name": "Torment Fat Pack Promotional Cards",
     "code": "tor-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -284187,6 +284199,8 @@
     "name": "Odyssey Fat Pack Promotional Cards",
     "code": "ody-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -284360,6 +284374,8 @@
     "name": "Odyssey Tournament Pack",
     "code": "ody-tournament",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -286788,6 +286804,8 @@
     "name": "Planeshift Fat Pack Promotional Cards",
     "code": "pls-fat-pack",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
@@ -289387,6 +289405,7 @@
     "name": "Nemesis Fat Pack Promotional Cards",
     "code": "nem-fat-pack",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -290360,6 +290379,7 @@
     "name": "Mercadian Masques Fat Pack Promotional Cards",
     "code": "mmq-fat-pack",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -290533,6 +290553,7 @@
     "name": "Mercadian Masques Tournament Pack",
     "code": "mmq-tournament",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -292246,11 +292267,14 @@
     "name": "Classic Sixth Edition Tournament Deck",
     "code": "6ed-tournament",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
@@ -293500,11 +293524,14 @@
     "name": "Urza's Saga Tournament Deck",
     "code": "usg-tournament",
     "languages": [
+      "cs",
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
@@ -296417,6 +296444,7 @@
     "name": "Fifth Edition Starter Tournament Deck",
     "code": "5ed-starter",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
@@ -300067,11 +300095,13 @@
     "name": "Fourth Edition Starter Deck",
     "code": "4ed-starter",
     "languages": [
+      "ct",
       "de",
       "en",
       "fr",
       "it",
       "jp",
+      "kr",
       "pt",
       "sp"
     ],
