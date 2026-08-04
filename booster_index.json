@@ -1,5 +1,13 @@
 [
   {
+    "name": "The Hobbit Collector Booster",
+    "code": "hob-collector"
+  },
+  {
+    "name": "The Hobbit Play Booster",
+    "code": "hob-play"
+  },
+  {
     "name": "Marvel Super Heroes Collector Booster",
     "code": "msh-collector"
   },
