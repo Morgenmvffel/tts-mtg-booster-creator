@@ -22,6 +22,19 @@
         "uncommon_with_duplicates",
         "rare"
       ]
+    },
+    {
+      "sheets": {
+        "common_with_duplicates": 45,
+        "uncommon_with_duplicates": 12,
+        "rare": 3
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common_with_duplicates",
+        "uncommon_with_duplicates",
+        "rare"
+      ]
     }
   ],
   "sheets": {
