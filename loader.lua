@@ -516,6 +516,13 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
         boosterName = card.packName
     end
 
+    -- TTS presents contained bag items in the opposite order from the array
+    -- we provide here, so reverse once at the boundary to preserve pack order.
+    local orderedContainedObjects = {}
+    for i = #containedObjects, 1, -1 do
+        table.insert(orderedContainedObjects, containedObjects[i])
+    end
+
     local bagJSON = {
         Name = "Custom_Model_Bag",
         Transform = {
@@ -563,7 +570,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
             specular_sharpness = 5, -- Clean but not razor-sharp
             fresnel_strength = 0.2
         },
-        ContainedObjects = containedObjects,
+        ContainedObjects = orderedContainedObjects,
         LuaScript = [[
             function onLoad()
                 self.addContextMenuItem("Crack the Pack", unloadAllCards)
@@ -573,6 +580,7 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
                 local objects = self.getObjects()
                 local basePos = self.positionToWorld({0, 0.5, 0})
                 local yOffset = 0
+                local remaining = #objects
 
                 for i, obj in ipairs(objects) do
                     self.takeObject({
@@ -581,23 +589,25 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
                         smooth = false,
                         callback_function = function(takenObj)
                             takenObj.setRotationSmooth({0, 180, 0})
+                            remaining = remaining - 1
+                            if remaining == 0 then
+                                Wait.time(function()
+                                    if self and #self.getObjects() == 0 then
+                                        self.destruct()
+                                    end
+                                end, 0.1)
+                            end
                         end
                     })
                     yOffset = yOffset + 0.2
                 end
-
-                Wait.time(checkEmptyAndDestroy, 0.5)
             end
 
             function onObjectLeaveContainer(container, leaving_object)
                 if container == self then
-                    Wait.time(checkEmptyAndDestroy, 0.2)
-                end
-            end
-
-            function checkEmptyAndDestroy()
-                if #self.getObjects() == 0 then
-                    self.destruct()
+                    if #self.getObjects() == 0 then
+                        self.destruct()
+                    end
                 end
             end
         ]]
@@ -1067,7 +1077,7 @@ local function fetchCardData(cards, onComplete, onError)
     local function incSem() sem = sem + 1 end
     local function decSem() sem = sem - 1 end
 
-    local cardData = {}
+    local cardDataByIndex = {}
     local tokensData = {}
 
     local function cleanCollectorNum(collectorNum)
@@ -1076,12 +1086,14 @@ local function fetchCardData(cards, onComplete, onError)
 
     -- Split cards into batches of COLLECTION_BATCH_SIZE (75)
     local batches = {}
+    local batchStartIndices = {}
     for i = 1, #cards, COLLECTION_BATCH_SIZE do
         local batch = {}
         for j = i, math.min(i + COLLECTION_BATCH_SIZE - 1, #cards) do
             table.insert(batch, cards[j])
         end
         table.insert(batches, batch)
+        table.insert(batchStartIndices, i)
     end
 
     log(string.format("fetchCardData: Split into %d batches", #batches))
@@ -1089,18 +1101,20 @@ local function fetchCardData(cards, onComplete, onError)
     -- Process each batch with a slight delay
     local batchDelay = 0
     for batchIndex, batch in ipairs(batches) do
+        local batchStartIndex = batchStartIndices[batchIndex]
         incSem()
         Wait.time(function()
             queryCardCollection(batch, function(results)
                 -- Process results and handle cards that need individual queries
                 local cardsNeedingRetry = {}
                 
-                for _, result in ipairs(results) do
+                for resultIndex, result in ipairs(results) do
+                    local cardIndex = batchStartIndex + resultIndex - 1
                     if result.data then
                         -- Card found, process it
                         incSem()
                         handleCardResponse(result.cardID, result.data, function(card, tokens)
-                            table.insert(cardData, card)
+                            cardDataByIndex[cardIndex] = card
                             for _, token in ipairs(tokens) do
                                 table.insert(tokensData, token)
                             end
@@ -1111,16 +1125,21 @@ local function fetchCardData(cards, onComplete, onError)
                         end)
                     else
                         -- Card not found in collection, need individual query
-                        table.insert(cardsNeedingRetry, result.cardID)
+                        table.insert(cardsNeedingRetry, {
+                            cardID = result.cardID,
+                            cardIndex = cardIndex
+                        })
                     end
                 end
 
                 -- Query missing cards individually
-                for _, cardID in ipairs(cardsNeedingRetry) do
+                for _, retryEntry in ipairs(cardsNeedingRetry) do
+                    local cardID = retryEntry.cardID
+                    local cardIndex = retryEntry.cardIndex
                     incSem()
                     
                     local function safeOnSuccess(card, tokens)
-                        table.insert(cardData, card)
+                        cardDataByIndex[cardIndex] = card
                         for _, token in ipairs(tokens) do
                             table.insert(tokensData, token)
                         end
@@ -1166,13 +1185,24 @@ local function fetchCardData(cards, onComplete, onError)
 
     Wait.condition(
         function()
-            log("fetchCardData: Complete. Fetched " .. #cardData .. " cards and " .. #tokensData .. " tokens")
-            onComplete(cardData, tokensData)
+            local orderedCardData = {}
+            for i = 1, #cards do
+                if cardDataByIndex[i] then
+                    table.insert(orderedCardData, cardDataByIndex[i])
+                end
+            end
+
+            log("fetchCardData: Complete. Fetched " .. #orderedCardData .. " cards and " .. #tokensData .. " tokens")
+            onComplete(orderedCardData, tokensData)
         end,
         function() return (sem == 0) end,
         FETCH_TIMEOUT,
         function()
-            log("fetchCardData: TIMEOUT - sem = " .. sem .. ", fetched " .. #cardData .. " of " .. #cards .. " cards")
+            local fetchedCount = 0
+            for _, _ in pairs(cardDataByIndex) do
+                fetchedCount = fetchedCount + 1
+            end
+            log("fetchCardData: TIMEOUT - sem = " .. sem .. ", fetched " .. fetchedCount .. " of " .. #cards .. " cards")
             onError("Error loading card images... timed out.")
         end
     )
