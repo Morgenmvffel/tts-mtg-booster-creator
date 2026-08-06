@@ -1767,6 +1767,10 @@ function mtgdl__onSearchInput(player, value)
     if match then
         PackCode = match.code
     end
+
+    if baseXmlCache then
+        self.UI.setXml(buildDropdownPanel(boosterSearchFilter) .. baseXmlCache)
+    end
 end
 
 ------ UI
