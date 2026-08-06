@@ -209,7 +209,25 @@
         "clu:69": 1,
         "clu:77": 1,
         "clu:80": 1
-      }
+      },
+      "cards_order": [
+        "clu:183",
+        "clu:211",
+        "clu:229",
+        "clu:230",
+        "clu:251",
+        "clu:254",
+        "clu:36",
+        "clu:40",
+        "clu:54",
+        "clu:55",
+        "clu:60",
+        "clu:64",
+        "clu:67",
+        "clu:69",
+        "clu:77",
+        "clu:80"
+      ]
     },
     "azorius_senate_2": {
       "fixed": true,
@@ -231,7 +249,25 @@
         "clu:88": 1,
         "clu:90": 1,
         "clu:95": 1
-      }
+      },
+      "cards_order": [
+        "clu:183",
+        "clu:185a",
+        "clu:199",
+        "clu:214",
+        "clu:219",
+        "clu:229",
+        "clu:230",
+        "clu:252",
+        "clu:258",
+        "clu:40",
+        "clu:46",
+        "clu:82",
+        "clu:83",
+        "clu:88",
+        "clu:90",
+        "clu:95"
+      ]
     },
     "boros_legion_1": {
       "fixed": true,
@@ -253,7 +289,25 @@
         "clu:70": 1,
         "clu:73": 1,
         "mkm:29": 1
-      }
+      },
+      "cards_order": [
+        "clu:192",
+        "clu:198a",
+        "clu:22",
+        "clu:220",
+        "clu:231",
+        "clu:232",
+        "clu:251",
+        "clu:255",
+        "clu:39",
+        "clu:61",
+        "clu:65",
+        "clu:66",
+        "clu:68",
+        "clu:70",
+        "clu:73",
+        "mkm:29"
+      ]
     },
     "boros_legion_2": {
       "fixed": true,
@@ -275,7 +329,25 @@
         "clu:25": 1,
         "clu:269": 5,
         "clu:39": 1
-      }
+      },
+      "cards_order": [
+        "clu:129",
+        "clu:134",
+        "clu:135",
+        "clu:139",
+        "clu:147",
+        "clu:151",
+        "clu:153",
+        "clu:154",
+        "clu:189",
+        "clu:198a",
+        "clu:231",
+        "clu:232",
+        "clu:249",
+        "clu:25",
+        "clu:269",
+        "clu:39"
+      ]
     },
     "cult_of_rakdos_1": {
       "fixed": true,
@@ -297,7 +369,25 @@
         "clu:32": 1,
         "clu:35": 1,
         "mkm:95": 1
-      }
+      },
+      "cards_order": [
+        "clu:106",
+        "clu:108",
+        "clu:109",
+        "clu:113",
+        "clu:119",
+        "clu:122",
+        "clu:126",
+        "clu:191",
+        "clu:226",
+        "clu:243",
+        "clu:244",
+        "clu:253",
+        "clu:263",
+        "clu:32",
+        "clu:35",
+        "mkm:95"
+      ]
     },
     "cult_of_rakdos_2": {
       "fixed": true,
@@ -319,7 +409,25 @@
         "clu:26": 1,
         "clu:266": 5,
         "clu:35": 1
-      }
+      },
+      "cards_order": [
+        "clu:128",
+        "clu:130",
+        "clu:131",
+        "clu:138",
+        "clu:140",
+        "clu:143",
+        "clu:145",
+        "clu:191",
+        "clu:204",
+        "clu:205",
+        "clu:243",
+        "clu:244",
+        "clu:249",
+        "clu:26",
+        "clu:266",
+        "clu:35"
+      ]
     },
     "golgari_swarm_1": {
       "fixed": true,
@@ -341,7 +449,25 @@
         "clu:262": 5,
         "clu:48": 1,
         "mkm:91": 1
-      }
+      },
+      "cards_order": [
+        "clu:107",
+        "clu:110",
+        "clu:112",
+        "clu:125",
+        "clu:184",
+        "clu:194",
+        "clu:203",
+        "clu:210a",
+        "clu:222",
+        "clu:235",
+        "clu:236",
+        "clu:24",
+        "clu:253",
+        "clu:262",
+        "clu:48",
+        "mkm:91"
+      ]
     },
     "golgari_swarm_2": {
       "fixed": true,
@@ -363,7 +489,25 @@
         "clu:43": 1,
         "clu:48": 1,
         "mkm:174": 1
-      }
+      },
+      "cards_order": [
+        "clu:163",
+        "clu:167",
+        "clu:168",
+        "clu:172",
+        "clu:176",
+        "clu:179",
+        "clu:203",
+        "clu:210a",
+        "clu:215",
+        "clu:235",
+        "clu:236",
+        "clu:250",
+        "clu:273",
+        "clu:43",
+        "clu:48",
+        "mkm:174"
+      ]
     },
     "gruul_clans_1": {
       "fixed": true,
@@ -385,7 +529,25 @@
         "clu:267": 5,
         "clu:33": 1,
         "clu:34": 1
-      }
+      },
+      "cards_order": [
+        "clu:127",
+        "clu:137",
+        "clu:144",
+        "clu:146",
+        "clu:147",
+        "clu:149",
+        "clu:152",
+        "clu:182",
+        "clu:190",
+        "clu:223",
+        "clu:237",
+        "clu:238",
+        "clu:249",
+        "clu:267",
+        "clu:33",
+        "clu:34"
+      ]
     },
     "gruul_clans_2": {
       "fixed": true,
@@ -407,7 +569,25 @@
         "clu:272": 5,
         "clu:33": 1,
         "clu:44": 1
-      }
+      },
+      "cards_order": [
+        "clu:156",
+        "clu:159",
+        "clu:160",
+        "clu:162",
+        "clu:164",
+        "clu:165",
+        "clu:169",
+        "clu:175",
+        "clu:180",
+        "clu:202",
+        "clu:237",
+        "clu:238",
+        "clu:250",
+        "clu:272",
+        "clu:33",
+        "clu:44"
+      ]
     },
     "house_dimir_1": {
       "fixed": true,
@@ -429,7 +609,25 @@
         "clu:86": 1,
         "clu:92": 1,
         "mkm:53": 1
-      }
+      },
+      "cards_order": [
+        "clu:104",
+        "clu:186",
+        "clu:187a",
+        "clu:188",
+        "clu:218",
+        "clu:221",
+        "clu:233",
+        "clu:234",
+        "clu:252",
+        "clu:261",
+        "clu:38",
+        "clu:49",
+        "clu:85",
+        "clu:86",
+        "clu:92",
+        "mkm:53"
+      ]
     },
     "house_dimir_2": {
       "fixed": true,
@@ -451,7 +649,25 @@
         "clu:30": 1,
         "clu:49": 1,
         "mkm:95": 1
-      }
+      },
+      "cards_order": [
+        "clu:114",
+        "clu:115",
+        "clu:116",
+        "clu:120",
+        "clu:121",
+        "clu:124",
+        "clu:187a",
+        "clu:212",
+        "clu:218",
+        "clu:233",
+        "clu:234",
+        "clu:253",
+        "clu:264",
+        "clu:30",
+        "clu:49",
+        "mkm:95"
+      ]
     },
     "izzet_league_1": {
       "fixed": true,
@@ -473,7 +689,25 @@
         "clu:85": 1,
         "clu:89": 1,
         "clu:94": 1
-      }
+      },
+      "cards_order": [
+        "clu:100",
+        "clu:101",
+        "clu:102",
+        "clu:103",
+        "clu:193",
+        "clu:239",
+        "clu:240",
+        "clu:252",
+        "clu:260",
+        "clu:31",
+        "clu:41",
+        "clu:81",
+        "clu:84",
+        "clu:85",
+        "clu:89",
+        "clu:94"
+      ]
     },
     "izzet_league_2": {
       "fixed": true,
@@ -495,7 +729,25 @@
         "clu:268": 5,
         "clu:28": 1,
         "clu:31": 1
-      }
+      },
+      "cards_order": [
+        "clu:132",
+        "clu:133",
+        "clu:136",
+        "clu:141",
+        "clu:142",
+        "clu:148",
+        "clu:150",
+        "clu:193",
+        "clu:196",
+        "clu:224",
+        "clu:239",
+        "clu:240",
+        "clu:249",
+        "clu:268",
+        "clu:28",
+        "clu:31"
+      ]
     },
     "orzhov_syndicate_1": {
       "fixed": true,
@@ -517,7 +769,25 @@
         "clu:75": 1,
         "clu:76": 1,
         "clu:78": 1
-      }
+      },
+      "cards_order": [
+        "clu:217",
+        "clu:23",
+        "clu:241",
+        "clu:242",
+        "clu:251",
+        "clu:257",
+        "clu:47",
+        "clu:52",
+        "clu:53",
+        "clu:57",
+        "clu:58",
+        "clu:62",
+        "clu:74",
+        "clu:75",
+        "clu:76",
+        "clu:78"
+      ]
     },
     "orzhov_syndicate_2": {
       "fixed": true,
@@ -539,7 +809,25 @@
         "clu:29": 1,
         "mkm:91": 1,
         "mkm:95": 1
-      }
+      },
+      "cards_order": [
+        "clu:105",
+        "clu:111",
+        "clu:117",
+        "clu:118",
+        "clu:123",
+        "clu:201",
+        "clu:208",
+        "clu:225",
+        "clu:23",
+        "clu:241",
+        "clu:242",
+        "clu:253",
+        "clu:265",
+        "clu:29",
+        "mkm:91",
+        "mkm:95"
+      ]
     },
     "selesnya_conclave_1": {
       "fixed": true,
@@ -561,7 +849,25 @@
         "clu:72": 1,
         "clu:79": 1,
         "clu:80": 1
-      }
+      },
+      "cards_order": [
+        "clu:207",
+        "clu:213",
+        "clu:245",
+        "clu:246",
+        "clu:251",
+        "clu:256",
+        "clu:27",
+        "clu:45",
+        "clu:56",
+        "clu:59",
+        "clu:63",
+        "clu:65",
+        "clu:71",
+        "clu:72",
+        "clu:79",
+        "clu:80"
+      ]
     },
     "selesnya_conclave_2": {
       "fixed": true,
@@ -583,7 +889,25 @@
         "clu:270": 5,
         "clu:45": 1,
         "clu:51": 1
-      }
+      },
+      "cards_order": [
+        "clu:155",
+        "clu:156",
+        "clu:158",
+        "clu:171",
+        "clu:177",
+        "clu:178",
+        "clu:181",
+        "clu:207",
+        "clu:216",
+        "clu:227",
+        "clu:245",
+        "clu:246",
+        "clu:250",
+        "clu:270",
+        "clu:45",
+        "clu:51"
+      ]
     },
     "simic_combine_1": {
       "fixed": true,
@@ -605,7 +929,25 @@
         "clu:97": 1,
         "clu:98": 1,
         "clu:99": 1
-      }
+      },
+      "cards_order": [
+        "clu:200",
+        "clu:228",
+        "clu:247",
+        "clu:248",
+        "clu:252",
+        "clu:259",
+        "clu:42",
+        "clu:50",
+        "clu:87",
+        "clu:91",
+        "clu:92",
+        "clu:93",
+        "clu:96",
+        "clu:97",
+        "clu:98",
+        "clu:99"
+      ]
     },
     "simic_combine_2": {
       "fixed": true,
@@ -627,7 +969,25 @@
         "clu:271": 5,
         "clu:37": 1,
         "clu:42": 1
-      }
+      },
+      "cards_order": [
+        "clu:157",
+        "clu:161",
+        "clu:166",
+        "clu:170",
+        "clu:173",
+        "clu:174",
+        "clu:195",
+        "clu:197a",
+        "clu:206",
+        "clu:209",
+        "clu:247",
+        "clu:248",
+        "clu:250",
+        "clu:271",
+        "clu:37",
+        "clu:42"
+      ]
     }
   },
   "source_set_codes": [

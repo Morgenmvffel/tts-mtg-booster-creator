@@ -493,7 +493,25 @@
         "msh:41": 1,
         "msh:5": 1,
         "msh:7": 1
-      }
+      },
+      "cards_order": [
+        "msc:523",
+        "msc:580",
+        "msc:603",
+        "msc:609",
+        "msh:1",
+        "msh:15",
+        "msh:249",
+        "msh:277",
+        "msh:287",
+        "msh:288",
+        "msh:32",
+        "msh:36",
+        "msh:4",
+        "msh:41",
+        "msh:5",
+        "msh:7"
+      ]
     },
     "analyzed": {
       "fixed": true,
@@ -515,7 +533,25 @@
         "msh:51": 1,
         "msh:54": 1,
         "msh:82": 1
-      }
+      },
+      "cards_order": [
+        "msc:574",
+        "msc:581",
+        "msc:635",
+        "msc:641",
+        "msc:643",
+        "msc:644",
+        "msc:751",
+        "msc:761",
+        "msh:256",
+        "msh:280",
+        "msh:289",
+        "msh:290",
+        "msh:46",
+        "msh:51",
+        "msh:54",
+        "msh:82"
+      ]
     },
     "animal": {
       "fixed": true,
@@ -537,7 +573,25 @@
         "msh:286": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:579",
+        "msc:713",
+        "msc:726",
+        "msc:734",
+        "msc:748",
+        "msc:817",
+        "msh:161",
+        "msh:168",
+        "msh:169",
+        "msh:172",
+        "msh:178",
+        "msh:185",
+        "msh:191",
+        "msh:286",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "armed": {
       "fixed": true,
@@ -559,7 +613,25 @@
         "msh:291": 3,
         "msh:292": 3,
         "msh:99": 1
-      }
+      },
+      "cards_order": [
+        "msc:582",
+        "msc:647",
+        "msc:660",
+        "msc:675",
+        "msc:752",
+        "msh:102",
+        "msh:110",
+        "msh:112",
+        "msh:114",
+        "msh:116",
+        "msh:121",
+        "msh:236",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:99"
+      ]
     },
     "atlantis": {
       "fixed": true,
@@ -581,7 +653,25 @@
         "msh:46": 1,
         "msh:47": 1,
         "msh:54": 1
-      }
+      },
+      "cards_order": [
+        "msc:581",
+        "msc:616",
+        "msc:618",
+        "msc:631",
+        "msc:632",
+        "msc:635",
+        "msc:638",
+        "msc:760",
+        "msc:789",
+        "msh:280",
+        "msh:289",
+        "msh:290",
+        "msh:45",
+        "msh:46",
+        "msh:47",
+        "msh:54"
+      ]
     },
     "battalion": {
       "fixed": true,
@@ -603,7 +693,25 @@
         "msh:277": 1,
         "msh:287": 3,
         "msh:288": 3
-      }
+      },
+      "cards_order": [
+        "msc:517",
+        "msc:572",
+        "msc:580",
+        "msc:588",
+        "msc:593",
+        "msc:595",
+        "msc:597",
+        "msc:598",
+        "msc:611",
+        "msc:613",
+        "msc:781",
+        "msh:15",
+        "msh:236",
+        "msh:277",
+        "msh:287",
+        "msh:288"
+      ]
     },
     "blink": {
       "fixed": true,
@@ -625,7 +733,25 @@
         "msh:61": 1,
         "msh:73": 1,
         "msh:82": 1
-      }
+      },
+      "cards_order": [
+        "msc:581",
+        "msc:617",
+        "msc:619",
+        "msc:624",
+        "msc:637",
+        "msc:638",
+        "msc:639",
+        "msc:640",
+        "msc:642",
+        "msc:821",
+        "msh:279",
+        "msh:289",
+        "msh:290",
+        "msh:61",
+        "msh:73",
+        "msh:82"
+      ]
     },
     "boosted": {
       "fixed": true,
@@ -647,7 +773,25 @@
         "msh:283": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:578",
+        "msc:690",
+        "msc:693",
+        "msc:698",
+        "msc:703",
+        "msc:743",
+        "msc:763",
+        "msc:804",
+        "msh:135",
+        "msh:136",
+        "msh:158",
+        "msh:160",
+        "msh:198",
+        "msh:283",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "caretakers": {
       "fixed": true,
@@ -669,7 +813,25 @@
         "msh:288": 3,
         "msh:37": 1,
         "msh:39": 1
-      }
+      },
+      "cards_order": [
+        "msc:517",
+        "msc:525",
+        "msc:580",
+        "msc:591",
+        "msc:592",
+        "msc:601",
+        "msc:757",
+        "msc:758",
+        "msc:773",
+        "msh:14",
+        "msh:26",
+        "msh:278",
+        "msh:287",
+        "msh:288",
+        "msh:37",
+        "msh:39"
+      ]
     },
     "conniving": {
       "fixed": true,
@@ -692,7 +854,26 @@
         "msh:63": 1,
         "msh:64": 1,
         "msh:81": 1
-      }
+      },
+      "cards_order": [
+        "msc:531",
+        "msc:581",
+        "msc:619",
+        "msc:630",
+        "msc:747",
+        "msc:783",
+        "msc:784",
+        "msc:785",
+        "msc:789",
+        "msc:821",
+        "msh:276",
+        "msh:279",
+        "msh:289",
+        "msh:290",
+        "msh:63",
+        "msh:64",
+        "msh:81"
+      ]
     },
     "counterargument": {
       "fixed": true,
@@ -714,7 +895,25 @@
         "msh:288": 3,
         "msh:31": 1,
         "msh:41": 1
-      }
+      },
+      "cards_order": [
+        "msc:580",
+        "msc:594",
+        "msc:602",
+        "msc:612",
+        "msc:745",
+        "msc:769",
+        "msc:770",
+        "msc:771",
+        "msc:774",
+        "msc:778",
+        "msh:24",
+        "msh:277",
+        "msh:287",
+        "msh:288",
+        "msh:31",
+        "msh:41"
+      ]
     },
     "doom": {
       "fixed": true,
@@ -736,7 +935,25 @@
         "msh:281": 1,
         "msh:291": 3,
         "msh:292": 3
-      }
+      },
+      "cards_order": [
+        "msc:535",
+        "msc:576",
+        "msc:582",
+        "msc:654",
+        "msc:655",
+        "msc:792",
+        "msc:793",
+        "msc:794",
+        "msc:795",
+        "msc:796",
+        "msh:108",
+        "msh:109",
+        "msh:113",
+        "msh:281",
+        "msh:291",
+        "msh:292"
+      ]
     },
     "equipped": {
       "fixed": true,
@@ -758,7 +975,25 @@
         "msh:287": 3,
         "msh:288": 3,
         "msh:39": 1
-      }
+      },
+      "cards_order": [
+        "msc:523",
+        "msc:570",
+        "msc:580",
+        "msc:586",
+        "msc:587",
+        "msc:598",
+        "msc:601",
+        "msc:605",
+        "msc:608",
+        "msh:1",
+        "msh:236",
+        "msh:244",
+        "msh:277",
+        "msh:287",
+        "msh:288",
+        "msh:39"
+      ]
     },
     "fantastic": {
       "fixed": true,
@@ -784,7 +1019,29 @@
         "msh:284": 1,
         "msh:286": 1,
         "msh:66": 1
-      }
+      },
+      "cards_order": [
+        "msc:564",
+        "msc:579",
+        "msc:614",
+        "msc:620",
+        "msc:690",
+        "msc:741",
+        "msc:749",
+        "msc:815",
+        "msc:828",
+        "msh:136",
+        "msh:17",
+        "msh:190",
+        "msh:247",
+        "msh:261",
+        "msh:271",
+        "msh:278",
+        "msh:280",
+        "msh:284",
+        "msh:286",
+        "msh:66"
+      ]
     },
     "fearless": {
       "fixed": true,
@@ -806,7 +1063,25 @@
         "msh:283": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:578",
+        "msc:685",
+        "msc:686",
+        "msc:687",
+        "msc:706",
+        "msc:754",
+        "msc:810",
+        "msc:811",
+        "msc:812",
+        "msh:125",
+        "msh:134",
+        "msh:135",
+        "msh:139",
+        "msh:283",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "geniuses": {
       "fixed": true,
@@ -828,7 +1103,25 @@
         "msh:55": 1,
         "msh:63": 1,
         "msh:77": 1
-      }
+      },
+      "cards_order": [
+        "msc:530",
+        "msc:567",
+        "msc:581",
+        "msc:620",
+        "msc:636",
+        "msc:739",
+        "msc:746",
+        "msh:206",
+        "msh:280",
+        "msh:289",
+        "msh:290",
+        "msh:48",
+        "msh:54",
+        "msh:55",
+        "msh:63",
+        "msh:77"
+      ]
     },
     "great_lakes_avengers": {
       "fixed": true,
@@ -850,7 +1143,25 @@
         "msh:286": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:579",
+        "msc:713",
+        "msc:714",
+        "msc:720",
+        "msc:721",
+        "msc:727",
+        "msc:734",
+        "msh:168",
+        "msh:169",
+        "msh:181",
+        "msh:185",
+        "msh:192",
+        "msh:193",
+        "msh:286",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "hydra": {
       "fixed": true,
@@ -872,7 +1183,25 @@
         "msh:91": 1,
         "msh:92": 1,
         "msh:93": 1
-      }
+      },
+      "cards_order": [
+        "msc:537",
+        "msc:582",
+        "msc:649",
+        "msc:660",
+        "msc:673",
+        "msh:100",
+        "msh:101",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:85",
+        "msh:86",
+        "msh:88",
+        "msh:91",
+        "msh:92",
+        "msh:93"
+      ]
     },
     "heroes_for_hire": {
       "fixed": true,
@@ -894,7 +1223,25 @@
         "msh:284": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:549",
+        "msc:578",
+        "msc:680",
+        "msc:683",
+        "msc:688",
+        "msc:692",
+        "msc:696",
+        "msc:802",
+        "msh:139",
+        "msh:140",
+        "msh:145",
+        "msh:149",
+        "msh:153",
+        "msh:284",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "incredible": {
       "fixed": true,
@@ -916,7 +1263,25 @@
         "msh:285": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:567",
+        "msc:579",
+        "msc:724",
+        "msc:725",
+        "msc:728",
+        "msc:745",
+        "msh:164",
+        "msh:167",
+        "msh:168",
+        "msh:169",
+        "msh:185",
+        "msh:189",
+        "msh:198",
+        "msh:285",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "iron_man": {
       "fixed": true,
@@ -938,7 +1303,25 @@
         "msh:57": 1,
         "msh:58": 1,
         "msh:73": 1
-      }
+      },
+      "cards_order": [
+        "msc:569",
+        "msc:572",
+        "msc:581",
+        "msc:617",
+        "msc:622",
+        "msc:626",
+        "msc:633",
+        "msc:750",
+        "msc:755",
+        "msh:280",
+        "msh:289",
+        "msh:290",
+        "msh:55",
+        "msh:57",
+        "msh:58",
+        "msh:73"
+      ]
     },
     "kang_dynasty": {
       "fixed": true,
@@ -960,7 +1343,25 @@
         "msh:48": 1,
         "msh:50": 1,
         "msh:73": 1
-      }
+      },
+      "cards_order": [
+        "msc:569",
+        "msc:581",
+        "msc:623",
+        "msc:629",
+        "msc:634",
+        "msc:641",
+        "msc:642",
+        "msc:761",
+        "msc:787",
+        "msc:788",
+        "msh:279",
+        "msh:289",
+        "msh:290",
+        "msh:48",
+        "msh:50",
+        "msh:73"
+      ]
     },
     "lethal": {
       "fixed": true,
@@ -982,7 +1383,25 @@
         "msh:291": 3,
         "msh:292": 3,
         "msh:99": 1
-      }
+      },
+      "cards_order": [
+        "msc:537",
+        "msc:582",
+        "msc:648",
+        "msc:664",
+        "msc:667",
+        "msc:676",
+        "msc:800",
+        "msc:801",
+        "msh:108",
+        "msh:110",
+        "msh:114",
+        "msh:122",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:99"
+      ]
     },
     "marvelous": {
       "fixed": true,
@@ -1004,7 +1423,25 @@
         "msh:288": 3,
         "msh:33": 1,
         "msh:37": 1
-      }
+      },
+      "cards_order": [
+        "msc:517",
+        "msc:580",
+        "msc:589",
+        "msc:606",
+        "msc:607",
+        "msc:613",
+        "msc:743",
+        "msc:744",
+        "msh:12",
+        "msh:15",
+        "msh:16",
+        "msh:278",
+        "msh:287",
+        "msh:288",
+        "msh:33",
+        "msh:37"
+      ]
     },
     "masters_of_evil": {
       "fixed": true,
@@ -1026,7 +1463,25 @@
         "msh:292": 3,
         "msh:92": 1,
         "msh:99": 1
-      }
+      },
+      "cards_order": [
+        "msc:534",
+        "msc:582",
+        "msc:653",
+        "msc:665",
+        "msc:672",
+        "msc:747",
+        "msh:103",
+        "msh:105",
+        "msh:120",
+        "msh:123",
+        "msh:235",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:92",
+        "msh:99"
+      ]
     },
     "mayhem": {
       "fixed": true,
@@ -1048,7 +1503,25 @@
         "msh:281": 1,
         "msh:291": 3,
         "msh:292": 3
-      }
+      },
+      "cards_order": [
+        "msc:582",
+        "msc:657",
+        "msc:666",
+        "msc:749",
+        "msc:791",
+        "msc:797",
+        "msc:799",
+        "msc:822",
+        "msc:825",
+        "msh:109",
+        "msh:110",
+        "msh:113",
+        "msh:123",
+        "msh:281",
+        "msh:291",
+        "msh:292"
+      ]
     },
     "precise": {
       "fixed": true,
@@ -1070,7 +1543,25 @@
         "msh:29": 1,
         "msh:3": 1,
         "msh:33": 1
-      }
+      },
+      "cards_order": [
+        "msc:517",
+        "msc:525",
+        "msc:580",
+        "msc:596",
+        "msc:597",
+        "msc:610",
+        "msc:779",
+        "msh:13",
+        "msh:19",
+        "msh:22",
+        "msh:277",
+        "msh:287",
+        "msh:288",
+        "msh:29",
+        "msh:3",
+        "msh:33"
+      ]
     },
     "pym_particles": {
       "fixed": true,
@@ -1092,7 +1583,25 @@
         "msh:56": 1,
         "msh:70": 1,
         "msh:78": 1
-      }
+      },
+      "cards_order": [
+        "msc:581",
+        "msc:635",
+        "msc:646",
+        "msc:739",
+        "msc:759",
+        "msc:786",
+        "msh:279",
+        "msh:289",
+        "msh:290",
+        "msh:43",
+        "msh:44",
+        "msh:48",
+        "msh:50",
+        "msh:56",
+        "msh:70",
+        "msh:78"
+      ]
     },
     "rampaging": {
       "fixed": true,
@@ -1114,7 +1623,25 @@
         "msh:285": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:558",
+        "msc:566",
+        "msc:579",
+        "msc:713",
+        "msc:716",
+        "msc:730",
+        "msc:823",
+        "msh:163",
+        "msh:175",
+        "msh:176",
+        "msh:179",
+        "msh:186",
+        "msh:235",
+        "msh:285",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "returned": {
       "fixed": true,
@@ -1136,7 +1663,25 @@
         "msh:292": 3,
         "msh:86": 1,
         "msh:98": 1
-      }
+      },
+      "cards_order": [
+        "msc:535",
+        "msc:537",
+        "msc:540",
+        "msc:582",
+        "msc:658",
+        "msc:663",
+        "msc:670",
+        "msc:762",
+        "msh:109",
+        "msh:118",
+        "msh:119",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:86",
+        "msh:98"
+      ]
     },
     "runaways": {
       "fixed": true,
@@ -1158,7 +1703,25 @@
         "msh:284": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:549",
+        "msc:568",
+        "msc:574",
+        "msc:578",
+        "msc:677",
+        "msc:682",
+        "msc:684",
+        "msc:694",
+        "msc:698",
+        "msc:700",
+        "msc:809",
+        "msh:125",
+        "msh:133",
+        "msh:284",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "savage_lands": {
       "fixed": true,
@@ -1181,7 +1744,26 @@
         "msh:285": 1,
         "msh:295": 3,
         "msh:296": 2
-      }
+      },
+      "cards_order": [
+        "msc:563",
+        "msc:568",
+        "msc:579",
+        "msc:711",
+        "msc:719",
+        "msc:731",
+        "msc:814",
+        "msc:816",
+        "msc:819",
+        "msc:827",
+        "msh:168",
+        "msh:174",
+        "msh:182",
+        "msh:185",
+        "msh:285",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "scarlet": {
       "fixed": true,
@@ -1203,7 +1785,25 @@
         "msh:284": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:557",
+        "msc:578",
+        "msc:699",
+        "msc:707",
+        "msc:708",
+        "msc:803",
+        "msc:806",
+        "msh:133",
+        "msh:141",
+        "msh:143",
+        "msh:152",
+        "msh:153",
+        "msh:158",
+        "msh:284",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "soaring": {
       "fixed": true,
@@ -1225,7 +1825,25 @@
         "msh:58": 1,
         "msh:61": 1,
         "msh:73": 1
-      }
+      },
+      "cards_order": [
+        "msc:581",
+        "msc:619",
+        "msc:621",
+        "msc:632",
+        "msc:645",
+        "msc:755",
+        "msc:790",
+        "msh:279",
+        "msh:289",
+        "msh:290",
+        "msh:43",
+        "msh:52",
+        "msh:53",
+        "msh:58",
+        "msh:61",
+        "msh:73"
+      ]
     },
     "speedy": {
       "fixed": true,
@@ -1247,7 +1865,25 @@
         "msh:283": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:549",
+        "msc:578",
+        "msc:702",
+        "msc:709",
+        "msc:710",
+        "msc:764",
+        "msc:807",
+        "msc:811",
+        "msh:142",
+        "msh:148",
+        "msh:152",
+        "msh:154",
+        "msh:159",
+        "msh:283",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "spider_verse": {
       "fixed": true,
@@ -1270,7 +1906,26 @@
         "msh:284": 1,
         "msh:293": 2,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:549",
+        "msc:578",
+        "msc:695",
+        "msc:705",
+        "msc:740",
+        "msc:742",
+        "msc:749",
+        "msc:754",
+        "msc:805",
+        "msc:807",
+        "msc:808",
+        "msc:810",
+        "msc:813",
+        "msc:874",
+        "msh:284",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "squadron": {
       "fixed": true,
@@ -1292,7 +1947,25 @@
         "msh:41": 1,
         "msh:7": 1,
         "msh:8": 1
-      }
+      },
+      "cards_order": [
+        "msc:580",
+        "msc:585",
+        "msc:590",
+        "msc:597",
+        "msc:599",
+        "msc:600",
+        "msc:604",
+        "msc:615",
+        "msh:16",
+        "msh:278",
+        "msh:287",
+        "msh:288",
+        "msh:3",
+        "msh:41",
+        "msh:7",
+        "msh:8"
+      ]
     },
     "street_level_villains": {
       "fixed": true,
@@ -1314,7 +1987,25 @@
         "msh:291": 3,
         "msh:292": 3,
         "msh:85": 1
-      }
+      },
+      "cards_order": [
+        "msc:160",
+        "msc:582",
+        "msc:651",
+        "msc:652",
+        "msc:659",
+        "msc:661",
+        "msc:663",
+        "msc:792",
+        "msc:794",
+        "msc:798",
+        "msh:102",
+        "msh:104",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:85"
+      ]
     },
     "tenacious": {
       "fixed": true,
@@ -1337,7 +2028,26 @@
         "msh:285": 1,
         "msh:295": 2,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:568",
+        "msc:579",
+        "msc:711",
+        "msc:729",
+        "msc:735",
+        "msc:736",
+        "msc:817",
+        "msc:828",
+        "msh:162",
+        "msh:170",
+        "msh:178",
+        "msh:180",
+        "msh:185",
+        "msh:194",
+        "msh:285",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "thor": {
       "fixed": true,
@@ -1359,7 +2069,25 @@
         "msh:284": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:578",
+        "msc:678",
+        "msc:697",
+        "msc:699",
+        "msc:701",
+        "msc:756",
+        "msc:765",
+        "msc:806",
+        "msh:126",
+        "msh:140",
+        "msh:141",
+        "msh:142",
+        "msh:143",
+        "msh:284",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "thunderbolts": {
       "fixed": true,
@@ -1381,7 +2109,25 @@
         "msh:291": 3,
         "msh:292": 3,
         "msh:92": 1
-      }
+      },
+      "cards_order": [
+        "msc:566",
+        "msc:582",
+        "msc:650",
+        "msc:656",
+        "msc:662",
+        "msc:671",
+        "msc:674",
+        "msc:762",
+        "msc:824",
+        "msh:107",
+        "msh:113",
+        "msh:114",
+        "msh:282",
+        "msh:291",
+        "msh:292",
+        "msh:92"
+      ]
     },
     "towering": {
       "fixed": true,
@@ -1403,7 +2149,25 @@
         "msh:286": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:558",
+        "msc:566",
+        "msc:571",
+        "msc:579",
+        "msc:722",
+        "msc:739",
+        "msc:744",
+        "msc:766",
+        "msc:818",
+        "msc:819",
+        "msh:167",
+        "msh:181",
+        "msh:182",
+        "msh:286",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "trained": {
       "fixed": true,
@@ -1425,7 +2189,25 @@
         "msh:286": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:558",
+        "msc:579",
+        "msc:712",
+        "msc:732",
+        "msc:745",
+        "msh:171",
+        "msh:178",
+        "msh:180",
+        "msh:183",
+        "msh:186",
+        "msh:194",
+        "msh:195",
+        "msh:196",
+        "msh:286",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "tricksters": {
       "fixed": true,
@@ -1447,7 +2229,25 @@
         "msh:63": 1,
         "msh:81": 1,
         "msh:82": 1
-      }
+      },
+      "cards_order": [
+        "msc:581",
+        "msc:625",
+        "msc:627",
+        "msc:628",
+        "msc:629",
+        "msc:635",
+        "msc:759",
+        "msc:782",
+        "msh:214",
+        "msh:279",
+        "msh:289",
+        "msh:290",
+        "msh:44",
+        "msh:63",
+        "msh:81",
+        "msh:82"
+      ]
     },
     "ultron": {
       "fixed": true,
@@ -1469,7 +2269,25 @@
         "msh:291": 3,
         "msh:292": 3,
         "msh:93": 1
-      }
+      },
+      "cards_order": [
+        "msc:535",
+        "msc:574",
+        "msc:582",
+        "msc:655",
+        "msc:663",
+        "msc:668",
+        "msc:669",
+        "msc:824",
+        "msh:109",
+        "msh:111",
+        "msh:114",
+        "msh:253",
+        "msh:281",
+        "msh:291",
+        "msh:292",
+        "msh:93"
+      ]
     },
     "uncanny": {
       "fixed": true,
@@ -1491,7 +2309,25 @@
         "msh:286": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:558",
+        "msc:579",
+        "msc:711",
+        "msc:715",
+        "msc:717",
+        "msc:718",
+        "msc:733",
+        "msc:737",
+        "msc:738",
+        "msc:767",
+        "msh:168",
+        "msh:192",
+        "msh:206",
+        "msh:286",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "vehicles": {
       "fixed": true,
@@ -1513,7 +2349,25 @@
         "msh:283": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:578",
+        "msc:679",
+        "msc:681",
+        "msc:691",
+        "msc:704",
+        "msc:753",
+        "msc:763",
+        "msc:811",
+        "msh:137",
+        "msh:144",
+        "msh:157",
+        "msh:209",
+        "msh:249",
+        "msh:283",
+        "msh:293",
+        "msh:294"
+      ]
     },
     "wakanda": {
       "fixed": true,
@@ -1535,7 +2389,25 @@
         "msh:29": 1,
         "msh:40": 1,
         "msh:7": 1
-      }
+      },
+      "cards_order": [
+        "msc:580",
+        "msc:584",
+        "msc:597",
+        "msc:608",
+        "msc:611",
+        "msc:613",
+        "msc:746",
+        "msc:748",
+        "msh:254",
+        "msh:27",
+        "msh:278",
+        "msh:287",
+        "msh:288",
+        "msh:29",
+        "msh:40",
+        "msh:7"
+      ]
     },
     "web_slinging": {
       "fixed": true,
@@ -1557,7 +2429,25 @@
         "msh:287": 3,
         "msh:288": 3,
         "msh:41": 1
-      }
+      },
+      "cards_order": [
+        "msc:580",
+        "msc:583",
+        "msc:612",
+        "msc:758",
+        "msc:768",
+        "msc:772",
+        "msc:775",
+        "msc:776",
+        "msc:777",
+        "msc:780",
+        "msc:820",
+        "msc:826",
+        "msh:278",
+        "msh:287",
+        "msh:288",
+        "msh:41"
+      ]
     },
     "wild": {
       "fixed": true,
@@ -1579,7 +2469,25 @@
         "msh:286": 1,
         "msh:295": 3,
         "msh:296": 3
-      }
+      },
+      "cards_order": [
+        "msc:558",
+        "msc:559",
+        "msc:568",
+        "msc:579",
+        "msc:711",
+        "msc:723",
+        "msc:736",
+        "msc:828",
+        "msh:163",
+        "msh:170",
+        "msh:174",
+        "msh:177",
+        "msh:183",
+        "msh:286",
+        "msh:295",
+        "msh:296"
+      ]
     },
     "young_avengers": {
       "fixed": true,
@@ -1601,7 +2509,25 @@
         "msh:284": 1,
         "msh:293": 3,
         "msh:294": 3
-      }
+      },
+      "cards_order": [
+        "msc:549",
+        "msc:557",
+        "msc:569",
+        "msc:570",
+        "msc:571",
+        "msc:578",
+        "msc:684",
+        "msc:689",
+        "msh:131",
+        "msh:132",
+        "msh:142",
+        "msh:152",
+        "msh:155",
+        "msh:284",
+        "msh:293",
+        "msh:294"
+      ]
     }
   },
   "source_set_codes": [

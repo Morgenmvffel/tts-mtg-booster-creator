@@ -123,7 +123,24 @@
         "fdn:500": 1,
         "fdn:501": 1,
         "fdn:564": 1
-      }
+      },
+      "cards_order": [
+        "fdn:12",
+        "fdn:146",
+        "fdn:16",
+        "fdn:21",
+        "fdn:272",
+        "fdn:273",
+        "fdn:490",
+        "fdn:493",
+        "fdn:495",
+        "fdn:497",
+        "fdn:498",
+        "fdn:499",
+        "fdn:500",
+        "fdn:501",
+        "fdn:564"
+      ]
     },
     "elves": {
       "fixed": true,
@@ -144,7 +161,24 @@
         "fdn:559": 1,
         "fdn:561": 1,
         "fdn:564": 1
-      }
+      },
+      "cards_order": [
+        "fdn:100",
+        "fdn:104",
+        "fdn:105",
+        "fdn:214",
+        "fdn:218",
+        "fdn:219",
+        "fdn:227",
+        "fdn:233",
+        "fdn:280",
+        "fdn:281",
+        "fdn:555",
+        "fdn:558",
+        "fdn:559",
+        "fdn:561",
+        "fdn:564"
+      ]
     },
     "goblins": {
       "fixed": true,
@@ -165,7 +199,24 @@
         "fdn:562": 1,
         "fdn:564": 1,
         "fdn:90": 1
-      }
+      },
+      "cards_order": [
+        "fdn:199",
+        "fdn:278",
+        "fdn:279",
+        "fdn:533",
+        "fdn:535",
+        "fdn:537",
+        "fdn:539",
+        "fdn:540",
+        "fdn:542",
+        "fdn:543",
+        "fdn:548",
+        "fdn:550",
+        "fdn:562",
+        "fdn:564",
+        "fdn:90"
+      ]
     },
     "healing": {
       "fixed": true,
@@ -186,7 +237,24 @@
         "fdn:564": 1,
         "fdn:730": 1,
         "fdn:9": 1
-      }
+      },
+      "cards_order": [
+        "fdn:130",
+        "fdn:135",
+        "fdn:272",
+        "fdn:273",
+        "fdn:488",
+        "fdn:489",
+        "fdn:491",
+        "fdn:492",
+        "fdn:494",
+        "fdn:496",
+        "fdn:502",
+        "fdn:503",
+        "fdn:564",
+        "fdn:730",
+        "fdn:9"
+      ]
     },
     "inferno": {
       "fixed": true,
@@ -206,7 +274,23 @@
         "fdn:549": 1,
         "fdn:564": 1,
         "fdn:86": 1
-      }
+      },
+      "cards_order": [
+        "fdn:197",
+        "fdn:278",
+        "fdn:279",
+        "fdn:534",
+        "fdn:536",
+        "fdn:538",
+        "fdn:541",
+        "fdn:544",
+        "fdn:545",
+        "fdn:546",
+        "fdn:547",
+        "fdn:549",
+        "fdn:564",
+        "fdn:86"
+      ]
     },
     "pirates": {
       "fixed": true,
@@ -227,7 +311,24 @@
         "fdn:515": 1,
         "fdn:563": 1,
         "fdn:564": 1
-      }
+      },
+      "cards_order": [
+        "fdn:152",
+        "fdn:164",
+        "fdn:167",
+        "fdn:274",
+        "fdn:275",
+        "fdn:31",
+        "fdn:50",
+        "fdn:505",
+        "fdn:506",
+        "fdn:507",
+        "fdn:510",
+        "fdn:512",
+        "fdn:515",
+        "fdn:563",
+        "fdn:564"
+      ]
     },
     "primal": {
       "fixed": true,
@@ -247,7 +348,23 @@
         "fdn:557": 1,
         "fdn:560": 1,
         "fdn:564": 1
-      }
+      },
+      "cards_order": [
+        "fdn:212",
+        "fdn:223",
+        "fdn:228",
+        "fdn:236",
+        "fdn:280",
+        "fdn:281",
+        "fdn:551",
+        "fdn:552",
+        "fdn:553",
+        "fdn:554",
+        "fdn:556",
+        "fdn:557",
+        "fdn:560",
+        "fdn:564"
+      ]
     },
     "undead": {
       "fixed": true,
@@ -268,7 +385,24 @@
         "fdn:528": 1,
         "fdn:564": 1,
         "fdn:62": 1
-      }
+      },
+      "cards_order": [
+        "fdn:171",
+        "fdn:172",
+        "fdn:182",
+        "fdn:276",
+        "fdn:277",
+        "fdn:517",
+        "fdn:519",
+        "fdn:520",
+        "fdn:521",
+        "fdn:523",
+        "fdn:526",
+        "fdn:527",
+        "fdn:528",
+        "fdn:564",
+        "fdn:62"
+      ]
     },
     "vampires": {
       "fixed": true,
@@ -289,7 +423,24 @@
         "fdn:532": 1,
         "fdn:564": 1,
         "fdn:76": 1
-      }
+      },
+      "cards_order": [
+        "fdn:175",
+        "fdn:185",
+        "fdn:276",
+        "fdn:277",
+        "fdn:516",
+        "fdn:518",
+        "fdn:522",
+        "fdn:524",
+        "fdn:525",
+        "fdn:529",
+        "fdn:530",
+        "fdn:531",
+        "fdn:532",
+        "fdn:564",
+        "fdn:76"
+      ]
     },
     "wizards": {
       "fixed": true,
@@ -310,7 +461,24 @@
         "fdn:513": 1,
         "fdn:514": 1,
         "fdn:564": 1
-      }
+      },
+      "cards_order": [
+        "fdn:155",
+        "fdn:274",
+        "fdn:275",
+        "fdn:29",
+        "fdn:33",
+        "fdn:37",
+        "fdn:42",
+        "fdn:47",
+        "fdn:504",
+        "fdn:508",
+        "fdn:509",
+        "fdn:511",
+        "fdn:513",
+        "fdn:514",
+        "fdn:564"
+      ]
     }
   },
   "source_set_codes": [

@@ -486,47 +486,8 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     end)
 end
 
-local function sortCardsBySheetOrder(cards, sheetOrder)
-    -- Create a mapping of sheet names to their index in sheetOrder
-    local sheetIndex = {}
-    for i, sheet in ipairs(sheetOrder) do
-        sheetIndex[sheet] = i
-    end
-
-    -- Function to get the sheet index for sorting
-    local function getCardSheetIndex(card)
-        local sheet = (card.sheetName or ""):lower()
-
-        -- If the sheet is in the sheetOrder, return its index, otherwise return a high index to place it at the end
-        if sheetIndex[sheet] then
-            return sheetIndex[sheet]
-        else
-            -- Log a message if the sheetName is not in the sheetOrder
-            log("Warning: sheetName '" .. sheet .. "' not found in sheetOrder.")
-            return #sheetOrder + 1 -- Place this card at the end if the sheet is not found in sheetOrder
-        end
-    end
-
-    -- Sort cards based on their sheet order in reverse
-    table.sort(cards, function(a, b)
-        local indexA = getCardSheetIndex(a)
-        local indexB = getCardSheetIndex(b)
-
-        -- First, sort by reversed sheet order (descending index)
-        if indexA ~= indexB then
-            return indexA > indexB -- Reverse the order (descending index)
-        end
-
-        -- If they are from the same sheet, fallback to sorting alphabetically by sheetName (or use the collectorNum as a tie-breaker if needed)
-        return a.collectorNum < b.collectorNum
-    end)
-end
-
 local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, onFullySpawned, onError)
     log("spawnBagWithCards: Creating bag '" .. bagName .. "' with " .. #cards .. " cards")
-    -- Sort cards alphabetically by sheetName (fallback to name if missing)
-    -- log(sheetOrder)
-    sortCardsBySheetOrder(cards, sheetOrder)
     local containedObjects = {}
     local boosterName = ""
 
@@ -1370,11 +1331,31 @@ local function drawCardsFromSheet(sheetData, count)
 
     -- Handle fixed sheets: draw all cards as listed, with exact quantities
     if sheetData.fixed then
-        for cardId, quantity in pairs(sheetData.cards) do
-            for _ = 1, quantity do
-                table.insert(selected, cardId)
+        local cardOrder = sheetData.cards_order or sheetData.card_order
+
+        if cardOrder then
+            for _, cardId in ipairs(cardOrder) do
+                local quantity = sheetData.cards[cardId] or 0
+                for _ = 1, quantity do
+                    table.insert(selected, cardId)
+                end
+            end
+        else
+            local cardIds = {}
+            for cardId in pairs(sheetData.cards) do
+                table.insert(cardIds, cardId)
+            end
+
+            table.sort(cardIds)
+
+            for _, cardId in ipairs(cardIds) do
+                local quantity = sheetData.cards[cardId] or 0
+                for _ = 1, quantity do
+                    table.insert(selected, cardId)
+                end
             end
         end
+
         return selected
     end
 

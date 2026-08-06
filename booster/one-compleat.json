@@ -38,7 +38,14 @@
         "one:367:foil": 1,
         "one:368:foil": 1,
         "one:369:foil": 1
-      }
+      },
+      "cards_order": [
+        "one:365:foil",
+        "one:366:foil",
+        "one:367:foil",
+        "one:368:foil",
+        "one:369:foil"
+      ]
     },
     "oil_slick_basics_2": {
       "fixed": true,
@@ -49,7 +56,14 @@
         "one:367:foil": 1,
         "one:368:foil": 1,
         "one:369:foil": 1
-      }
+      },
+      "cards_order": [
+        "one:365:foil",
+        "one:366:foil",
+        "one:367:foil",
+        "one:368:foil",
+        "one:369:foil"
+      ]
     },
     "oil_slick_mythic": {
       "total_weight": 20,

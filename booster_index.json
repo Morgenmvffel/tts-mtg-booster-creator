@@ -20,6 +20,10 @@
     "code": "msh-play"
   },
   {
+    "name": "Marvel Super Heroes Arena Play Booster",
+    "code": "msh-play-arena"
+  },
+  {
     "name": "Marvel Super Heroes Prerelease Promo Pack",
     "code": "msh-prerelease"
   },
@@ -34,6 +38,10 @@
   {
     "name": "Secrets of Strixhaven Play Booster",
     "code": "sos-play"
+  },
+  {
+    "name": "Secrets of Strixhaven Arena Play Booster",
+    "code": "sos-play-arena"
   },
   {
     "name": "Secrets of Strixhaven Prerelease Promo Pack Lorehold",
@@ -64,6 +72,10 @@
     "code": "tmt-play"
   },
   {
+    "name": "Teenage Mutant Ninja Turtles Arena Play Booster",
+    "code": "tmt-play-arena"
+  },
+  {
     "name": "Teenage Mutant Ninja Turtles Prerelease Promo Pack",
     "code": "tmt-prerelease"
   },
@@ -74,6 +86,10 @@
   {
     "name": "Lorwyn Eclipsed Play Booster",
     "code": "ecl-play"
+  },
+  {
+    "name": "Lorwyn Eclipsed Arena Play Booster",
+    "code": "ecl-play-arena"
   },
   {
     "name": "Lorwyn Eclipsed Prerelease Promo Pack",
@@ -90,6 +106,10 @@
   {
     "name": "Avatar: The Last Airbender Play Booster",
     "code": "tla-play"
+  },
+  {
+    "name": "Avatar: The Last Airbender Arena Play Booster",
+    "code": "tla-play-arena"
   },
   {
     "name": "Avatar: The Last Airbender Prerelease Promo Pack",
@@ -144,6 +164,10 @@
     "code": "eoe-play"
   },
   {
+    "name": "Edge of Eternities Arena Play Booster",
+    "code": "eoe-play-arena"
+  },
+  {
     "name": "Edge of Eternities Prerelease Promo Pack",
     "code": "eoe-prerelease"
   },
@@ -172,6 +196,10 @@
     "code": "fin-play"
   },
   {
+    "name": "Final Fantasy Arena Play Booster",
+    "code": "fin-play-arena"
+  },
+  {
     "name": "Final Fantasy Prerelease Promo Pack",
     "code": "fin-prerelease"
   },
@@ -186,6 +214,10 @@
   {
     "name": "Tarkir: Dragonstorm Play Booster",
     "code": "tdm-play"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Arena Play Booster",
+    "code": "tdm-play-arena"
   },
   {
     "name": "Tarkir: Dragonstorm Prerelease Promo Pack",
@@ -228,6 +260,10 @@
     "code": "dft-play"
   },
   {
+    "name": "Aetherdrift Arena Play Booster",
+    "code": "dft-play-arena"
+  },
+  {
     "name": "Aetherdrift Prerelease Promo Pack",
     "code": "dft-prerelease"
   },
@@ -264,6 +300,10 @@
     "code": "fdn-play"
   },
   {
+    "name": "Foundations Arena Play Booster",
+    "code": "fdn-play-arena"
+  },
+  {
     "name": "Foundations Prerelease Promo Pack",
     "code": "fdn-prerelease"
   },
@@ -288,6 +328,10 @@
     "code": "dsk-play"
   },
   {
+    "name": "Duskmourn: House of Horror Arena Play Booster",
+    "code": "dsk-play-arena"
+  },
+  {
     "name": "Duskmourn: House of Horror Prerelease Promo Pack",
     "code": "dsk-prerelease"
   },
@@ -302,6 +346,10 @@
   {
     "name": "Bloomburrow Play Booster",
     "code": "blb-play"
+  },
+  {
+    "name": "Bloomburrow Arena Play Booster",
+    "code": "blb-play-arena"
   },
   {
     "name": "Bloomburrow Prerelease Promo Pack",
@@ -336,6 +384,10 @@
     "code": "mh3-play"
   },
   {
+    "name": "Modern Horizons 3 Arena Play Booster",
+    "code": "mh3-play-arena"
+  },
+  {
     "name": "Modern Horizons 3 Prerelease Promo Pack",
     "code": "mh3-prerelease"
   },
@@ -350,6 +402,10 @@
   {
     "name": "Outlaws of Thunder Junction Play Booster",
     "code": "otj-play"
+  },
+  {
+    "name": "Outlaws of Thunder Junction Arena Play Booster",
+    "code": "otj-play-arena"
   },
   {
     "name": "Outlaws of Thunder Junction Prerelease Promo Pack",
@@ -710,6 +766,10 @@
   {
     "name": "Double Masters 2022 Draft Booster",
     "code": "2x2-draft"
+  },
+  {
+    "name": "Alchemy Horizons: Baldur's Gate Arena Booster",
+    "code": "hbg-arena"
   },
   {
     "name": "Commander Legends: Battle for Baldur's Gate Collector Booster",
@@ -1386,6 +1446,10 @@
   {
     "name": "SLD Surprise Slivers (2022-2023)",
     "code": "sld-surprise-slivers"
+  },
+  {
+    "name": "SLD Surprise Slivers (early, pre-October 2022)",
+    "code": "sld-surprise-slivers-early"
   },
   {
     "name": "SLD Zippy Zombies (February 2025)",

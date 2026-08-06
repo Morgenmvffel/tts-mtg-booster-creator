@@ -18,6 +18,15 @@ def add_sheet_order_to_boosters(data):
                 # Extract and store the order of sheets
                 booster['sheet_order'] = list(booster['sheets'].keys())
 
+
+def add_card_order_to_sheets(data):
+    """Add card order information to each sheet in the data."""
+    for obj in data:
+        sheets = obj.get('sheets', {})
+        for sheet in sheets.values():
+            if isinstance(sheet, dict) and sheet.get('fixed') and 'cards' in sheet:
+                sheet['cards_order'] = list(sheet['cards'].keys())
+
 def save_json_to_file(data, file_path):
     """Save JSON data to a specified file."""
     with open(file_path, "w", encoding="utf-8") as f:
@@ -65,6 +74,9 @@ def main():
 
         # Add sheet order information to boosters
         add_sheet_order_to_boosters(data)
+
+        # Add card order information to sheets so fixed boosters can preserve pack order
+        add_card_order_to_sheets(data)
 
         # Save the full JSON data with added sheet order
         save_json_to_file(data, FULL_JSON_FILE)

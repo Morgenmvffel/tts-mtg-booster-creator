@@ -163,14 +163,32 @@
         "mom:4": 1,
         "mom:44": 1,
         "mom:5": 1
-      }
+      },
+      "cards_order": [
+        "mom:10",
+        "mom:18",
+        "mom:277",
+        "mom:282",
+        "mom:29",
+        "mom:3",
+        "mom:323",
+        "mom:324",
+        "mom:325",
+        "mom:39",
+        "mom:4",
+        "mom:44",
+        "mom:5"
+      ]
     },
     "brood_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:277:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:277:foil"
+      ]
     },
     "rare_mythic_white": {
       "total_weight": 30,
@@ -204,14 +222,32 @@
         "mom:35": 1,
         "mom:4": 1,
         "mom:44": 1
-      }
+      },
+      "cards_order": [
+        "mom:18",
+        "mom:19",
+        "mom:2",
+        "mom:277",
+        "mom:282",
+        "mom:29",
+        "mom:3",
+        "mom:323",
+        "mom:324",
+        "mom:325",
+        "mom:35",
+        "mom:4",
+        "mom:44"
+      ]
     },
     "brood_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:277:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:277:foil"
+      ]
     },
     "buff_1": {
       "fixed": true,
@@ -230,14 +266,32 @@
         "mom:335": 1,
         "mom:336": 1,
         "mom:337": 1
-      }
+      },
+      "cards_order": [
+        "mom:175",
+        "mom:180",
+        "mom:182",
+        "mom:186",
+        "mom:196",
+        "mom:199",
+        "mom:210",
+        "mom:215",
+        "mom:281",
+        "mom:290",
+        "mom:335",
+        "mom:336",
+        "mom:337"
+      ]
     },
     "buff_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:281:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:281:foil"
+      ]
     },
     "rare_mythic_green": {
       "total_weight": 28,
@@ -270,14 +324,32 @@
         "mom:335": 1,
         "mom:336": 1,
         "mom:337": 1
-      }
+      },
+      "cards_order": [
+        "mom:175",
+        "mom:177",
+        "mom:180",
+        "mom:196",
+        "mom:199",
+        "mom:208",
+        "mom:210",
+        "mom:215",
+        "mom:281",
+        "mom:290",
+        "mom:335",
+        "mom:336",
+        "mom:337"
+      ]
     },
     "buff_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:281:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:281:foil"
+      ]
     },
     "expendable_1": {
       "fixed": true,
@@ -296,14 +368,32 @@
         "mom:330": 1,
         "mom:331": 1,
         "mom:99": 1
-      }
+      },
+      "cards_order": [
+        "mom:100",
+        "mom:101",
+        "mom:104",
+        "mom:106",
+        "mom:112",
+        "mom:124",
+        "mom:128",
+        "mom:279",
+        "mom:286",
+        "mom:329",
+        "mom:330",
+        "mom:331",
+        "mom:99"
+      ]
     },
     "expendable_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:279:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:279:foil"
+      ]
     },
     "rare_mythic_black": {
       "total_weight": 26,
@@ -335,14 +425,32 @@
         "mom:96": 1,
         "mom:98": 1,
         "mom:99": 1
-      }
+      },
+      "cards_order": [
+        "mom:100",
+        "mom:101",
+        "mom:103",
+        "mom:106",
+        "mom:124",
+        "mom:279",
+        "mom:286",
+        "mom:329",
+        "mom:330",
+        "mom:331",
+        "mom:96",
+        "mom:98",
+        "mom:99"
+      ]
     },
     "expendable_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:279:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:279:foil"
+      ]
     },
     "overachiever_1": {
       "fixed": true,
@@ -361,14 +469,32 @@
         "mom:80": 1,
         "mom:81": 1,
         "mom:82": 1
-      }
+      },
+      "cards_order": [
+        "mom:278",
+        "mom:284",
+        "mom:326",
+        "mom:327",
+        "mom:328",
+        "mom:55",
+        "mom:56",
+        "mom:66",
+        "mom:71",
+        "mom:73",
+        "mom:80",
+        "mom:81",
+        "mom:82"
+      ]
     },
     "overachiever_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:278:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:278:foil"
+      ]
     },
     "rare_mythic_blue": {
       "total_weight": 26,
@@ -400,14 +526,32 @@
         "mom:82": 1,
         "mom:84": 1,
         "mom:85": 1
-      }
+      },
+      "cards_order": [
+        "mom:278",
+        "mom:284",
+        "mom:326",
+        "mom:327",
+        "mom:328",
+        "mom:48",
+        "mom:55",
+        "mom:56",
+        "mom:71",
+        "mom:81",
+        "mom:82",
+        "mom:84",
+        "mom:85"
+      ]
     },
     "overachiever_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:278:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:278:foil"
+      ]
     },
     "reinforcement_1": {
       "fixed": true,
@@ -426,14 +570,32 @@
         "mom:332": 1,
         "mom:333": 1,
         "mom:334": 1
-      }
+      },
+      "cards_order": [
+        "mom:136",
+        "mom:138",
+        "mom:142",
+        "mom:150",
+        "mom:158",
+        "mom:161",
+        "mom:166",
+        "mom:170",
+        "mom:280",
+        "mom:288",
+        "mom:332",
+        "mom:333",
+        "mom:334"
+      ]
     },
     "reinforcement_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:280:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:280:foil"
+      ]
     },
     "rare_mythic_red": {
       "total_weight": 28,
@@ -466,14 +628,32 @@
         "mom:332": 1,
         "mom:333": 1,
         "mom:334": 1
-      }
+      },
+      "cards_order": [
+        "mom:138",
+        "mom:142",
+        "mom:150",
+        "mom:154",
+        "mom:161",
+        "mom:164",
+        "mom:168",
+        "mom:170",
+        "mom:280",
+        "mom:288",
+        "mom:332",
+        "mom:333",
+        "mom:334"
+      ]
     },
     "reinforcement_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "mom:280:foil": 2
-      }
+      },
+      "cards_order": [
+        "mom:280:foil"
+      ]
     }
   },
   "source_set_codes": [

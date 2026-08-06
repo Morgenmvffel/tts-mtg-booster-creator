@@ -163,14 +163,32 @@
         "one:81": 1,
         "one:91": 1,
         "one:93": 1
-      }
+      },
+      "cards_order": [
+        "one:101",
+        "one:103",
+        "one:111",
+        "one:225",
+        "one:251",
+        "one:274",
+        "one:290",
+        "one:406",
+        "one:79",
+        "one:80",
+        "one:81",
+        "one:91",
+        "one:93"
+      ]
     },
     "corruption_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:274:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:274:foil"
+      ]
     },
     "rare_mythic_black": {
       "total_weight": 15,
@@ -203,14 +221,32 @@
         "one:87": 1,
         "one:97": 1,
         "one:99": 1
-      }
+      },
+      "cards_order": [
+        "one:101",
+        "one:102",
+        "one:110",
+        "one:111",
+        "one:116",
+        "one:251",
+        "one:274",
+        "one:290",
+        "one:406",
+        "one:83",
+        "one:87",
+        "one:97",
+        "one:99"
+      ]
     },
     "corruption_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:274:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:274:foil"
+      ]
     },
     "mite_y_1": {
       "fixed": true,
@@ -229,14 +265,32 @@
         "one:404": 1,
         "one:6": 1,
         "one:9": 1
-      }
+      },
+      "cards_order": [
+        "one:17",
+        "one:2",
+        "one:252",
+        "one:272",
+        "one:28",
+        "one:285",
+        "one:30",
+        "one:32",
+        "one:36",
+        "one:4",
+        "one:404",
+        "one:6",
+        "one:9"
+      ]
     },
     "mite_y_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:272:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:272:foil"
+      ]
     },
     "rare_mythic_white": {
       "total_weight": 15,
@@ -269,14 +323,32 @@
         "one:7": 1,
         "one:8": 1,
         "one:9": 1
-      }
+      },
+      "cards_order": [
+        "one:21",
+        "one:252",
+        "one:26",
+        "one:272",
+        "one:285",
+        "one:3",
+        "one:30",
+        "one:36",
+        "one:39",
+        "one:404",
+        "one:7",
+        "one:8",
+        "one:9"
+      ]
     },
     "mite_y_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:272:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:272:foil"
+      ]
     },
     "progress_1": {
       "fixed": true,
@@ -295,14 +367,32 @@
         "one:66": 1,
         "one:68": 1,
         "one:69": 1
-      }
+      },
+      "cards_order": [
+        "one:260",
+        "one:273",
+        "one:288",
+        "one:405",
+        "one:45",
+        "one:46",
+        "one:54",
+        "one:55",
+        "one:59",
+        "one:62",
+        "one:66",
+        "one:68",
+        "one:69"
+      ]
     },
     "progress_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:273:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:273:foil"
+      ]
     },
     "rare_mythic_blue": {
       "total_weight": 15,
@@ -335,14 +425,32 @@
         "one:49": 1,
         "one:62": 1,
         "one:74": 1
-      }
+      },
+      "cards_order": [
+        "one:235",
+        "one:243",
+        "one:260",
+        "one:273",
+        "one:288",
+        "one:405",
+        "one:41",
+        "one:44",
+        "one:45",
+        "one:46",
+        "one:49",
+        "one:62",
+        "one:74"
+      ]
     },
     "progress_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:273:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:273:foil"
+      ]
     },
     "rebellious_1": {
       "fixed": true,
@@ -361,14 +469,32 @@
         "one:275": 5,
         "one:291": 1,
         "one:407": 1
-      }
+      },
+      "cards_order": [
+        "one:121",
+        "one:126",
+        "one:131",
+        "one:133",
+        "one:136",
+        "one:144",
+        "one:146",
+        "one:155",
+        "one:156",
+        "one:247",
+        "one:275",
+        "one:291",
+        "one:407"
+      ]
     },
     "rebellious_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:275:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:275:foil"
+      ]
     },
     "rare_mythic_red": {
       "total_weight": 15,
@@ -401,14 +527,32 @@
         "one:275": 5,
         "one:291": 1,
         "one:407": 1
-      }
+      },
+      "cards_order": [
+        "one:121",
+        "one:122",
+        "one:123",
+        "one:136",
+        "one:137",
+        "one:141",
+        "one:143",
+        "one:156",
+        "one:239",
+        "one:247",
+        "one:275",
+        "one:291",
+        "one:407"
+      ]
     },
     "rebellious_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:275:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:275:foil"
+      ]
     },
     "toxic_1": {
       "fixed": true,
@@ -427,14 +571,32 @@
         "one:276": 5,
         "one:294": 1,
         "one:408": 1
-      }
+      },
+      "cards_order": [
+        "one:160",
+        "one:164",
+        "one:165",
+        "one:170",
+        "one:172",
+        "one:178",
+        "one:187",
+        "one:193",
+        "one:237",
+        "one:253",
+        "one:276",
+        "one:294",
+        "one:408"
+      ]
     },
     "toxic_1_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:276:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:276:foil"
+      ]
     },
     "rare_mythic_green": {
       "total_weight": 15,
@@ -467,14 +629,32 @@
         "one:276": 5,
         "one:294": 1,
         "one:408": 1
-      }
+      },
+      "cards_order": [
+        "one:160",
+        "one:164",
+        "one:173",
+        "one:174",
+        "one:178",
+        "one:181",
+        "one:182",
+        "one:190",
+        "one:194",
+        "one:253",
+        "one:276",
+        "one:294",
+        "one:408"
+      ]
     },
     "toxic_2_foils": {
       "fixed": true,
       "total_weight": 2,
       "cards": {
         "one:276:foil": 2
-      }
+      },
+      "cards_order": [
+        "one:276:foil"
+      ]
     }
   },
   "source_set_codes": [

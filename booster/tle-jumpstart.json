@@ -627,7 +627,24 @@
         "tle:74": 1,
         "tle:79": 1,
         "tle:80": 1
-      }
+      },
+      "cards_order": [
+        "tla:18",
+        "tla:24",
+        "tla:26",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:41",
+        "tla:8",
+        "tla:9",
+        "tle:152",
+        "tle:217",
+        "tle:262",
+        "tle:74",
+        "tle:79",
+        "tle:80"
+      ]
     },
     "adaptive": {
       "fixed": true,
@@ -648,7 +665,24 @@
         "tle:263": 1,
         "tle:90": 1,
         "tle:95": 1
-      }
+      },
+      "cards_order": [
+        "tla:21",
+        "tla:257",
+        "tla:283",
+        "tla:288",
+        "tla:46",
+        "tla:53",
+        "tla:59",
+        "tla:68",
+        "tla:74",
+        "tla:80",
+        "tle:159",
+        "tle:224",
+        "tle:263",
+        "tle:90",
+        "tle:95"
+      ]
     },
     "adept_1": {
       "fixed": true,
@@ -669,7 +703,24 @@
         "tle:263": 1,
         "tle:94": 1,
         "tle:97": 1
-      }
+      },
+      "cards_order": [
+        "tla:238",
+        "tla:283",
+        "tla:288",
+        "tla:47",
+        "tla:51",
+        "tla:53",
+        "tla:56",
+        "tla:59",
+        "tla:70",
+        "tla:80",
+        "tle:158",
+        "tle:226",
+        "tle:263",
+        "tle:94",
+        "tle:97"
+      ]
     },
     "adept_2": {
       "fixed": true,
@@ -690,7 +741,24 @@
         "tle:157": 1,
         "tle:263": 1,
         "tle:94": 1
-      }
+      },
+      "cards_order": [
+        "tla:238",
+        "tla:283",
+        "tla:288",
+        "tla:52",
+        "tla:56",
+        "tla:59",
+        "tla:62",
+        "tla:63",
+        "tla:66",
+        "tla:70",
+        "tla:74",
+        "tla:80",
+        "tle:157",
+        "tle:263",
+        "tle:94"
+      ]
     },
     "airbending": {
       "fixed": true,
@@ -711,7 +779,24 @@
         "tle:262": 1,
         "tle:80": 1,
         "tle:81": 1
-      }
+      },
+      "cards_order": [
+        "tla:21",
+        "tla:24",
+        "tla:25",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:32",
+        "tla:4",
+        "tla:6",
+        "tla:7",
+        "tla:8",
+        "tla:9",
+        "tle:262",
+        "tle:80",
+        "tle:81"
+      ]
     },
     "alliance_1": {
       "fixed": true,
@@ -732,7 +817,24 @@
         "tle:262": 1,
         "tle:76": 1,
         "tle:84": 1
-      }
+      },
+      "cards_order": [
+        "tla:19",
+        "tla:21",
+        "tla:229",
+        "tla:241",
+        "tla:243",
+        "tla:26",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:35",
+        "tle:216",
+        "tle:256",
+        "tle:262",
+        "tle:76",
+        "tle:84"
+      ]
     },
     "alliance_2": {
       "fixed": true,
@@ -753,7 +855,24 @@
         "tle:76": 1,
         "tle:77": 1,
         "tle:78": 1
-      }
+      },
+      "cards_order": [
+        "tla:19",
+        "tla:21",
+        "tla:241",
+        "tla:243",
+        "tla:26",
+        "tla:282",
+        "tla:287",
+        "tla:33",
+        "tla:35",
+        "tle:151",
+        "tle:256",
+        "tle:262",
+        "tle:76",
+        "tle:77",
+        "tle:78"
+      ]
     },
     "at_the_zoo": {
       "fixed": true,
@@ -774,7 +893,24 @@
         "tle:251": 1,
         "tle:255": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:171",
+        "tla:187",
+        "tla:188",
+        "tla:189",
+        "tla:194",
+        "tla:200",
+        "tla:286",
+        "tla:291",
+        "tle:128",
+        "tle:131",
+        "tle:138",
+        "tle:250",
+        "tle:251",
+        "tle:255",
+        "tle:261"
+      ]
     },
     "azula": {
       "fixed": true,
@@ -795,7 +931,24 @@
         "tle:161": 1,
         "tle:229": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:100",
+        "tla:108",
+        "tla:119",
+        "tla:284",
+        "tla:289",
+        "tla:84",
+        "tla:90",
+        "tla:92",
+        "tla:93",
+        "tla:96",
+        "tle:101",
+        "tle:102",
+        "tle:161",
+        "tle:229",
+        "tle:264"
+      ]
     },
     "bad_advice": {
       "fixed": true,
@@ -816,7 +969,24 @@
         "tle:229": 1,
         "tle:231": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:105",
+        "tla:113",
+        "tla:119",
+        "tla:224",
+        "tla:233",
+        "tla:284",
+        "tla:289",
+        "tla:92",
+        "tla:93",
+        "tla:95",
+        "tle:102",
+        "tle:108",
+        "tle:229",
+        "tle:231",
+        "tle:264"
+      ]
     },
     "bounty_hunter_1": {
       "fixed": true,
@@ -837,7 +1007,24 @@
         "tle:160": 1,
         "tle:233": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:106",
+        "tla:115",
+        "tla:119",
+        "tla:123",
+        "tla:237",
+        "tla:284",
+        "tla:289",
+        "tla:85",
+        "tla:86",
+        "tla:95",
+        "tle:107",
+        "tle:109",
+        "tle:160",
+        "tle:233",
+        "tle:264"
+      ]
     },
     "bounty_hunter_2": {
       "fixed": true,
@@ -858,7 +1045,24 @@
         "tle:109": 1,
         "tle:160": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:100",
+        "tla:106",
+        "tla:112",
+        "tla:115",
+        "tla:119",
+        "tla:237",
+        "tla:252",
+        "tla:284",
+        "tla:289",
+        "tla:85",
+        "tla:89",
+        "tla:95",
+        "tle:109",
+        "tle:160",
+        "tle:264"
+      ]
     },
     "bumi": {
       "fixed": true,
@@ -879,7 +1083,24 @@
         "tle:137": 1,
         "tle:146": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:166",
+        "tla:169",
+        "tla:176",
+        "tla:179",
+        "tla:187",
+        "tla:190",
+        "tla:193",
+        "tla:202",
+        "tla:286",
+        "tla:291",
+        "tle:133",
+        "tle:136",
+        "tle:137",
+        "tle:146",
+        "tle:261"
+      ]
     },
     "cabbages": {
       "fixed": true,
@@ -900,7 +1121,24 @@
         "tle:169": 1,
         "tle:252": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:180",
+        "tla:185",
+        "tla:193",
+        "tla:194",
+        "tla:201",
+        "tla:286",
+        "tla:291",
+        "tle:129",
+        "tle:132",
+        "tle:133",
+        "tle:134",
+        "tle:138",
+        "tle:169",
+        "tle:252",
+        "tle:261"
+      ]
     },
     "earthbending_1": {
       "fixed": true,
@@ -921,7 +1159,24 @@
         "tle:252": 1,
         "tle:259": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:173",
+        "tla:175",
+        "tla:176",
+        "tla:191",
+        "tla:193",
+        "tla:198",
+        "tla:200",
+        "tla:216",
+        "tla:277",
+        "tla:286",
+        "tla:291",
+        "tle:168",
+        "tle:252",
+        "tle:259",
+        "tle:261"
+      ]
     },
     "earthbending_2": {
       "fixed": true,
@@ -942,7 +1197,24 @@
         "tle:251": 1,
         "tle:259": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:166",
+        "tla:173",
+        "tla:176",
+        "tla:191",
+        "tla:193",
+        "tla:198",
+        "tla:216",
+        "tla:277",
+        "tla:286",
+        "tla:291",
+        "tle:142",
+        "tle:143",
+        "tle:251",
+        "tle:259",
+        "tle:261"
+      ]
     },
     "earth_kingdom_1": {
       "fixed": true,
@@ -963,7 +1235,24 @@
         "tle:253": 1,
         "tle:256": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:164",
+        "tla:180",
+        "tla:182",
+        "tla:198",
+        "tla:216",
+        "tla:243",
+        "tla:257",
+        "tla:286",
+        "tla:291",
+        "tle:149",
+        "tle:167",
+        "tle:252",
+        "tle:253",
+        "tle:256",
+        "tle:261"
+      ]
     },
     "earth_kingdom_2": {
       "fixed": true,
@@ -984,7 +1273,24 @@
         "tle:252": 1,
         "tle:256": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:164",
+        "tla:173",
+        "tla:181",
+        "tla:182",
+        "tla:187",
+        "tla:198",
+        "tla:202",
+        "tla:216",
+        "tla:243",
+        "tla:286",
+        "tla:291",
+        "tle:167",
+        "tle:252",
+        "tle:256",
+        "tle:261"
+      ]
     },
     "earth_rumble_1": {
       "fixed": true,
@@ -1005,7 +1311,24 @@
         "tle:252": 1,
         "tle:255": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:168",
+        "tla:174",
+        "tla:189",
+        "tla:190",
+        "tla:191",
+        "tla:198",
+        "tla:218",
+        "tla:248",
+        "tla:257",
+        "tla:286",
+        "tla:291",
+        "tle:141",
+        "tle:252",
+        "tle:255",
+        "tle:261"
+      ]
     },
     "earth_rumble_2": {
       "fixed": true,
@@ -1026,7 +1349,24 @@
         "tle:251": 1,
         "tle:255": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:164",
+        "tla:168",
+        "tla:172",
+        "tla:187",
+        "tla:190",
+        "tla:218",
+        "tla:248",
+        "tla:257",
+        "tla:286",
+        "tla:291",
+        "tle:132",
+        "tle:141",
+        "tle:251",
+        "tle:255",
+        "tle:261"
+      ]
     },
     "firebending_1": {
       "fixed": true,
@@ -1047,7 +1387,24 @@
         "tle:242": 1,
         "tle:243": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:130",
+        "tla:134",
+        "tla:136",
+        "tla:137",
+        "tla:138",
+        "tla:142",
+        "tla:146",
+        "tla:163",
+        "tla:285",
+        "tla:290",
+        "tle:124",
+        "tle:235",
+        "tle:242",
+        "tle:243",
+        "tle:260"
+      ]
     },
     "firebending_2": {
       "fixed": true,
@@ -1068,7 +1425,24 @@
         "tle:124": 1,
         "tle:242": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:128",
+        "tla:130",
+        "tla:133",
+        "tla:134",
+        "tla:138",
+        "tla:142",
+        "tla:152",
+        "tla:161",
+        "tla:163",
+        "tla:285",
+        "tla:290",
+        "tle:122",
+        "tle:124",
+        "tle:242",
+        "tle:260"
+      ]
     },
     "fire_nation": {
       "fixed": true,
@@ -1089,7 +1463,24 @@
         "tle:150": 1,
         "tle:166": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:130",
+        "tla:133",
+        "tla:138",
+        "tla:139",
+        "tla:140",
+        "tla:146",
+        "tla:147",
+        "tla:158",
+        "tla:285",
+        "tla:290",
+        "tle:120",
+        "tle:126",
+        "tle:150",
+        "tle:166",
+        "tle:260"
+      ]
     },
     "freedom_fighters": {
       "fixed": true,
@@ -1110,7 +1501,24 @@
         "tle:78": 1,
         "tle:82": 1,
         "tle:88": 1
-      }
+      },
+      "cards_order": [
+        "tla:25",
+        "tla:250",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:32",
+        "tle:147",
+        "tle:151",
+        "tle:154",
+        "tle:262",
+        "tle:76",
+        "tle:77",
+        "tle:78",
+        "tle:82",
+        "tle:88"
+      ]
     },
     "gliding_1": {
       "fixed": true,
@@ -1131,7 +1539,24 @@
         "tle:79": 1,
         "tle:80": 1,
         "tle:88": 1
-      }
+      },
+      "cards_order": [
+        "tla:22",
+        "tla:282",
+        "tla:287",
+        "tla:29",
+        "tla:31",
+        "tla:32",
+        "tla:4",
+        "tla:43",
+        "tla:8",
+        "tla:9",
+        "tle:262",
+        "tle:75",
+        "tle:79",
+        "tle:80",
+        "tle:88"
+      ]
     },
     "gliding_2": {
       "fixed": true,
@@ -1152,7 +1577,24 @@
         "tle:75": 1,
         "tle:77": 1,
         "tle:86": 1
-      }
+      },
+      "cards_order": [
+        "tla:21",
+        "tla:22",
+        "tla:25",
+        "tla:282",
+        "tla:287",
+        "tla:29",
+        "tla:31",
+        "tla:4",
+        "tla:41",
+        "tla:43",
+        "tla:9",
+        "tle:262",
+        "tle:75",
+        "tle:77",
+        "tle:86"
+      ]
     },
     "hei_bai_1": {
       "fixed": true,
@@ -1173,7 +1615,24 @@
         "tle:262": 1,
         "tle:80": 1,
         "tle:87": 1
-      }
+      },
+      "cards_order": [
+        "tla:225",
+        "tla:237",
+        "tla:24",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:32",
+        "tla:34",
+        "tla:37",
+        "tla:40",
+        "tle:146",
+        "tle:151",
+        "tle:262",
+        "tle:80",
+        "tle:87"
+      ]
     },
     "hei_bai_2": {
       "fixed": true,
@@ -1194,7 +1653,24 @@
         "tle:262": 1,
         "tle:84": 1,
         "tle:87": 1
-      }
+      },
+      "cards_order": [
+        "tla:14",
+        "tla:15",
+        "tla:225",
+        "tla:237",
+        "tla:25",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:32",
+        "tla:37",
+        "tle:146",
+        "tle:212",
+        "tle:262",
+        "tle:84",
+        "tle:87"
+      ]
     },
     "hunting_1": {
       "fixed": true,
@@ -1215,7 +1691,24 @@
         "tle:228": 1,
         "tle:233": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:101",
+        "tla:106",
+        "tla:116",
+        "tla:234",
+        "tla:284",
+        "tla:289",
+        "tla:86",
+        "tla:95",
+        "tla:96",
+        "tle:103",
+        "tle:148",
+        "tle:162",
+        "tle:228",
+        "tle:233",
+        "tle:264"
+      ]
     },
     "hunting_2": {
       "fixed": true,
@@ -1236,7 +1729,24 @@
         "tle:162": 1,
         "tle:231": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:101",
+        "tla:106",
+        "tla:116",
+        "tla:120",
+        "tla:234",
+        "tla:284",
+        "tla:289",
+        "tla:84",
+        "tla:86",
+        "tla:95",
+        "tle:110",
+        "tle:148",
+        "tle:162",
+        "tle:231",
+        "tle:264"
+      ]
     },
     "insurgent_1": {
       "fixed": true,
@@ -1257,7 +1767,24 @@
         "tle:262": 1,
         "tle:77": 1,
         "tle:86": 1
-      }
+      },
+      "cards_order": [
+        "tla:21",
+        "tla:24",
+        "tla:25",
+        "tla:26",
+        "tla:282",
+        "tla:287",
+        "tla:33",
+        "tla:4",
+        "tla:7",
+        "tla:9",
+        "tle:149",
+        "tle:217",
+        "tle:262",
+        "tle:77",
+        "tle:86"
+      ]
     },
     "insurgent_2": {
       "fixed": true,
@@ -1278,7 +1805,24 @@
         "tle:262": 1,
         "tle:77": 1,
         "tle:87": 1
-      }
+      },
+      "cards_order": [
+        "tla:21",
+        "tla:23",
+        "tla:241",
+        "tla:26",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:9",
+        "tle:149",
+        "tle:153",
+        "tle:216",
+        "tle:217",
+        "tle:262",
+        "tle:77",
+        "tle:87"
+      ]
     },
     "iroh": {
       "fixed": true,
@@ -1299,7 +1843,24 @@
         "tle:164": 1,
         "tle:165": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:124",
+        "tla:131",
+        "tla:138",
+        "tla:141",
+        "tla:142",
+        "tla:148",
+        "tla:155",
+        "tla:285",
+        "tla:290",
+        "tle:119",
+        "tle:150",
+        "tle:163",
+        "tle:164",
+        "tle:165",
+        "tle:260"
+      ]
     },
     "katara": {
       "fixed": true,
@@ -1320,7 +1881,24 @@
         "tle:226": 1,
         "tle:263": 1,
         "tle:93": 1
-      }
+      },
+      "cards_order": [
+        "tla:241",
+        "tla:283",
+        "tla:288",
+        "tla:52",
+        "tla:54",
+        "tla:58",
+        "tla:63",
+        "tla:66",
+        "tla:68",
+        "tla:71",
+        "tla:82",
+        "tle:157",
+        "tle:226",
+        "tle:263",
+        "tle:93"
+      ]
     },
     "kyoshi": {
       "fixed": true,
@@ -1341,7 +1919,24 @@
         "tle:140": 1,
         "tle:144": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:164",
+        "tla:170",
+        "tla:190",
+        "tla:193",
+        "tla:216",
+        "tla:243",
+        "tla:257",
+        "tla:286",
+        "tla:291",
+        "tle:130",
+        "tle:135",
+        "tle:138",
+        "tle:140",
+        "tle:144",
+        "tle:261"
+      ]
     },
     "learning_1": {
       "fixed": true,
@@ -1362,7 +1957,24 @@
         "tle:137": 1,
         "tle:146": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:187",
+        "tla:191",
+        "tla:193",
+        "tla:194",
+        "tla:196",
+        "tla:197",
+        "tla:202",
+        "tla:223",
+        "tla:286",
+        "tla:291",
+        "tla:3",
+        "tle:135",
+        "tle:137",
+        "tle:146",
+        "tle:261"
+      ]
     },
     "learning_2": {
       "fixed": true,
@@ -1383,7 +1995,24 @@
         "tle:141": 1,
         "tle:146": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:193",
+        "tla:194",
+        "tla:197",
+        "tla:199",
+        "tla:202",
+        "tla:236",
+        "tla:248",
+        "tla:286",
+        "tla:291",
+        "tla:3",
+        "tle:129",
+        "tle:135",
+        "tle:141",
+        "tle:146",
+        "tle:261"
+      ]
     },
     "lessons_1": {
       "fixed": true,
@@ -1404,7 +2033,24 @@
         "tle:148": 1,
         "tle:263": 1,
         "tle:91": 1
-      }
+      },
+      "cards_order": [
+        "tla:21",
+        "tla:236",
+        "tla:283",
+        "tla:288",
+        "tla:44",
+        "tla:46",
+        "tla:53",
+        "tla:54",
+        "tla:56",
+        "tla:58",
+        "tla:66",
+        "tle:100",
+        "tle:148",
+        "tle:263",
+        "tle:91"
+      ]
     },
     "lessons_2": {
       "fixed": true,
@@ -1425,7 +2071,24 @@
         "tle:148": 1,
         "tle:263": 1,
         "tle:91": 1
-      }
+      },
+      "cards_order": [
+        "tla:236",
+        "tla:283",
+        "tla:288",
+        "tla:44",
+        "tla:52",
+        "tla:54",
+        "tla:56",
+        "tla:62",
+        "tla:63",
+        "tla:66",
+        "tla:80",
+        "tle:100",
+        "tle:148",
+        "tle:263",
+        "tle:91"
+      ]
     },
     "librarian": {
       "fixed": true,
@@ -1446,7 +2109,24 @@
         "tle:263": 1,
         "tle:92": 1,
         "tle:98": 1
-      }
+      },
+      "cards_order": [
+        "tla:238",
+        "tla:283",
+        "tla:288",
+        "tla:3",
+        "tla:44",
+        "tla:53",
+        "tla:60",
+        "tla:66",
+        "tla:80",
+        "tle:155",
+        "tle:170",
+        "tle:224",
+        "tle:263",
+        "tle:92",
+        "tle:98"
+      ]
     },
     "musicians": {
       "fixed": true,
@@ -1468,7 +2148,25 @@
         "tle:122": 1,
         "tle:236": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:125",
+        "tla:126",
+        "tla:130",
+        "tla:148",
+        "tla:152",
+        "tla:158",
+        "tla:250",
+        "tla:278",
+        "tla:285",
+        "tla:290",
+        "tle:113",
+        "tle:116",
+        "tle:118",
+        "tle:122",
+        "tle:236",
+        "tle:260"
+      ]
     },
     "nightmares": {
       "fixed": true,
@@ -1489,7 +2187,24 @@
         "tle:103": 1,
         "tle:233": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:105",
+        "tla:107",
+        "tla:115",
+        "tla:118",
+        "tla:123",
+        "tla:225",
+        "tla:237",
+        "tla:284",
+        "tla:289",
+        "tla:85",
+        "tla:90",
+        "tla:95",
+        "tle:103",
+        "tle:233",
+        "tle:264"
+      ]
     },
     "ozai": {
       "fixed": true,
@@ -1510,7 +2225,24 @@
         "tle:111": 1,
         "tle:229": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:100",
+        "tla:103",
+        "tla:113",
+        "tla:252",
+        "tla:284",
+        "tla:289",
+        "tla:86",
+        "tla:89",
+        "tla:90",
+        "tla:92",
+        "tla:95",
+        "tle:104",
+        "tle:111",
+        "tle:229",
+        "tle:264"
+      ]
     },
     "powerful_1": {
       "fixed": true,
@@ -1531,7 +2263,24 @@
         "tle:115": 1,
         "tle:164": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:131",
+        "tla:135",
+        "tla:138",
+        "tla:141",
+        "tla:148",
+        "tla:152",
+        "tla:155",
+        "tla:157",
+        "tla:218",
+        "tla:248",
+        "tla:285",
+        "tla:290",
+        "tle:115",
+        "tle:164",
+        "tle:260"
+      ]
     },
     "powerful_2": {
       "fixed": true,
@@ -1552,7 +2301,24 @@
         "tle:241": 1,
         "tle:255": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:127",
+        "tla:135",
+        "tla:138",
+        "tla:140",
+        "tla:148",
+        "tla:155",
+        "tla:248",
+        "tla:285",
+        "tla:290",
+        "tle:115",
+        "tle:118",
+        "tle:164",
+        "tle:241",
+        "tle:255",
+        "tle:260"
+      ]
     },
     "rebelling_1": {
       "fixed": true,
@@ -1573,7 +2339,24 @@
         "tle:150": 1,
         "tle:236": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:125",
+        "tla:130",
+        "tla:133",
+        "tla:140",
+        "tla:156",
+        "tla:161",
+        "tla:229",
+        "tla:285",
+        "tla:290",
+        "tle:118",
+        "tle:120",
+        "tle:125",
+        "tle:150",
+        "tle:236",
+        "tle:260"
+      ]
     },
     "rebelling_2": {
       "fixed": true,
@@ -1594,7 +2377,24 @@
         "tle:236": 1,
         "tle:258": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:131",
+        "tla:140",
+        "tla:156",
+        "tla:229",
+        "tla:285",
+        "tla:290",
+        "tle:118",
+        "tle:120",
+        "tle:123",
+        "tle:125",
+        "tle:147",
+        "tle:150",
+        "tle:236",
+        "tle:258",
+        "tle:260"
+      ]
     },
     "reinforced_1": {
       "fixed": true,
@@ -1615,7 +2415,24 @@
         "tle:228": 1,
         "tle:257": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:104",
+        "tla:233",
+        "tla:284",
+        "tla:289",
+        "tla:84",
+        "tla:86",
+        "tla:88",
+        "tla:89",
+        "tla:93",
+        "tla:96",
+        "tle:106",
+        "tle:150",
+        "tle:228",
+        "tle:257",
+        "tle:264"
+      ]
     },
     "reinforced_2": {
       "fixed": true,
@@ -1636,7 +2453,24 @@
         "tle:228": 1,
         "tle:231": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:103",
+        "tla:104",
+        "tla:219",
+        "tla:233",
+        "tla:284",
+        "tla:289",
+        "tla:88",
+        "tla:93",
+        "tla:95",
+        "tla:97",
+        "tle:106",
+        "tle:150",
+        "tle:228",
+        "tle:231",
+        "tle:264"
+      ]
     },
     "relentless_1": {
       "fixed": true,
@@ -1657,7 +2491,24 @@
         "tle:229": 1,
         "tle:233": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:103",
+        "tla:110",
+        "tla:115",
+        "tla:119",
+        "tla:284",
+        "tla:289",
+        "tla:84",
+        "tla:85",
+        "tla:88",
+        "tla:90",
+        "tle:105",
+        "tle:110",
+        "tle:229",
+        "tle:233",
+        "tle:264"
+      ]
     },
     "relentless_2": {
       "fixed": true,
@@ -1678,7 +2529,24 @@
         "tle:105": 1,
         "tle:229": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:103",
+        "tla:105",
+        "tla:110",
+        "tla:252",
+        "tla:284",
+        "tla:289",
+        "tla:84",
+        "tla:85",
+        "tla:86",
+        "tla:89",
+        "tla:90",
+        "tla:95",
+        "tle:105",
+        "tle:229",
+        "tle:264"
+      ]
     },
     "roku": {
       "fixed": true,
@@ -1699,7 +2567,24 @@
         "tle:242": 1,
         "tle:243": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:124",
+        "tla:129",
+        "tla:136",
+        "tla:138",
+        "tla:142",
+        "tla:161",
+        "tla:281",
+        "tla:285",
+        "tla:290",
+        "tle:112",
+        "tle:115",
+        "tle:117",
+        "tle:242",
+        "tle:243",
+        "tle:260"
+      ]
     },
     "shrines": {
       "fixed": true,
@@ -1725,7 +2610,29 @@
         "tla:72": 1,
         "tle:139": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:1",
+        "tla:111",
+        "tla:129",
+        "tla:184",
+        "tla:190",
+        "tla:194",
+        "tla:202",
+        "tla:223",
+        "tla:254",
+        "tla:281",
+        "tla:282",
+        "tla:283",
+        "tla:284",
+        "tla:285",
+        "tla:286",
+        "tla:291",
+        "tla:36",
+        "tla:72",
+        "tle:139",
+        "tle:261"
+      ]
     },
     "siege_engines": {
       "fixed": true,
@@ -1746,7 +2653,24 @@
         "tla:98": 1,
         "tla:99": 1,
         "tle:264": 1
-      }
+      },
+      "cards_order": [
+        "tla:100",
+        "tla:103",
+        "tla:110",
+        "tla:121",
+        "tla:237",
+        "tla:256",
+        "tla:284",
+        "tla:289",
+        "tla:86",
+        "tla:89",
+        "tla:90",
+        "tla:95",
+        "tla:98",
+        "tla:99",
+        "tle:264"
+      ]
     },
     "soaring_1": {
       "fixed": true,
@@ -1767,7 +2691,24 @@
         "tle:223": 1,
         "tle:256": 1,
         "tle:263": 1
-      }
+      },
+      "cards_order": [
+        "tla:212",
+        "tla:234",
+        "tla:241",
+        "tla:283",
+        "tla:288",
+        "tla:46",
+        "tla:51",
+        "tla:53",
+        "tla:64",
+        "tla:71",
+        "tla:74",
+        "tla:82",
+        "tle:223",
+        "tle:256",
+        "tle:263"
+      ]
     },
     "soaring_2": {
       "fixed": true,
@@ -1788,7 +2729,24 @@
         "tle:159": 1,
         "tle:223": 1,
         "tle:263": 1
-      }
+      },
+      "cards_order": [
+        "tla:212",
+        "tla:234",
+        "tla:241",
+        "tla:283",
+        "tla:288",
+        "tla:45",
+        "tla:46",
+        "tla:53",
+        "tla:66",
+        "tla:74",
+        "tla:82",
+        "tla:83",
+        "tle:159",
+        "tle:223",
+        "tle:263"
+      ]
     },
     "sparky_sparky_1": {
       "fixed": true,
@@ -1809,7 +2767,24 @@
         "tla:290": 1,
         "tle:114": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:125",
+        "tla:127",
+        "tla:128",
+        "tla:134",
+        "tla:136",
+        "tla:140",
+        "tla:141",
+        "tla:150",
+        "tla:159",
+        "tla:163",
+        "tla:218",
+        "tla:285",
+        "tla:290",
+        "tle:114",
+        "tle:260"
+      ]
     },
     "sparky_sparky_2": {
       "fixed": true,
@@ -1830,7 +2805,24 @@
         "tle:123": 1,
         "tle:235": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:127",
+        "tla:128",
+        "tla:134",
+        "tla:138",
+        "tla:149",
+        "tla:150",
+        "tla:159",
+        "tla:161",
+        "tla:163",
+        "tla:285",
+        "tla:290",
+        "tle:114",
+        "tle:123",
+        "tle:235",
+        "tle:260"
+      ]
     },
     "spirit": {
       "fixed": true,
@@ -1851,7 +2843,24 @@
         "tle:263": 1,
         "tle:89": 1,
         "tle:92": 1
-      }
+      },
+      "cards_order": [
+        "tla:283",
+        "tla:288",
+        "tla:45",
+        "tla:50",
+        "tla:53",
+        "tla:58",
+        "tla:60",
+        "tla:66",
+        "tla:72",
+        "tle:158",
+        "tle:223",
+        "tle:224",
+        "tle:263",
+        "tle:89",
+        "tle:92"
+      ]
     },
     "swordmaster": {
       "fixed": true,
@@ -1872,7 +2881,24 @@
         "tle:77": 1,
         "tle:83": 1,
         "tle:84": 1
-      }
+      },
+      "cards_order": [
+        "tla:17",
+        "tla:21",
+        "tla:257",
+        "tla:258",
+        "tla:260",
+        "tla:28",
+        "tla:282",
+        "tla:287",
+        "tla:33",
+        "tle:153",
+        "tle:212",
+        "tle:262",
+        "tle:77",
+        "tle:83",
+        "tle:84"
+      ]
     },
     "toph": {
       "fixed": true,
@@ -1893,7 +2919,24 @@
         "tle:145": 1,
         "tle:251": 1,
         "tle:261": 1
-      }
+      },
+      "cards_order": [
+        "tla:166",
+        "tla:173",
+        "tla:187",
+        "tla:191",
+        "tla:193",
+        "tla:194",
+        "tla:216",
+        "tla:286",
+        "tla:291",
+        "tle:140",
+        "tle:142",
+        "tle:143",
+        "tle:145",
+        "tle:251",
+        "tle:261"
+      ]
     },
     "underwater": {
       "fixed": true,
@@ -1914,7 +2957,24 @@
         "tle:263": 1,
         "tle:96": 1,
         "tle:97": 1
-      }
+      },
+      "cards_order": [
+        "tla:281",
+        "tla:283",
+        "tla:288",
+        "tla:53",
+        "tla:55",
+        "tla:57",
+        "tla:66",
+        "tla:68",
+        "tla:70",
+        "tle:156",
+        "tle:223",
+        "tle:226",
+        "tle:263",
+        "tle:96",
+        "tle:97"
+      ]
     },
     "warriors": {
       "fixed": true,
@@ -1935,7 +2995,24 @@
         "tle:84": 1,
         "tle:85": 1,
         "tle:88": 1
-      }
+      },
+      "cards_order": [
+        "tla:24",
+        "tla:241",
+        "tla:257",
+        "tla:26",
+        "tla:282",
+        "tla:287",
+        "tla:31",
+        "tla:32",
+        "tla:38",
+        "tle:154",
+        "tle:216",
+        "tle:262",
+        "tle:84",
+        "tle:85",
+        "tle:88"
+      ]
     },
     "wise_1": {
       "fixed": true,
@@ -1956,7 +3033,24 @@
         "tle:226": 1,
         "tle:263": 1,
         "tle:99": 1
-      }
+      },
+      "cards_order": [
+        "tla:234",
+        "tla:283",
+        "tla:288",
+        "tla:51",
+        "tla:54",
+        "tla:59",
+        "tla:67",
+        "tla:68",
+        "tla:80",
+        "tle:100",
+        "tle:156",
+        "tle:157",
+        "tle:226",
+        "tle:263",
+        "tle:99"
+      ]
     },
     "wise_2": {
       "fixed": true,
@@ -1977,7 +3071,24 @@
         "tle:226": 1,
         "tle:263": 1,
         "tle:90": 1
-      }
+      },
+      "cards_order": [
+        "tla:234",
+        "tla:241",
+        "tla:283",
+        "tla:288",
+        "tla:58",
+        "tla:60",
+        "tla:67",
+        "tla:68",
+        "tla:71",
+        "tla:75",
+        "tle:100",
+        "tle:157",
+        "tle:226",
+        "tle:263",
+        "tle:90"
+      ]
     },
     "zuko": {
       "fixed": true,
@@ -1998,7 +3109,24 @@
         "tle:166": 1,
         "tle:235": 1,
         "tle:260": 1
-      }
+      },
+      "cards_order": [
+        "tla:133",
+        "tla:138",
+        "tla:146",
+        "tla:147",
+        "tla:148",
+        "tla:159",
+        "tla:161",
+        "tla:285",
+        "tla:290",
+        "tle:117",
+        "tle:121",
+        "tle:127",
+        "tle:166",
+        "tle:235",
+        "tle:260"
+      ]
     }
   },
   "source_set_codes": [

@@ -36,7 +36,14 @@
         "fic:480:foil": 1,
         "fic:481:foil": 1,
         "fic:482:foil": 1
-      }
+      },
+      "cards_order": [
+        "fic:478:foil",
+        "fic:479:foil",
+        "fic:480:foil",
+        "fic:481:foil",
+        "fic:482:foil"
+      ]
     },
     "chocobo_basic_b": {
       "fixed": true,
@@ -47,7 +54,14 @@
         "fic:480:foil": 1,
         "fic:481:foil": 1,
         "fic:482:foil": 1
-      }
+      },
+      "cards_order": [
+        "fic:478:foil",
+        "fic:479:foil",
+        "fic:480:foil",
+        "fic:481:foil",
+        "fic:482:foil"
+      ]
     },
     "borderless_chocobo": {
       "total_weight": 20,

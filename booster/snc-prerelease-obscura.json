@@ -42,7 +42,11 @@
       "cards": {
         "snc:221": 1,
         "snc:252": 1
-      }
+      },
+      "cards_order": [
+        "snc:221",
+        "snc:252"
+      ]
     },
     "land": {
       "total_weight": 2,

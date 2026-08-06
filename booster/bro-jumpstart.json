@@ -163,7 +163,22 @@
         "bro:288": 1,
         "bro:32": 1,
         "bro:41": 1
-      }
+      },
+      "cards_order": [
+        "bro:1",
+        "bro:11",
+        "bro:19",
+        "bro:2",
+        "bro:22",
+        "bro:23",
+        "bro:242",
+        "bro:268",
+        "bro:269",
+        "bro:27",
+        "bro:288",
+        "bro:32",
+        "bro:41"
+      ]
     },
     "infantry_1_foils": {
       "fixed": true,
@@ -171,7 +186,11 @@
       "cards": {
         "bro:268:foil": 1,
         "bro:269:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:268:foil",
+        "bro:269:foil"
+      ]
     },
     "rare_mythic_white": {
       "total_weight": 20,
@@ -207,7 +226,22 @@
         "bro:37": 1,
         "bro:41": 1,
         "bro:42": 1
-      }
+      },
+      "cards_order": [
+        "bro:1",
+        "bro:11",
+        "bro:19",
+        "bro:268",
+        "bro:269",
+        "bro:27",
+        "bro:288",
+        "bro:29",
+        "bro:3",
+        "bro:32",
+        "bro:37",
+        "bro:41",
+        "bro:42"
+      ]
     },
     "infantry_2_foils": {
       "fixed": true,
@@ -215,7 +249,11 @@
       "cards": {
         "bro:268:foil": 1,
         "bro:269:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:268:foil",
+        "bro:269:foil"
+      ]
     },
     "powerstones_1": {
       "fixed": true,
@@ -234,7 +272,22 @@
         "bro:72": 1,
         "bro:77": 1,
         "bro:80": 1
-      }
+      },
+      "cards_order": [
+        "bro:270",
+        "bro:271",
+        "bro:289",
+        "bro:55",
+        "bro:64",
+        "bro:65",
+        "bro:67",
+        "bro:68",
+        "bro:69",
+        "bro:71",
+        "bro:72",
+        "bro:77",
+        "bro:80"
+      ]
     },
     "powerstones_1_foils": {
       "fixed": true,
@@ -242,7 +295,11 @@
       "cards": {
         "bro:270:foil": 1,
         "bro:271:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:270:foil",
+        "bro:271:foil"
+      ]
     },
     "rare_mythic_blue": {
       "total_weight": 18,
@@ -277,7 +334,22 @@
         "bro:72": 1,
         "bro:77": 1,
         "bro:79": 1
-      }
+      },
+      "cards_order": [
+        "bro:270",
+        "bro:271",
+        "bro:289",
+        "bro:53",
+        "bro:55",
+        "bro:56",
+        "bro:58",
+        "bro:64",
+        "bro:68",
+        "bro:69",
+        "bro:72",
+        "bro:77",
+        "bro:79"
+      ]
     },
     "powerstones_2_foils": {
       "fixed": true,
@@ -285,7 +357,11 @@
       "cards": {
         "bro:270:foil": 1,
         "bro:271:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:270:foil",
+        "bro:271:foil"
+      ]
     },
     "titanic_1": {
       "fixed": true,
@@ -304,7 +380,22 @@
         "bro:276": 3,
         "bro:277": 3,
         "bro:292": 1
-      }
+      },
+      "cards_order": [
+        "bro:167",
+        "bro:172",
+        "bro:174",
+        "bro:182",
+        "bro:183",
+        "bro:189",
+        "bro:190",
+        "bro:198",
+        "bro:200",
+        "bro:204",
+        "bro:276",
+        "bro:277",
+        "bro:292"
+      ]
     },
     "titanic_1_foils": {
       "fixed": true,
@@ -312,7 +403,11 @@
       "cards": {
         "bro:276:foil": 1,
         "bro:277:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:276:foil",
+        "bro:277:foil"
+      ]
     },
     "rare_mythic_green": {
       "total_weight": 19,
@@ -347,7 +442,22 @@
         "bro:276": 3,
         "bro:277": 3,
         "bro:292": 1
-      }
+      },
+      "cards_order": [
+        "bro:168",
+        "bro:174",
+        "bro:176",
+        "bro:188",
+        "bro:189",
+        "bro:190",
+        "bro:191",
+        "bro:198",
+        "bro:200",
+        "bro:204",
+        "bro:276",
+        "bro:277",
+        "bro:292"
+      ]
     },
     "titanic_2_foils": {
       "fixed": true,
@@ -355,7 +465,11 @@
       "cards": {
         "bro:276:foil": 1,
         "bro:277:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:276:foil",
+        "bro:277:foil"
+      ]
     },
     "unearthed_1": {
       "fixed": true,
@@ -374,7 +488,22 @@
         "bro:273": 3,
         "bro:290": 1,
         "bro:85": 1
-      }
+      },
+      "cards_order": [
+        "bro:102",
+        "bro:103",
+        "bro:106",
+        "bro:109",
+        "bro:113",
+        "bro:115",
+        "bro:117",
+        "bro:118",
+        "bro:123",
+        "bro:272",
+        "bro:273",
+        "bro:290",
+        "bro:85"
+      ]
     },
     "unearthed_1_foils": {
       "fixed": true,
@@ -382,7 +511,11 @@
       "cards": {
         "bro:272:foil": 1,
         "bro:273:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:272:foil",
+        "bro:273:foil"
+      ]
     },
     "rare_mythic_black": {
       "total_weight": 22,
@@ -418,7 +551,22 @@
         "bro:272": 3,
         "bro:273": 3,
         "bro:290": 1
-      }
+      },
+      "cards_order": [
+        "bro:100",
+        "bro:101",
+        "bro:103",
+        "bro:110",
+        "bro:113",
+        "bro:115",
+        "bro:117",
+        "bro:119",
+        "bro:123",
+        "bro:124",
+        "bro:272",
+        "bro:273",
+        "bro:290"
+      ]
     },
     "unearthed_2_foils": {
       "fixed": true,
@@ -426,7 +574,11 @@
       "cards": {
         "bro:272:foil": 1,
         "bro:273:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:272:foil",
+        "bro:273:foil"
+      ]
     },
     "welded_1": {
       "fixed": true,
@@ -445,7 +597,22 @@
         "bro:274": 3,
         "bro:275": 3,
         "bro:291": 1
-      }
+      },
+      "cards_order": [
+        "bro:127",
+        "bro:134",
+        "bro:138",
+        "bro:140",
+        "bro:145",
+        "bro:155",
+        "bro:157",
+        "bro:159",
+        "bro:161",
+        "bro:164",
+        "bro:274",
+        "bro:275",
+        "bro:291"
+      ]
     },
     "welded_1_foils": {
       "fixed": true,
@@ -453,7 +620,11 @@
       "cards": {
         "bro:274:foil": 1,
         "bro:275:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:274:foil",
+        "bro:275:foil"
+      ]
     },
     "rare_mythic_red": {
       "total_weight": 18,
@@ -487,7 +658,22 @@
         "bro:274": 3,
         "bro:275": 3,
         "bro:291": 1
-      }
+      },
+      "cards_order": [
+        "bro:132",
+        "bro:138",
+        "bro:140",
+        "bro:143",
+        "bro:153",
+        "bro:155",
+        "bro:159",
+        "bro:161",
+        "bro:162",
+        "bro:164",
+        "bro:274",
+        "bro:275",
+        "bro:291"
+      ]
     },
     "welded_2_foils": {
       "fixed": true,
@@ -495,7 +681,11 @@
       "cards": {
         "bro:274:foil": 1,
         "bro:275:foil": 1
-      }
+      },
+      "cards_order": [
+        "bro:274:foil",
+        "bro:275:foil"
+      ]
     }
   },
   "source_set_codes": [

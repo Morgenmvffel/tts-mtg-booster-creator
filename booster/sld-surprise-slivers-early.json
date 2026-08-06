@@ -1,0 +1,47 @@
+{
+  "name": "SLD Surprise Slivers (early, pre-October 2022)",
+  "code": "sld-surprise-slivers-early",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "slivers": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "slivers"
+      ]
+    }
+  ],
+  "sheets": {
+    "slivers": {
+      "total_weight": 511,
+      "cards": {
+        "sld:617:foil": 59,
+        "sld:628:foil": 73,
+        "sld:634:foil": 11,
+        "sld:643:foil": 8,
+        "sld:646:foil": 83,
+        "sld:647:foil": 33,
+        "sld:649:foil": 23,
+        "sld:654:foil": 22,
+        "sld:657:foil": 129,
+        "sld:660:foil": 24,
+        "sld:661:foil": 9,
+        "sld:663:foil": 9,
+        "sld:664:foil": 27,
+        "sld:668:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

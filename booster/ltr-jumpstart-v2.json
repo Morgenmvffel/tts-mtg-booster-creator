@@ -143,7 +143,22 @@
         "ltr:35": 1,
         "ltr:8": 1,
         "ltr:824": 1
-      }
+      },
+      "cards_order": [
+        "ltr:1",
+        "ltr:10",
+        "ltr:14",
+        "ltr:16",
+        "ltr:237",
+        "ltr:262",
+        "ltr:263",
+        "ltr:29",
+        "ltr:30",
+        "ltr:32",
+        "ltr:35",
+        "ltr:8",
+        "ltr:824"
+      ]
     },
     "white_rare": {
       "total_weight": 15,
@@ -176,7 +191,22 @@
         "ltr:35": 1,
         "ltr:824": 1,
         "ltr:9": 1
-      }
+      },
+      "cards_order": [
+        "ltr:1",
+        "ltr:11",
+        "ltr:14",
+        "ltr:21",
+        "ltr:242",
+        "ltr:26",
+        "ltr:262",
+        "ltr:263",
+        "ltr:28",
+        "ltr:31",
+        "ltr:35",
+        "ltr:824",
+        "ltr:9"
+      ]
     },
     "elven_1": {
       "fixed": true,
@@ -195,7 +225,22 @@
         "ltr:270": 4,
         "ltr:271": 4,
         "ltr:828": 1
-      }
+      },
+      "cards_order": [
+        "ltr:156",
+        "ltr:157",
+        "ltr:162",
+        "ltr:163",
+        "ltr:168",
+        "ltr:171",
+        "ltr:175",
+        "ltr:188",
+        "ltr:189",
+        "ltr:243",
+        "ltr:270",
+        "ltr:271",
+        "ltr:828"
+      ]
     },
     "green_rare": {
       "total_weight": 15,
@@ -228,7 +273,22 @@
         "ltr:270": 4,
         "ltr:271": 4,
         "ltr:828": 1
-      }
+      },
+      "cards_order": [
+        "ltr:154",
+        "ltr:156",
+        "ltr:157",
+        "ltr:168",
+        "ltr:175",
+        "ltr:178",
+        "ltr:183",
+        "ltr:185",
+        "ltr:189",
+        "ltr:238",
+        "ltr:270",
+        "ltr:271",
+        "ltr:828"
+      ]
     },
     "riders_1": {
       "fixed": true,
@@ -247,7 +307,22 @@
         "ltr:268": 4,
         "ltr:269": 4,
         "ltr:827": 1
-      }
+      },
+      "cards_order": [
+        "ltr:121",
+        "ltr:123",
+        "ltr:125",
+        "ltr:131",
+        "ltr:141",
+        "ltr:142",
+        "ltr:144",
+        "ltr:145",
+        "ltr:146",
+        "ltr:148",
+        "ltr:268",
+        "ltr:269",
+        "ltr:827"
+      ]
     },
     "red_rare": {
       "total_weight": 15,
@@ -279,7 +354,22 @@
         "ltr:268": 4,
         "ltr:269": 4,
         "ltr:827": 1
-      }
+      },
+      "cards_order": [
+        "ltr:116",
+        "ltr:121",
+        "ltr:123",
+        "ltr:125",
+        "ltr:130",
+        "ltr:135",
+        "ltr:142",
+        "ltr:144",
+        "ltr:146",
+        "ltr:148",
+        "ltr:268",
+        "ltr:269",
+        "ltr:827"
+      ]
     },
     "orcish_1": {
       "fixed": true,
@@ -298,7 +388,22 @@
         "ltr:89": 1,
         "ltr:95": 1,
         "ltr:96": 1
-      }
+      },
+      "cards_order": [
+        "ltr:104",
+        "ltr:105",
+        "ltr:266",
+        "ltr:267",
+        "ltr:77",
+        "ltr:82",
+        "ltr:826",
+        "ltr:83",
+        "ltr:86",
+        "ltr:87",
+        "ltr:89",
+        "ltr:95",
+        "ltr:96"
+      ]
     },
     "black_rare": {
       "total_weight": 15,
@@ -331,7 +436,22 @@
         "ltr:96": 1,
         "ltr:97": 1,
         "ltr:99": 1
-      }
+      },
+      "cards_order": [
+        "ltr:113",
+        "ltr:266",
+        "ltr:267",
+        "ltr:82",
+        "ltr:826",
+        "ltr:83",
+        "ltr:86",
+        "ltr:87",
+        "ltr:92",
+        "ltr:94",
+        "ltr:96",
+        "ltr:97",
+        "ltr:99"
+      ]
     },
     "cunning_1": {
       "fixed": true,
@@ -350,7 +470,22 @@
         "ltr:62": 1,
         "ltr:64": 1,
         "ltr:825": 1
-      }
+      },
+      "cards_order": [
+        "ltr:264",
+        "ltr:265",
+        "ltr:39",
+        "ltr:40",
+        "ltr:41",
+        "ltr:45",
+        "ltr:51",
+        "ltr:55",
+        "ltr:56",
+        "ltr:59",
+        "ltr:62",
+        "ltr:64",
+        "ltr:825"
+      ]
     },
     "blue_rare": {
       "total_weight": 15,
@@ -383,7 +518,22 @@
         "ltr:60": 1,
         "ltr:64": 1,
         "ltr:825": 1
-      }
+      },
+      "cards_order": [
+        "ltr:244",
+        "ltr:264",
+        "ltr:265",
+        "ltr:41",
+        "ltr:42",
+        "ltr:45",
+        "ltr:49",
+        "ltr:55",
+        "ltr:57",
+        "ltr:59",
+        "ltr:60",
+        "ltr:64",
+        "ltr:825"
+      ]
     }
   },
   "source_set_codes": [
