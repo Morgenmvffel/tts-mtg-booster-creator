@@ -5,7 +5,7 @@
     <Panel alignment="middleLeft"/>
 </Defaults>
 
-<Panel id="MTGDeckLoaderAdvancedPanel" position="80 170 -10" rotation="180 180 0" width="300" height="300">
+<Panel id="MTGBoosterGeneratorAdvancedPanel88bc1c" position="80 170 -10" rotation="180 180 0" width="300" height="400">
     <Panel position="0 0 0">
         <Text>Card Back</Text>
         <InputField position = "18 0 0" onEndEdit="mtgdl__onCardBackInput" placeholder="Enter card back URL"></InputField>
@@ -28,10 +28,26 @@
         <Toggle position="-70 0 0" isOn="true" onValueChanged="mtgdl__onRandomBoostersPerPackInput" fontSize="10">Different Random Booster for Each Pack</Toggle>
     </Panel>
 
-    <Panel position="0 -160 0">
+    <Panel position="0 -150 0">
+        <Text fontSize="10">Seed Behavior</Text>
+    </Panel>
+
+    <Panel position="0 -167 0">
+        <Text fontSize="9">ON = fresh random packs. OFF = repeatable packs from manual seed.</Text>
+    </Panel>
+
+    <Panel position="0 -185 0">
+        <Toggle position="-70 0 0" isOn="true" onValueChanged="mtgdl__onUseRandomSeedInput" fontSize="10">Use Random Seed</Toggle>
+        <Text position="130 0 0" fontSize="10">Last Used Seed:</Text>
+        <Text id="MTGSeedLastValue" position="190 0 0" fontSize="10">n/a</Text>
+        <InputField id="MTGSeedInput" position="160 0 0" width="130" onEndEdit="mtgdl__onSeedInput" placeholder="Manual seed"></InputField>
+        <Button position="280 0 0" width="40" height="30" fontSize="13" onClick="onRandomizeSeedButton">Rnd</Button>
+    </Panel>
+
+    <Panel position="0 -225 0">
         <Text fontSize="10">Booster Filters (for Random)</Text>
     </Panel>
-    <Panel position="130 -200 0">
+    <Panel position="130 -265 0">
         <Toggle position="-200 0 0" isOn="true" onValueChanged="mtgdl__onFilterVintageInput" fontSize="9">Classic</Toggle>
         <Toggle position="-140 0 0" isOn="true" onValueChanged="mtgdl__onFilterCollectorInput" fontSize="9">Collector</Toggle>
         <Toggle position="-60 0 0" isOn="true" onValueChanged="mtgdl__onFilterPlayInput" fontSize="9">Play</Toggle>
@@ -39,7 +55,7 @@
         <Toggle position="60 0 0" isOn="false" onValueChanged="mtgdl__onFilterArenaInput" fontSize="9">Arena</Toggle>
         <Toggle position="120 0 0" isOn="false" onValueChanged="mtgdl__onFilterPrereleaseInput" fontSize="9">Prerelease</Toggle>
     </Panel>
-    <Panel position="130 -245 0">
+    <Panel position="130 -310 0">
         <Toggle position="-200 0 0" isOn="true" onValueChanged="mtgdl__onFilterJumpstartInput" fontSize="9">Jumpstart</Toggle>
         <Toggle position="-120 0 0" isOn="true" onValueChanged="mtgdl__onFilterDraftInput" fontSize="9">Draft</Toggle>
         <Toggle position="-50 0 0" isOn="false" onValueChanged="mtgdl__onFilterThemeInput" fontSize="9">Theme</Toggle>

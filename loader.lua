@@ -76,7 +76,7 @@ LANGUAGES = {
 }
 
 ------ UI IDs
-UI_ADVANCED_PANEL = "MTGDeckLoaderAdvancedPanel"
+UI_ADVANCED_PANEL = "MTGBoosterGeneratorAdvancedPanel88bc1c"
 UI_CARD_BACK_INPUT = "MTGDeckLoaderCardBackInput"
 UI_LANGUAGE_INPUT = "MTGDeckLoaderLanguageInput"
 UI_FORCE_LANGUAGE_TOGGLE = "MTGDeckLoaderForceLanguageToggleID"
@@ -95,6 +95,10 @@ spawnEverythingFaceDown = false
 filteredBoosters = nil  -- Will store filtered boosters for random selection, nil means all boosters
 randomBoostersPerPack = true  -- When true, each pack gets a random booster
 useRandomBoosterSelection = false  -- True when generation was started from the Random button
+useRandomSeed = true
+currentSeed = nil
+lastGenerationSeed = nil
+seedInput = ""
 
 -- Booster search/filter state
 boosterSearchFilter = ""  -- current search text for dropdown filter
@@ -158,6 +162,159 @@ end
 local function stringToBool(s)
     -- It is truly ridiculous that this needs to exist.
     return (string.lower(s) == "true")
+end
+
+local function notifyPlayer(color, msg, rgb)
+    local resolvedColor = nil
+
+    if type(color) == "string" and color ~= "" then
+        resolvedColor = color
+    elseif color ~= nil then
+        local success, extractedColor = pcall(function()
+            return color.color
+        end)
+
+        if success and type(extractedColor) == "string" and extractedColor ~= "" then
+            resolvedColor = extractedColor
+        end
+    end
+
+    if resolvedColor ~= nil then
+        local success
+        if rgb then
+            success = pcall(function()
+                printToColor(msg, resolvedColor, rgb)
+            end)
+        else
+            success = pcall(function()
+                printToColor(msg, resolvedColor)
+            end)
+        end
+
+        if success then
+            return
+        end
+    end
+
+    print(msg)
+end
+
+local function normalizeSeedValue(seedValue)
+    local value = seedValue
+
+    if type(value) == "string" then
+        value = trim(value)
+        if string.len(value) == 0 then
+            return nil, "Seed cannot be empty."
+        end
+
+        local numericValue = tonumber(value)
+        if numericValue then
+            value = numericValue
+        else
+            -- Deterministically hash text seeds to a valid randomseed integer.
+            local hash = 0
+            local HASH_MOD = 2147483647
+            for i = 1, string.len(value) do
+                hash = (hash * 131 + string.byte(value, i)) % HASH_MOD
+            end
+
+            if hash == 0 then
+                hash = 1
+            end
+
+            return hash
+        end
+    end
+
+    value = tonumber(value)
+    if not value then
+        return nil, "Seed must be text or a valid number."
+    end
+
+    value = math.floor(value)
+    if value < 0 then
+        value = math.abs(value)
+    end
+
+    -- LuaJIT truncates math.randomseed to 32 bits; clamp to 31-bit positive
+    -- range so large timestamps and manual large numbers don't collide.
+    local SEED_MAX = 2147483647
+    value = value % SEED_MAX
+    if value == 0 then value = 1 end
+
+    return value
+end
+
+local function getSeedText(seedValue)
+    if seedValue == nil then
+        return "n/a"
+    end
+
+    return tostring(seedValue)
+end
+
+local function refreshSeedUI()
+    pcall(function()
+        self.UI.setAttribute("MTGSeedLastValue", "text", getSeedText(lastGenerationSeed))
+        self.UI.setAttribute("MTGSeedInput", "text", seedInput)
+        self.UI.setAttribute("MTGSeedInput", "interactable", tostring(not useRandomSeed))
+    end)
+end
+
+local function setCurrentSeed(seedValue)
+    local normalizedSeed, err = normalizeSeedValue(seedValue)
+    if not normalizedSeed then
+        return false, err
+    end
+
+    -- Always display the normalized seed so the shown value matches what
+    -- was actually passed to math.randomseed (avoids overflow confusion).
+    seedInput = tostring(normalizedSeed)
+    currentSeed = normalizedSeed
+    math.randomseed(normalizedSeed)
+    refreshSeedUI()
+
+    return true
+end
+
+local function randomizeSeed()
+    local unixMsSeed = os.time() * 1000 + math.floor((Time.time % 1) * 1000)
+    local timeSeed = unixMsSeed
+    if timeSeed < 0 then
+        timeSeed = math.abs(timeSeed)
+    end
+
+    if currentSeed ~= nil and timeSeed == currentSeed then
+        timeSeed = timeSeed + 1
+    end
+
+    return setCurrentSeed(timeSeed)
+end
+
+local function prepareSeedForGeneration(playerColorForError)
+    if useRandomSeed then
+        local success, err = randomizeSeed()
+        if not success then
+            notifyPlayer(playerColorForError, "Failed to randomize seed: " .. tostring(err), { r = 1, g = 0, b = 0 })
+            return false
+        end
+    else
+        if currentSeed == nil then
+            local success, err = setCurrentSeed(os.time())
+            if not success then
+                notifyPlayer(playerColorForError, "Failed to initialize seed: " .. tostring(err), { r = 1, g = 0, b = 0 })
+                return false
+            end
+        else
+            math.randomseed(currentSeed)
+        end
+    end
+
+    lastGenerationSeed = currentSeed
+    refreshSeedUI()
+
+    return true
 end
 
 ------ CARD SPAWNING
@@ -1516,9 +1673,8 @@ local function buildDropdownPanel(filter)
 
     local optionsXml = ""
     for _, entry in ipairs(matches) do
-        local selectedStr = (entry.code == PackCode) and ' selected="true"' or ""
-        optionsXml = optionsXml .. string.format('<Option value="%s"%s>%s</Option>',
-            escapeXml(entry.code), selectedStr, escapeXml(entry.name))
+        optionsXml = optionsXml .. string.format('<Option value="%s">%s</Option>',
+            escapeXml(entry.code), escapeXml(entry.name))
     end
     if #matches == 0 then
         optionsXml = '<Option value="">No results found</Option>'
@@ -1537,7 +1693,23 @@ end
 
 local function buildDropdownFromIndex()
     baseXmlCache = self.UI.getXml()
-    self.UI.setXml(buildDropdownPanel("") .. baseXmlCache)
+    self.UI.setXml(buildDropdownPanel(boosterSearchFilter or "") .. baseXmlCache)
+end
+
+local function findFirstMatchingBooster(filter)
+    local lowerFilter = string.lower(filter or "")
+    if lowerFilter == "" then
+        return nil
+    end
+
+    for _, entry in ipairs(BoosterIndex or {}) do
+        if string.find(string.lower(entry.name), lowerFilter, 1, true) or
+           string.find(string.lower(entry.code), lowerFilter, 1, true) then
+            return entry
+        end
+    end
+
+    return nil
 end
 
 local function queryBoosterIndex()
@@ -1572,9 +1744,9 @@ end
 
 function onDropdownChanged(player, value, id)
     -- print("Dropdown changed. Received value:", value)
-    -- Map name (label) back to code
+    -- The option value is the code; keep a label fallback for compatibility.
     for _, entry in ipairs(BoosterIndex) do
-        if entry.name == value then
+        if entry.code == value or entry.name == value then
             PackCode = entry.code
             -- print("Resolved PackCode:", PackCode)
             return
@@ -1583,9 +1755,17 @@ function onDropdownChanged(player, value, id)
 end
 
 function mtgdl__onSearchInput(player, value)
-    boosterSearchFilter = value
-    if baseXmlCache == nil then return end
-    self.UI.setXml(buildDropdownPanel(value) .. baseXmlCache)
+    local nextFilter = value or ""
+    if nextFilter == boosterSearchFilter then
+        return
+    end
+
+    boosterSearchFilter = nextFilter
+
+    local match = findFirstMatchingBooster(nextFilter)
+    if match then
+        PackCode = match.code
+    end
 end
 
 ------ UI
@@ -1680,9 +1860,9 @@ local function drawUI()
     })
 
     if advanced then
-        self.UI.show("MTGDeckLoaderAdvancedPanel")
+        self.UI.show(UI_ADVANCED_PANEL)
     else
-        self.UI.hide("MTGDeckLoaderAdvancedPanel")
+        self.UI.hide(UI_ADVANCED_PANEL)
     end
 end
 
@@ -1715,6 +1895,10 @@ function onGeneratePackButton(_, pc, _)
         return
     end
 
+    if not prepareSeedForGeneration(pc) then
+        return
+    end
+
     useRandomBoosterSelection = false
     playerColor = pc
     startLuaCoroutine(self, "generatePacks")
@@ -1728,6 +1912,10 @@ function onRandomBoosterButton(_, pc, _)
 
     if not BoosterIndex or #BoosterIndex == 0 then
         printToColor("Booster index not yet loaded. Please wait.", pc)
+        return
+    end
+
+    if not prepareSeedForGeneration(pc) then
         return
     end
 
@@ -1790,6 +1978,60 @@ end
 function mtgdl__onRandomBoostersPerPackInput(_, value, _)
     randomBoostersPerPack = stringToBool(value)
     applyBoosterFilters()
+end
+
+function mtgdl__onUseRandomSeedInput(_, value, _)
+    useRandomSeed = stringToBool(value)
+    refreshSeedUI()
+end
+
+function mtgdl__onSeedInput(player, value, _)
+    if lock then
+        notifyPlayer(player, "Cannot change seed while pack generation is running.")
+        refreshSeedUI()
+        return
+    end
+
+    if useRandomSeed then
+        notifyPlayer(player, "Disable 'Use Random Seed' to enter a manual seed.")
+        refreshSeedUI()
+        return
+    end
+
+    seedInput = trim(value or "")
+    if string.len(seedInput) == 0 then
+        refreshSeedUI()
+        return
+    end
+
+    local success, err = setCurrentSeed(seedInput)
+    if not success then
+        notifyPlayer(player, "Invalid seed: " .. tostring(err), { r = 1, g = 0, b = 0 })
+        seedInput = tostring(currentSeed or "")
+        refreshSeedUI()
+        return
+    end
+
+    if tonumber(seedInput) then
+        notifyPlayer(player, "Seed set to " .. tostring(currentSeed))
+    else
+        notifyPlayer(player, "Seed set to '" .. seedInput .. "' (numeric: " .. tostring(currentSeed) .. ")")
+    end
+end
+
+function onRandomizeSeedButton(_, pc, _)
+    if lock then
+        notifyPlayer(pc, "Cannot change seed while pack generation is running.")
+        return
+    end
+
+    local success, err = randomizeSeed()
+    if not success then
+        notifyPlayer(pc, "Failed to randomize seed: " .. tostring(err), { r = 1, g = 0, b = 0 })
+        return
+    end
+
+    notifyPlayer(pc, "Seed randomized to " .. tostring(currentSeed))
 end
 
 function applyBoosterFilters()
@@ -1908,7 +2150,8 @@ function onLoad()
     Generate Packs to get your Boosters.
     ]])
 
-    math.randomseed(os.time())
+    setCurrentSeed(os.time())
     drawUI()
+    refreshSeedUI()
     queryBoosterIndex()
 end
