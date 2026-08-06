@@ -663,7 +663,8 @@ local function stripScryfallImageURI(uri)
         return ""
     end
 
-    return uri:match("(.*)%?") or ""
+    local stripped = uri:match("(.-)%?") or uri
+    return string.gsub(stripped, "^https?://", "")
 end
 
 local function pickImageURI(cardData, highres_image, image_status)
@@ -681,12 +682,12 @@ local function pickImageURI(cardData, highres_image, image_status)
         image_status = cardData.image_status
     end
 
-    local uri
-    if pngGraphics and cardData.image_uris.png then
-        uri = stripScryfallImageURI(cardData.image_uris.png)
-    else
-        uri = stripScryfallImageURI(cardData.image_uris.large)
+    local sourceURI = cardData.image_uris.normal
+    if not sourceURI or string.len(sourceURI) == 0 then
+        sourceURI = cardData.image_uris.large or cardData.image_uris.png
     end
+
+    local uri = "https://wsrv.nl/?url=" .. stripScryfallImageURI(sourceURI)
 
     local sep
     if uri:find("?") then
@@ -698,9 +699,9 @@ local function pickImageURI(cardData, highres_image, image_status)
     if blowCache then
         local cachebuster = string.gsub(tostring(Time.time), "%.", "-")
 
-        uri = uri .. sep .. "CACHEBUSTER_" .. cachebuster
+        uri = uri .. sep .. "cb=" .. cachebuster
     elseif (not highres_image) or image_status ~= "highres_scan" then
-        uri = uri .. sep .. "LOWRES_CACHEBUSTER"
+        uri = uri .. sep .. "lowres=1"
     end
 
     return uri
