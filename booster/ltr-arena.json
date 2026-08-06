@@ -16,14 +16,12 @@
   "boosters": [
     {
       "sheets": {
-        "basic": 1,
         "common": 10,
         "uncommon": 3,
         "rare_mythic": 1
       },
       "weight": 1,
       "sheet_order": [
-        "basic",
         "common",
         "uncommon",
         "rare_mythic"
@@ -31,31 +29,6 @@
     }
   ],
   "sheets": {
-    "basic": {
-      "total_weight": 20,
-      "cards": {
-        "ltr:262": 1,
-        "ltr:263": 1,
-        "ltr:264": 1,
-        "ltr:265": 1,
-        "ltr:266": 1,
-        "ltr:267": 1,
-        "ltr:268": 1,
-        "ltr:269": 1,
-        "ltr:270": 1,
-        "ltr:271": 1,
-        "ltr:272": 1,
-        "ltr:273": 1,
-        "ltr:274": 1,
-        "ltr:275": 1,
-        "ltr:276": 1,
-        "ltr:277": 1,
-        "ltr:278": 1,
-        "ltr:279": 1,
-        "ltr:280": 1,
-        "ltr:281": 1
-      }
-    },
     "common": {
       "balance_colors": true,
       "total_weight": 101,

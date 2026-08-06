@@ -16,7 +16,6 @@
   "boosters": [
     {
       "sheets": {
-        "basic": 1,
         "common": 9,
         "uncommon": 3,
         "enchanting_tales": 1,
@@ -24,7 +23,6 @@
       },
       "weight": 1,
       "sheet_order": [
-        "basic",
         "common",
         "uncommon",
         "enchanting_tales",
@@ -33,26 +31,6 @@
     }
   ],
   "sheets": {
-    "basic": {
-      "total_weight": 15,
-      "cards": {
-        "woe:262": 1,
-        "woe:263": 1,
-        "woe:264": 1,
-        "woe:265": 1,
-        "woe:266": 1,
-        "woe:267": 1,
-        "woe:268": 1,
-        "woe:269": 1,
-        "woe:270": 1,
-        "woe:271": 1,
-        "woe:272": 1,
-        "woe:273": 1,
-        "woe:274": 1,
-        "woe:275": 1,
-        "woe:276": 1
-      }
-    },
     "common": {
       "balance_colors": true,
       "total_weight": 101,
