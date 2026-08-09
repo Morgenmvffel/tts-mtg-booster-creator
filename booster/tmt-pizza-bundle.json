@@ -1,0 +1,41 @@
+{
+  "name": "Teenage Mutant Ninja Turtles Pizza Bundle promos",
+  "code": "tmt-pizza-bundle",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "tmt",
+  "set_name": "Teenage Mutant Ninja Turtles",
+  "boosters": [
+    {
+      "sheets": {
+        "pizza": 2
+      },
+      "weight": 1,
+      "sheet_order": [
+        "pizza"
+      ]
+    }
+  ],
+  "sheets": {
+    "pizza": {
+      "total_weight": 6,
+      "cards": {
+        "tmc:131:foil": 1,
+        "tmc:132:foil": 1,
+        "tmc:133:foil": 1,
+        "tmc:134:foil": 1,
+        "tmc:135:foil": 1,
+        "tmc:136:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "tmc"
+  ]
+}

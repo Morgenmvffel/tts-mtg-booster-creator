@@ -1,0 +1,52 @@
+{
+  "name": "The Brothers' War Gift Bundle Transformers card",
+  "code": "bro-gift-bundle-transformers",
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
+  "set_code": "bro",
+  "set_name": "The Brothers' War",
+  "boosters": [
+    {
+      "sheets": {
+        "transformers": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "transformers"
+      ]
+    }
+  ],
+  "sheets": {
+    "transformers": {
+      "total_weight": 15,
+      "cards": {
+        "bot:10a:foil": 1,
+        "bot:11a:foil": 1,
+        "bot:12a:foil": 1,
+        "bot:13a:foil": 1,
+        "bot:14a:foil": 1,
+        "bot:15a:foil": 1,
+        "bot:1a:foil": 1,
+        "bot:2a:foil": 1,
+        "bot:3a:foil": 1,
+        "bot:4a:foil": 1,
+        "bot:5a:foil": 1,
+        "bot:6a:foil": 1,
+        "bot:7a:foil": 1,
+        "bot:8a:foil": 1,
+        "bot:9a:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "bot"
+  ]
+}

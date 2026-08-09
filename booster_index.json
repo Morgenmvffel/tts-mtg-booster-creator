@@ -68,6 +68,10 @@
     "code": "tmt-collector"
   },
   {
+    "name": "Teenage Mutant Ninja Turtles Pizza Bundle promos",
+    "code": "tmt-pizza-bundle"
+  },
+  {
     "name": "Teenage Mutant Ninja Turtles Play Booster",
     "code": "tmt-play"
   },
@@ -698,6 +702,10 @@
   {
     "name": "The Brothers' War Draft Booster",
     "code": "bro-draft"
+  },
+  {
+    "name": "The Brothers' War Gift Bundle Transformers card",
+    "code": "bro-gift-bundle-transformers"
   },
   {
     "name": "The Brothers' War Jumpstart Booster",
