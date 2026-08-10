@@ -1,0 +1,70 @@
+{
+  "name": "The Hobbit Box Topper",
+  "code": "hob-box-topper",
+  "languages": [
+    "en"
+  ],
+  "set_code": "hob",
+  "set_name": "The Hobbit",
+  "boosters": [
+    {
+      "sheets": {
+        "box_topper": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "box_topper"
+      ]
+    }
+  ],
+  "sheets": {
+    "box_topper": {
+      "total_weight": 40,
+      "cards": {
+        "hoc:13:foil": 1,
+        "hoc:14:foil": 1,
+        "hoc:15:foil": 1,
+        "hoc:16:foil": 1,
+        "hoc:17:foil": 1,
+        "hoc:18:foil": 1,
+        "hoc:19:foil": 1,
+        "hoc:20:foil": 1,
+        "hoc:21:foil": 1,
+        "hoc:22:foil": 1,
+        "hoc:23:foil": 1,
+        "hoc:24:foil": 1,
+        "hoc:25:foil": 1,
+        "hoc:26:foil": 1,
+        "hoc:27:foil": 1,
+        "hoc:28:foil": 1,
+        "hoc:29:foil": 1,
+        "hoc:30:foil": 1,
+        "hoc:31:foil": 1,
+        "hoc:32:foil": 1,
+        "hoc:33:foil": 1,
+        "hoc:34:foil": 1,
+        "hoc:35:foil": 1,
+        "hoc:36:foil": 1,
+        "hoc:37:foil": 1,
+        "hoc:38:foil": 1,
+        "hoc:39:foil": 1,
+        "hoc:40:foil": 1,
+        "hoc:41:foil": 1,
+        "hoc:42:foil": 1,
+        "hoc:43:foil": 1,
+        "hoc:44:foil": 1,
+        "hoc:45:foil": 1,
+        "hoc:46:foil": 1,
+        "hoc:47:foil": 1,
+        "hoc:48:foil": 1,
+        "hoc:49:foil": 1,
+        "hoc:50:foil": 1,
+        "hoc:51:foil": 1,
+        "hoc:52:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "hoc"
+  ]
+}
