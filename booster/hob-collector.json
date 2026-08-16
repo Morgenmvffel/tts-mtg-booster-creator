@@ -2,7 +2,12 @@
   "name": "The Hobbit Collector Booster",
   "code": "hob-collector",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "hob",
   "set_name": "The Hobbit",

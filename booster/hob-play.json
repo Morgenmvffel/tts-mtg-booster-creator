@@ -2,7 +2,12 @@
   "name": "The Hobbit Play Booster",
   "code": "hob-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "hob",
   "set_name": "The Hobbit",
