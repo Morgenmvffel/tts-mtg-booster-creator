@@ -28,7 +28,7 @@
         "surge_booster_fun_u": 1,
         "hildebrant_poster_rm": 1
       },
-      "weight": 500,
+      "weight": 250,
       "sheet_order": [
         "showcase_common",
         "silver_showcase_common",
@@ -57,7 +57,7 @@
         "surge_booster_fun_u": 1,
         "foil_hildebrant_poster_rm": 1
       },
-      "weight": 499,
+      "weight": 249,
       "sheet_order": [
         "showcase_common",
         "silver_showcase_common",
@@ -115,7 +115,7 @@
         "surge_booster_fun_rm": 1,
         "hildebrant_u": 1
       },
-      "weight": 500,
+      "weight": 249,
       "sheet_order": [
         "showcase_common",
         "silver_showcase_common",
@@ -144,7 +144,7 @@
         "surge_booster_fun_rm": 1,
         "silver_hildebrant_u": 1
       },
-      "weight": 498,
+      "weight": 249,
       "sheet_order": [
         "showcase_common",
         "silver_showcase_common",
@@ -1159,7 +1159,7 @@
       }
     },
     "surge_booster_fun_rm": {
-      "total_weight": 108,
+      "total_weight": 119,
       "cards": {
         "ltc:378:foil": 1,
         "ltc:379:foil": 1,
@@ -1215,6 +1215,12 @@
         "ltc:556:foil": 2,
         "ltc:557:foil": 2,
         "ltc:558:foil": 2,
+        "ltr:751:foil": 2,
+        "ltr:752:foil": 2,
+        "ltr:753:foil": 2,
+        "ltr:754:foil": 1,
+        "ltr:755:foil": 2,
+        "ltr:756:foil": 2,
         "ltr:794:foil": 2,
         "ltr:796:foil": 2,
         "ltr:797:foil": 1,
