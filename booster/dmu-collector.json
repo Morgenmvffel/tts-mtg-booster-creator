@@ -885,31 +885,31 @@
     "etched_retold_uncommon": {
       "total_weight": 5,
       "cards": {
-        "dmc:53:foil": 1,
-        "dmc:55:foil": 1,
-        "dmc:60:foil": 1,
-        "dmc:67:foil": 1,
-        "dmc:68:foil": 1
+        "dmc:53:etched": 1,
+        "dmc:55:etched": 1,
+        "dmc:60:etched": 1,
+        "dmc:67:etched": 1,
+        "dmc:68:etched": 1
       }
     },
     "etched_retold_rare_mythic": {
       "total_weight": 25,
       "cards": {
-        "dmc:51:foil": 2,
-        "dmc:52:foil": 2,
-        "dmc:54:foil": 2,
-        "dmc:56:foil": 1,
-        "dmc:57:foil": 1,
-        "dmc:58:foil": 2,
-        "dmc:59:foil": 2,
-        "dmc:61:foil": 2,
-        "dmc:62:foil": 2,
-        "dmc:63:foil": 2,
-        "dmc:64:foil": 2,
-        "dmc:65:foil": 1,
-        "dmc:66:foil": 1,
-        "dmc:69:foil": 1,
-        "dmc:70:foil": 2
+        "dmc:51:etched": 2,
+        "dmc:52:etched": 2,
+        "dmc:54:etched": 2,
+        "dmc:56:etched": 1,
+        "dmc:57:etched": 1,
+        "dmc:58:etched": 2,
+        "dmc:59:etched": 2,
+        "dmc:61:etched": 2,
+        "dmc:62:etched": 2,
+        "dmc:63:etched": 2,
+        "dmc:64:etched": 2,
+        "dmc:65:etched": 1,
+        "dmc:66:etched": 1,
+        "dmc:69:etched": 1,
+        "dmc:70:etched": 2
       }
     },
     "lost_legends": {

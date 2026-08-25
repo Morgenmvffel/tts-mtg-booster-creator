@@ -819,15 +819,15 @@
     "etched_rare_mythic_showcase": {
       "total_weight": 13,
       "cards": {
-        "snc:441:foil": 1,
-        "snc:442:foil": 2,
-        "snc:443:foil": 1,
-        "snc:444:foil": 2,
-        "snc:445:foil": 2,
-        "snc:446:foil": 1,
-        "snc:447:foil": 1,
-        "snc:448:foil": 1,
-        "snc:449:foil": 2
+        "snc:441:etched": 1,
+        "snc:442:etched": 2,
+        "snc:443:etched": 1,
+        "snc:444:etched": 2,
+        "snc:445:etched": 2,
+        "snc:446:etched": 1,
+        "snc:447:etched": 1,
+        "snc:448:etched": 1,
+        "snc:449:etched": 2
       }
     },
     "gilded_rare_mythic_showcase": {

@@ -913,18 +913,18 @@
     "etched_rare_mythic": {
       "total_weight": 15,
       "cards": {
-        "neo:417:foil": 2,
-        "neo:418:foil": 1,
-        "neo:419:foil": 1,
-        "neo:420:foil": 1,
-        "neo:421:foil": 1,
-        "neo:422:foil": 1,
-        "neo:423:foil": 1,
-        "neo:424:foil": 1,
-        "neo:425:foil": 2,
-        "neo:426:foil": 2,
-        "neo:427:foil": 1,
-        "neo:428:foil": 1
+        "neo:417:etched": 2,
+        "neo:418:etched": 1,
+        "neo:419:etched": 1,
+        "neo:420:etched": 1,
+        "neo:421:etched": 1,
+        "neo:422:etched": 1,
+        "neo:423:etched": 1,
+        "neo:424:etched": 1,
+        "neo:425:etched": 2,
+        "neo:426:etched": 2,
+        "neo:427:etched": 1,
+        "neo:428:etched": 1
       }
     },
     "neon_ink": {
