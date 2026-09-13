@@ -1,0 +1,57 @@
+{
+  "name": "The Lost Caverns of Ixalan Gift Bundle Jurassic World Foil Card",
+  "code": "lci-bundle-promo-foil",
+  "languages": [
+    "cs",
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "pt",
+    "sp"
+  ],
+  "set_code": "lci",
+  "set_name": "The Lost Caverns of Ixalan",
+  "boosters": [
+    {
+      "sheets": {
+        "jurassic_world": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "jurassic_world"
+      ]
+    }
+  ],
+  "sheets": {
+    "jurassic_world": {
+      "total_weight": 20,
+      "cards": {
+        "rex:10:foil": 1,
+        "rex:11:foil": 1,
+        "rex:12:foil": 1,
+        "rex:13:foil": 1,
+        "rex:14:foil": 1,
+        "rex:15:foil": 1,
+        "rex:16:foil": 1,
+        "rex:17:foil": 1,
+        "rex:18:foil": 1,
+        "rex:19:foil": 1,
+        "rex:1:foil": 1,
+        "rex:20:foil": 1,
+        "rex:2:foil": 1,
+        "rex:3:foil": 1,
+        "rex:4:foil": 1,
+        "rex:5:foil": 1,
+        "rex:6:foil": 1,
+        "rex:7a:foil": 1,
+        "rex:8:foil": 1,
+        "rex:9:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "rex"
+  ]
+}

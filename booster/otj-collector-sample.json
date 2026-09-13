@@ -195,8 +195,12 @@
       }
     },
     "foil_rare_mythic_showcase": {
-      "total_weight": 216,
+      "total_weight": 220,
       "cards": {
+        "otc:1:foil": 1,
+        "otc:2:foil": 1,
+        "otc:3:foil": 1,
+        "otc:4:foil": 1,
         "otj:287:foil": 1,
         "otj:288:foil": 1,
         "otj:289:foil": 2,
@@ -327,6 +331,7 @@
     }
   },
   "source_set_codes": [
+    "otc",
     "otj",
     "otp"
   ]

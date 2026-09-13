@@ -1,0 +1,103 @@
+{
+  "name": "The Hobbit Prerelease Promo Pack",
+  "code": "hob-prerelease",
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "hob",
+  "set_name": "The Hobbit",
+  "boosters": [
+    {
+      "sheets": {
+        "promo": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "promo"
+      ]
+    }
+  ],
+  "sheets": {
+    "promo": {
+      "total_weight": 121,
+      "cards": {
+        "hob:103:foil": 2,
+        "hob:104:foil": 2,
+        "hob:110:foil": 1,
+        "hob:113:foil": 2,
+        "hob:114:foil": 1,
+        "hob:117:foil": 2,
+        "hob:119:foil": 1,
+        "hob:122:foil": 2,
+        "hob:123:foil": 1,
+        "hob:124:foil": 2,
+        "hob:126:foil": 2,
+        "hob:12:foil": 2,
+        "hob:131:foil": 2,
+        "hob:134:foil": 2,
+        "hob:136:foil": 2,
+        "hob:137:foil": 2,
+        "hob:144:foil": 1,
+        "hob:146:foil": 2,
+        "hob:149:foil": 2,
+        "hob:14:foil": 2,
+        "hob:151:foil": 2,
+        "hob:152:foil": 2,
+        "hob:154:foil": 2,
+        "hob:158:foil": 2,
+        "hob:15:foil": 1,
+        "hob:164:foil": 2,
+        "hob:167:foil": 2,
+        "hob:168:foil": 2,
+        "hob:169:foil": 2,
+        "hob:170a:foil": 1,
+        "hob:174a:foil": 2,
+        "hob:176a:foil": 2,
+        "hob:177:foil": 1,
+        "hob:178:foil": 2,
+        "hob:17:foil": 2,
+        "hob:181:foil": 2,
+        "hob:187:foil": 2,
+        "hob:24:foil": 1,
+        "hob:25:foil": 2,
+        "hob:26:foil": 2,
+        "hob:29a:foil": 2,
+        "hob:33:foil": 1,
+        "hob:36:foil": 1,
+        "hob:40:foil": 1,
+        "hob:42:foil": 2,
+        "hob:46:foil": 2,
+        "hob:49a:foil": 2,
+        "hob:4:foil": 2,
+        "hob:53:foil": 2,
+        "hob:54:foil": 2,
+        "hob:57:foil": 2,
+        "hob:59:foil": 2,
+        "hob:5:foil": 2,
+        "hob:60:foil": 2,
+        "hob:61:foil": 2,
+        "hob:70:foil": 1,
+        "hob:75:foil": 2,
+        "hob:76:foil": 1,
+        "hob:77:foil": 2,
+        "hob:82:foil": 2,
+        "hob:83:foil": 2,
+        "hob:86:foil": 2,
+        "hob:87:foil": 2,
+        "hob:91:foil": 2,
+        "hob:92:foil": 2,
+        "hob:93:foil": 2,
+        "hob:96a:foil": 1,
+        "hob:98:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "hob"
+  ]
+}

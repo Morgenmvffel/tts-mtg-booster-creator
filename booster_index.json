@@ -16,6 +16,10 @@
     "code": "hob-play"
   },
   {
+    "name": "The Hobbit Prerelease Promo Pack",
+    "code": "hob-prerelease"
+  },
+  {
     "name": "Marvel Super Heroes Collector Booster",
     "code": "msh-collector"
   },
@@ -482,6 +486,14 @@
   {
     "name": "The Lost Caverns of Ixalan Foil Box Topper",
     "code": "lci-box-topper-foil"
+  },
+  {
+    "name": "The Lost Caverns of Ixalan Bundle Jurassic World Card",
+    "code": "lci-bundle-promo"
+  },
+  {
+    "name": "The Lost Caverns of Ixalan Gift Bundle Jurassic World Foil Card",
+    "code": "lci-bundle-promo-foil"
   },
   {
     "name": "The Lost Caverns of Ixalan Collector Booster",

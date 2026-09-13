@@ -1,8 +1,8 @@
 {
-  "name": "The Lost Caverns of Ixalan Bundle Promo Card",
+  "name": "The Lost Caverns of Ixalan Bundle Jurassic World Card",
   "code": "lci-bundle-promo",
   "languages": [
-    "cn",
+    "cs",
     "de",
     "en",
     "fr",
@@ -16,17 +16,17 @@
   "boosters": [
     {
       "sheets": {
-        "bundle_promo": 1
+        "jurassic_world": 1
       },
       "weight": 1,
       "sheet_order": [
-        "bundle_promo"
+        "jurassic_world"
       ]
     }
   ],
   "sheets": {
-    "bundle_promo": {
-      "total_weight": 21,
+    "jurassic_world": {
+      "total_weight": 20,
       "cards": {
         "rex:1": 1,
         "rex:10": 1,
@@ -41,7 +41,6 @@
         "rex:19": 1,
         "rex:2": 1,
         "rex:20": 1,
-        "rex:26a": 1,
         "rex:3": 1,
         "rex:4": 1,
         "rex:5": 1,
