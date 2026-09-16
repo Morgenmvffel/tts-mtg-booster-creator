@@ -272,7 +272,7 @@
       }
     },
     "common_uncommon_showcase": {
-      "total_weight": 42,
+      "total_weight": 44,
       "cards": {
         "mkm:288": 2,
         "mkm:289": 1,
@@ -292,6 +292,7 @@
         "mkm:306": 2,
         "mkm:307": 1,
         "mkm:310": 2,
+        "mkm:310\u2020": 2,
         "mkm:311": 1,
         "mkm:312": 1,
         "mkm:313": 1,
@@ -308,7 +309,7 @@
       }
     },
     "foil_common_uncommon_showcase": {
-      "total_weight": 42,
+      "total_weight": 44,
       "cards": {
         "mkm:288:foil": 2,
         "mkm:289:foil": 1,
@@ -328,6 +329,7 @@
         "mkm:306:foil": 2,
         "mkm:307:foil": 1,
         "mkm:310:foil": 2,
+        "mkm:310\u2020:foil": 2,
         "mkm:311:foil": 1,
         "mkm:312:foil": 1,
         "mkm:313:foil": 1,
