@@ -698,7 +698,7 @@
       }
     },
     "foil_boosterfun": {
-      "total_weight": 3810000,
+      "total_weight": 3930000,
       "cards": {
         "soa:131:foil": 5999,
         "soa:132:foil": 11998,
@@ -764,7 +764,7 @@
         "sos:303:foil": 47992,
         "sos:304:foil": 47992,
         "sos:305:foil": 47992,
-        "sos:306a:foil": 635,
+        "sos:306a:foil": 655,
         "sos:307:foil": 47992,
         "sos:308:foil": 47992,
         "sos:309a:foil": 23996,
@@ -821,16 +821,16 @@
         "sos:360:foil": 47992,
         "sos:361:foil": 47992,
         "sos:362:foil": 47992,
-        "spg:149:foil": 5999,
-        "spg:150:foil": 5999,
-        "spg:151:foil": 5999,
-        "spg:152:foil": 5999,
-        "spg:153:foil": 5999,
-        "spg:154:foil": 5999,
-        "spg:155:foil": 5999,
-        "spg:156:foil": 5999,
-        "spg:157:foil": 5999,
-        "spg:158:foil": 5999
+        "spg:149:foil": 17997,
+        "spg:150:foil": 17997,
+        "spg:151:foil": 17997,
+        "spg:152:foil": 17997,
+        "spg:153:foil": 17997,
+        "spg:154:foil": 17997,
+        "spg:155:foil": 17997,
+        "spg:156:foil": 17997,
+        "spg:157:foil": 17997,
+        "spg:158:foil": 17997
       }
     },
     "foil_r_m_mystical_archive": {

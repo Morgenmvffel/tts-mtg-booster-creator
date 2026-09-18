@@ -28,7 +28,7 @@
         "transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 2189,
+      "weight": 26865,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -57,7 +57,7 @@
         "transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 11,
+      "weight": 135,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -83,10 +83,68 @@
         "brr_retro_artifact_uncommon": 1,
         "brr_schematic_rare_mythic": 1,
         "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "shattered_glass": 1,
+        "foil_alt_art": 1
+      },
+      "weight": 4577,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "shattered_glass",
+        "foil_alt_art"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_retro_artifact_uncommon": 1,
+        "brr_schematic_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "shattered_glass": 1,
+        "double_rainbow_serialized": 1
+      },
+      "weight": 23,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "shattered_glass",
+        "double_rainbow_serialized"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_retro_artifact_uncommon": 1,
+        "brr_schematic_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
         "foil_transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 597,
+      "weight": 8159,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -115,7 +173,7 @@
         "foil_transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 3,
+      "weight": 41,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -138,13 +196,71 @@
         "foil_rare_mythic": 1,
         "extended_rare_mythic": 1,
         "extended_commander_jumpstart": 1,
+        "brr_retro_artifact_uncommon": 1,
+        "brr_schematic_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "foil_shattered_glass": 1,
+        "foil_alt_art": 1
+      },
+      "weight": 199,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_shattered_glass",
+        "foil_alt_art"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_retro_artifact_uncommon": 1,
+        "brr_schematic_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "foil_shattered_glass": 1,
+        "double_rainbow_serialized": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_retro_artifact_uncommon",
+        "brr_schematic_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_shattered_glass",
+        "double_rainbow_serialized"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
         "brr_schematic_uncommon": 1,
         "brr_retro_artifact_rare_mythic": 1,
         "foil_brr_retro_artifact_schematic_uncommon": 1,
         "transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 2189,
+      "weight": 26865,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -173,7 +289,7 @@
         "transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 11,
+      "weight": 135,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -199,10 +315,68 @@
         "brr_schematic_uncommon": 1,
         "brr_retro_artifact_rare_mythic": 1,
         "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "shattered_glass": 1,
+        "foil_alt_art": 1
+      },
+      "weight": 4577,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "shattered_glass",
+        "foil_alt_art"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_schematic_uncommon": 1,
+        "brr_retro_artifact_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "shattered_glass": 1,
+        "double_rainbow_serialized": 1
+      },
+      "weight": 23,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "shattered_glass",
+        "double_rainbow_serialized"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_schematic_uncommon": 1,
+        "brr_retro_artifact_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
         "foil_transformers": 1,
         "foil_alt_art": 1
       },
-      "weight": 597,
+      "weight": 8159,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -231,7 +405,7 @@
         "foil_transformers": 1,
         "double_rainbow_serialized": 1
       },
-      "weight": 3,
+      "weight": 41,
       "sheet_order": [
         "foil_fullart_basic",
         "foil_common",
@@ -243,6 +417,64 @@
         "brr_retro_artifact_rare_mythic",
         "foil_brr_retro_artifact_schematic_uncommon",
         "foil_transformers",
+        "double_rainbow_serialized"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_schematic_uncommon": 1,
+        "brr_retro_artifact_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "foil_shattered_glass": 1,
+        "foil_alt_art": 1
+      },
+      "weight": 199,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_shattered_glass",
+        "foil_alt_art"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_fullart_basic": 1,
+        "foil_common": 4,
+        "foil_uncommon": 2,
+        "foil_rare_mythic": 1,
+        "extended_rare_mythic": 1,
+        "extended_commander_jumpstart": 1,
+        "brr_schematic_uncommon": 1,
+        "brr_retro_artifact_rare_mythic": 1,
+        "foil_brr_retro_artifact_schematic_uncommon": 1,
+        "foil_shattered_glass": 1,
+        "double_rainbow_serialized": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "foil_fullart_basic",
+        "foil_common",
+        "foil_uncommon",
+        "foil_rare_mythic",
+        "extended_rare_mythic",
+        "extended_commander_jumpstart",
+        "brr_schematic_uncommon",
+        "brr_retro_artifact_rare_mythic",
+        "foil_brr_retro_artifact_schematic_uncommon",
+        "foil_shattered_glass",
         "double_rainbow_serialized"
       ]
     }
@@ -546,8 +778,16 @@
       }
     },
     "extended_rare_mythic": {
-      "total_weight": 125,
+      "total_weight": 139,
       "cards": {
+        "bro:293": 1,
+        "bro:294": 1,
+        "bro:295": 2,
+        "bro:296": 2,
+        "bro:297": 2,
+        "bro:298": 2,
+        "bro:299": 2,
+        "bro:300": 2,
         "bro:301": 1,
         "bro:302": 2,
         "bro:303": 2,
@@ -774,41 +1014,27 @@
       }
     },
     "transformers": {
-      "total_weight": 119,
+      "total_weight": 15,
       "cards": {
-        "bot:10a": 7,
-        "bot:11a": 7,
-        "bot:12a": 7,
-        "bot:13a": 7,
-        "bot:14a": 7,
-        "bot:15a": 7,
-        "bot:16a": 1,
-        "bot:17a": 1,
-        "bot:18a": 1,
-        "bot:19a": 1,
-        "bot:1a": 7,
-        "bot:20a": 1,
-        "bot:21a": 1,
-        "bot:22a": 1,
-        "bot:23a": 1,
-        "bot:24a": 1,
-        "bot:25a": 1,
-        "bot:26a": 1,
-        "bot:27a": 1,
-        "bot:28a": 1,
-        "bot:29a": 1,
-        "bot:2a": 7,
-        "bot:3a": 7,
-        "bot:4a": 7,
-        "bot:5a": 7,
-        "bot:6a": 7,
-        "bot:7a": 7,
-        "bot:8a": 7,
-        "bot:9a": 7
+        "bot:10a": 1,
+        "bot:11a": 1,
+        "bot:12a": 1,
+        "bot:13a": 1,
+        "bot:14a": 1,
+        "bot:15a": 1,
+        "bot:1a": 1,
+        "bot:2a": 1,
+        "bot:3a": 1,
+        "bot:4a": 1,
+        "bot:5a": 1,
+        "bot:6a": 1,
+        "bot:7a": 1,
+        "bot:8a": 1,
+        "bot:9a": 1
       }
     },
     "foil_alt_art": {
-      "total_weight": 1428,
+      "total_weight": 1380,
       "cards": {
         "brc:41:foil": 12,
         "brc:42:foil": 6,
@@ -901,10 +1127,6 @@
         "bro:370:foil": 12,
         "bro:371:foil": 12,
         "bro:372:foil": 12,
-        "bro:373:foil": 12,
-        "bro:374:foil": 12,
-        "bro:375:foil": 12,
-        "bro:377:foil": 12,
         "brr:101:foil": 1,
         "brr:102:foil": 1,
         "brr:103:foil": 2,
@@ -1065,20 +1287,52 @@
         "brr:99z:foil": 1
       }
     },
-    "foil_transformers": {
-      "total_weight": 119,
+    "shattered_glass": {
+      "total_weight": 14,
       "cards": {
-        "bot:10a:foil": 7,
-        "bot:11a:foil": 7,
-        "bot:12a:foil": 7,
-        "bot:13a:foil": 7,
-        "bot:14a:foil": 7,
-        "bot:15a:foil": 7,
+        "bot:16a": 1,
+        "bot:17a": 1,
+        "bot:18a": 1,
+        "bot:19a": 1,
+        "bot:20a": 1,
+        "bot:21a": 1,
+        "bot:22a": 1,
+        "bot:23a": 1,
+        "bot:24a": 1,
+        "bot:25a": 1,
+        "bot:26a": 1,
+        "bot:27a": 1,
+        "bot:28a": 1,
+        "bot:29a": 1
+      }
+    },
+    "foil_transformers": {
+      "total_weight": 15,
+      "cards": {
+        "bot:10a:foil": 1,
+        "bot:11a:foil": 1,
+        "bot:12a:foil": 1,
+        "bot:13a:foil": 1,
+        "bot:14a:foil": 1,
+        "bot:15a:foil": 1,
+        "bot:1a:foil": 1,
+        "bot:2a:foil": 1,
+        "bot:3a:foil": 1,
+        "bot:4a:foil": 1,
+        "bot:5a:foil": 1,
+        "bot:6a:foil": 1,
+        "bot:7a:foil": 1,
+        "bot:8a:foil": 1,
+        "bot:9a:foil": 1
+      }
+    },
+    "foil_shattered_glass": {
+      "total_weight": 14,
+      "cards": {
         "bot:16a:foil": 1,
         "bot:17a:foil": 1,
         "bot:18a:foil": 1,
         "bot:19a:foil": 1,
-        "bot:1a:foil": 7,
         "bot:20a:foil": 1,
         "bot:21a:foil": 1,
         "bot:22a:foil": 1,
@@ -1088,15 +1342,7 @@
         "bot:26a:foil": 1,
         "bot:27a:foil": 1,
         "bot:28a:foil": 1,
-        "bot:29a:foil": 1,
-        "bot:2a:foil": 7,
-        "bot:3a:foil": 7,
-        "bot:4a:foil": 7,
-        "bot:5a:foil": 7,
-        "bot:6a:foil": 7,
-        "bot:7a:foil": 7,
-        "bot:8a:foil": 7,
-        "bot:9a:foil": 7
+        "bot:29a:foil": 1
       }
     },
     "brr_schematic_uncommon": {

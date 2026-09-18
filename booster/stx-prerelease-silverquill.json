@@ -19,7 +19,7 @@
   "boosters": [
     {
       "sheets": {
-        "common": 10,
+        "common": 9,
         "uncommon": 3,
         "rare_mythic": 1,
         "prerelease_promo": 1

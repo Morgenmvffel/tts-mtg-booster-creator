@@ -242,7 +242,7 @@
       }
     },
     "foil_rare_mythic": {
-      "total_weight": 238,
+      "total_weight": 230,
       "cards": {
         "brc:41:foil": 2,
         "brc:42:foil": 1,
@@ -335,10 +335,6 @@
         "bro:370:foil": 2,
         "bro:371:foil": 2,
         "bro:372:foil": 2,
-        "bro:373:foil": 2,
-        "bro:374:foil": 2,
-        "bro:375:foil": 2,
-        "bro:377:foil": 2,
         "brr:10:foil": 2,
         "brr:12:foil": 2,
         "brr:13:foil": 2,

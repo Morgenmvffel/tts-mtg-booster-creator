@@ -22,7 +22,7 @@
         "nonfoil_rare_mythic": 1,
         "foil_uncommon_showcase": 1
       },
-      "weight": 2,
+      "weight": 4,
       "sheet_order": [
         "nonfoil_rare_mythic",
         "foil_uncommon_showcase"

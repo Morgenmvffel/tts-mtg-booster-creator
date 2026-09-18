@@ -27,7 +27,7 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 16199,
+      "weight": 1619900,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -54,7 +54,7 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 16199,
+      "weight": 2154467,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -82,7 +82,7 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 12901,
+      "weight": 1290100,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -111,7 +111,7 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 12901,
+      "weight": 1715833,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -139,7 +139,7 @@
         "etched_retold_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 9603,
+      "weight": 960300,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -167,7 +167,7 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 501,
+      "weight": 50100,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -196,7 +196,7 @@
         "showcase_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 501,
+      "weight": 66633,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -226,7 +226,7 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 399,
+      "weight": 39900,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -257,7 +257,7 @@
         "showcase_rare_mythic": 1,
         "textured_foil": 1
       },
-      "weight": 399,
+      "weight": 53067,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -287,7 +287,7 @@
         "etched_retold_rare_mythic": 2,
         "textured_foil": 1
       },
-      "weight": 297,
+      "weight": 29700,
       "sheet_order": [
         "foil_fullart_land",
         "foil_common",
@@ -837,49 +837,49 @@
       }
     },
     "textured_foil": {
-      "total_weight": 115,
+      "total_weight": 140000,
       "cards": {
-        "dmu:328:foil": 2,
-        "dmu:329:foil": 2,
-        "dmu:330:foil": 2,
-        "dmu:331:foil": 1,
-        "dmu:332:foil": 2,
-        "dmu:333:foil": 4,
-        "dmu:334:foil": 2,
-        "dmu:335:foil": 4,
-        "dmu:336:foil": 4,
-        "dmu:337:foil": 4,
-        "dmu:338:foil": 4,
-        "dmu:339:foil": 2,
-        "dmu:340:foil": 4,
-        "dmu:341:foil": 2,
-        "dmu:342:foil": 2,
-        "dmu:343:foil": 1,
-        "dmu:344:foil": 2,
-        "dmu:345:foil": 4,
-        "dmu:346:foil": 2,
-        "dmu:347:foil": 4,
-        "dmu:348:foil": 4,
-        "dmu:349:foil": 2,
-        "dmu:350:foil": 4,
-        "dmu:351:foil": 4,
-        "dmu:352:foil": 4,
-        "dmu:353:foil": 2,
-        "dmu:354:foil": 1,
-        "dmu:355:foil": 2,
-        "dmu:356:foil": 4,
-        "dmu:357:foil": 4,
-        "dmu:358:foil": 1,
-        "dmu:359:foil": 1,
-        "dmu:360:foil": 1,
-        "dmu:361:foil": 2,
-        "dmu:362:foil": 4,
-        "dmu:363:foil": 4,
-        "dmu:364:foil": 4,
-        "dmu:365:foil": 4,
-        "dmu:366:foil": 4,
-        "dmu:367:foil": 4,
-        "dmu:368:foil": 1
+        "dmu:328:foil": 2950,
+        "dmu:329:foil": 2950,
+        "dmu:330:foil": 2950,
+        "dmu:331:foil": 1480,
+        "dmu:332:foil": 2950,
+        "dmu:333:foil": 4417,
+        "dmu:334:foil": 2950,
+        "dmu:335:foil": 4417,
+        "dmu:336:foil": 4417,
+        "dmu:337:foil": 4417,
+        "dmu:338:foil": 4417,
+        "dmu:339:foil": 2950,
+        "dmu:340:foil": 4417,
+        "dmu:341:foil": 2950,
+        "dmu:342:foil": 2950,
+        "dmu:343:foil": 1480,
+        "dmu:344:foil": 2950,
+        "dmu:345:foil": 4417,
+        "dmu:346:foil": 2950,
+        "dmu:347:foil": 4417,
+        "dmu:348:foil": 4417,
+        "dmu:349:foil": 2950,
+        "dmu:350:foil": 4417,
+        "dmu:351:foil": 4417,
+        "dmu:352:foil": 4417,
+        "dmu:353:foil": 2950,
+        "dmu:354:foil": 1480,
+        "dmu:355:foil": 2950,
+        "dmu:356:foil": 4417,
+        "dmu:357:foil": 4417,
+        "dmu:358:foil": 1480,
+        "dmu:359:foil": 1480,
+        "dmu:360:foil": 1480,
+        "dmu:361:foil": 2950,
+        "dmu:362:foil": 4417,
+        "dmu:363:foil": 4417,
+        "dmu:364:foil": 4417,
+        "dmu:365:foil": 4417,
+        "dmu:366:foil": 4417,
+        "dmu:367:foil": 4417,
+        "dmu:368:foil": 1480
       }
     },
     "etched_retold_uncommon": {

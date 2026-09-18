@@ -150,7 +150,7 @@
       }
     },
     "foil_uncommon_showcase": {
-      "total_weight": 40,
+      "total_weight": 20,
       "cards": {
         "dmu:292:foil": 1,
         "dmu:294:foil": 1,
@@ -171,27 +171,7 @@
         "dmu:323:foil": 1,
         "dmu:324:foil": 1,
         "dmu:325:foil": 1,
-        "dmu:326:foil": 1,
-        "dmu:333:foil": 1,
-        "dmu:335:foil": 1,
-        "dmu:336:foil": 1,
-        "dmu:337:foil": 1,
-        "dmu:338:foil": 1,
-        "dmu:340:foil": 1,
-        "dmu:345:foil": 1,
-        "dmu:347:foil": 1,
-        "dmu:348:foil": 1,
-        "dmu:350:foil": 1,
-        "dmu:351:foil": 1,
-        "dmu:352:foil": 1,
-        "dmu:356:foil": 1,
-        "dmu:357:foil": 1,
-        "dmu:362:foil": 1,
-        "dmu:363:foil": 1,
-        "dmu:364:foil": 1,
-        "dmu:365:foil": 1,
-        "dmu:366:foil": 1,
-        "dmu:367:foil": 1
+        "dmu:326:foil": 1
       }
     },
     "foil_rare_mythic": {

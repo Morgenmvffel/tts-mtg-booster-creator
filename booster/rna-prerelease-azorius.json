@@ -97,16 +97,17 @@
       }
     },
     "promo": {
-      "total_weight": 8,
+      "total_weight": 17,
       "cards": {
-        "prna:11s:foil": 1,
-        "prna:151s:foil": 1,
-        "prna:15s:foil": 1,
-        "prna:165s:foil": 1,
-        "prna:189s:foil": 1,
-        "prna:29s:foil": 1,
-        "prna:45s:foil": 1,
-        "prna:55s:foil": 1
+        "prna:11s:foil": 2,
+        "prna:151s:foil": 2,
+        "prna:15s:foil": 2,
+        "prna:165s:foil": 2,
+        "prna:169s:foil": 1,
+        "prna:189s:foil": 2,
+        "prna:29s:foil": 2,
+        "prna:45s:foil": 2,
+        "prna:55s:foil": 2
       }
     }
   },

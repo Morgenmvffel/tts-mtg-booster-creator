@@ -94,18 +94,16 @@
       }
     },
     "promo": {
-      "total_weight": 19,
+      "total_weight": 15,
       "cards": {
-        "pgrn:123s:foil": 2,
-        "pgrn:124s:foil": 2,
         "pgrn:132s:foil": 2,
         "pgrn:148s:foil": 2,
+        "pgrn:152s:foil": 2,
         "pgrn:180s:foil": 2,
         "pgrn:211s:foil": 1,
         "pgrn:225sa:foil": 2,
         "pgrn:71s:foil": 2,
-        "pgrn:75s:foil": 2,
-        "pgrn:84s:foil": 2
+        "pgrn:75s:foil": 2
       }
     }
   },
