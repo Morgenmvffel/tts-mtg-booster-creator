@@ -1,0 +1,36 @@
+{
+  "name": "SLD Showcase Murders at Karlov Manor Bonus",
+  "code": "sld-bonus-showcase-murders-at-karlov-manor",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 100,
+      "cards": {
+        "sld:757:foil": 2,
+        "sld:759:foil": 49,
+        "sld:780:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

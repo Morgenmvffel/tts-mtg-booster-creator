@@ -1,0 +1,42 @@
+{
+  "name": "SLD Marvel Earths Mightiest Pets Bonus (Nonfoil)",
+  "code": "sld-bonus-marvel-earths-mightiest-pets",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 333,
+      "cards": {
+        "sld:7117": 1,
+        "sld:7118": 1,
+        "sld:7119": 1,
+        "sld:7120": 10,
+        "sld:7121": 10,
+        "sld:7122": 10,
+        "sld:7123": 100,
+        "sld:7124": 100,
+        "sld:7125": 100
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

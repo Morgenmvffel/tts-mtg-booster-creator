@@ -1,0 +1,44 @@
+{
+  "name": "SLD Special Guest Yuko Shimizu Bonus",
+  "code": "sld-bonus-special-guest-yuko-shimizu",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 500,
+      "cards": {
+        "sld:599:foil": 10,
+        "sld:603:foil": 5,
+        "sld:604:foil": 5,
+        "sld:605:foil": 5,
+        "sld:606:foil": 5,
+        "sld:607:foil": 5,
+        "sld:617:foil": 93,
+        "sld:628:foil": 93,
+        "sld:646:foil": 93,
+        "sld:647:foil": 93,
+        "sld:657:foil": 93
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

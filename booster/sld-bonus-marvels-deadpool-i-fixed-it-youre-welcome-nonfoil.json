@@ -1,0 +1,35 @@
+{
+  "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Bonus (Nonfoil)",
+  "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-nonfoil",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 100,
+      "cards": {
+        "sld:7126": 99,
+        "sld:7127": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

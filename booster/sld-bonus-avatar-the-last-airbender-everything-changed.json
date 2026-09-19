@@ -1,0 +1,35 @@
+{
+  "name": "SLD Avatar The Last Airbender Everything Changed Bonus (Foil)",
+  "code": "sld-bonus-avatar-the-last-airbender-everything-changed",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 2,
+      "cards": {
+        "sld:7062:foil": 1,
+        "sld:7063:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

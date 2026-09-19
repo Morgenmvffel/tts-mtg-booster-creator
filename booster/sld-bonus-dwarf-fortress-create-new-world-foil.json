@@ -1,0 +1,35 @@
+{
+  "name": "SLD Dwarf Fortress Create New World Bonus (Foil)",
+  "code": "sld-bonus-dwarf-fortress-create-new-world-foil",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 100,
+      "cards": {
+        "sld:7161:foil": 1,
+        "sld:7162:foil": 99
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

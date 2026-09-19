@@ -1,0 +1,37 @@
+{
+  "name": "SLD Featuring Julie Bell Bonus",
+  "code": "sld-bonus-featuring-julie-bell",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:752:foil": 3,
+        "sld:774:foil": 49,
+        "sld:776:foil": 49,
+        "sld:786:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

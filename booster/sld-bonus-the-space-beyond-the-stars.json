@@ -1,0 +1,44 @@
+{
+  "name": "SLD The Space Beyond The Stars Bonus",
+  "code": "sld-bonus-the-space-beyond-the-stars",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 600,
+      "cards": {
+        "sld:629:foil": 95,
+        "sld:635:foil": 95,
+        "sld:638:foil": 95,
+        "sld:640:foil": 95,
+        "sld:651:foil": 95,
+        "sld:659:foil": 95,
+        "sld:691:foil": 6,
+        "sld:692:foil": 6,
+        "sld:693:foil": 6,
+        "sld:694:foil": 6,
+        "sld:695:foil": 6
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

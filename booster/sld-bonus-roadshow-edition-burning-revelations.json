@@ -1,0 +1,37 @@
+{
+  "name": "SLD Roadshow Edition Burning Revelations Bonus",
+  "code": "sld-bonus-roadshow-edition-burning-revelations",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 4,
+      "cards": {
+        "sld:766:foil": 1,
+        "sld:768:foil": 1,
+        "sld:771:foil": 1,
+        "sld:775:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

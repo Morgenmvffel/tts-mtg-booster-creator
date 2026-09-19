@@ -1,0 +1,38 @@
+{
+  "name": "SLD Dreaming Darkly Bonus (Foil)",
+  "code": "sld-bonus-dreaming-darkly",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 5,
+      "cards": {
+        "sld:888:foil": 1,
+        "sld:889:foil": 1,
+        "sld:890:foil": 1,
+        "sld:891:foil": 1,
+        "sld:892:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

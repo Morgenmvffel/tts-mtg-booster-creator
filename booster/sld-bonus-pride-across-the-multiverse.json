@@ -1,0 +1,36 @@
+{
+  "name": "SLD Pride Across The Multiverse Bonus",
+  "code": "sld-bonus-pride-across-the-multiverse",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 40,
+      "cards": {
+        "sld:530:foil": 19,
+        "sld:534:foil": 19,
+        "sld:607:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

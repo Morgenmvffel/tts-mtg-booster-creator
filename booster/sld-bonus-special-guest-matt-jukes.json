@@ -1,0 +1,40 @@
+{
+  "name": "SLD Special Guest Matt Jukes Bonus",
+  "code": "sld-bonus-special-guest-matt-jukes",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 120,
+      "cards": {
+        "sld:660:foil": 19,
+        "sld:661:foil": 19,
+        "sld:662:foil": 19,
+        "sld:663:foil": 19,
+        "sld:665:foil": 19,
+        "sld:667:foil": 19,
+        "sld:695:foil": 6
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

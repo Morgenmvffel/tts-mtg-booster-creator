@@ -1,0 +1,36 @@
+{
+  "name": "SLD Teenage Mutant Ninja Turtles VHS Villains Bonus (Foil)",
+  "code": "sld-bonus-teenage-mutant-ninja-turtles-vhs-villains",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 100,
+      "cards": {
+        "sld:7074:foil": 98,
+        "sld:7077:foil": 1,
+        "sld:7078:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

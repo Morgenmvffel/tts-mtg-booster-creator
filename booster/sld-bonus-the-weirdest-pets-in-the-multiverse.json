@@ -1,0 +1,44 @@
+{
+  "name": "SLD The Weirdest Pets In The Multiverse Bonus",
+  "code": "sld-bonus-the-weirdest-pets-in-the-multiverse",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 600,
+      "cards": {
+        "sld:611:foil": 95,
+        "sld:615:foil": 95,
+        "sld:652:foil": 95,
+        "sld:655:foil": 95,
+        "sld:664:foil": 95,
+        "sld:666:foil": 95,
+        "sld:691:foil": 6,
+        "sld:692:foil": 6,
+        "sld:693:foil": 6,
+        "sld:694:foil": 6,
+        "sld:695:foil": 6
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

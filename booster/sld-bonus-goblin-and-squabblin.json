@@ -1,0 +1,37 @@
+{
+  "name": "SLD Goblin and Squabblin Bonus",
+  "code": "sld-bonus-goblin-and-squabblin",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:620:foil": 49,
+        "sld:651:foil": 49,
+        "sld:653:foil": 49,
+        "sld:680:foil": 3
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

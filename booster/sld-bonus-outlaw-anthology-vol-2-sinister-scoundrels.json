@@ -1,0 +1,36 @@
+{
+  "name": "SLD Outlaw Anthology Vol 2 Sinister Scoundrels Bonus",
+  "code": "sld-bonus-outlaw-anthology-vol-2-sinister-scoundrels",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 200,
+      "cards": {
+        "sld:765:foil": 99,
+        "sld:767:foil": 99,
+        "sld:811:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

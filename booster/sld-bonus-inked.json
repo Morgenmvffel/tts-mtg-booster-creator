@@ -1,0 +1,39 @@
+{
+  "name": "SLD Inked Bonus (Foil)",
+  "code": "sld-bonus-inked",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 250,
+      "cards": {
+        "sld:817:foil": 5,
+        "sld:834:foil": 49,
+        "sld:847:foil": 49,
+        "sld:851:foil": 49,
+        "sld:853:foil": 49,
+        "sld:857:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

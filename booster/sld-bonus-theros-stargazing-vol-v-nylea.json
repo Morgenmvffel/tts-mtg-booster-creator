@@ -1,0 +1,44 @@
+{
+  "name": "SLD Theros Stargazing Vol V Nylea Bonus",
+  "code": "sld-bonus-theros-stargazing-vol-v-nylea",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 11,
+      "cards": {
+        "sld:516:foil": 1,
+        "sld:517:foil": 1,
+        "sld:518:foil": 1,
+        "sld:519:foil": 1,
+        "sld:520:foil": 1,
+        "sld:521:foil": 1,
+        "sld:525:foil": 1,
+        "sld:530:foil": 1,
+        "sld:532:foil": 1,
+        "sld:535:foil": 1,
+        "sld:536:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

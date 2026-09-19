@@ -1,0 +1,61 @@
+{
+  "name": "SLD Showcase Midnight Hunt Bonus",
+  "code": "sld-bonus-showcase-midnight-hunt",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 9200,
+      "cards": {
+        "sld:542:foil": 372,
+        "sld:543:foil": 372,
+        "sld:547:foil": 372,
+        "sld:548:foil": 372,
+        "sld:550:foil": 372,
+        "sld:551:foil": 372,
+        "sld:552:foil": 372,
+        "sld:554:foil": 372,
+        "sld:557:foil": 372,
+        "sld:558:foil": 372,
+        "sld:559:foil": 372,
+        "sld:560:foil": 372,
+        "sld:561:foil": 372,
+        "sld:563:foil": 372,
+        "sld:564:foil": 372,
+        "sld:565:foil": 372,
+        "sld:566:foil": 372,
+        "sld:569:foil": 372,
+        "sld:574:foil": 372,
+        "sld:575:foil": 372,
+        "sld:576:foil": 372,
+        "sld:577:foil": 372,
+        "sld:579:foil": 372,
+        "sld:596:foil": 184,
+        "sld:603:foil": 115,
+        "sld:604:foil": 115,
+        "sld:606:foil": 115,
+        "sld:607:foil": 115
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

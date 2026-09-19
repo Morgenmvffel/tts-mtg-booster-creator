@@ -1,0 +1,45 @@
+{
+  "name": "SLD Showcase Streets Of New Capenna Gilded Bonus",
+  "code": "sld-bonus-showcase-streets-of-new-capenna-gilded",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 2800,
+      "cards": {
+        "sld:660:foil": 372,
+        "sld:661:foil": 372,
+        "sld:662:foil": 372,
+        "sld:663:foil": 372,
+        "sld:664:foil": 372,
+        "sld:665:foil": 372,
+        "sld:667:foil": 372,
+        "sld:684:foil": 56,
+        "sld:692:foil": 35,
+        "sld:693:foil": 35,
+        "sld:694:foil": 35,
+        "sld:695:foil": 35
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

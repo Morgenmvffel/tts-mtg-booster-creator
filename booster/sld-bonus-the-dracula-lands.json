@@ -1,0 +1,48 @@
+{
+  "name": "SLD The Dracula Lands Bonus",
+  "code": "sld-bonus-the-dracula-lands",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 3300,
+      "cards": {
+        "sld:540:foil": 279,
+        "sld:542:foil": 279,
+        "sld:548:foil": 279,
+        "sld:554:foil": 279,
+        "sld:555:foil": 279,
+        "sld:559:foil": 279,
+        "sld:560:foil": 279,
+        "sld:568:foil": 279,
+        "sld:570:foil": 279,
+        "sld:573:foil": 279,
+        "sld:576:foil": 279,
+        "sld:598:foil": 66,
+        "sld:603:foil": 55,
+        "sld:606:foil": 55,
+        "sld:607:foil": 55
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

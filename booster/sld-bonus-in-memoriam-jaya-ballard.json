@@ -1,0 +1,40 @@
+{
+  "name": "SLD In Memoriam Jaya Ballard Bonus",
+  "code": "sld-bonus-in-memoriam-jaya-ballard",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 200,
+      "cards": {
+        "sld:636:foil": 38,
+        "sld:641:foil": 38,
+        "sld:643:foil": 38,
+        "sld:644:foil": 38,
+        "sld:645:foil": 38,
+        "sld:691:foil": 5,
+        "sld:694:foil": 5
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

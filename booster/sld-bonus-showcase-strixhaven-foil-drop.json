@@ -1,0 +1,41 @@
+{
+  "name": "SLD Showcase Strixhaven Foil Drop Bonus",
+  "code": "sld-bonus-showcase-strixhaven-foil-drop",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 300,
+      "cards": {
+        "sld:549:foil": 95,
+        "sld:555:foil": 95,
+        "sld:568:foil": 95,
+        "sld:603:foil": 3,
+        "sld:604:foil": 3,
+        "sld:605:foil": 3,
+        "sld:606:foil": 3,
+        "sld:607:foil": 3
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SLD Restless in Peace Bonus",
+  "code": "sld-bonus-restless-in-peace",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 4,
+      "cards": {
+        "sld:506:foil": 1,
+        "sld:524:foil": 1,
+        "sld:525:foil": 1,
+        "sld:528:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

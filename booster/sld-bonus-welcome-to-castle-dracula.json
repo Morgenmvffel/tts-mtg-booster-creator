@@ -1,0 +1,38 @@
+{
+  "name": "SLD Welcome To Castle Dracula Bonus",
+  "code": "sld-bonus-welcome-to-castle-dracula",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 300,
+      "cards": {
+        "sld:562:foil": 279,
+        "sld:598:foil": 6,
+        "sld:604:foil": 5,
+        "sld:605:foil": 5,
+        "sld:606:foil": 5
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SLD Brain Dead New Earth Mentality Bonus (Foil)",
+  "code": "sld-bonus-brain-dead-new-earth-mentality",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 100,
+      "cards": {
+        "sld:7105:foil": 25,
+        "sld:7106:foil": 25,
+        "sld:7107:foil": 49,
+        "sld:7108:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

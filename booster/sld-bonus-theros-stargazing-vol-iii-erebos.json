@@ -1,0 +1,42 @@
+{
+  "name": "SLD Theros Stargazing Vol III Erebos Bonus",
+  "code": "sld-bonus-theros-stargazing-vol-iii-erebos",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 9,
+      "cards": {
+        "sld:509:foil": 1,
+        "sld:510:foil": 1,
+        "sld:511:foil": 1,
+        "sld:522:foil": 1,
+        "sld:524:foil": 1,
+        "sld:527:foil": 1,
+        "sld:528:foil": 1,
+        "sld:531:foil": 1,
+        "sld:536:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

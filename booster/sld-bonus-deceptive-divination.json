@@ -1,0 +1,37 @@
+{
+  "name": "SLD Deceptive Divination Bonus",
+  "code": "sld-bonus-deceptive-divination",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:757:foil": 3,
+        "sld:759:foil": 49,
+        "sld:780:foil": 49,
+        "sld:785:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SLD Absolute Annihilation Bonus",
+  "code": "sld-bonus-absolute-annihilation",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:629:foil": 49,
+        "sld:642:foil": 49,
+        "sld:645:foil": 49,
+        "sld:686:foil": 3
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

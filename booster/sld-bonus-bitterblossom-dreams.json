@@ -1,0 +1,40 @@
+{
+  "name": "SLD Bitterblossom Dreams Bonus",
+  "code": "sld-bonus-bitterblossom-dreams",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 7,
+      "cards": {
+        "sld:503:foil": 1,
+        "sld:520:foil": 1,
+        "sld:521:foil": 1,
+        "sld:523:foil": 1,
+        "sld:524:foil": 1,
+        "sld:527:foil": 1,
+        "sld:530:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SLD Phyrexian Faves Bonus",
+  "code": "sld-bonus-phyrexian-faves",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:633:foil": 49,
+        "sld:635:foil": 49,
+        "sld:659:foil": 49,
+        "sld:681:foil": 3
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

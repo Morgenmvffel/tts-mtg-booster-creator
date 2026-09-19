@@ -1,0 +1,60 @@
+{
+  "name": "SLD Far Out Man Bonus",
+  "code": "sld-bonus-far-out-man",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 2000,
+      "cards": {
+        "sld:540:foil": 93,
+        "sld:541:foil": 93,
+        "sld:542:foil": 93,
+        "sld:543:foil": 93,
+        "sld:546:foil": 93,
+        "sld:547:foil": 93,
+        "sld:550:foil": 93,
+        "sld:551:foil": 93,
+        "sld:552:foil": 93,
+        "sld:556:foil": 93,
+        "sld:559:foil": 93,
+        "sld:565:foil": 93,
+        "sld:570:foil": 93,
+        "sld:571:foil": 93,
+        "sld:572:foil": 93,
+        "sld:573:foil": 93,
+        "sld:574:foil": 93,
+        "sld:576:foil": 93,
+        "sld:577:foil": 93,
+        "sld:578:foil": 93,
+        "sld:595:foil": 20,
+        "sld:598:foil": 20,
+        "sld:603:foil": 20,
+        "sld:604:foil": 20,
+        "sld:605:foil": 20,
+        "sld:606:foil": 20,
+        "sld:607:foil": 20
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

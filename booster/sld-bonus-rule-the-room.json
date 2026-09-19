@@ -1,0 +1,38 @@
+{
+  "name": "SLD Rule The Room Bonus",
+  "code": "sld-bonus-rule-the-room",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 80,
+      "cards": {
+        "sld:618:foil": 19,
+        "sld:650:foil": 19,
+        "sld:660:foil": 19,
+        "sld:667:foil": 19,
+        "sld:692:foil": 4
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

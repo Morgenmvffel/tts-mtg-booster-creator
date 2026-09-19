@@ -1,0 +1,41 @@
+{
+  "name": "SLD Special Guest Kelogsloops Bonus",
+  "code": "sld-bonus-special-guest-kelogsloops",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 1000,
+      "cards": {
+        "sld:618:foil": 186,
+        "sld:650:foil": 186,
+        "sld:654:foil": 186,
+        "sld:660:foil": 186,
+        "sld:667:foil": 186,
+        "sld:683:foil": 20,
+        "sld:692:foil": 25,
+        "sld:694:foil": 25
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "SLD Animar and Friends Bonus",
+  "code": "sld-bonus-animar-and-friends",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 250,
+      "cards": {
+        "sld:814:foil": 5,
+        "sld:837:foil": 49,
+        "sld:840:foil": 49,
+        "sld:850:foil": 49,
+        "sld:858:foil": 49,
+        "sld:860:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

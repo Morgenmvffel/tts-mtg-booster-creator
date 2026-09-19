@@ -1,0 +1,38 @@
+{
+  "name": "SLD A Box of Rocks Bonus",
+  "code": "sld-bonus-a-box-of-rocks",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 5,
+      "cards": {
+        "sld:507:foil": 1,
+        "sld:511:foil": 1,
+        "sld:512:foil": 1,
+        "sld:523:foil": 1,
+        "sld:535:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

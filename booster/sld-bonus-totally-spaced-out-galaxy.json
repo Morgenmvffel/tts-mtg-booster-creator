@@ -1,0 +1,43 @@
+{
+  "name": "SLD Totally Spaced Out Galaxy Bonus",
+  "code": "sld-bonus-totally-spaced-out-galaxy",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 1400,
+      "cards": {
+        "sld:611:foil": 186,
+        "sld:661:foil": 186,
+        "sld:662:foil": 186,
+        "sld:663:foil": 186,
+        "sld:664:foil": 186,
+        "sld:665:foil": 186,
+        "sld:667:foil": 186,
+        "sld:684:foil": 28,
+        "sld:691:foil": 35,
+        "sld:694:foil": 35
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

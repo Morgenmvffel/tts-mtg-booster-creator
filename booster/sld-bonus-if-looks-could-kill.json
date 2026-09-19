@@ -1,0 +1,45 @@
+{
+  "name": "SLD If Looks Could Kill Bonus",
+  "code": "sld-bonus-if-looks-could-kill",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 200,
+      "cards": {
+        "sld:628:foil": 31,
+        "sld:629:foil": 31,
+        "sld:636:foil": 31,
+        "sld:641:foil": 31,
+        "sld:653:foil": 31,
+        "sld:667:foil": 31,
+        "sld:682:foil": 4,
+        "sld:691:foil": 2,
+        "sld:692:foil": 2,
+        "sld:693:foil": 2,
+        "sld:694:foil": 2,
+        "sld:695:foil": 2
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

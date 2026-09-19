@@ -1,0 +1,36 @@
+{
+  "name": "SLD Mycosynthwave Bonus",
+  "code": "sld-bonus-mycosynthwave",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 3,
+      "cards": {
+        "sld:762:foil": 1,
+        "sld:763:foil": 1,
+        "sld:779:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

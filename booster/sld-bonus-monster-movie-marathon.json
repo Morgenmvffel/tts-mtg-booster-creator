@@ -1,0 +1,57 @@
+{
+  "name": "SLD Monster Movie Marathon Bonus",
+  "code": "sld-bonus-monster-movie-marathon",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 400,
+      "cards": {
+        "sld:540:foil": 19,
+        "sld:541:foil": 19,
+        "sld:542:foil": 19,
+        "sld:543:foil": 19,
+        "sld:544:foil": 19,
+        "sld:548:foil": 19,
+        "sld:549:foil": 19,
+        "sld:554:foil": 19,
+        "sld:555:foil": 19,
+        "sld:558:foil": 19,
+        "sld:559:foil": 19,
+        "sld:564:foil": 19,
+        "sld:566:foil": 19,
+        "sld:568:foil": 19,
+        "sld:569:foil": 19,
+        "sld:570:foil": 19,
+        "sld:573:foil": 19,
+        "sld:575:foil": 19,
+        "sld:576:foil": 19,
+        "sld:579:foil": 19,
+        "sld:603:foil": 5,
+        "sld:604:foil": 5,
+        "sld:606:foil": 5,
+        "sld:607:foil": 5
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

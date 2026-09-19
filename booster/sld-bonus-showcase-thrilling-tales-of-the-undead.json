@@ -1,0 +1,63 @@
+{
+  "name": "SLD Showcase Thrilling Tales Of The Undead Bonus",
+  "code": "sld-bonus-showcase-thrilling-tales-of-the-undead",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 10000,
+      "cards": {
+        "sld:541:foil": 372,
+        "sld:542:foil": 372,
+        "sld:544:foil": 372,
+        "sld:547:foil": 372,
+        "sld:549:foil": 372,
+        "sld:555:foil": 372,
+        "sld:556:foil": 372,
+        "sld:557:foil": 372,
+        "sld:558:foil": 372,
+        "sld:559:foil": 372,
+        "sld:560:foil": 372,
+        "sld:564:foil": 372,
+        "sld:565:foil": 372,
+        "sld:566:foil": 372,
+        "sld:567:foil": 372,
+        "sld:568:foil": 372,
+        "sld:570:foil": 372,
+        "sld:571:foil": 372,
+        "sld:572:foil": 372,
+        "sld:573:foil": 372,
+        "sld:574:foil": 372,
+        "sld:575:foil": 372,
+        "sld:576:foil": 372,
+        "sld:577:foil": 372,
+        "sld:579:foil": 372,
+        "sld:596:foil": 200,
+        "sld:603:foil": 125,
+        "sld:604:foil": 125,
+        "sld:605:foil": 125,
+        "sld:607:foil": 125
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

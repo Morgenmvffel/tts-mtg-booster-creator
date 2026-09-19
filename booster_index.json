@@ -1404,6 +1404,714 @@
     "code": "sld-blueprint-mk2"
   },
   {
+    "name": "SLD A Box of Rocks Bonus",
+    "code": "sld-bonus-a-box-of-rocks"
+  },
+  {
+    "name": "SLD Absolute Annihilation Bonus",
+    "code": "sld-bonus-absolute-annihilation"
+  },
+  {
+    "name": "SLD Adventures of the Little Witch Bonus (Foil)",
+    "code": "sld-bonus-adventures-of-the-little-witch"
+  },
+  {
+    "name": "SLD Alien Auroras Bonus (Foil)",
+    "code": "sld-bonus-alien-auroras"
+  },
+  {
+    "name": "SLD Animar and Friends Bonus",
+    "code": "sld-bonus-animar-and-friends"
+  },
+  {
+    "name": "SLD Avatar The Last Airbender A Lot to Learn Bonus (Foil)",
+    "code": "sld-bonus-avatar-the-last-airbender-a-lot-to-learn"
+  },
+  {
+    "name": "SLD Avatar The Last Airbender Everything Changed Bonus (Foil)",
+    "code": "sld-bonus-avatar-the-last-airbender-everything-changed"
+  },
+  {
+    "name": "SLD Avatar The Last Airbender My Cabbages! Bonus (Foil)",
+    "code": "sld-bonus-avatar-the-last-airbender-my-cabbages"
+  },
+  {
+    "name": "SLD Avatar The Last Airbender One with the Elements Bonus (Foil)",
+    "code": "sld-bonus-avatar-the-last-airbender-one-with-the-elements"
+  },
+  {
+    "name": "SLD Avatar The Last Airbender The Ember Island Players Bonus (Foil)",
+    "code": "sld-bonus-avatar-the-last-airbender-the-ember-island-players"
+  },
+  {
+    "name": "SLD Bad to the Bones Bonus",
+    "code": "sld-bonus-bad-to-the-bones"
+  },
+  {
+    "name": "SLD Bitterblossom Dreams Bonus",
+    "code": "sld-bonus-bitterblossom-dreams"
+  },
+  {
+    "name": "SLD Brain Dead New Earth Mentality Bonus (Foil)",
+    "code": "sld-bonus-brain-dead-new-earth-mentality"
+  },
+  {
+    "name": "SLD Buggin Out Bonus",
+    "code": "sld-bonus-buggin-out"
+  },
+  {
+    "name": "SLD Calling All Hydra Heads Bonus",
+    "code": "sld-bonus-calling-all-hydra-heads"
+  },
+  {
+    "name": "SLD Cats of Chaos Bonus (Foil)",
+    "code": "sld-bonus-cats-of-chaos"
+  },
+  {
+    "name": "SLD City Styles Bonus",
+    "code": "sld-bonus-city-styles"
+  },
+  {
+    "name": "SLD Cool Ocean Breeze Bonus",
+    "code": "sld-bonus-cool-ocean-breeze"
+  },
+  {
+    "name": "SLD Death Is Temporary Metal Is Forever Bonus",
+    "code": "sld-bonus-death-is-temporary-metal-is-forever"
+  },
+  {
+    "name": "SLD Deceptive Divination Bonus",
+    "code": "sld-bonus-deceptive-divination"
+  },
+  {
+    "name": "SLD Diabolical Dioramas Bonus",
+    "code": "sld-bonus-diabolical-dioramas"
+  },
+  {
+    "name": "SLD Draw Your Hand Bonus",
+    "code": "sld-bonus-draw-your-hand"
+  },
+  {
+    "name": "SLD Dreaming Darkly Bonus (Foil)",
+    "code": "sld-bonus-dreaming-darkly"
+  },
+  {
+    "name": "SLD Dwarf Fortress Create New World Bonus (Foil)",
+    "code": "sld-bonus-dwarf-fortress-create-new-world-foil"
+  },
+  {
+    "name": "SLD Dwarf Fortress Create New World Bonus (Nonfoil)",
+    "code": "sld-bonus-dwarf-fortress-create-new-world-nonfoil"
+  },
+  {
+    "name": "SLD Eldraine Wonderland Bonus",
+    "code": "sld-bonus-eldraine-wonderland"
+  },
+  {
+    "name": "SLD \u201cexplosion sounds\u201d Bonus",
+    "code": "sld-bonus-explosion-sounds"
+  },
+  {
+    "name": "SLD Far Out Man Bonus",
+    "code": "sld-bonus-far-out-man"
+  },
+  {
+    "name": "SLD Featuring Andrew Maclean Bonus",
+    "code": "sld-bonus-featuring-andrew-maclean"
+  },
+  {
+    "name": "SLD Featuring Deathburger Bonus (Foil)",
+    "code": "sld-bonus-featuring-deathburger"
+  },
+  {
+    "name": "SLD Featuring Imiri Sakabashira Bonus (Foil)",
+    "code": "sld-bonus-featuring-imiri-sakabashira"
+  },
+  {
+    "name": "SLD Featuring Julie Bell Bonus",
+    "code": "sld-bonus-featuring-julie-bell"
+  },
+  {
+    "name": "SLD Featuring Luke Pearson Bonus",
+    "code": "sld-bonus-featuring-luke-pearson"
+  },
+  {
+    "name": "SLD Featuring Peach Momoko Bonus",
+    "code": "sld-bonus-featuring-peach-momoko"
+  },
+  {
+    "name": "SLD Full Sleeves The Tattoo Pack Bonus",
+    "code": "sld-bonus-full-sleeves-the-tattoo-pack"
+  },
+  {
+    "name": "SLD Gift Wrapped Bonus",
+    "code": "sld-bonus-gift-wrapped"
+  },
+  {
+    "name": "SLD Goblin and Squabblin Bonus",
+    "code": "sld-bonus-goblin-and-squabblin"
+  },
+  {
+    "name": "SLD Happy Yargle Day Bonus",
+    "code": "sld-bonus-happy-yargle-day"
+  },
+  {
+    "name": "SLD Hard Boiled Thrillers Bonus",
+    "code": "sld-bonus-hard-boiled-thrillers"
+  },
+  {
+    "name": "SLD If Looks Could Kill Bonus",
+    "code": "sld-bonus-if-looks-could-kill"
+  },
+  {
+    "name": "SLD Imaginary Friends Bonus",
+    "code": "sld-bonus-imaginary-friends"
+  },
+  {
+    "name": "SLD In Memoriam Jaya Ballard Bonus",
+    "code": "sld-bonus-in-memoriam-jaya-ballard"
+  },
+  {
+    "name": "SLD Inked Bonus (Foil)",
+    "code": "sld-bonus-inked"
+  },
+  {
+    "name": "SLD International Womens Day 2020 Bonus",
+    "code": "sld-bonus-international-womens-day-2020"
+  },
+  {
+    "name": "SLD Introducing Kaito Shizuki Bonus",
+    "code": "sld-bonus-introducing-kaito-shizuki"
+  },
+  {
+    "name": "SLD Just Add Milk Bonus",
+    "code": "sld-bonus-just-add-milk"
+  },
+  {
+    "name": "SLD Just Some Totally Normal Guys Bonus",
+    "code": "sld-bonus-just-some-totally-normal-guys"
+  },
+  {
+    "name": "SLD Kaleidoscope Killers Bonus",
+    "code": "sld-bonus-kaleidoscope-killers"
+  },
+  {
+    "name": "SLD Kamigawa The Manga The Cards Bonus",
+    "code": "sld-bonus-kamigawa-the-manga-the-cards"
+  },
+  {
+    "name": "SLD Legendary Flyers Not That Kind Bonus",
+    "code": "sld-bonus-legendary-flyers-not-that-kind"
+  },
+  {
+    "name": "SLD Lil Giri Saves The Day Bonus",
+    "code": "sld-bonus-lil-giri-saves-the-day"
+  },
+  {
+    "name": "SLD Lil Walkers Bonus",
+    "code": "sld-bonus-lil-walkers"
+  },
+  {
+    "name": "SLD Liler Walkers Bonus",
+    "code": "sld-bonus-liler-walkers"
+  },
+  {
+    "name": "SLD Look At The Kitties Bonus",
+    "code": "sld-bonus-look-at-the-kitties"
+  },
+  {
+    "name": "SLD MagicCon The Gathering Bonus (Foil)",
+    "code": "sld-bonus-magiccon-the-gathering"
+  },
+  {
+    "name": "SLD Marvel Dan Hipp Bonus (Nonfoil)",
+    "code": "sld-bonus-marvel-dan-hipp"
+  },
+  {
+    "name": "SLD Marvel Earths Mightiest Pets Bonus (Nonfoil)",
+    "code": "sld-bonus-marvel-earths-mightiest-pets"
+  },
+  {
+    "name": "SLD Marvel Spinner Rack Specials Bonus (Nonfoil)",
+    "code": "sld-bonus-marvel-spinner-rack-specials"
+  },
+  {
+    "name": "SLD Marvel True Believers in Love Bonus (Nonfoil)",
+    "code": "sld-bonus-marvel-true-believers-in-love"
+  },
+  {
+    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Bonus (Foil)",
+    "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-foil"
+  },
+  {
+    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Bonus (Nonfoil)",
+    "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-nonfoil"
+  },
+  {
+    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Bonus (Foil)",
+    "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-pool-party-foil"
+  },
+  {
+    "name": "SLD Marvels Hulk SMASH! Bonus (Nonfoil)",
+    "code": "sld-bonus-marvels-hulk-smash"
+  },
+  {
+    "name": "SLD Meditations on Nature Bonus",
+    "code": "sld-bonus-meditations-on-nature"
+  },
+  {
+    "name": "SLD Monster Movie Marathon Bonus",
+    "code": "sld-bonus-monster-movie-marathon"
+  },
+  {
+    "name": "SLD Mycosynthwave Bonus",
+    "code": "sld-bonus-mycosynthwave"
+  },
+  {
+    "name": "SLD Nature is Adorable Bonus",
+    "code": "sld-bonus-nature-is-adorable"
+  },
+  {
+    "name": "SLD Ornithological Studies Bonus",
+    "code": "sld-bonus-ornithological-studies"
+  },
+  {
+    "name": "SLD Outlaw Anthology Vol 1 Rebellious Renegades Bonus",
+    "code": "sld-bonus-outlaw-anthology-vol-1-rebellious-renegades"
+  },
+  {
+    "name": "SLD Outlaw Anthology Vol 2 Sinister Scoundrels Bonus",
+    "code": "sld-bonus-outlaw-anthology-vol-2-sinister-scoundrels"
+  },
+  {
+    "name": "SLD Paradise Frost Bonus",
+    "code": "sld-bonus-paradise-frost"
+  },
+  {
+    "name": "SLD Phyrexian Faves Bonus",
+    "code": "sld-bonus-phyrexian-faves"
+  },
+  {
+    "name": "SLD Pictures Of The Floating World Bonus",
+    "code": "sld-bonus-pictures-of-the-floating-world"
+  },
+  {
+    "name": "SLD Pixelsnowlandsjpg Bonus",
+    "code": "sld-bonus-pixelsnowlandsjpg"
+  },
+  {
+    "name": "SLD Poker Faces Bonus",
+    "code": "sld-bonus-poker-faces"
+  },
+  {
+    "name": "SLD Pride Across The Multiverse Bonus",
+    "code": "sld-bonus-pride-across-the-multiverse"
+  },
+  {
+    "name": "SLD Prints Charming Bonus (Foil)",
+    "code": "sld-bonus-prints-charming"
+  },
+  {
+    "name": "SLD Prints of Darkness Bonus",
+    "code": "sld-bonus-prints-of-darkness"
+  },
+  {
+    "name": "SLD Prismatic Nightmares Bonus",
+    "code": "sld-bonus-prismatic-nightmares"
+  },
+  {
+    "name": "SLD Purrfection Bonus",
+    "code": "sld-bonus-purrfection"
+  },
+  {
+    "name": "SLD Restless in Peace Bonus",
+    "code": "sld-bonus-restless-in-peace"
+  },
+  {
+    "name": "SLD Roadshow Edition Burning Revelations Bonus",
+    "code": "sld-bonus-roadshow-edition-burning-revelations"
+  },
+  {
+    "name": "SLD Rule The Room Bonus",
+    "code": "sld-bonus-rule-the-room"
+  },
+  {
+    "name": "SLD Secret Lair x Brain Dead Creatures Bonus",
+    "code": "sld-bonus-secret-lair-x-brain-dead-creatures"
+  },
+  {
+    "name": "SLD Secret Lair x Brain Dead Lands Bonus",
+    "code": "sld-bonus-secret-lair-x-brain-dead-lands"
+  },
+  {
+    "name": "SLD Secret Lair x Brain Dead Staples Bonus",
+    "code": "sld-bonus-secret-lair-x-brain-dead-staples"
+  },
+  {
+    "name": "SLD Secret Lair x Dungeons and Dragons Astarions Thirst Bonus",
+    "code": "sld-bonus-secret-lair-x-dungeons-and-dragons-astarions-thirst"
+  },
+  {
+    "name": "SLD Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Bonus",
+    "code": "sld-bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-i"
+  },
+  {
+    "name": "SLD Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Bonus",
+    "code": "sld-bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-ii"
+  },
+  {
+    "name": "SLD Secret Lair x Dungeons and Dragons Karlachs Rage Bonus",
+    "code": "sld-bonus-secret-lair-x-dungeons-and-dragons-karlachs-rage"
+  },
+  {
+    "name": "SLD Secret Lair x Fallout Points of Interest Bonus",
+    "code": "sld-bonus-secret-lair-x-fallout-points-of-interest"
+  },
+  {
+    "name": "SLD Secret Lair x Fallout SPECIAL Bonus",
+    "code": "sld-bonus-secret-lair-x-fallout-special"
+  },
+  {
+    "name": "SLD Secret Lair x Fallout Vault Boy Bonus",
+    "code": "sld-bonus-secret-lair-x-fallout-vault-boy"
+  },
+  {
+    "name": "SLD Secret Lair x FINAL FANTASY Game Over Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-final-fantasy-game-over"
+  },
+  {
+    "name": "SLD Secret Lair x FINAL FANTASY Grimoire Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-final-fantasy-grimoire"
+  },
+  {
+    "name": "SLD Secret Lair x FINAL FANTASY Weapons Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-final-fantasy-weapons"
+  },
+  {
+    "name": "SLD Secret Lair x Flower Power Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-flower-power"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Digital Sensation English Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-digital-sensation-english-foil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Digital Sensation English Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-digital-sensation-english-nonfoil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Electric Entourage English Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-electric-entourage-english-foil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Electric Entourage English Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-electric-entourage-english-nonfoil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Sakura Superstar English Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-sakura-superstar-english-foil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Sakura Superstar English Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-sakura-superstar-english-nonfoil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Winter Diva English Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-winter-diva-english-foil"
+  },
+  {
+    "name": "SLD Secret Lair x Hatsune Miku Winter Diva English Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-hatsune-miku-winter-diva-english-nonfoil"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Black Panther Bonus",
+    "code": "sld-bonus-secret-lair-x-marvels-black-panther"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Captain America Bonus",
+    "code": "sld-bonus-secret-lair-x-marvels-captain-america"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Deadpool April Pools Day Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-marvels-deadpool-april-pools-day"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Iron Man Bonus",
+    "code": "sld-bonus-secret-lair-x-marvels-iron-man"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Spider-Man Daily Bugle Breaking News Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-marvels-spider-man-daily-bugle-breaking-news"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Spider-Man Heroic Deeds Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-marvels-spider-man-heroic-deeds"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Spider-Man Mana Symbiote Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-marvels-spider-man-mana-symbiote"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Spider-Man Venom Unleashed Colors Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-marvels-spider-man-venom-unleashed-colors"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Spider-Man Venom Unleashed Inks Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-marvels-spider-man-venom-unleashed-inks"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Spider-Man Villainous Plots Bonus (Nonfoil)",
+    "code": "sld-bonus-secret-lair-x-marvels-spider-man-villainous-plots"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Storm Bonus",
+    "code": "sld-bonus-secret-lair-x-marvels-storm"
+  },
+  {
+    "name": "SLD Secret Lair x Marvels Wolverine Bonus",
+    "code": "sld-bonus-secret-lair-x-marvels-wolverine"
+  },
+  {
+    "name": "SLD Secret Lair x Sonic the Hedgehog Chasing Adventure Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-sonic-the-hedgehog-chasing-adventure"
+  },
+  {
+    "name": "SLD Secret Lair x Sonic the Hedgehog Friends and Foes Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-sonic-the-hedgehog-friends-and-foes"
+  },
+  {
+    "name": "SLD Secret Lair x Sonic the Hedgehog Turbo Gear Bonus (Foil)",
+    "code": "sld-bonus-secret-lair-x-sonic-the-hedgehog-turbo-gear"
+  },
+  {
+    "name": "SLD Shades Not Included Bonus",
+    "code": "sld-bonus-shades-not-included"
+  },
+  {
+    "name": "SLD Showcase All Will Be One Step and Compleat Bonus",
+    "code": "sld-bonus-showcase-all-will-be-one-step-and-compleat"
+  },
+  {
+    "name": "SLD Showcase Dominaria United Textured Bonus",
+    "code": "sld-bonus-showcase-dominaria-united-textured"
+  },
+  {
+    "name": "SLD Showcase March of the Machine Vol 1 Bonus",
+    "code": "sld-bonus-showcase-march-of-the-machine-vol-1"
+  },
+  {
+    "name": "SLD Showcase March of the Machine Vol 3 Bonus",
+    "code": "sld-bonus-showcase-march-of-the-machine-vol-3"
+  },
+  {
+    "name": "SLD Showcase Midnight Hunt Bonus",
+    "code": "sld-bonus-showcase-midnight-hunt"
+  },
+  {
+    "name": "SLD Showcase Monster Anatomy 101 Bonus",
+    "code": "sld-bonus-showcase-monster-anatomy-101"
+  },
+  {
+    "name": "SLD Showcase Murders at Karlov Manor Bonus",
+    "code": "sld-bonus-showcase-murders-at-karlov-manor"
+  },
+  {
+    "name": "SLD Showcase Neon Dynasty Neon Ink Bonus",
+    "code": "sld-bonus-showcase-neon-dynasty-neon-ink"
+  },
+  {
+    "name": "SLD Showcase Streets Of New Capenna Gilded Bonus",
+    "code": "sld-bonus-showcase-streets-of-new-capenna-gilded"
+  },
+  {
+    "name": "SLD Showcase Strixhaven Bonus",
+    "code": "sld-bonus-showcase-strixhaven"
+  },
+  {
+    "name": "SLD Showcase Strixhaven Foil Drop Bonus",
+    "code": "sld-bonus-showcase-strixhaven-foil-drop"
+  },
+  {
+    "name": "SLD Showcase The Lost Caverns of Ixalan Bonus",
+    "code": "sld-bonus-showcase-the-lost-caverns-of-ixalan"
+  },
+  {
+    "name": "SLD Showcase Thrilling Tales Of The Undead Bonus",
+    "code": "sld-bonus-showcase-thrilling-tales-of-the-undead"
+  },
+  {
+    "name": "SLD Showcase Zendikar Revisited Bonus",
+    "code": "sld-bonus-showcase-zendikar-revisited"
+  },
+  {
+    "name": "SLD Slay the Day Bonus (Foil)",
+    "code": "sld-bonus-slay-the-day"
+  },
+  {
+    "name": "SLD So Salty Bonus (Foil)",
+    "code": "sld-bonus-so-salty"
+  },
+  {
+    "name": "SLD Special Guest Jen Bartel Bonus",
+    "code": "sld-bonus-special-guest-jen-bartel"
+  },
+  {
+    "name": "SLD Special Guest Junji Ito Bonus",
+    "code": "sld-bonus-special-guest-junji-ito"
+  },
+  {
+    "name": "SLD Special Guest Kelogsloops Bonus",
+    "code": "sld-bonus-special-guest-kelogsloops"
+  },
+  {
+    "name": "SLD Special Guest Matt Jukes Bonus",
+    "code": "sld-bonus-special-guest-matt-jukes"
+  },
+  {
+    "name": "SLD Special Guest Yoji Shinkawa Bonus",
+    "code": "sld-bonus-special-guest-yoji-shinkawa"
+  },
+  {
+    "name": "SLD Special Guest Yuko Shimizu Bonus",
+    "code": "sld-bonus-special-guest-yuko-shimizu"
+  },
+  {
+    "name": "SLD Spongebob Squarepants Internet Sensation Bonus (Foil)",
+    "code": "sld-bonus-spongebob-squarepants-internet-sensation"
+  },
+  {
+    "name": "SLD Spongebob Squarepants Lands Under the Sea Bonus (Foil)",
+    "code": "sld-bonus-spongebob-squarepants-lands-under-the-sea"
+  },
+  {
+    "name": "SLD Spongebob Squarepants Legends of Bikini Bottom Bonus (Foil)",
+    "code": "sld-bonus-spongebob-squarepants-legends-of-bikini-bottom"
+  },
+  {
+    "name": "SLD Ssssssnakessssss Bonus",
+    "code": "sld-bonus-ssssssnakessssss"
+  },
+  {
+    "name": "SLD Tales of the Time Stoppers Bonus",
+    "code": "sld-bonus-tales-of-the-time-stoppers"
+  },
+  {
+    "name": "SLD Teenage Mutant Ninja Turtles The Last Ronin Bonus (Foil)",
+    "code": "sld-bonus-teenage-mutant-ninja-turtles-the-last-ronin"
+  },
+  {
+    "name": "SLD Teenage Mutant Ninja Turtles The Mighty Mutanimals Bonus (Foil)",
+    "code": "sld-bonus-teenage-mutant-ninja-turtles-the-mighty-mutanimals"
+  },
+  {
+    "name": "SLD Teenage Mutant Ninja Turtles VHS Villains Bonus (Foil)",
+    "code": "sld-bonus-teenage-mutant-ninja-turtles-vhs-villains"
+  },
+  {
+    "name": "SLD Teferis Time Trouble Bonus",
+    "code": "sld-bonus-teferis-time-trouble"
+  },
+  {
+    "name": "SLD Thalia Beyond the Helvault Bonus",
+    "code": "sld-bonus-thalia-beyond-the-helvault"
+  },
+  {
+    "name": "SLD The 90s Binder Experience Bonus",
+    "code": "sld-bonus-the-90s-binder-experience"
+  },
+  {
+    "name": "SLD The Beauty of the Beasts Bonus",
+    "code": "sld-bonus-the-beauty-of-the-beasts"
+  },
+  {
+    "name": "SLD The Dracula Lands Bonus",
+    "code": "sld-bonus-the-dracula-lands"
+  },
+  {
+    "name": "SLD The Eyes Have It Bonus (Foil)",
+    "code": "sld-bonus-the-eyes-have-it"
+  },
+  {
+    "name": "SLD The Fairest Drop of All Bonus",
+    "code": "sld-bonus-the-fairest-drop-of-all"
+  },
+  {
+    "name": "SLD The Office Dwights Destiny Bonus (Foil)",
+    "code": "sld-bonus-the-office-dwights-destiny"
+  },
+  {
+    "name": "SLD The Path Not Traveled Bonus",
+    "code": "sld-bonus-the-path-not-traveled"
+  },
+  {
+    "name": "SLD The Space Beyond The Stars Bonus",
+    "code": "sld-bonus-the-space-beyond-the-stars"
+  },
+  {
+    "name": "SLD The Stars Gaze Back Bonus",
+    "code": "sld-bonus-the-stars-gaze-back"
+  },
+  {
+    "name": "SLD The Tokyo Lands Bonus",
+    "code": "sld-bonus-the-tokyo-lands"
+  },
+  {
+    "name": "SLD The Weirdest Pets In The Multiverse Bonus",
+    "code": "sld-bonus-the-weirdest-pets-in-the-multiverse"
+  },
+  {
+    "name": "SLD Theros Stargazing Vol I Heliod Bonus",
+    "code": "sld-bonus-theros-stargazing-vol-i-heliod"
+  },
+  {
+    "name": "SLD Theros Stargazing Vol II Thassa Bonus",
+    "code": "sld-bonus-theros-stargazing-vol-ii-thassa"
+  },
+  {
+    "name": "SLD Theros Stargazing Vol III Erebos Bonus",
+    "code": "sld-bonus-theros-stargazing-vol-iii-erebos"
+  },
+  {
+    "name": "SLD Theros Stargazing Vol IV Purphoros Bonus",
+    "code": "sld-bonus-theros-stargazing-vol-iv-purphoros"
+  },
+  {
+    "name": "SLD Theros Stargazing Vol V Nylea Bonus",
+    "code": "sld-bonus-theros-stargazing-vol-v-nylea"
+  },
+  {
+    "name": "SLD Totally Spaced Out Galaxy Bonus",
+    "code": "sld-bonus-totally-spaced-out-galaxy"
+  },
+  {
+    "name": "SLD Trick or Treat Bonus (Foil)",
+    "code": "sld-bonus-trick-or-treat"
+  },
+  {
+    "name": "SLD Twisted Toons Bonus (Foil)",
+    "code": "sld-bonus-twisted-toons"
+  },
+  {
+    "name": "SLD Viva Las Rakdos Bonus (Foil)",
+    "code": "sld-bonus-viva-las-rakdos"
+  },
+  {
+    "name": "SLD We Hope You Like Squirrels Bonus",
+    "code": "sld-bonus-we-hope-you-like-squirrels"
+  },
+  {
+    "name": "SLD Welcome To Castle Dracula Bonus",
+    "code": "sld-bonus-welcome-to-castle-dracula"
+  },
+  {
+    "name": "SLD Witch's Familiar Bonus (Foil)",
+    "code": "sld-bonus-witchs-familiar"
+  },
+  {
+    "name": "SLD Year of the Rat Bonus",
+    "code": "sld-bonus-year-of-the-rat"
+  },
+  {
     "name": "SLD Chaos Emeralds",
     "code": "sld-chaos-emeralds"
   },
@@ -1428,80 +2136,8 @@
     "code": "sld-fin-elementals"
   },
   {
-    "name": "SLD Handsome Humans (June 2026)",
-    "code": "sld-handsome-humans-jun"
-  },
-  {
-    "name": "SLD Handsome Humans (May 2026)",
-    "code": "sld-handsome-humans-may"
-  },
-  {
-    "name": "SLD Foil Jumpstart Lands (2021-2022)",
-    "code": "sld-jumpstart-lands"
-  },
-  {
     "name": "SLD Spider-Man bonus cards",
     "code": "sld-spider-man"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Black",
-    "code": "sld-stainedglass-b"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Colorless",
-    "code": "sld-stainedglass-c"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Green",
-    "code": "sld-stainedglass-g"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - International Women Day",
-    "code": "sld-stainedglass-iwd"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Red",
-    "code": "sld-stainedglass-r"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Tattoo",
-    "code": "sld-stainedglass-tattoo"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Blue",
-    "code": "sld-stainedglass-u"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - Uncommon",
-    "code": "sld-stainedglass-uncommon"
-  },
-  {
-    "name": "SLD Stained Glass Planeswalkers - White",
-    "code": "sld-stainedglass-w"
-  },
-  {
-    "name": "SLD Surprise Slivers (2022-2023)",
-    "code": "sld-surprise-slivers"
-  },
-  {
-    "name": "SLD Surprise Slivers (early, pre-October 2022)",
-    "code": "sld-surprise-slivers-early"
-  },
-  {
-    "name": "SLD Zippy Zombies (February 2025)",
-    "code": "sld-zippy-zombies-feb"
-  },
-  {
-    "name": "SLD Zippy Zombies (June 2025)",
-    "code": "sld-zippy-zombies-jun"
-  },
-  {
-    "name": "SLD Zippy Zombies (March 2025)",
-    "code": "sld-zippy-zombies-mar"
-  },
-  {
-    "name": "SLD Zippy Zombies (May 2025)",
-    "code": "sld-zippy-zombies-may"
   },
   {
     "name": "Mystery Booster Pack Convention Edition",

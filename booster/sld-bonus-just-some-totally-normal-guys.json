@@ -1,0 +1,41 @@
+{
+  "name": "SLD Just Some Totally Normal Guys Bonus",
+  "code": "sld-bonus-just-some-totally-normal-guys",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 300,
+      "cards": {
+        "sld:618:foil": 57,
+        "sld:643:foil": 57,
+        "sld:650:foil": 57,
+        "sld:652:foil": 57,
+        "sld:667:foil": 57,
+        "sld:692:foil": 5,
+        "sld:694:foil": 5,
+        "sld:695:foil": 5
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SLD Showcase March of the Machine Vol 1 Bonus",
+  "code": "sld-bonus-showcase-march-of-the-machine-vol-1",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 2,
+      "cards": {
+        "sld:620:foil": 1,
+        "sld:642:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

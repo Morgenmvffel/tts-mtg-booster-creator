@@ -1,0 +1,39 @@
+{
+  "name": "SLD Featuring Deathburger Bonus (Foil)",
+  "code": "sld-bonus-featuring-deathburger",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 500,
+      "cards": {
+        "sld:818:foil": 5,
+        "sld:888:foil": 99,
+        "sld:889:foil": 99,
+        "sld:890:foil": 99,
+        "sld:891:foil": 99,
+        "sld:892:foil": 99
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "SLD Full Sleeves The Tattoo Pack Bonus",
+  "code": "sld-bonus-full-sleeves-the-tattoo-pack",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 15,
+      "cards": {
+        "sld:504:foil": 1,
+        "sld:506:foil": 1,
+        "sld:507:foil": 1,
+        "sld:508:foil": 1,
+        "sld:510:foil": 1,
+        "sld:513:foil": 1,
+        "sld:515:foil": 1,
+        "sld:518:foil": 1,
+        "sld:524:foil": 1,
+        "sld:526:foil": 1,
+        "sld:527:foil": 1,
+        "sld:529:foil": 1,
+        "sld:530:foil": 1,
+        "sld:531:foil": 1,
+        "sld:533:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

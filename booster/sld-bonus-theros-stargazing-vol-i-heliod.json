@@ -1,0 +1,43 @@
+{
+  "name": "SLD Theros Stargazing Vol I Heliod Bonus",
+  "code": "sld-bonus-theros-stargazing-vol-i-heliod",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 10,
+      "cards": {
+        "sld:503:foil": 1,
+        "sld:504:foil": 1,
+        "sld:505:foil": 1,
+        "sld:520:foil": 1,
+        "sld:524:foil": 1,
+        "sld:526:foil": 1,
+        "sld:529:foil": 1,
+        "sld:530:foil": 1,
+        "sld:531:foil": 1,
+        "sld:533:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

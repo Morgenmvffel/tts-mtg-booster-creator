@@ -1,0 +1,37 @@
+{
+  "name": "SLD Special Guest Jen Bartel Bonus",
+  "code": "sld-bonus-special-guest-jen-bartel",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 60,
+      "cards": {
+        "sld:544:foil": 19,
+        "sld:551:foil": 19,
+        "sld:569:foil": 19,
+        "sld:606:foil": 3
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

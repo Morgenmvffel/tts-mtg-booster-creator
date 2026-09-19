@@ -1,0 +1,38 @@
+{
+  "name": "SLD Twisted Toons Bonus (Foil)",
+  "code": "sld-bonus-twisted-toons",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 15,
+      "cards": {
+        "sld:881:foil": 2,
+        "sld:882:foil": 2,
+        "sld:883:foil": 1,
+        "sld:884:foil": 5,
+        "sld:885:foil": 5
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

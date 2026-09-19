@@ -1,0 +1,38 @@
+{
+  "name": "SLD \u201cexplosion sounds\u201d Bonus",
+  "code": "sld-bonus-explosion-sounds",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 5,
+      "cards": {
+        "sld:503:foil": 1,
+        "sld:521:foil": 1,
+        "sld:523:foil": 1,
+        "sld:527:foil": 1,
+        "sld:533:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

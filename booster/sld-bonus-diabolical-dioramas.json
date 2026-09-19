@@ -1,0 +1,37 @@
+{
+  "name": "SLD Diabolical Dioramas Bonus",
+  "code": "sld-bonus-diabolical-dioramas",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:755:foil": 3,
+        "sld:770:foil": 49,
+        "sld:773:foil": 49,
+        "sld:789:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

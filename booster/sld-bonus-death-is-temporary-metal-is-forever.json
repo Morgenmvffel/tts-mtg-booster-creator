@@ -1,0 +1,36 @@
+{
+  "name": "SLD Death Is Temporary Metal Is Forever Bonus",
+  "code": "sld-bonus-death-is-temporary-metal-is-forever",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 3,
+      "cards": {
+        "sld:622:foil": 1,
+        "sld:632:foil": 1,
+        "sld:651:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

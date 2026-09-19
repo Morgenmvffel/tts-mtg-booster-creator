@@ -1,0 +1,37 @@
+{
+  "name": "SLD The Office Dwights Destiny Bonus (Foil)",
+  "code": "sld-bonus-the-office-dwights-destiny",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 4,
+      "cards": {
+        "sld:7041:foil": 1,
+        "sld:7042:foil": 1,
+        "sld:7043:foil": 1,
+        "sld:7044:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

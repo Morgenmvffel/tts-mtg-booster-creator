@@ -1,0 +1,36 @@
+{
+  "name": "SLD Outlaw Anthology Vol 1 Rebellious Renegades Bonus",
+  "code": "sld-bonus-outlaw-anthology-vol-1-rebellious-renegades",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 3,
+      "cards": {
+        "sld:765:foil": 1,
+        "sld:767:foil": 1,
+        "sld:769:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

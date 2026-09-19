@@ -1,0 +1,44 @@
+{
+  "name": "SLD Special Guest Junji Ito Bonus",
+  "code": "sld-bonus-special-guest-junji-ito",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 400,
+      "cards": {
+        "sld:631:foil": 62,
+        "sld:632:foil": 62,
+        "sld:633:foil": 62,
+        "sld:634:foil": 62,
+        "sld:635:foil": 62,
+        "sld:666:foil": 62,
+        "sld:682:foil": 8,
+        "sld:692:foil": 5,
+        "sld:693:foil": 5,
+        "sld:694:foil": 5,
+        "sld:695:foil": 5
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}
