@@ -1,0 +1,36 @@
+{
+  "name": "SLD Showcase Bloomburrow Bonus",
+  "code": "sld-bonus-showcase-bloomburrow",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 100,
+      "cards": {
+        "sld:752:foil": 2,
+        "sld:776:foil": 49,
+        "sld:786:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

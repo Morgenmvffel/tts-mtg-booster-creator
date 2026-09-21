@@ -1,0 +1,36 @@
+{
+  "name": "SLD Aether Drifters Bonus",
+  "code": "sld-bonus-aether-drifters",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 3,
+      "cards": {
+        "sld:837:foil": 1,
+        "sld:840:foil": 1,
+        "sld:858:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

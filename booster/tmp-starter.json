@@ -2,11 +2,13 @@
   "name": "Tempest Starter Deck",
   "code": "tmp-starter",
   "languages": [
+    "ct",
     "de",
     "en",
     "fr",
     "it",
     "jp",
+    "kr",
     "pt",
     "sp"
   ],

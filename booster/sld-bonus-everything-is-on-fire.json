@@ -1,0 +1,37 @@
+{
+  "name": "SLD EVERYTHING IS ON FIRE Bonus",
+  "code": "sld-bonus-everything-is-on-fire",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 150,
+      "cards": {
+        "sld:816:foil": 3,
+        "sld:835:foil": 49,
+        "sld:852:foil": 49,
+        "sld:859:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

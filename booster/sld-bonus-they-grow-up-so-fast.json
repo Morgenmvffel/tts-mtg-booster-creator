@@ -1,0 +1,39 @@
+{
+  "name": "SLD They Grow Up So Fast Bonus",
+  "code": "sld-bonus-they-grow-up-so-fast",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 250,
+      "cards": {
+        "sld:815:foil": 5,
+        "sld:839:foil": 49,
+        "sld:845:foil": 49,
+        "sld:854:foil": 49,
+        "sld:855:foil": 49,
+        "sld:861:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

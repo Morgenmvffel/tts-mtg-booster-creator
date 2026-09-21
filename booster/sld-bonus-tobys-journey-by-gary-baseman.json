@@ -1,0 +1,38 @@
+{
+  "name": "SLD Toby's Journey by Gary Baseman Bonus",
+  "code": "sld-bonus-tobys-journey-by-gary-baseman",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 5,
+      "cards": {
+        "sld:7135:foil": 1,
+        "sld:7138:foil": 1,
+        "sld:7139:foil": 1,
+        "sld:7145:foil": 1,
+        "sld:7152:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

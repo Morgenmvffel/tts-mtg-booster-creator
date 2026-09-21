@@ -1,0 +1,50 @@
+{
+  "name": "SLD Featuring Stan Sakai Bonus",
+  "code": "sld-bonus-featuring-stan-sakai-foil",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "regular": 1
+      },
+      "weight": 49,
+      "sheet_order": [
+        "regular"
+      ]
+    },
+    {
+      "sheets": {
+        "slime": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "slime"
+      ]
+    }
+  ],
+  "sheets": {
+    "regular": {
+      "total_weight": 1,
+      "cards": {
+        "sld:7076:foil": 1
+      }
+    },
+    "slime": {
+      "total_weight": 2,
+      "cards": {
+        "sld:7077:foil": 1,
+        "sld:7078:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

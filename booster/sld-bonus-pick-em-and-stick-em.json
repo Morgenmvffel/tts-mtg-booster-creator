@@ -1,0 +1,38 @@
+{
+  "name": "SLD Pick Em and Stick Em Bonus",
+  "code": "sld-bonus-pick-em-and-stick-em",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 200,
+      "cards": {
+        "sld:813:foil": 4,
+        "sld:838:foil": 49,
+        "sld:841:foil": 49,
+        "sld:849:foil": 49,
+        "sld:851:foil": 49
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

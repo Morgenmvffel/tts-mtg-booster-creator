@@ -1408,15 +1408,23 @@
     "code": "sld-bonus-a-box-of-rocks"
   },
   {
+    "name": "SLD A Devastation of Dragons Bonus",
+    "code": "sld-bonus-a-devastation-of-dragons"
+  },
+  {
     "name": "SLD Absolute Annihilation Bonus",
     "code": "sld-bonus-absolute-annihilation"
   },
   {
-    "name": "SLD Adventures of the Little Witch Bonus (Foil)",
+    "name": "SLD Adventures of the Little Witch Bonus",
     "code": "sld-bonus-adventures-of-the-little-witch"
   },
   {
-    "name": "SLD Alien Auroras Bonus (Foil)",
+    "name": "SLD Aether Drifters Bonus",
+    "code": "sld-bonus-aether-drifters"
+  },
+  {
+    "name": "SLD Alien Auroras Bonus",
     "code": "sld-bonus-alien-auroras"
   },
   {
@@ -1424,23 +1432,27 @@
     "code": "sld-bonus-animar-and-friends"
   },
   {
-    "name": "SLD Avatar The Last Airbender A Lot to Learn Bonus (Foil)",
+    "name": "SLD Arcade Racers Bonus",
+    "code": "sld-bonus-arcade-racers"
+  },
+  {
+    "name": "SLD Avatar The Last Airbender A Lot to Learn Bonus",
     "code": "sld-bonus-avatar-the-last-airbender-a-lot-to-learn"
   },
   {
-    "name": "SLD Avatar The Last Airbender Everything Changed Bonus (Foil)",
+    "name": "SLD Avatar The Last Airbender Everything Changed Bonus",
     "code": "sld-bonus-avatar-the-last-airbender-everything-changed"
   },
   {
-    "name": "SLD Avatar The Last Airbender My Cabbages! Bonus (Foil)",
+    "name": "SLD Avatar The Last Airbender My Cabbages! Bonus",
     "code": "sld-bonus-avatar-the-last-airbender-my-cabbages"
   },
   {
-    "name": "SLD Avatar The Last Airbender One with the Elements Bonus (Foil)",
+    "name": "SLD Avatar The Last Airbender One with the Elements Bonus",
     "code": "sld-bonus-avatar-the-last-airbender-one-with-the-elements"
   },
   {
-    "name": "SLD Avatar The Last Airbender The Ember Island Players Bonus (Foil)",
+    "name": "SLD Avatar The Last Airbender The Ember Island Players Bonus",
     "code": "sld-bonus-avatar-the-last-airbender-the-ember-island-players"
   },
   {
@@ -1452,7 +1464,7 @@
     "code": "sld-bonus-bitterblossom-dreams"
   },
   {
-    "name": "SLD Brain Dead New Earth Mentality Bonus (Foil)",
+    "name": "SLD Brain Dead New Earth Mentality Bonus",
     "code": "sld-bonus-brain-dead-new-earth-mentality"
   },
   {
@@ -1464,7 +1476,7 @@
     "code": "sld-bonus-calling-all-hydra-heads"
   },
   {
-    "name": "SLD Cats of Chaos Bonus (Foil)",
+    "name": "SLD Cats of Chaos Bonus",
     "code": "sld-bonus-cats-of-chaos"
   },
   {
@@ -1472,8 +1484,16 @@
     "code": "sld-bonus-city-styles"
   },
   {
+    "name": "SLD City Styles 2 Dressed to Kill Bonus",
+    "code": "sld-bonus-city-styles-2-dressed-to-kill"
+  },
+  {
     "name": "SLD Cool Ocean Breeze Bonus",
     "code": "sld-bonus-cool-ocean-breeze"
+  },
+  {
+    "name": "SLD Cosmic Chill by Robin Eisenberg Bonus",
+    "code": "sld-bonus-cosmic-chill-by-robin-eisenberg"
   },
   {
     "name": "SLD Death Is Temporary Metal Is Forever Bonus",
@@ -1492,11 +1512,11 @@
     "code": "sld-bonus-draw-your-hand"
   },
   {
-    "name": "SLD Dreaming Darkly Bonus (Foil)",
+    "name": "SLD Dreaming Darkly Bonus",
     "code": "sld-bonus-dreaming-darkly"
   },
   {
-    "name": "SLD Dwarf Fortress Create New World Bonus (Foil)",
+    "name": "SLD Dwarf Fortress Create New World Bonus",
     "code": "sld-bonus-dwarf-fortress-create-new-world-foil"
   },
   {
@@ -1506,6 +1526,10 @@
   {
     "name": "SLD Eldraine Wonderland Bonus",
     "code": "sld-bonus-eldraine-wonderland"
+  },
+  {
+    "name": "SLD EVERYTHING IS ON FIRE Bonus",
+    "code": "sld-bonus-everything-is-on-fire"
   },
   {
     "name": "SLD \u201cexplosion sounds\u201d Bonus",
@@ -1520,28 +1544,76 @@
     "code": "sld-bonus-featuring-andrew-maclean"
   },
   {
-    "name": "SLD Featuring Deathburger Bonus (Foil)",
+    "name": "SLD Featuring Deathburger Bonus",
     "code": "sld-bonus-featuring-deathburger"
   },
   {
-    "name": "SLD Featuring Imiri Sakabashira Bonus (Foil)",
+    "name": "SLD Featuring Gene Luen Yang Bonus",
+    "code": "sld-bonus-featuring-gene-luen-yang"
+  },
+  {
+    "name": "SLD Featuring Imiri Sakabashira Bonus",
     "code": "sld-bonus-featuring-imiri-sakabashira"
+  },
+  {
+    "name": "SLD Featuring Jay Howell Bonus",
+    "code": "sld-bonus-featuring-jay-howell"
   },
   {
     "name": "SLD Featuring Julie Bell Bonus",
     "code": "sld-bonus-featuring-julie-bell"
   },
   {
+    "name": "SLD Featuring Kevin Eastman Colors Bonus (Nonfoil)",
+    "code": "sld-bonus-featuring-kevin-eastman-colors"
+  },
+  {
+    "name": "SLD Featuring Kevin Eastman Colors Bonus",
+    "code": "sld-bonus-featuring-kevin-eastman-colors-foil"
+  },
+  {
+    "name": "SLD Featuring Kevin Eastman Inks Bonus (Nonfoil)",
+    "code": "sld-bonus-featuring-kevin-eastman-inks"
+  },
+  {
+    "name": "SLD Featuring Kevin Eastman Inks Bonus",
+    "code": "sld-bonus-featuring-kevin-eastman-inks-foil"
+  },
+  {
     "name": "SLD Featuring Luke Pearson Bonus",
     "code": "sld-bonus-featuring-luke-pearson"
+  },
+  {
+    "name": "SLD Featuring Mitsuhiro Arita Bonus",
+    "code": "sld-bonus-featuring-mitsuhiro-arita"
   },
   {
     "name": "SLD Featuring Peach Momoko Bonus",
     "code": "sld-bonus-featuring-peach-momoko"
   },
   {
+    "name": "SLD Featuring Phoebe Wahl Bonus",
+    "code": "sld-bonus-featuring-phoebe-wahl"
+  },
+  {
+    "name": "SLD Featuring Stan Sakai Bonus (Nonfoil)",
+    "code": "sld-bonus-featuring-stan-sakai"
+  },
+  {
+    "name": "SLD Featuring Stan Sakai Bonus",
+    "code": "sld-bonus-featuring-stan-sakai-foil"
+  },
+  {
+    "name": "SLD The Art of Frank Frazetta The Second Exhibition Bonus",
+    "code": "sld-bonus-frazetta-second-exhibition"
+  },
+  {
     "name": "SLD Full Sleeves The Tattoo Pack Bonus",
     "code": "sld-bonus-full-sleeves-the-tattoo-pack"
+  },
+  {
+    "name": "SLD Garden Buds Bonus",
+    "code": "sld-bonus-garden-buds"
   },
   {
     "name": "SLD Gift Wrapped Bonus",
@@ -1572,7 +1644,7 @@
     "code": "sld-bonus-in-memoriam-jaya-ballard"
   },
   {
-    "name": "SLD Inked Bonus (Foil)",
+    "name": "SLD Inked Bonus",
     "code": "sld-bonus-inked"
   },
   {
@@ -1608,6 +1680,10 @@
     "code": "sld-bonus-lil-giri-saves-the-day"
   },
   {
+    "name": "SLD Lil Legends Bonus",
+    "code": "sld-bonus-lil-legends"
+  },
+  {
     "name": "SLD Lil Walkers Bonus",
     "code": "sld-bonus-lil-walkers"
   },
@@ -1620,8 +1696,16 @@
     "code": "sld-bonus-look-at-the-kitties"
   },
   {
-    "name": "SLD MagicCon The Gathering Bonus (Foil)",
+    "name": "SLD Lorwyn Lightboxes Bonus",
+    "code": "sld-bonus-lorwyn-lightboxes"
+  },
+  {
+    "name": "SLD MagicCon The Gathering Bonus",
     "code": "sld-bonus-magiccon-the-gathering"
+  },
+  {
+    "name": "SLD Mah\u014d Gakuin Seishun Hakusho Bonus",
+    "code": "sld-bonus-maho-gakuin-seishun-hakusho"
   },
   {
     "name": "SLD Marvel Dan Hipp Bonus (Nonfoil)",
@@ -1640,7 +1724,7 @@
     "code": "sld-bonus-marvel-true-believers-in-love"
   },
   {
-    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Bonus (Foil)",
+    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Bonus",
     "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-foil"
   },
   {
@@ -1648,7 +1732,7 @@
     "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-nonfoil"
   },
   {
-    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Bonus (Foil)",
+    "name": "SLD Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Bonus",
     "code": "sld-bonus-marvels-deadpool-i-fixed-it-youre-welcome-pool-party-foil"
   },
   {
@@ -1664,12 +1748,28 @@
     "code": "sld-bonus-monster-movie-marathon"
   },
   {
+    "name": "SLD Monstrous Magazines Bonus",
+    "code": "sld-bonus-monstrous-magazines"
+  },
+  {
     "name": "SLD Mycosynthwave Bonus",
     "code": "sld-bonus-mycosynthwave"
   },
   {
     "name": "SLD Nature is Adorable Bonus",
     "code": "sld-bonus-nature-is-adorable"
+  },
+  {
+    "name": "SLD Notebook Genius Bonus",
+    "code": "sld-bonus-notebook-genius"
+  },
+  {
+    "name": "SLD Oishii Tokens Bonus",
+    "code": "sld-bonus-oishii-tokens"
+  },
+  {
+    "name": "SLD Omens of Chaos Bonus",
+    "code": "sld-bonus-omens-of-chaos"
   },
   {
     "name": "SLD Ornithological Studies Bonus",
@@ -1692,6 +1792,10 @@
     "code": "sld-bonus-phyrexian-faves"
   },
   {
+    "name": "SLD Pick Em and Stick Em Bonus",
+    "code": "sld-bonus-pick-em-and-stick-em"
+  },
+  {
     "name": "SLD Pictures Of The Floating World Bonus",
     "code": "sld-bonus-pictures-of-the-floating-world"
   },
@@ -1708,7 +1812,7 @@
     "code": "sld-bonus-pride-across-the-multiverse"
   },
   {
-    "name": "SLD Prints Charming Bonus (Foil)",
+    "name": "SLD Prints Charming Bonus",
     "code": "sld-bonus-prints-charming"
   },
   {
@@ -1734,6 +1838,10 @@
   {
     "name": "SLD Rule The Room Bonus",
     "code": "sld-bonus-rule-the-room"
+  },
+  {
+    "name": "SLD Secret Lair High Class of 87 Bonus",
+    "code": "sld-bonus-secret-lair-high-class-of-87"
   },
   {
     "name": "SLD Secret Lair x Brain Dead Creatures Bonus",
@@ -1776,23 +1884,23 @@
     "code": "sld-bonus-secret-lair-x-fallout-vault-boy"
   },
   {
-    "name": "SLD Secret Lair x FINAL FANTASY Game Over Bonus (Foil)",
+    "name": "SLD Secret Lair x FINAL FANTASY Game Over Bonus",
     "code": "sld-bonus-secret-lair-x-final-fantasy-game-over"
   },
   {
-    "name": "SLD Secret Lair x FINAL FANTASY Grimoire Bonus (Foil)",
+    "name": "SLD Secret Lair x FINAL FANTASY Grimoire Bonus",
     "code": "sld-bonus-secret-lair-x-final-fantasy-grimoire"
   },
   {
-    "name": "SLD Secret Lair x FINAL FANTASY Weapons Bonus (Foil)",
+    "name": "SLD Secret Lair x FINAL FANTASY Weapons Bonus",
     "code": "sld-bonus-secret-lair-x-final-fantasy-weapons"
   },
   {
-    "name": "SLD Secret Lair x Flower Power Bonus (Foil)",
+    "name": "SLD Secret Lair x Flower Power Bonus",
     "code": "sld-bonus-secret-lair-x-flower-power"
   },
   {
-    "name": "SLD Secret Lair x Hatsune Miku Digital Sensation English Bonus (Foil)",
+    "name": "SLD Secret Lair x Hatsune Miku Digital Sensation English Bonus",
     "code": "sld-bonus-secret-lair-x-hatsune-miku-digital-sensation-english-foil"
   },
   {
@@ -1800,7 +1908,7 @@
     "code": "sld-bonus-secret-lair-x-hatsune-miku-digital-sensation-english-nonfoil"
   },
   {
-    "name": "SLD Secret Lair x Hatsune Miku Electric Entourage English Bonus (Foil)",
+    "name": "SLD Secret Lair x Hatsune Miku Electric Entourage English Bonus",
     "code": "sld-bonus-secret-lair-x-hatsune-miku-electric-entourage-english-foil"
   },
   {
@@ -1808,7 +1916,7 @@
     "code": "sld-bonus-secret-lair-x-hatsune-miku-electric-entourage-english-nonfoil"
   },
   {
-    "name": "SLD Secret Lair x Hatsune Miku Sakura Superstar English Bonus (Foil)",
+    "name": "SLD Secret Lair x Hatsune Miku Sakura Superstar English Bonus",
     "code": "sld-bonus-secret-lair-x-hatsune-miku-sakura-superstar-english-foil"
   },
   {
@@ -1816,7 +1924,7 @@
     "code": "sld-bonus-secret-lair-x-hatsune-miku-sakura-superstar-english-nonfoil"
   },
   {
-    "name": "SLD Secret Lair x Hatsune Miku Winter Diva English Bonus (Foil)",
+    "name": "SLD Secret Lair x Hatsune Miku Winter Diva English Bonus",
     "code": "sld-bonus-secret-lair-x-hatsune-miku-winter-diva-english-foil"
   },
   {
@@ -1832,7 +1940,7 @@
     "code": "sld-bonus-secret-lair-x-marvels-captain-america"
   },
   {
-    "name": "SLD Secret Lair x Marvels Deadpool April Pools Day Bonus (Foil)",
+    "name": "SLD Secret Lair x Marvels Deadpool April Pools Day Bonus",
     "code": "sld-bonus-secret-lair-x-marvels-deadpool-april-pools-day"
   },
   {
@@ -1872,15 +1980,15 @@
     "code": "sld-bonus-secret-lair-x-marvels-wolverine"
   },
   {
-    "name": "SLD Secret Lair x Sonic the Hedgehog Chasing Adventure Bonus (Foil)",
+    "name": "SLD Secret Lair x Sonic the Hedgehog Chasing Adventure Bonus",
     "code": "sld-bonus-secret-lair-x-sonic-the-hedgehog-chasing-adventure"
   },
   {
-    "name": "SLD Secret Lair x Sonic the Hedgehog Friends and Foes Bonus (Foil)",
+    "name": "SLD Secret Lair x Sonic the Hedgehog Friends and Foes Bonus",
     "code": "sld-bonus-secret-lair-x-sonic-the-hedgehog-friends-and-foes"
   },
   {
-    "name": "SLD Secret Lair x Sonic the Hedgehog Turbo Gear Bonus (Foil)",
+    "name": "SLD Secret Lair x Sonic the Hedgehog Turbo Gear Bonus",
     "code": "sld-bonus-secret-lair-x-sonic-the-hedgehog-turbo-gear"
   },
   {
@@ -1892,8 +2000,16 @@
     "code": "sld-bonus-showcase-all-will-be-one-step-and-compleat"
   },
   {
+    "name": "SLD Showcase Bloomburrow Bonus",
+    "code": "sld-bonus-showcase-bloomburrow"
+  },
+  {
     "name": "SLD Showcase Dominaria United Textured Bonus",
     "code": "sld-bonus-showcase-dominaria-united-textured"
+  },
+  {
+    "name": "SLD Showcase Duskmourn Bonus",
+    "code": "sld-bonus-showcase-duskmourn"
   },
   {
     "name": "SLD Showcase March of the Machine Vol 1 Bonus",
@@ -1944,11 +2060,11 @@
     "code": "sld-bonus-showcase-zendikar-revisited"
   },
   {
-    "name": "SLD Slay the Day Bonus (Foil)",
+    "name": "SLD Slay the Day Bonus",
     "code": "sld-bonus-slay-the-day"
   },
   {
-    "name": "SLD So Salty Bonus (Foil)",
+    "name": "SLD So Salty Bonus",
     "code": "sld-bonus-so-salty"
   },
   {
@@ -1976,15 +2092,15 @@
     "code": "sld-bonus-special-guest-yuko-shimizu"
   },
   {
-    "name": "SLD Spongebob Squarepants Internet Sensation Bonus (Foil)",
+    "name": "SLD Spongebob Squarepants Internet Sensation Bonus",
     "code": "sld-bonus-spongebob-squarepants-internet-sensation"
   },
   {
-    "name": "SLD Spongebob Squarepants Lands Under the Sea Bonus (Foil)",
+    "name": "SLD Spongebob Squarepants Lands Under the Sea Bonus",
     "code": "sld-bonus-spongebob-squarepants-lands-under-the-sea"
   },
   {
-    "name": "SLD Spongebob Squarepants Legends of Bikini Bottom Bonus (Foil)",
+    "name": "SLD Spongebob Squarepants Legends of Bikini Bottom Bonus",
     "code": "sld-bonus-spongebob-squarepants-legends-of-bikini-bottom"
   },
   {
@@ -1996,15 +2112,15 @@
     "code": "sld-bonus-tales-of-the-time-stoppers"
   },
   {
-    "name": "SLD Teenage Mutant Ninja Turtles The Last Ronin Bonus (Foil)",
+    "name": "SLD Teenage Mutant Ninja Turtles The Last Ronin Bonus",
     "code": "sld-bonus-teenage-mutant-ninja-turtles-the-last-ronin"
   },
   {
-    "name": "SLD Teenage Mutant Ninja Turtles The Mighty Mutanimals Bonus (Foil)",
+    "name": "SLD Teenage Mutant Ninja Turtles The Mighty Mutanimals Bonus",
     "code": "sld-bonus-teenage-mutant-ninja-turtles-the-mighty-mutanimals"
   },
   {
-    "name": "SLD Teenage Mutant Ninja Turtles VHS Villains Bonus (Foil)",
+    "name": "SLD Teenage Mutant Ninja Turtles VHS Villains Bonus",
     "code": "sld-bonus-teenage-mutant-ninja-turtles-vhs-villains"
   },
   {
@@ -2028,7 +2144,7 @@
     "code": "sld-bonus-the-dracula-lands"
   },
   {
-    "name": "SLD The Eyes Have It Bonus (Foil)",
+    "name": "SLD The Eyes Have It Bonus",
     "code": "sld-bonus-the-eyes-have-it"
   },
   {
@@ -2036,7 +2152,7 @@
     "code": "sld-bonus-the-fairest-drop-of-all"
   },
   {
-    "name": "SLD The Office Dwights Destiny Bonus (Foil)",
+    "name": "SLD The Office Dwights Destiny Bonus",
     "code": "sld-bonus-the-office-dwights-destiny"
   },
   {
@@ -2080,20 +2196,40 @@
     "code": "sld-bonus-theros-stargazing-vol-v-nylea"
   },
   {
+    "name": "SLD They Grow Up So Fast Bonus",
+    "code": "sld-bonus-they-grow-up-so-fast"
+  },
+  {
+    "name": "SLD Toby's Journey by Gary Baseman Bonus",
+    "code": "sld-bonus-tobys-journey-by-gary-baseman"
+  },
+  {
+    "name": "SLD Tome of the Astral Sorceress Bonus",
+    "code": "sld-bonus-tome-of-the-astral-sorceress"
+  },
+  {
     "name": "SLD Totally Spaced Out Galaxy Bonus",
     "code": "sld-bonus-totally-spaced-out-galaxy"
   },
   {
-    "name": "SLD Trick or Treat Bonus (Foil)",
+    "name": "SLD Tragic Romance Bonus",
+    "code": "sld-bonus-tragic-romance"
+  },
+  {
+    "name": "SLD Trick or Treat Bonus",
     "code": "sld-bonus-trick-or-treat"
   },
   {
-    "name": "SLD Twisted Toons Bonus (Foil)",
+    "name": "SLD Twisted Toons Bonus",
     "code": "sld-bonus-twisted-toons"
   },
   {
-    "name": "SLD Viva Las Rakdos Bonus (Foil)",
+    "name": "SLD Viva Las Rakdos Bonus",
     "code": "sld-bonus-viva-las-rakdos"
+  },
+  {
+    "name": "SLD vroooOOOMMMMMM! Bonus",
+    "code": "sld-bonus-vroooooommmmmm"
   },
   {
     "name": "SLD We Hope You Like Squirrels Bonus",
@@ -2104,7 +2240,11 @@
     "code": "sld-bonus-welcome-to-castle-dracula"
   },
   {
-    "name": "SLD Witch's Familiar Bonus (Foil)",
+    "name": "SLD Wild in Bloom Bonus",
+    "code": "sld-bonus-wild-in-bloom"
+  },
+  {
+    "name": "SLD Witch's Familiar Bonus",
     "code": "sld-bonus-witchs-familiar"
   },
   {
