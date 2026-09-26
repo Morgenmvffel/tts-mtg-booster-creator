@@ -22,19 +22,20 @@
   ],
   "sheets": {
     "bonus": {
-      "total_weight": 600,
+      "total_weight": 3500,
       "cards": {
-        "sld:629:foil": 95,
-        "sld:635:foil": 95,
-        "sld:638:foil": 95,
-        "sld:640:foil": 95,
-        "sld:651:foil": 95,
-        "sld:659:foil": 95,
-        "sld:691:foil": 6,
-        "sld:692:foil": 6,
-        "sld:693:foil": 6,
-        "sld:694:foil": 6,
-        "sld:695:foil": 6
+        "sld:615:foil": 465,
+        "sld:629:foil": 465,
+        "sld:635:foil": 465,
+        "sld:638:foil": 465,
+        "sld:640:foil": 465,
+        "sld:651:foil": 465,
+        "sld:659:foil": 465,
+        "sld:691:foil": 49,
+        "sld:692:foil": 49,
+        "sld:693:foil": 49,
+        "sld:694:foil": 49,
+        "sld:695:foil": 49
       }
     }
   },

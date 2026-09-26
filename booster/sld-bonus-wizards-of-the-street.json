@@ -1,6 +1,6 @@
 {
-  "name": "SLD Pride Across The Multiverse Bonus",
-  "code": "sld-bonus-pride-across-the-multiverse",
+  "name": "SLD Wizards of the Street Bonus",
+  "code": "sld-bonus-wizards-of-the-street",
   "languages": [
     "en",
     "it",
@@ -22,15 +22,10 @@
   ],
   "sheets": {
     "bonus": {
-      "total_weight": 1000,
+      "total_weight": 2,
       "cards": {
-        "sld:530:foil": 465,
-        "sld:534:foil": 465,
-        "sld:603:foil": 14,
-        "sld:604:foil": 14,
-        "sld:605:foil": 14,
-        "sld:606:foil": 14,
-        "sld:607:foil": 14
+        "sld:627:foil": 1,
+        "sld:657:foil": 1
       }
     }
   },

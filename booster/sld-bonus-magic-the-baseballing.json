@@ -1,6 +1,6 @@
 {
-  "name": "SLD Pride Across The Multiverse Bonus",
-  "code": "sld-bonus-pride-across-the-multiverse",
+  "name": "SLD Magic The Baseballing Bonus",
+  "code": "sld-bonus-magic-the-baseballing",
   "languages": [
     "en",
     "it",
@@ -22,15 +22,16 @@
   ],
   "sheets": {
     "bonus": {
-      "total_weight": 1000,
+      "total_weight": 750,
       "cards": {
-        "sld:530:foil": 465,
-        "sld:534:foil": 465,
-        "sld:603:foil": 14,
-        "sld:604:foil": 14,
-        "sld:605:foil": 14,
-        "sld:606:foil": 14,
-        "sld:607:foil": 14
+        "sld:613:foil": 245,
+        "sld:642:foil": 245,
+        "sld:656:foil": 245,
+        "sld:745a:foil": 3,
+        "sld:746a:foil": 3,
+        "sld:747a:foil": 3,
+        "sld:748a:foil": 3,
+        "sld:749a:foil": 3
       }
     }
   },

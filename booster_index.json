@@ -1552,6 +1552,10 @@
     "code": "sld-bonus-featuring-deathburger"
   },
   {
+    "name": "SLD Featuring Gary Baseman Bonus",
+    "code": "sld-bonus-featuring-gary-baseman"
+  },
+  {
     "name": "SLD Featuring Gene Luen Yang Bonus",
     "code": "sld-bonus-featuring-gene-luen-yang"
   },
@@ -1676,6 +1680,10 @@
     "code": "sld-bonus-kamigawa-the-manga-the-cards"
   },
   {
+    "name": "SLD Keep Partying Hard Shred Harder Than You Previously Thought Possible Bonus",
+    "code": "sld-bonus-keep-partying-hard-shred-harder-than-you-previously-thought-possible"
+  },
+  {
     "name": "SLD Legendary Flyers Not That Kind Bonus",
     "code": "sld-bonus-legendary-flyers-not-that-kind"
   },
@@ -1696,12 +1704,20 @@
     "code": "sld-bonus-liler-walkers"
   },
   {
+    "name": "SLD Lilest Walkers Bonus",
+    "code": "sld-bonus-lilest-walkers"
+  },
+  {
     "name": "SLD Look At The Kitties Bonus",
     "code": "sld-bonus-look-at-the-kitties"
   },
   {
     "name": "SLD Lorwyn Lightboxes Bonus",
     "code": "sld-bonus-lorwyn-lightboxes"
+  },
+  {
+    "name": "SLD Magic The Baseballing Bonus",
+    "code": "sld-bonus-magic-the-baseballing"
   },
   {
     "name": "SLD MagicCon The Gathering Bonus",
@@ -1756,6 +1772,10 @@
     "code": "sld-bonus-monstrous-magazines"
   },
   {
+    "name": "SLD More Borderless Planeswalkers Bonus",
+    "code": "sld-bonus-more-borderless-planeswalkers"
+  },
+  {
     "name": "SLD Mycosynthwave Bonus",
     "code": "sld-bonus-mycosynthwave"
   },
@@ -1766,6 +1786,10 @@
   {
     "name": "SLD Notebook Genius Bonus",
     "code": "sld-bonus-notebook-genius"
+  },
+  {
+    "name": "SLD Now on VHS Bonus",
+    "code": "sld-bonus-now-on-vhs"
   },
   {
     "name": "SLD Oishii Tokens Bonus",
@@ -2020,6 +2044,10 @@
     "code": "sld-bonus-showcase-march-of-the-machine-vol-1"
   },
   {
+    "name": "SLD Showcase March of the Machine Vol 2 Bonus",
+    "code": "sld-bonus-showcase-march-of-the-machine-vol-2"
+  },
+  {
     "name": "SLD Showcase March of the Machine Vol 3 Bonus",
     "code": "sld-bonus-showcase-march-of-the-machine-vol-3"
   },
@@ -2082,6 +2110,14 @@
   {
     "name": "SLD Special Guest Kelogsloops Bonus",
     "code": "sld-bonus-special-guest-kelogsloops"
+  },
+  {
+    "name": "SLD Special Guest Kozyndan Another Story Bonus",
+    "code": "sld-bonus-special-guest-kozyndan-another-story"
+  },
+  {
+    "name": "SLD Special Guest Kozyndan The Lands Bonus",
+    "code": "sld-bonus-special-guest-kozyndan-the-lands"
   },
   {
     "name": "SLD Special Guest Matt Jukes Bonus",
@@ -2156,6 +2192,10 @@
     "code": "sld-bonus-the-fairest-drop-of-all"
   },
   {
+    "name": "SLD The Meaning of Life Maybe Bonus",
+    "code": "sld-bonus-the-meaning-of-life-maybe"
+  },
+  {
     "name": "SLD The Office Dwights Destiny Bonus",
     "code": "sld-bonus-the-office-dwights-destiny"
   },
@@ -2204,6 +2244,10 @@
     "code": "sld-bonus-they-grow-up-so-fast"
   },
   {
+    "name": "SLD Time Trouble Two Bonus",
+    "code": "sld-bonus-time-trouble-two"
+  },
+  {
     "name": "SLD Toby's Journey by Gary Baseman Bonus",
     "code": "sld-bonus-tobys-journey-by-gary-baseman"
   },
@@ -2244,12 +2288,20 @@
     "code": "sld-bonus-welcome-to-castle-dracula"
   },
   {
+    "name": "SLD Welcome to the Fungal Bonus",
+    "code": "sld-bonus-welcome-to-the-fungal"
+  },
+  {
     "name": "SLD Wild in Bloom Bonus",
     "code": "sld-bonus-wild-in-bloom"
   },
   {
     "name": "SLD Witch's Familiar Bonus",
     "code": "sld-bonus-witchs-familiar"
+  },
+  {
+    "name": "SLD Wizards of the Street Bonus",
+    "code": "sld-bonus-wizards-of-the-street"
   },
   {
     "name": "SLD Year of the Rat Bonus",
