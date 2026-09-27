@@ -1,6 +1,6 @@
 {
-  "name": "SLD Purrfection Bonus",
-  "code": "sld-bonus-purrfection",
+  "name": "SLD Phyrexian Praetors Compleat Edition Bonus",
+  "code": "sld-bonus-phyrexian-praetors-compleat-edition",
   "languages": [
     "en",
     "it",
@@ -24,13 +24,13 @@
     "bonus": {
       "total_weight": 500,
       "cards": {
-        "sld:576:foil": 455,
-        "sld:598:foil": 10,
+        "sld:560:foil": 464,
         "sld:603:foil": 7,
         "sld:604:foil": 7,
         "sld:605:foil": 7,
         "sld:606:foil": 7,
-        "sld:607:foil": 7
+        "sld:607:foil": 7,
+        "sld:vs:foil": 1
       }
     }
   },

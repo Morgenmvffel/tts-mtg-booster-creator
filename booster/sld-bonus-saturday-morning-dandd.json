@@ -1,0 +1,53 @@
+{
+  "name": "SLD Saturday Morning DandD Nonfoil Drop Bonus",
+  "code": "sld-bonus-saturday-morning-dandd",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "regular": 1
+      },
+      "weight": 93,
+      "sheet_order": [
+        "regular"
+      ]
+    },
+    {
+      "sheets": {
+        "blueprint": 1
+      },
+      "weight": 7,
+      "sheet_order": [
+        "blueprint"
+      ]
+    }
+  ],
+  "sheets": {
+    "regular": {
+      "total_weight": 1,
+      "cards": {
+        "sld:591": 1
+      }
+    },
+    "blueprint": {
+      "total_weight": 5,
+      "cards": {
+        "sld:603:foil": 1,
+        "sld:604:foil": 1,
+        "sld:605:foil": 1,
+        "sld:606:foil": 1,
+        "sld:607:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

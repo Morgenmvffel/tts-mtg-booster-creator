@@ -1,6 +1,6 @@
 {
-  "name": "SLD Purrfection Bonus",
-  "code": "sld-bonus-purrfection",
+  "name": "SLD The Unfathomable Crushing Brutality of Basic Lands Bonus",
+  "code": "sld-bonus-the-unfathomable-crushing-brutality-of-basic-lands",
   "languages": [
     "en",
     "it",
@@ -22,15 +22,11 @@
   ],
   "sheets": {
     "bonus": {
-      "total_weight": 500,
+      "total_weight": 3,
       "cards": {
-        "sld:576:foil": 455,
-        "sld:598:foil": 10,
-        "sld:603:foil": 7,
-        "sld:604:foil": 7,
-        "sld:605:foil": 7,
-        "sld:606:foil": 7,
-        "sld:607:foil": 7
+        "sld:558:foil": 1,
+        "sld:561:foil": 1,
+        "sld:563:foil": 1
       }
     }
   },

@@ -1,6 +1,6 @@
 {
-  "name": "SLD Purrfection Bonus",
-  "code": "sld-bonus-purrfection",
+  "name": "SLD Faerie Faerie Faerie Rad Bonus",
+  "code": "sld-bonus-faerie-faerie-faerie-rad",
   "languages": [
     "en",
     "it",
@@ -22,15 +22,11 @@
   ],
   "sheets": {
     "bonus": {
-      "total_weight": 500,
+      "total_weight": 3,
       "cards": {
-        "sld:576:foil": 455,
-        "sld:598:foil": 10,
-        "sld:603:foil": 7,
-        "sld:604:foil": 7,
-        "sld:605:foil": 7,
-        "sld:606:foil": 7,
-        "sld:607:foil": 7
+        "sld:512:foil": 1,
+        "sld:529:foil": 1,
+        "sld:534:foil": 1
       }
     }
   },

@@ -1,6 +1,6 @@
 {
-  "name": "SLD Purrfection Bonus",
-  "code": "sld-bonus-purrfection",
+  "name": "SLD Culture Shocks Naya Bonus",
+  "code": "sld-bonus-culture-shocks-naya",
   "languages": [
     "en",
     "it",
@@ -24,8 +24,11 @@
     "bonus": {
       "total_weight": 500,
       "cards": {
-        "sld:576:foil": 455,
-        "sld:598:foil": 10,
+        "sld:520:foil": 93,
+        "sld:521:foil": 93,
+        "sld:530:foil": 93,
+        "sld:533:foil": 93,
+        "sld:535:foil": 93,
         "sld:603:foil": 7,
         "sld:604:foil": 7,
         "sld:605:foil": 7,

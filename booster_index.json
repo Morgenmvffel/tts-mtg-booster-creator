@@ -1440,6 +1440,26 @@
     "code": "sld-bonus-arcade-racers"
   },
   {
+    "name": "SLD Artist Series Johannes Voss Nonfoil Drop Bonus",
+    "code": "sld-bonus-artist-series-johannes-voss"
+  },
+  {
+    "name": "SLD Artist Series Johannes Voss Foil Drop Bonus",
+    "code": "sld-bonus-artist-series-johannes-voss-foil-drop"
+  },
+  {
+    "name": "SLD Artist Series Mark Poole Bonus",
+    "code": "sld-bonus-artist-series-mark-poole"
+  },
+  {
+    "name": "SLD Artist Series Thomas Baxa Nonfoil Drop Bonus",
+    "code": "sld-bonus-artist-series-thomas-baxa"
+  },
+  {
+    "name": "SLD Artist Series Thomas Baxa Foil Drop Bonus",
+    "code": "sld-bonus-artist-series-thomas-baxa-foil-drop"
+  },
+  {
     "name": "SLD Avatar The Last Airbender A Lot to Learn Bonus",
     "code": "sld-bonus-avatar-the-last-airbender-a-lot-to-learn"
   },
@@ -1466,6 +1486,10 @@
   {
     "name": "SLD Bitterblossom Dreams Bonus",
     "code": "sld-bonus-bitterblossom-dreams"
+  },
+  {
+    "name": "SLD Black is Magic Bonus",
+    "code": "sld-bonus-black-is-magic"
   },
   {
     "name": "SLD Brain Dead New Earth Mentality Bonus",
@@ -1498,6 +1522,42 @@
   {
     "name": "SLD Cosmic Chill by Robin Eisenberg Bonus",
     "code": "sld-bonus-cosmic-chill-by-robin-eisenberg"
+  },
+  {
+    "name": "SLD Culture Shocks Bant Bonus",
+    "code": "sld-bonus-culture-shocks-bant"
+  },
+  {
+    "name": "SLD Culture Shocks Esper Bonus",
+    "code": "sld-bonus-culture-shocks-esper"
+  },
+  {
+    "name": "SLD Culture Shocks Grixis Bonus",
+    "code": "sld-bonus-culture-shocks-grixis"
+  },
+  {
+    "name": "SLD Culture Shocks Jund Bonus",
+    "code": "sld-bonus-culture-shocks-jund"
+  },
+  {
+    "name": "SLD Culture Shocks Naya Bonus",
+    "code": "sld-bonus-culture-shocks-naya"
+  },
+  {
+    "name": "SLD Dan Frazier Allied Signets Nonfoil Edition Bonus",
+    "code": "sld-bonus-dan-frazier-allied-signets"
+  },
+  {
+    "name": "SLD Dan Frazier Allied Signets Etched Edition Bonus",
+    "code": "sld-bonus-dan-frazier-allied-signets-etched"
+  },
+  {
+    "name": "SLD Dan Frazier Enemy Signets Nonfoil Edition Bonus",
+    "code": "sld-bonus-dan-frazier-enemy-signets"
+  },
+  {
+    "name": "SLD Dan Frazier Enemy Signets Etched Edition Bonus",
+    "code": "sld-bonus-dan-frazier-enemy-signets-etched"
   },
   {
     "name": "SLD Death Is Temporary Metal Is Forever Bonus",
@@ -1538,6 +1598,10 @@
   {
     "name": "SLD \u201cexplosion sounds\u201d Bonus",
     "code": "sld-bonus-explosion-sounds"
+  },
+  {
+    "name": "SLD Faerie Faerie Faerie Rad Bonus",
+    "code": "sld-bonus-faerie-faerie-faerie-rad"
   },
   {
     "name": "SLD Far Out Man Bonus",
@@ -1640,6 +1704,10 @@
     "code": "sld-bonus-hard-boiled-thrillers"
   },
   {
+    "name": "SLD Heads I Win Tails You Lose Bonus",
+    "code": "sld-bonus-heads-i-win-tails-you-lose"
+  },
+  {
     "name": "SLD If Looks Could Kill Bonus",
     "code": "sld-bonus-if-looks-could-kill"
   },
@@ -1674,6 +1742,10 @@
   {
     "name": "SLD Kaleidoscope Killers Bonus",
     "code": "sld-bonus-kaleidoscope-killers"
+  },
+  {
+    "name": "SLD Kamigawa Ink Bonus",
+    "code": "sld-bonus-kamigawa-ink"
   },
   {
     "name": "SLD Kamigawa The Manga The Cards Bonus",
@@ -1760,6 +1832,10 @@
     "code": "sld-bonus-marvels-hulk-smash"
   },
   {
+    "name": "SLD Math Is For Blockers Bonus",
+    "code": "sld-bonus-math-is-for-blockers"
+  },
+  {
     "name": "SLD Meditations on Nature Bonus",
     "code": "sld-bonus-meditations-on-nature"
   },
@@ -1774,6 +1850,10 @@
   {
     "name": "SLD More Borderless Planeswalkers Bonus",
     "code": "sld-bonus-more-borderless-planeswalkers"
+  },
+  {
+    "name": "SLD Mothers Day 2021 Bonus",
+    "code": "sld-bonus-mothers-day-2021"
   },
   {
     "name": "SLD Mycosynthwave Bonus",
@@ -1804,6 +1884,10 @@
     "code": "sld-bonus-ornithological-studies"
   },
   {
+    "name": "SLD Our Show Is On Friday Can You Make It Bonus",
+    "code": "sld-bonus-our-show-is-on-friday-can-you-make-it"
+  },
+  {
     "name": "SLD Outlaw Anthology Vol 1 Rebellious Renegades Bonus",
     "code": "sld-bonus-outlaw-anthology-vol-1-rebellious-renegades"
   },
@@ -1818,6 +1902,10 @@
   {
     "name": "SLD Phyrexian Faves Bonus",
     "code": "sld-bonus-phyrexian-faves"
+  },
+  {
+    "name": "SLD Phyrexian Praetors Compleat Edition Bonus",
+    "code": "sld-bonus-phyrexian-praetors-compleat-edition"
   },
   {
     "name": "SLD Pick Em and Stick Em Bonus",
@@ -1866,6 +1954,14 @@
   {
     "name": "SLD Rule The Room Bonus",
     "code": "sld-bonus-rule-the-room"
+  },
+  {
+    "name": "SLD Saturday Morning DandD Nonfoil Drop Bonus",
+    "code": "sld-bonus-saturday-morning-dandd"
+  },
+  {
+    "name": "SLD Saturday Morning DandD Foil Drop Bonus",
+    "code": "sld-bonus-saturday-morning-dandd-foil-drop"
   },
   {
     "name": "SLD Secret Lair High Class of 87 Bonus",
@@ -2040,6 +2136,14 @@
     "code": "sld-bonus-showcase-duskmourn"
   },
   {
+    "name": "SLD Showcase Kaldheim Part 1 Bonus",
+    "code": "sld-bonus-showcase-kaldheim-part-1"
+  },
+  {
+    "name": "SLD Showcase Kaldheim Part 2 Bonus",
+    "code": "sld-bonus-showcase-kaldheim-part-2"
+  },
+  {
     "name": "SLD Showcase March of the Machine Vol 1 Bonus",
     "code": "sld-bonus-showcase-march-of-the-machine-vol-1"
   },
@@ -2098,6 +2202,10 @@
   {
     "name": "SLD So Salty Bonus",
     "code": "sld-bonus-so-salty"
+  },
+  {
+    "name": "SLD Special Guest Fiona Staples Bonus",
+    "code": "sld-bonus-special-guest-fiona-staples"
   },
   {
     "name": "SLD Special Guest Jen Bartel Bonus",
@@ -2192,6 +2300,10 @@
     "code": "sld-bonus-the-fairest-drop-of-all"
   },
   {
+    "name": "SLD The Full Text Lands Bonus",
+    "code": "sld-bonus-the-full-text-lands"
+  },
+  {
     "name": "SLD The Meaning of Life Maybe Bonus",
     "code": "sld-bonus-the-meaning-of-life-maybe"
   },
@@ -2214,6 +2326,10 @@
   {
     "name": "SLD The Tokyo Lands Bonus",
     "code": "sld-bonus-the-tokyo-lands"
+  },
+  {
+    "name": "SLD The Unfathomable Crushing Brutality of Basic Lands Bonus",
+    "code": "sld-bonus-the-unfathomable-crushing-brutality-of-basic-lands"
   },
   {
     "name": "SLD The Weirdest Pets In The Multiverse Bonus",

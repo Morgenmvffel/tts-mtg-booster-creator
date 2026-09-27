@@ -1,6 +1,6 @@
 {
-  "name": "SLD Purrfection Bonus",
-  "code": "sld-bonus-purrfection",
+  "name": "SLD Math Is For Blockers Bonus",
+  "code": "sld-bonus-math-is-for-blockers",
   "languages": [
     "en",
     "it",
@@ -24,8 +24,7 @@
     "bonus": {
       "total_weight": 500,
       "cards": {
-        "sld:576:foil": 455,
-        "sld:598:foil": 10,
+        "sld:584:foil": 465,
         "sld:603:foil": 7,
         "sld:604:foil": 7,
         "sld:605:foil": 7,

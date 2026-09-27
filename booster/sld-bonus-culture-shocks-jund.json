@@ -1,0 +1,42 @@
+{
+  "name": "SLD Culture Shocks Jund Bonus",
+  "code": "sld-bonus-culture-shocks-jund",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 2000,
+      "cards": {
+        "sld:521:foil": 465,
+        "sld:527:foil": 465,
+        "sld:535:foil": 465,
+        "sld:536:foil": 465,
+        "sld:603:foil": 28,
+        "sld:604:foil": 28,
+        "sld:605:foil": 28,
+        "sld:606:foil": 28,
+        "sld:607:foil": 28
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

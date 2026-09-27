@@ -1,0 +1,53 @@
+{
+  "name": "SLD Dan Frazier Allied Signets Nonfoil Edition Bonus",
+  "code": "sld-bonus-dan-frazier-allied-signets",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "nonfoil_signet": 1
+      },
+      "weight": 93,
+      "sheet_order": [
+        "nonfoil_signet"
+      ]
+    },
+    {
+      "sheets": {
+        "foil_blueprint": 1
+      },
+      "weight": 7,
+      "sheet_order": [
+        "foil_blueprint"
+      ]
+    }
+  ],
+  "sheets": {
+    "nonfoil_signet": {
+      "total_weight": 1,
+      "cards": {
+        "sld:589": 1
+      }
+    },
+    "foil_blueprint": {
+      "total_weight": 5,
+      "cards": {
+        "sld:603:foil": 1,
+        "sld:604:foil": 1,
+        "sld:605:foil": 1,
+        "sld:606:foil": 1,
+        "sld:607:foil": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}

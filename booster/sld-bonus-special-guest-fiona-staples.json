@@ -1,6 +1,6 @@
 {
-  "name": "SLD Purrfection Bonus",
-  "code": "sld-bonus-purrfection",
+  "name": "SLD Special Guest Fiona Staples Bonus",
+  "code": "sld-bonus-special-guest-fiona-staples",
   "languages": [
     "en",
     "it",
@@ -22,15 +22,10 @@
   ],
   "sheets": {
     "bonus": {
-      "total_weight": 500,
+      "total_weight": 2,
       "cards": {
-        "sld:576:foil": 455,
-        "sld:598:foil": 10,
-        "sld:603:foil": 7,
-        "sld:604:foil": 7,
-        "sld:605:foil": 7,
-        "sld:606:foil": 7,
-        "sld:607:foil": 7
+        "sld:513:foil": 1,
+        "sld:514:foil": 1
       }
     }
   },

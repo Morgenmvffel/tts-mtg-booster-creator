@@ -1,6 +1,6 @@
 {
-  "name": "SLD Showcase Strixhaven Bonus",
-  "code": "sld-bonus-showcase-strixhaven",
+  "name": "SLD Culture Shocks Bant Bonus",
+  "code": "sld-bonus-culture-shocks-bant",
   "languages": [
     "en",
     "it",
@@ -24,12 +24,12 @@
     "bonus": {
       "total_weight": 1000,
       "cards": {
-        "sld:547:foil": 155,
-        "sld:549:foil": 155,
-        "sld:553:foil": 155,
-        "sld:555:foil": 155,
-        "sld:566:foil": 155,
-        "sld:568:foil": 155,
+        "sld:520:foil": 155,
+        "sld:525:foil": 155,
+        "sld:526:foil": 155,
+        "sld:529:foil": 155,
+        "sld:530:foil": 155,
+        "sld:532:foil": 155,
         "sld:603:foil": 14,
         "sld:604:foil": 14,
         "sld:605:foil": 14,
