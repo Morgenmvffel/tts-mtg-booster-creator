@@ -1,0 +1,79 @@
+{
+  "name": "SLD The Astrology Lands Pisces Bonus",
+  "code": "sld-bonus-astrology-pisces",
+  "languages": [
+    "en",
+    "it",
+    "jp",
+    "sp"
+  ],
+  "set_code": "sld",
+  "set_name": "Secret Lair Drop",
+  "boosters": [
+    {
+      "sheets": {
+        "bonus": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "bonus"
+      ]
+    }
+  ],
+  "sheets": {
+    "bonus": {
+      "total_weight": 4000,
+      "cards": {
+        "sld:540:foil": 91,
+        "sld:541:foil": 91,
+        "sld:542:foil": 91,
+        "sld:543:foil": 91,
+        "sld:544:foil": 91,
+        "sld:545:foil": 91,
+        "sld:546:foil": 91,
+        "sld:547:foil": 91,
+        "sld:548:foil": 91,
+        "sld:549:foil": 91,
+        "sld:550:foil": 91,
+        "sld:551:foil": 91,
+        "sld:552:foil": 91,
+        "sld:553:foil": 91,
+        "sld:554:foil": 91,
+        "sld:555:foil": 91,
+        "sld:556:foil": 91,
+        "sld:557:foil": 91,
+        "sld:558:foil": 91,
+        "sld:559:foil": 91,
+        "sld:560:foil": 91,
+        "sld:561:foil": 91,
+        "sld:562:foil": 91,
+        "sld:563:foil": 91,
+        "sld:564:foil": 91,
+        "sld:565:foil": 91,
+        "sld:566:foil": 91,
+        "sld:567:foil": 91,
+        "sld:568:foil": 91,
+        "sld:569:foil": 91,
+        "sld:570:foil": 91,
+        "sld:571:foil": 91,
+        "sld:572:foil": 91,
+        "sld:573:foil": 91,
+        "sld:574:foil": 91,
+        "sld:575:foil": 91,
+        "sld:576:foil": 91,
+        "sld:577:foil": 91,
+        "sld:578:foil": 91,
+        "sld:579:foil": 91,
+        "sld:603:foil": 56,
+        "sld:604:foil": 56,
+        "sld:605:foil": 56,
+        "sld:606:foil": 56,
+        "sld:607:foil": 56,
+        "sld:668:foil": 80
+      }
+    }
+  },
+  "source_set_codes": [
+    "sld"
+  ]
+}
