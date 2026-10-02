@@ -2,7 +2,12 @@
   "name": "Reality Fracture Play Booster",
   "code": "fra-play",
   "languages": [
-    "en"
+    "de",
+    "en",
+    "fr",
+    "it",
+    "jp",
+    "sp"
   ],
   "set_code": "fra",
   "set_name": "Reality Fracture",
