@@ -3224,6 +3224,10 @@
     "code": "m13-draft"
   },
   {
+    "name": "Duels of the Planeswalkers 2013 Base Booster",
+    "code": "m13-duelspromo"
+  },
+  {
     "name": "Magic 2013 Six-card Booster Pack",
     "code": "m13-six"
   },
@@ -3698,6 +3702,10 @@
   {
     "name": "Visions Draft Booster",
     "code": "vis-draft"
+  },
+  {
+    "name": "Visions Preview Printing Booster Pack",
+    "code": "vis-preview"
   },
   {
     "name": "Mirage Draft Booster",

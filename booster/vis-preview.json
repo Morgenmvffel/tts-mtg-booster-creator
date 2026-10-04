@@ -1,0 +1,70 @@
+{
+  "name": "Visions Preview Printing Booster Pack",
+  "code": "vis-preview",
+  "languages": [
+    "en"
+  ],
+  "set_code": "vis",
+  "set_name": "Visions",
+  "boosters": [
+    {
+      "sheets": {
+        "common": 11,
+        "uncommon": 3,
+        "rare": 1
+      },
+      "weight": 1,
+      "sheet_order": [
+        "common",
+        "uncommon",
+        "rare"
+      ]
+    }
+  ],
+  "sheets": {
+    "common": {
+      "total_weight": 15,
+      "cards": {
+        "mgb:10": 1,
+        "mgb:3": 1,
+        "mgb:5": 1,
+        "mgb:7": 1,
+        "mgb:9": 1,
+        "vis:10": 1,
+        "vis:107": 1,
+        "vis:108": 1,
+        "vis:24": 1,
+        "vis:36": 1,
+        "vis:43": 1,
+        "vis:47": 1,
+        "vis:6": 1,
+        "vis:92": 1,
+        "vis:97": 1
+      }
+    },
+    "uncommon": {
+      "total_weight": 6,
+      "cards": {
+        "mgb:1": 1,
+        "mgb:2": 1,
+        "mgb:6": 1,
+        "mgb:8": 1,
+        "vis:139": 1,
+        "vis:80": 1
+      }
+    },
+    "rare": {
+      "total_weight": 4,
+      "cards": {
+        "mgb:4": 1,
+        "vis:112": 1,
+        "vis:167": 1,
+        "vis:87": 1
+      }
+    }
+  },
+  "source_set_codes": [
+    "mgb",
+    "vis"
+  ]
+}
