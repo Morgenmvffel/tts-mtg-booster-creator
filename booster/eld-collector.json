@@ -1114,7 +1114,7 @@
       }
     },
     "foil_rare_mythic": {
-      "total_weight": 379,
+      "total_weight": 375,
       "cards": {
         "eld:100:foil": 4,
         "eld:101:foil": 2,
@@ -1240,7 +1240,6 @@
         "eld:389:foil": 2,
         "eld:390:foil": 2,
         "eld:391:foil": 2,
-        "eld:392:foil": 4,
         "eld:39a:foil": 2,
         "eld:43:foil": 4,
         "eld:44a:foil": 4,
