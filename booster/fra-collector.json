@@ -965,10 +965,9 @@
   ],
   "sheets": {
     "foil_common": {
-      "total_weight": 82,
+      "total_weight": 81,
       "cards": {
         "fra:101:foil": 1,
-        "fra:101b:foil": 1,
         "fra:104:foil": 1,
         "fra:109:foil": 1,
         "fra:10:foil": 1,
