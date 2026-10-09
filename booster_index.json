@@ -12,6 +12,14 @@
     "code": "fra-play"
   },
   {
+    "name": "Reality Fracture Promo Pack",
+    "code": "fra-promo"
+  },
+  {
+    "name": "Reality Fracture Foil Promo Pack",
+    "code": "fra-promo-foil"
+  },
+  {
     "name": "Reality Fracture Secret Lair Bundle Promo Cards",
     "code": "fra-secret-lair-bundle-promo"
   },
@@ -92,6 +100,14 @@
     "code": "sos-prerelease-witherbloom"
   },
   {
+    "name": "Secrets of Strixhaven Promo Pack",
+    "code": "sos-promo"
+  },
+  {
+    "name": "Secrets of Strixhaven Foil Promo Pack",
+    "code": "sos-promo-foil"
+  },
+  {
     "name": "Teenage Mutant Ninja Turtles Collector Booster",
     "code": "tmt-collector"
   },
@@ -126,6 +142,14 @@
   {
     "name": "Lorwyn Eclipsed Prerelease Promo Pack",
     "code": "ecl-prerelease"
+  },
+  {
+    "name": "Lorwyn Eclipsed Promo Pack",
+    "code": "ecl-promo"
+  },
+  {
+    "name": "Lorwyn Eclipsed Foil Promo Pack",
+    "code": "ecl-promo-foil"
   },
   {
     "name": "Avatar: The Last Airbender Collector Booster",
@@ -208,6 +232,14 @@
     "code": "eoe-prerelease"
   },
   {
+    "name": "Edge of Eternities Promo Pack",
+    "code": "eoe-promo"
+  },
+  {
+    "name": "Edge of Eternities Foil Promo Pack",
+    "code": "eoe-promo-foil"
+  },
+  {
     "name": "Final Fantasy Bundle Promo Card",
     "code": "fin-bundle-promo"
   },
@@ -280,6 +312,14 @@
     "code": "tdm-prerelease-temur"
   },
   {
+    "name": "Tarkir: Dragonstorm Promo Pack",
+    "code": "tdm-promo"
+  },
+  {
+    "name": "Tarkir: Dragonstorm Foil Promo Pack",
+    "code": "tdm-promo-foil"
+  },
+  {
     "name": "Aetherdrift Box Topper",
     "code": "dft-box-topper"
   },
@@ -302,6 +342,14 @@
   {
     "name": "Aetherdrift Prerelease Promo Pack",
     "code": "dft-prerelease"
+  },
+  {
+    "name": "Aetherdrift Promo Pack",
+    "code": "dft-promo"
+  },
+  {
+    "name": "Aetherdrift Foil Promo Pack",
+    "code": "dft-promo-foil"
   },
   {
     "name": "Innistrad Remastered Collector Booster",
@@ -372,6 +420,14 @@
     "code": "dsk-prerelease"
   },
   {
+    "name": "Duskmourn: House of Horror Promo Pack",
+    "code": "dsk-promo"
+  },
+  {
+    "name": "Duskmourn: House of Horror Foil Promo Pack",
+    "code": "dsk-promo-foil"
+  },
+  {
     "name": "Bloomburrow Collector Booster",
     "code": "blb-collector"
   },
@@ -390,6 +446,14 @@
   {
     "name": "Bloomburrow Prerelease Promo Pack",
     "code": "blb-prerelease"
+  },
+  {
+    "name": "Bloomburrow Promo Pack",
+    "code": "blb-promo"
+  },
+  {
+    "name": "Bloomburrow Foil Promo Pack",
+    "code": "blb-promo-foil"
   },
   {
     "name": "Bloomburrow Value Booster",
@@ -448,6 +512,14 @@
     "code": "otj-prerelease"
   },
   {
+    "name": "Outlaws of Thunder Junction Promo Pack",
+    "code": "otj-promo"
+  },
+  {
+    "name": "Outlaws of Thunder Junction Foil Promo Pack",
+    "code": "otj-promo-foil"
+  },
+  {
     "name": "Fallout Collector Booster",
     "code": "pip-collector"
   },
@@ -482,6 +554,14 @@
   {
     "name": "Murders at Karlov Manor Prerelease Promo Pack",
     "code": "mkm-prerelease"
+  },
+  {
+    "name": "Murders at Karlov Manor Promo Pack",
+    "code": "mkm-promo"
+  },
+  {
+    "name": "Murders at Karlov Manor Foil Promo Pack",
+    "code": "mkm-promo-foil"
   },
   {
     "name": "Ravnica Remastered Collector Booster",
@@ -528,6 +608,14 @@
     "code": "lci-prerelease"
   },
   {
+    "name": "The Lost Caverns of Ixalan Promo Pack",
+    "code": "lci-promo"
+  },
+  {
+    "name": "The Lost Caverns of Ixalan Foil Promo Pack",
+    "code": "lci-promo-foil"
+  },
+  {
     "name": "The Lost Caverns of Ixalan Set Booster",
     "code": "lci-set"
   },
@@ -558,6 +646,14 @@
   {
     "name": "Wilds of Eldraine Prerelease Promo Pack",
     "code": "woe-prerelease"
+  },
+  {
+    "name": "Wilds of Eldraine Promo Pack",
+    "code": "woe-promo"
+  },
+  {
+    "name": "Wilds of Eldraine Foil Promo Pack",
+    "code": "woe-promo-foil"
   },
   {
     "name": "Wilds of Eldraine Set Booster",
@@ -656,6 +752,14 @@
     "code": "mom-prerelease"
   },
   {
+    "name": "March of the Machine Promo Pack",
+    "code": "mom-promo"
+  },
+  {
+    "name": "March of the Machine Foil Promo Pack",
+    "code": "mom-promo-foil"
+  },
+  {
     "name": "March of the Machine Set Booster",
     "code": "mom-set"
   },
@@ -702,6 +806,14 @@
   {
     "name": "Phyrexia: All Will Be One Prerelease Promo Pack",
     "code": "one-prerelease"
+  },
+  {
+    "name": "Phyrexia: All Will Be One Promo Pack",
+    "code": "one-promo"
+  },
+  {
+    "name": "Phyrexia: All Will Be One Foil Promo Pack",
+    "code": "one-promo-foil"
   },
   {
     "name": "Phyrexia: All Will Be One Set Booster",
@@ -756,6 +868,14 @@
     "code": "bro-prerelease"
   },
   {
+    "name": "The Brothers' War Promo Pack",
+    "code": "bro-promo"
+  },
+  {
+    "name": "The Brothers' War Foil Promo Pack",
+    "code": "bro-promo-foil"
+  },
+  {
     "name": "The Brothers' War Set Booster",
     "code": "bro-set"
   },
@@ -806,6 +926,14 @@
   {
     "name": "Dominaria United Prerelease Promo Pack",
     "code": "dmu-prerelease"
+  },
+  {
+    "name": "Dominaria United Promo Pack",
+    "code": "dmu-promo"
+  },
+  {
+    "name": "Dominaria United Foil Promo Pack",
+    "code": "dmu-promo-foil"
   },
   {
     "name": "Dominaria United Set Booster",
@@ -880,6 +1008,14 @@
     "code": "snc-prerelease-riveteers"
   },
   {
+    "name": "Streets of New Capenna Promo Pack",
+    "code": "snc-promo"
+  },
+  {
+    "name": "Streets of New Capenna Foil Promo Pack",
+    "code": "snc-promo-foil"
+  },
+  {
     "name": "Streets of New Capenna Set Booster",
     "code": "snc-set"
   },
@@ -918,6 +1054,14 @@
   {
     "name": "Kamigawa: Neon Dynasty Prerelease Promo Pack",
     "code": "neo-prerelease"
+  },
+  {
+    "name": "Kamigawa: Neon Dynasty Promo Pack",
+    "code": "neo-promo"
+  },
+  {
+    "name": "Kamigawa: Neon Dynasty Foil Promo Pack",
+    "code": "neo-promo-foil"
   },
   {
     "name": "Kamigawa: Neon Dynasty Set Booster",
@@ -1016,6 +1160,14 @@
     "code": "mid-prerelease"
   },
   {
+    "name": "Innistrad: Midnight Hunt Promo Pack",
+    "code": "mid-promo"
+  },
+  {
+    "name": "Innistrad: Midnight Hunt Foil Promo Pack",
+    "code": "mid-promo-foil"
+  },
+  {
     "name": "Innistrad: Midnight Hunt Set Booster",
     "code": "mid-set"
   },
@@ -1058,6 +1210,14 @@
   {
     "name": "Adventures in the Forgotten Realms Prerelease Promo Pack",
     "code": "afr-prerelease"
+  },
+  {
+    "name": "Adventures in the Forgotten Realms Promo Pack",
+    "code": "afr-promo"
+  },
+  {
+    "name": "Adventures in the Forgotten Realms Foil Promo Pack",
+    "code": "afr-promo-foil"
   },
   {
     "name": "Adventures in the Forgotten Realms Set Booster",
@@ -1140,6 +1300,14 @@
     "code": "stx-prerelease-witherbloom"
   },
   {
+    "name": "Strixhaven: School of Mages Promo Pack",
+    "code": "stx-promo"
+  },
+  {
+    "name": "Strixhaven: School of Mages Foil Promo Pack",
+    "code": "stx-promo-foil"
+  },
+  {
     "name": "Strixhaven: School of Mages Set Booster",
     "code": "stx-set"
   },
@@ -1186,6 +1354,14 @@
   {
     "name": "Kaldheim Prerelease Promo Pack",
     "code": "khm-prerelease"
+  },
+  {
+    "name": "Kaldheim Promo Pack",
+    "code": "khm-promo"
+  },
+  {
+    "name": "Kaldheim Foil Promo Pack",
+    "code": "khm-promo-foil"
   },
   {
     "name": "Kaldheim Set Booster",
@@ -1246,6 +1422,14 @@
   {
     "name": "Zendikar Rising Prerelease Promo Pack",
     "code": "znr-prerelease"
+  },
+  {
+    "name": "Zendikar Rising Promo Pack",
+    "code": "znr-promo"
+  },
+  {
+    "name": "Zendikar Rising Foil Promo Pack",
+    "code": "znr-promo-foil"
   },
   {
     "name": "Zendikar Rising Set Booster",
@@ -1312,6 +1496,14 @@
     "code": "m21-prerelease"
   },
   {
+    "name": "Core Set 2021 Promo Pack",
+    "code": "m21-promo"
+  },
+  {
+    "name": "Core Set 2021 Foil Promo Pack",
+    "code": "m21-promo-foil"
+  },
+  {
     "name": "Signature Spellbook: Chandra",
     "code": "ss3"
   },
@@ -1346,6 +1538,14 @@
   {
     "name": "Ikoria: Lair of Behemoths Prerelease Promo Pack",
     "code": "iko-prerelease"
+  },
+  {
+    "name": "Ikoria: Lair of Behemoths Promo Pack",
+    "code": "iko-promo"
+  },
+  {
+    "name": "Ikoria: Lair of Behemoths Foil Promo Pack",
+    "code": "iko-promo-foil"
   },
   {
     "name": "Ikoria: Lair of Behemoths Theme Booster Black",
@@ -1386,6 +1586,14 @@
   {
     "name": "Theros Beyond Death Prerelease Promo Pack",
     "code": "thb-prerelease"
+  },
+  {
+    "name": "Theros Beyond Death Promo Pack",
+    "code": "thb-promo"
+  },
+  {
+    "name": "Theros Beyond Death Foil Promo Pack",
+    "code": "thb-promo-foil"
   },
   {
     "name": "Theros Beyond Death Theme Booster Black",
@@ -2540,6 +2748,14 @@
     "code": "eld-prerelease"
   },
   {
+    "name": "Throne of Eldraine Promo Pack",
+    "code": "eld-promo"
+  },
+  {
+    "name": "Throne of Eldraine Foil Promo Pack",
+    "code": "eld-promo-foil"
+  },
+  {
     "name": "Throne of Eldraine Theme Booster Black",
     "code": "eld-theme-b"
   },
@@ -2570,6 +2786,14 @@
   {
     "name": "Core Set 2020 Prerelease Promo Pack",
     "code": "m20-prerelease"
+  },
+  {
+    "name": "Core Set 2020 Promo Pack",
+    "code": "m20-promo"
+  },
+  {
+    "name": "Core Set 2020 Foil Promo Pack",
+    "code": "m20-promo-foil"
   },
   {
     "name": "Core Set 2020 Theme Booster Black",
@@ -2614,6 +2838,10 @@
   {
     "name": "War of the Spark Prerelease Promo Pack",
     "code": "war-prerelease"
+  },
+  {
+    "name": "War of the Spark Standard Showdown Booster",
+    "code": "war-showdown"
   },
   {
     "name": "War of the Spark Theme Booster Black",
@@ -2666,6 +2894,10 @@
   {
     "name": "Ravnica Allegiance Seeded Prerelease Booster Simic",
     "code": "rna-prerelease-simic"
+  },
+  {
+    "name": "Ravnica Allegiance Standard Showdown Booster",
+    "code": "rna-showdown"
   },
   {
     "name": "Ravnica Allegiance Theme Booster Azorius",
@@ -2724,6 +2956,10 @@
     "code": "grn-prerelease-selesnya"
   },
   {
+    "name": "Guilds of Ravnica Standard Showdown Booster",
+    "code": "grn-showdown"
+  },
+  {
     "name": "Guilds of Ravnica Theme Booster Boros",
     "code": "grn-theme-boros"
   },
@@ -2756,6 +2992,10 @@
     "code": "m19-prerelease"
   },
   {
+    "name": "Core Set 2019 Standard Showdown Booster",
+    "code": "m19-showdown"
+  },
+  {
     "name": "Signature Spellbook: Jace",
     "code": "ss1"
   },
@@ -2778,6 +3018,10 @@
   {
     "name": "Dominaria Prerelease Promo Pack",
     "code": "dom-prerelease"
+  },
+  {
+    "name": "Dominaria Standard Showdown Booster",
+    "code": "dom-showdown"
   },
   {
     "name": "Dominaria Theme Booster Black",
@@ -2816,6 +3060,10 @@
     "code": "rix-prerelease"
   },
   {
+    "name": "Rivals of Ixalan Standard Showdown Booster",
+    "code": "rix-showdown"
+  },
+  {
     "name": "Unstable Draft Booster",
     "code": "ust-draft"
   },
@@ -2836,6 +3084,10 @@
     "code": "xln-prerelease"
   },
   {
+    "name": "Ixalan Standard Showdown Booster",
+    "code": "xln-showdown"
+  },
+  {
     "name": "Ixalan Treasure Chest Promo Booster",
     "code": "xln-treasure-chest"
   },
@@ -2848,12 +3100,20 @@
     "code": "hou-prerelease"
   },
   {
+    "name": "Hour of Devastation Standard Showdown Booster",
+    "code": "hou-showdown"
+  },
+  {
     "name": "Amonkhet Draft Booster",
     "code": "akh-draft"
   },
   {
     "name": "Amonkhet Prerelease Promo Pack",
     "code": "akh-prerelease"
+  },
+  {
+    "name": "Amonkhet Standard Showdown Booster",
+    "code": "akh-showdown"
   },
   {
     "name": "Modern Masters 2017 Draft Booster",
@@ -2878,6 +3138,10 @@
   {
     "name": "Kaladesh Prerelease Promo Pack",
     "code": "kld-prerelease"
+  },
+  {
+    "name": "Kaladesh Standard Showdown Booster",
+    "code": "kld-showdown"
   },
   {
     "name": "Conspiracy: Take the Crown Draft Booster",

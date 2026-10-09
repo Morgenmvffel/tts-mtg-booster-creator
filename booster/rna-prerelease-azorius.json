@@ -71,7 +71,7 @@
       }
     },
     "uncommon": {
-      "total_weight": 23,
+      "total_weight": 24,
       "cards": {
         "rna:155": 1,
         "rna:168": 1,
@@ -87,6 +87,7 @@
         "rna:23": 1,
         "rna:235": 1,
         "rna:239": 1,
+        "rna:241": 1,
         "rna:3": 1,
         "rna:35": 1,
         "rna:37": 1,
