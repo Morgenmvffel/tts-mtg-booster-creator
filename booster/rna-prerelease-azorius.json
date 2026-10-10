@@ -100,11 +100,10 @@
       }
     },
     "promo": {
-      "total_weight": 17,
+      "total_weight": 15,
       "cards": {
         "prna:11s:foil": 2,
         "prna:151s:foil": 2,
-        "prna:15s:foil": 2,
         "prna:165s:foil": 2,
         "prna:169s:foil": 1,
         "prna:189s:foil": 2,
