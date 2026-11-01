@@ -473,15 +473,12 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     end)
 end
 
-local BoosterTextureCache = {}
 local BoosterTextureDirectoryCache = nil
 
 local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode, onFullySpawned, onError)
     local imageURL = BOOSTER_IMAGE_URL
     if boosterCode then
-        if BoosterTextureCache[boosterCode] then
-            imageURL = BoosterTextureCache[boosterCode]
-        elseif BoosterTextureDirectoryCache then
+        if BoosterTextureDirectoryCache then
             local variants = {}
             local variantPrefix = boosterCode .. "-"
 
@@ -499,7 +496,6 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
             if #variants > 0 then
                 imageURL = variants[math.random(1, #variants)]
             end
-            BoosterTextureCache[boosterCode] = imageURL
         else
             local textureCheckURL = BOOSTER_TEXTURE_API_URL .. "?ref=master"
             local headers = {
