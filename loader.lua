@@ -1081,7 +1081,9 @@ local function fetchCardData(cards, onComplete, onError)
     local tokensData = {}
 
     local function cleanCollectorNum(collectorNum)
-        return string.match(collectorNum, "%d+")
+        -- Strip only the trailing suffix so prefixes like plst's "CLB-23a" -> "CLB-23" survive
+        local stripped = string.match(collectorNum, "^(.-%d)%a*$")
+        return stripped or string.match(collectorNum, "%d+")
     end
 
     -- Split cards into batches of COLLECTION_BATCH_SIZE (75)
@@ -1659,6 +1661,28 @@ end
 
 local baseXmlCache = nil  -- base XML without the selector panel, cached for search rebuilds
 
+local function applyAdvancedPanelVisibility()
+    if advanced then
+        self.UI.show(UI_ADVANCED_PANEL)
+    else
+        self.UI.hide(UI_ADVANCED_PANEL)
+    end
+end
+
+local function baseXmlWithCurrentUiState()
+    if not baseXmlCache then
+        return nil
+    end
+
+    local activeValue = advanced and "true" or "false"
+    return string.gsub(
+        baseXmlCache,
+        '(<Panel id="' .. UI_ADVANCED_PANEL .. '"[^>]-) active="[^"]*"',
+        '%1 active="' .. activeValue .. '"',
+        1
+    )
+end
+
 local function buildDropdownPanel(filter)
     local lowerFilter = string.lower(filter or "")
     local matches = {}
@@ -1705,7 +1729,8 @@ end
 
 local function buildDropdownFromIndex()
     baseXmlCache = self.UI.getXml()
-    self.UI.setXml(buildDropdownPanel(boosterSearchFilter or "") .. baseXmlCache)
+    self.UI.setXml(buildDropdownPanel(boosterSearchFilter or "") .. baseXmlWithCurrentUiState())
+    applyAdvancedPanelVisibility()
 end
 
 local function findFirstMatchingBooster(filter)
@@ -1780,7 +1805,8 @@ function mtgdl__onSearchInput(player, value)
     end
 
     if baseXmlCache then
-        self.UI.setXml(buildDropdownPanel(boosterSearchFilter) .. baseXmlCache)
+        self.UI.setXml(buildDropdownPanel(boosterSearchFilter) .. baseXmlWithCurrentUiState())
+        applyAdvancedPanelVisibility()
     end
 end
 
@@ -1875,11 +1901,7 @@ local function drawUI()
         tooltip = "Click to open advanced menu"
     })
 
-    if advanced then
-        self.UI.show(UI_ADVANCED_PANEL)
-    else
-        self.UI.hide(UI_ADVANCED_PANEL)
-    end
+    applyAdvancedPanelVisibility()
 end
 
 function getPackAmountValue()

@@ -5,7 +5,7 @@
     <Panel alignment="middleLeft"/>
 </Defaults>
 
-<Panel id="MTGBoosterGeneratorAdvancedPanel88bc1c" position="80 170 -10" rotation="180 180 0" width="300" height="400">
+<Panel id="MTGBoosterGeneratorAdvancedPanel88bc1c" position="80 170 -10" rotation="180 180 0" width="300" height="400" active="false">
     <Panel position="0 0 0">
         <Text>Card Back</Text>
         <InputField position = "18 0 0" onEndEdit="mtgdl__onCardBackInput" placeholder="Enter card back URL"></InputField>
