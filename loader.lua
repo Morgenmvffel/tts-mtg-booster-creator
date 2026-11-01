@@ -1,5 +1,4 @@
 #include json_parser
-
 ------ CONSTANTS
 SCRYFALL_ID_BASE_URL = "https://api.scryfall.com/cards/"
 SCRYFALL_MULTIVERSE_BASE_URL = "https://api.scryfall.com/cards/multiverse/"
@@ -15,6 +14,8 @@ BASE_BOOSTER_FILE_URL =
 "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
 BASE_BOOSTER_TEXTURE_URL =
 "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/textures"
+BOOSTER_TEXTURE_API_URL =
+"https://api.github.com/repos/Morgenmvffel/tts-mtg-booster-creator/contents/textures"
 
 BOOSTER_IMAGE_URL =
 "https://steamusercontent-a.akamaihd.net/ugc/12048320118311789698/728EE5247F5FE466F92DAAC0E9997225CD3E8865/"
@@ -466,21 +467,7 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     end
 
     Wait.condition(function()
-        local deckObject
-
-        if cardObjects[1] and cardObjects[2] then
-            deckObject = cardObjects[1].putObject(cardObjects[2])
-            if success and deckObject then
-                deckObject.setPosition(position)
-                deckObject.setName(name)
-            else
-                deckObject = cardObjects[1]
-            end
-        else
-            deckObject = cardObjects[1]
-        end
-
-        onFullySpawned(deckObject)
+        onFullySpawned(cardObjects[1])
     end, function()
         return (sem == 0)
     end, 5, function()
@@ -490,30 +477,32 @@ end
 
 local BoosterTextureCache = {}
 
-local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode, onFullySpawned, onError, resolvedImageURL)
-    local imageURL = resolvedImageURL
-    if not imageURL then
-        if not boosterCode then
-            imageURL = BOOSTER_IMAGE_URL
-        elseif BoosterTextureCache[boosterCode] then
+local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode, onFullySpawned, onError)
+    local imageURL = BOOSTER_IMAGE_URL
+    if boosterCode then
+        if BoosterTextureCache[boosterCode] then
             imageURL = BoosterTextureCache[boosterCode]
         else
             local customImageURL = BASE_BOOSTER_TEXTURE_URL .. "/" .. boosterCode .. ".png"
+            local textureCheckURL = BOOSTER_TEXTURE_API_URL .. "/" .. boosterCode .. ".png?ref=master"
             local headers = {
                 ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
-                ["Accept"] = "image/png,*/*;q=0.8"
+                ["Accept"] = "application/vnd.github+json",
+                ["X-GitHub-Api-Version"] = "2022-11-28"
             }
 
-            WebRequest.custom(customImageURL, "HEAD", true, "", headers, function(webReturn)
-                local responseCode = tonumber(webReturn.response_code)
-                if not webReturn.error and not webReturn.is_error and (not responseCode or responseCode == 200) then
-                    BoosterTextureCache[boosterCode] = customImageURL
-                else
-                    BoosterTextureCache[boosterCode] = BOOSTER_IMAGE_URL
+            WebRequest.custom(textureCheckURL, "GET", true, "", headers, function(webReturn)
+                local textureExists = false
+                if webReturn and not webReturn.error and not webReturn.is_error then
+                    local success, data = pcall(function()
+                        return jsondecode(webReturn.text)
+                    end)
+                    textureExists = success and type(data) == "table" and data.download_url ~= nil
                 end
 
+                BoosterTextureCache[boosterCode] = textureExists and customImageURL or BOOSTER_IMAGE_URL
                 spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode,
-                    onFullySpawned, onError, BoosterTextureCache[boosterCode])
+                    onFullySpawned, onError)
             end)
             return
         end
