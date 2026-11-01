@@ -8,6 +8,7 @@ Tabletop Simulator script to create MTG booster packs
 ## Features
 * Generates MTG booster from magics history into Tabletop Simulator
 * Grabs related tokens
+* Supports custom booster textures stored as `textures/<booster-code>.png` (for example, `textures/mbc-draft.png`)
 
 ## Workshop Mod
 Mod available on [steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3522241980).

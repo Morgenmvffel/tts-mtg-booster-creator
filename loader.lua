@@ -13,6 +13,8 @@ BOOSTER_INDEX_URL =
 "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster_index.json"
 BASE_BOOSTER_FILE_URL =
 "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
+BASE_BOOSTER_TEXTURE_URL =
+"https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/textures"
 
 BOOSTER_IMAGE_URL =
 "https://steamusercontent-a.akamaihd.net/ugc/12048320118311789698/728EE5247F5FE466F92DAAC0E9997225CD3E8865/"
@@ -486,7 +488,37 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
     end)
 end
 
-local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, onFullySpawned, onError)
+local BoosterTextureCache = {}
+
+local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode, onFullySpawned, onError, resolvedImageURL)
+    local imageURL = resolvedImageURL
+    if not imageURL then
+        if not boosterCode then
+            imageURL = BOOSTER_IMAGE_URL
+        elseif BoosterTextureCache[boosterCode] then
+            imageURL = BoosterTextureCache[boosterCode]
+        else
+            local customImageURL = BASE_BOOSTER_TEXTURE_URL .. "/" .. boosterCode .. ".png"
+            local headers = {
+                ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
+                ["Accept"] = "image/png,*/*;q=0.8"
+            }
+
+            WebRequest.custom(customImageURL, "HEAD", true, "", headers, function(webReturn)
+                local responseCode = tonumber(webReturn.response_code)
+                if not webReturn.error and not webReturn.is_error and (not responseCode or responseCode == 200) then
+                    BoosterTextureCache[boosterCode] = customImageURL
+                else
+                    BoosterTextureCache[boosterCode] = BOOSTER_IMAGE_URL
+                end
+
+                spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode,
+                    onFullySpawned, onError, BoosterTextureCache[boosterCode])
+            end)
+            return
+        end
+    end
+
     log("spawnBagWithCards: Creating bag '" .. bagName .. "' with " .. #cards .. " cards")
     local containedObjects = {}
     local boosterName = ""
@@ -553,22 +585,22 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
         MaterialIndex = -1,
         MeshIndex = -1,
         CustomMesh = {
-            MeshURL = "http://pastebin.com/raw/PqfGKtKR",
-            DiffuseURL = BOOSTER_IMAGE_URL,
-            NormalURL = "http://i.imgur.com/pEN77ux.png",
+            MeshURL = "https://steamusercontent-a.akamaihd.net/ugc/16615138303938680385/ED0B27663C57BC28DEA640DA9CACEE93C049A920/",
+            DiffuseURL = imageURL,
             Convex = true,
             MaterialIndex = 0,
             TypeIndex = 6,
             CastShadows = true,
-
-            specular_intensity = 0.3, -- Moderate shine
-            specular_color = {
-                r = 0.95,
-                g = 0.98,
-                b = 1.0
-            },                      -- Neutral white highlight
-            specular_sharpness = 5, -- Clean but not razor-sharp
-            fresnel_strength = 0.2
+            CustomShader = {
+                SpecularIntensity = 0.1,
+                SpecularColor = {
+                    r = 0.95,
+                    g = 0.98,
+                    b = 1.0
+                },
+                SpecularSharpness = 7,
+                FresnelStrength = 0.2
+            }
         },
         ContainedObjects = orderedContainedObjects,
         LuaScript = [[
@@ -1275,7 +1307,7 @@ local function loadDeck(packs, deckName, onComplete, onError)
 
             -- Spawn cards for this pack
             log("loadDeck: Spawning bag for pack " .. packIndex .. " with " .. #cards .. " cards")
-            spawnBagWithCards(cards, deckName .. " - Pack " .. packIndex, offset, false, pack.sheetOrder, function()
+            spawnBagWithCards(cards, deckName .. " - Pack " .. packIndex, offset, false, pack.sheetOrder, pack.boosterCode, function()
                 log("loadDeck: Bag spawned successfully for pack " .. packIndex)
                 decSem()
                 
@@ -1602,6 +1634,7 @@ local function queryGeneratePacks(numPacks, onSuccess, onError)
         end
 
         doPackGeneration(currentPack, packCode, function(pack)
+            pack.boosterCode = packCode
             table.insert(allPacks, pack)
             generateNextPack()
         end, function(e)
