@@ -12,8 +12,6 @@ BOOSTER_INDEX_URL =
 "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster_index.json"
 BASE_BOOSTER_FILE_URL =
 "https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/booster"
-BASE_BOOSTER_TEXTURE_URL =
-"https://raw.githubusercontent.com/Morgenmvffel/tts-mtg-booster-creator/refs/heads/master/textures"
 BOOSTER_TEXTURE_API_URL =
 "https://api.github.com/repos/Morgenmvffel/tts-mtg-booster-creator/contents/textures"
 
@@ -476,15 +474,34 @@ local function spawnDeck(cards, name, position, rotation, flipped, onFullySpawne
 end
 
 local BoosterTextureCache = {}
+local BoosterTextureDirectoryCache = nil
 
 local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode, onFullySpawned, onError)
     local imageURL = BOOSTER_IMAGE_URL
     if boosterCode then
         if BoosterTextureCache[boosterCode] then
             imageURL = BoosterTextureCache[boosterCode]
+        elseif BoosterTextureDirectoryCache then
+            local variants = {}
+            local variantPrefix = boosterCode .. "-"
+
+            for _, file in ipairs(BoosterTextureDirectoryCache) do
+                if file.name == boosterCode .. ".png" then
+                    table.insert(variants, file.download_url)
+                elseif string.sub(file.name, 1, #variantPrefix) == variantPrefix then
+                    local suffix = string.sub(file.name, #variantPrefix + 1)
+                    if string.match(suffix, "^%d+%.png$") then
+                        table.insert(variants, file.download_url)
+                    end
+                end
+            end
+
+            if #variants > 0 then
+                imageURL = variants[math.random(1, #variants)]
+            end
+            BoosterTextureCache[boosterCode] = imageURL
         else
-            local customImageURL = BASE_BOOSTER_TEXTURE_URL .. "/" .. boosterCode .. ".png"
-            local textureCheckURL = BOOSTER_TEXTURE_API_URL .. "/" .. boosterCode .. ".png?ref=master"
+            local textureCheckURL = BOOSTER_TEXTURE_API_URL .. "?ref=master"
             local headers = {
                 ["User-Agent"] = "TTSMTGBoosterCreator/1.0",
                 ["Accept"] = "application/vnd.github+json",
@@ -492,15 +509,22 @@ local function spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, 
             }
 
             WebRequest.custom(textureCheckURL, "GET", true, "", headers, function(webReturn)
-                local textureExists = false
+                local textureFiles = {}
                 if webReturn and not webReturn.error and not webReturn.is_error then
                     local success, data = pcall(function()
                         return jsondecode(webReturn.text)
                     end)
-                    textureExists = success and type(data) == "table" and data.download_url ~= nil
+                    if success and type(data) == "table" then
+                        for _, file in ipairs(data) do
+                            if type(file) == "table" and type(file.name) == "string" and
+                               type(file.download_url) == "string" then
+                                table.insert(textureFiles, file)
+                            end
+                        end
+                    end
                 end
 
-                BoosterTextureCache[boosterCode] = textureExists and customImageURL or BOOSTER_IMAGE_URL
+                BoosterTextureDirectoryCache = textureFiles
                 spawnBagWithCards(cards, bagName, position, flipped, sheetOrder, boosterCode,
                     onFullySpawned, onError)
             end)
