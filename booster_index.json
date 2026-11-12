@@ -1,5 +1,13 @@
 [
   {
+    "name": "Star Trek Collector Booster",
+    "code": "trk-collector"
+  },
+  {
+    "name": "Star Trek Play Booster",
+    "code": "trk-play"
+  },
+  {
     "name": "Mystery Booster Commander Edition Draft Booster",
     "code": "mbc-draft"
   },
