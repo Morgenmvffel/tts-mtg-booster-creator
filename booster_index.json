@@ -8,6 +8,10 @@
     "code": "trk-play"
   },
   {
+    "name": "Star Trek Prerelease Promo Pack",
+    "code": "trk-prerelease"
+  },
+  {
     "name": "Mystery Booster Commander Edition Draft Booster",
     "code": "mbc-draft"
   },
@@ -894,6 +898,10 @@
   {
     "name": "Secret Lair Countdown 30th Anniversary Countdown Kit",
     "code": "slc-encyclopedia"
+  },
+  {
+    "name": "Secret Lair Countdown Kit: Marvel's History of Heroes",
+    "code": "slc-marvel"
   },
   {
     "name": "Unfinity Box Topper",
