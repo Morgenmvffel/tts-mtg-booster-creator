@@ -24,6 +24,14 @@
     "code": "fra-play"
   },
   {
+    "name": "Reality Fracture Arena Play Booster",
+    "code": "fra-play-arena"
+  },
+  {
+    "name": "Reality Fracture Prerelease Promo Pack",
+    "code": "fra-prerelease"
+  },
+  {
     "name": "Reality Fracture Promo Pack",
     "code": "fra-promo"
   },
@@ -50,6 +58,10 @@
   {
     "name": "The Hobbit Play Booster",
     "code": "hob-play"
+  },
+  {
+    "name": "The Hobbit Arena Play Booster",
+    "code": "hob-play-arena"
   },
   {
     "name": "The Hobbit Prerelease Promo Pack",
